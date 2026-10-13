@@ -38,6 +38,8 @@ Under the set, the inventory: what the fight cannot be done without (a key, a to
 - For some others it is **provisional**, and says so: the amounts are those of the inventory on the boss's strategy page of the OSRS Wiki, filled with what you own.
 - For the rest it says "under construction" rather than guess.
 - What a task forbids is left out (no prayer restores for a task that forbids them), and deep in the Wilderness the usual teleport out is not suggested.
+- A way to the boss: for 59 bosses, the teleport items the OSRS Wiki names for getting there, in its order. The first one you can use is carried (a Xeric's talisman for Skotizo, a Key master teleport for Cerberus); a fairy ring stands at its own place in that order, as the Dramen or Lunar staff, and asks for nothing after the elite Lumbridge & Draynor Diary. With none owned the page says which items there are and leaves the way to the route plugin. Spells and house portals are not listed.
+- A way out, always: the best one you own, from a Max cape or a house teleport down to a Ring of dueling, an Amulet of glory, a city tablet or a Ring of wealth. With none owned the page says so.
 
 It is a place to start from: the amounts and your switches are yours to settle.
 

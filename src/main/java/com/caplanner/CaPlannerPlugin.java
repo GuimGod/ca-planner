@@ -1120,6 +1120,16 @@ public class CaPlannerPlugin extends Plugin implements CaPlannerPanel.Actions
 				Bag table = bag;
 				wear = table == null ? new ArrayList<Bag.Wear>() : table.wear(boss, done);
 				notes = table == null ? new ArrayList<String>() : table.notes(boss);
+				List<String> wayThere = table == null ? new ArrayList<String>() : table.wayThereNotOwned(boss, have, done);
+				if (!wayThere.isEmpty())
+				{
+					notes.add("Getting there: the OSRS Wiki names " + String.join(", then ", wayThere)
+						+ ". You own none of these; the route button finds a way with what you have.");
+				}
+				if (table != null && table.noWayOut(boss, have))
+				{
+					notes.add("No way out in this inventory: you own no teleport to your house or to a bank. A Teleport to house tablet or a Ring of dueling is enough.");
+				}
 				List<String> wield = table == null ? new ArrayList<String>() : table.wield(boss);
 				Gear.Limits ofTask = limits(taskId);
 				if (!wear.isEmpty() || !wield.isEmpty())
@@ -1292,6 +1302,11 @@ public class CaPlannerPlugin extends Plugin implements CaPlannerPanel.Actions
 		if (client.getVarbitValue(VarbitID.KOUREND_DIARY_ELITE_COMPLETE) == 1)
 		{
 			done.add("kourend-elite");
+		}
+		if (client.getVarbitValue(VarbitID.LUMBRIDGE_DIARY_ELITE_COMPLETE) == 1)
+		{
+			// the fairy rings without a Dramen or Lunar staff
+			done.add("lumbridge-elite");
 		}
 		return done;
 	}

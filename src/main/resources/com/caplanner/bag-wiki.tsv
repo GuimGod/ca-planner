@@ -14,7 +14,7 @@
 =regen	prayer regeneration potion
 =pouch	~divine rune pouch|~rune pouch
 =book	book of the dead
-=teleport	max cape|~max cape|construct. cape(t)|construct. cape|teleport to house
+=teleport	max cape|~max cape|construct. cape(t)|construct. cape|teleport to house|crafting cape(t)|crafting cape|farming cape(t)|farming cape|~ring of dueling(|~amulet of glory(|amulet of eternal glory|varrock teleport|falador teleport|camelot teleport|~ring of wealth (|royal seed pod|ectophial
 #
 # ---- boss	kinds (kind N; ...)	special items in it ("name xN" is one stack of N; "Label: a|~b" names what will do, best first, "~" for part of a name)	pieces of gear carried to change into
 # "boost" is the potion of the style of the set, as bag.tsv names it.

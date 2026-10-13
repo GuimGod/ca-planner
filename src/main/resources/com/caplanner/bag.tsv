@@ -129,7 +129,7 @@ Chaos Elemental	note	1	-	Deep Wilderness: no teleport works above level 20, and 
 # ---- the usual supplies, in the order they are laid out
 *	take	1	~divine rune pouch|~rune pouch	runes for your spells
 *	take	1	book of the dead	thralls
-*	take	1	max cape|~max cape|construct. cape(t)|construct. cape|teleport to house	the way out
+*	leave	1	max cape|~max cape|construct. cape(t)|construct. cape|teleport to house|crafting cape(t)|crafting cape|farming cape(t)|farming cape|~ring of dueling(|~amulet of glory(|amulet of eternal glory|varrock teleport|falador teleport|camelot teleport|~ring of wealth (|royal seed pod|ectophial	the way out: to your house, or to a bank
 *melee	take	1	divine super combat potion|super combat potion
 *ranged	take	1	divine ranging potion|ranging potion|divine bastion potion|bastion potion
 *magic	take	1	saturated heart|imbued heart|divine magic potion|magic potion
@@ -137,3 +137,85 @@ Chaos Elemental	note	1	-	Deep Wilderness: no teleport works above level 20, and 
 *	take	4	super restore|sanfew serum|prayer potion
 *	take	3	cooked karambwan
 *	food	0	anglerfish|cooked moonlight antelope|manta ray|dark crab|sea turtle|shark|monkfish|swordfish|lobster
+#
+# ---- the way to the boss ("arrive"): what the OSRS Wiki names on the boss's Transportation or Location section
+# (read October 2026), in its order, only what is an item to carry. A boss's lines are its ways there, best
+# first: the first one the player can use is the one carried, and with none the panel says so and leaves the
+# way to the route plugin. A fairy ring is a line of its own, at the place the wiki gives it: the staff that
+# works it, needless after the elite Lumbridge & Draynor Diary. Spells and house portals are not listed.
+Abyssal Sire	arrive	1	dramen staff|lunar staff	the way there: the fairy ring into the Abyssal Nexus	lumbridge-elite
+Alchemical Hydra	arrive	1	rada's blessing 4|rada's blessing 3|~skills necklace(	the way there: to Mount Karuulm, or the Farming Guild south-west of it
+Amoxliatl	arrive	1	pendant of ates	the way there: to the Twilight Temple statue, once activated
+Araxxor	arrive	1	spider cave teleport|hallowed crystal shard|ectophial	the way there: to the cave entrance, or near it
+Araxxor	arrive	1	dramen staff|lunar staff	the way there: the fairy ring north of the cave	lumbridge-elite
+Barrows	arrive	1	barrows teleport|mort'ton teleport	the way there: to the mounds
+Basilisk Knight	arrive	1	~fremennik sea boots|~enchanted lyre	the way there: to Rellekka, for the boat to the Island of Stone
+Callisto	arrive	1	annakarl teleport	the way there: to the Demonic Ruins; the lair is south
+Cerberus	arrive	1	key master teleport	the way there: to the Key Master, by the lair
+Chambers of Xeric	arrive	1	xeric's talisman	the way there: Xeric's Honour, by the raid
+Chambers of Xeric	arrive	1	dramen staff|lunar staff	the way there: the fairy ring below Mount Quidamortem	lumbridge-elite
+Chambers of Xeric: Challenge Mode	arrive	1	xeric's talisman	the way there: Xeric's Honour, by the raid
+Chambers of Xeric: Challenge Mode	arrive	1	dramen staff|lunar staff	the way there: the fairy ring below Mount Quidamortem	lumbridge-elite
+Chaos Elemental	arrive	1	wilderness sword 4|annakarl teleport	the way there: to the Fountain of Rune, or the Demonic Ruins
+Chaos Fanatic	arrive	1	ghorrock teleport|~burning amulet(	the way there: the closest teleports
+Commander Zilyana	arrive	1	~ghommal's hilt|trollheim teleport	the way there: to the God Wars Dungeon, or to Trollheim
+Corporeal Beast	arrive	1	~games necklace(	the way there: to the Corporeal Beast's cave, without crossing the Wilderness
+Crazy Archaeologist	arrive	1	dareeyak teleport|~burning amulet(	the way there: the closest teleports
+Demonic Gorilla	arrive	1	royal seed pod	the way there: to the Grand Tree; the cavern is north-west
+Deranged Archaeologist	arrive	1	~digsite pendant	the way there: to Fossil Island
+Duke Sucellus	arrive	1	ring of shadows|icy basalt	the way there: to Ghorrock (the ring, once the frozen tablet was used on it), or to Weiss
+Fortis Colosseum	arrive	1	~ring of dueling(	the way there: to the Colosseum, once unlocked
+General Graardor	arrive	1	~ghommal's hilt|trollheim teleport	the way there: to the God Wars Dungeon, or to Trollheim
+Giant Mole	arrive	1	~ring of wealth (	the way there: to Falador Park
+Grotesque Guardians	arrive	1	~slayer ring	the way there: to the Slayer Tower
+Grotesque Guardians	arrive	1	dramen staff|lunar staff	the way there: the fairy ring south of the Slayer Tower	lumbridge-elite
+K'ril Tsutsaroth	arrive	1	~ghommal's hilt|trollheim teleport	the way there: to the God Wars Dungeon, or to Trollheim
+Kalphite Queen	arrive	1	dramen staff|lunar staff	the way there: the fairy ring by the Kalphite Lair	lumbridge-elite
+King Black Dragon	arrive	1	~burning amulet(|ghorrock teleport	the way there: to the Lava Maze
+Kraken	arrive	1	dramen staff|lunar staff	the way there: the fairy ring by the Kraken Cove	lumbridge-elite
+Kree'arra	arrive	1	~ghommal's hilt|trollheim teleport	the way there: to the God Wars Dungeon, or to Trollheim
+Leviathan	arrive	1	ring of shadows|~amulet of the eye|~necklace of passage(	the way there: to the Scar (the ring, once the scarred tablet was used on it), or towards the Temple of the Eye
+Lizardman Shaman	arrive	1	xeric's talisman	the way there: Xeric's Inferno, near the canyon
+Lizardman Shaman	arrive	1	dramen staff|lunar staff	the way there: the fairy ring by the canyon	lumbridge-elite
+Mad Angel	arrive	1	ardeaglais teleport|~slayer ring|~necklace of passage(	the way there: to the cathedral, or near it
+Maggot King	arrive	1	drakan's medallion	the way there: to Castle Drakan
+Moons of Peril	arrive	1	calcified moth|pendant of ates	the way there: to Cam Torum
+Nex	arrive	1	~ghommal's hilt|trollheim teleport	the way there: to the God Wars Dungeon, or to Trollheim
+Obor	arrive	1	~giantsoul amulet	the way there: outside Obor's lair
+Phantom Muspah	arrive	1	ring of shadows|icy basalt	the way there: to Ghorrock (the ring, once the frozen tablet was used on it), or to Weiss
+Phosani's Nightmare	arrive	1	drakan's medallion|spider cave teleport|hallowed crystal shard	the way there: to Slepe (the medallion, once the Slepey tablet was used), or near it
+Royal Titans	arrive	1	~giantsoul amulet	the way there: outside the boss room
+Royal Titans	arrive	1	dramen staff|lunar staff	the way there: the fairy ring south of the dungeon	lumbridge-elite
+Sarachnis	arrive	1	xeric's talisman|kharedst's memoirs|book of the dead	the way there: Xeric's Glade, or Lunch by the Lancalliums
+Skeletal Wyvern	arrive	1	~giantsoul amulet	the way there: near the Asgarnian Ice Dungeon
+Skeletal Wyvern	arrive	1	dramen staff|lunar staff	the way there: the fairy ring at Mudskipper Point	lumbridge-elite
+Skeletal Wyvern	arrive	1	rimmington teleport	the way there: to Rimmington
+Skotizo	arrive	1	xeric's talisman	the way there: Xeric's Heart: the statue in the Kourend Castle courtyard is the way into the Catacombs
+Tempoross	arrive	1	~pharaoh's sceptre|camulet	the way there: towards the Ruins of Unkah
+The Hueycoatl	arrive	1	pendant of ates	the way there: to the Darkfrost, once the statue was activated
+The Nightmare	arrive	1	drakan's medallion|spider cave teleport|hallowed crystal shard	the way there: to Slepe (the medallion, once the Slepey tablet was used), or near it
+Theatre of Blood	arrive	1	drakan's medallion	the way there: to Ver Sinhaza
+Theatre of Blood: Entry Mode	arrive	1	drakan's medallion	the way there: to Ver Sinhaza
+Theatre of Blood: Hard Mode	arrive	1	drakan's medallion	the way there: to Ver Sinhaza
+Thermonuclear Smoke Devil	arrive	1	dramen staff|lunar staff	the way there: the fairy ring south-west of the dungeon: the quickest	lumbridge-elite
+Thermonuclear Smoke Devil	arrive	1	~ring of dueling(	the way there: to Castle Wars; the dungeon is south-west
+Tombs of Amascut	arrive	1	~pharaoh's sceptre	the way there: to the necropolis, once the sceptre was used on the obelisk
+Tombs of Amascut	arrive	1	dramen staff|lunar staff	the way there: the fairy ring by the necropolis (62 Agility)	lumbridge-elite
+Tombs of Amascut: Entry Mode	arrive	1	~pharaoh's sceptre	the way there: to the necropolis, once the sceptre was used on the obelisk
+Tombs of Amascut: Entry Mode	arrive	1	dramen staff|lunar staff	the way there: the fairy ring by the necropolis (62 Agility)	lumbridge-elite
+Tombs of Amascut: Expert Mode	arrive	1	~pharaoh's sceptre	the way there: to the necropolis, once the sceptre was used on the obelisk
+Tombs of Amascut: Expert Mode	arrive	1	dramen staff|lunar staff	the way there: the fairy ring by the necropolis (62 Agility)	lumbridge-elite
+Tormented Demon	arrive	1	guthixian temple teleport|~games necklace(	the way there: to the temple, or to Tears of Guthix
+Vardorvis	arrive	1	ring of shadows	the way there: to the Stranglewood, once the strangled tablet was used on it
+Vardorvis	arrive	1	dramen staff|lunar staff	the way there: the fairy ring east of the Stranglewood	lumbridge-elite
+Vardorvis	arrive	1	xeric's talisman	the way there: Xeric's Honour, then the Mountain Guide
+Venenatis	arrive	1	wilderness crabs teleport|annakarl teleport	the way there: the closest teleports
+Vet'ion	arrive	1	revenant cave teleport|carrallanger teleport|annakarl teleport	the way there: the closest teleports
+Whisperer	arrive	1	ring of shadows|mind altar teleport|lassar teleport	the way there: to the Lassar Undercity (the ring, once the sirenic tablet was used on it), or near Camdozaal
+Wintertodt	arrive	1	~games necklace(	the way there: to the Wintertodt camp
+Wintertodt	arrive	1	dramen staff|lunar staff	the way there: the fairy ring near the camp	lumbridge-elite
+Yama	arrive	1	chasm teleport scroll	the way there: in front of the Voice of Yama
+Yama	arrive	1	dramen staff|lunar staff	the way there: the fairy ring south-east of the Chasm of Fire	lumbridge-elite
+Zalcano	arrive	1	eternal teleport crystal|~teleport crystal	the way there: to Prifddinas
+Zulrah	arrive	1	zul-andra teleport	the way there: next to the dock
+Zulrah	arrive	1	dramen staff|lunar staff	the way there: the fairy ring to Zul-Andra (76 Agility for the stepping stone)	lumbridge-elite

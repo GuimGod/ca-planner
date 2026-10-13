@@ -96,6 +96,13 @@ public final class Bag
 		String unless;
 		/** The name to show, as it was written; null to make one from the first name. */
 		String label;
+		/**
+		 * A way to the boss ("arrive" lines): the lines of a boss are its ways there, best first, and only the
+		 * first one the player can use is carried. Said when none can be used.
+		 */
+		boolean arrive;
+		/** A "leave" line: the way out of the fight, to the house or to a bank. */
+		boolean leave;
 	}
 
 	/** What the wiki's inventory for a boss carries: how many of each kind, its special items, its pieces to change into. */
@@ -162,6 +169,8 @@ public final class Bag
 	 * Reads "boss, kind, quantity, names, what for" lines, tab separated; "#" starts a comment.
 	 * The boss is a name, "*" for every boss, or "*melee", "*ranged", "*magic" for a combat style.
 	 * Kinds: need (listed even when not owned), take (only when owned), food (fills what is left),
+	 * arrive (a way to the boss: a boss's lines are its ways there, best first, and the first one that can be
+	 * used is the one carried), leave (the way out, to the house or a bank),
 	 * only (the boss takes none of the usual supplies), mapped (an inventory is suggested for the boss), wear (something that must be worn), wield
 	 * (the only weapons that harm it), note (a line to tell the player). A quantity ending in "s" is one stack.
 	 * Names are alternatives joined by "|", best first, each optionally "name=item id". A last
@@ -208,6 +217,17 @@ public final class Bag
 			if (c.length < 4)
 			{
 				continue;
+			}
+			if ("arrive".equals(row.kind))
+			{
+				// a way to the boss is carried when owned, like anything useful
+				row.kind = "take";
+				row.arrive = true;
+			}
+			else if ("leave".equals(row.kind))
+			{
+				row.kind = "take";
+				row.leave = true;
 			}
 			String amount = c[2].trim().toLowerCase(Locale.ROOT);
 			row.stack = amount.endsWith("s");
@@ -352,7 +372,8 @@ public final class Bag
 		{
 			for (Row row : rows.getOrDefault(key, Collections.emptyList()))
 			{
-				if (kind.equals(row.kind) && (row.unless == null || !done.contains(row.unless)) && Collections.disjoint(skip, row.names))
+				if (kind.equals(row.kind) && (row.unless == null || !done.contains(row.unless)) && Collections.disjoint(skip, row.names)
+					&& !(row.arrive && hasAnEarlierWayThere(key, row, have, done)))
 				{
 					ordered.add(row);
 				}
@@ -470,6 +491,120 @@ public final class Bag
 			}
 		}
 		return out;
+	}
+
+	/**
+	 * The teleports the OSRS Wiki names for getting to the boss, best first, when the player owns none
+	 * of them; empty when one is owned or the table names none. Names as written in the table.
+	 */
+	public List<String> wayThereNotOwned(String boss, Map<String, Have> have)
+	{
+		return wayThereNotOwned(boss, have, Collections.<String>emptySet());
+	}
+
+	/** @param done what the player has done that makes a line needless (the diary that opens the fairy rings with no staff) */
+	public List<String> wayThereNotOwned(String boss, Map<String, Have> have, Set<String> done)
+	{
+		Map<String, Have> sorted = new TreeMap<>(have);
+		List<String> out = new ArrayList<>();
+		for (Row row : rows.getOrDefault(Requirements.key(boss), Collections.emptyList()))
+		{
+			if (!row.arrive)
+			{
+				continue;
+			}
+			if (canBeUsed(row, sorted, done))
+			{
+				return new ArrayList<>();
+			}
+			for (String name : row.names)
+			{
+				out.add(plain(name));
+			}
+		}
+		return out;
+	}
+
+	/**
+	 * Whether a way to the boss listed before this one can be used: the player owns an item of it, or has
+	 * done what makes it need none (the diary that works the fairy rings with no staff).
+	 */
+	private boolean hasAnEarlierWayThere(String key, Row upTo, Map<String, Have> have, Set<String> done)
+	{
+		Map<String, Have> sorted = new TreeMap<>(have);
+		for (Row row : rows.getOrDefault(key, Collections.emptyList()))
+		{
+			if (row == upTo)
+			{
+				return false;
+			}
+			if (row.arrive && canBeUsed(row, sorted, done))
+			{
+				return true;
+			}
+		}
+		return false;
+	}
+
+	private static boolean canBeUsed(Row row, Map<String, Have> sorted, Set<String> done)
+	{
+		if (row.unless != null && done.contains(row.unless))
+		{
+			return true;
+		}
+		for (String name : row.names)
+		{
+			if (!matches(name, sorted).isEmpty())
+			{
+				return true;
+			}
+		}
+		return false;
+	}
+
+	/**
+	 * Whether the inventory of this boss has no way out at all: the table names ways out for every boss
+	 * ("leave" lines) and the player owns none. False where the boss has its own rule (deep Wilderness)
+	 * or takes none of the usual supplies.
+	 */
+	public boolean noWayOut(String boss, Map<String, Have> have)
+	{
+		String key = Requirements.key(boss);
+		if (onlyItsOwn.contains(key))
+		{
+			return false;
+		}
+		Set<String> skip = without.getOrDefault(key, Collections.<String>emptySet());
+		Map<String, Have> sorted = new TreeMap<>(have);
+		boolean named = false;
+		for (Row row : rows.getOrDefault(EVERY_BOSS, Collections.emptyList()))
+		{
+			if (!row.leave)
+			{
+				continue;
+			}
+			if (!Collections.disjoint(skip, row.names))
+			{
+				return false;
+			}
+			named = true;
+			for (String name : row.names)
+			{
+				if (!matches(name, sorted).isEmpty())
+				{
+					return false;
+				}
+			}
+		}
+		return named;
+	}
+
+	/** A table name as an item's name: "~ring of dueling(" is "Ring of dueling". */
+	private static String plain(String name)
+	{
+		String n = name.startsWith("~") ? name.substring(1) : name;
+		n = n.replaceAll("[ (]+$", "");
+		return n.substring(0, 1).toUpperCase(Locale.ROOT) + n.substring(1);
 	}
 
 	/** What to tell the player about a fight before anything else ("note" lines). */
@@ -608,7 +743,8 @@ public final class Bag
 		{
 			for (Row row : all)
 			{
-				if (kind.equals(row.kind) && (row.unless == null || !done.contains(row.unless)) && Collections.disjoint(skip, row.names))
+				if (kind.equals(row.kind) && (row.unless == null || !done.contains(row.unless)) && Collections.disjoint(skip, row.names)
+					&& !(row.arrive && hasAnEarlierWayThere(key, row, have, done)))
 				{
 					ordered.add(row);
 				}
