@@ -49,3 +49,5 @@ Tormented Demon	main	13599	Until it protects against your style
 Tormented Demon	switch	13599	Once it does	other	It protects against the style that last hurt it, again every 150 hitpoints it loses: two styles are needed.
 Yama	main	14176	Yama
 Yama	weapon	14180	The Judge, with magic	magic	Between phases. The Judge protects against ranged, and against whichever of melee and magic last hit it: change between a melee weapon and this. Every hit on it lands, and a weapon of several hits counts one.	nofigure
+Demonic Gorilla	main	7144	Until it protects against your style
+Demonic Gorilla	switch	7144	Once it does	other	It changes its protection prayer after taking 50 damage of one style: two styles are needed.

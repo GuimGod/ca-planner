@@ -1207,7 +1207,7 @@ public class CaPlannerPlugin extends Plugin implements CaPlannerPanel.Actions
 					{
 						useless.addAll(ofThisTask.without);
 					}
-					Bag.Provisional provisional = b != null && !mapped && plan == null
+					Bag.Provisional provisional = b != null && !mapped
 						? b.provisional(boss, r.style, have, done, held, left, useless) : null;
 					if (provisional != null)
 					{
