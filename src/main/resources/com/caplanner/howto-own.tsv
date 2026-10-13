@@ -20,3 +20,5 @@
 560	A Noxious halberd hitting from 2 tiles away took none of the Mirrorback araxyte's reflected damage.
 561	A Noxious halberd hitting from 2 tiles away took none of the Mirrorback araxyte's reflected damage.
 562	A Noxious halberd hitting from 2 tiles away took none of the Mirrorback araxyte's reflected damage.
+493	An untradeable item made from other items counts at the price of what it is made from, not at its own low value: with an Amulet of blood fury (Amulet of fury and a Blood shard) and Ferocious gloves (Hydra leather) on, the set came to 23M and the kill did not count. Plain untradeables such as a Fighter torso or Barrows gloves count little.
+To see the figure the game uses, open Items Kept on Death and turn on "PK Skull active": the total has to be under 2,000,000. Runes inside a rune pouch did not change that total.
