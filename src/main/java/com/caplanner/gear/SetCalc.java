@@ -191,7 +191,8 @@ final class SetCalc
 	/** Extra accuracy and damage of a demonbane weapon on this monster, as a multiplier; 1 when it is not a demon. */
 	static double demonbane(Target t, int percent)
 	{
-		return t.demon ? 1 + percent * t.demonbane / 10000.0 : 1;
+		// the weapon's percentage is scaled by the monster's share and rounded down: 5% on Duke Sucellus (70) is 3%
+		return t.demon ? 1 + (percent * t.demonbane / 100) / 100.0 : 1;
 	}
 
 	/**
@@ -503,8 +504,7 @@ final class SetCalc
 		if (l.voidMelee > 0)
 		{
 			// the set raises the effective Attack and Strength levels by a tenth
-			in.weaponAccuracy *= 1.1;
-			in.weaponDamage *= 1.1;
+			in.voidMelee = true;
 		}
 		// the Scythe of vitur hits a large monster up to three times: full, half and a quarter, each rolled on its own
 		int hits = !n.contains("scythe of vitur") ? 1 : t.size >= 3 ? 3 : t.size == 2 ? 2 : 1;
@@ -517,13 +517,21 @@ final class SetCalc
 			}
 			double[] cm = StyleCalc.chanceAndMax(in, s.type, s.stance);
 			long max = (long) cm[1];
-			if (l.dharokSet)
-			{
-				// Dharok's set: 1% more for each hitpoint lost, scaled by the Hitpoints level over 100
-				max = max * (10000 + (long) Math.max(0, p.hitpointsMax - p.hitpoints) * p.hitpointsMax) / 10000;
-			}
 			boolean fangStab = in.fang && StyleCalc.STAB.equals(s.type);
 			double average = fangStab ? landed(max * 3 / 20, max - max * 3 / 20, t) : landed(0, max, t);
+			if (l.dharokSet)
+			{
+				// Dharok's set: 1% more for each hitpoint lost, scaled by the Hitpoints level over 100. Each hit
+				// is scaled and rounded down on its own, as in the game, not the max hit alone
+				long scale = 10000 + (long) Math.max(0, p.hitpointsMax - p.hitpoints) * p.hitpointsMax;
+				double sum = 0;
+				for (long h = 0; h <= max; h++)
+				{
+					long scaled = h * scale / 10000;
+					sum += landed(scaled, scaled, t);
+				}
+				average = sum / (max + 1);
+			}
 			for (int h = 1; h < hits; h++)
 			{
 				average += landed(0, max >> h, t);
@@ -559,13 +567,14 @@ final class SetCalc
 		{
 			long effective = (long) p.ranged * p.prayerRanged / 100 + 8 + (accurate == 1 ? 3 : 0);
 			long effectiveStrength = (long) p.ranged * p.prayerRangedStrength / 100 + 8 + (accurate == 1 ? 3 : 0);
-			long roll = effective * (l.ranged + 64);
-			long max = (effectiveStrength * (l.rangedStrength + 64) + 320) / 640;
 			if (l.voidRanged > 0)
 			{
-				roll = roll * 11 / 10;
-				max = l.voidRanged == 2 ? max * 9 / 8 : max * 11 / 10;
+				// the set raises the effective levels, rounded down, before the gear's bonus: Elite Void an eighth of the strength
+				effective = effective * 11 / 10;
+				effectiveStrength = l.voidRanged == 2 ? effectiveStrength * 9 / 8 : effectiveStrength * 11 / 10;
 			}
+			long roll = effective * (l.ranged + 64);
+			long max = (effectiveStrength * (l.rangedStrength + 64) + 320) / 640;
 			if (crystalBow)
 			{
 				roll = roll * (20 + l.crystal) / 20;
@@ -718,7 +727,14 @@ final class SetCalc
 		}
 		if (n.contains("sanguinesti staff"))
 		{
-			average += 0.2 * 8; // the calculator's rule for the staff: one hit in five deals 8 more
+			// the calculator's rule for the staff: one hit in five deals 8 more, added before a hit of 0 becomes 1
+			// and before Zulrah's cap
+			double sum = 0;
+			for (long h = 0; h <= max; h++)
+			{
+				sum += 0.8 * landed(h, h, noArmour) + 0.2 * landed(h + 8, h + 8, noArmour);
+			}
+			average = sum / (max + 1);
 		}
 		return StyleCalc.chance(roll, defenceRoll) * average / speed;
 	}

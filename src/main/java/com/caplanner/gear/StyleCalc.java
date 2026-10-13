@@ -57,6 +57,8 @@ final class StyleCalc
 		double weaponDamage = 1;
 		/** Added to the max hit after everything else (the Colossal blade, by the monster's size). */
 		int maxAdd;
+		/** The whole melee Void set: a tenth more effective Attack and Strength, rounded down, before the gear's bonus. */
+		boolean voidMelee;
 	}
 
 	private StyleCalc()
@@ -116,6 +118,11 @@ final class StyleCalc
 		{
 			attack += 1;
 			strength += 1;
+		}
+		if (in.voidMelee)
+		{
+			attack = attack * 11 / 10;
+			strength = strength * 11 / 10;
 		}
 
 		long attackRoll = attack * (attackBonus + 64);
