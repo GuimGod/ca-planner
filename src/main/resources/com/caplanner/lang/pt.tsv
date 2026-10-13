@@ -90,7 +90,7 @@ You can do this now	Você pode fazer agora
 You have what it needs, but not alone	Você tem o que precisa, mas não dá sozinho
 You cannot do this yet	Você ainda não pode fazer
 Done by {} of players	Feita por {1} dos jogadores
-NOTES OF THIS PLUGIN	NOTAS DESTE PLUGIN
+TIPS: SEEN IN THE GAME BY THE AUTHORS	DICAS: VISTO NO JOGO PELOS AUTORES
 HOW, FROM THE OSRS WIKI	DA OSRS WIKI (EM INGLÊS)
 Text of the Old School RuneScape Wiki (oldschool.runescape.wiki) and its contributors, shortened, under the CC BY-NC-SA 3.0 licence.	Texto da Old School RuneScape Wiki (oldschool.runescape.wiki) e de seus colaboradores, resumido, sob a licença CC BY-NC-SA 3.0.
 Translated by the plugin: it may be wrong. The game's own words are below.	Traduzido pelo plugin: pode ter erro. O texto original do jogo está abaixo.
@@ -290,3 +290,56 @@ HOW TO PUT IT IN INVENTORY SETUPS	COMO COLOCAR NO INVENTORY SETUPS
 3. Click the import button at the top of it ("Import a new setup or section") and pick "Import setup..".	3. Clique no botão de importar no topo dele ("Import a new setup or section") e escolha "Import setup..".
 4. Paste with Ctrl+V and confirm: "{}" is added to your setups.	4. Cole com Ctrl+V e confirme: "{1}" entra nos seus setups.
 5. Press "2. Show it in the bank" above, or open your bank and pick it.	5. Aperte "2. Mostrar no banco" acima, ou abra o banco e escolha ele.
+Mark the tiles in the game	Marcar os tiles no jogo
+Clear the tiles	Tirar os tiles
+TILES	TILES
+Tiles the authors placed and used themselves. They are fixed: nothing follows the fight.	Tiles que os autores marcaram e usaram. São fixos: nada acompanha a luta.
+# ---- what is written on the tiles, and what each is for
+Stand here	Fique aqui
+Step here, and back	Pise aqui e volte
+Against the wall, midway between two pillars: the tile to fight from, and to step off when an axe comes.	Colado na parede, no meio entre dois pilares: o tile de onde lutar, e de onde sair quando vem um machado.
+Two tiles in on the diagonal: step here as the axe comes and straight back to the wall tile.	Dois tiles pra dentro na diagonal: pise aqui quando o machado vem e volte direto pro tile da parede.
+Amoxliatl: the door	Amoxliatl: a porta
+The door to the fight.	A porta da luta.
+Zalcano: teleport platform	Zalcano: plataforma de teleporte
+Where the way down to Zalcano starts.	Onde começa a descida até a Zalcano.
+Giant Mole: dig here	Giant Mole: cave aqui
+Dig with a spade on this mole hill to drop into the lair.	Cave com a spade neste monte pra cair no covil.
+Obor: the gate of his lair	Obor: o portão do covil
+West side of the hill giants' room.	Lado oeste da sala dos hill giants.
+Spike	Espinho
+Where the OSRS Wiki marks the spikes.	Onde a OSRS Wiki marca os espinhos.
+Clouds: stand here	Nuvens: fique aqui
+The tile the lightning clouds miss. Do not stand on it before, or a spike grows there.	O tile que as nuvens de raio não pegam. Não fique nele antes, senão nasce espinho ali.
+Clouds: spare	Nuvens: reserva
+A second tile for the clouds, if the first has a spike on it.	Um segundo tile pras nuvens, se o primeiro estiver com espinho.
+Phantom Muspah: the way in	Phantom Muspah: a entrada
+The ice cave to the south-east, then the gap in the pink crystals.	A caverna de gelo a sudeste, depois a fenda nos cristais rosa.
+The row next to him.	A fileira colada nele.
+The walk through the poison, in the order of the numbers. Walk, do not run.	A caminhada pelo veneno, na ordem dos números. Andando, sem correr.
+B tiles: cast the shadow spell from here. Then run to the P tile of the same number.	Tiles B: lance o shadow spell daqui. Depois corra pro tile P do mesmo número.
+P tiles: where the run from the B tile of the same number ends, at its back.	Tiles P: onde termina a corrida do tile B do mesmo número, nas costas dela.
+WAIT	ESPERE
+(step)	(passo)
+Special	Especial
+Moons: straight north, up the stairs	Moons: reto ao norte, suba a escada
+Antechamber: NW Blue · NE Eclipse and chest · SW Blood	Antecâmara: NO Blue · NE Eclipse e baú · SO Blood
+NW → Earthbound (Blue Moon)	NO → Earthbound (Blue Moon)
+NE → Streambound (Eclipse Moon, chest)	NE → Streambound (Eclipse Moon, baú)
+SW → Ancient Prison (Blood Moon)	SO → Ancient Prison (Blood Moon)
+Blue Moon's room (way out → Earthbound)	Sala da Blue Moon (saída → Earthbound)
+Blood Moon's room (way out → Ancient Prison)	Sala da Blood Moon (saída → Ancient Prison)
+Eclipse Moon's room (way out → Streambound)	Sala da Eclipse Moon (saída → Streambound)
+→ Antechamber	→ Antecâmara
+Blue Moon: entrance	Blue Moon: entrada
+Eclipse Moon: entrance	Eclipse Moon: entrada
+Blood Moon: entrance	Blood Moon: entrada
+→ Chest (Ancient Shrine)	→ Baú (Ancient Shrine)
+Lunar Chest	Baú (Lunar Chest)
+Stove and crates (vials, cooking, run energy)	Fogão e caixas (vial, cozinhar, run)
+Stove and crates · fish to the east	Fogão e caixas · peixe a leste
+Stove and crates	Fogão e caixas
+Grub (potion)	Grub (poção)
+Lizard: rope on the rocks, then rustle the bush	Lagarto: rope nas pedras, depois rustle no arbusto
+3 East or 3 West	3 Leste ou 3 Oeste
+When three axes come from the east or from the west and the other tiles leave nowhere to go: this one.	Quando vêm três machados do leste ou do oeste e os outros tiles não deixam pra onde ir: este.

@@ -269,6 +269,29 @@ public final class PromoShots
 					}
 
 					@Override
+					public List<String[]> tileLegend(String boss)
+					{
+						return new ArrayList<>();
+					}
+
+					@Override
+					public boolean hasTiles(String boss)
+					{
+						return false;
+					}
+
+					@Override
+					public boolean tilesMarked(String boss)
+					{
+						return false;
+					}
+
+					@Override
+					public void toggleTiles(String boss)
+					{
+					}
+
+					@Override
 					public boolean canRoute()
 					{
 						return true;

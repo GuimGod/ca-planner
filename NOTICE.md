@@ -21,7 +21,18 @@ licence (CC BY-NC-SA 3.0).
 ## Facts read from the wiki
 Other tables hold facts read from the wiki's pages (monster statistics, level requirements, how many of a
 supply an inventory carries, where a boss is). They hold numbers and names, not the wiki's writing. Some of the
-places a boss is at are the ones the GPS plugin lists under the boss's name.
+places a boss is at are the ones the GPS plugin lists under the boss's name. The tiles the plugin can mark for the
+Phantom Muspah are the ones the wiki's tile markers give for that fight.
+
+## Tiles
+The tiles the plugin can mark (`tiles.tsv`) are positions in the game. Most were placed by the plugin's authors. Those of three
+fights are tile sets widely shared among players, used and in part changed by the authors:
+
+- **Duke Sucellus:** the "Awakened Duke" set of the [Tile Packs](https://github.com/TrevorMDev/tile-packs) plugin (BSD 2-Clause),
+  from Red Eye Jedi's awakened Duke Sucellus guide; the numbered tiles are also in a picture on the OSRS Wiki.
+- **Whisperer:** a set of tile markers shared by players (rentry.co/ud7mb7mr).
+- **Leviathan:** the authors' own tiles for the stun-and-run method of Red Eye Jedi's awakened Leviathan guide.
+- **Phantom Muspah:** the tiles the OSRS Wiki's tile markers give for that fight.
 
 ## Not affiliated
 This plugin is not affiliated with or endorsed by Jagex or the Old School RuneScape Wiki.

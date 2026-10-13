@@ -48,6 +48,10 @@ All optional. The buttons that need a plugin you do not have say which one to in
 - **Shortest Path** or **GPS**: "Mark the way on the map" asks the route plugin for the way to the boss.
 - **Inventory Setups**: the set and inventory are copied as text for its "Import setup", and the setup is opened in the bank. The panel lists the steps.
 
+## Tiles
+
+For a few bosses the page has a "Mark the tiles in the game" button: it outlines tiles the authors placed and used themselves (the way in, a safe tile, where to stand for one attack), each with a word on it, and the page says what each is for. They are fixed tiles, drawn only after you press the button and until you press "Clear the tiles".
+
 ## Bug or suggestion
 
 Every boss and task page has a "Bug or suggestion" button. It opens a window where you write what is wrong or what you would like; under your words it shows exactly what will be sent: the boss, the task, the set and inventory the planner gave, your combat levels and Slayer task. It never includes your name. Nothing is sent until you press a button:
@@ -64,7 +68,7 @@ The "Language" setting shows the panel in English or in Portuguese (Brazil). Nam
 
 ## What it never does
 
-It draws nothing over the game: no overlay, no timer, no warning during a fight. It does not click, equip or change anything in the game. It tells you what to bring and what to go for; the fight is yours.
+Unless you press "Mark the tiles in the game", it draws nothing over the game. It has no timer and no warning during a fight, and nothing it draws follows what a monster does. It does not click, equip or change anything in the game. It tells you what to bring and what to go for; the fight is yours.
 
 ## Credits and licence
 

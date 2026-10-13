@@ -154,6 +154,16 @@ public class CaPlannerPlugin extends Plugin implements CaPlannerPanel.Actions
 		return configManager.getConfig(CaPlannerConfig.class);
 	}
 
+	@Inject
+	private net.runelite.client.ui.overlay.OverlayManager overlayManager;
+
+	@Inject
+	private TilesOverlay tilesOverlay;
+
+	private volatile com.caplanner.core.Tiles tiles;
+	/** The boss whose tiles are drawn in the game, because the player asked; null for none. */
+	private volatile String tilesBoss;
+
 	// Started and stopped on the Swing thread, used on the client thread: hence volatile.
 	private volatile CaPlannerPanel panel;
 	private NavigationButton navigation;
@@ -200,6 +210,9 @@ public class CaPlannerPlugin extends Plugin implements CaPlannerPanel.Actions
 		requirements = readRequirements();
 		ease = readEase();
 		places = readPlaces();
+		tiles = readTiles();
+		tilesBoss = null;
+		overlayManager.add(tilesOverlay);
 		rules = readRules();
 		reportForm = readReportForm();
 		bag = readBag();
@@ -240,6 +253,8 @@ public class CaPlannerPlugin extends Plugin implements CaPlannerPanel.Actions
 	@Override
 	protected void shutDown()
 	{
+		overlayManager.remove(tilesOverlay);
+		tilesBoss = null;
 		clientToolbar.removeNavigation(navigation);
 		navigation = null;
 		panel = null;
@@ -411,6 +426,54 @@ public class CaPlannerPlugin extends Plugin implements CaPlannerPanel.Actions
 		Bag.Have before = into.get(name.toLowerCase());
 		long total = (long) quantity + (before == null ? 0 : before.quantity);
 		into.put(name.toLowerCase(), new Bag.Have(id, (int) Math.min(Integer.MAX_VALUE, total), name));
+	}
+
+	private static com.caplanner.core.Tiles readTiles()
+	{
+		try (InputStream in = CaPlannerPlugin.class.getResourceAsStream("tiles.tsv"))
+		{
+			return in == null ? com.caplanner.core.Tiles.none()
+				: com.caplanner.core.Tiles.read(new InputStreamReader(in, StandardCharsets.UTF_8));
+		}
+		catch (IOException e)
+		{
+			throw new IllegalStateException(e);
+		}
+	}
+
+	/** The tiles being drawn in the game now: those of the boss the player asked for; empty for none. */
+	List<com.caplanner.core.Tiles.Tile> tilesShown()
+	{
+		com.caplanner.core.Tiles table = tiles;
+		String boss = tilesBoss;
+		return table == null || boss == null ? java.util.Collections.<com.caplanner.core.Tiles.Tile>emptyList() : table.of(boss);
+	}
+
+	@Override
+	public List<String[]> tileLegend(String boss)
+	{
+		com.caplanner.core.Tiles table = tiles;
+		return table == null ? new ArrayList<String[]>() : table.legend(boss);
+	}
+
+	@Override
+	public boolean hasTiles(String boss)
+	{
+		com.caplanner.core.Tiles table = tiles;
+		return table != null && !table.of(boss).isEmpty();
+	}
+
+	@Override
+	public boolean tilesMarked(String boss)
+	{
+		return boss != null && boss.equals(tilesBoss);
+	}
+
+	/** Draws the tiles of a boss in the game, or stops drawing them: only ever because the player pressed the button. */
+	@Override
+	public void toggleTiles(String boss)
+	{
+		tilesBoss = boss != null && boss.equals(tilesBoss) ? null : boss;
 	}
 
 	private static Places readPlaces()

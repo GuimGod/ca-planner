@@ -95,6 +95,18 @@ public class CaPlannerPanel extends PluginPanel
 		/** Whether the Shortest Path plugin is installed and on: without it nothing marks the way. */
 		boolean canRoute();
 
+		/** Whether this plugin has tiles to mark for a boss. */
+		boolean hasTiles(String boss);
+
+		/** What those tiles are: the label and the note of each kind that has something written on it. */
+		List<String[]> tileLegend(String boss);
+
+		/** Whether the tiles of this boss are being drawn in the game now. */
+		boolean tilesMarked(String boss);
+
+		/** Starts drawing the tiles of this boss in the game, or stops. */
+		void toggleTiles(String boss);
+
 		/** Whether the Inventory Setups plugin is installed and on: without it there is nowhere to put a setup. */
 		boolean hasSetups();
 
@@ -164,6 +176,12 @@ public class CaPlannerPanel extends PluginPanel
 	 * @param words          the plugin's own lines in that language; none for English
 	 * @param taskObjectives each task's objective in that language; none for English
 	 */
+	/** A word of the plugin's in the language the player picked, for what is drawn outside the panel. */
+	public static String say(String text)
+	{
+		return lang.of(text);
+	}
+
 	public static void language(Lang words, HowTo taskObjectives)
 	{
 		lang = words == null ? Lang.none() : words;
@@ -796,7 +814,7 @@ public class CaPlannerPanel extends PluginPanel
 		if (!notes.isEmpty())
 		{
 			card.add(Box.createVerticalStrut(8));
-			card.add(leftAligned(label("NOTES OF THIS PLUGIN", SMALL, ACCENT)));
+			card.add(leftAligned(label("TIPS: SEEN IN THE GAME BY THE AUTHORS", SMALL, ACCENT)));
 			for (String paragraph : notes)
 			{
 				card.add(Box.createVerticalStrut(3));
@@ -1321,6 +1339,29 @@ public class CaPlannerPanel extends PluginPanel
 				card.add(leftAligned(wrapped("To have the way there marked on the map, install the Shortest Path plugin or the GPS plugin "
 					+ "from the Plugin Hub and turn it on.", SMALL, MUTED, width)));
 			}
+		}
+		if (icons.hasTiles(boss))
+		{
+			final List<String[]> legend = icons.tileLegend(boss);
+			final boolean marked = icons.tilesMarked(boss);
+			card.add(Box.createVerticalStrut(4));
+			card.add(action(marked ? "Clear the tiles" : "Mark the tiles in the game",
+				marked ? "Stops drawing this boss's tiles" : "Draws the tiles below in the game, until you clear them", () ->
+				{
+					icons.toggleTiles(boss);
+					rebuild();
+				}));
+			card.add(Box.createVerticalStrut(3));
+			card.add(leftAligned(label("TILES", SMALL, ACCENT)));
+			for (String[] line : legend)
+			{
+				card.add(Box.createVerticalStrut(2));
+				card.add(leftAligned(wrappedRaw(lang.of(line[0]) + (line[1].isEmpty() ? "" : " — " + lang.of(line[1])),
+					SMALL, MUTED, width)));
+			}
+			card.add(Box.createVerticalStrut(2));
+			card.add(leftAligned(wrapped("Tiles the authors placed and used themselves. They are fixed: nothing follows the fight.",
+				SMALL, MUTED, width)));
 		}
 		if (ready && !icons.hasSetups())
 		{

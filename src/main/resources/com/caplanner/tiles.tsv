@@ -1,0 +1,300 @@
+# Tiles this plugin can mark in the game for a boss, when the player asks: ones its authors placed and used
+# themselves (October 2026), and tiles widely shared among players that they used: see NOTICE.md for where those are from.
+# boss	x	y	plane	colour (AARRGGBB)	label	note
+Leviathan	2088	6364	0	FFFAFF00	(step)	
+Leviathan	2073	6365	0	FFFAFF00	(step)	
+Leviathan	2081	6364	0	FFFAFF00	(step)	
+Leviathan	2074	6380	0	FFFAFF00	(step)	
+Leviathan	2075	6366	0	FFFFFF00		
+Leviathan	2081	6378	0	FFFFFF00		
+Leviathan	2081	6379	0	FFFFFF00		
+Leviathan	2089	6380	0	FFFFFF00	1	
+Leviathan	2089	6374	0	FFFFFF00		
+Leviathan	2079	6365	0	FFFF0000	B1	B tiles: cast the shadow spell from here. Then run to the P tile of the same number.
+Leviathan	2077	6377	0	FFFF0000	P1	P tiles: where the run from the B tile of the same number ends, at its back.
+Leviathan	2083	6365	0	FF00FF00	B2	B tiles: cast the shadow spell from here. Then run to the P tile of the same number.
+Leviathan	2085	6377	0	FF00FF00	P2	P tiles: where the run from the B tile of the same number ends, at its back.
+Leviathan	2088	6370	0	FF00FFFF	B3	B tiles: cast the shadow spell from here. Then run to the P tile of the same number.
+Leviathan	2076	6368	0	FF00FFFF	P3	P tiles: where the run from the B tile of the same number ends, at its back.
+Leviathan	2088	6374	0	FFFF00FF	B4	B tiles: cast the shadow spell from here. Then run to the P tile of the same number.
+Leviathan	2076	6376	0	FFFF00FF	P4	P tiles: where the run from the B tile of the same number ends, at its back.
+Leviathan	2083	6379	0	FFFF8C00	B5	B tiles: cast the shadow spell from here. Then run to the P tile of the same number.
+Leviathan	2085	6367	0	FFFF8C00	P5	P tiles: where the run from the B tile of the same number ends, at its back.
+Leviathan	2079	6379	0	FF000000	B6	B tiles: cast the shadow spell from here. Then run to the P tile of the same number.
+Leviathan	2077	6367	0	FF000000	P6	P tiles: where the run from the B tile of the same number ends, at its back.
+Leviathan	2074	6374	0	FF00A3A3	B7	B tiles: cast the shadow spell from here. Then run to the P tile of the same number.
+Leviathan	2086	6376	0	FF00A3A3	P7	P tiles: where the run from the B tile of the same number ends, at its back.
+Leviathan	2074	6370	0	FF8A2BE2	B8	B tiles: cast the shadow spell from here. Then run to the P tile of the same number.
+Leviathan	2086	6368	0	FF8A2BE2	P8	P tiles: where the run from the B tile of the same number ends, at its back.
+Duke Sucellus	3030	6451	0	B41DD362		
+Duke Sucellus	3048	6451	0	B41DD362		
+Duke Sucellus	3048	6445	0	B41DD362		
+Duke Sucellus	3048	6443	0	B41DD362		
+Duke Sucellus	3048	6447	0	B41DD362		
+Duke Sucellus	3048	6449	0	B41DD362		
+Duke Sucellus	3030	6443	0	B41DD362		
+Duke Sucellus	3030	6445	0	B41DD362		
+Duke Sucellus	3030	6447	0	B41DD362		
+Duke Sucellus	3030	6449	0	B41DD362		
+Duke Sucellus	3048	6441	0	B41DD362		
+Duke Sucellus	3030	6441	0	B41DD362		
+Duke Sucellus	3035	6451	0	FF6D2971	Melee	The row next to him.
+Duke Sucellus	3037	6447	0	FF6D2971		
+Duke Sucellus	3041	6447	0	FF6D2971		
+Duke Sucellus	3036	6449	0	9EFFA400	2	The walk through the poison, in the order of the numbers. Walk, do not run.
+Duke Sucellus	3038	6449	0	9EFFA400	2	The walk through the poison, in the order of the numbers. Walk, do not run.
+Duke Sucellus	3040	6449	0	9EFFA400	2	The walk through the poison, in the order of the numbers. Walk, do not run.
+Duke Sucellus	3042	6449	0	9EFFA400	2	The walk through the poison, in the order of the numbers. Walk, do not run.
+Duke Sucellus	3041	6450	0	9EFFA400	4	The walk through the poison, in the order of the numbers. Walk, do not run.
+Duke Sucellus	3039	6450	0	9EFFA400	4	The walk through the poison, in the order of the numbers. Walk, do not run.
+Duke Sucellus	3037	6450	0	9EFFA400	4	The walk through the poison, in the order of the numbers. Walk, do not run.
+Duke Sucellus	3037	6451	0	FF6D2971	Melee	The row next to him.
+Duke Sucellus	3039	6451	0	FF6D2971	Melee	The row next to him.
+Duke Sucellus	3041	6451	0	FF6D2971	Melee	The row next to him.
+Duke Sucellus	3043	6451	0	FF6D2971	Melee	The row next to him.
+Duke Sucellus	3038	6450	0	C800F1FF	1	The walk through the poison, in the order of the numbers. Walk, do not run.
+Duke Sucellus	3040	6450	0	C800F1FF	1	The walk through the poison, in the order of the numbers. Walk, do not run.
+Duke Sucellus	3037	6449	0	FFF1FF00	3	The walk through the poison, in the order of the numbers. Walk, do not run.
+Duke Sucellus	3039	6449	0	FFF1FF00	3	The walk through the poison, in the order of the numbers. Walk, do not run.
+Duke Sucellus	3041	6449	0	FFF1FF00	3	The walk through the poison, in the order of the numbers. Walk, do not run.
+Duke Sucellus	3036	6450	0	C800F1FF	1	The walk through the poison, in the order of the numbers. Walk, do not run.
+Duke Sucellus	3042	6450	0	C800F1FF	1	The walk through the poison, in the order of the numbers. Walk, do not run.
+Duke Sucellus	3035	6450	0	FFF1FF00	3	The walk through the poison, in the order of the numbers. Walk, do not run.
+Duke Sucellus	3043	6450	0	FFF1FF00	3	The walk through the poison, in the order of the numbers. Walk, do not run.
+Duke Sucellus	3043	6449	0	B41DD362	WAIT	
+Duke Sucellus	3035	6449	0	B41DD362	WAIT	
+Whisperer	2593	6425	0	FFFFFFFF	2	
+Whisperer	2643	6371	0	FF000000		
+Whisperer	2642	6370	0	FF000000		
+Whisperer	2642	6369	0	FF000000		
+Whisperer	2642	6368	0	FF000000		
+Whisperer	2642	6367	0	FF000000		
+Whisperer	2642	6366	0	FF000000		
+Whisperer	2642	6365	0	FF000000		
+Whisperer	2644	6371	0	FF000000		
+Whisperer	2644	6372	0	FF000000		
+Whisperer	2644	6373	0	FF000000		
+Whisperer	2644	6374	0	FF000000		
+Whisperer	2644	6375	0	FF000000		
+Whisperer	2644	6376	0	FF000000		
+Whisperer	2644	6377	0	FF000000		
+Whisperer	2643	6377	0	FF000000		
+Whisperer	2643	6378	0	FF000000		
+Whisperer	2643	6379	0	FF000000		
+Whisperer	2644	6379	0	FF000000		
+Whisperer	2644	6380	0	FF000000		
+Whisperer	2645	6380	0	FF000000		
+Whisperer	2646	6380	0	FF000000		
+Whisperer	2646	6381	0	FF000000		
+Whisperer	2647	6381	0	FF000000		
+Whisperer	2647	6382	0	FF000000		
+Whisperer	2648	6382	0	FF000000		
+Whisperer	2649	6382	0	FF000000		
+Whisperer	2649	6383	0	FF000000		
+Whisperer	2650	6383	0	FF000000		
+Whisperer	2650	6384	0	FF000000		
+Whisperer	2651	6384	0	FF000000		
+Whisperer	2669	6366	0	FF000000		
+Whisperer	2668	6366	0	FF000000		
+Whisperer	2668	6365	0	FF000000		
+Whisperer	2668	6364	0	FF000000		
+Whisperer	2668	6363	0	FF000000		
+Whisperer	2668	6362	0	FF000000		
+Whisperer	2668	6361	0	FF000000		
+Whisperer	2668	6360	0	FF000000		
+Whisperer	2667	6360	0	FF000000		
+Whisperer	2666	6360	0	FF000000		
+Whisperer	2666	6359	0	FF000000		
+Whisperer	2666	6358	0	FF000000		
+Whisperer	2666	6357	0	FF000000		
+Whisperer	2666	6356	0	FF000000		
+Whisperer	2666	6355	0	FF000000		
+Whisperer	2665	6355	0	FF000000		
+Whisperer	2664	6355	0	FF000000		
+Whisperer	2664	6354	0	FF000000		
+Whisperer	2663	6354	0	FF000000		
+Whisperer	2663	6353	0	FF000000		
+Whisperer	2662	6353	0	FF000000		
+Whisperer	2661	6353	0	FF000000		
+Whisperer	2670	6366	0	FF000000		
+Whisperer	2670	6367	0	FF000000		
+Whisperer	2670	6368	0	FF000000		
+Whisperer	2670	6369	0	FF000000		
+Whisperer	2670	6370	0	FF000000		
+Whisperer	2670	6371	0	FF000000		
+Whisperer	2670	6372	0	FF000000		
+Whisperer	2670	6373	0	FF000000		
+Whisperer	2670	6374	0	FF000000		
+Whisperer	2670	6375	0	FF000000		
+Whisperer	2660	6353	0	FF000000		
+Whisperer	2659	6353	0	FF000000		
+Whisperer	2659	6352	0	FF000000		
+Whisperer	2658	6352	0	FF000000		
+Whisperer	2651	6352	0	FF000000		
+Whisperer	2650	6353	0	FF000000		
+Whisperer	2650	6352	0	FF000000		
+Whisperer	2652	6352	0	FF000000		
+Whisperer	2653	6352	0	FF000000		
+Whisperer	2654	6352	0	FF000000		
+Whisperer	2655	6352	0	FF000000		
+Whisperer	2656	6352	0	FF000000		
+Whisperer	2657	6352	0	FF000000		
+Whisperer	2649	6353	0	FF000000		
+Whisperer	2649	6354	0	FF000000		
+Whisperer	2648	6354	0	FF000000		
+Whisperer	2648	6355	0	FF000000		
+Whisperer	2647	6355	0	FF000000		
+Whisperer	2647	6356	0	FF000000		
+Whisperer	2647	6357	0	FF000000		
+Whisperer	2647	6358	0	FF000000		
+Whisperer	2647	6359	0	FF000000		
+Whisperer	2647	6360	0	FF000000		
+Whisperer	2646	6360	0	FF000000		
+Whisperer	2645	6360	0	FF000000		
+Whisperer	2644	6360	0	FF000000		
+Whisperer	2643	6360	0	FF000000		
+Whisperer	2642	6360	0	FF000000		
+Whisperer	2642	6364	0	FF000000		
+Whisperer	2642	6363	0	FF000000		
+Whisperer	2642	6362	0	FF000000		
+Whisperer	2642	6361	0	FF000000		
+Whisperer	2661	6384	0	FF000000		
+Whisperer	2662	6384	0	FF000000		
+Whisperer	2662	6383	0	FF000000		
+Whisperer	2663	6383	0	FF000000		
+Whisperer	2663	6382	0	FF000000		
+Whisperer	2664	6382	0	FF000000		
+Whisperer	2665	6382	0	FF000000		
+Whisperer	2665	6381	0	FF000000		
+Whisperer	2665	6380	0	FF000000		
+Whisperer	2666	6380	0	FF000000		
+Whisperer	2666	6379	0	FF000000		
+Whisperer	2666	6378	0	FF000000		
+Whisperer	2667	6378	0	FF000000		
+Whisperer	2668	6378	0	FF000000		
+Whisperer	2668	6377	0	FF000000		
+Whisperer	2669	6377	0	FF000000		
+Whisperer	2670	6377	0	FF000000		
+Whisperer	2670	6376	0	FF000000		
+Whisperer	2642	6371	0	FF000000		
+Whisperer	2650	6365	0	78FFFFFF		
+Whisperer	2651	6363	0	78FFFFFF		
+Whisperer	2652	6361	0	78FFFFFF		
+Whisperer	2648	6364	0	78FFFFFF		
+Whisperer	2647	6361	0	78FFFFFF		
+Whisperer	2649	6362	0	78FFFFFF		
+Whisperer	2650	6360	0	78FFFFFF		
+Whisperer	2648	6359	0	78FFFFFF		
+Whisperer	2660	6361	0	78FFFFFF		
+Whisperer	2661	6363	0	78FFFFFF		
+Whisperer	2662	6365	0	78FFFFFF		
+Whisperer	2664	6364	0	78FFFFFF		
+Whisperer	2663	6362	0	78FFFFFF		
+Whisperer	2662	6360	0	78FFFFFF		
+Whisperer	2664	6359	0	78FFFFFF		
+Whisperer	2665	6361	0	78FFFFFF		
+Whisperer	2657	6375	0	FF17FA04	x	
+Whisperer	2655	6375	0	FF17FA04	x	
+Whisperer	2655	6363	0	FF17FA04	x	
+Whisperer	2657	6363	0	FF17FA04	x	
+Whisperer	2665	6366	0	78FFFFFF		
+Whisperer	2663	6367	0	78FFFFFF		
+Whisperer	2667	6365	0	78FFFFFF		
+Whisperer	2666	6363	0	78FFFFFF		
+Whisperer	2660	6366	0	78FFFFFF		
+Whisperer	2659	6364	0	78FFFFFF		
+Whisperer	2658	6362	0	78FFFFFF		
+Whisperer	2654	6362	0	78FFFFFF		
+Whisperer	2653	6364	0	78FFFFFF		
+Whisperer	2652	6366	0	78FFFFFF		
+Whisperer	2646	6363	0	78FFFFFF		
+Whisperer	2649	6357	0	78FFFFFF		
+Whisperer	2651	6358	0	78FFFFFF		
+Whisperer	2653	6359	0	78FFFFFF		
+Whisperer	2659	6359	0	78FFFFFF		
+Whisperer	2661	6358	0	78FFFFFF		
+Whisperer	2663	6357	0	78FFFFFF		
+Whisperer	2659	6367	0	FF17FA04	xo	
+Whisperer	2661	6369	0	FF17FA04	xo	
+Whisperer	2659	6371	0	FF17FA04	xo	
+Whisperer	2653	6371	0	FF17FA04	xo	
+Whisperer	2651	6369	0	FF17FA04	xo	
+Whisperer	2653	6367	0	FF17FA04	xo	
+Whisperer	2658	6365	0	FFF703FC	12	
+Whisperer	2656	6367	0	FFF703FC	12	
+Whisperer	2654	6365	0	FFF703FC	12	
+Whisperer	2652	6367	0	FFF703FC	12	
+Whisperer	2654	6369	0	FFF703FC	12	
+Whisperer	2652	6371	0	FFF703FC	12	
+Whisperer	2654	6373	0	FFF703FC	12	
+Whisperer	2656	6371	0	FFF703FC	12	
+Whisperer	2658	6373	0	FFF703FC	12	
+Whisperer	2660	6371	0	FFF703FC	12	
+Whisperer	2658	6369	0	FFF703FC	12	
+Whisperer	2660	6367	0	FFF703FC	12	
+Whisperer	2657	6365	0	FF17FA04	xo	
+Whisperer	2655	6365	0	FF17FA04	xo	
+Whisperer	2661	6367	0	FF17FA04	o	
+Whisperer	2661	6371	0	FF17FA04	o	
+Whisperer	2657	6373	0	FF17FA04	xo	
+Whisperer	2655	6373	0	FF17FA04	xo	
+Whisperer	2651	6371	0	FF17FA04	o	
+Whisperer	2651	6367	0	FF17FA04	o	
+Whisperer	2656	6365	0	FFF703FC	2	
+Whisperer	2660	6369	0	FFF703FC	2	
+Whisperer	2656	6373	0	FFF703FC	2	
+Whisperer	2652	6369	0	FFF703FC	2	
+Whisperer	2656	6366	0	FFFFA400	Special	
+Vardorvis	1124	3418	0	FF00FF00	Stand here	Against the wall, midway between two pillars: the tile to fight from, and to step off when an axe comes.
+Vardorvis	1126	3416	0	FF00FFFF	Step here, and back	Two tiles in on the diagonal: step here as the axe comes and straight back to the wall tile.
+Vardorvis	1126	3420	0	FF00FFFF	Step here, and back	Two tiles in on the diagonal: step here as the axe comes and straight back to the wall tile.
+Vardorvis	1128	3414	0	FFFFFF00	3 East or 3 West	When three axes come from the east or from the west and the other tiles leave nowhere to go: this one.
+Amoxliatl	1602	9632	0	FFFF00FF	Amoxliatl: the door	The door to the fight.
+Zalcano	3281	6058	0	FFFF00FF	Zalcano: teleport platform	Where the way down to Zalcano starts.
+Giant Mole	2996	3377	0	FFFF00FF	Giant Mole: dig here	Dig with a spade on this mole hill to drop into the lair.
+Obor	3095	9833	0	FFFF00FF	Obor: the gate of his lair	West side of the hill giants' room.
+Phantom Muspah	2849	4256	0	FF00FFDD	Spike	Where the OSRS Wiki marks the spikes.
+Phantom Muspah	2845	4256	0	FF00FFDD	Spike	Where the OSRS Wiki marks the spikes.
+Phantom Muspah	2845	4260	0	FF00FFDD	Spike	Where the OSRS Wiki marks the spikes.
+Phantom Muspah	2849	4260	0	FF00FFDD	Spike	Where the OSRS Wiki marks the spikes.
+Phantom Muspah	2847	4260	0	FF00FFDD	Spike	Where the OSRS Wiki marks the spikes.
+Phantom Muspah	2845	4258	0	FF00FFDD	Spike	Where the OSRS Wiki marks the spikes.
+Phantom Muspah	2847	4256	0	FF00FFDD	Spike	Where the OSRS Wiki marks the spikes.
+Phantom Muspah	2849	4258	0	FF00FFDD	Spike	Where the OSRS Wiki marks the spikes.
+Phantom Muspah	2844	4253	0	FF00FF00	Clouds: stand here	The tile the lightning clouds miss. Do not stand on it before, or a spike grows there.
+Phantom Muspah	2850	4254	0	FFFFA500	Clouds: spare	A second tile for the clouds, if the first has a spike on it.
+Phantom Muspah	2909	10317	0	FFFFFF00	Phantom Muspah: the way in	The ice cave to the south-east, then the gap in the pink crystals.
+Moons of Peril	1438	9565	1	FFFFFF00	Moons: straight north, up the stairs	
+Moons of Peril	1438	9629	1	FFFFFFFF	Antechamber: NW Blue · NE Eclipse and chest · SW Blood	
+Moons of Peril	1424	9648	1	FF00FFFF	NW → Earthbound (Blue Moon)	
+Moons of Peril	1451	9645	1	FFFFC000	NE → Streambound (Eclipse Moon, chest)	
+Moons of Peril	1423	9612	1	FFFF4040	SW → Ancient Prison (Blood Moon)	
+Moons of Peril	1440	9653	0	FF00FFFF	Blue Moon's room (way out → Earthbound)	
+Moons of Peril	1418	9632	0	FFFF4040	Blood Moon's room (way out → Ancient Prison)	
+Moons of Peril	1461	9632	0	FFFFC000	Eclipse Moon's room (way out → Streambound)	
+Moons of Peril	1403	9717	0	FFFFFFFF	→ Antechamber	
+Moons of Peril	1403	9705	0	FF00FFFF	Blue Moon: entrance	
+Moons of Peril	1374	9667	0	FFFF4040	→ Ancient Prison (Blood Moon)	
+Moons of Peril	1390	9676	0	FFFFC000	→ Streambound (Eclipse Moon)	
+Moons of Peril	1481	9669	0	FFFFFFFF	→ Antechamber	
+Moons of Peril	1510	9675	0	FFFFC000	Eclipse Moon: entrance	
+Moons of Peril	1523	9674	0	FF00FF00	→ Chest (Ancient Shrine)	
+Moons of Peril	1522	9719	0	FF00FFFF	→ Earthbound (Blue Moon)	
+Moons of Peril	1387	9590	0	FFFF4040	Blood Moon: entrance	
+Moons of Peril	1389	9576	0	FFFFFFFF	→ Antechamber	
+Moons of Peril	1353	9591	0	FF00FFFF	→ Earthbound (Blue Moon)	
+Moons of Peril	1357	9538	0	FF00FF00	→ Chest (Ancient Shrine)	
+Moons of Peril	1513	9563	0	FFFF4040	→ Ancient Prison (Blood Moon)	
+Moons of Peril	1513	9578	0	FF00FF00	Lunar Chest	
+Moons of Peril	1513	9596	0	FFFFC000	→ Streambound (Eclipse Moon)	
+Moons of Peril	1374	9710	0	FFFF00FF	Stove and crates (vials, cooking, run energy)	
+Moons of Peril	1379	9714	0	FFB0FF00	Grub (potion)	
+Moons of Peril	1383	9712	0	FFB0FF00	Grub (potion)	
+Moons of Peril	1510	9693	0	FFFF00FF	Stove and crates · fish to the east	
+Moons of Peril	1517	9690	0	FFB0FF00	Grub (potion)	
+Moons of Peril	1523	9692	0	FFB0FF00	Grub (potion)	
+Moons of Peril	1349	9580	0	FFFF00FF	Stove and crates	
+Moons of Peril	1349	9574	0	FFC080FF	Moth (+22 prayer)	
+Moons of Peril	1350	9570	0	FFC080FF	Moth (+22 prayer)	
+Moons of Peril	1362	9570	0	FFC080FF	Moth (+22 prayer)	
+Moons of Peril	1393	9706	0	FFFF8000	Lizard: rope on the rocks, then rustle the bush	

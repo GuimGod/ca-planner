@@ -1,2 +1,22 @@
 # Notes of this plugin's own on how to go about a task: what its authors found out that the wiki does not say.
 # task id	text (a line break inside the text is written as a backslash and an n)
+53	Done by waiting: keep Cerberus above 400 hitpoints until its 14th attack begins. The souls only come on its 7th, 14th and 28th attacks, and only below 400, so after the 14th there are none until the 28th.
+161	It counted with Verac's flail alone on both of her forms and no special attack; a thrall fighting alongside did not spoil it.
+520	A hit that landed on the tick his gas began did not spoil the task. Thralls do not spoil it either.
+512	The fight's time runs from "Duke Sucellus awakens" to the kill, plus 5 ticks. His first attack comes 5 ticks after he awakens, and his eye after every five attacks.
+513	The fight's time runs from "Duke Sucellus awakens" to the kill, plus 5 ticks. His first attack comes 5 ticks after he awakens, and his eye after every five attacks.
+514	The fight's time runs from "Duke Sucellus awakens" to the kill, plus 5 ticks. His first attack comes 5 ticks after he awakens, and his eye after every five attacks.
+270	The back row is not safe while the acid is still being thrown: acid landed on it. Walking the line with a Dragon hunter crossbow loses a tick an attack (a cycle of 6 ticks, not 5).
+272	The back row is not safe while the acid is still being thrown: acid landed on it. Walking the line with a Dragon hunter crossbow loses a tick an attack (a cycle of 6 ticks, not 5).
+276	After Crumble Undead, an attack made straight away can deal 0: Vorkath stays immune until the spawn is dead. The chat line "You become unfrozen as you kill the spawn" is the sign. Eating a karambwan between the spell and the attack was wait enough.
+277	After Crumble Undead, an attack made straight away can deal 0: Vorkath stays immune until the spawn is dead. The chat line "You become unfrozen as you kill the spawn" is the sign. Eating a karambwan between the spell and the attack was wait enough.
+494	In the enrage a weapon of 5 ticks loses a tick an attack: it hits every 6.
+495	In the enrage a weapon of 5 ticks loses a tick an attack: it hits every 6.\nIt was given on a kill whose timer showed 2:25.20: the task's count ends a little before the timer shown does.
+496	In the enrage a weapon of 5 ticks loses a tick an attack: it hits every 6.
+535	Death Charge gives no special attack energy back when a Moon dies.
+536	Death Charge gives no special attack energy back when a Moon dies.
+558	A Noxious halberd hitting from 2 tiles away took none of the Mirrorback araxyte's reflected damage.
+559	A Noxious halberd hitting from 2 tiles away took none of the Mirrorback araxyte's reflected damage.
+560	A Noxious halberd hitting from 2 tiles away took none of the Mirrorback araxyte's reflected damage.
+561	A Noxious halberd hitting from 2 tiles away took none of the Mirrorback araxyte's reflected damage.
+562	A Noxious halberd hitting from 2 tiles away took none of the Mirrorback araxyte's reflected damage.
