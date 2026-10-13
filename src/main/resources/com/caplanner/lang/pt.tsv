@@ -1,0 +1,292 @@
+# Portuguese (Brazil). English as the plugin writes it, tab, Portuguese. "{}" stands for a name or a number;
+# "{1}", "{2}" put it back. Names the game gives (items, bosses, spells, prayers, tasks) are left in English.
+#
+# ---- tabs and header
+Bosses	Bosses
+All	Todas
+Unlock	Desbloquear
+Autopilot	Piloto automático
+Search	Buscar
+Tasks grouped by boss	Tasks agrupadas por boss
+Every task, with filters	Todas as tasks, com filtros
+What would open the most tasks	O que liberaria mais tasks
+Say how long you have: it names the boss and the next task, one after another	Diga quanto tempo você tem: ele indica o boss e a próxima task, uma depois da outra
+{} / {} points · {} tasks you can do now	{1} / {2} pontos · {3} tasks liberadas
+Bank: {} items seen	Banco: {1} itens vistos
+Bank not seen yet: open it once	Banco ainda não visto: abra uma vez
+Log in to read your tasks	Entre no jogo pra ler as suas tasks
+The game's task list could not be read. The plugin may need an update.	Não deu pra ler a lista de tasks do jogo. O plugin pode precisar de atualização.
+Nothing to show yet. The task list comes from the game after you log in.	Nada pra mostrar ainda. A lista de tasks vem do jogo depois que você entra.
+#
+# ---- filters
+Left to do only	Só o que falta
+Can do now only	Só o que dá agora
+Every tier	Todos os níveis
+Every type	Todos os tipos
+Easiest first	Mais fáceis primeiro
+Most points first	Mais pontos primeiro
+Best value first	Melhor custo-benefício primeiro
+Best value: the points, cut down when few players have done the task	Custo-benefício: os pontos, reduzidos quando poucos jogadores fizeram a task
+Easy	Easy
+Medium	Medium
+Hard	Hard
+Elite	Elite
+Master	Master
+Grandmaster	Grandmaster
+Stamina	Resistência
+Perfection	Perfeição
+Kill Count	Número de kills
+Mechanical	Mecânica
+Restriction	Restrição
+Speed	Tempo
+Other	Outro
+#
+# ---- lists
+CAN DO NOW	DÁ PRA FAZER AGORA
+CAN DO NOW ({})	DÁ PRA FAZER AGORA ({1})
+NEEDS A GROUP ({})	PRECISA DE GRUPO ({1})
+MISSING REQUIREMENTS ({})	FALTA REQUISITO ({1})
+DONE ({})	FEITAS ({1})
+NEEDS A GROUP	PRECISA DE GRUPO
+MISSING REQUIREMENTS	FALTA REQUISITO
+DONE	FEITAS
+No boss with that name	Nenhum boss com esse nome
+All {} done	Todas as {1} feitas
+None you can do now	Nenhuma dá agora
++ {} more · type or filter to narrow	+ {1} · digite ou filtre pra reduzir
+All bosses	Todos os bosses
+All tasks	Todas as tasks
+Everything missing	Tudo o que falta
+#
+# ---- unlock tab
+{} of these {} tasks need nothing else.	{1} dessas {2} tasks não precisam de mais nada.
+Opens none by itself	Sozinho não libera nenhuma
+Opens {} task	Libera {1} task
+Opens {} tasks	Libera {1} tasks
+helps with {} more	ajuda em mais {1}
+Nothing is missing: every task left is one you can attempt.	Não falta nada: toda task que resta você já pode tentar.
+Nothing missing with that name.	Nada faltando com esse nome.
+#
+# ---- reasons
+Finish {}	Termine {1}
+Start {}	Comece {1}
+{} (you have {})	{1} (você tem {2})
+Only on a Slayer task: {}	Só em Slayer task: {1}
+Needs more than one player	Precisa de mais de um jogador
+Needs a weapon that can harm it: {}	Precisa de uma arma que cause dano nele: {1}
+Needs {} to wear	Precisa vestir {1}
+Needs {}	Precisa de {1}
+Complete the Gauntlet once	Complete a Gauntlet uma vez
+Complete the Theatre of Blood once	Complete o Theatre of Blood uma vez
+Give a fire cape to TzHaar-Ket-Keh	Entregue uma fire cape ao TzHaar-Ket-Keh
+Wilderness Medium diary, or the boss as a Slayer task	Diary Medium da Wilderness, ou o boss como Slayer task
+· {}	· {1}
+◂ {}	◂ {1}
+#
+# ---- task page
+OBJECTIVE	OBJETIVO
+Done	Feita
+You can do this now	Você pode fazer agora
+You have what it needs, but not alone	Você tem o que precisa, mas não dá sozinho
+You cannot do this yet	Você ainda não pode fazer
+Done by {} of players	Feita por {1} dos jogadores
+NOTES OF THIS PLUGIN	NOTAS DESTE PLUGIN
+HOW, FROM THE OSRS WIKI	DA OSRS WIKI (EM INGLÊS)
+Text of the Old School RuneScape Wiki (oldschool.runescape.wiki) and its contributors, shortened, under the CC BY-NC-SA 3.0 licence.	Texto da Old School RuneScape Wiki (oldschool.runescape.wiki) e de seus colaboradores, resumido, sob a licença CC BY-NC-SA 3.0.
+Translated by the plugin: it may be wrong. The game's own words are below.	Traduzido pelo plugin: pode ter erro. O texto original do jogo está abaixo.
+IN THE GAME'S WORDS	NO TEXTO DO JOGO
+#
+# ---- autopilot
+How long do you have?	Quanto tempo você tem?
+It names the boss worth the most in that time and the next task to go for there, one after another, among the tasks you can do now. It moves on when the game marks a task as done.	Ele indica o boss que mais vale nesse tempo e a próxima task a tentar lá, uma depois da outra, entre as que você pode fazer agora. Passa pra próxima quando o jogo marca a task como feita.
+30 minutes	30 minutos
+1 to 2 hours	1 a 2 horas
+More than 2 hours	Mais de 2 horas
+Bosses that fit a sitting of that length	Bosses que cabem nesse tempo
+FOR {}	PRA {1}
+Done: {}.	Feita: {1}.
+Nothing you can do now fits that time. Pick a longer one, or see the Unlock tab for what would open more.	Nada do que você pode fazer agora cabe nesse tempo. Escolha um tempo maior, ou veja na aba Desbloquear o que liberaria mais.
+Nothing else fits that time besides what you set aside.	Nada mais cabe nesse tempo além do que você deixou de lado.
+Bring back what I set aside	Trazer de volta o que deixei de lado
+Tasks and bosses you skipped in this sitting	Tasks e bosses que você pulou nesta sessão
+Change the time	Mudar o tempo
+Say again how long you have	Dizer de novo quanto tempo você tem
+{} task you can do here now	{1} task que dá pra fazer aqui agora
+{} tasks you can do here now	{1} tasks que dá pra fazer aqui agora
+NEXT	PRÓXIMA
+Skip this task	Pular esta task
+Leave it for another sitting	Deixar pra outra sessão
+Another boss	Outro boss
+Leave this boss for another sitting	Deixar este boss pra outra sessão
+AFTER THIS, HERE	DEPOIS DESTA, AQUI
+#
+# ---- gear card
+GEAR FROM YOUR BANK	GEAR DO SEU BANCO
+Picked for the part of this task's rule a set can follow. There is more to it: read the objective.	Escolhido pela parte da regra desta task que um set consegue seguir. Ela pede mais que isso: leia o objetivo.
+This task has a rule of its own that a set cannot follow. Read the objective: what is below is only what deals the most.	Esta task tem uma regra própria que um set não consegue seguir. Leia o objetivo: o que está abaixo é só o que causa mais dano.
+Picked for this task's own rule.	Escolhido pela regra desta task.
+Open your bank once, so the plugin knows what you own.	Abra o banco uma vez, pra o plugin saber o que você tem.
+No gear or inventory is worked out for this one yet: raids, the Gauntlet (where nothing is taken in) and fights that are not about damage are left out.	Ainda não há gear nem mochila pra este: raids, a Gauntlet (onde não se leva nada) e lutas que não são de dano ficam de fora.
+Nothing you own fits this task's rule, as far as the plugin can tell.	Nada do que você tem serve pra regra desta task, até onde o plugin sabe.
+Nothing you own can hit it, as far as the plugin can tell.	Nada do que você tem consegue acertar ele, até onde o plugin sabe.
+You own what this task asks for: {}. The plugin has no damage figures for that weapon, so it picks no set around it.	Você tem o que esta task pede: {1}. O plugin não tem números de dano pra essa arma, então não monta um set em volta dela.
+Working it out...	Calculando...
+Worn for: {}	Vestido pra: {1}
+Melee	Melee
+Ranged	Ranged
+Magic	Magic
+{} damage a second	{1} de dano por segundo
+{} of hitting	{1} batendo
+{} damage a second with these on	{1} de dano por segundo com estas peças
+casting {}	lançando {1}
+Counted casting {}: bring the runes for it.	Contado lançando {1}: leve as runas dele.
+Worn because the fight needs it. {}	Vestido porque a luta exige. {1}
+Must be worn here and is not in your bank. {}	Tem que vestir aqui e não está no seu banco. {1}
+The limit is {}. By damage alone this set fits, with {} to spare for everything else.	O limite é {1}. Só pelo dano este set cabe, com {2} de folga pra todo o resto.
+The limit is {}. By damage alone this set is {} over it, before anything else in the fight.	O limite é {1}. Só pelo dano este set passa {2} do limite, antes de qualquer outra coisa da luta.
+TO CHANGE INTO FOR: {}	PRA TROCAR EM: {1}
+Nothing you own does this part, as far as the plugin can tell.	Nada do que você tem resolve esta parte, até onde o plugin sabe.
+The set you wear does this part too.	O set vestido também resolve esta parte.
+An empty slot means nothing you own adds damage there. Counted with your best prayer and a super combat potion, without special attacks.	Slot vazio quer dizer que nada do que você tem soma dano ali. Contado com o seu melhor prayer e uma Super combat potion, sem special attacks.
+An empty slot means nothing you own adds damage there. Counted with your best prayer and a ranging potion, without special attacks.	Slot vazio quer dizer que nada do que você tem soma dano ali. Contado com o seu melhor prayer e uma Ranging potion, sem special attacks.
+An empty slot means nothing you own adds damage there. Counted with your best prayer, without special attacks.	Slot vazio quer dizer que nada do que você tem soma dano ali. Contado com o seu melhor prayer, sem special attacks.
+What to wear only: the inventory is yours to fill.	Só o que vestir: a mochila é com você.
+INVENTORY TO EXPECT	MOCHILA ESPERADA
+INVENTORY TO EXPECT (PROVISIONAL)	MOCHILA ESPERADA (PROVISÓRIA)
+Provisional: the amounts are those of the OSRS Wiki's inventory for this boss, filled with what you own. This plugin has not gone through the fight yet.	Provisória: as quantidades são as do inventário da OSRS Wiki pra este boss, preenchidas com o que você tem. O plugin ainda não passou por esta luta.
+The wiki's inventory also has, and you do not own: {}.	O inventário da wiki também leva, e você não tem: {1}.
+The wiki also carries pieces to change into ({}): this fight may ask for switches, which are not worked out yet.	A wiki também carrega peças de troca ({1}): esta luta pode pedir switches, que ainda não são calculados.
+Under construction for this boss. The set above is what to wear; the inventory is yours to fill for now.	Em construção pra este boss. O set acima é o que vestir; por enquanto a mochila é com você.
+Needed here. {}	Necessário aqui. {1}
+Needed here and not in your bank. {}	Necessário aqui e não está no seu banco. {1}
+Supplies are only ones you own; what the fight needs is listed either way. A place to start from: the amounts and your switches are yours to settle.	Os supplies são só os que você tem; o que a luta exige aparece de qualquer jeito. É um ponto de partida: as quantidades e os seus switches são com você.
+{} (not in your bank)	{1} (não está no seu banco)
+#
+# ---- way and setup
+Mark the way on the map	Marcar o caminho no mapa
+The way there: under construction for this boss.	O caminho até lá: em construção pra este boss.
+Asks your route plugin (Shortest Path or GPS) for the way to {}	Pede ao seu plugin de rota (Shortest Path ou GPS) o caminho até {1}
+To have the way there marked on the map, install the Shortest Path plugin or the GPS plugin from the Plugin Hub and turn it on.	Pra ter o caminho marcado no mapa, instale o plugin Shortest Path ou o GPS pelo Plugin Hub e ligue ele.
+To turn this set into a setup you can pull from the bank, install the Inventory Setups plugin from the Plugin Hub and turn it on.	Pra transformar este set num setup que você puxa do banco, instale o plugin Inventory Setups pelo Plugin Hub e ligue ele.
+Put this set in Inventory Setups	Pôr este set no Inventory Setups
+Creates the setup "{}" there and shows it	Cria o setup "{1}" lá e mostra
+Saved as "{}". Open your bank to see it.	Salvo como "{1}". Abra o banco pra ver.
+1. Copy the setup text	1. Copiar o texto do setup
+Copies the set as text for Inventory Setups' Import setup	Copia o set como texto pro Import setup do Inventory Setups
+Copied. Now, in Inventory Setups: Import setup, paste. It is saved as "{}"; if you already have one of that name, delete it first or the new one gets another name.	Copiado. Agora, no Inventory Setups: Import setup, colar. Fica salvo como "{1}"; se você já tem um com esse nome, apague antes, senão o novo ganha outro nome.
+The clipboard is busy. Try again.	A área de transferência está ocupada. Tente de novo.
+2. Show it in the bank	2. Mostrar no banco
+After you imported it: opens "{}" in Inventory Setups	Depois de importar: abre "{1}" no Inventory Setups
+Inventory Setups is not installed or is turned off.	O Inventory Setups não está instalado ou está desligado.
+Could not save the setup.	Não deu pra salvar o setup.
+Inventory Setups did not start again: turn it on in the plugin list.	O Inventory Setups não religou: ligue ele na lista de plugins.
+#
+# ---- report a bug
+Bug or suggestion	Bug ou sugestão
+Something here is wrong, or could be better? Write what, and send it with what the planner gave	Algo aqui está errado, ou podia ser melhor? Escreva o quê, e envie junto com o que o planner mostrou
+What is wrong, or what would you like? Say what you expected instead.	O que está errado, ou o que você gostaria? Diga o que você esperava no lugar.
+This is what is posted with it. It has no name of yours or of your account:	É isto que vai junto. Não tem o seu nome nem o da sua conta:
+Nothing is sent from here: you post it on the page that opens, or copy it.	Nada é enviado daqui: você publica na página que abre, ou copia.
+Open the report on GitHub	Abrir o report no GitHub
+Send the report	Enviar o report
+Sending...	Enviando...
+Sent. Thank you.	Enviado. Obrigado.
+It did not go. Try again, or use one of the other two.	Não foi. Tente de novo, ou use um dos outros dois.
+"Send" sends what is above, and nothing else, to the plugin's author. Nothing goes until you press it.	"Enviar" manda o que está acima, e mais nada, pro autor do plugin. Nada vai até você apertar.
+Opened in your browser: post it there. It needs a GitHub account.	Abriu no navegador: publique lá. Precisa de conta no GitHub.
+Copy the report	Copiar o report
+Copied.	Copiado.
+Close	Fechar
+#
+# ---- what an item is for (the inventory)
+runes for your spells	runas pros seus spells
+thralls	thralls
+the way out	a saída
+to finish it off	pra dar o golpe final
+to finish them off	pra dar o golpe final
+to enter the crypts	pra entrar nas criptas
+to dig into the lair	pra cavar até a toca
+a light, unless the Fire of Eternal Light burns there	uma luz, a não ser que o Fire of Eternal Light esteja aceso lá
+one totem a fight	um totem por luta
+starts the fight	começa a luta
+to cross into the Eyrie	pra atravessar pro Eyrie
+any crossbow, to fire the grapple	qualquer crossbow, pra disparar o grapple
+to ring the gong at the door	pra tocar o gongo da porta
+two to climb down, until the Desert Hard diary makes them stay	duas pra descer, até o Desert Hard diary deixar elas fixas
+poison	veneno
+venom	venom
+dragonfire	dragonfire
+to mine	pra minerar
+opens the chest	abre o baú
+the floor of the Karuulm dungeon burns without them	o chão da Karuulm dungeon queima sem elas
+its gaze	o olhar dele
+its stench	o fedor dele
+its smoke	a fumaça dele
+Only leaf-bladed weapons, broad arrows or bolts, and Magic Dart harm it. The set is picked among leaf-bladed weapons only.	Só armas leaf-bladed, broad arrows ou bolts e Magic Dart causam dano nele. O set é escolhido só entre armas leaf-bladed.
+#
+# ---- fights of several parts
+Green and red forms	Formas verde e vermelha
+Blue form	Forma azul
+The blue form shrugs off magic.	A forma azul quase não toma magic.
+Ranged form, and the shield	Forma ranged, e o escudo
+Melee form	Forma melee
+Its magic defence is far the lower in this form.	A defesa de magic dele é bem menor nesta forma.
+Dusk takes only melee.	Dusk só toma melee.
+Dawn flies: ranged, magic or a halberd.	Dawn voa: ranged, magic ou halberd.
+The Titans, within reach	Os Titans, ao alcance
+The Titans, out of reach	Os Titans, fora do alcance
+Ranged is six times as accurate on a Titan that has stepped back.	Ranged acerta seis vezes mais num Titan que recuou.
+Elementals and walls	Elementais e paredes
+A fire and a water spell: elementals die to the opposite element, walls to Blast spells or better.	Um spell de fogo e um de água: elementais morrem pro elemento oposto, paredes pra spells Blast ou melhores.
+Her shield	O escudo dela
+Totems	Totems
+Sleepwalkers die to any hit: be quick, or hit several at once. Husks hold you until they die.	Sleepwalkers morrem com qualquer hit: seja rápido, ou acerte vários de uma vez. Husks te prendem até morrerem.
+Totems take twice the damage from magic.	Totems tomam o dobro de dano de magic.
+Only magic gets through him well.	Só magic passa bem por ele.
+Only ranged gets through him well.	Só ranged passa bem por ele.
+Only melee gets through him well.	Só melee passa bem por ele.
+The three kings share the room.	Os três kings ficam na mesma sala.
+#
+# ---- counts: last, so that a longer line that ends the same way is tried first
+{} you can do now	{1} dão agora
+{} left	faltam {1}
+{} pts	{1} pts
+{} point	{1} pt
+{} points	{1} pts
+{} task	{1} task
+{} tasks	{1} tasks
++ {} more	+ {1}
+{} did it	{1} fez
+Open this task on the wiki	Abrir esta task na wiki
+Opens the page the text above is from, in your browser	Abre no navegador a página de onde veio o texto acima
+# ---- fights read again against their sheets (October 2026)
+he poisons, through prayer too	ele envenena, mesmo com a prayer
+it poisons	envenena
+he poisons	ele envenena
+its pools are venom	as poças dele são de venom
+cuts the webs on the way in (a slash weapon does too)	corta as teias do caminho (uma arma de slash também corta)
+without it its melee goes through your prayer	sem ele o melee passa pela sua prayer
+teleports out up to level 30 Wilderness	teleporta pra fora até o nível 30 da Wilderness
+Melee cannot reach it until about a third of its health is gone: start with ranged or magic.	Melee não alcança ele até cair cerca de um terço da vida: comece com ranged ou magic.
+Its zombified spawn is killed with Crumble Undead; Vorkath takes no damage while it lives.	O zombified spawn morre com Crumble Undead; o Vorkath não toma dano enquanto ele vive.
+On the way in, the followers of each god attack unless you wear an item of that god.	No caminho, os seguidores de cada deus atacam, a não ser que você vista um item daquele deus.
+Deep Wilderness: no teleport works above level 20, and only a few (a charged amulet of glory, the Royal seed pod) up to level 30. The way out is on foot, down to where yours works.	Wilderness funda: nenhum teleporte funciona acima do nível 20, e só alguns (amulet of glory com carga, Royal seed pod) até o nível 30. A saída é a pé, até onde o seu funciona.
+This task forbids some of the usual supplies: they are left out of the inventory below.	Esta task proíbe alguns dos supplies de sempre: eles ficam fora da mochila abaixo.
+First form	Primeira forma
+Second form	Segunda forma
+Her first form shrugs off ranged and magic.	A primeira forma quase não toma ranged nem magic.
+Her second form shrugs off melee.	A segunda forma quase não toma melee.
+The Sire	O Sire
+Respiratory systems	Respiratory systems
+They take only ranged, magic or a halberd.	Só tomam dano de ranged, magic ou halberd.
+Until it protects against your style	Até ele proteger contra o seu estilo
+Once it does	Depois que proteger
+It protects against the style that last hurt it, again every 150 hitpoints it loses: two styles are needed.	Ele protege contra o último estilo que causou dano, de novo a cada 150 de vida perdida: precisa de dois estilos.
+The Judge, with magic	O Judge, com magic
+Between phases. The Judge protects against ranged, and against whichever of melee and magic last hit it: change between a melee weapon and this. Every hit on it lands, and a weapon of several hits counts one.	Entre as fases. O Judge protege contra ranged e contra o último entre melee e magic que o acertou: alterne entre uma arma de melee e esta. Todo golpe nele acerta, e arma de vários hits conta um só.
+HOW TO PUT IT IN INVENTORY SETUPS	COMO COLOCAR NO INVENTORY SETUPS
+1. Press "1. Copy the setup text" above.	1. Aperte "1. Copiar o texto do setup" acima.
+2. Open the Inventory Setups panel on RuneLite's side bar.	2. Abra o painel do Inventory Setups na barra lateral do RuneLite.
+3. Click the import button at the top of it ("Import a new setup or section") and pick "Import setup..".	3. Clique no botão de importar no topo dele ("Import a new setup or section") e escolha "Import setup..".
+4. Paste with Ctrl+V and confirm: "{}" is added to your setups.	4. Cole com Ctrl+V e confirme: "{1}" entra nos seus setups.
+5. Press "2. Show it in the bank" above, or open your bank and pick it.	5. Aperte "2. Mostrar no banco" acima, ou abra o banco e escolha ele.

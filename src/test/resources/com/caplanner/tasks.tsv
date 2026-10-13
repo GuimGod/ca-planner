@@ -1,0 +1,655 @@
+0	Aberrant Spectre	Noxious Foe	Kill Count
+1	Abyssal Sire	Abyssal Adept	Kill Count
+2	Abyssal Sire	Abyssal Veteran	Kill Count
+3	Abyssal Sire	They Grow Up Too Fast	Mechanical
+4	Abyssal Sire	Respiratory Runner	Mechanical
+5	Abyssal Sire	Don't Whip Me	Mechanical
+6	Abyssal Sire	Demonic Rebound	Mechanical
+7	Abyssal Sire	Don't Stop Moving	Perfection
+8	Abyssal Sire	Perfect Sire	Perfection
+9	Kree'arra	Kree'arra Adept	Kill Count
+10	Kree'arra	Kree'arra Veteran	Kill Count
+11	Kree'arra	Collateral Damage	Mechanical
+12	Kree'arra	Airborne Showdown	Mechanical
+13	Kree'arra	Swoop No More	Perfection
+14	Kree'arra	The Worst Ranged Weapon	Restriction
+15	Kree'arra	Feather Hunter	Stamina
+16	General Graardor	General Graardor Adept	Kill Count
+17	General Graardor	General Graardor Veteran	Kill Count
+18	General Graardor	Ourg Freezer	Mechanical
+19	General Graardor	Ourg Freezer II	Mechanical
+20	General Graardor	General Showdown	Mechanical
+21	General Graardor	Defence Matters	Perfection
+22	General Graardor	Keep Away	Perfection
+23	General Graardor	Ourg Killer	Stamina
+24	Barrows	Barrows Novice	Kill Count
+25	Barrows	Barrows Champion	Kill Count
+26	Barrows	Can't Touch Me	Mechanical
+27	Barrows	Pray for Success	Perfection
+28	Barrows	Defence? What Defence?	Restriction
+29	Barrows	Just Like That	Restriction
+30	Barrows	Faithless Crypt Run	Restriction
+31	Basilisk Knight	Reflecting on This Encounter	Kill Count
+32	Black Dragon	Big, Black and Fiery	Kill Count
+33	Bloodveld	The Demonic Punching Bag	Kill Count
+34	Brutal Black Dragon	Brutal, Big, Black and Firey	Kill Count
+35	Bryophyta	Bryophyta Novice	Kill Count
+36	Bryophyta	Bryophyta Champion	Kill Count
+37	Bryophyta	Protection from Moss	Mechanical
+38	Bryophyta	Quick Cutter	Mechanical
+39	Bryophyta	Preparation Is Key	Perfection
+40	Bryophyta	A Slow Death	Restriction
+41	Bryophyta	Fighting as Intended II	Restriction
+42	Callisto	Callisto Adept	Kill Count
+43	Callisto	Callisto Veteran	Kill Count
+44	Skotizo	Skotizo Champion	Kill Count
+45	Skotizo	Skotizo Adept	Kill Count
+46	Skotizo	Demonic Weakening	Mechanical
+47	Skotizo	Demon Evasion	Perfection
+48	Skotizo	Demonbane Weaponry	Restriction
+49	Skotizo	Up for the Challenge	Restriction
+50	Skotizo	Precise Positioning	Restriction
+51	Cerberus	Cerberus Veteran	Kill Count
+52	Cerberus	Cerberus Master	Kill Count
+53	Cerberus	Arooo No More	Mechanical
+54	Cerberus	Ghost Buster	Mechanical
+55	Cerberus	Unrequired Antifire	Perfection
+56	Cerberus	Anti-Bite Mechanics	Perfection
+57	Chaos Elemental	Chaos Elemental Adept	Kill Count
+58	Chaos Elemental	Chaos Elemental Veteran	Kill Count
+59	Chaos Elemental	Hoarder	Mechanical
+60	Chaos Elemental	The Flincher	Perfection
+61	Chaos Fanatic	Chaos Fanatic Champion	Kill Count
+62	Chaos Fanatic	Chaos Fanatic Adept	Kill Count
+63	Chaos Fanatic	Sorry, What Was That?	Perfection
+64	Chaos Fanatic	Praying to the Gods	Restriction
+65	Corporeal Beast	Corporeal Beast Veteran	Kill Count
+66	Corporeal Beast	Corporeal Beast Master	Kill Count
+67	Corporeal Beast	Hot on Your Feet	Perfection
+68	Corporeal Beast	Finding the Weak Spot	Restriction
+69	Corporeal Beast	Chicken Killer	Restriction
+70	Crazy Archaeologist	Crazy Archaeologist Champion	Kill Count
+71	Crazy Archaeologist	Crazy Archaeologist Adept	Kill Count
+72	Crazy Archaeologist	Mage of the Ruins	Mechanical
+73	Crazy Archaeologist	I'd Rather Not Learn	Perfection
+74	Demonic Gorilla	If Gorillas Could Fly	Kill Count
+75	Demonic Gorilla	Hitting Them Where It Hurts	Restriction
+76	Deranged Archaeologist	Deranged Archaeologist Novice	Kill Count
+77	Deranged Archaeologist	Deranged Archaeologist Champion	Kill Count
+78	Deranged Archaeologist	Mage of the Swamp	Mechanical
+79	Deranged Archaeologist	I'd Rather Be Illiterate	Perfection
+80	Fire Giant	The Walking Volcano	Kill Count
+81	Galvek	Galvek Speed-Trialist	Speed
+82	Grotesque Guardians	Grotesque Guardians Adept	Kill Count
+83	Grotesque Guardians	Grotesque Guardians Veteran	Kill Count
+84	Grotesque Guardians	Don't Look at the Eclipse	Mechanical
+85	Grotesque Guardians	Prison Break	Mechanical
+86	Grotesque Guardians	Granite Footwork	Mechanical
+87	Grotesque Guardians	Heal No More	Mechanical
+88	Grotesque Guardians	Static Awareness	Mechanical
+89	Grotesque Guardians	Done before Dusk	Mechanical
+90	Grotesque Guardians	Perfect Grotesque Guardians	Perfection
+91	Grotesque Guardians	Perfect Grotesque Guardians II	Perfection
+92	Grotesque Guardians	Grotesque Guardians Speed-Trialist	Speed
+93	Grotesque Guardians	Grotesque Guardians Speed-Chaser	Speed
+94	Grotesque Guardians	Grotesque Guardians Speed-Runner	Speed
+95	Grotesque Guardians	From Dusk...	Stamina
+96	Grotesque Guardians	... 'til Dawn	Stamina
+97	Gargoyle	A Smashing Time	Kill Count
+98	Corrupted Hunllef	Corrupted Gauntlet Veteran	Kill Count
+99	Corrupted Hunllef	Corrupted Gauntlet Master	Kill Count
+100	Corrupted Hunllef	Corrupted Gauntlet Grandmaster	Kill Count
+101	Corrupted Hunllef	3, 2, 1 - Mage	Perfection
+102	Corrupted Hunllef	Perfect Corrupted Hunllef	Perfection
+103	Corrupted Hunllef	Defence Doesn't Matter II	Restriction
+104	Corrupted Hunllef	Egniol Diet II	Restriction
+105	Corrupted Hunllef	Corrupted Warrior	Restriction
+106	Corrupted Hunllef	Wolf Puncher II	Restriction
+107	Corrupted Hunllef	Corrupted Gauntlet Speed-Chaser	Speed
+108	Corrupted Hunllef	Corrupted Gauntlet Speed-Runner	Speed
+109	Crystalline Hunllef	Gauntlet Veteran	Kill Count
+110	Crystalline Hunllef	Gauntlet Master	Kill Count
+111	Crystalline Hunllef	3, 2, 1 - Range	Perfection
+112	Crystalline Hunllef	Perfect Crystalline Hunllef	Perfection
+113	Crystalline Hunllef	Defence Doesn't Matter	Restriction
+114	Crystalline Hunllef	Egniol Diet	Restriction
+115	Crystalline Hunllef	Crystalline Warrior	Restriction
+116	Crystalline Hunllef	Wolf Puncher	Restriction
+117	Crystalline Hunllef	Gauntlet Speed-Chaser	Speed
+118	Crystalline Hunllef	Gauntlet Speed-Runner	Speed
+119	Glough	Glough Speed-Trialist	Speed
+120	Greater Demon	A Greater Foe	Kill Count
+121	Greater Demon	Not So Great After All	Restriction
+122	Hellhound	A Demon's Best Friend	Kill Count
+123	Hespori	Hespori Adept	Kill Count
+124	Hespori	Hesporisn't	Mechanical
+125	Hespori	Weed Whacker	Mechanical
+126	Hespori	Plant-Based Diet	Restriction
+127	Hespori	Hespori Speed-Trialist	Speed
+128	Hespori	Hespori Speed-Chaser	Speed
+129	Obor	Obor Novice	Kill Count
+130	Obor	Obor Champion	Kill Count
+131	Obor	Sleeping Giant	Mechanical
+132	Obor	Back to the Wall	Mechanical
+133	Obor	Squashing the Giant	Perfection
+134	Obor	Fighting as Intended	Restriction
+135	Alchemical Hydra	Alchemical Veteran	Kill Count
+136	Alchemical Hydra	Alchemical Master	Kill Count
+137	Alchemical Hydra	Unrequired Antipoisons	Mechanical
+138	Alchemical Hydra	Lightning Lure	Mechanical
+139	Alchemical Hydra	Don't Flame Me	Mechanical
+140	Alchemical Hydra	Mixing Correctly	Mechanical
+141	Alchemical Hydra	The Flame Skipper	Mechanical
+142	Alchemical Hydra	Alcleanical Hydra	Perfection
+143	Alchemical Hydra	No Pressure	Restriction
+144	Alchemical Hydra	Alchemical Speed-Chaser	Speed
+145	Alchemical Hydra	Alchemical Speed-Runner	Speed
+146	Alchemical Hydra	Working Overtime	Stamina
+147	TzTok-Jad	Fight Caves Veteran	Kill Count
+148	TzTok-Jad	Fight Caves Master	Kill Count
+149	TzTok-Jad	A Near Miss!	Mechanical
+150	TzTok-Jad	Denying the Healers	Mechanical
+151	TzTok-Jad	Denying the Healers II	Mechanical
+152	TzTok-Jad	You Didn't Say Anything About a Bat	Mechanical
+153	TzTok-Jad	Facing Jad Head-on	Restriction
+154	TzTok-Jad	No Time for a Drink	Restriction
+155	TzTok-Jad	Fight Caves Speed-Chaser	Speed
+156	TzTok-Jad	Fight Caves Speed-Runner	Speed
+157	Kalphite Queen	Kalphite Queen Adept	Kill Count
+158	Kalphite Queen	Kalphite Queen Veteran	Kill Count
+159	Kalphite Queen	Chitin Penetrator	Mechanical
+160	Kalphite Queen	Insect Deflection	Mechanical
+161	Kalphite Queen	Prayer Smasher	Restriction
+162	King Black Dragon	King Black Dragon Novice	Kill Count
+163	King Black Dragon	King Black Dragon Champion	Kill Count
+164	King Black Dragon	Claw Clipper	Mechanical
+165	King Black Dragon	Hide Penetration	Restriction
+166	King Black Dragon	Antifire Protection	Restriction
+167	King Black Dragon	Who Is the King Now?	Stamina
+168	Kraken	Kraken Adept	Kill Count
+169	Kraken	Unnecessary Optimisation	Mechanical
+170	Kraken	Krakan't Hurt Me	Stamina
+171	Kraken	Ten-tacles	Stamina
+172	Kraken	One Hundred Tentacles	Stamina
+173	Kurask	Master of Broad Weaponry	Kill Count
+174	Lizardman Shaman	A Scaley Encounter	Kill Count
+175	Lizardman Shaman	Shayzien Protector	Perfection
+176	The Mimic	Mimic Veteran	Kill Count
+177	Giant Mole	Giant Mole Novice	Kill Count
+178	Giant Mole	Giant Mole Champion	Kill Count
+179	Giant Mole	Why Are You Running?	Mechanical
+180	Giant Mole	Hard Hitter	Mechanical
+181	Giant Mole	Whack-a-Mole	Mechanical
+182	Giant Mole	Avoiding Those Little Arms	Perfection
+183	The Nightmare	Nightmare Adept	Kill Count
+184	The Nightmare	Nightmare Veteran	Kill Count
+185	The Nightmare	Nightmare Master	Kill Count
+186	The Nightmare	Terrible Parent	Mechanical
+187	The Nightmare	Explosion!	Mechanical
+188	The Nightmare	Perfect Nightmare	Perfection
+189	The Nightmare	Sleep Tight	Restriction
+190	The Nightmare	A Long Trip	Restriction
+191	The Nightmare	Nightmare (Solo) Speed-Trialist	Speed
+192	The Nightmare	Nightmare (Solo) Speed-Chaser	Speed
+193	The Nightmare	Nightmare (Solo) Speed-Runner	Speed
+194	The Nightmare	Nightmare (5-Scale) Speed-Trialist	Speed
+195	The Nightmare	Nightmare (5-Scale) Speed-Chaser	Speed
+196	The Nightmare	Nightmare (5-Scale) Speed-Runner	Speed
+197	Dagannoth Prime	Dagannoth Prime Champion	Kill Count
+198	Dagannoth Prime	Dagannoth Prime Adept	Kill Count
+199	Dagannoth Prime	Death to the Seer King	Mechanical
+200	Dagannoth Prime	From One King to Another	Mechanical
+201	Dagannoth Rex	Dagannoth Rex Champion	Kill Count
+202	Dagannoth Rex	Dagannoth Rex Adept	Kill Count
+203	Dagannoth Rex	Death to the Warrior King	Mechanical
+204	Dagannoth Rex	A Frozen King	Mechanical
+205	Dagannoth Rex	Toppling the Diarchy	Mechanical
+206	Sarachnis	Sarachnis Novice	Kill Count
+207	Sarachnis	Sarachnis Champion	Kill Count
+208	Sarachnis	Ready to Pounce	Mechanical
+209	Sarachnis	Inspect Repellent	Perfection
+210	Sarachnis	Newspaper Enthusiast	Restriction
+211	Commander Zilyana	Commander Zilyana Adept	Kill Count
+212	Commander Zilyana	Commander Zilyana Veteran	Kill Count
+213	Commander Zilyana	Commander Showdown	Mechanical
+214	Commander Zilyana	Animal Whisperer	Perfection
+215	Commander Zilyana	Moving Collateral	Restriction
+216	Commander Zilyana	Reminisce	Restriction
+217	Commander Zilyana	Peach Conjurer	Stamina
+218	Scorpia	Scorpia Adept	Kill Count
+219	Scorpia	Scorpia Veteran	Kill Count
+220	Scorpia	I Can't Reach That	Perfection
+221	Scorpia	Guardians No More	Restriction
+222	Fragment of Seren	Fragment of Seren Speed-Trialist	Speed
+223	Skeletal Wyvern	A Frozen Foe from the Past	Kill Count
+224	Zulrah	Zulrah Adept	Kill Count
+225	Zulrah	Zulrah Veteran	Kill Count
+226	Zulrah	Zulrah Master	Kill Count
+227	Zulrah	Snake Rebound	Mechanical
+228	Zulrah	Snake. Snake!? Snaaaaaake!	Mechanical
+229	Zulrah	Perfect Zulrah	Perfection
+230	Zulrah	Zulrah Speed-Trialist	Speed
+231	Zulrah	Zulrah Speed-Chaser	Speed
+232	Zulrah	Zulrah Speed-Runner	Speed
+233	Dagannoth Supreme	Dagannoth Supreme Champion	Kill Count
+234	Dagannoth Supreme	Dagannoth Supreme Adept	Kill Count
+235	Dagannoth Supreme	Death to the Archer King	Mechanical
+236	Dagannoth Supreme	Rapid Succession	Mechanical
+237	Theatre of Blood	Theatre of Blood Veteran	Kill Count
+238	Theatre of Blood	Theatre of Blood Master	Kill Count
+239	Theatre of Blood	Theatre of Blood Grandmaster	Kill Count
+240	Theatre of Blood	Two-Down	Mechanical
+241	Theatre of Blood	Pop It	Mechanical
+242	Theatre of Blood	A Timely Snack	Mechanical
+243	Theatre of Blood	Perfect Theatre	Perfection
+244	Theatre of Blood	Perfect Maiden	Perfection
+245	Theatre of Blood	Perfect Bloat	Perfection
+246	Theatre of Blood	Perfect Nylocas	Perfection
+247	Theatre of Blood	Perfect Sotetseg	Perfection
+248	Theatre of Blood	Perfect Xarpus	Perfection
+249	Theatre of Blood	Perfect Verzik	Perfection
+250	Theatre of Blood	Can't Drain This	Restriction
+251	Theatre of Blood	Can You Dance?	Restriction
+252	Theatre of Blood	Morytania Only	Restriction
+253	Theatre of Blood	Back in My Day...	Restriction
+254	Theatre of Blood	Theatre (Duo) Speed-Runner	Speed
+255	Theatre of Blood	Theatre (Trio) Speed-Chaser	Speed
+256	Theatre of Blood	Theatre (Trio) Speed-Runner	Speed
+257	Theatre of Blood	Theatre (4-Scale) Speed-Chaser	Speed
+258	Theatre of Blood	Theatre (4-Scale) Speed-Runner	Speed
+259	Theatre of Blood	Theatre (5-Scale) Speed-Chaser	Speed
+260	Theatre of Blood	Theatre (5-Scale) Speed-Runner	Speed
+261	Thermonuclear Smoke Devil	Thermonuclear Veteran	Kill Count
+262	Thermonuclear Smoke Devil	Hazard Prevention	Perfection
+263	Thermonuclear Smoke Devil	Spec'd Out	Restriction
+264	Venenatis	Venenatis Adept	Kill Count
+265	Venenatis	Venenatis Veteran	Kill Count
+266	Vet'ion	Vet'ion Adept	Kill Count
+267	Vet'ion	Vet'eran	Kill Count
+268	Vorkath	Vorkath Veteran	Kill Count
+269	Vorkath	Vorkath Master	Kill Count
+270	Vorkath	The Walk	Mechanical
+271	Vorkath	Zombie Destroyer	Restriction
+272	Vorkath	Dodging the Dragon	Perfection
+273	Vorkath	Stick 'em With the Pointy End	Restriction
+274	Vorkath	Faithless Encounter	Restriction
+275	Vorkath	The Fremennik Way	Restriction
+276	Vorkath	Vorkath Speed-Chaser	Speed
+277	Vorkath	Vorkath Speed-Runner	Speed
+278	Vorkath	Extended Encounter	Stamina
+279	Wintertodt	Wintertodt Novice	Kill Count
+280	Wintertodt	Wintertodt Champion	Kill Count
+281	Wintertodt	Mummy!	Mechanical
+282	Wintertodt	Handyman	Mechanical
+283	Wintertodt	Can We Fix It?	Perfection
+284	Wintertodt	Leaving No One Behind	Restriction
+285	Wintertodt	Cosy	Restriction
+286	Wintertodt	Why Fletch?	Stamina
+287	Wyrm	A Slithery Encounter	Kill Count
+288	Chambers of Xeric: Challenge Mode	Chambers of Xeric: CM Master	Kill Count
+289	Chambers of Xeric: Challenge Mode	Chambers of Xeric: CM Grandmaster	Kill Count
+290	Chambers of Xeric: Challenge Mode	Immortal Raid Team	Perfection
+291	Chambers of Xeric: Challenge Mode	Immortal Raider	Perfection
+292	Chambers of Xeric: Challenge Mode	Dust Seeker	Speed
+293	Chambers of Xeric: Challenge Mode	Chambers of Xeric: CM (Solo) Speed-Chaser	Speed
+294	Chambers of Xeric: Challenge Mode	Chambers of Xeric: CM (Solo) Speed-Runner	Speed
+295	Chambers of Xeric: Challenge Mode	Chambers of Xeric: CM (5-Scale) Speed-Chaser	Speed
+296	Chambers of Xeric: Challenge Mode	Chambers of Xeric: CM (5-Scale) Speed-Runner	Speed
+297	Chambers of Xeric: Challenge Mode	Chambers of Xeric: CM (Trio) Speed-Chaser	Speed
+298	Chambers of Xeric: Challenge Mode	Chambers of Xeric: CM (Trio) Speed-Runner	Speed
+299	Chambers of Xeric	Chambers of Xeric Veteran	Kill Count
+300	Chambers of Xeric	Chambers of Xeric Master	Kill Count
+301	Chambers of Xeric	Chambers of Xeric Grandmaster	Kill Count
+302	Chambers of Xeric	Perfectly Balanced	Mechanical
+303	Chambers of Xeric	Together We'll Fall	Mechanical
+304	Chambers of Xeric	No Time for Death	Mechanical
+305	Chambers of Xeric	Putting It Olm on the Line	Mechanical
+306	Chambers of Xeric	A Not So Special Lizard	Mechanical
+307	Chambers of Xeric	Mutta-diet	Mechanical
+308	Chambers of Xeric	Redemption Enthusiast	Mechanical
+309	Chambers of Xeric	Stop Drop and Roll	Mechanical
+310	Chambers of Xeric	Anvil No More	Mechanical
+311	Chambers of Xeric	Dancing with Statues	Perfection
+312	Chambers of Xeric	Undying Raid Team	Perfection
+313	Chambers of Xeric	Undying Raider	Perfection
+314	Chambers of Xeric	Shayzien Specialist	Perfection
+315	Chambers of Xeric	Playing with Lasers	Perfection
+316	Chambers of Xeric	Cryo No More	Perfection
+317	Chambers of Xeric	Perfect Olm (Solo)	Perfection
+318	Chambers of Xeric	Perfect Olm (Trio)	Perfection
+319	Chambers of Xeric	Blind Spot	Perfection
+320	Chambers of Xeric	Blizzard Dodger	Restriction
+321	Chambers of Xeric	Kill It with Fire	Restriction
+322	Chambers of Xeric	Chambers of Xeric (Solo) Speed-Chaser	Speed
+323	Chambers of Xeric	Chambers of Xeric (Solo) Speed-Runner	Speed
+324	Chambers of Xeric	Chambers of Xeric (5-Scale) Speed-Chaser	Speed
+325	Chambers of Xeric	Chambers of Xeric (5-Scale) Speed-Runner	Speed
+326	Chambers of Xeric	Chambers of Xeric (Trio) Speed-Chaser	Speed
+327	Chambers of Xeric	Chambers of Xeric (Trio) Speed-Runner	Speed
+328	Zalcano	Zalcano Veteran	Kill Count
+329	Zalcano	Perfect Zalcano	Perfection
+330	Zalcano	Team Player	Mechanical
+331	Zalcano	The Spurned Hero	Mechanical
+332	K'ril Tsutsaroth	K'ril Tsutsaroth Adept	Kill Count
+333	K'ril Tsutsaroth	K'ril Tsutsaroth Veteran	Kill Count
+334	K'ril Tsutsaroth	Yarr No More	Mechanical
+335	K'ril Tsutsaroth	Demonic Showdown	Mechanical
+336	K'ril Tsutsaroth	The Bane of Demons	Mechanical
+337	K'ril Tsutsaroth	Demonic Defence	Perfection
+338	K'ril Tsutsaroth	Demon Whisperer	Perfection
+339	K'ril Tsutsaroth	Demonbane Weaponry II	Restriction
+340	K'ril Tsutsaroth	Ash Collector	Stamina
+341	TzKal-Zuk	Half-Way There	Kill Count
+342	TzKal-Zuk	Inferno Grandmaster	Kill Count
+343	TzKal-Zuk	The Floor Is Lava	Mechanical
+344	TzKal-Zuk	Playing with Jads	Mechanical
+345	TzKal-Zuk	No Luck Required	Perfection
+346	TzKal-Zuk	Nibblers, Begone!	Perfection
+347	TzKal-Zuk	Wasn't Even Close	Restriction
+348	TzKal-Zuk	Budget Setup	Restriction
+349	TzKal-Zuk	Nibbler Chaser	Restriction
+350	TzKal-Zuk	Facing Jad Head-on II	Restriction
+351	TzKal-Zuk	Jad? What Are You Doing Here?	Restriction
+352	TzKal-Zuk	Inferno Speed-Runner	Speed
+353	Tempoross	Tempoross Novice	Kill Count
+354	Tempoross	Tempoross Champion	Kill Count
+355	Tempoross	Dress Like You Mean It	Restriction
+356	Tempoross	Master of Buckets	Mechanical
+357	Tempoross	Calm Before the Storm	Mechanical
+358	Tempoross	Why Cook?	Mechanical
+359	Tempoross	The Lone Angler	Perfection
+360	Tempoross	Fire in the Hole!	Mechanical
+361	TzHaar-Ket-Rak's Challenges	The II Jad Challenge	Kill Count
+362	TzHaar-Ket-Rak's Challenges	The IV Jad Challenge	Kill Count
+363	TzHaar-Ket-Rak's Challenges	The VI Jad Challenge	Kill Count
+364	TzHaar-Ket-Rak's Challenges	TzHaar-Ket-Rak's Speed-Trialist	Speed
+365	TzHaar-Ket-Rak's Challenges	TzHaar-Ket-Rak's Speed-Chaser	Speed
+366	TzHaar-Ket-Rak's Challenges	TzHaar-Ket-Rak's Speed-Runner	Speed
+367	TzHaar-Ket-Rak's Challenges	Facing Jad Head-on III	Restriction
+368	TzHaar-Ket-Rak's Challenges	Facing Jad Head-on IV	Restriction
+369	TzHaar-Ket-Rak's Challenges	Supplies? Who Needs 'em?	Perfection
+370	TzHaar-Ket-Rak's Challenges	It Wasn't a Fluke	Perfection
+371	TzHaar-Ket-Rak's Challenges	Multi-Style Specialist	Mechanical
+372	Theatre of Blood: Hard Mode	Stop Right There!	Mechanical
+373	Theatre of Blood: Hard Mode	Personal Space	Mechanical
+374	Theatre of Blood: Hard Mode	Royal Affairs	Mechanical
+375	Theatre of Blood: Hard Mode	Harder Mode I	Perfection
+376	Theatre of Blood: Hard Mode	Harder Mode II	Perfection
+377	Theatre of Blood: Hard Mode	Nylo Sniper	Mechanical
+378	Theatre of Blood: Hard Mode	Team Work Makes the Dream Work	Mechanical
+379	Theatre of Blood: Hard Mode	Harder Mode III	Restriction
+380	Theatre of Blood: Hard Mode	Pack Like a Yak	Restriction
+381	Theatre of Blood: Hard Mode	Hard Mode? Completed It	Speed
+382	Theatre of Blood: Hard Mode	Theatre: HM (Trio) Speed-Runner	Speed
+383	Theatre of Blood: Hard Mode	Theatre: HM (4-Scale) Speed-Runner	Speed
+384	Theatre of Blood: Hard Mode	Theatre: HM (5-Scale) Speed-Runner	Speed
+385	Theatre of Blood: Hard Mode	Theatre of Blood: HM Grandmaster	Kill Count
+386	Theatre of Blood: Entry Mode	Anticoagulants	Mechanical
+387	Theatre of Blood: Entry Mode	Appropriate Tools	Mechanical
+388	Theatre of Blood: Entry Mode	They Won't Expect This	Mechanical
+389	Theatre of Blood: Entry Mode	Chally Time	Mechanical
+390	Theatre of Blood: Entry Mode	Nylocas, On the Rocks	Mechanical
+391	Theatre of Blood: Entry Mode	Just To Be Safe	Mechanical
+392	Theatre of Blood: Entry Mode	Don't Look at Me!	Mechanical
+393	Theatre of Blood: Entry Mode	No-Pillar	Mechanical
+394	Theatre of Blood: Entry Mode	Attack, Step, Wait	Mechanical
+395	Theatre of Blood: Entry Mode	Pass It On	Mechanical
+396	Theatre of Blood: Entry Mode	Theatre of Blood: SM Speed-Chaser	Speed
+397	Theatre of Blood: Entry Mode	Theatre of Blood: SM Adept	Kill Count
+398	Giants	Into the Den of Giants	Kill Count
+399	None	Sit Back and Relax	Mechanical
+400	Phosani's Nightmare	Phosani's Veteran	Kill Count
+401	Phosani's Nightmare	Phosani's Master	Kill Count
+402	Phosani's Nightmare	Phosani's Grandmaster	Kill Count
+403	Phosani's Nightmare	Perfect Phosani's Nightmare	Perfection
+404	Phosani's Nightmare	Phosani's Speedchaser	Speed
+405	Phosani's Nightmare	Phosani's Speedrunner	Speed
+406	Phosani's Nightmare	Crush Hour	Mechanical
+407	Phosani's Nightmare	I Would Simply React	Mechanical
+408	Phosani's Nightmare	Dreamland Express	Mechanical
+409	Phosani's Nightmare	Can't Wake Up	Stamina
+410	Nex	Nex Veteran	Kill Count
+411	Nex	Nex Master	Kill Count
+412	Nex	Nex Survivors	Restriction
+413	Nex	A siphon will solve this	Mechanical
+414	Nex	Contain this!	Mechanical
+415	Nex	There is no escape!	Mechanical
+416	Nex	Nex Trio	Restriction
+417	Nex	Nex Duo	Restriction
+418	Nex	I should see a doctor	Restriction
+419	Nex	Perfect Nex	Perfection
+420	Nex	Shadows Move...	Mechanical
+421	Tombs of Amascut	Tombs Speed Runner	Speed
+422	Tombs of Amascut: Expert Mode	Tombs Speed Runner II	Speed
+423	Tombs of Amascut: Expert Mode	Tombs Speed Runner III	Speed
+424	Tombs of Amascut	You are not prepared	Restriction
+425	Tombs of Amascut	Helpful spirit who?	Restriction
+426	Tombs of Amascut: Expert Mode	Resourceful Raider	Restriction
+427	Tombs of Amascut: Expert Mode	But... Damage	Restriction
+428	Tombs of Amascut	Chompington	Mechanical
+429	Tombs of Amascut: Expert Mode	Fancy feet	Restriction
+430	Tombs of Amascut	Hardcore Raiders	Perfection
+431	Tombs of Amascut	Hardcore Tombs	Perfection
+432	Tombs of Amascut	Perfect Het	Perfection
+433	Tombs of Amascut	Perfect Akkha	Perfection
+434	Tombs of Amascut: Expert Mode	Perfection of Het	Perfection
+435	Tombs of Amascut	Perfect Apmeken	Perfection
+436	Tombs of Amascut	Perfect Ba-Ba	Perfection
+437	Tombs of Amascut: Expert Mode	Perfection of Apmeken	Perfection
+438	Tombs of Amascut	Perfect Crondis	Perfection
+439	Tombs of Amascut	Perfect Zebak	Perfection
+440	Tombs of Amascut: Expert Mode	Perfection of Crondis	Perfection
+441	Tombs of Amascut	Perfect Scabaras	Perfection
+442	Tombs of Amascut	Perfect Kephri	Perfection
+443	Tombs of Amascut: Expert Mode	Perfection of Scabaras	Perfection
+444	Tombs of Amascut	Perfect Wardens	Perfection
+445	Tombs of Amascut: Expert Mode	Insanity	Perfection
+446	Tombs of Amascut: Expert Mode	Amascut's Remnant	Mechanical
+447	Tombs of Amascut: Expert Mode	Something of an expert myself	Mechanical
+448	Tombs of Amascut: Expert Mode	Maybe I'm the boss.	Mechanical
+449	Tombs of Amascut	Dropped the ball	Mechanical
+450	Tombs of Amascut: Expert Mode	Akkhan't Do it	Mechanical
+451	Tombs of Amascut	No skipping allowed	Mechanical
+452	Tombs of Amascut	I'm in a rush	Mechanical
+453	Tombs of Amascut: Expert Mode	Ba-Bananza	Mechanical
+454	Tombs of Amascut: Expert Mode	All Praise Zebak	Mechanical
+455	Tombs of Amascut: Expert Mode	Rockin' around the croc	Mechanical
+456	Tombs of Amascut: Expert Mode	Doesn't bug me	Mechanical
+457	Tombs of Amascut: Expert Mode	All out of medics	Mechanical
+458	Tombs of Amascut	Down Do Specs	Mechanical
+459	Tombs of Amascut	Better get movin'	Mechanical
+460	Tombs of Amascut: Expert Mode	Warden't you believe it	Mechanical
+461	Tombs of Amascut: Entry Mode	Novice Tomb Explorer	Kill Count
+462	Tombs of Amascut: Entry Mode	Novice Tomb Looter	Kill Count
+463	Tombs of Amascut: Entry Mode	Novice Tomb Raider	Kill Count
+464	Tombs of Amascut: Entry Mode	Movin' on up	Restriction
+465	Tombs of Amascut: Entry Mode	Confident Raider	Restriction
+466	Tombs of Amascut	Tomb Looter	Kill Count
+467	Tombs of Amascut	Tomb Raider	Kill Count
+468	Tombs of Amascut	Tomb Explorer	Kill Count
+469	Tombs of Amascut: Expert Mode	Expert Tomb Explorer	Kill Count
+470	Tombs of Amascut: Expert Mode	Expert Tomb Looter	Kill Count
+471	Tombs of Amascut: Expert Mode	Expert Tomb Raider	Kill Count
+472	Phantom Muspah	More than just a ranged weapon	Restriction
+473	Phantom Muspah	Can't Escape	Restriction
+474	Phantom Muspah	Essence Farmer	Stamina
+475	Phantom Muspah	Phantom Muspah Speed-Trialist	Speed
+476	Phantom Muspah	Phantom Muspah Speed-Chaser	Speed
+477	Phantom Muspah	Phantom Muspah Speed-Runner	Speed
+478	Phantom Muspah	Phantom Muspah Adept	Kill Count
+479	Phantom Muspah	Phantom Muspah Veteran	Kill Count
+480	Phantom Muspah	Phantom Muspah Master	Kill Count
+481	Phantom Muspah	Space is Tight	Mechanical
+482	Phantom Muspah	Versatile Drainer	Mechanical
+483	Phantom Muspah	Walk Straight Pray True	Perfection
+484	Phantom Muspah	Phantom Muspah Manipulator	Perfection
+485	Vardorvis	Vardorvis Speed-Trialist	Speed
+486	Vardorvis	Vardorvis Speed-Chaser	Speed
+487	Vardorvis	Vardorvis Speed-Runner	Speed
+488	Vardorvis	Vardorvis Adept	Kill Count
+489	Vardorvis	Vardorvis Master	Kill Count
+490	Vardorvis	Vardorvis Sleeper	Kill Count
+491	Vardorvis	Perfect Vardorvis	Perfection
+492	Vardorvis	Axe Enthusiast	Mechanical
+493	Vardorvis	Budget Cutter	Restriction
+494	Whisperer	Whisperer Speed-Trialist	Speed
+495	Whisperer	Whisperer Speed-Chaser	Speed
+496	Whisperer	Whisperer Speed-Runner	Speed
+497	Whisperer	Whisperer Adept	Kill Count
+498	Whisperer	Whisperer Master	Kill Count
+499	Whisperer	Whispered	Kill Count
+500	Whisperer	Perfect Whisperer	Perfection
+501	Whisperer	Tentacular	Restriction
+502	Whisperer	Dark Memories	Restriction
+503	Leviathan	Leviathan Speed-Trialist	Speed
+504	Leviathan	Leviathan Speed-Chaser	Speed
+505	Leviathan	Leviathan Speed-Runner	Speed
+506	Leviathan	Leviathan Adept	Kill Count
+507	Leviathan	Leviathan Master	Kill Count
+508	Leviathan	Leviathan Sleeper	Kill Count
+509	Leviathan	Perfect Leviathan	Perfection
+510	Leviathan	Serpentine Solo	Mechanical
+511	Leviathan	Unconventional	Restriction
+512	Duke Sucellus	Duke Sucellus Speed-Trialist	Speed
+513	Duke Sucellus	Duke Sucellus Speed-Chaser	Speed
+514	Duke Sucellus	Duke Sucellus Speed-Runner	Speed
+515	Duke Sucellus	Duke Sucellus Adept	Kill Count
+516	Duke Sucellus	Duke Sucellus Master	Kill Count
+517	Duke Sucellus	Duke Sucellus Sleeper	Kill Count
+518	Duke Sucellus	Perfect Duke Sucellus	Perfection
+519	Duke Sucellus	Cold Feet	Restriction
+520	Duke Sucellus	Mirror Image	Restriction
+521	Scurrius	Scurrius Novice	Kill Count
+522	Scurrius	Scurrius Champion	Kill Count
+523	Scurrius	Sit Rat	Restriction
+524	Scurrius	Perfect Scurrius	Perfection
+525	Scurrius	Efficient Pest Control	Mechanical
+526	Moons of Peril	The Clone Zone	Mechanical
+527	Moons of Peril	High Hitter	Mechanical
+528	Moons of Peril	Lunar Triplet	Kill Count
+529	Moons of Peril	Perilous Novice	Kill Count
+530	Moons of Peril	Perilous Champion	Kill Count
+531	Moons of Peril	Perilous Dancer	Perfection
+532	Moons of Peril	Fortified	Restriction
+533	Moons of Peril	Betrayal	Restriction
+534	Moons of Peril	Back to Our Roots	Restriction
+535	Moons of Peril	Moons of Peril Speed-Trialist	Speed
+536	Moons of Peril	Moons of Peril Speed-Chaser	Speed
+537	Moons of Peril	Fat of the Land	Stamina
+538	Fortis Colosseum	Sportsmanship	Kill Count
+539	Fortis Colosseum	Colosseum Grand Champion	Kill Count
+540	Fortis Colosseum	I Brought Mine Too	Restriction
+541	Fortis Colosseum	Slow Dancing in the Sand	Restriction
+542	Fortis Colosseum	Furball	Perfection
+543	Fortis Colosseum	Perfect Footwork	Perfection
+544	Fortis Colosseum	Showboating	Mechanical
+545	Fortis Colosseum	Denied	Mechanical
+546	Fortis Colosseum	One-off	Mechanical
+547	Fortis Colosseum	Reinforcements	Mechanical
+548	Fortis Colosseum	I was here first!	Mechanical
+549	Fortis Colosseum	Colosseum Speed-Chaser	Speed
+550	Fortis Colosseum	Colosseum Speed-Runner	Speed
+551	Tormented Demon	Unending Torment	Kill Count
+552	Tormented Demon	Through Fire and Flames	Restriction
+553	Tormented Demon	Two Times the Torment	Restriction
+554	Tormented Demon	Three Times the Thrashing	Restriction
+555	Tormented Demon	Rapid Reload	Mechanical
+556	Araxxor	Araxxor Veteran	Kill Count
+557	Araxxor	Araxxor Master	Kill Count
+558	Araxxor	Araxxor Speed-Trialist	Speed
+559	Araxxor	Araxxor Speed-Chaser	Speed
+560	Araxxor	Araxxor Speed-Runner	Speed
+561	Araxxor	Perfect Araxxor	Perfection
+562	Araxxor	Perfect Araxxor 2	Perfection
+563	Araxxor	Let it seep in	Restriction
+564	Araxxor	Relaxxor	Restriction
+565	Araxxor	Swimming in Venom	Restriction
+566	Araxxor	Araxyte Betrayal	Mechanical
+567	Araxxor	Arachnid Lover	Stamina
+568	The Hueycoatl	Hueycoatl Champion	Kill Count
+569	The Hueycoatl	Hueycoatl Adept	Kill Count
+570	The Hueycoatl	Hueycoatl Veteran	Kill Count
+571	The Hueycoatl	Perfect Hueycoatl	Perfection
+572	The Hueycoatl	Pillar Lover	Mechanical
+573	The Hueycoatl	Is it a bird?	Restriction
+574	The Hueycoatl	You're a wizard	Restriction
+575	The Hueycoatl	I'm your son	Restriction
+576	The Hueycoatl	Hueycoatl Speed-Trialist	Speed
+577	The Hueycoatl	Hueycoatl Speed-Chaser	Speed
+578	The Hueycoatl	Hueycoatl Speed-Runner	Speed
+579	Amoxliatl	Amoxliatl Champion	Kill Count
+580	Amoxliatl	Amoxliatl Adept	Kill Count
+581	Amoxliatl	Amoxliatl Speed-Trialist	Speed
+582	Amoxliatl	Amoxliatl Speed-Chaser	Speed
+583	Amoxliatl	Nagua Negation	Perfection
+584	Amoxliatl	Temotli Triumph	Restriction
+585	Amoxliatl	Without Ralos' Light	Restriction
+586	Amoxliatl	Kemo Makti	Stamina
+587	Amoxliatl	Totally Shattered	Mechanical
+588	Royal Titans	Perfect Royal Titans	Perfection
+589	Royal Titans	Royal Titan Champion	Kill Count
+590	Royal Titans	Royal Titan Adept	Kill Count
+591	Royal Titans	One by one	Restriction
+592	Royal Titans	Royal Titan Speed-Runner	Speed
+593	Royal Titans	Titan Killer	Stamina
+594	Royal Titans	Elemental Company	Restriction
+595	Royal Titans	I need room	Restriction
+596	Royal Titans	No time to pray	Restriction
+597	Royal Titans	Let them fight	Restriction
+598	Royal Titans	It takes too long	Mechanical
+599	Yama	Yama Adept	Kill Count
+600	Yama	Yama Veteran	Kill Count
+601	Yama	Yama Speed-Trialist	Speed
+602	Yama	Yama Speed-Chaser	Speed
+603	Yama	Yama Speed-Runner	Speed
+604	Yama	No toppings, no drinks, thanks	Restriction
+605	Yama	Shadow dancer	Mechanical
+606	Yama	Fire fighter	Mechanical
+607	Yama	Back so soon?	Mechanical
+608	Yama	Contract Choreographer	Perfection
+609	Yama	Contractually Unbound	Kill Count
+610	Doom of Mokhaiotl	Doom Adept	Kill Count
+611	Doom of Mokhaiotl	Doom Veteran	Kill Count
+612	Doom of Mokhaiotl	It's Dark Down Here	Stamina
+613	Doom of Mokhaiotl	Exposed Doom	Mechanical
+614	Doom of Mokhaiotl	Mokhaiotl Drift	Mechanical
+615	Doom of Mokhaiotl	Grub Patrol	Mechanical
+616	Doom of Mokhaiotl	Perfect Doom	Perfection
+617	Doom of Mokhaiotl	The Praying Mantis	Restriction
+618	Doom of Mokhaiotl	Duel of Mokhaiotl	Restriction
+619	Doom of Mokhaiotl	Darkness Is Your Ally?	Restriction
+620	Doom of Mokhaiotl	Mine's Better	Restriction
+621	Doom of Mokhaiotl	Doom Crawler	Speed
+622	Doom of Mokhaiotl	Doom Chaser	Speed
+623	Doom of Mokhaiotl	Doom Racer	Speed
+624	Doom of Mokhaiotl	Mopping up	Mechanical
+625	Shellbane gryphon	Shellbane Adept	Kill Count
+626	Shellbane gryphon	Shellbane Veteran	Kill Count
+627	Shellbane gryphon	Perfect Shellbane	Perfection
+628	Shellbane gryphon	Shellbane Speedrunner	Speed
+629	Shellbane gryphon	Shellbane Survivor	Stamina
+630	Shellbane gryphon	Dry Cleaning	Mechanical
+631	Shellbane gryphon	Featherweight Fighter	Restriction
+632	Brutus	Brutus Novice	Kill Count
+633	Brutus	Brutus Champion	Kill Count
+634	Brutus	Brutus Speed-Trialist	Speed
+635	Brutus	Beef vs Beef	Perfection
+636	Brutus	Smarter than a Cow	Mechanical
+637	Maggot King	Maggot Squasher	Kill Count
+638	Maggot King	Maggot Exterminator	Kill Count
+639	Maggot King	Camping the King	Stamina
+640	Maggot King	Maggot King Speed Chaser	Speed
+641	Maggot King	Trying to fit in	Restriction
+642	Maggot King	King-sized clobbering	Mechanical
+643	Maggot King	Digging in	Restriction
+644	Maggot King	Cordoned Off	Restriction
+645	Maggot King	Perfect Maggot King	Perfection
+646	Mad Angel	Mad Angel Adept	Kill Count
+647	Mad Angel	Mad Angel Veteran	Kill Count
+648	Mad Angel	Perfect Mad Angel	Perfection
+649	Mad Angel	This Is Madness	Stamina
+650	Mad Angel	Mad Angel Speed-Runner	Speed
+651	Mad Angel	Dancing Queen	Mechanical
+652	Mad Angel	Smite Fight	Mechanical
+653	Mad Angel	Juggling Act	Mechanical
+654	Mad Angel	The Pen Is Mightier	Restriction

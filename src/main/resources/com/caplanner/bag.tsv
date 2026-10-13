@@ -1,0 +1,139 @@
+# The inventory to expect for a boss. Written for this plugin (October 2026); what a fight needs was
+# read from the OSRS Wiki page of each boss.
+# boss	kind	quantity	names, best first (name=item id)	what it is for
+# kind: mapped = an inventory is suggested for the boss · need = the fight cannot be done without it (listed even
+# when not owned) · take = only when owned ·
+# food = fills what is left · only = the boss takes none of the usual supplies below.
+# boss "*" = every boss; "*melee", "*ranged", "*magic" = the style of the set that was picked.
+# A quantity ending in "s" is one stack. A name starting with "~" matches any item with the rest in its name.
+# A potion is written without its dose: the fullest one owned is taken.
+#
+# ---- bosses whose fight was gone through one by one: only these get an inventory. For any other the panel
+# says the inventory is under construction, rather than guess at it.
+Abyssal Sire	mapped
+Amoxliatl	mapped
+Araxxor	mapped
+Brutus	mapped
+Cerberus	mapped
+Chaos Fanatic	mapped
+Corporeal Beast	mapped
+Crazy Archaeologist	mapped
+Dagannoth Prime	mapped
+Dagannoth Rex	mapped
+Dagannoth Supreme	mapped
+Duke Sucellus	mapped
+Giant Mole	mapped
+Grotesque Guardians	mapped
+The Hueycoatl	mapped
+Kalphite Queen	mapped
+King Black Dragon	mapped
+Kraken	mapped
+Kree'arra	mapped
+K'ril Tsutsaroth	mapped
+Leviathan	mapped
+Maggot King	mapped
+The Mimic	mapped
+Moons of Peril	mapped
+Obor	mapped
+Phantom Muspah	mapped
+Phosani's Nightmare	mapped
+Royal Titans	mapped
+Sarachnis	mapped
+Scurrius	mapped
+Shellbane gryphon	mapped
+Tempoross	mapped
+The Nightmare	mapped
+Tormented Demon	mapped
+TzKal-Zuk	mapped
+Vardorvis	mapped
+Vorkath	mapped
+Whisperer	mapped
+Wintertodt	mapped
+Yama	mapped
+Zalcano	mapped
+Zulrah	mapped
+#
+# ---- what each fight asks for
+Gargoyle	need	1	rock hammer=4162|granite hammer|rock thrownhammer	to finish it off
+Grotesque Guardians	need	1	rock hammer=4162|granite hammer|rock thrownhammer	to finish them off
+Barrows	need	1	spade=952	to enter the crypts
+Giant Mole	need	1	spade=952	to dig into the lair
+Giant Mole	take	1	bullseye lantern|sapphire lantern|emerald lantern|oil lantern|candle lantern	a light, unless the Fire of Eternal Light burns there
+Skotizo	need	1	dark totem=19685	one totem a fight
+Whisperer	need	1	blackstone fragment=28357	starts the fight
+Kree'arra	need	1	mith grapple=9419	to cross into the Eyrie
+Kree'arra	need	1	~crossbow=9185	any crossbow, to fire the grapple
+General Graardor	need	1	hammer=2347|imcando hammer	to ring the gong at the door
+Kalphite Queen	need	2	rope=954	two to climb down, until the Desert Hard diary makes them stay	desert-hard
+Kalphite Queen	take	1	antidote++|extended anti-venom+|anti-venom+|anti-venom	poison
+Zalcano	only
+Zalcano	need	1	~pickaxe=1265	to mine
+Wintertodt	only
+Tempoross	only
+Vorkath	take	1	extended super antifire|super antifire potion|extended antifire|antifire potion	dragonfire
+Vorkath	take	1	extended anti-venom+|anti-venom+|anti-venom|antidote++	venom
+King Black Dragon	take	1	extended super antifire|super antifire potion|extended antifire|antifire potion	dragonfire
+Brutal Black Dragon	take	1	extended super antifire|super antifire potion|extended antifire|antifire potion	dragonfire
+Zulrah	take	1	extended anti-venom+|anti-venom+|anti-venom|antidote++	venom
+Araxxor	take	1	extended anti-venom+|anti-venom+|anti-venom|antidote++	venom
+Alchemical Hydra	wear	1	boots of stone=23037|boots of brimstone|granite boots	the floor of the Karuulm dungeon burns without them	kourend-elite
+Basilisk Knight	wear	1	mirror shield=4156|v's shield	its gaze
+Aberrant Spectre	wear	1	nose peg=4168|slayer helmet	its stench
+Thermonuclear Smoke Devil	wear	1	facemask=4164|gas mask|slayer helmet	its smoke
+King Black Dragon	wear	1	anti-dragon shield=1540|dragonfire shield|dragonfire ward|ancient wyvern shield	dragonfire
+Kurask	wield	1	leaf-bladed battleaxe|leaf-bladed sword|leaf-bladed spear
+Kurask	note	1	-	Only leaf-bladed weapons, broad arrows or bolts, and Magic Dart harm it. The set is picked among leaf-bladed weapons only.
+Obor	take	1	giant key	opens the chest
+Bryophyta	take	1	mossy key	opens the chest
+#
+# ---- found by reading the fights again (October 2026): what the usual supplies miss, or carry for nothing
+Vorkath	without	0	book of the dead	thralls cannot be raised there
+Abyssal Sire	without	0	book of the dead	thralls do not hurt it
+K'ril Tsutsaroth	take	1	antidote++|extended anti-venom+|anti-venom+|anti-venom|sanfew serum|superantipoison	he poisons, through prayer too
+King Black Dragon	take	1	antidote++|extended anti-venom+|anti-venom+|anti-venom|sanfew serum|superantipoison	it poisons
+Abyssal Sire	take	1	antidote++|extended anti-venom+|anti-venom+|anti-venom|sanfew serum|superantipoison	it poisons
+Yama	take	1	sanfew serum|antidote++|extended anti-venom+|anti-venom+|anti-venom|superantipoison	he poisons
+Maggot King	take	1	extended anti-venom+|anti-venom+|anti-venom	its pools are venom
+Sarachnis	take	1	knife	cuts the webs on the way in (a slash weapon does too)
+Shellbane gryphon	wear	1	tortugan shield	without it its melee goes through your prayer
+Maggot King	note	1	-	Melee cannot reach it until about a third of its health is gone: start with ranged or magic.
+Vorkath	note	1	-	Its zombified spawn is killed with Crumble Undead; Vorkath takes no damage while it lives.
+Kree'arra	note	1	-	On the way in, the followers of each god attack unless you wear an item of that god.
+K'ril Tsutsaroth	note	1	-	On the way in, the followers of each god attack unless you wear an item of that god.
+General Graardor	note	1	-	On the way in, the followers of each god attack unless you wear an item of that god.
+Commander Zilyana	note	1	-	On the way in, the followers of each god attack unless you wear an item of that god.
+#
+#
+# ---- the Wilderness: the usual way out does not work where these are fought
+Chaos Fanatic	without	0	max cape	no teleport works that deep
+Chaos Fanatic	take	1	royal seed pod|~amulet of glory(	teleports out up to level 30 Wilderness
+Chaos Fanatic	note	1	-	Deep Wilderness: no teleport works above level 20, and only a few (a charged amulet of glory, the Royal seed pod) up to level 30. The way out is on foot, down to where yours works.
+Crazy Archaeologist	without	0	max cape	no teleport works that deep
+Crazy Archaeologist	take	1	royal seed pod|~amulet of glory(	teleports out up to level 30 Wilderness
+Crazy Archaeologist	note	1	-	Deep Wilderness: no teleport works above level 20, and only a few (a charged amulet of glory, the Royal seed pod) up to level 30. The way out is on foot, down to where yours works.
+Callisto	without	0	max cape	no teleport works that deep
+Callisto	take	1	royal seed pod|~amulet of glory(	teleports out up to level 30 Wilderness
+Callisto	note	1	-	Deep Wilderness: no teleport works above level 20, and only a few (a charged amulet of glory, the Royal seed pod) up to level 30. The way out is on foot, down to where yours works.
+Venenatis	without	0	max cape	no teleport works that deep
+Venenatis	take	1	royal seed pod|~amulet of glory(	teleports out up to level 30 Wilderness
+Venenatis	note	1	-	Deep Wilderness: no teleport works above level 20, and only a few (a charged amulet of glory, the Royal seed pod) up to level 30. The way out is on foot, down to where yours works.
+Vet'ion	without	0	max cape	no teleport works that deep
+Vet'ion	take	1	royal seed pod|~amulet of glory(	teleports out up to level 30 Wilderness
+Vet'ion	note	1	-	Deep Wilderness: no teleport works above level 20, and only a few (a charged amulet of glory, the Royal seed pod) up to level 30. The way out is on foot, down to where yours works.
+Scorpia	without	0	max cape	no teleport works that deep
+Scorpia	take	1	royal seed pod|~amulet of glory(	teleports out up to level 30 Wilderness
+Scorpia	note	1	-	Deep Wilderness: no teleport works above level 20, and only a few (a charged amulet of glory, the Royal seed pod) up to level 30. The way out is on foot, down to where yours works.
+Chaos Elemental	without	0	max cape	no teleport works that deep
+Chaos Elemental	take	1	royal seed pod|~amulet of glory(	teleports out up to level 30 Wilderness
+Chaos Elemental	note	1	-	Deep Wilderness: no teleport works above level 20, and only a few (a charged amulet of glory, the Royal seed pod) up to level 30. The way out is on foot, down to where yours works.
+# ---- the usual supplies, in the order they are laid out
+*	take	1	~divine rune pouch|~rune pouch	runes for your spells
+*	take	1	book of the dead	thralls
+*	take	1	max cape|~max cape|construct. cape(t)|construct. cape|teleport to house	the way out
+*melee	take	1	divine super combat potion|super combat potion
+*ranged	take	1	divine ranging potion|ranging potion|divine bastion potion|bastion potion
+*magic	take	1	saturated heart|imbued heart|divine magic potion|magic potion
+*	take	1	prayer regeneration potion
+*	take	4	super restore|sanfew serum|prayer potion
+*	take	3	cooked karambwan
+*	food	0	anglerfish|cooked moonlight antelope|manta ray|dark crab|sea turtle|shark|monkfish|swordfish|lobster

@@ -1,0 +1,657 @@
+# The objective of each Combat Achievement task in Portuguese (Brazil): this plugin's own translation of the
+# game's words, which may be wrong. Names the game gives are left in English. task id	text
+0	Mate um Aberrant Spectre.
+1	Mate o Abyssal Sire 20 vezes.
+2	Mate o Abyssal Sire 50 vezes.
+3	Mate o Abyssal Sire sem deixar nenhum Scion amadurecer.
+4	Mate o Abyssal Sire depois de atordoá-lo apenas uma vez.
+5	Mate o Abyssal Sire sem ser atingido por nenhum tentáculo externo.
+6	Use a magia Vengeance para refletir o dano da explosão do Abyssal Sire de volta nele.
+7	Mate o Abyssal Sire sem tomar dano de nenhuma poça de miasma.
+8	Mate o Abyssal Sire sem tomar dano dos tentáculos externos, das poças de miasma, da explosão, nem dano do Abyssal Sire sem estar com a prayer de proteção apropriada ativa.
+9	Mate o Kree'arra 50 vezes.
+10	Mate o Kree'arra 100 vezes.
+11	Mate o Kree'arra em uma instância privada sem nunca atacá-lo diretamente.
+12	Dê o golpe final no Kree'arra enquanto todos os guarda-costas dele estão mortos.
+13	Mate o Kree'arra em uma instância privada sem tomar nenhum dano de melee do boss ou dos guarda-costas dele.
+14	Mate o Kree'arra causando dano a ele apenas com uma salamander.
+15	Mate o Kree'arra 30 vezes em uma instância privada sem sair da sala.
+16	Mate o General Graardor 50 vezes.
+17	Mate o General Graardor 100 vezes.
+18	Mate o General Graardor enquanto ele está imobilizado.
+19	Mate o General Graardor sem que ele ataque nenhum jogador.
+20	Dê o golpe final no General Graardor enquanto todos os guarda-costas dele estão mortos.
+21	Mate o General Graardor 2 vezes seguidas em uma instância privada sem tomar nenhum dano dos guarda-costas dele.
+22	Mate o General Graardor em uma instância privada sem tomar nenhum dano do boss ou dos guarda-costas.
+23	Mate o General Graardor 15 vezes em uma instância privada sem sair da sala.
+24	Abra o baú de Barrows 10 vezes.
+25	Abra o baú de Barrows 25 vezes.
+26	Mate Dharok, Verac, Torag e Guthan sem deixar que eles ataquem você com melee.
+27	Mate todos os seis Barrows Brothers e pegue o loot do baú de Barrows sem tomar nenhum dano de nenhum dos irmãos.
+28	Mate qualquer Barrows Brother usando apenas dano mágico.
+29	Mate Karil usando apenas dano causado por special attacks.
+30	Mate todos os seis Barrows Brothers e pegue o loot do baú de Barrows sem nunca ter mais de 0 pontos de prayer.
+31	Mate um Basilisk Knight.
+32	Mate um Black Dragon.
+33	Mate um Bloodveld.
+34	Mate um Brutal Black Dragon.
+35	Abra o baú da Bryophyta uma vez.
+36	Abra o baú da Bryophyta 5 vezes.
+37	Mate a Bryophyta com a prayer Protect from Magic ativa.
+38	Mate todos os 3 growthlings da Bryophyta em até 3 segundos depois da morte do primeiro.
+39	Mate a Bryophyta sem sofrer nenhum dano de veneno (poison).
+40	Mate a Bryophyta com poison ou venom sendo a fonte final de dano.
+41	Mate a Bryophyta em um mundo free to play.
+42	Mate o Callisto 10 vezes.
+43	Mate o Callisto 20 vezes.
+44	Mate o Skotizo uma vez.
+45	Mate o Skotizo 5 vezes.
+46	Mate o Skotizo sem nenhum altar ativo.
+47	Mate o Skotizo sem tomar nenhum dano.
+48	Mate o Skotizo com uma arma demonbane equipada.
+49	Mate o Skotizo sem equipar uma arma demonbane.
+50	Mate o Skotizo com a fonte final de dano sendo uma explosão de Chinchompa.
+51	Mate o Cerberus 75 vezes.
+52	Mate o Cerberus 150 vezes.
+53	Mate o Cerberus sem que nenhuma das Summoned Souls apareça.
+54	Mate o Cerberus depois de anular com sucesso 6 ou mais ataques das Summoned Souls.
+55	Mate o Cerberus sem tomar dano de nenhuma poça de lava.
+56	Mate o Cerberus sem tomar nenhum dano de melee.
+57	Mate o Chaos Elemental 10 vezes.
+58	Mate o Chaos Elemental 25 vezes.
+59	Mate o Chaos Elemental sem que ele desequipe nenhum dos seus itens.
+60	Mate o Chaos Elemental sem tomar nenhum dano dos ataques dele.
+61	Mate o Chaos Fanatic 10 vezes.
+62	Mate o Chaos Fanatic 25 vezes.
+63	Mate o Chaos Fanatic sem que ninguém seja atingido pelo ataque de explosão dele.
+64	Mate o Chaos Fanatic 10 vezes sem beber nenhuma poção que restaure prayer e sem sair da Wilderness.
+65	Mate a Corporeal Beast 25 vezes.
+66	Mate a Corporeal Beast 50 vezes.
+67	Mate a Corporeal Beast sem que ninguém mate o dark core nem tome dano do dark core.
+68	Dê o golpe final na Corporeal Beast com um special attack de Halberd.
+69	Mate a Corporeal Beast solo.
+70	Mate o Crazy Archaeologist 10 vezes.
+71	Mate o Crazy Archaeologist 25 vezes.
+72	Mate o Crazy Archaeologist apenas com ataques mágicos.
+73	Mate o Crazy Archaeologist sem que ninguém seja atingido pelo ataque "Rain of Knowledge" dele.
+74	Mate um Demonic Gorilla.
+75	Dê o golpe final em um Demonic Gorilla com uma arma demonbane.
+76	Mate o Deranged Archaeologist 10 vezes.
+77	Mate o Deranged Archaeologist 25 vezes.
+78	Mate o Deranged Archaeologist apenas com ataques mágicos.
+79	Mate o Deranged Archaeologist sem que ninguém seja atingido pelo ataque "Learn to Read" dele.
+80	Mate um Fire Giant.
+81	Mate o Galvek em menos de 3 minutos.
+82	Mate os Grotesque Guardians 25 vezes.
+83	Mate os Grotesque Guardians 50 vezes.
+84	Mate os Grotesque Guardians sem tomar dano do ataque de cegueira do Dusk.
+85	Mate os Grotesque Guardians sem tomar dano do ataque de prisão do Dusk.
+86	Mate os Grotesque Guardians sem tomar dano do ataque de queda de pedras da Dawn.
+87	Mate os Grotesque Guardians sem deixar a Dawn receber nenhuma cura dos orbes dela.
+88	Mate os Grotesque Guardians sem ser atingido por nenhum ataque de raio.
+89	Mate os Grotesque Guardians antes que o Dusk use o ataque de prisão dele pela segunda vez.
+90	Mate os Grotesque Guardians completando ao mesmo tempo as tasks "Don't look at the eclipse", "Prison Break", "Granite Footwork", "Heal no more", "Static Awareness" e "Done before dusk".
+91	Mate os Grotesque Guardians 5 vezes seguidas sem sair da instância, completando a task Perfect Grotesque Guardians todas as vezes.
+92	Mate os Grotesque Guardians em menos de 2 minutos.
+93	Mate os Grotesque Guardians em menos de 1:40 minutos.
+94	Mate os Grotesque Guardians em menos de 1:20 minutos.
+95	Mate os Grotesque Guardians 10 vezes sem sair da instância.
+96	Mate os Grotesque Guardians 20 vezes sem sair da instância.
+97	Mate um Gargoyle.
+98	Complete a Corrupted Gauntlet 5 vezes.
+99	Complete a Corrupted Gauntlet 10 vezes.
+100	Complete a Corrupted Gauntlet 50 vezes.
+101	Mate o Corrupted Hunllef sem tomar dano off prayer (sem a prayer de proteção certa ativa).
+102	Mate o Corrupted Hunllef sem tomar dano de: Tornadoes, Damaging Floor ou Stomp Attacks. Além disso, não tome dano off prayer (sem a prayer de proteção certa ativa) e não ataque o Corrupted Hunllef com a arma errada.
+103	Mate o Corrupted Hunllef sem fazer nenhuma armadura dentro da Corrupted Gauntlet.
+104	Mate o Corrupted Hunllef sem fazer uma egniol potion dentro da Corrupted Gauntlet.
+105	Mate o Corrupted Hunllef com um conjunto completo de armadura perfected corrupted equipado.
+106	Mate o Corrupted Hunllef sem fazer mais de uma arma attuned.
+107	Complete uma Corrupted Gauntlet em menos de 7 minutos e 5 segundos.
+108	Complete uma Corrupted Gauntlet em menos de 6 minutos e 5 segundos.
+109	Complete a Gauntlet 5 vezes.
+110	Complete a Gauntlet 20 vezes.
+111	Mate o Crystalline Hunllef sem tomar dano off prayer (sem a prayer de proteção certa ativa).
+112	Mate o Crystalline Hunllef sem tomar dano de: Tornadoes, Damaging Floor ou Stomp Attacks. Além disso, não tome dano off prayer (sem a prayer de proteção certa ativa) e não ataque o Crystalline Hunllef com a arma errada.
+113	Mate o Crystalline Hunllef sem fazer nenhuma armadura dentro da Gauntlet.
+114	Mate o Crystalline Hunllef sem fazer uma egniol potion dentro da Gauntlet.
+115	Mate o Crystalline Hunllef com um conjunto completo de armadura perfected equipado.
+116	Mate o Crystalline Hunllef sem fazer mais de uma arma attuned.
+117	Complete a Gauntlet em menos de 4 minutos e 45 segundos.
+118	Complete a Gauntlet em menos de 3 minutos e 45 segundos.
+119	Mate o Glough em menos de 2 minutos e 30 segundos.
+120	Mate um Greater Demon.
+121	Dê o golpe final em um Greater Demon com uma arma demonbane.
+122	Mate um Hellhound.
+123	Mate o Hespori 5 vezes.
+124	Dê o golpe final no Hespori com um special attack.
+125	Mate todas as flores do Hespori em até 5 segundos.
+126	Mate o Hespori sem perder nenhum ponto de prayer.
+127	Mate o Hespori em menos de 48 segundos.
+128	Mate o Hespori em menos de 36 segundos.
+129	Abra o baú do Obor uma vez.
+130	Abra o baú do Obor 5 vezes.
+131	Mate o Obor enquanto ele está imobilizado.
+132	Mate o Obor sem ser empurrado para trás mais de um quadrado pelo ataque de empurrão dele.
+133	Mate o Obor sem tomar nenhum dano off prayer (sem a prayer de proteção certa ativa).
+134	Mate o Obor em um mundo free to play.
+135	Mate a Alchemical Hydra 75 vezes.
+136	Mate a Alchemical Hydra 150 vezes.
+137	Mate a Alchemical Hydra sem ser atingido pelo ataque de poça de ácido.
+138	Mate a Alchemical Hydra sem ser atingido pelo ataque de raio.
+139	Mate a Alchemical Hydra sem ser atingido pelo ataque de parede de fogo.
+140	Mate a Alchemical Hydra sem fortalecê-la.
+141	Mate a Alchemical Hydra sem deixar que ela crie um ataque de parede de fogo.
+142	Mate a Alchemical Hydra sem tomar nenhum dano.
+143	Mate a Alchemical Hydra usando apenas o Dharok's Greataxe como arma e sem ter mais de 10 Hitpoints durante a luta inteira.
+144	Mate a Alchemical Hydra em menos de 1 minuto e 45 segundos.
+145	Mate a Alchemical Hydra em menos de 1 minuto e 20 segundos.
+146	Mate a Alchemical Hydra 15 vezes sem sair da sala.
+147	Complete as Fight Caves uma vez.
+148	Complete as Fight Caves 5 vezes.
+149	Complete as Fight Caves depois de sobreviver a um golpe do TzTok-Jad sem usar prayer.
+150	Complete as Fight Caves sem deixar nenhum dos Yt-MejKot curar.
+151	Complete as Fight Caves sem que o TzTok-Jad seja curado por um Yt-HurKot.
+152	Complete as Fight Caves sem ser atacado por um Tz-Kih.
+153	Complete as Fight Caves apenas com melee.
+154	Complete as Fight Caves sem perder nenhum ponto de prayer.
+155	Complete as Fight Caves em menos de 30 minutos.
+156	Complete as Fight Caves em menos de 26 minutos e 30 segundos.
+157	Mate a Kalphite Queen 25 vezes.
+158	Mate a Kalphite Queen 50 vezes.
+159	Mate a Kalphite Queen sendo você o último a ter reduzido a Defence dela.
+160	Mate a Kalphite Queen usando a magia Vengeance como golpe final.
+161	Mate a Kalphite Queen usando apenas o Verac's Flail como arma.
+162	Mate o King Black Dragon 10 vezes.
+163	Mate o King Black Dragon 25 vezes.
+164	Mate o King Black Dragon com a prayer Protect from Melee ativada.
+165	Mate o King Black Dragon com uma arma de stab.
+166	Mate o King Black Dragon com uma antifire potion ativa e um antidragon shield equipado.
+167	Mate o King Black Dragon 10 vezes em uma instância privada sem sair da instância.
+168	Mate o Kraken 20 vezes.
+169	Mate o Kraken depois de matar todos os quatro tentáculos.
+170	Mate o Kraken 25 vezes em uma instância privada sem sair da sala.
+171	Mate o Kraken 50 vezes em uma instância privada sem sair da sala.
+172	Mate o Kraken 100 vezes em uma instância privada sem sair da sala.
+173	Mate um Kurask.
+174	Mate um Lizardman Shaman.
+175	Mate um Lizardman Shaman em Molch que não tenha causado dano a ninguém (sem contar os Spawns dele).
+176	Mate o Mimic uma vez.
+177	Mate a Giant Mole 10 vezes.
+178	Mate a Giant Mole 25 vezes.
+179	Mate a Giant Mole sem que ela se enterre mais de 2 vezes.
+180	Mate a Giant Mole com 4 ou menos instâncias de dano.
+181	Mate a Giant Mole em até 10 segundos depois de ela voltar à superfície.
+182	Mate a Giant Mole sem que ela cause dano a ninguém.
+183	Mate a Nightmare uma vez.
+184	Mate a Nightmare 25 vezes.
+185	Mate a Nightmare 50 vezes.
+186	Mate a Nightmare solo sem que os Parasites curem o boss em mais de 100 de vida.
+187	Mate dois Husks ao mesmo tempo.
+188	Mate a Nightmare sem que nenhum jogador tome dano dos seguintes ataques: Nightmare rifts, explosão de um parasita não curado, Corpse flowers ou o Surge da Nightmare. Além disso, nenhum jogador pode tomar dano off prayer (sem a prayer de proteção certa ativa) nem ter os ataques desacelerados pelos Nightmare spores.
+189	Mate a Nightmare solo.
+190	Mate a Nightmare sem que nenhum jogador perca nenhum ponto de prayer.
+191	Derrote a Nightmare (Solo) em menos de 23 minutos.
+192	Derrote a Nightmare (Solo) em menos de 19 minutos.
+193	Derrote a Nightmare (Solo) em menos de 16 minutos.
+194	Derrote a Nightmare (5-scale) em menos de 5 minutos.
+195	Derrote a Nightmare (5-scale) em menos de 4 minutos.
+196	Derrote a Nightmare (5-scale) em menos de 3:30 minutos.
+197	Mate o Dagannoth Prime 10 vezes.
+198	Mate o Dagannoth Prime 25 vezes.
+199	Mate o Dagannoth Prime enquanto está sendo atacado pelo Dagannoth Supreme e pelo Dagannoth Rex.
+200	Mate o Prime usando um special attack de Rune Thrownaxe, ricocheteado no Dagannoth Rex.
+201	Mate o Dagannoth Rex 10 vezes.
+202	Mate o Dagannoth Rex 25 vezes.
+203	Mate o Dagannoth Rex enquanto está sendo atacado pelo Dagannoth Supreme e pelo Dagannoth Prime.
+204	Mate o Dagannoth Rex enquanto ele está imobilizado.
+205	Mate o Dagannoth Rex e um outro Dagannoth King exatamente ao mesmo tempo.
+206	Mate a Sarachnis 10 vezes.
+207	Mate a Sarachnis 25 vezes.
+208	Mate a Sarachnis sem que ela use o ataque de ranged dela duas vezes seguidas.
+209	Mate a Sarachnis sem que ela cause dano a ninguém.
+210	Mate a Sarachnis com uma arma de crush.
+211	Mate a Commander Zilyana 50 vezes.
+212	Mate a Commander Zilyana 100 vezes.
+213	Dê o golpe final na Commander Zilyana enquanto todos os guarda-costas dela estão mortos.
+214	Mate a Commander Zilyana em uma instância privada sem tomar nenhum dano do boss ou dos guarda-costas.
+215	Mate a Commander Zilyana em uma instância privada sem atacá-la diretamente.
+216	Mate a Commander Zilyana em uma instância privada apenas com melee.
+217	Mate a Commander Zilyana 50 vezes em uma instância alugada de forma privada sem sair da sala.
+218	Mate a Scorpia 10 vezes.
+219	Mate a Scorpia 25 vezes.
+220	Mate a Scorpia sem tomar nenhum dano dela.
+221	Mate a Scorpia sem matar os guardiões dela.
+222	Mate The Fragment of Seren em menos de 4 minutos.
+223	Mate um Skeletal Wyvern
+224	Mate o Zulrah 25 vezes.
+225	Mate o Zulrah 75 vezes.
+226	Mate o Zulrah 150 vezes.
+227	Mate o Zulrah usando a magia Vengeance como golpe final.
+228	Mate 3 Snakelings ao mesmo tempo.
+229	Mate o Zulrah sem tomar dano do seguinte: Snakelings, Venom Clouds, fase Green ou Crimson do Zulrah.
+230	Mate o Zulrah em menos de 1 minuto e 20 segundos, sem uma Slayer task.
+231	Mate o Zulrah em menos de 1 minuto, sem uma Slayer task.
+232	Mate o Zulrah em menos de 54 segundos, sem uma Slayer task.
+233	Mate o Dagannoth Supreme 10 vezes.
+234	Mate o Dagannoth Supreme 25 vezes.
+235	Mate o Dagannoth Supreme enquanto é atacado pelo Dagannoth Prime e pelo Dagannoth Rex.
+236	Mate os três Dagannoth Kings em até 9 segundos depois do primeiro.
+237	Complete o Theatre of Blood 25 vezes.
+238	Complete o Theatre of Blood 75 vezes.
+239	Complete o Theatre of Blood 150 vezes.
+240	Mate o Pestilent Bloat antes que ele desligue pela terceira vez.
+241	Mate Verzik sem que nenhum Nylocas seja congelado e sem que ninguém tome dano dos Nylocas.
+242	Mate Sotetseg depois de sobreviver a pelo menos 3 ataques de bola sem dividir o dano e sem que ninguém morra durante a luta.
+243	Complete o Theatre of Blood sem que ninguém morra de nenhuma forma e com todos do time completando as seguintes tarefas de Combat Achievement em uma única run: "Perfect Maiden", "Perfect Bloat", "Perfect Nylocas", "Perfect Sotetseg", "Perfect Xarpus" e "Perfect Verzik".
+244	Mate The Maiden of Sugadinti sem que ninguém do time tome dano das seguintes fontes: projéteis de Blood Spawn e rastros de Blood Spawn. Além disso, sem tomar dano sem a prayer certa ativa e sem deixar nenhum Nylocas Matomenos curar The Maiden.
+245	Mate o Pestilent Bloat sem que ninguém do time tome dano das seguintes fontes: Pestilent flies, partes de corpo caindo ou o ataque de pisão do Pestilent Bloat.
+246	Mate o Nylocas Vasilias sem que ninguém do time ataque algum Nylocas com o estilo de ataque errado, sem deixar um pilar desabar e sem ser atingido por nenhum ataque do Nylocas Vasilias sem a prayer certa ativa.
+247	Mate Sotetseg sem que ninguém do time pise no tile errado do labirinto, sem ser atingido pelo tornado e sem tomar nenhum dano dos ataques de Sotetseg sem a prayer certa ativa.
+248	Mate Xarpus sem que ninguém do time tome nenhum dano dos ataques de Xarpus e sem deixar um exhumed curar Xarpus mais de duas vezes.
+249	Derrote Verzik Vitur sem que ninguém do time tome dano dos ataques de Verzik Vitur, exceto os ataques normais de magia e de ranged da forma de aranha dela com a prayer certa ativa.
+250	Mate The Maiden of Sugadinti sem que ninguém do time perca pontos de prayer.
+251	Mate Xarpus sem que ninguém do time use uma arma de ranged ou de magia.
+252	Complete o Theatre of Blood sem que nenhum membro do time equipe uma arma que não seja de barrows (exceto Dawnbringer).
+253	Complete o Theatre of Blood sem que nenhum membro do time equipe uma Scythe of Vitur.
+254	Complete o Theatre of Blood (Duo) em menos de 26 minutos.
+255	Complete o Theatre of Blood (Trio) em menos de 20 minutos.
+256	Complete o Theatre of Blood (Trio) em menos de 17 minutos e 30 segundos.
+257	Complete o Theatre of Blood (grupo de 4) em menos de 17 minutos.
+258	Complete o Theatre of Blood (grupo de 4) em menos de 15 minutos.
+259	Complete o Theatre of Blood (grupo de 5) em menos de 16 minutos.
+260	Complete o Theatre of Blood (grupo de 5) em menos de 14 minutos e 15 segundos.
+261	Mate o Thermonuclear Smoke Devil 20 vezes.
+262	Mate o Thermonuclear Smoke Devil sem que ele acerte ninguém.
+263	Mate o Thermonuclear Smoke Devil usando apenas special attacks.
+264	Mate a Venenatis 10 vezes.
+265	Mate a Venenatis 20 vezes.
+266	Mate o Vet'ion 10 vezes.
+267	Mate o Vet'ion 20 vezes.
+268	Mate o Vorkath 50 vezes.
+269	Mate o Vorkath 100 vezes.
+270	Acerte o Vorkath 12 vezes durante o special attack de ácido sem ser atingido pelos disparos rápidos dele nem pelas poças de ácido.
+271	Mate o Zombified Spawn do Vorkath sem usar Crumble Undead.
+272	Mate o Vorkath 5 vezes sem tomar dano dos special attacks dele e sem sair da área dele.
+273	Mate o Vorkath usando apenas armas de melee.
+274	Mate o Vorkath sem perder pontos de prayer.
+275	Mate o Vorkath apenas com os punhos.
+276	Mate o Vorkath em menos de 1 minuto e 15 segundos.
+277	Mate o Vorkath em menos de 54 segundos.
+278	Mate o Vorkath 10 vezes sem sair da área dele.
+279	Subjugue o Wintertodt 5 vezes.
+280	Subjugue o Wintertodt 10 vezes.
+281	Cure um Pyromancer depois que ele cair.
+282	Conserte um braseiro que foi destruído pelo Wintertodt.
+283	Subjugue o Wintertodt sem deixar os 4 braseiros ficarem quebrados ao mesmo tempo.
+284	Subjugue o Wintertodt sem que nenhum dos Pyromancers caia.
+285	Subjugue o Wintertodt com quatro peças de equipamento quente equipadas.
+286	Subjugue o Wintertodt depois de ganhar 3000 pontos ou mais.
+287	Mate um Wyrm.
+288	Complete o Chambers of Xeric: Challenge Mode 10 vezes.
+289	Complete o Chambers of Xeric: Challenge Mode 25 vezes.
+290	Complete uma raid do Chambers of Xeric: Challenge Mode sem que ninguém morra.
+291	Complete uma raid do Chambers of Xeric: Challenge Mode (Solo) sem morrer.
+292	Complete uma raid do Chambers of Xeric: Challenge Mode dentro do tempo-alvo.
+293	Complete um Chambers of Xeric: Challenge Mode (Solo) em menos de 45 minutos.
+294	Complete um Chambers of Xeric: Challenge Mode (Solo) em menos de 38 minutos e 30 segundos.
+295	Complete um Chambers of Xeric: Challenge Mode (grupo de 5) em menos de 30 minutos.
+296	Complete um Chambers of Xeric: Challenge Mode (grupo de 5) em menos de 25 minutos.
+297	Complete um Chambers of Xeric: Challenge Mode (Trio) em menos de 35 minutos.
+298	Complete um Chambers of Xeric: Challenge Mode (Trio) em menos de 27 minutos.
+299	Complete o Chambers of Xeric 25 vezes.
+300	Complete o Chambers of Xeric 75 vezes.
+301	Complete o Chambers of Xeric 150 vezes.
+302	Mate os Vanguards sem que eles resetem a vida.
+303	Mate os Vanguards em até 10 segundos depois da morte do primeiro.
+304	Complete a sala Tightrope sem matar nenhum Deathly Mage ou Deathly Ranger.
+305	Complete uma raid solo do Chambers of Xeric com mais de 40.000 pontos.
+306	Mate o Great Olm em uma raid solo sem deixar que ele use nenhum dos seguintes special attacks na penúltima fase dele: Crystal Burst, Lightning Walls, Teleportation Portals ou a autocura da mão esquerda.
+307	Mate a Muttadile sem deixar que ela ou o filhote dela recuperem Hitpoints na meat tree.
+308	Mate o Abyssal Portal sem forçar a Vespula a pousar.
+309	Mate o Vasa Nistirio antes que ele faça o ataque de teleporte pela segunda vez.
+310	Mate o Tekton antes que ele volte à bigorna pela segunda vez depois que a luta começar.
+311	Receba o crédito da kill de um Stone Guardian sem tomar dano das pedras que caem.
+312	Complete uma raid do Chambers of Xeric sem que ninguém morra.
+313	Complete uma raid solo do Chambers of Xeric sem morrer.
+314	Receba o crédito da kill de um Lizardman Shaman sem tomar dano de nenhum shaman da sala.
+315	Complete a sala dos Crystal Crabs sem desperdiçar um orbe depois que o primeiro cristal for ativado.
+316	Receba o crédito da kill do Ice Demon sem tomar nenhum dano.
+317	Mate o Great Olm em uma raid solo sem tomar dano de nenhum dos seguintes: Teleport portals, Fire Walls, Healing pools, Crystal Bombs, Crystal Burst ou Prayer Orbs. Você também não pode deixar as garras dele se regenerarem nem tomar dano da mesma poça de ácido duas vezes seguidas.
+318	Mate o Great Olm em uma raid em trio sem que nenhum membro do time tome dano de nenhum dos seguintes: Teleport portals, Fire Walls, Healing pools, Crystal Bombs, Crystal Burst ou Prayer Orbs. Você também não pode deixar as garras dele se regenerarem nem tomar dano da mesma poça de ácido duas vezes seguidas.
+319	Mate o Tekton sem tomar nenhum dano.
+320	Receba o crédito da kill do Ice Demon sem ativar a prayer Protect from Range.
+321	Dê o golpe final no Ice Demon com uma magia de fogo.
+322	Complete um Chambers of Xeric (Solo) em menos de 21 minutos.
+323	Complete um Chambers of Xeric (Solo) em menos de 17 minutos.
+324	Complete um Chambers of Xeric (grupo de 5) em menos de 15 minutos.
+325	Complete um Chambers of Xeric (grupo de 5) em menos de 12 minutos e 30 segundos.
+326	Complete um Chambers of Xeric (Trio) em menos de 16 minutos e 30 segundos.
+327	Complete um Chambers of Xeric (Trio) em menos de 14 minutos e 30 segundos.
+328	Mate a Zalcano 25 vezes.
+329	Mate a Zalcano 5 vezes seguidas sem sair e sem ser atingido pelo seguinte: pedras caindo, explosões de pedra, a Zalcano se energizando, ou ficar em um símbolo vermelho.
+330	Receba Imbued tephra de um golem.
+331	Mate a Zalcano sendo o jogador que mais causou dano a ela.
+332	Mate K'ril Tsutsaroth 50 vezes.
+333	Mate K'ril Tsutsaroth 100 vezes.
+334	Receba o crédito da kill de K'ril Tsutsaroth sem que ele use o special attack dele.
+335	Dê o golpe final em K'ril Tsutsaroth enquanto todos os guarda-costas dele estão mortos.
+336	Derrote K'ril Tsutsaroth em uma instância privada usando apenas magias demonbane.
+337	Mate K'ril Tsutsaroth em uma instância privada sem tomar nenhum dos hits de melee dele.
+338	Mate K'ril Tsutsaroth em uma instância privada sem nunca ser atingido pelos guarda-costas dele.
+339	Dê o golpe final em K'ril Tsutsaroth com uma arma demonbane.
+340	Mate K'ril Tsutsaroth 20 vezes em uma instância privada sem sair da sala.
+341	Mate um Jal-Zek dentro do Inferno.
+342	Complete o Inferno 5 vezes.
+343	Mate TzKal-Zuk sem deixar um Jal-ImKot cavar durante nenhuma wave do Inferno.
+344	Complete a wave 68 do Inferno em até 30 segundos depois da morte do primeiro JalTok-Jad.
+345	Mate TzKal-Zuk sem ser atacado por TzKal-Zuk e sem tomar dano de um JalTok-Jad.
+346	Mate TzKal-Zuk sem deixar um pilar cair antes da wave 67.
+347	Mate TzKal-Zuk sem deixar seus Hitpoints caírem abaixo de 50 durante nenhuma wave do Inferno.
+348	Mate TzKal-Zuk sem equipar um Twisted Bow dentro do Inferno.
+349	Mate TzKal-Zuk sem usar nenhuma magia durante nenhuma wave do Inferno.
+350	Mate TzKal-Zuk sem equipar nenhuma arma de ranged ou de magia antes da wave 69.
+351	Mate TzKal-Zuk sem matar o JalTok-Jad que nasce durante a wave 69.
+352	Complete o Inferno em menos de 65 minutos.
+353	Subjugue o Tempoross 5 vezes.
+354	Subjugue o Tempoross 10 vezes.
+355	Subjugue o Tempoross usando qualquer variação do Angler's outfit.
+356	Apague pelo menos 5 fogos durante uma única luta contra o Tempoross.
+357	Conserte um mastro ou um totem.
+358	Subjugue o Tempoross recebendo 10 Reward permits de uma única luta contra o Tempoross.
+359	Subjugue o Tempoross sozinho sem ser atingido por nenhum fogo, torrente ou onda.
+360	Ataque o Tempoross pelos dois lados carregando os dois canhões dos dois navios.
+361	Complete o segundo desafio de TzHaar-Ket-Rak.
+362	Complete o quarto desafio de TzHaar-Ket-Rak.
+363	Complete o sexto desafio de TzHaar-Ket-Rak.
+364	Complete o primeiro desafio de TzHaar-Ket-Rak em menos de 45 segundos.
+365	Complete o terceiro desafio de TzHaar-Ket-Rak em menos de 3 minutos.
+366	Complete o quinto desafio de TzHaar-Ket-Rak em menos de 5 minutos.
+367	Complete o segundo desafio de TzHaar-Ket-Rak usando apenas melee.
+368	Complete o quarto desafio de TzHaar-Ket-Rak usando apenas melee.
+369	Complete o terceiro desafio de TzHaar-Ket-Rak sem ter nada no inventário.
+370	Complete o quinto e o sexto desafios de TzHaar-Ket-Rak em sequência, sem falhar.
+371	Complete o terceiro desafio de TzHaar-Ket-Rak usando um estilo de ataque diferente para cada JalTok-Jad.
+372	Derrote a Maiden of Sugadinti no Theatre of Blood: Hard Mode sem deixar os blood spawns criarem mais de 15 rastros de sangue.
+373	Derrote o Pestilent Bloat no Theatre of Blood: Hard Mode com pelo menos 3 pessoas na sala, sem que ninguém do seu time fique em cima de outro.
+374	No Theatre of Blood: Hard Mode, complete a sala dos Nylocas sem nunca deixar o Nylocas Prinkipas mudar de estilo.
+375	Derrote Sotetseg no Theatre of Blood: Hard Mode sem que ninguém divida a bola com ninguém, sem que ninguém morra e sem que ninguém tome dano de nenhum dos outros ataques dele nem pise no tile errado do labirinto.
+376	Derrote Xarpus no Theatre of Blood: Hard Mode depois de deixar os exhumeds curarem ele até a vida cheia e sem que ninguém do time tome nenhum dano.
+377	Derrote Verzik Vitur no Theatre of Blood: Hard Mode sem que ninguém do seu time faça um Nylocas explodir por chegar perto demais.
+378	Quando Verzik Vitur, no Theatre of Blood: Hard Mode, usar o ataque de rajada de energia amarela enquanto os tornados estiverem ativos, faça todos passarem pelo ataque sem tomar dano. Isso não pode ser completado com um só jogador vivo
+379	Derrote Verzik Vitur no Theatre of Blood: Hard Mode sem que ninguém a ataque com uma arma de melee durante a terceira fase dela.
+380	Complete o Theatre of Blood: Hard Mode dentro do tempo do desafio, sem mortes e sem que ninguém compre nada de um baú de suprimentos.
+381	Complete o Theatre of Blood: Hard Mode dentro do tempo do desafio.
+382	Complete o Theatre of Blood: Hard Mode (Trio) com um tempo total de menos de 23 minutos.
+383	Complete o Theatre of Blood: Hard Mode (grupo de 4) com um tempo total de menos de 21 minutos.
+384	Complete o Theatre of Blood: Hard Mode (grupo de 5) com um tempo total de menos de 19 minutos.
+385	Complete o Theatre of Blood: Hard Mode 50 vezes.
+386	Derrote a Maiden of Sugadinti no Theatre of Blood: Entry Mode sem deixar nenhum bloodspawn viver por mais de 10 segundos.
+387	Derrote o Pestilent Bloat no Theatre of Blood: Entry Mode com todos com um Salve amulet equipado.
+388	No Theatre of Blood: Entry Mode, entre na sala do Pestilent Bloat pelo lado oposto.
+389	Derrote o Pestilent Bloat no Theatre of Blood: Entry Mode usando o special attack de uma halberd como seu ataque final.
+390	No Theatre of Blood: Entry Mode, congele 4 Nylocas quaisquer com uma única magia Ice Barrage.
+391	Derrote Sotetseg no Theatre of Blood: Entry Mode depois de dividir a bola grande com o seu time inteiro. Isso precisa ser feito com um grupo de pelo menos 2.
+392	Mate Xarpus no Theatre of Blood: Entry Mode sem que ele reflita dano em ninguém.
+393	Sobreviva à fase dos pilares de Verzik Vitur no Theatre of Blood: Entry Mode sem perder nenhum pilar.
+394	Sobreviva à segunda fase de Verzik Vitur no Theatre of Blood: Entry Mode sem que ninguém seja arremessado pela Verzik.
+395	No Theatre of Blood: Entry Mode, passe a bola verde para um companheiro de time com sucesso.
+396	Complete o Theatre of Blood: Entry Mode em menos de 17 minutos.
+397	Complete o Theatre of Blood: Entry Mode 1 vez.
+398	Mate um Hill Giant, um Moss Giant e um Fire Giant na Giant Cave, dentro da região de Shayzien.
+399	Cause 100 de dano a criaturas usando undead thralls.
+400	Mate Phosani's Nightmare uma vez.
+401	Mate Phosani's Nightmare 5 vezes.
+402	Mate Phosani's Nightmare 25 vezes.
+403	Mate Phosani's Nightmare tomando dano apenas de husks, power blasts e Parasites enfraquecidos. Além disso, sem ter seus ataques desacelerados pelos Nightmare Spores e sem deixar um Sleepwalker chegar até Phosani's Nightmare.
+404	Mate Phosani's Nightmare em até 7 minutos e 30 segundos.
+405	Mate Phosani's Nightmare em até 6 minutos.
+406	Mate Phosani's Nightmare matando todo parasite e todo husk em um hit.
+407	Mate Phosani's Nightmare sem deixar sua prayer ser desativada.
+408	Mate Phosani's Nightmare sem que um sleepwalker chegue até ela durante a fase de desespero dela.
+409	Mate Phosani's Nightmare 5 vezes seguidas sem sair de Phosani's Dream.
+410	Mate a Nex uma vez.
+411	Mate a Nex 25 vezes.
+412	Mate a Nex sem que ninguém morra.
+413	Mate a Nex sem deixar que ela se cure com o special attack Blood Siphon.
+414	Mate a Nex sem que ninguém tome dano de nenhum special attack de Ice.
+415	Mate a Nex sem que ninguém seja atingido pelo special attack Smoke Dash.
+416	Mate a Nex com três jogadores ou menos no início da luta.
+417	Mate a Nex com dois jogadores ou menos no início da luta.
+418	Mate a Nex enquanto um jogador está tossindo.
+419	Mate a Nex cumprindo os requisitos de "There is no escape", "Shadows move", "A siphon will solve this" e "Contain this!"
+420	Mate a Nex sem que ninguém seja atingido pelo ataque Shadow Smash.
+421	Complete o Tombs of Amascut (normal) em até 18 minutos com qualquer tamanho de grupo.
+422	Complete o Tombs of Amascut (expert) em até 20 minutos com qualquer tamanho de grupo.
+423	Complete o Tombs of Amascut (expert) em até 18 minutos em um grupo de 8.
+424	Complete uma raid inteira do Tombs of Amascut usando apenas suprimentos dados dentro da tumba e sem que ninguém morra.
+425	Complete o Tombs of Amascut sem usar nenhum suprimento do Helpful Spirit e sem que ninguém morra. Honey locusts estão incluídos nessa restrição.
+426	Complete o Tombs of Amascut com as invocações "On a diet" e "Dehydration" ativadas e sem que ninguém morra.
+427	Complete o Tombs of Amascut sem que ninguém do seu grupo vista ou segure qualquer equipamento de tier 75 ou superior.
+428	Derrote Zebak usando apenas ataques de melee e sem você morrer.
+429	Complete a fase três de The Wardens em um grupo de dois ou mais, usando apenas ataques de melee e sem você morrer. A invocação 'Insanity' precisa estar ativada.
+430	Complete o Tombs of Amascut em um grupo de dois ou mais sem que ninguém morra.
+431	Complete o Tombs of Amascut solo sem morrer.
+432	Complete a sala de Het sem tomar nenhum dano do feixe de luz e dos orbes. Você precisa destruir o núcleo depois de uma exposição.
+433	Complete Akkha em um grupo de dois ou mais, sem que ninguém tome nenhum dano do seguinte: ataques de Akkha sem a prayer certa ativa, special attacks de Akkha (orbes, memória, detonação), temporizadores de sombra explodindo, orbes na fase de enrage ou atacar Akkha com o estilo errado. Você precisa ter todas as invocações de Akkha ativadas.
+434	Complete 'Perfect Het' e 'Perfect Akkha' em uma única run do Tombs of Amascut.
+435	Complete a sala de Apmeken em um grupo de dois ou mais, sem que ninguém deixe algum perigo ser ativado, fique no veneno ou seja atingido por um volatile baboon. Você precisa completar esta sala em menos de três minutos.
+436	Derrote Ba-Ba em um grupo de dois ou mais, sem que ninguém tome nenhum dano do seguinte: ataques de Ba-Ba sem a prayer certa ativa, o slam de Ba-Ba, pedregulhos rolando, ataque de entulho ou pedras caindo. Nenhum sarcófago pode ser aberto. Você precisa ter todas as invocações de Ba-Ba ativadas.
+437	Complete 'Perfect Apmeken' e 'Perfect Ba-Ba' em uma única run do Tombs of Amascut.
+438	Complete a sala de Crondis sem deixar um crocodilo chegar à árvore, sem ninguém perder água do recipiente e em menos de um minuto.
+439	Derrote Zebak sem ninguém tomar dano de: veneno, ataques básicos do Zebak sem a prayer certa, blood spawns e ondas. Você também não pode empurrar mais de dois jarros no ataque de rugido durante a luta (você pode destruir os que estão parados). Todas as invocações do Zebak precisam estar ativadas.
+440	Complete 'Perfect Crondis' e 'Perfect Zebak' em uma única run do Tombs of Amascut.
+441	Complete a sala de Scabaras em menos de um minuto sem ninguém tomar dano dos quebra-cabeças.
+442	Derrote Kephri em um grupo de dois ou mais, sem ninguém tomar dano de: explosões de ovos, ataques da Kephri, Exploding Scarabs, Bodyguards, ataques de esterco. Nenhum ovo pode chocar durante a luta.
+443	Complete 'Perfect Scabaras' e 'Perfect Kephri' em uma única run do Tombs of Amascut.
+444	Derrote os Wardens em um grupo de dois ou mais, sem ninguém tomar dano evitável de: ataques dos Wardens, ataques do obelisco, ataques de raio na fase três, ataque de caveira na fase três, ataques do Demi god na fase três. Todas as invocações dos Wardens precisam estar ativadas.
+445	Complete 'Perfect Wardens' no nível expert ou acima.
+446	Complete o Tombs of Amascut com nível de raid 500 ou acima sem ninguém morrer.
+447	Complete a raid Tombs of Amascut no nível 350 ou acima sem ninguém morrer.
+448	Complete uma raid Tombs of Amascut com todas as invocações de boss ativadas e sem ninguém morrer.
+449	Derrote Akkha sem deixar cair nenhum orbe que se materializa e sem você morrer.
+450	Derrote Akkha com todas as invocações de Akkha ativadas e o caminho evoluído até pelo menos o nível quatro, sem você morrer.
+451	Derrote Ba-Ba depois de atacar apenas os pedregulhos não enfraquecidos na fase dos pedregulhos rolantes, sem você morrer. A invocação Boulderdash precisa estar ativada.
+452	Derrote Ba-Ba depois de destruir quatro ou menos pedregulhos rolantes no total, sem você morrer.
+453	Derrote Ba-Ba com todas as invocações de Ba-Ba ativadas e o caminho evoluído até pelo menos o nível quatro, sem você morrer.
+454	Derrote Zebak sem perder nenhum ponto de prayer. Você também precisa cumprir as condições da conquista 'Rockin' Around The Croc'.
+455	Derrote Zebak com todas as invocações de Zebak ativadas e o caminho evoluído até pelo menos o nível quatro, sem você morrer.
+456	Derrote Kephri com todas as invocações de Kephri ativadas e o caminho evoluído até pelo menos o nível quatro, sem você morrer.
+457	Derrote Kephri sem deixar ela se curar acima de 25% depois da primeira queda. A invocação 'Medic' precisa estar ativada. Você precisa fazer isso sem morrer.
+458	Derrote os Wardens depois de desestabilizar o boss no máximo duas vezes durante a fase dois, sem você morrer.
+459	Derrote Elidinis' Warden na fase três da luta dos Wardens com as invocações 'Aerial Assault', 'Stay vigilant' e 'Insanity' ativadas e sem você morrer.
+460	Derrote os Wardens com todas as invocações dos Wardens ativadas, no nível expert e sem você morrer.
+461	Complete o Tombs of Amascut no Entry mode (ou acima) uma vez.
+462	Complete o Tombs of Amascut no Entry mode (ou acima) 25 vezes.
+463	Complete o Tombs of Amascut no Entry mode (ou acima) 50 vezes.
+464	Complete uma raid Tombs of Amascut no nível 50 ou acima.
+465	Complete uma raid Tombs of Amascut no nível 100 ou acima.
+466	Complete o Tombs of Amascut 25 vezes.
+467	Complete o Tombs of Amascut 50 vezes.
+468	Complete o Tombs of Amascut uma vez.
+469	Complete o Tombs of Amascut (Expert mode) uma vez.
+470	Complete o Tombs of Amascut (Expert mode) 25 vezes.
+471	Complete o Tombs of Amascut (Expert mode) 50 vezes.
+472	Mate o Phantom Muspah causando dano nele apenas com uma salamander.
+473	Mate o Phantom Muspah sem correr.
+474	Mate o Phantom Muspah 10 vezes em uma viagem.
+475	Mate o Phantom Muspah em menos de 3 minutos sem uma Slayer task.
+476	Mate o Phantom Muspah em menos de 2 minutos sem uma Slayer task.
+477	Mate o Phantom Muspah em menos de 1 minuto e 30 segundos sem uma Slayer task.
+478	Mate o Phantom Muspah.
+479	Mate o Phantom Muspah 25 vezes.
+480	Mate o Phantom Muspah 50 vezes.
+481	Mate o Phantom Muspah enquanto ele está cercado por espinhos.
+482	Drene a Prayer do Phantom Muspah com três fontes diferentes em uma kill.
+483	Mate o Phantom Muspah sem tomar nenhum dano evitável.
+484	Mate o Phantom Muspah completando Walk Straight Pray True, Space is Tight e Can't Escape.
+485	Mate o Vardorvis em menos de 1:15 minutos sem uma Slayer task.
+486	Mate o Vardorvis em menos de 1:05 sem uma Slayer task.
+487	Mate o Vardorvis em menos de 0:55 sem uma Slayer task.
+488	Mate o Vardorvis uma vez.
+489	Mate o Vardorvis 50 vezes.
+490	Mate o Awakened Vardorvis.
+491	Mate o Vardorvis perfeitamente 5 vezes sem sair.
+492	Mate o Vardorvis depois de sobreviver por 3 minutos à velocidade máxima do Vardorvis, sem nunca sair dos 25 tiles centrais.
+493	Mate o Vardorvis com equipamento que valha 2m ou menos no total.
+494	Mate a Whisperer em menos de 3:00 sem uma Slayer task.
+495	Mate a Whisperer em menos de 2:25 sem uma Slayer task.
+496	Mate a Whisperer em menos de 2:05 sem uma Slayer task.
+497	Mate a Whisperer uma vez.
+498	Mate a Whisperer 50 vezes.
+499	Mate a Awakened Whisperer.
+500	Mate a Whisperer sem tomar dano evitável 5 vezes sem sair.
+501	Mate a Whisperer estando apenas no spellbook Arceuus.
+502	Mate a Whisperer passando menos de 6 segundos no reino das sombras antes do enrage.
+503	Mate o Leviathan em menos de 1:50 sem uma Slayer task.
+504	Mate o Leviathan em menos de 1:25 sem uma Slayer task.
+505	Mate o Leviathan em menos de 1:10 sem uma Slayer task.
+506	Mate o Leviathan uma vez.
+507	Mate o Leviathan 50 vezes.
+508	Mate o Awakened Leviathan.
+509	Mate o Leviathan perfeitamente 5 vezes sem sair.
+510	Mate o Leviathan sem atordoar o boss mais de uma vez.
+511	Mate o Leviathan usando apenas munição Mithril, sem ter mais de 25 Hitpoints durante toda a luta.
+512	Mate o Duke Sucellus em menos de 1:00 minutos sem uma Slayer task.
+513	Mate o Duke Sucellus em menos de 50 segundos sem uma Slayer task.
+514	Mate o Duke Sucellus em menos de 40 segundos sem uma Slayer task.
+515	Mate o Duke Sucellus uma vez.
+516	Mate o Duke Sucellus 50 vezes.
+517	Mate o Awakened Duke Sucellus.
+518	Mate o Duke Sucellus sem tomar nenhum dano evitável 5 vezes sem sair.
+519	Mate o Duke Sucellus sem tomar nenhum dano evitável e também sem nunca correr.
+520	Mate o Duke Sucellus atacando o boss apenas no mesmo tick em que o Duke ataca você.
+521	Mate o Scurrius uma vez.
+522	Mate o Scurrius 10 vezes.
+523	Dê o golpe final no Scurrius com uma arma ratbane em uma instância privada.
+524	Mate o Scurrius em uma instância privada sem tomar dano dos seguintes ataques: Tail Swipe e Falling Bricks. Use a prayer certa contra os seguintes ataques: Flying Fur e Bolts of Electricity.
+525	Mate 6 Giant Rats dentro do covil do Scurrius em 3 segundos.
+526	Derrote a Eclipse moon atacando apenas os clones dela.
+527	Derrote uma Moon antes que ela comece o segundo special attack.
+528	Abra o Reward Chest depois de derrotar todas as três Moons.
+529	Abra o Reward Chest 5 vezes.
+530	Abra o Reward Chest 25 vezes.
+531	Derrote todas as Moons em uma run tomando dano apenas de ataques normais.
+532	Derrote uma Moon sem consumir nenhum suprimento.
+533	Derrote uma Moon usando a arma de drop associada a ela.
+534	Derrote todas as três Moons em uma run atacando apenas com uma Dragon Scimitar.
+535	Derrote todas as três Moons em uma run em menos de 8 minutos.
+536	Derrote todas as três Moons em uma run em menos de 6 minutos.
+537	Derrote 30 bosses do Moons of Peril sem sair da dungeon.
+538	Derrote Sol Heredit uma vez.
+539	Derrote Sol Heredit 10 vezes.
+540	Derrote Sol Heredit usando apenas uma Spear, Hasta ou Halberd.
+541	Derrote Sol Heredit sem correr durante a luta contra ele.
+542	Complete a Wave 4 sem tomar dano evitável de uma Manticore.
+543	Derrote Sol Heredit sem tomar nenhum dano do Spear, Shield, Grapple ou Triple Attack dele.
+544	Derrote Sol Heredit depois de usar Fortis Salute ao norte, leste, sul e oeste da arena enquanto ele está abaixo de 10% de Hitpoints.
+545	Complete a Wave 7 sem o Minotaur curar outros inimigos em nenhum momento.
+546	Complete a Wave 11 com 'Red Flag', 'Dynamic Duo' ou 'Doom II' ativo.
+547	Derrote Sol Heredit com os modificadores "Bees II", "Quartet" e "Solarflare II" ativos.
+548	Mate um Jaguar Warrior usando o special attack de uma arma do tipo Claw.
+549	Complete o Colosseum com um tempo total de 28:00 ou menos.
+550	Complete o Colosseum com um tempo total de 24:00 ou menos.
+551	Mate um Tormented Demon.
+552	Mate um Tormented Demon enquanto o escudo dele está inativo.
+553	Mate dois Tormented Demons dentro de 2 segundos.
+554	Mate três Tormented Demons dentro de 3 segundos.
+555	Acerte três Tormented Demons dentro de 3 segundos usando uma ballista ou uma crossbow.
+556	Mate o Araxxor 25 vezes.
+557	Mate o Araxxor 75 vezes.
+558	Mate o Araxxor 4 vezes em 10:00.
+559	Mate o Araxxor 5 vezes em 10:00.
+560	Mate o Araxxor 6 vezes em 10:00.
+561	Mate o Araxxor perfeitamente, sem tomar dano dos ataques de Mage e Range do Araxxor, do ataque melee sem a prayer certa, dos lacaios araxyte nem das poças de ácido.
+562	Mate o Araxxor perfeitamente, sem acertar ele durante a fase de enrage.
+563	Mate o Araxxor sem nunca ter imunidade a venom ou a veneno.
+564	Mate o Araxxor depois de destruir seis ovos.
+565	Mate o Araxxor sem o boss se mover em nenhum momento.
+566	Faça um Araxyte matar três outros Araxytes.
+567	Mate o Araxxor 10 vezes sem sair.
+568	Mate o Hueycoatl uma vez.
+569	Mate o Hueycoatl 10 vezes.
+570	Mate o Hueycoatl 25 vezes.
+571	Mate o Hueycoatl perfeitamente 5 vezes sem sair. Para a kill ser perfeita, você não pode tomar nenhum dano evitável do ataque de raio do Hueycoatl, do ataque de pancada com a cauda nem dos ataques de projétil sem a prayer certa.
+572	Mate o Hueycoatl enquanto ele está vulnerável.
+573	Mate o Hueycoatl usando apenas armas dragonbane.
+574	Mate o Hueycoatl usando apenas magias de terra.
+575	Mate o Hueycoatl usando duas peças de armadura Hueycoatl.
+576	Mate o Hueycoatl em 2:30
+577	Mate o Hueycoatl em 2:30 com cinco jogadores ou menos.
+578	Mate o Hueycoatl em 2:30 com três jogadores ou menos.
+579	Mate Amoxliatl uma vez.
+580	Mate Amoxliatl 20 vezes.
+581	Mate Amoxliatl em menos de 1 minuto.
+582	Mate Amoxliatl em menos de 30 segundos.
+583	Mate Amoxliatl sem tomar nenhum dano.
+584	Mate Amoxliatl usando apenas a glacial temotli como arma.
+585	Mate Amoxliatl sem perder nenhum ponto de prayer.
+586	Mate Amoxliatl 10 vezes sem sair da câmara dela.
+587	Mate Amoxliatl sem que nenhum gelo instável dela se estilhace.
+588	Mate os Royal Titans sem ser atingido por nenhum dano evitável. Isso inclui: ataques melee, explosões do elemental de gelo ou de fogo, dano do surgimento de pingentes de gelo ou de fogo, e ataques de pulso de gelo ou de fogo.
+589	Mate os Royal Titans 10 vezes.
+590	Mate os Royal Titans 25 vezes.
+591	Mate um Titan de cada vez, sem atacar o outro.
+592	Mate os Royal Titans em menos de 1:30 minutos.
+593	Mate os Royal Titans 15 vezes sem ninguém sair da instância. Se um jogador entrar na luta, a sequência atual volta para 0. Se um jogador sair da luta, a tarefa falha e será preciso criar uma nova instância.
+594	Mate os Royal Titans sem atacar nenhum elemental.
+595	Mate os Royal Titans apagando todos os fogos e derretendo todos os pingentes de gelo antes que eles sumam naturalmente.
+596	Mate os Royal Titans sem perder nenhum ponto de prayer.
+597	Mate os Royal Titans fazendo com que os Royal Titans matem um total de 10 elementais.
+598	Mate os dois Royal Titans enquanto eles estão carregando o ataque em área. Os dois titans precisam morrer durante a mesma fase de carregamento.
+599	Derrote Yama uma vez.
+600	Derrote Yama 50 vezes.
+601	Derrote Yama com um tempo médio abaixo de 3:38 nas suas últimas quatro kills.
+602	Derrote Yama com um tempo médio abaixo de 3:00 nas suas últimas quatro kills.
+603	Derrote Yama com um tempo médio abaixo de 2:34 nas suas últimas quatro kills.
+604	Derrote Yama sem ninguém se curar com nada além de plain pizza e sem ninguém beber nenhuma poção.
+605	Derrote Yama sem ser atingido por sombras e sem ficar a mais de um tile do centro do ataque shadow crash dele.
+606	Derrote Yama sem ser atingido por fogo e tendo matado void flares apenas com special attacks.
+607	Derrote Yama sem que o judge seja atacado com o estilo errado e sem tomar mais de uma instância de dano cada vez que você for exilado da arena.
+608	Derrote Yama completando 'Shadow Dancer', 'Fire Fighter', 'Back so soon?' e sem tomar nenhum outro dano evitável.
+609	Derrote Yama sob as condições elevadas de um dos contratos não padrão dele.
+610	Derrote o Doom of Mokhaiotl no nível de delve 3.
+611	Derrote o Doom of Mokhaiotl no nível de delve 8.
+612	Derrote o Doom of Mokhaiotl no nível de delve 16.
+613	Derrote o Doom of Mokhaiotl durante a fase de investida Melee dele.
+614	Derrote o Doom of Mokhaiotl no nível 8 ou acima antes que ele termine a primeira fase em que se enterra.
+615	Derrote os níveis 1-8 do Doom of Mokhaiotl sem nunca deixar uma larva ser absorvida.
+616	Derrote os níveis 1-8 do Doom of Mokhaiotl sem tomar nenhum dano do boss, sem deixar nenhuma larva ser absorvida e sem pisar em sangue ácido.
+617	Derrote os níveis 1-8 do Doom of Mokhaiotl sem restaurar seus pontos de prayer por nenhum método.
+618	Derrote os níveis 1-8 do Doom of Mokhaiotl causando dano ao boss apenas com ataques melee de uma mão.
+619	Derrote os níveis 1-8 do Doom of Mokhaiotl sem equipar uma arma demonbane.
+620	Derrote os níveis 1-8 do Doom of Mokhaiotl sempre usando um escudo.
+621	Derrote o nível 1 do Doom of Mokhaiotl em menos de 30 segundos.
+622	Derrote os níveis 1-8 do Doom of Mokhaiotl em menos de 10:00.
+623	Derrote os níveis 1-8 do Doom of Mokhaiotl em menos de 7:15.
+624	Limpe pelo menos 8 poças de ácido em um único special attack Volatile Earth.
+625	Mate o Shellbane Gryphon 25 vezes.
+626	Mate o Shellbane Gryphon 50 vezes.
+627	Mate o Shellbane Gryphon sem tomar dano.
+628	Mate o Shellbane Gryphon 10 vezes em até 12:30 minutos depois de entrar na caverna.
+629	Mate o Shellbane Gryphon 25 vezes sem sair da caverna.
+630	Mate o Shellbane Gryphon depois de limpar a saliva corrosiva dele da sua armadura.
+631	Mate o Shellbane Gryphon 5 vezes sem sair da caverna, usando equipamento que pese menos de 40kg.
+632	Mate o Brutus.
+633	Mate o Brutus 10 vezes.
+634	Mate o Brutus em menos de 2 segundos.
+635	Mate o Brutus sem equipar nem consumir nada.
+636	Mate o Brutus sem ser atacado.
+637	Mate o Maggot King.
+638	Mate o Maggot King 25 vezes.
+639	Mate o Maggot King 12 vezes sem sair da arena.
+640	Complete as 5 primeiras kills do Maggot King em até 9 minutos depois de entrar na arena.
+641	Mate o Maggot King usando apenas armas que podem ser encontradas em Vampyrium.
+642	Mate o Maggot King sem errar nenhuma punição melee.
+643	Mate o Maggot King sem se mover mais de 40 tiles.
+644	Mate o Maggot King sem se mover para além da fileira de tiles do fundo.
+645	Mate o Maggot King sem tomar nenhum dano evitável e sem ele ser curado em nenhum momento.
+646	Mate a Mad Angel 25 vezes.
+647	Mate a Mad Angel 50 vezes.
+648	Mate a Mad Angel sem tomar nenhum dano evitável.
+649	Mate a Mad Angel 15 vezes sem sair da arena dela.
+650	Mate a Mad Angel 5 vezes em até 10 minutos depois de entrar na arena dela.
+651	Mate a Mad Angel depois de conseguir 6 ataques aprimorados consecutivos desviando com sucesso do ataque de varredura durante a fase de enrage dela.
+652	Mate a Mad Angel depois de conseguir 3 ataques aprimorados consecutivos usando com sucesso a prayer contra os ataques de smite durante a fase de enrage dela.
+653	Mate a Mad Angel depois de atacar ela entre cada quique do ataque de explosão durante a fase de enrage dela. Isso não precisa ser feito logo antes de a Mad Angel morrer; só precisa ser feito em algum momento da luta depois que ela entrar em enrage.
+654	Mate a Mad Angel sem equipar nenhuma arma.

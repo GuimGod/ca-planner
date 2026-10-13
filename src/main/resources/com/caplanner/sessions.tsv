@@ -1,0 +1,50 @@
+# How long a sitting at each boss is, for the autopilot: short fits half an hour, medium an hour or two,
+# long is a raid or a run of waves. Written for this plugin (October 2026). A boss that is not here is medium.
+# boss	short | medium | long
+Thermonuclear Smoke Devil	short
+Amoxliatl	short
+Giant Mole	short
+Sarachnis	short
+Scurrius	short
+Obor	short
+Bryophyta	short
+Skotizo	short
+Chaos Fanatic	short
+Crazy Archaeologist	short
+King Black Dragon	short
+Tempoross	short
+Deranged Archaeologist	short
+Chaos Elemental	short
+Scorpia	short
+Hespori	short
+Brutus	short
+Aberrant Spectre	short
+Bloodveld	short
+Gargoyle	short
+Kurask	short
+Wyrm	short
+Basilisk Knight	short
+Brutal Black Dragon	short
+Skeletal Wyvern	short
+Lizardman Shaman	short
+Greater Demon	short
+Hellhound	short
+Demonic Gorilla	short
+TzTok-Jad	long
+TzKal-Zuk	long
+Chambers of Xeric	long
+Chambers of Xeric: Challenge Mode	long
+Theatre of Blood	long
+Theatre of Blood: Entry Mode	long
+Theatre of Blood: Hard Mode	long
+Tombs of Amascut	long
+Tombs of Amascut: Entry Mode	long
+Tombs of Amascut: Expert Mode	long
+Doom of Mokhaiotl	long
+Fortis Colosseum	long
+The Nightmare	long
+Phosani's Nightmare	long
+Nex	long
+Corporeal Beast	long
+Zulrah	short
+Vorkath	short

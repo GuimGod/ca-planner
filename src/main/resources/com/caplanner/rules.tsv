@@ -1,0 +1,64 @@
+# What a task itself asks of the gear, written for this plugin from each task's own objective (October 2026).
+# Only tasks whose objective is about what is worn or wielded are here; the rest ask nothing of the set.
+# "note" = the task has a rule the set cannot follow (a price or weight limit, bare hands, a spell,
+# special attacks only): the panel says so instead of pretending the set fits.
+# task id	rule	boss and task, for whoever reads this file
+143	weapon=dharok's greataxe;note	Alchemical Hydra: No Pressure
+584	weapon=glacial temotli	Amoxliatl: Temotli Triumph
+216	style=melee	Commander Zilyana: Reminisce
+68	have=dragon halberd|crystal halberd;note	Corporeal Beast: Finding the Weak Spot
+75	have=@demonbane	Demonic Gorilla: Hitting Them Where It Hurts
+618	style=melee;onehand	Doom of Mokhaiotl: Duel of Mokhaiotl
+619	exclude=@demonbane	Doom of Mokhaiotl: Darkness Is Your Ally?
+620	shield	Doom of Mokhaiotl: Mine's Better
+121	have=@demonbane	Greater Demon: Not So Great After All
+339	have=@demonbane	K'ril Tsutsaroth: Demonbane Weaponry II
+161	weapon=verac's flail;exclude=ring of recoil|ring of suffering	Kalphite Queen: Prayer Smasher
+165	type=stab	King Black Dragon: Hide Penetration
+166	note	King Black Dragon: Antifire Protection
+14	weapon=salamander;note	Kree'arra: The Worst Ranged Weapon
+511	style=ranged;ammo=mithril;note	Leviathan: Unconventional
+654	note	Mad Angel: The Pen Is Mightier
+641	note	Maggot King: Trying to fit in
+210	type=crush	Sarachnis: Newspaper Enthusiast
+523	have=@ratbane	Scurrius: Sit Rat
+631	note	Shellbane gryphon: Featherweight Fighter
+48	weapon=@demonbane	Skotizo: Demonbane Weaponry
+49	exclude=@demonbane	Skotizo: Up for the Challenge
+50	have=chinchompa;note	Skotizo: Precise Positioning
+573	weapon=@dragonbane	The Hueycoatl: Is it a bird?
+574	spell=earth;exclude=ring of recoil|ring of suffering	The Hueycoatl: You're a wizard
+575	note	The Hueycoatl: I'm your son
+263	note	Thermonuclear Smoke Devil: Spec'd Out
+153	style=melee	TzTok-Jad: Facing Jad Head-on
+348	exclude=twisted bow	TzKal-Zuk: Budget Setup
+349	style=melee,ranged	TzKal-Zuk: Nibbler Chaser
+350	note	TzKal-Zuk: Facing Jad Head-on II
+493	note	Vardorvis: Budget Cutter
+273	style=melee	Vorkath: Stick 'em With the Pointy End
+275	note	Vorkath: The Fremennik Way
+501	note	Whisperer: Tentacular
+40	note	Bryophyta: A Slow Death
+28	style=magic	Barrows: Defence? What Defence?
+29	note	Barrows: Just Like That
+251	note	Theatre of Blood: Can You Dance?
+252	note	Theatre of Blood: Morytania Only
+253	exclude=scythe of vitur	Theatre of Blood: Back in My Day...
+271	note	Vorkath: Zombie Destroyer
+285	note	Wintertodt: Cosy
+321	note	Chambers of Xeric: Kill It with Fire
+355	have=angler;note	Tempoross: Dress Like You Mean It
+367	style=melee	TzHaar-Ket-Rak's Challenges: Facing Jad Head-on III
+368	style=melee	TzHaar-Ket-Rak's Challenges: Facing Jad Head-on IV
+379	note	Theatre of Blood: Hard Mode: Harder Mode III
+427	note	Tombs of Amascut: Expert Mode: But... Damage
+429	style=melee;note	Tombs of Amascut: Expert Mode: Fancy feet
+533	have=dual macuahuitl|eclipse atlatl|blue moon spear;note	Moons of Peril: Betrayal
+534	weapon=dragon scimitar	Moons of Peril: Back to Our Roots
+540	weapon=spear|hasta|halberd	Fortis Colosseum: I Brought Mine Too
+72	style=magic	Crazy Archaeologist: Mage of the Ruins
+472	weapon=salamander;note;without=book of the dead	Phantom Muspah: More than just a ranged weapon
+64	without=super restore|prayer regeneration potion	Chaos Fanatic: Praying to the Gods
+563	without=extended anti-venom+|antidote++	Araxxor: Let it seep in
+604	note;without=super restore|prayer regeneration potion|divine super combat potion|divine ranging potion|saturated heart|anglerfish|cooked karambwan|sanfew serum|antidote++	Yama: No toppings, no drinks, thanks
+617	without=super restore|prayer regeneration potion	Doom of Mokhaiotl: The Praying Mantis

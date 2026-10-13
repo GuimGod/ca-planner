@@ -1,0 +1,1854 @@
+# Levels an item asks for before it can be worn, by its name in lower case. Compiled for this plugin
+# (October 2026) from the item pages of the OSRS Wiki and the osrsreboxed item database.
+# An item that is not here asks for nothing, as far as this table knows.
+# name	levels (skill N; ...)
+3rd age amulet	defence 30; magic 65
+3rd age axe	attack 65
+3rd age bow	ranged 65
+3rd age cloak	prayer 65
+3rd age druidic cloak	defence 65; prayer 65
+3rd age druidic robe bottoms	defence 65; prayer 65
+3rd age druidic robe top	defence 65; prayer 65
+3rd age druidic staff	attack 65; prayer 65
+3rd age full helmet	defence 65
+3rd age kiteshield	defence 65
+3rd age longsword	attack 65
+3rd age mage hat	defence 30; magic 65
+3rd age pickaxe	attack 65
+3rd age platebody	defence 65
+3rd age platelegs	defence 65
+3rd age plateskirt	defence 65
+3rd age range coif	defence 45; ranged 65
+3rd age range legs	defence 45; ranged 65
+3rd age range top	defence 45; ranged 65
+3rd age robe	defence 30; magic 65
+3rd age robe top	defence 30; magic 65
+3rd age vambraces	defence 45; ranged 65
+3rd age wand	magic 65
+abyssal bludgeon	attack 70; strength 70
+abyssal dagger	attack 70
+abyssal dagger (bh)	attack 70
+abyssal dagger (bh) (beta)	attack 70
+abyssal dagger (p)	attack 70
+abyssal dagger (p+)	attack 70
+abyssal dagger (p++)	attack 70
+abyssal tentacle	attack 75
+abyssal whip	attack 70
+accumulator max cape	attack 99; strength 99; defence 99; ranged 99; magic 99; prayer 99; hitpoints 99; slayer 99; agility 99
+accumulator max hood	attack 99; strength 99; defence 99; ranged 99; magic 99; prayer 99; hitpoints 99; slayer 99; agility 99
+accursed sceptre	magic 70
+accursed sceptre (a)	magic 70
+accursed sceptre (a) (beta)	magic 70
+accursed sceptre (beta)	magic 70
+adamant 2h sword	attack 30
+adamant arrow	ranged 30
+adamant arrow(p)	ranged 30
+adamant arrow(p+)	ranged 30
+adamant arrow(p++)	ranged 30
+adamant axe	attack 30
+adamant battleaxe	attack 30
+adamant bolts	ranged 46
+adamant bolts (p)	ranged 46
+adamant bolts (p+)	ranged 46
+adamant bolts (p++)	ranged 46
+adamant boots	defence 30
+adamant brutal	ranged 30
+adamant cane	attack 30
+adamant chainbody	defence 30
+adamant claws	attack 30
+adamant crossbow	ranged 46
+adamant dagger	attack 30
+adamant dagger(p)	attack 30
+adamant dagger(p+)	attack 30
+adamant dagger(p++)	attack 30
+adamant dart	ranged 30
+adamant dart(p)	ranged 30
+adamant dart(p+)	ranged 30
+adamant dart(p++)	ranged 30
+adamant defender	attack 30; defence 30
+adamant defender (l)	attack 30; defence 30
+adamant fire arrow	ranged 30
+adamant fire arrow (lit)	ranged 30
+adamant full helm	defence 30
+adamant full helm (g)	defence 30
+adamant full helm (t)	defence 30
+adamant gloves	defence 13
+adamant halberd	attack 30; strength 15
+adamant hasta	attack 30
+adamant hasta(kp)	attack 30
+adamant hasta(p)	attack 30
+adamant hasta(p+)	attack 30
+adamant hasta(p++)	attack 30
+adamant helm (h1)	defence 30
+adamant helm (h2)	defence 30
+adamant helm (h3)	defence 30
+adamant helm (h4)	defence 30
+adamant helm (h5)	defence 30
+adamant heraldic helm	defence 30
+adamant javelin	ranged 30
+adamant javelin(p)	ranged 30
+adamant javelin(p+)	ranged 30
+adamant javelin(p++)	ranged 30
+adamant kiteshield	defence 30
+adamant kiteshield (g)	defence 30
+adamant kiteshield (t)	defence 30
+adamant knife	ranged 30
+adamant knife(p)	ranged 30
+adamant knife(p+)	ranged 30
+adamant knife(p++)	ranged 30
+adamant longsword	attack 30
+adamant mace	attack 30
+adamant med helm	defence 30
+adamant pickaxe	attack 30
+adamant platebody	defence 30
+adamant platebody (g)	defence 30
+adamant platebody (h1)	defence 30
+adamant platebody (h2)	defence 30
+adamant platebody (h3)	defence 30
+adamant platebody (h4)	defence 30
+adamant platebody (h5)	defence 30
+adamant platebody (t)	defence 30
+adamant platelegs	defence 30
+adamant platelegs (g)	defence 30
+adamant platelegs (t)	defence 30
+adamant plateskirt	defence 30
+adamant plateskirt (g)	defence 30
+adamant plateskirt (t)	defence 30
+adamant scimitar	attack 30
+adamant shield (h1)	defence 30
+adamant shield (h2)	defence 30
+adamant shield (h3)	defence 30
+adamant shield (h4)	defence 30
+adamant shield (h5)	defence 30
+adamant spear	attack 30
+adamant spear(kp)	attack 30
+adamant spear(p)	attack 30
+adamant spear(p+)	attack 30
+adamant spear(p++)	attack 30
+adamant sq shield	defence 30
+adamant sword	attack 30
+adamant thrownaxe	ranged 30
+adamant warhammer	strength 30
+agility cape	agility 99
+agility cape(t)	agility 99
+agility hood	agility 99
+ahrim's hood	defence 70; magic 70
+ahrim's hood 100	defence 70; magic 70
+ahrim's hood 25	defence 70; magic 70
+ahrim's hood 50	defence 70; magic 70
+ahrim's hood 75	defence 70; magic 70
+ahrim's robeskirt	defence 70; magic 70
+ahrim's robeskirt 100	defence 70; magic 70
+ahrim's robeskirt 25	defence 70; magic 70
+ahrim's robeskirt 50	defence 70; magic 70
+ahrim's robeskirt 75	defence 70; magic 70
+ahrim's robetop	defence 70; magic 70
+ahrim's robetop 100	defence 70; magic 70
+ahrim's robetop 25	defence 70; magic 70
+ahrim's robetop 50	defence 70; magic 70
+ahrim's robetop 75	defence 70; magic 70
+ahrim's staff	attack 70; magic 70
+ahrim's staff 100	attack 70; magic 70
+ahrim's staff 25	attack 70; magic 70
+ahrim's staff 50	attack 70; magic 70
+ahrim's staff 75	attack 70; magic 70
+air battlestaff	attack 30; magic 30
+amethyst arrow	ranged 50
+amethyst arrow(p)	ranged 50
+amethyst arrow(p+)	ranged 50
+amethyst arrow(p++)	ranged 50
+amethyst broad bolts	ranged 61; slayer 65
+amethyst fire arrow	ranged 50
+amethyst fire arrow (lit)	ranged 50
+amethyst javelin	ranged 65
+amethyst javelin(p)	ranged 65
+amethyst javelin(p+)	ranged 65
+amethyst javelin(p++)	ranged 65
+amulet of air	magic 59
+amulet of earth	magic 59
+amulet of fire	magic 59
+amulet of rancour	hitpoints 90
+amulet of torture	hitpoints 75
+amulet of torture (or)	hitpoints 75
+amulet of water	magic 59
+ancestral hat	defence 65; magic 75
+ancestral robe bottom	defence 65; magic 75
+ancestral robe top	defence 65; magic 75
+ancient bracers	defence 40; ranged 70
+ancient chaps	defence 40; ranged 70
+ancient cloak	prayer 40
+ancient coif	defence 40; ranged 70
+ancient crozier	prayer 60
+ancient d'hide body	defence 40; ranged 70
+ancient d'hide boots	defence 40; ranged 70
+ancient d'hide shield	defence 40; ranged 70
+ancient full helm	defence 40
+ancient godsword	attack 75
+ancient godsword (beta)	attack 75
+ancient kiteshield	defence 40
+ancient mace	attack 15; prayer 25
+ancient mitre	magic 40; prayer 40
+ancient platebody	defence 40
+ancient platelegs	defence 40
+ancient plateskirt	defence 40
+ancient robe legs	prayer 20
+ancient robe top	prayer 20
+ancient sceptre	attack 50; strength 60; magic 70
+ancient staff	attack 50; magic 50
+ancient stole	prayer 60
+ancient wyvern shield	defence 75; magic 70
+antler guard	prayer 50
+apprentice wand	magic 50
+aquanite hopper	ranged 60
+arcane spirit shield	defence 75; magic 65; prayer 70
+archer helm	defence 45
+arclight	attack 75
+ardougne max cape	attack 99; strength 99; defence 99; ranged 99; magic 99; prayer 99; hitpoints 99; slayer 99; agility 99
+ardougne max hood	attack 99; strength 99; defence 99; ranged 99; magic 99; prayer 99; hitpoints 99; slayer 99; agility 99
+arkan blade	attack 60
+armadyl bracers	defence 40; ranged 70
+armadyl chainskirt	defence 70; ranged 70
+armadyl chaps	defence 40; ranged 70
+armadyl chestplate	defence 70; ranged 70
+armadyl cloak	prayer 40
+armadyl coif	defence 40; ranged 70
+armadyl crossbow	ranged 70
+armadyl crozier	prayer 60
+armadyl d'hide body	defence 40; ranged 70
+armadyl d'hide boots	defence 40; ranged 70
+armadyl d'hide shield	defence 40; ranged 70
+armadyl full helm	defence 40
+armadyl godsword	attack 75
+armadyl godsword (or)	attack 75
+armadyl helmet	defence 70; ranged 70
+armadyl kiteshield	defence 40
+armadyl mitre	magic 40; prayer 40
+armadyl platebody	defence 40
+armadyl platelegs	defence 40
+armadyl plateskirt	defence 40
+armadyl robe legs	prayer 20
+armadyl robe top	prayer 20
+armadyl stole	prayer 60
+assembler max cape	attack 99; strength 99; defence 99; ranged 99; magic 99; prayer 99; hitpoints 99; slayer 99; agility 99
+assembler max cape (l)	attack 99; strength 99; defence 99; ranged 99; magic 99; prayer 99; hitpoints 99; slayer 99; agility 99
+assembler max hood	attack 99; strength 99; defence 99; ranged 99; magic 99; prayer 99; hitpoints 99; slayer 99; agility 99
+attack cape	attack 99
+attack cape(t)	attack 99
+attack hood	attack 99
+ava's accumulator	ranged 50
+ava's assembler	ranged 70
+ava's assembler (l)	ranged 70
+avernic defender	attack 70; defence 70
+avernic defender (beta)	attack 70; defence 70
+avernic defender (l)	attack 70; defence 70
+avernic treads	strength 80; defence 80; ranged 80; magic 80
+avernic treads (et)	strength 80; defence 80; ranged 80; magic 80
+avernic treads (max)	strength 80; defence 80; ranged 80; magic 80
+avernic treads (pe)	strength 80; defence 80; ranged 80; magic 80
+avernic treads (pe)(et)	strength 80; defence 80; ranged 80; magic 80
+avernic treads (pr)	strength 80; defence 80; ranged 80; magic 80
+avernic treads (pr)(et)	strength 80; defence 80; ranged 80; magic 80
+avernic treads (pr)(pe)	strength 80; defence 80; ranged 80; magic 80
+bandos boots	defence 65
+bandos bracers	defence 40; ranged 70
+bandos chaps	defence 40; ranged 70
+bandos chestplate	defence 65
+bandos cloak	prayer 40
+bandos coif	defence 40; ranged 70
+bandos crozier	prayer 60
+bandos d'hide body	defence 40; ranged 70
+bandos d'hide boots	defence 40; ranged 70
+bandos d'hide shield	defence 40; ranged 70
+bandos full helm	defence 40
+bandos godsword	attack 75
+bandos godsword (or)	attack 75
+bandos kiteshield	defence 40
+bandos mitre	magic 40; prayer 40
+bandos platebody	defence 40
+bandos platelegs	defence 40
+bandos plateskirt	defence 40
+bandos robe legs	prayer 20
+bandos robe top	prayer 20
+bandos stole	prayer 60
+bandos tassets	defence 65
+barrelchest anchor	attack 60; strength 40
+barrelchest anchor (bh)	attack 50; strength 40
+barrelchest anchor (bh) (beta)	attack 60; strength 40
+barronite mace	attack 40
+battlestaff	attack 30; magic 30
+beginner wand	magic 45
+belle's folly	attack 65
+berserker helm	defence 45
+black 2h sword	attack 10
+black axe	attack 10
+black battleaxe	attack 10
+black boots	defence 10
+black brutal	ranged 10
+black cane	attack 10
+black chainbody	defence 10
+black chinchompa	ranged 65
+black claws	attack 10
+black d'hide body	defence 40; ranged 70
+black d'hide body (g)	defence 40; ranged 70
+black d'hide body (t)	defence 40; ranged 70
+black d'hide chaps	ranged 70
+black d'hide chaps (g)	ranged 70
+black d'hide chaps (t)	ranged 70
+black d'hide shield	defence 40; ranged 70
+black d'hide vambraces	ranged 70
+black dagger	attack 10
+black dagger(p)	attack 10
+black dagger(p+)	attack 10
+black dagger(p++)	attack 10
+black dart	ranged 10
+black dart(p)	ranged 10
+black dart(p+)	ranged 10
+black dart(p++)	ranged 10
+black defender	attack 10; defence 10
+black defender (l)	attack 10; defence 10
+black full helm	defence 10
+black full helm (g)	defence 10
+black full helm (t)	defence 10
+black halberd	attack 10; strength 5
+black helm (h1)	defence 10
+black helm (h2)	defence 10
+black helm (h3)	defence 10
+black helm (h4)	defence 10
+black helm (h5)	defence 10
+black kiteshield	defence 10
+black kiteshield (g)	defence 10
+black kiteshield (t)	defence 10
+black knife	ranged 10
+black knife(p)	ranged 10
+black knife(p+)	ranged 10
+black knife(p++)	ranged 10
+black longsword	attack 10
+black mace	attack 10
+black mask	strength 20; defence 10
+black mask (1)	strength 20; defence 10
+black mask (1) (i)	strength 20; defence 10
+black mask (10)	strength 20; defence 10
+black mask (10) (i)	strength 20; defence 10
+black mask (2)	strength 20; defence 10
+black mask (2) (i)	strength 20; defence 10
+black mask (3)	strength 20; defence 10
+black mask (3) (i)	strength 20; defence 10
+black mask (4)	strength 20; defence 10
+black mask (4) (i)	strength 20; defence 10
+black mask (5)	strength 20; defence 10
+black mask (5) (i)	strength 20; defence 10
+black mask (6)	strength 20; defence 10
+black mask (6) (i)	strength 20; defence 10
+black mask (7)	strength 20; defence 10
+black mask (7) (i)	strength 20; defence 10
+black mask (8)	strength 20; defence 10
+black mask (8) (i)	strength 20; defence 10
+black mask (9)	strength 20; defence 10
+black mask (9) (i)	strength 20; defence 10
+black mask (i)	strength 20; defence 10
+black med helm	defence 10
+black pickaxe	attack 10
+black platebody	defence 10
+black platebody (g)	defence 10
+black platebody (h1)	defence 10
+black platebody (h2)	defence 10
+black platebody (h3)	defence 10
+black platebody (h4)	defence 10
+black platebody (h5)	defence 10
+black platebody (t)	defence 10
+black platelegs	defence 10
+black platelegs (g)	defence 10
+black platelegs (t)	defence 10
+black plateskirt	defence 10
+black plateskirt (g)	defence 10
+black plateskirt (t)	defence 10
+black salamander	attack 70; ranged 70; magic 70
+black scimitar	attack 10
+black shield (h1)	defence 10
+black shield (h2)	defence 10
+black shield (h3)	defence 10
+black shield (h4)	defence 10
+black shield (h5)	defence 10
+black slayer helmet	defence 10
+black slayer helmet (i)	defence 10
+black spear	attack 10
+black spear(kp)	attack 10
+black spear(p)	attack 10
+black spear(p+)	attack 10
+black spear(p++)	attack 10
+black spiky vambraces	ranged 70
+black sq shield	defence 10
+black sword	attack 10
+black warhammer	strength 10
+blade of saeldor	attack 80
+blade of saeldor (c)	attack 80
+blade of saeldor (inactive)	attack 75
+blazing blowpipe	ranged 75
+blessed axe	attack 20
+blessed spirit shield	defence 70; prayer 60
+blisterwood flail	attack 50
+blisterwood sickle	attack 50
+blood ancient sceptre	attack 50; strength 60; magic 75
+blood ancient sceptre (beta)	attack 50; strength 60; magic 75
+blood moon chestplate	strength 75; defence 50
+blood moon helm	strength 75; defence 50
+blood moon tassets	strength 75; defence 50
+bloodbark body	defence 60; magic 60
+bloodbark boots	defence 60; magic 60
+bloodbark gauntlets	defence 60; magic 60
+bloodbark helm	defence 60; magic 60
+bloodbark legs	defence 60; magic 60
+blue d'hide body	defence 40; ranged 50
+blue d'hide body (g)	defence 40; ranged 50
+blue d'hide body (t)	defence 40; ranged 50
+blue d'hide chaps	ranged 50
+blue d'hide chaps (g)	ranged 50
+blue d'hide chaps (t)	ranged 50
+blue d'hide shield	defence 40; ranged 50
+blue d'hide vambraces	ranged 50
+blue moon chestplate	defence 50; magic 75
+blue moon helm	defence 50; magic 75
+blue moon spear	attack 70; magic 75
+blue moon tassets	defence 50; magic 75
+blue spiky vambraces	ranged 50
+blurite bolts	ranged 16
+blurite bolts (p)	ranged 16
+blurite bolts (p+)	ranged 16
+blurite bolts (p++)	ranged 16
+blurite crossbow	ranged 16
+bone bolts	ranged 28
+bone mace	attack 50
+bone shortbow	ranged 50
+bone staff	magic 50
+bonecrusher necklace	prayer 70
+boots of brimstone	defence 70; ranged 70; magic 70; slayer 44
+boots of darkness	defence 20; magic 40
+boots of stone	slayer 44
+bow of faerdhinen	ranged 80; agility 70
+bow of faerdhinen (c)	ranged 80; agility 70
+brine sabre	attack 40
+broad arrows	ranged 50; slayer 55
+broad bolts	ranged 61; slayer 55
+broodoo shield	defence 25
+broodoo shield (1)	defence 25
+broodoo shield (10)	defence 25
+broodoo shield (2)	defence 25
+broodoo shield (3)	defence 25
+broodoo shield (4)	defence 25
+broodoo shield (5)	defence 25
+broodoo shield (6)	defence 25
+broodoo shield (7)	defence 25
+broodoo shield (8)	defence 25
+broodoo shield (9)	defence 25
+broodoo shield (combat)	defence 25; magic 25
+broodoo shield (disease)	defence 25; magic 25
+broodoo shield (poison)	defence 25; magic 25
+bryophyta's staff	attack 30; magic 30
+bryophyta's staff (uncharged)	attack 30; magic 30
+bug lantern	slayer 33
+burning claws	attack 60
+cabbage round shield	defence 30
+camphor blowpipe	ranged 45
+chinchompa	ranged 45
+coif	ranged 20
+colossal blade	attack 60
+comp ogre bow	ranged 30
+confliction gauntlets	hitpoints 90
+corrupted armadyl godsword	attack 65
+corrupted dark bow	ranged 50
+corrupted dragon claws	attack 40
+corrupted morrigan's coif (bh)	defence 20
+corrupted morrigan's leather body (bh)	defence 20
+corrupted morrigan's leather chaps (bh)	defence 20
+corrupted scythe of vitur	attack 60; strength 70
+corrupted statius's full helm (bh)	defence 20
+corrupted statius's platebody (bh)	defence 20
+corrupted statius's platelegs (bh)	defence 20
+corrupted tumeken's shadow	magic 85
+corrupted twisted bow	ranged 70
+corrupted vesta's chainbody (bh)	defence 20
+corrupted vesta's plateskirt (bh)	defence 20
+corrupted voidwaker	attack 65
+corrupted volatile nightmare staff	magic 50; hitpoints 20
+corrupted zuriel's hood (bh)	defence 20
+corrupted zuriel's robe bottom (bh)	defence 20
+corrupted zuriel's robe top (bh)	defence 20
+craw's bow	ranged 60
+craw's bow (u)	ranged 60
+crimson kisten	attack 60; strength 85
+crystal axe	attack 70; agility 50
+crystal axe (inactive)	attack 70; agility 50
+crystal body	defence 70; agility 50
+crystal body (inactive)	defence 70
+crystal bow	ranged 70; agility 50
+crystal bow 1/10	ranged 70; agility 50
+crystal bow 1/10 (i)	ranged 70; agility 50
+crystal bow 2/10	ranged 70; agility 50
+crystal bow 2/10 (i)	ranged 70; agility 50
+crystal bow 3/10	ranged 70; agility 50
+crystal bow 3/10 (i)	ranged 70; agility 50
+crystal bow 4/10	ranged 70; agility 50
+crystal bow 4/10 (i)	ranged 70; agility 50
+crystal bow 5/10	ranged 70; agility 50
+crystal bow 5/10 (i)	ranged 70; agility 50
+crystal bow 6/10	ranged 70; agility 50
+crystal bow 6/10 (i)	ranged 70; agility 50
+crystal bow 7/10	ranged 70; agility 50
+crystal bow 7/10 (i)	ranged 70; agility 50
+crystal bow 8/10	ranged 70; agility 50
+crystal bow 8/10 (i)	ranged 70; agility 50
+crystal bow 9/10	ranged 70; agility 50
+crystal bow 9/10 (i)	ranged 70; agility 50
+crystal bow full	ranged 70; agility 50
+crystal bow full (i)	ranged 70; agility 50
+crystal halberd	attack 70; strength 35; agility 50
+crystal halberd 1/10	attack 70; strength 35; agility 50
+crystal halberd 1/10 (i)	attack 70; strength 35; agility 50
+crystal halberd 2/10	attack 70; strength 35; agility 50
+crystal halberd 2/10 (i)	attack 70; strength 35; agility 50
+crystal halberd 3/10	attack 70; strength 35; agility 50
+crystal halberd 3/10 (i)	attack 70; strength 35; agility 50
+crystal halberd 4/10	attack 70; strength 35; agility 50
+crystal halberd 4/10 (i)	attack 70; strength 35; agility 50
+crystal halberd 5/10	attack 70; strength 35; agility 50
+crystal halberd 5/10 (i)	attack 70; strength 35; agility 50
+crystal halberd 6/10	attack 70; strength 35; agility 50
+crystal halberd 6/10 (i)	attack 70; strength 35; agility 50
+crystal halberd 7/10	attack 70; strength 35; agility 50
+crystal halberd 7/10 (i)	attack 70; strength 35; agility 50
+crystal halberd 8/10	attack 70; strength 35; agility 50
+crystal halberd 8/10 (i)	attack 70; strength 35; agility 50
+crystal halberd 9/10	attack 70; strength 35; agility 50
+crystal halberd 9/10 (i)	attack 70; strength 35; agility 50
+crystal halberd full	attack 70; strength 35; agility 50
+crystal halberd full (i)	attack 70; strength 35; agility 50
+crystal harpoon	attack 70; agility 50
+crystal harpoon (inactive)	attack 70; agility 50
+crystal helm	defence 70; agility 50
+crystal helm (inactive)	defence 70
+crystal legs	defence 70; agility 50
+crystal legs (inactive)	defence 70
+crystal pickaxe	attack 70; agility 50
+crystal pickaxe (inactive)	attack 70; agility 50
+crystal shield	defence 70; agility 50
+crystal shield (historical)	defence 70; agility 50
+crystal shield 1/10	defence 70; agility 50
+crystal shield 1/10 (i)	defence 70; agility 50
+crystal shield 2/10	defence 70; agility 50
+crystal shield 2/10 (i)	defence 70; agility 50
+crystal shield 3/10	defence 70; agility 50
+crystal shield 3/10 (i)	defence 70; agility 50
+crystal shield 4/10	defence 70; agility 50
+crystal shield 4/10 (i)	defence 70; agility 50
+crystal shield 5/10	defence 70; agility 50
+crystal shield 5/10 (i)	defence 70; agility 50
+crystal shield 6/10	defence 70; agility 50
+crystal shield 6/10 (i)	defence 70; agility 50
+crystal shield 7/10	defence 70; agility 50
+crystal shield 7/10 (i)	defence 70; agility 50
+crystal shield 8/10	defence 70; agility 50
+crystal shield 8/10 (i)	defence 70; agility 50
+crystal shield 9/10	defence 70; agility 50
+crystal shield 9/10 (i)	defence 70; agility 50
+crystal shield full	defence 70; agility 50
+crystal shield full (i)	defence 70; agility 50
+dagon'hai hat	defence 40; magic 70
+dagon'hai robe bottom	defence 40; magic 70
+dagon'hai robe top	defence 40; magic 70
+dark bow	ranged 60
+dark bow (bh)	ranged 60
+dark bow (bh) (beta)	ranged 60
+dark infinity bottoms	defence 25; magic 50
+dark infinity hat	defence 25; magic 50
+dark infinity top	defence 25; magic 50
+decorative armour	defence 5
+decorative armour (gold platebody)	defence 30
+decorative armour (gold platelegs)	defence 30
+decorative armour (gold plateskirt)	defence 30
+decorative armour (l)	defence 30
+decorative armour (magic hat)	magic 20
+decorative armour (magic legs)	magic 20
+decorative armour (magic top)	magic 20
+decorative armour (quiver)	ranged 30
+decorative armour (ranged legs)	ranged 30
+decorative armour (ranged top)	ranged 30
+decorative armour (red platebody)	defence 5
+decorative armour (red platelegs)	defence 5
+decorative armour (red plateskirt)	defence 5
+decorative armour (white platebody)	defence 20
+decorative armour (white platelegs)	defence 20
+decorative armour (white plateskirt)	defence 20
+decorative full helm (gold)	defence 30
+decorative full helm (red)	defence 5
+decorative full helm (white)	defence 20
+decorative helm	defence 5
+decorative helm (gold)	defence 30
+decorative helm (l)	defence 30
+decorative helm (red)	defence 5
+decorative helm (white)	defence 20
+decorative shield	defence 5
+decorative shield (gold)	defence 30
+decorative shield (l)	defence 30
+decorative shield (red)	defence 5
+decorative shield (white)	defence 20
+decorative sword	attack 5
+decorative sword (gold)	attack 30
+decorative sword (l)	attack 30
+decorative sword (red)	attack 5
+decorative sword (white)	attack 20
+defence cape	defence 99
+defence cape(t)	defence 99
+defence hood	defence 99
+devout boots	prayer 60
+dharok's greataxe	attack 70; strength 70
+dharok's greataxe 100	attack 70; strength 70
+dharok's greataxe 25	attack 70; strength 70
+dharok's greataxe 50	attack 70; strength 70
+dharok's greataxe 75	attack 70; strength 70
+dharok's helm	defence 70
+dharok's helm 100	defence 70
+dharok's helm 25	defence 70
+dharok's helm 50	defence 70
+dharok's helm 75	defence 70
+dharok's platebody	defence 70
+dharok's platebody 100	defence 70
+dharok's platebody 25	defence 70
+dharok's platebody 50	defence 70
+dharok's platebody 75	defence 70
+dharok's platelegs	defence 70
+dharok's platelegs 100	defence 70
+dharok's platelegs 25	defence 70
+dharok's platelegs 50	defence 70
+dharok's platelegs 75	defence 70
+diamond bolts	ranged 61
+diamond bolts (e)	ranged 61
+diamond dragon bolts	ranged 64
+diamond dragon bolts (e)	ranged 64
+dinh's bulwark	attack 75; defence 75
+dizana's quiver	ranged 75
+dorgeshuun crossbow	ranged 28
+dragon 2h sword	attack 60
+dragon arrow	ranged 60
+dragon arrow(p)	ranged 60
+dragon arrow(p+)	ranged 60
+dragon arrow(p++)	ranged 60
+dragon axe	attack 60
+dragon battleaxe	attack 60
+dragon bolts	ranged 64
+dragon bolts (p)	ranged 64
+dragon bolts (p+)	ranged 64
+dragon bolts (p++)	ranged 64
+dragon boots	defence 60
+dragon boots (g)	defence 60
+dragon cane	attack 60
+dragon chainbody	defence 60
+dragon chainbody (g)	defence 60
+dragon claws	attack 60
+dragon crossbow	ranged 64
+dragon dagger	attack 60
+dragon dagger(p)	attack 60
+dragon dagger(p+)	attack 60
+dragon dagger(p++)	attack 60
+dragon dart	ranged 60
+dragon dart(p)	ranged 60
+dragon dart(p+)	ranged 60
+dragon dart(p++)	ranged 60
+dragon defender	defence 60
+dragon defender (l)	attack 60; defence 60
+dragon defender (t)	defence 60
+dragon fire arrow	ranged 60
+dragon fire arrow (lit)	ranged 60
+dragon full helm	defence 60
+dragon full helm (g)	defence 60
+dragon halberd	attack 60; strength 30
+dragon harpoon	attack 60
+dragon hasta	attack 60
+dragon hasta(kp)	attack 60
+dragon hasta(p)	attack 60
+dragon hasta(p+)	attack 60
+dragon hasta(p++)	attack 60
+dragon hunter crossbow	ranged 70
+dragon hunter lance	attack 78
+dragon hunter wand	magic 65
+dragon javelin	ranged 65
+dragon javelin(p)	ranged 65
+dragon javelin(p+)	ranged 65
+dragon javelin(p++)	ranged 65
+dragon kiteshield	defence 60
+dragon kiteshield (g)	defence 60
+dragon knife	ranged 60
+dragon knife(p)	ranged 60
+dragon knife(p+)	ranged 60
+dragon knife(p++)	ranged 60
+dragon longsword	attack 60
+dragon longsword (bh)	attack 60
+dragon longsword (bh) (beta)	attack 60
+dragon mace	attack 60
+dragon mace (bh)	attack 60
+dragon mace (bh) (beta)	attack 60
+dragon med helm	defence 60
+dragon pickaxe	attack 60
+dragon pickaxe (or)	attack 60
+dragon platebody	defence 60
+dragon platebody (g)	defence 60
+dragon platelegs	defence 60
+dragon platelegs (g)	defence 60
+dragon plateskirt	defence 60
+dragon plateskirt (g)	defence 60
+dragon scimitar	attack 60
+dragon scimitar (or)	attack 60
+dragon spear	attack 60
+dragon spear(kp)	attack 60
+dragon spear(p)	attack 60
+dragon spear(p+)	attack 60
+dragon spear(p++)	attack 60
+dragon sq shield	defence 60
+dragon sq shield (g)	defence 60
+dragon sword	attack 60
+dragon thrownaxe	ranged 61
+dragon warhammer	strength 60
+dragonbone necklace	prayer 70
+dragonfire shield	defence 75
+dragonfire ward	defence 75; ranged 70
+dragonstone bolts	ranged 61
+dragonstone bolts (e)	ranged 61
+dragonstone boots	defence 40
+dragonstone dragon bolts	ranged 64
+dragonstone dragon bolts (e)	ranged 64
+dragonstone full helm	defence 40
+dragonstone gauntlets	defence 40
+dragonstone platebody	defence 40
+dragonstone platelegs	defence 40
+dual macuahuitl	attack 70; strength 75
+dust battlestaff	attack 30; magic 30
+dwarven helmet	defence 50
+earmuffs	slayer 15
+earth battlestaff	attack 30; magic 30
+earthbound tecpatl	attack 55
+echo boots	defence 75
+eclipse atlatl	attack 50; strength 50; ranged 75
+eclipse moon chestplate	defence 50; ranged 75
+eclipse moon helm	defence 50; ranged 75
+eclipse moon tassets	defence 50; ranged 75
+elder chaos hood	magic 40
+elder chaos robe	magic 40
+elder chaos top	magic 40
+elder maul	attack 75; strength 75
+elder maul (beta)	attack 75
+elder wand	magic 75
+eldritch nightmare staff	magic 82; hitpoints 50
+eldritch nightmare staff (beta)	magic 75; hitpoints 50
+elemental amulet	magic 59
+elidinis' ward	defence 80; magic 80; prayer 80
+elidinis' ward (beta)	defence 80; magic 80; prayer 80
+elidinis' ward (f)	defence 80; magic 80; prayer 80
+elite black full helm	defence 40
+elite black platebody	defence 40
+elite black platelegs	defence 40
+elite void robe	attack 42; strength 42; defence 42; ranged 42; magic 42; prayer 22; hitpoints 42
+elite void robe (l)	attack 42; strength 42; defence 42; ranged 42; magic 42; prayer 22; hitpoints 42
+elite void top	attack 42; strength 42; defence 42; ranged 42; magic 42; prayer 22; hitpoints 42
+elite void top (l)	attack 42; strength 42; defence 42; ranged 42; magic 42; prayer 22; hitpoints 42
+elysian spirit shield	defence 75; prayer 75
+emberlight	attack 77
+emerald bolts	ranged 36
+emerald bolts (e)	ranged 36
+emerald dragon bolts	ranged 64
+emerald dragon bolts (e)	ranged 64
+enchanted hat	defence 20; magic 40
+enchanted robe	defence 20; magic 40
+enchanted top	defence 20; magic 40
+eternal boots	defence 75; magic 75
+excalibur	attack 20
+eye of ayak	magic 83
+facemask	slayer 10
+farseer helm	defence 45
+ferocious gloves	attack 80; defence 80
+fighter hat	defence 45
+fighter hat (l)	defence 45
+fighter torso	defence 40
+fighter torso (l)	defence 40
+fire battlestaff	attack 30; magic 30
+fire max cape	attack 99; strength 99; defence 99; ranged 99; magic 99; prayer 99; hitpoints 99; slayer 99; agility 99
+fire max cape (l)	attack 99; strength 99; defence 99; ranged 99; magic 99; prayer 99; hitpoints 99; slayer 99; agility 99
+fire max hood	attack 99; strength 99; defence 99; ranged 99; magic 99; prayer 99; hitpoints 99; slayer 99; agility 99
+fixed device	ranged 60
+fremennik blade	attack 30
+fremennik helm	defence 30
+fremennik shield	defence 30
+frog-leather body	defence 25; ranged 25
+frog-leather boots	defence 25; ranged 25
+frog-leather chaps	defence 25; ranged 25
+frozen abyssal whip	attack 70
+gadderhammer	attack 30
+ghrazi rapier	attack 80
+ghrazi rapier (beta)	attack 75
+gilded 2h sword	attack 40
+gilded axe	attack 40
+gilded boots	defence 40
+gilded chainbody	defence 40
+gilded coif	ranged 40
+gilded d'hide body	defence 40; ranged 40
+gilded d'hide chaps	ranged 40
+gilded d'hide vambraces	ranged 40
+gilded full helm	defence 40
+gilded hasta	attack 40
+gilded kiteshield	defence 40
+gilded med helm	defence 40
+gilded pickaxe	attack 40
+gilded platebody	defence 40
+gilded platelegs	defence 40
+gilded plateskirt	defence 40
+gilded scimitar	attack 40
+gilded spear	attack 40
+gilded sq shield	defence 40
+glacial temotli	attack 55
+gloves of darkness	defence 20; magic 40
+gold helmet	defence 30
+granite body	strength 50; defence 50
+granite boots	strength 50; defence 50
+granite gloves	strength 50; defence 50
+granite hammer	attack 50; strength 50
+granite helm	strength 50; defence 50
+granite legs	strength 50; defence 50
+granite longsword	attack 50; strength 50
+granite maul	attack 50; strength 50
+granite ring	strength 50; defence 50
+granite ring (i)	strength 50; defence 50
+granite shield	strength 50; defence 50
+green d'hide body	defence 40; ranged 40
+green d'hide body (g)	defence 40; ranged 40
+green d'hide body (t)	defence 40; ranged 40
+green d'hide chaps	ranged 40
+green d'hide chaps (g)	ranged 40
+green d'hide chaps (t)	ranged 40
+green d'hide shield	defence 40; ranged 40
+green d'hide vambraces	ranged 40
+green slayer helmet	defence 10
+green slayer helmet (i)	defence 10
+green spiky vambraces	ranged 40
+guardian boots	defence 75
+guthan's chainskirt	defence 70
+guthan's chainskirt 100	defence 70
+guthan's chainskirt 25	defence 70
+guthan's chainskirt 50	defence 70
+guthan's chainskirt 75	defence 70
+guthan's helm	defence 70
+guthan's helm 100	defence 70
+guthan's helm 25	defence 70
+guthan's helm 50	defence 70
+guthan's helm 75	defence 70
+guthan's platebody	defence 70
+guthan's platebody 100	defence 70
+guthan's platebody 25	defence 70
+guthan's platebody 50	defence 70
+guthan's platebody 75	defence 70
+guthan's warspear	attack 70
+guthan's warspear 100	attack 70
+guthan's warspear 25	attack 70
+guthan's warspear 50	attack 70
+guthan's warspear 75	attack 70
+guthix bracers	defence 40; ranged 70
+guthix cape	magic 60
+guthix chaps	defence 40; ranged 70
+guthix cloak	prayer 40
+guthix coif	defence 40; ranged 70
+guthix crozier	prayer 60
+guthix d'hide body	defence 40; ranged 70
+guthix d'hide boots	defence 40; ranged 70
+guthix d'hide shield	defence 40; ranged 70
+guthix full helm	defence 40
+guthix kiteshield	defence 40
+guthix max cape	attack 99; strength 99; defence 99; ranged 99; magic 99; prayer 99; hitpoints 99; slayer 99; agility 99
+guthix max hood	attack 99; strength 99; defence 99; ranged 99; magic 99; prayer 99; hitpoints 99; slayer 99; agility 99
+guthix mitre	magic 40; prayer 40
+guthix platebody	defence 40
+guthix platelegs	defence 40
+guthix plateskirt	defence 40
+guthix robe legs	prayer 20
+guthix robe top	prayer 20
+guthix staff	magic 60
+guthix stole	prayer 60
+hallowed flail	attack 50
+hallowfell	attack 75
+hard leather shield	defence 10; ranged 20
+hardleather body	defence 10
+harmonised nightmare staff	magic 82; hitpoints 50
+harmonised nightmare staff (beta)	magic 75; hitpoints 50
+harry's cutlass	attack 20
+healer hat	defence 45
+healer hat (l)	defence 45
+heavy ballista	ranged 75
+helm of neitiznot	defence 55
+hill giant club	attack 40
+hitpoints cape	hitpoints 99
+hitpoints cape(t)	hitpoints 99
+hitpoints hood	hitpoints 99
+holy ghrazi rapier	attack 80
+holy moleys	prayer 31
+holy sandals	prayer 31
+holy sanguinesti staff	magic 82
+holy scythe of vitur	attack 80; strength 90
+holy wraps	prayer 31
+hood of darkness	defence 20; magic 40
+hueycoatl hide body	defence 40; ranged 70
+hueycoatl hide chaps	ranged 70
+hueycoatl hide coif	defence 40; ranged 70
+hueycoatl hide vambraces	ranged 70
+hunter's spear	strength 30; ranged 55
+hunters' crossbow	ranged 50
+hunters' sunlight crossbow	ranged 66
+hydra slayer helmet	defence 10; slayer 60
+hydra slayer helmet (i)	defence 10; slayer 60
+iban's staff	attack 50; magic 50
+iban's staff (u)	attack 50; magic 50
+ice ancient sceptre	attack 50; strength 60; magic 75
+ice ancient sceptre (beta)	attack 50; strength 60; magic 75
+imbued guthix cape	magic 50
+imbued guthix cape (l)	magic 75
+imbued guthix max cape	attack 99; strength 99; defence 99; ranged 99; magic 99; prayer 99; hitpoints 99; slayer 99; agility 99
+imbued guthix max cape (l)	attack 99; strength 99; defence 99; ranged 99; magic 99; prayer 99; hitpoints 99; slayer 99; agility 99
+imbued guthix max hood	attack 99; strength 99; defence 99; ranged 99; magic 99; prayer 99; hitpoints 99; slayer 99; agility 99
+imbued saradomin cape	magic 50
+imbued saradomin cape (l)	magic 75
+imbued saradomin max cape	attack 99; strength 99; defence 99; ranged 99; magic 99; prayer 99; hitpoints 99; slayer 99; agility 99
+imbued saradomin max cape (l)	attack 99; strength 99; defence 99; ranged 99; magic 99; prayer 99; hitpoints 99; slayer 99; agility 99
+imbued saradomin max hood	attack 99; strength 99; defence 99; ranged 99; magic 99; prayer 99; hitpoints 99; slayer 99; agility 99
+imbued zamorak cape	magic 50
+imbued zamorak cape (l)	magic 75
+imbued zamorak max cape	attack 99; strength 99; defence 99; ranged 99; magic 99; prayer 99; hitpoints 99; slayer 99; agility 99
+imbued zamorak max cape (l)	attack 99; strength 99; defence 99; ranged 99; magic 99; prayer 99; hitpoints 99; slayer 99; agility 99
+imbued zamorak max hood	attack 99; strength 99; defence 99; ranged 99; magic 99; prayer 99; hitpoints 99; slayer 99; agility 99
+infernal axe	attack 60
+infernal axe (uncharged)	attack 60
+infernal harpoon	attack 60
+infernal harpoon (uncharged)	attack 60
+infernal max cape	attack 99; strength 99; defence 99; ranged 99; magic 99; prayer 99; hitpoints 99; slayer 99; agility 99
+infernal max cape (l)	attack 99; strength 99; defence 99; ranged 99; magic 99; prayer 99; hitpoints 99; slayer 99; agility 99
+infernal max hood	attack 99; strength 99; defence 99; ranged 99; magic 99; prayer 99; hitpoints 99; slayer 99; agility 99
+infernal pickaxe	attack 60
+infernal pickaxe (uncharged)	attack 60
+infinity boots	defence 25; magic 50
+infinity bottoms	defence 25; magic 50
+infinity gloves	defence 25; magic 50
+infinity hat	defence 25; magic 50
+infinity top	defence 25; magic 50
+initiate cuisse	defence 20; prayer 10
+initiate hauberk	defence 20; prayer 10
+initiate sallet	defence 20; prayer 10
+inquisitor's great helm	strength 70; defence 30
+inquisitor's great helm (beta)	strength 70; defence 30
+inquisitor's hauberk	strength 70; defence 30
+inquisitor's hauberk (beta)	strength 70; defence 30
+inquisitor's mace	attack 80
+inquisitor's mace (beta)	attack 75
+inquisitor's plateskirt	strength 70; defence 30
+inquisitor's plateskirt (beta)	strength 70; defence 30
+insulated boots	slayer 37
+iron bolts	ranged 26
+iron bolts (p)	ranged 26
+iron bolts (p+)	ranged 26
+iron bolts (p++)	ranged 26
+iron crossbow	ranged 26
+ironwood blowpipe	ranged 55
+ivandis flail	attack 40
+jade bolts	ranged 16
+jade bolts (e)	ranged 16
+jade dragon bolts	ranged 64
+jade dragon bolts (e)	ranged 64
+justiciar chestguard	defence 75
+justiciar chestguard (beta)	defence 75
+justiciar faceguard	defence 75
+justiciar faceguard (beta)	defence 75
+justiciar leg guards (beta)	defence 75
+justiciar legguards	defence 75
+karil's coif	defence 70; ranged 70
+karil's coif 100	defence 70; ranged 70
+karil's coif 25	defence 70; ranged 70
+karil's coif 50	defence 70; ranged 70
+karil's coif 75	defence 70; ranged 70
+karil's crossbow	ranged 70
+karil's crossbow 100	ranged 70
+karil's crossbow 25	ranged 70
+karil's crossbow 50	ranged 70
+karil's crossbow 75	ranged 70
+karil's leatherskirt	defence 70; ranged 70
+karil's leatherskirt 100	defence 70; ranged 70
+karil's leatherskirt 25	defence 70; ranged 70
+karil's leatherskirt 50	defence 70; ranged 70
+karil's leatherskirt 75	defence 70; ranged 70
+karil's leathertop	defence 70; ranged 70
+karil's leathertop 100	defence 70; ranged 70
+karil's leathertop 25	defence 70; ranged 70
+karil's leathertop 50	defence 70; ranged 70
+karil's leathertop 75	defence 70; ranged 70
+katana	attack 40
+kebbit bolts	ranged 50
+keris	attack 50
+keris partisan	attack 65
+keris partisan (beta)	attack 70
+keris partisan of breaching	attack 80
+keris partisan of breaching (beta)	attack 80
+keris partisan of corruption	attack 80
+keris partisan of the sun	attack 80
+keris(p)	attack 50
+keris(p+)	attack 50
+keris(p++)	attack 50
+kitchen knife	attack 40
+kodai wand	magic 80
+larch blowpipe	ranged 45
+lava battlestaff	attack 30; magic 30
+leaf-bladed battleaxe	attack 65; slayer 55
+leaf-bladed spear	attack 50; slayer 55
+leaf-bladed sword	attack 50; slayer 55
+light ballista	ranged 65
+light infinity bottoms	defence 25; magic 50
+light infinity hat	defence 25; magic 50
+light infinity top	defence 25; magic 50
+lit bug lantern	slayer 33
+long kebbit bolts	ranged 50
+lucky cutlass	attack 30
+lunar boots	defence 40; magic 65
+lunar cape	defence 40; magic 65
+lunar gloves	defence 40; magic 65
+lunar helm	defence 40; magic 65
+lunar legs	defence 40; magic 65
+lunar staff	defence 40; magic 65
+lunar torso	defence 40; magic 65
+mage's book	magic 60
+magic cape	magic 99
+magic cape(t)	magic 99
+magic comp bow	ranged 50
+magic hood	magic 99
+magic longbow	ranged 50
+magic shield	defence 40
+magic shortbow	ranged 50
+magic shortbow (i)	ranged 50
+magma helm	defence 75
+malediction ward	defence 60
+maple blackjack(o)	attack 30
+maple longbow	ranged 30
+maple shield	defence 40
+maple shortbow	ranged 30
+masori amulet	defence 30; ranged 80; hitpoints 70
+masori body	defence 30; ranged 80
+masori body (f)	defence 80; ranged 80
+masori chainskirt (beta)	defence 30; ranged 80; hitpoints 70
+masori chaps	defence 30; ranged 80
+masori chaps (f)	defence 80; ranged 80
+masori chestplate (beta)	defence 30; ranged 80; hitpoints 70
+masori headdress (beta)	defence 30; ranged 80; hitpoints 70
+masori mask	defence 30; ranged 80
+masori mask (f)	defence 80; ranged 80
+master wand	magic 60
+max cape	attack 99; strength 99; defence 99; ranged 99; magic 99; prayer 99; hitpoints 99; slayer 99; agility 99
+max hood	attack 99; strength 99; defence 99; ranged 99; magic 99; prayer 99; hitpoints 99; slayer 99; agility 99
+mirror shield	defence 20; slayer 25
+mist battlestaff	attack 30; magic 30
+mithril 2h sword	attack 20
+mithril arrow	ranged 20
+mithril arrow(p)	ranged 20
+mithril arrow(p+)	ranged 20
+mithril arrow(p++)	ranged 30
+mithril axe	attack 20
+mithril battleaxe	attack 20
+mithril bolts	ranged 36
+mithril bolts (p)	ranged 36
+mithril bolts (p+)	ranged 36
+mithril bolts (p++)	ranged 36
+mithril boots	defence 20
+mithril brutal	ranged 20
+mithril chainbody	defence 20
+mithril claws	attack 20
+mithril crossbow	ranged 36
+mithril dagger	attack 20
+mithril dagger(p)	attack 20
+mithril dagger(p+)	attack 20
+mithril dagger(p++)	attack 20
+mithril dart	ranged 20
+mithril dart(p)	ranged 20
+mithril dart(p+)	ranged 20
+mithril dart(p++)	ranged 20
+mithril defender	attack 20; defence 20
+mithril defender (l)	attack 20; defence 20
+mithril fire arrow	ranged 20
+mithril fire arrow (lit)	ranged 20
+mithril full helm	defence 20
+mithril full helm (g)	defence 20
+mithril full helm (t)	defence 20
+mithril halberd	attack 20; strength 10
+mithril hasta	attack 20
+mithril hasta(kp)	attack 20
+mithril hasta(p)	attack 20
+mithril hasta(p+)	attack 20
+mithril hasta(p++)	attack 20
+mithril javelin	ranged 20
+mithril javelin(p)	ranged 20
+mithril javelin(p+)	ranged 20
+mithril javelin(p++)	ranged 20
+mithril kiteshield	defence 20
+mithril kiteshield (g)	defence 20
+mithril kiteshield (t)	defence 20
+mithril knife	ranged 20
+mithril knife(p)	ranged 20
+mithril knife(p+)	ranged 20
+mithril knife(p++)	ranged 20
+mithril longsword	attack 20
+mithril mace	attack 20
+mithril med helm	defence 20
+mithril pickaxe	attack 20
+mithril pickaxe (nz)	attack 20
+mithril platebody	defence 20
+mithril platebody (g)	defence 20
+mithril platebody (t)	defence 20
+mithril platelegs	defence 20
+mithril platelegs (g)	defence 20
+mithril platelegs (t)	defence 20
+mithril plateskirt	defence 20
+mithril plateskirt (g)	defence 20
+mithril plateskirt (t)	defence 20
+mithril scimitar	attack 20
+mithril spear	attack 20
+mithril spear(kp)	attack 20
+mithril spear(p)	attack 20
+mithril spear(p+)	attack 20
+mithril spear(p++)	attack 20
+mithril sq shield	defence 20
+mithril sword	attack 20
+mithril thrownaxe	ranged 20
+mithril warhammer	strength 20
+mixed hide boots	defence 50; ranged 60
+mixed hide cape	defence 50; ranged 60
+mixed hide legs	ranged 60
+mixed hide top	defence 50; ranged 60
+moonlight antler bolts	ranged 66
+morrigan's coif	defence 78
+morrigan's coif (beta)	defence 78
+morrigan's coif (bh)	defence 78
+morrigan's coif (c)	defence 20
+morrigan's coif (deadman mode)	defence 20; ranged 75
+morrigan's javelin	ranged 78
+morrigan's javelin (bh)	ranged 75
+morrigan's javelin (deadman mode)	ranged 78
+morrigan's leather body	defence 78
+morrigan's leather body (beta)	defence 78
+morrigan's leather body (bh)	defence 78
+morrigan's leather body (c)	defence 20
+morrigan's leather body (deadman mode)	defence 20; ranged 75
+morrigan's leather chaps	defence 78
+morrigan's leather chaps (beta)	defence 78
+morrigan's leather chaps (bh)	defence 78
+morrigan's leather chaps (c)	defence 20
+morrigan's leather chaps (deadman mode)	defence 20; ranged 75
+morrigan's throwing axe	ranged 78
+morrigan's throwing axe (bh)	ranged 75
+morrigan's throwing axe (deadman mode)	ranged 78
+mud battlestaff	attack 30; magic 30
+mystic air staff	attack 40; magic 40
+mystic boots	defence 20; magic 40
+mystic boots (dark)	defence 20; magic 40
+mystic boots (dusk)	defence 20; magic 40
+mystic boots (light)	defence 20; magic 40
+mystic dust staff	attack 40; magic 40
+mystic earth staff	attack 40; magic 40
+mystic fire staff	attack 40; magic 40
+mystic gloves	defence 20; magic 40
+mystic gloves (dark)	defence 20; magic 40
+mystic gloves (dusk)	defence 20; magic 40
+mystic gloves (light)	defence 20; magic 40
+mystic hat	defence 20; magic 40
+mystic hat (dark)	defence 20; magic 40
+mystic hat (dusk)	defence 20; magic 40
+mystic hat (light)	defence 20; magic 40
+mystic lava staff	attack 40; magic 40
+mystic mist staff	attack 40; magic 40
+mystic mud staff	attack 40; magic 40
+mystic robe bottom	defence 20; magic 40
+mystic robe bottom (dark)	defence 20; magic 40
+mystic robe bottom (dusk)	defence 20; magic 40
+mystic robe bottom (light)	defence 20; magic 40
+mystic robe top	defence 20; magic 40
+mystic robe top (dark)	defence 20; magic 40
+mystic robe top (dusk)	defence 20; magic 40
+mystic robe top (light)	defence 20; magic 40
+mystic smoke staff	attack 40; magic 40
+mystic steam staff	attack 40; magic 40
+mystic water staff	attack 40; magic 40
+mythical max cape	attack 99; strength 99; defence 99; ranged 99; magic 99; prayer 99; hitpoints 99; slayer 99; agility 99
+mythical max hood	attack 99; strength 99; defence 99; ranged 99; magic 99; prayer 99; hitpoints 99; slayer 99; agility 99
+necklace of anguish	hitpoints 75
+necklace of anguish (or)	hitpoints 75
+necklace of rupture	hitpoints 90
+neitiznot faceguard	defence 70
+neitiznot shield	defence 25
+new crystal bow	ranged 70; agility 50
+new crystal bow (i)	ranged 70; agility 50
+new crystal halberd full	attack 75; strength 35; agility 50
+new crystal halberd full (i)	attack 75; strength 35; agility 50
+new crystal shield	defence 70; agility 50
+new crystal shield (i)	defence 70; agility 50
+nightmare staff	magic 72; hitpoints 50
+nightmare staff (beta)	magic 65; hitpoints 50
+nose peg	slayer 60
+noxious halberd	attack 80
+oak blackjack(d)	defence 10
+oak longbow	ranged 5
+oak shield	defence 10
+oak shortbow	ranged 5
+oathplate chest	defence 78
+oathplate helm	defence 78
+oathplate legs	defence 78
+obsidian helmet	defence 60
+obsidian platebody	defence 60
+obsidian platelegs	defence 60
+occult necklace	magic 70
+occult necklace (or)	magic 75
+odium ward	defence 60
+ogre arrow	ranged 30
+ogre bow	ranged 30
+onyx bolts	ranged 61
+onyx bolts (e)	ranged 61
+onyx dragon bolts	ranged 64
+onyx dragon bolts (e)	ranged 64
+opal dragon bolts	ranged 64
+opal dragon bolts (e)	ranged 64
+orange salamander	attack 50; ranged 50; magic 50
+osmumten's fang	attack 82
+osmumten's fang (beta)	attack 82
+pearl dragon bolts	ranged 64
+pearl dragon bolts (e)	ranged 64
+pegasian boots	defence 75; ranged 75
+penance gloves	defence 40
+penance skirt	defence 40; ranged 60
+penance skirt (l)	defence 40; ranged 60
+pharaoh's sceptre	attack 30; magic 30
+prayer cape	prayer 99
+prayer cape(t)	prayer 99
+prayer hood	prayer 99
+primordial boots	strength 75; defence 75
+proselyte cuisse	defence 30; prayer 20
+proselyte hauberk	defence 30; prayer 20
+proselyte sallet	defence 30; prayer 20
+proselyte tasset	defence 30; prayer 20
+purging staff	attack 50; magic 77
+purple slayer helmet	defence 10
+purple slayer helmet (i)	defence 10
+ram skull helm	defence 30
+ranger boots	ranged 40
+ranger gloves	ranged 40
+ranger hat	defence 45
+ranger hat (l)	defence 45
+rangers' tights	ranged 40
+rangers' tunic	ranged 40
+ranging cape	ranged 99
+ranging cape(t)	ranged 99
+ranging hood	ranged 99
+rapier	attack 40
+red chinchompa	ranged 55
+red d'hide body	defence 40; ranged 60
+red d'hide body (g)	defence 40; ranged 60
+red d'hide body (t)	defence 40; ranged 60
+red d'hide chaps	ranged 60
+red d'hide chaps (g)	ranged 60
+red d'hide chaps (t)	ranged 60
+red d'hide shield	defence 40; ranged 60
+red d'hide vambraces	ranged 60
+red salamander	attack 60; ranged 60; magic 60
+red slayer helmet	defence 10
+red slayer helmet (i)	defence 10
+red spiky vambraces	ranged 60
+redwood shield	defence 40
+ring of endurance	agility 70
+ring of endurance (uncharged)	agility 70
+ring of suffering	hitpoints 75
+ring of suffering (i)	hitpoints 75
+ring of suffering (r)	hitpoints 75
+ring of suffering (ri)	hitpoints 75
+robe bottom of darkness	defence 20; magic 40
+robe top of darkness	defence 20; magic 40
+robin hood hat	ranged 40
+rock-shell helm	defence 40
+rock-shell legs	defence 40
+rock-shell plate	defence 40
+rogue boots	agility 50
+rogue gloves	agility 50
+rogue mask	agility 50
+rogue top	agility 50
+rogue trousers	agility 50
+rosewood blowpipe	ranged 65
+ruby bolts	ranged 46
+ruby bolts (e)	ranged 46
+ruby dragon bolts	ranged 64
+ruby dragon bolts (e)	ranged 64
+rune 2h sword	attack 40
+rune arrow	ranged 40
+rune arrow(p)	ranged 40
+rune arrow(p+)	ranged 40
+rune arrow(p++)	ranged 40
+rune axe	attack 40
+rune battleaxe	attack 40
+rune boots	defence 40
+rune brutal	ranged 40
+rune cane	attack 40
+rune chainbody	defence 40
+rune claws	attack 40
+rune crossbow	ranged 61
+rune dagger	attack 40
+rune dagger(p)	attack 40
+rune dagger(p+)	attack 40
+rune dagger(p++)	attack 40
+rune dart	ranged 40
+rune dart(p)	ranged 40
+rune dart(p+)	ranged 40
+rune dart(p++)	ranged 40
+rune defender	attack 40; defence 40
+rune defender (l)	attack 40; defence 40
+rune defender (t)	attack 40; defence 40
+rune fire arrow	ranged 40
+rune fire arrow (lit)	ranged 40
+rune full helm	defence 40
+rune full helm (g)	defence 40
+rune full helm (t)	defence 40
+rune halberd	attack 40; strength 20
+rune hasta	attack 40
+rune hasta(kp)	attack 40
+rune hasta(p)	attack 40
+rune hasta(p+)	attack 40
+rune hasta(p++)	attack 40
+rune helm (h1)	defence 40
+rune helm (h2)	defence 40
+rune helm (h3)	defence 40
+rune helm (h4)	defence 40
+rune helm (h5)	defence 40
+rune heraldic helm	defence 40
+rune javelin	ranged 40
+rune javelin(p)	ranged 40
+rune javelin(p+)	ranged 40
+rune javelin(p++)	ranged 40
+rune kiteshield	defence 40
+rune kiteshield (g)	defence 40
+rune kiteshield (saradomin)	defence 40
+rune kiteshield (t)	defence 40
+rune knife	ranged 40
+rune knife(p)	ranged 40
+rune knife(p+)	ranged 40
+rune knife(p++)	ranged 40
+rune longsword	attack 40
+rune mace	attack 40
+rune med helm	defence 40
+rune pickaxe	attack 40
+rune pickaxe (nz)	attack 40
+rune platebody	defence 40
+rune platebody (g)	defence 40
+rune platebody (h1)	defence 40
+rune platebody (h2)	defence 40
+rune platebody (h3)	defence 40
+rune platebody (h4)	defence 40
+rune platebody (h5)	defence 40
+rune platebody (t)	defence 40
+rune platelegs	defence 40
+rune platelegs (g)	defence 40
+rune platelegs (t)	defence 40
+rune plateskirt	defence 40
+rune plateskirt (g)	defence 40
+rune plateskirt (t)	defence 40
+rune scimitar	attack 40
+rune shield (h1)	defence 40
+rune shield (h2)	defence 40
+rune shield (h3)	defence 40
+rune shield (h4)	defence 40
+rune shield (h5)	defence 40
+rune spear	attack 40
+rune spear(kp)	attack 40
+rune spear(p)	attack 40
+rune spear(p+)	attack 40
+rune spear(p++)	attack 40
+rune sq shield	defence 40
+rune sword	attack 40
+rune thrownaxe	ranged 40
+rune warhammer	strength 40
+runite bolts	ranged 61
+runite bolts (p)	ranged 61
+runite bolts (p+)	ranged 61
+runite bolts (p++)	ranged 61
+runner boots	defence 40
+runner hat	defence 45
+runner hat (l)	defence 45
+samurai boots	defence 35
+samurai gloves	defence 35
+samurai greaves	defence 35
+samurai kasa	defence 35
+samurai shirt	defence 35
+sanguine scythe of vitur	attack 80; strength 90
+sanguinesti staff	magic 82
+sanguinesti staff (beta)	magic 75
+sanguinesti staff (uncharged)	magic 75
+sapphire bolts	ranged 36
+sapphire bolts (e)	ranged 36
+sapphire dragon bolts	ranged 64
+sapphire dragon bolts (e)	ranged 64
+sara's blessed sword (full)	attack 75
+sarachnis cudgel	attack 65
+saradomin bracers	defence 40; ranged 70
+saradomin cape	magic 60
+saradomin chaps	defence 40; ranged 70
+saradomin cloak	prayer 40
+saradomin coif	defence 40; ranged 70
+saradomin crozier	prayer 60
+saradomin d'hide body	defence 40; ranged 70
+saradomin d'hide boots	defence 40; ranged 70
+saradomin d'hide shield	defence 40; ranged 70
+saradomin full helm	defence 40
+saradomin godsword	attack 75
+saradomin godsword (or)	attack 75
+saradomin kiteshield	defence 40
+saradomin max cape	attack 99; strength 99; defence 99; ranged 99; magic 99; prayer 99; hitpoints 99; slayer 99; agility 99
+saradomin max hood	attack 99; strength 99; defence 99; ranged 99; magic 99; prayer 99; hitpoints 99; slayer 99; agility 99
+saradomin mitre	magic 40; prayer 40
+saradomin platebody	defence 40
+saradomin platelegs	defence 40
+saradomin plateskirt	defence 40
+saradomin robe legs	prayer 20
+saradomin robe top	prayer 20
+saradomin staff	magic 60
+saradomin stole	prayer 60
+saradomin sword	attack 70
+saradomin's blessed sword	attack 75
+scorching bow	ranged 77
+scythe of vitur	attack 80; strength 90
+scythe of vitur (beta)	attack 75; strength 75
+scythe of vitur (uncharged)	attack 75; strength 75
+seercull	ranged 50
+serpentine helm	defence 75
+shadow ancient sceptre	attack 50; strength 60; magic 75
+shadow ancient sceptre (beta)	attack 50; strength 60; magic 75
+shayzien body (5)	defence 20
+shayzien boots (1)	defence 20
+shayzien boots (2)	defence 20
+shayzien boots (3)	defence 20
+shayzien boots (4)	defence 20
+shayzien boots (5)	defence 20
+shayzien gloves (1)	defence 20
+shayzien gloves (2)	defence 20
+shayzien gloves (3)	defence 20
+shayzien gloves (4)	defence 20
+shayzien gloves (5)	defence 20
+shayzien greaves (1)	defence 20
+shayzien greaves (2)	defence 20
+shayzien greaves (3)	defence 20
+shayzien greaves (4)	defence 20
+shayzien greaves (5)	defence 20
+shayzien helm (1)	defence 20
+shayzien helm (2)	defence 20
+shayzien helm (3)	defence 20
+shayzien helm (4)	defence 20
+shayzien helm (5)	defence 20
+shayzien platebody (1)	defence 20
+shayzien platebody (2)	defence 20
+shayzien platebody (3)	defence 20
+shayzien platebody (4)	defence 20
+signed oak bow	ranged 5
+silver bolts	ranged 26
+silver bolts (p)	ranged 26
+silver bolts (p+)	ranged 26
+silver bolts (p++)	ranged 26
+siren's tome	magic 75
+skeletal bottoms	defence 40; magic 40
+skeletal helm	defence 40; magic 40
+skeletal top	defence 40; magic 40
+skewer	attack 30
+slayer cape	slayer 99
+slayer cape(t)	slayer 99
+slayer gloves	slayer 42
+slayer helmet	defence 10
+slayer helmet (i)	defence 10
+slayer hood	slayer 99
+slayer's staff	magic 50; slayer 55
+slayer's staff (e)	magic 75; slayer 55
+smoke ancient sceptre	attack 50; strength 60; magic 75
+smoke ancient sceptre (beta)	attack 50; strength 60; magic 75
+smoke battlestaff	attack 30; magic 30
+snakeskin bandana	defence 30; ranged 30
+snakeskin body	defence 30; ranged 30
+snakeskin boots	defence 30; ranged 30
+snakeskin chaps	defence 30; ranged 30
+snakeskin shield	defence 30; ranged 30
+snakeskin vambraces	defence 30; ranged 30
+soul cape	prayer 70
+soulflame horn	magic 80
+soulreaper axe	attack 80; strength 80
+soulreaper axe (beta)	attack 80; strength 80
+spectral spirit shield	defence 75; magic 65; prayer 70
+spined body	defence 40; ranged 40
+spined boots	defence 40; magic 40
+spined chaps	defence 40; ranged 40
+spined helm	defence 40; ranged 40
+spiny helmet	defence 5
+spirit shield	defence 45; prayer 55
+splitbark body	defence 40; magic 40
+splitbark boots	defence 40; magic 40
+splitbark gauntlets	defence 40; magic 40
+splitbark helm	defence 40; magic 40
+splitbark legs	defence 40; magic 40
+spork	attack 10
+staff of balance	attack 75; magic 75
+staff of light	attack 75; magic 75
+staff of the dead	attack 75; magic 75
+statius's full helm	defence 78
+statius's full helm (beta)	defence 78
+statius's full helm (bh)	defence 78
+statius's full helm (c)	defence 20
+statius's full helm (deadman mode)	defence 20
+statius's platebody	defence 78
+statius's platebody (beta)	defence 78
+statius's platebody (bh)	defence 78
+statius's platebody (c)	defence 20
+statius's platebody (deadman mode)	defence 20
+statius's platelegs	defence 78
+statius's platelegs (beta)	defence 78
+statius's platelegs (bh)	defence 78
+statius's platelegs (c)	defence 20
+statius's platelegs (deadman mode)	defence 20
+statius's warhammer	attack 78
+statius's warhammer (bh)	strength 75
+statius's warhammer (deadman mode)	attack 20; strength 78
+steam battlestaff	attack 30; magic 30
+steel 2h sword	attack 5
+steel arrow	ranged 5
+steel arrow(p)	ranged 5
+steel arrow(p+)	ranged 5
+steel arrow(p++)	ranged 5
+steel axe	attack 5
+steel battleaxe	attack 5
+steel bolts	ranged 31
+steel bolts (p)	ranged 31
+steel bolts (p+)	ranged 31
+steel bolts (p++)	ranged 31
+steel boots	defence 5
+steel brutal	ranged 5
+steel chainbody	defence 5
+steel claws	attack 5
+steel crossbow	ranged 31
+steel dagger	attack 5
+steel dagger(p)	attack 5
+steel dagger(p+)	attack 5
+steel dagger(p++)	attack 5
+steel dart	ranged 5
+steel dart(p)	ranged 5
+steel dart(p+)	ranged 5
+steel dart(p++)	ranged 5
+steel defender	attack 5; defence 5
+steel defender (l)	attack 5; defence 5
+steel fire arrow	ranged 5
+steel fire arrow (lit)	ranged 5
+steel full helm	defence 5
+steel full helm (g)	defence 5
+steel full helm (t)	defence 5
+steel halberd	attack 5
+steel hasta	attack 5
+steel hasta(kp)	attack 5
+steel hasta(p)	attack 5
+steel hasta(p+)	attack 5
+steel hasta(p++)	attack 5
+steel heraldic helm	defence 5
+steel javelin	ranged 5
+steel javelin(p)	ranged 5
+steel javelin(p+)	ranged 5
+steel javelin(p++)	ranged 5
+steel kiteshield	defence 5
+steel kiteshield (g)	defence 5
+steel kiteshield (t)	defence 5
+steel knife	ranged 5
+steel knife(p)	ranged 5
+steel knife(p+)	ranged 5
+steel knife(p++)	ranged 5
+steel longsword	attack 5
+steel mace	attack 5
+steel med helm	defence 5
+steel pickaxe	attack 5
+steel platebody	defence 5
+steel platebody (g)	defence 5
+steel platebody (t)	defence 5
+steel platelegs	defence 5
+steel platelegs (g)	defence 5
+steel platelegs (t)	defence 5
+steel plateskirt	defence 5
+steel plateskirt (g)	defence 5
+steel plateskirt (t)	defence 5
+steel scimitar	attack 5
+steel spear	attack 5
+steel spear(kp)	attack 5
+steel spear(p)	attack 5
+steel spear(p+)	attack 5
+steel spear(p++)	attack 5
+steel sq shield	defence 5
+steel sword	attack 5
+steel thrownaxe	ranged 5
+steel warhammer	strength 5
+strength cape	strength 99
+strength cape(t)	strength 99
+strength hood	strength 99
+studded body	defence 20; ranged 20
+studded body (g)	defence 20; ranged 20
+studded body (t)	defence 20; ranged 20
+studded chaps	ranged 20
+studded chaps (g)	ranged 20
+studded chaps (t)	ranged 20
+sulphur blades	attack 55
+sunfire fanatic chausses	defence 40; prayer 60
+sunfire fanatic cuirass	defence 40; prayer 60
+sunfire fanatic helm	defence 40; prayer 60
+sunlight antler bolts	ranged 66
+swamp lizard	attack 30; ranged 30; magic 30
+swampbark body	defence 50; magic 50
+swampbark boots	defence 50; magic 50
+swampbark gauntlets	defence 50; magic 50
+swampbark helm	defence 50; magic 50
+swampbark legs	defence 50; magic 50
+tanzanite helm	defence 75
+teacher wand	magic 50
+tecu salamander	attack 80; ranged 80; magic 80
+thammaron's sceptre	magic 60
+thammaron's sceptre (a)	magic 60
+thammaron's sceptre (u)	magic 60
+the dogsword	attack 75
+the dogsword (deadman mode)	attack 60
+thunder khopesh (deadman mode)	attack 60
+toktz-ket-xil	defence 60
+toktz-mej-tal	attack 60; magic 60
+toktz-xil-ak	attack 60
+toktz-xil-ek	attack 60
+toktz-xil-ul	ranged 60
+tome of earth	magic 50
+tome of fire	magic 50
+tome of fire (empty)	magic 50
+tome of water	magic 50
+tonalztics of ralos	ranged 75
+topaz bolts	ranged 31
+topaz bolts (e)	ranged 31
+topaz dragon bolts	ranged 64
+topaz dragon bolts (e)	ranged 64
+torag's hammers	attack 70; strength 70
+torag's hammers 100	attack 70; strength 70
+torag's hammers 25	attack 70; strength 70
+torag's hammers 50	attack 70; strength 70
+torag's hammers 75	attack 70; strength 70
+torag's helm	defence 70
+torag's helm 100	defence 70
+torag's helm 25	defence 70
+torag's helm 50	defence 70
+torag's helm 75	defence 70
+torag's platebody	defence 70
+torag's platebody 100	defence 70
+torag's platebody 25	defence 70
+torag's platebody 50	defence 70
+torag's platebody 75	defence 70
+torag's platelegs	defence 70
+torag's platelegs 100	defence 70
+torag's platelegs 25	defence 70
+torag's platelegs 50	defence 70
+torag's platelegs 75	defence 70
+tormented bracelet	hitpoints 75
+tormented bracelet (or)	hitpoints 75
+torva full helm	defence 80
+torva platebody	defence 80
+torva platelegs	defence 80
+toxic blowpipe	ranged 75
+toxic staff (uncharged)	attack 75; magic 75
+toxic staff of the dead	attack 75; magic 75
+trident of the seas	magic 75
+trident of the seas (e)	magic 75
+trident of the seas (full)	magic 75
+trident of the swamp	magic 78
+trident of the swamp (e)	magic 78
+tumeken's heka	magic 85
+tumeken's shadow	magic 85
+turquoise slayer helmet	defence 10
+turquoise slayer helmet (i)	defence 10
+twinflame staff	magic 60
+twisted ancestral hat	defence 65; magic 75
+twisted ancestral robe bottom	defence 65; magic 75
+twisted ancestral robe top	defence 65; magic 75
+twisted bow	ranged 85
+twisted buckler	defence 75; ranged 75
+twisted slayer helmet	defence 10; slayer 60
+twisted slayer helmet (i)	defence 10
+tyras helm	defence 5
+tzhaar-ket-em	attack 60
+tzhaar-ket-om	strength 60
+tzhaar-ket-om (t)	strength 40
+uncharged toxic trident	magic 75
+uncharged toxic trident (e)	magic 75
+uncharged trident	magic 75
+uncharged trident (e)	magic 75
+unlit bug lantern	slayer 33
+ursine chainmace	attack 70
+ursine chainmace (beta)	attack 70
+v's shield	defence 40
+vampyrium vambraces	defence 75; ranged 75
+venator bow	ranged 80
+verac's brassard	defence 70
+verac's brassard 100	defence 70
+verac's brassard 25	defence 70
+verac's brassard 50	defence 70
+verac's brassard 75	defence 70
+verac's flail	attack 70
+verac's flail 100	attack 70
+verac's flail 25	attack 70
+verac's flail 50	attack 70
+verac's flail 75	attack 70
+verac's helm	defence 70
+verac's helm 100	defence 70
+verac's helm 25	defence 70
+verac's helm 50	defence 70
+verac's helm 75	defence 70
+verac's plateskirt	defence 70
+verac's plateskirt 100	defence 70
+verac's plateskirt 25	defence 70
+verac's plateskirt 50	defence 70
+verac's plateskirt 75	defence 70
+vesta's blighted longsword	attack 75
+vesta's chainbody	defence 78
+vesta's chainbody (beta)	defence 78
+vesta's chainbody (bh)	defence 78
+vesta's chainbody (c)	defence 20
+vesta's chainbody (deadman mode)	defence 20
+vesta's longsword	attack 78
+vesta's longsword (bh)	attack 75
+vesta's longsword (deadman mode)	attack 78
+vesta's plateskirt	defence 78
+vesta's plateskirt (beta)	defence 78
+vesta's plateskirt (bh)	defence 78
+vesta's plateskirt (c)	defence 20
+vesta's plateskirt (deadman mode)	defence 20
+vesta's spear	attack 78
+vesta's spear (bh)	attack 75
+vesta's spear (deadman mode)	attack 78
+viggora's chainmace	attack 60
+viggora's chainmace (u)	attack 60
+virtus mask	defence 75; magic 78
+virtus mask (beta)	defence 75; magic 80
+virtus robe bottom	defence 75; magic 78
+virtus robe bottom (beta)	defence 75; magic 80
+virtus robe top	defence 75; magic 78
+virtus robe top (beta)	defence 75; magic 80
+void knight gloves	attack 42; strength 42; defence 42; ranged 42; magic 42; prayer 22; hitpoints 42
+void knight gloves (l)	attack 42; strength 42; defence 42; ranged 42; magic 42; prayer 22; hitpoints 42
+void knight mace	attack 42; strength 42; defence 42; ranged 42; magic 42; prayer 22; hitpoints 42
+void knight mace (l)	attack 42; strength 42; defence 42; ranged 42; magic 42; prayer 22; hitpoints 42
+void knight robe	attack 42; strength 42; defence 42; ranged 42; magic 42; prayer 22; hitpoints 42
+void knight robe (l)	attack 42; strength 42; defence 42; ranged 42; magic 42; prayer 22; hitpoints 42
+void knight top	attack 42; strength 42; defence 42; ranged 42; magic 42; prayer 22; hitpoints 42
+void knight top (l)	attack 42; strength 42; defence 42; ranged 42; magic 42; prayer 22; hitpoints 42
+void mage helm	attack 42; strength 42; defence 42; ranged 42; magic 42; prayer 22; hitpoints 42
+void mage helm (l)	attack 42; strength 42; defence 42; ranged 42; magic 42; prayer 22; hitpoints 42
+void melee helm	attack 42; strength 42; defence 42; ranged 42; magic 42; prayer 22; hitpoints 42
+void melee helm (l)	attack 42; strength 42; defence 42; ranged 42; magic 42; prayer 22; hitpoints 42
+void ranger helm	attack 42; strength 42; defence 42; ranged 42; magic 42; prayer 22; hitpoints 42
+void ranger helm (l)	attack 42; strength 42; defence 42; ranged 42; magic 42; prayer 22; hitpoints 42
+void seal(1)	attack 42; strength 42; defence 42; ranged 42; magic 42; prayer 22; hitpoints 42
+void seal(2)	attack 42; strength 42; defence 42; ranged 42; magic 42; prayer 22; hitpoints 42
+void seal(3)	attack 42; strength 42; defence 42; ranged 42; magic 42; prayer 22; hitpoints 42
+void seal(4)	attack 42; strength 42; defence 42; ranged 42; magic 42; prayer 22; hitpoints 42
+void seal(5)	attack 42; strength 42; defence 42; ranged 42; magic 42; prayer 22; hitpoints 42
+void seal(6)	attack 42; strength 42; defence 42; ranged 42; magic 42; prayer 22; hitpoints 42
+void seal(7)	attack 42; strength 42; defence 42; ranged 42; magic 42; prayer 22; hitpoints 42
+void seal(8)	attack 42; strength 42; defence 42; ranged 42; magic 42; prayer 22; hitpoints 42
+voidwaker	attack 75
+voidwaker (beta)	attack 75; strength 75; magic 60
+volatile nightmare staff	magic 82; hitpoints 50
+volatile nightmare staff (beta)	magic 75; hitpoints 50
+volcanic abyssal whip	attack 70
+warped sceptre	magic 62
+warrior helm	defence 45
+water battlestaff	attack 30; magic 30
+webweaver bow	ranged 70
+webweaver bow (beta)	ranged 70
+white 2h sword	attack 10
+white battleaxe	attack 10
+white boots	defence 10
+white chainbody	defence 10
+white claws	attack 10
+white dagger	attack 10
+white dagger(p)	attack 10
+white dagger(p+)	attack 10
+white dagger(p++)	attack 10
+white full helm	defence 10
+white gloves	defence 10
+white halberd	attack 10; strength 5
+white kiteshield	defence 10
+white longsword	attack 10
+white mace	attack 10
+white magic staff	attack 10
+white med helm	defence 10
+white platebody	defence 10
+white platelegs	defence 10
+white plateskirt	defence 10
+white scimitar	attack 10
+white sq shield	defence 10
+white sword	attack 10
+white warhammer	attack 10
+willow blackjack(d)	defence 20
+willow comp bow	ranged 20
+willow longbow	ranged 20
+willow shield	defence 30
+willow shortbow	ranged 20
+witchwood icon	slayer 35
+wizard boots	magic 20
+xerician hat	defence 10; magic 20
+xerician robe	defence 10; magic 20
+xerician top	defence 10; magic 20
+yak-hide armour	defence 20
+yew comp bow	ranged 40
+yew longbow	ranged 40
+yew shield	defence 40
+yew shortbow	ranged 40
+zamorak bracers	defence 40; ranged 70
+zamorak cape	magic 60
+zamorak chaps	defence 40; ranged 70
+zamorak cloak	prayer 40
+zamorak coif	defence 40; ranged 70
+zamorak crozier	prayer 60
+zamorak d'hide body	defence 40; ranged 70
+zamorak d'hide boots	defence 40; ranged 70
+zamorak d'hide shield	defence 40; ranged 70
+zamorak full helm	defence 40
+zamorak godsword	attack 75
+zamorak godsword (or)	attack 75
+zamorak kiteshield	defence 40
+zamorak max cape	attack 99; strength 99; defence 99; ranged 99; magic 99; prayer 99; hitpoints 99; slayer 99; agility 99
+zamorak max hood	attack 99; strength 99; defence 99; ranged 99; magic 99; prayer 99; hitpoints 99; slayer 99; agility 99
+zamorak mitre	magic 40; prayer 40
+zamorak platebody	defence 40
+zamorak platelegs	defence 40
+zamorak plateskirt	defence 40
+zamorak robe legs	prayer 20
+zamorak robe top	prayer 20
+zamorak staff	magic 60
+zamorak stole	prayer 60
+zamorakian hasta	attack 70
+zamorakian spear	attack 70
+zaryte bow	ranged 80
+zaryte crossbow	ranged 80
+zaryte vambraces	defence 45; ranged 80
+zaryte vambraces (beta)	defence 50; ranged 80
+zombie axe	attack 65
+zombie helmet	strength 50; defence 50
+zuriel's hood	defence 78
+zuriel's hood (beta)	defence 78
+zuriel's hood (bh)	defence 78
+zuriel's hood (c)	defence 20
+zuriel's hood (deadman mode)	defence 20; magic 75
+zuriel's robe bottom	defence 78
+zuriel's robe bottom (beta)	defence 78
+zuriel's robe bottom (bh)	defence 78
+zuriel's robe bottom (c)	defence 20
+zuriel's robe bottom (deadman mode)	defence 20; magic 75
+zuriel's robe top	defence 78
+zuriel's robe top (beta)	defence 78
+zuriel's robe top (bh)	defence 78
+zuriel's robe top (c)	defence 20
+zuriel's robe top (deadman mode)	defence 20; magic 75
+zuriel's staff	magic 78
+zuriel's staff (bh)	attack 30; magic 75
+zuriel's staff (deadman mode)	attack 60; magic 78

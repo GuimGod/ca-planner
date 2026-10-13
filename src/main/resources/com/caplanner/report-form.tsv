@@ -1,0 +1,5 @@
+# Where a bug report is sent when the player presses "Send the report": a form of the plugin's author.
+# One line: the address the form takes answers at, then the name of each of its five fields, in this order:
+# plugin, boss, task, what is wrong, what the planner gave. Left empty, the button is not shown.
+# address	plugin	boss	task	words	report
+https://docs.google.com/forms/d/e/1FAIpQLSclvrdcVzomW3-4lj7-gnvbzmerY6qwHepApCuI7e4Q8raDyw/formResponse	entry.2100394972	entry.676895816	entry.504135571	entry.1125054442	entry.1644804003

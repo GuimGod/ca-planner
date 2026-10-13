@@ -1,0 +1,66 @@
+# What a boss needs before any of its tasks can be attempted. Written for this plugin from the OSRS Wiki
+# (boss, quest and Slayer pages), October 2026. A quest brings its own skill requirements, so only the
+# levels the boss itself asks for are listed. A boss that is not here needs nothing.
+# boss	quests (; between them, * = having started it is enough)	levels (Skill N; ...)	Slayer task it can only be killed on (; between the names the game may use)	other things to have done (name=how to say it; name/task:Slayer tasks that do as well=...)
+Aberrant Spectre		Slayer 60	
+Abyssal Sire		Slayer 85	Abyssal demons
+Alchemical Hydra		Slayer 95	Hydras
+Amoxliatl	The Heart of Darkness		
+Araxxor	Priest in Peril	Slayer 92	Araxytes; Spiders; Araxxor
+Barrows	Priest in Peril		
+Basilisk Knight	The Fremennik Exiles	Slayer 60	
+Bloodveld		Slayer 50	
+Brutal Black Dragon		Slayer 77	
+Brutus	The Ides of Milk		
+Cerberus		Slayer 91	Hellhounds; Cerberus
+Commander Zilyana	Troll Stronghold*	Agility 70	
+Corrupted Hunllef	Song of the Elves			gauntlet-done=Complete the Gauntlet once
+Crystalline Hunllef	Song of the Elves		
+Demonic Gorilla	Monkey Madness II		
+Deranged Archaeologist	Bone Voyage		
+Doom of Mokhaiotl	The Final Dawn		
+Duke Sucellus	Desert Treasure II - The Fallen Empire		
+Fortis Colosseum	Children of the Sun		
+Fragment of Seren	Song of the Elves*		
+Galvek	Dragon Slayer II*		
+Gargoyle		Slayer 75	
+General Graardor	Troll Stronghold*	Strength 70	
+Glough	Monkey Madness II*		
+Grotesque Guardians		Slayer 75	Gargoyles; Grotesque Guardians
+Hespori		Farming 65	
+K'ril Tsutsaroth	Troll Stronghold*	Hitpoints 70	
+Kraken		Slayer 87	Cave kraken; Kraken
+Kree'arra	Troll Stronghold*	Ranged 70	
+Kurask		Slayer 70	
+Leviathan	Desert Treasure II - The Fallen Empire		
+Mad Angel	Fallen From Grace		
+Maggot King	The Blood Moon Rises		
+Moons of Peril	Perilous Moons		
+Nex	The Frozen Door		
+Phantom Muspah	Secrets of the North		
+Phosani's Nightmare	Priest in Peril		
+Shellbane gryphon	Troubled Tortugans	Slayer 51	Gryphons; Gryphon; Shellbane gryphon
+Skeletal Wyvern		Slayer 72	
+Tempoross		Fishing 35	
+The Hueycoatl	Children of the Sun		
+The Nightmare	Priest in Peril		
+Theatre of Blood	Priest in Peril		
+Theatre of Blood: Entry Mode	Priest in Peril		
+Theatre of Blood: Hard Mode	Priest in Peril			tob-done=Complete the Theatre of Blood once
+Thermonuclear Smoke Devil		Slayer 93	Smoke devils
+Tombs of Amascut	Beneath Cursed Sands		
+Tombs of Amascut: Entry Mode	Beneath Cursed Sands		
+Tombs of Amascut: Expert Mode	Beneath Cursed Sands		
+Tormented Demon	While Guthix Sleeps		
+Vardorvis	Desert Treasure II - The Fallen Empire		
+Vorkath	Dragon Slayer II		
+Whisperer	Desert Treasure II - The Fallen Empire		
+Wintertodt		Firemaking 50	
+Wyrm		Slayer 62	
+Yama	A Kingdom Divided		
+Zalcano	Song of the Elves		
+Zulrah	Regicide*		
+TzKal-Zuk				fire-cape-given=Give a fire cape to TzHaar-Ket-Keh
+Callisto				wilderness-medium/task:Callisto,Artio,Venenatis,Spindel,Vet'ion,Calvar'ion=Wilderness Medium diary, or the boss as a Slayer task
+Venenatis				wilderness-medium/task:Callisto,Artio,Venenatis,Spindel,Vet'ion,Calvar'ion=Wilderness Medium diary, or the boss as a Slayer task
+Vet'ion				wilderness-medium/task:Callisto,Artio,Venenatis,Spindel,Vet'ion,Calvar'ion=Wilderness Medium diary, or the boss as a Slayer task

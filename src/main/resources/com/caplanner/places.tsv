@@ -1,0 +1,78 @@
+# Where each boss is, for the route plugins to walk to (October 2026): tiles measured in the game, the map on the boss's
+# page of the OSRS Wiki, and the places the GPS plugin lists under the boss's name. The entrance, the lair or the last
+# tile outside an instance: not a place to stand in the fight. A boss with no row has no way marked yet.
+# boss	x	y	plane
+Amoxliatl	1641	3222	0
+Cerberus	1310	1253	0
+Chaos Fanatic	2979	3846	0
+Crazy Archaeologist	2977	3702	0
+Dagannoth Rex	2546	3748	0
+Dagannoth Prime	2546	3748	0
+Dagannoth Supreme	2546	3748	0
+Giant Mole	2996	3377	0
+Grotesque Guardians	3422	3549	0
+The Hueycoatl	1528	3289	0
+Kalphite Queen	3227	3108	0
+King Black Dragon	3017	3850	0
+Kraken	2278	3611	0
+Obor	3096	9833	0
+Phantom Muspah	2909	10317	0
+Royal Titans	3008	3150	0
+Sarachnis	1844	9902	0
+Scurrius	3282	9868	0
+Tempoross	3146	2842	0
+Vardorvis	1117	3428	0
+Wintertodt	1630	3963	0
+Yama	1435	3668	0
+Zalcano	3281	6058	0
+Aberrant Spectre	2457	9788	0
+Alchemical Hydra	1368	10270	0
+Araxxor	3632	9815	0
+Barrows	3566	3291	0
+Basilisk Knight	2455	10388	0
+Black Dragon	2839	9829	0
+Bloodveld	2459	9832	0
+Callisto	3293	3848	0
+Chambers of Xeric	1245	3557	0
+Chambers of Xeric: Challenge Mode	1245	3557	0
+Corporeal Beast	2986	4386	2
+Fire Giant	2121	9330	0
+Fortis Colosseum	1825	3109	0
+Gargoyle	3452	9935	3
+Greater Demon	2158	9336	0
+Hellhound	2424	9793	0
+Hespori	1248	10089	0
+Kurask	2701	10001	0
+Skeletal Wyvern	3057	9547	0
+The Nightmare	3808	9762	1
+Phosani's Nightmare	3808	9762	1
+Theatre of Blood	3663	3219	0
+Theatre of Blood: Entry Mode	3663	3219	0
+Theatre of Blood: Hard Mode	3663	3219	0
+Thermonuclear Smoke Devil	2362	9456	0
+Tombs of Amascut	3345	2725	0
+Tombs of Amascut: Entry Mode	3345	2725	0
+Tombs of Amascut: Expert Mode	3345	2725	0
+TzHaar-Ket-Rak's Challenges	2545	5110	0
+Vet'ion	3223	3786	0
+Wyrm	1263	10158	0
+Zulrah	2270	3074	0
+Abyssal Sire	3107	4791	0
+Brutal Black Dragon	1611	10090	0
+Brutus	3263	3297	0
+Bryophyta	3220	9933	0
+Chaos Elemental	3261	3927	0
+Demonic Gorilla	2072	5651	0
+Deranged Archaeologist	3683	3706	0
+General Graardor	2872	5358	0
+K'ril Tsutsaroth	2925	5322	0
+Kree'arra	2832	5302	0
+Lizardman Shaman	1424	3718	0
+Mad Angel	2532	2215	0
+Maggot King	2658	7792	0
+Moons of Peril	1485	9632	0
+Scorpia	3233	10341	0
+Shellbane gryphon	3176	2477	0
+Tormented Demon	4136	4372	0
+Venenatis	3319	3798	0
+Vorkath	2269	4062	0

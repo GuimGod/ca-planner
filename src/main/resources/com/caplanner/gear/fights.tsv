@@ -1,0 +1,51 @@
+# Fights that one set does not answer, part by part. Written for this plugin (October 2026) from the page
+# of each boss on the OSRS Wiki and from fights its authors mapped themselves. The first line of a boss is
+# what the set worn is picked for; each other line is a part to carry pieces for.
+# boss	kind (main | switch | weapon)	npc id of the part	label	style (empty = whichever does the most; spell = magic that is cast)	note	nofigure (when the sums do not know what makes the part what it is)
+#
+# ---- three kings in one room: the other two are carried
+Dagannoth Rex	main	2267	Dagannoth Rex		Only magic gets through him well.
+Dagannoth Rex	switch	2266	Dagannoth Prime		The three kings share the room.
+Dagannoth Rex	switch	2265	Dagannoth Supreme
+Dagannoth Prime	main	2266	Dagannoth Prime		Only ranged gets through him well.
+Dagannoth Prime	switch	2267	Dagannoth Rex		The three kings share the room.
+Dagannoth Prime	switch	2265	Dagannoth Supreme
+Dagannoth Supreme	main	2265	Dagannoth Supreme		Only melee gets through him well.
+Dagannoth Supreme	switch	2267	Dagannoth Rex		The three kings share the room.
+Dagannoth Supreme	switch	2266	Dagannoth Prime
+#
+# ---- a boss that changes form
+Zulrah	main	2042	Green and red forms
+Zulrah	switch	2044	Blue form		The blue form shrugs off magic.
+Phantom Muspah	main	12077	Ranged form, and the shield
+Phantom Muspah	switch	12078	Melee form		Its magic defence is far the lower in this form.
+#
+# ---- two in the room, each harmed its own way
+Grotesque Guardians	main	7851	Dusk	melee	Dusk takes only melee.
+Grotesque Guardians	switch	7852	Dawn		Dawn flies: ranged, magic or a halberd.
+Royal Titans	main	12596	The Titans, within reach
+Royal Titans	switch	12596	The Titans, out of reach	ranged	Ranged is six times as accurate on a Titan that has stepped back.	nofigure
+Royal Titans	weapon	14147	Elementals and walls	spell	A fire and a water spell: elementals die to the opposite element, walls to Blast spells or better.	nofigure
+#
+# ---- three Moons, each weak to one kind of melee hit
+Moons of Peril	main	13011	Blood Moon	melee
+Moons of Peril	weapon	13013	Blue Moon	melee
+Moons of Peril	weapon	13012	Eclipse Moon	melee
+#
+# ---- her shield is broken with melee, the totems charged with magic
+The Nightmare	main	9425	Her shield		Sleepwalkers die to any hit: be quick, or hit several at once. Husks hold you until they die.
+The Nightmare	switch	9436	Totems	magic	Totems take twice the damage from magic.
+Phosani's Nightmare	main	9416	Her shield		Sleepwalkers die to any hit: be quick, or hit several at once. Husks hold you until they die.
+Phosani's Nightmare	switch	9436	Totems	magic	Totems take twice the damage from magic.
+#
+# ---- found by reading the fights again: a second form, and a part melee does not reach
+Kalphite Queen	main	963	First form		Her first form shrugs off ranged and magic.
+Kalphite Queen	switch	965	Second form		Her second form shrugs off melee.
+Abyssal Sire	main	5886	The Sire
+Abyssal Sire	switch	5914	Respiratory systems		They take only ranged, magic or a halberd.
+#
+# ---- it turns its protection against the style that last hurt it
+Tormented Demon	main	13599	Until it protects against your style
+Tormented Demon	switch	13599	Once it does	other	It protects against the style that last hurt it, again every 150 hitpoints it loses: two styles are needed.
+Yama	main	14176	Yama
+Yama	weapon	14180	The Judge, with magic	magic	Between phases. The Judge protects against ranged, and against whichever of melee and magic last hit it: change between a melee weapon and this. Every hit on it lands, and a weapon of several hits counts one.	nofigure

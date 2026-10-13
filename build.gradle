@@ -1,0 +1,91 @@
+plugins {
+	id 'java'
+}
+
+repositories {
+	mavenLocal()
+	maven {
+		url = 'https://repo.runelite.net'
+		content {
+			includeGroupByRegex("net\\.runelite.*")
+		}
+	}
+	mavenCentral()
+}
+
+def runeLiteVersion = 'latest.release'
+def pluginMainClass = 'com.caplanner.CaPlannerPluginTest'
+
+dependencies {
+	compileOnly group: 'net.runelite', name:'client', version: runeLiteVersion
+
+	compileOnly 'org.projectlombok:lombok:1.18.30'
+	annotationProcessor 'org.projectlombok:lombok:1.18.30'
+
+	testImplementation 'junit:junit:4.12'
+	testImplementation group: 'net.runelite', name:'client', version: runeLiteVersion
+	testImplementation group: 'net.runelite', name:'jshell', version: runeLiteVersion
+}
+
+group = 'com.caplanner'
+version = '1.0.0'
+
+tasks.withType(JavaCompile).configureEach {
+	options.encoding = 'UTF-8'
+	options.release.set(11)
+}
+
+tasks.register('run', JavaExec) {
+	classpath = sourceSets.test.runtimeClasspath
+	mainClass = pluginMainClass
+
+	jvmArgs "-ea"
+	args "--developer-mode", "--debug"
+}
+
+tasks.register('shadowJar', Jar) {
+	dependsOn configurations.testRuntimeClasspath
+	manifest {
+		attributes('Main-Class': pluginMainClass, 'Multi-Release': true)
+	}
+
+	duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+	from sourceSets.main.output
+	from sourceSets.test.output
+	from {
+		configurations.testRuntimeClasspath.collect { file ->
+			file.isDirectory() ? file : zipTree(file)
+		}
+	}
+
+	exclude 'META-INF/INDEX.LIST'
+	exclude 'META-INF/*.SF'
+	exclude 'META-INF/*.DSA'
+	exclude 'META-INF/*.RSA'
+	exclude '**/module-info.class'
+
+	group = BasePlugin.BUILD_GROUP
+	archiveClassifier.set('shadow')
+	archiveFileName.set("${rootProject.name}-${project.version}-all.jar")
+}
+
+// Local development: draws the panel to PNG files without the client.
+tasks.register('preview', JavaExec) {
+	classpath = sourceSets.test.runtimeClasspath
+	mainClass = 'com.caplanner.ui.PanelPreview'
+	args project.findProperty('out') ?: "${buildDir}/preview", project.findProperty('caTasks') ?: '', project.findProperty('caDone') ?: ''
+}
+
+// Local development: picks gear outside the game from a file of owned items.
+tasks.register('bench', JavaExec) {
+	classpath = sourceSets.test.runtimeClasspath
+	mainClass = 'com.caplanner.gear.GearBench'
+	args project.findProperty('owned') ?: 'owned.tsv', project.findProperty('bosses') ?: 'Vardorvis', project.findProperty('bank') ?: ''
+}
+
+// Local development: draws the panel with real sets and item pictures, to show what the plugin does.
+tasks.register('promo', JavaExec) {
+	classpath = sourceSets.test.runtimeClasspath
+	mainClass = 'com.caplanner.ui.PromoShots'
+	args project.findProperty('out') ?: "${buildDir}/promo", project.findProperty('caTasks') ?: '', project.findProperty('owned') ?: 'owned.tsv', project.findProperty('icons') ?: 'icons', project.findProperty('task') ?: '1', project.findProperty('lang') ?: 'en'
+}

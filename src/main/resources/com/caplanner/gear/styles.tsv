@@ -1,0 +1,31 @@
+# category	styles in Combat Options order: name:type:stance (type and stance empty when the style does not attack)
+2h Sword	Chop:slash:Accurate;Slash:slash:Aggressive;Smash:crush:Aggressive;Block:slash:Defensive
+Axe	Chop:slash:Accurate;Hack:slash:Aggressive;Smash:crush:Aggressive;Block:slash:Defensive
+Banner	Lunge:stab:Accurate;Swipe:slash:Aggressive;Pound:crush:Controlled;Block:stab:Defensive
+Bladed Staff	Jab:stab:Accurate;Swipe:slash:Aggressive;Fend:crush:Defensive;Spell:magic:Defensive Autocast;Spell:magic:Autocast
+Bludgeon	Pound:crush:Aggressive;Pummel:crush:Aggressive;Smash:crush:Aggressive
+Blunt	Pound:crush:Accurate;Pummel:crush:Aggressive;Block:crush:Defensive
+Bow	Accurate:ranged:Accurate;Rapid:ranged:Rapid;Longrange:ranged:Longrange
+Bulwark	Pummel:crush:Accurate;Block::
+Chinchompas	Short fuse:ranged:Accurate;Medium fuse:ranged:Rapid;Long fuse:ranged:Longrange
+Claw	Chop:slash:Accurate;Slash:slash:Aggressive;Lunge:stab:Controlled;Block:slash:Defensive
+Crossbow	Accurate:ranged:Accurate;Rapid:ranged:Rapid;Longrange:ranged:Longrange
+Flail	Chop:slash:Accurate;Slash:slash:Aggressive;Block:slash:Defensive
+Gun	Kick:crush:Aggressive
+Multi-Melee	Poke:stab:Accurate;Slash:slash:Aggressive;Pound:crush:Aggressive;Block:slash:Defensive
+Partisan	Stab:stab:Accurate;Lunge:stab:Aggressive;Pound:crush:Aggressive;Block:stab:Defensive
+Pickaxe	Spike:stab:Accurate;Impale:stab:Aggressive;Smash:crush:Aggressive;Block:stab:Defensive
+Polearm	Jab:stab:Controlled;Swipe:slash:Aggressive;Fend:stab:Defensive
+Polestaff	Bash:crush:Accurate;Pound:crush:Aggressive;Block:crush:Defensive
+Powered Staff	Accurate:magic:Accurate;Accurate:magic:Accurate;Longrange:magic:Longrange
+Powered Wand	Accurate:magic:Accurate;Accurate:magic:Accurate;Longrange:magic:Longrange
+Salamander	Scorch:slash:Aggressive;Flare:ranged:Rapid;Blaze:magic:Defensive
+Scythe	Reap:slash:Accurate;Chop:slash:Aggressive;Jab:crush:Aggressive;Block:slash:Defensive
+Slash Sword	Chop:slash:Accurate;Slash:slash:Aggressive;Lunge:stab:Controlled;Block:slash:Defensive
+Spear	Lunge:stab:Controlled;Swipe:slash:Controlled;Pound:crush:Controlled;Block:stab:Defensive
+Spiked	Pound:crush:Accurate;Pummel:crush:Aggressive;Spike:stab:Controlled;Block:crush:Defensive
+Stab Sword	Stab:stab:Accurate;Lunge:stab:Aggressive;Slash:slash:Aggressive;Block:stab:Defensive
+Staff	Bash:crush:Accurate;Pound:crush:Aggressive;Focus:crush:Defensive;Spell:magic:Defensive Autocast;Spell:magic:Autocast
+Thrown	Accurate:ranged:Accurate;Rapid:ranged:Rapid;Longrange:ranged:Longrange
+Unarmed	Punch:crush:Accurate;Kick:crush:Aggressive;Block:crush:Defensive
+Whip	Flick:slash:Accurate;Lash:slash:Controlled;Deflect:slash:Defensive
