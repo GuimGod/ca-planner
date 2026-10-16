@@ -1,0 +1,423 @@
+# set	class	weapon id	weapon	category	speed	npc id	npc	stab	slash	crush	magic	ranged	str	rstr	mdmg	calculator damage per tick	slayer helmet kind	salve amulet kind	on task (1)	crystal armour weight	void melee	void ranged	in the wilderness (1)	autocast spell number	tome element	Chambers of Xeric party size (0 for no scaling)	Challenge Mode (1)	special attacks on top	Tombs of Amascut raid level (-1 when none is read)	path level	party size read in the Theatre of Blood or the Tombs of Amascut (0 for none)	the monster's health now	boosted levels attack;strength;ranged;magic	inquisitor weight	bolts (1 ruby, 2 diamond)	the calculator's phase	void magic (1 Void, 2 Elite Void)	ammunition worn
+shadow	magic	27275	Tumeken's shadow	Powered Staff	5	9434	Totem (Phosani's Nightmare)	0	0	0	164	-17	0	0	24.0	13.15548	0	0	0	0	0	0	0	0		0	0		-1	0	0	200	99;99;99;112	0	0		0	
+shadow	magic	27275	Tumeken's shadow	Powered Staff	5	9435	Totem (Phosani's Nightmare)	0	0	0	164	-17	0	0	24.0	13.15548	0	0	0	0	0	0	0	0		0	0		-1	0	0	200	99;99;99;112	0	0		0	
+shadow	magic	27275	Tumeken's shadow	Powered Staff	5	9437	Totem (Phosani's Nightmare)	0	0	0	164	-17	0	0	24.0	13.15548	0	0	0	0	0	0	0	0		0	0		-1	0	0	200	99;99;99;112	0	0		0	
+shadow	magic	27275	Tumeken's shadow	Powered Staff	5	9438	Totem (Phosani's Nightmare)	0	0	0	164	-17	0	0	24.0	13.15548	0	0	0	0	0	0	0	0		0	0		-1	0	0	200	99;99;99;112	0	0		0	
+shadow	magic	27275	Tumeken's shadow	Powered Staff	5	9440	Totem (Phosani's Nightmare)	0	0	0	164	-17	0	0	24.0	13.15548	0	0	0	0	0	0	0	0		0	0		-1	0	0	200	99;99;99;112	0	0		0	
+shadow	magic	27275	Tumeken's shadow	Powered Staff	5	9441	Totem (Phosani's Nightmare)	0	0	0	164	-17	0	0	24.0	13.15548	0	0	0	0	0	0	0	0		0	0		-1	0	0	200	99;99;99;112	0	0		0	
+shadow	magic	27275	Tumeken's shadow	Powered Staff	5	9443	Totem (Phosani's Nightmare)	0	0	0	164	-17	0	0	24.0	13.15548	0	0	0	0	0	0	0	0		0	0		-1	0	0	200	99;99;99;112	0	0		0	
+shadow	magic	27275	Tumeken's shadow	Powered Staff	5	9444	Totem (Phosani's Nightmare)	0	0	0	164	-17	0	0	24.0	13.15548	0	0	0	0	0	0	0	0		0	0		-1	0	0	200	99;99;99;112	0	0		0	
+sang	magic	22323	Sanguinesti staff	Powered Staff	4	9434	Totem (Phosani's Nightmare)	0	0	0	154	-21	0	0	24.0	12.43587	0	0	0	0	0	0	0	0		0	0		-1	0	0	200	99;99;99;112	0	0		0	
+sang	magic	22323	Sanguinesti staff	Powered Staff	4	9435	Totem (Phosani's Nightmare)	0	0	0	154	-21	0	0	24.0	12.43587	0	0	0	0	0	0	0	0		0	0		-1	0	0	200	99;99;99;112	0	0		0	
+sang	magic	22323	Sanguinesti staff	Powered Staff	4	9437	Totem (Phosani's Nightmare)	0	0	0	154	-21	0	0	24.0	12.43587	0	0	0	0	0	0	0	0		0	0		-1	0	0	200	99;99;99;112	0	0		0	
+sang	magic	22323	Sanguinesti staff	Powered Staff	4	9438	Totem (Phosani's Nightmare)	0	0	0	154	-21	0	0	24.0	12.43587	0	0	0	0	0	0	0	0		0	0		-1	0	0	200	99;99;99;112	0	0		0	
+sang	magic	22323	Sanguinesti staff	Powered Staff	4	9440	Totem (Phosani's Nightmare)	0	0	0	154	-21	0	0	24.0	12.43587	0	0	0	0	0	0	0	0		0	0		-1	0	0	200	99;99;99;112	0	0		0	
+sang	magic	22323	Sanguinesti staff	Powered Staff	4	9441	Totem (Phosani's Nightmare)	0	0	0	154	-21	0	0	24.0	12.43587	0	0	0	0	0	0	0	0		0	0		-1	0	0	200	99;99;99;112	0	0		0	
+sang	magic	22323	Sanguinesti staff	Powered Staff	4	9443	Totem (Phosani's Nightmare)	0	0	0	154	-21	0	0	24.0	12.43587	0	0	0	0	0	0	0	0		0	0		-1	0	0	200	99;99;99;112	0	0		0	
+sang	magic	22323	Sanguinesti staff	Powered Staff	4	9444	Totem (Phosani's Nightmare)	0	0	0	154	-21	0	0	24.0	12.43587	0	0	0	0	0	0	0	0		0	0		-1	0	0	200	99;99;99;112	0	0		0	
+kodai-fire-surge	magic	21006	Kodai wand	Staff	4	9434	Totem (Phosani's Nightmare)	0	0	0	157	-17	0	0	39.0	9.95046	0	0	0	0	0	0	0	51		0	0		-1	0	0	200	99;99;99;112	0	0		0	
+kodai-fire-surge	magic	21006	Kodai wand	Staff	4	9435	Totem (Phosani's Nightmare)	0	0	0	157	-17	0	0	39.0	9.95046	0	0	0	0	0	0	0	51		0	0		-1	0	0	200	99;99;99;112	0	0		0	
+kodai-fire-surge	magic	21006	Kodai wand	Staff	4	9437	Totem (Phosani's Nightmare)	0	0	0	157	-17	0	0	39.0	9.95046	0	0	0	0	0	0	0	51		0	0		-1	0	0	200	99;99;99;112	0	0		0	
+kodai-fire-surge	magic	21006	Kodai wand	Staff	4	9438	Totem (Phosani's Nightmare)	0	0	0	157	-17	0	0	39.0	9.95046	0	0	0	0	0	0	0	51		0	0		-1	0	0	200	99;99;99;112	0	0		0	
+kodai-fire-surge	magic	21006	Kodai wand	Staff	4	9440	Totem (Phosani's Nightmare)	0	0	0	157	-17	0	0	39.0	9.95046	0	0	0	0	0	0	0	51		0	0		-1	0	0	200	99;99;99;112	0	0		0	
+kodai-fire-surge	magic	21006	Kodai wand	Staff	4	9441	Totem (Phosani's Nightmare)	0	0	0	157	-17	0	0	39.0	9.95046	0	0	0	0	0	0	0	51		0	0		-1	0	0	200	99;99;99;112	0	0		0	
+kodai-fire-surge	magic	21006	Kodai wand	Staff	4	9443	Totem (Phosani's Nightmare)	0	0	0	157	-17	0	0	39.0	9.95046	0	0	0	0	0	0	0	51		0	0		-1	0	0	200	99;99;99;112	0	0		0	
+kodai-fire-surge	magic	21006	Kodai wand	Staff	4	9444	Totem (Phosani's Nightmare)	0	0	0	157	-17	0	0	39.0	9.95046	0	0	0	0	0	0	0	51		0	0		-1	0	0	200	99;99;99;112	0	0		0	
+kodai-water-surge	magic	21006	Kodai wand	Staff	4	9434	Totem (Phosani's Nightmare)	0	0	0	157	-17	0	0	39.0	6.74503	0	0	0	0	0	0	0	49		0	0		-1	0	0	200	99;99;99;112	0	0		0	
+kodai-water-surge	magic	21006	Kodai wand	Staff	4	9435	Totem (Phosani's Nightmare)	0	0	0	157	-17	0	0	39.0	6.74503	0	0	0	0	0	0	0	49		0	0		-1	0	0	200	99;99;99;112	0	0		0	
+kodai-water-surge	magic	21006	Kodai wand	Staff	4	9437	Totem (Phosani's Nightmare)	0	0	0	157	-17	0	0	39.0	6.74503	0	0	0	0	0	0	0	49		0	0		-1	0	0	200	99;99;99;112	0	0		0	
+kodai-water-surge	magic	21006	Kodai wand	Staff	4	9438	Totem (Phosani's Nightmare)	0	0	0	157	-17	0	0	39.0	6.74503	0	0	0	0	0	0	0	49		0	0		-1	0	0	200	99;99;99;112	0	0		0	
+kodai-water-surge	magic	21006	Kodai wand	Staff	4	9440	Totem (Phosani's Nightmare)	0	0	0	157	-17	0	0	39.0	6.74503	0	0	0	0	0	0	0	49		0	0		-1	0	0	200	99;99;99;112	0	0		0	
+kodai-water-surge	magic	21006	Kodai wand	Staff	4	9441	Totem (Phosani's Nightmare)	0	0	0	157	-17	0	0	39.0	6.74503	0	0	0	0	0	0	0	49		0	0		-1	0	0	200	99;99;99;112	0	0		0	
+kodai-water-surge	magic	21006	Kodai wand	Staff	4	9443	Totem (Phosani's Nightmare)	0	0	0	157	-17	0	0	39.0	6.74503	0	0	0	0	0	0	0	49		0	0		-1	0	0	200	99;99;99;112	0	0		0	
+kodai-water-surge	magic	21006	Kodai wand	Staff	4	9444	Totem (Phosani's Nightmare)	0	0	0	157	-17	0	0	39.0	6.74503	0	0	0	0	0	0	0	49		0	0		-1	0	0	200	99;99;99;112	0	0		0	
+twinflame-fire-wave	magic	30634	Twinflame staff	Staff	6	9434	Totem (Phosani's Nightmare)	7	-1	28	141	-17	22	0	24.0	9.38930	0	0	0	0	0	0	0	16		0	0		-1	0	0	200	99;99;99;112	0	0		0	
+twinflame-fire-wave	magic	30634	Twinflame staff	Staff	6	9435	Totem (Phosani's Nightmare)	7	-1	28	141	-17	22	0	24.0	9.38930	0	0	0	0	0	0	0	16		0	0		-1	0	0	200	99;99;99;112	0	0		0	
+twinflame-fire-wave	magic	30634	Twinflame staff	Staff	6	9437	Totem (Phosani's Nightmare)	7	-1	28	141	-17	22	0	24.0	9.38930	0	0	0	0	0	0	0	16		0	0		-1	0	0	200	99;99;99;112	0	0		0	
+twinflame-fire-wave	magic	30634	Twinflame staff	Staff	6	9438	Totem (Phosani's Nightmare)	7	-1	28	141	-17	22	0	24.0	9.38930	0	0	0	0	0	0	0	16		0	0		-1	0	0	200	99;99;99;112	0	0		0	
+twinflame-fire-wave	magic	30634	Twinflame staff	Staff	6	9440	Totem (Phosani's Nightmare)	7	-1	28	141	-17	22	0	24.0	9.38930	0	0	0	0	0	0	0	16		0	0		-1	0	0	200	99;99;99;112	0	0		0	
+twinflame-fire-wave	magic	30634	Twinflame staff	Staff	6	9441	Totem (Phosani's Nightmare)	7	-1	28	141	-17	22	0	24.0	9.38930	0	0	0	0	0	0	0	16		0	0		-1	0	0	200	99;99;99;112	0	0		0	
+twinflame-fire-wave	magic	30634	Twinflame staff	Staff	6	9443	Totem (Phosani's Nightmare)	7	-1	28	141	-17	22	0	24.0	9.38930	0	0	0	0	0	0	0	16		0	0		-1	0	0	200	99;99;99;112	0	0		0	
+twinflame-fire-wave	magic	30634	Twinflame staff	Staff	6	9444	Totem (Phosani's Nightmare)	7	-1	28	141	-17	22	0	24.0	9.38930	0	0	0	0	0	0	0	16		0	0		-1	0	0	200	99;99;99;112	0	0		0	
+scythe	melee	22325	Scythe of Vitur	Scythe	5	9434	Totem (Phosani's Nightmare)	117	210	77	-61	-63	138	0	0.0	8.46702	0	0	0	0	0	0	0	0		0	0		-1	0	0	200	118;118;99;99	0	0		0	
+scythe	melee	22325	Scythe of Vitur	Scythe	5	9435	Totem (Phosani's Nightmare)	117	210	77	-61	-63	138	0	0.0	8.46702	0	0	0	0	0	0	0	0		0	0		-1	0	0	200	118;118;99;99	0	0		0	
+scythe	melee	22325	Scythe of Vitur	Scythe	5	9437	Totem (Phosani's Nightmare)	117	210	77	-61	-63	138	0	0.0	8.46702	0	0	0	0	0	0	0	0		0	0		-1	0	0	200	118;118;99;99	0	0		0	
+scythe	melee	22325	Scythe of Vitur	Scythe	5	9438	Totem (Phosani's Nightmare)	117	210	77	-61	-63	138	0	0.0	8.46702	0	0	0	0	0	0	0	0		0	0		-1	0	0	200	118;118;99;99	0	0		0	
+scythe	melee	22325	Scythe of Vitur	Scythe	5	9440	Totem (Phosani's Nightmare)	117	210	77	-61	-63	138	0	0.0	8.46702	0	0	0	0	0	0	0	0		0	0		-1	0	0	200	118;118;99;99	0	0		0	
+scythe	melee	22325	Scythe of Vitur	Scythe	5	9441	Totem (Phosani's Nightmare)	117	210	77	-61	-63	138	0	0.0	8.46702	0	0	0	0	0	0	0	0		0	0		-1	0	0	200	118;118;99;99	0	0		0	
+scythe	melee	22325	Scythe of Vitur	Scythe	5	9443	Totem (Phosani's Nightmare)	117	210	77	-61	-63	138	0	0.0	8.46702	0	0	0	0	0	0	0	0		0	0		-1	0	0	200	118;118;99;99	0	0		0	
+scythe	melee	22325	Scythe of Vitur	Scythe	5	9444	Totem (Phosani's Nightmare)	117	210	77	-61	-63	138	0	0.0	8.46702	0	0	0	0	0	0	0	0		0	0		-1	0	0	200	118;118;99;99	0	0		0	
+tbow	ranged	20997	Twisted bow	Bow	6	9434	Totem (Phosani's Nightmare)	-8	-8	-8	-19	215	0	100	0.0	1.87517	0	0	0	0	0	0	0	0		0	0		-1	0	0	200	99;99;112;99	0	0		0	Dragon arrow
+tbow	ranged	20997	Twisted bow	Bow	6	9435	Totem (Phosani's Nightmare)	-8	-8	-8	-19	215	0	100	0.0	1.87517	0	0	0	0	0	0	0	0		0	0		-1	0	0	200	99;99;112;99	0	0		0	Dragon arrow
+tbow	ranged	20997	Twisted bow	Bow	6	9437	Totem (Phosani's Nightmare)	-8	-8	-8	-19	215	0	100	0.0	1.87517	0	0	0	0	0	0	0	0		0	0		-1	0	0	200	99;99;112;99	0	0		0	Dragon arrow
+tbow	ranged	20997	Twisted bow	Bow	6	9438	Totem (Phosani's Nightmare)	-8	-8	-8	-19	215	0	100	0.0	1.87517	0	0	0	0	0	0	0	0		0	0		-1	0	0	200	99;99;112;99	0	0		0	Dragon arrow
+tbow	ranged	20997	Twisted bow	Bow	6	9440	Totem (Phosani's Nightmare)	-8	-8	-8	-19	215	0	100	0.0	1.87517	0	0	0	0	0	0	0	0		0	0		-1	0	0	200	99;99;112;99	0	0		0	Dragon arrow
+tbow	ranged	20997	Twisted bow	Bow	6	9441	Totem (Phosani's Nightmare)	-8	-8	-8	-19	215	0	100	0.0	1.87517	0	0	0	0	0	0	0	0		0	0		-1	0	0	200	99;99;112;99	0	0		0	Dragon arrow
+tbow	ranged	20997	Twisted bow	Bow	6	9443	Totem (Phosani's Nightmare)	-8	-8	-8	-19	215	0	100	0.0	1.87517	0	0	0	0	0	0	0	0		0	0		-1	0	0	200	99;99;112;99	0	0		0	Dragon arrow
+tbow	ranged	20997	Twisted bow	Bow	6	9444	Totem (Phosani's Nightmare)	-8	-8	-8	-19	215	0	100	0.0	1.87517	0	0	0	0	0	0	0	0		0	0		-1	0	0	200	99;99;112;99	0	0		0	Dragon arrow
+scythe	melee	22325	Scythe of Vitur	Scythe	5	14009	The Hueycoatl	117	210	77	-61	-63	138	0	0.0	6.78660	0	0	0	0	0	0	0	0		0	0		-1	0	0	2500	118;118;99;99	0	0		0	
+scythe	melee	22325	Scythe of Vitur	Scythe	5	14010	The Hueycoatl	117	210	77	-61	-63	138	0	0.0	6.78660	0	0	0	0	0	0	0	0		0	0		-1	0	0	2500	118;118;99;99	0	0		0	
+scythe	melee	22325	Scythe of Vitur	Scythe	5	14013	The Hueycoatl	117	210	77	-61	-63	138	0	0.0	6.78660	0	0	0	0	0	0	0	0		0	0		-1	0	0	2500	118;118;99;99	0	0		0	
+lance	melee	22978	Dragon hunter lance	Spear	4	14009	The Hueycoatl	162	141	178	-55	-48	141	0	0.0	6.67034	0	0	0	0	0	0	0	0		0	0		-1	0	0	2500	118;118;99;99	5	0		0	
+lance	melee	22978	Dragon hunter lance	Spear	4	14010	The Hueycoatl	162	141	178	-55	-48	141	0	0.0	6.67034	0	0	0	0	0	0	0	0		0	0		-1	0	0	2500	118;118;99;99	5	0		0	
+lance	melee	22978	Dragon hunter lance	Spear	4	14013	The Hueycoatl	162	141	178	-55	-48	141	0	0.0	6.67034	0	0	0	0	0	0	0	0		0	0		-1	0	0	2500	118;118;99;99	5	0		0	
+inquisitors-mace	melee	24417	Inquisitor's mace	Spiked	4	14009	The Hueycoatl	129	72	215	-55	-48	167	0	0.0	6.41171	0	0	0	0	0	0	0	0		0	0		-1	0	0	2500	118;118;99;99	5	0		0	
+inquisitors-mace	melee	24417	Inquisitor's mace	Spiked	4	14010	The Hueycoatl	129	72	215	-55	-48	167	0	0.0	6.41171	0	0	0	0	0	0	0	0		0	0		-1	0	0	2500	118;118;99;99	5	0		0	
+inquisitors-mace	melee	24417	Inquisitor's mace	Spiked	4	14013	The Hueycoatl	129	72	215	-55	-48	167	0	0.0	6.41171	0	0	0	0	0	0	0	0		0	0		-1	0	0	2500	118;118;99;99	5	0		0	
+tbow	ranged	20997	Twisted bow	Bow	6	14009	The Hueycoatl	-8	-8	-8	-19	215	0	100	0.0	3.22560	0	0	0	0	0	0	0	0		0	0		-1	0	0	2500	99;99;112;99	0	0		0	Dragon arrow
+tbow	ranged	20997	Twisted bow	Bow	6	14010	The Hueycoatl	-8	-8	-8	-19	215	0	100	0.0	3.22560	0	0	0	0	0	0	0	0		0	0		-1	0	0	2500	99;99;112;99	0	0		0	Dragon arrow
+tbow	ranged	20997	Twisted bow	Bow	6	14013	The Hueycoatl	-8	-8	-8	-19	215	0	100	0.0	3.22560	0	0	0	0	0	0	0	0		0	0		-1	0	0	2500	99;99;112;99	0	0		0	Dragon arrow
+shadow	magic	27275	Tumeken's shadow	Powered Staff	5	14009	The Hueycoatl	0	0	0	164	-17	0	0	24.0	5.99040	0	0	0	0	0	0	0	0		0	0		-1	0	0	2500	99;99;99;112	0	0		0	
+shadow	magic	27275	Tumeken's shadow	Powered Staff	5	14010	The Hueycoatl	0	0	0	164	-17	0	0	24.0	5.99040	0	0	0	0	0	0	0	0		0	0		-1	0	0	2500	99;99;99;112	0	0		0	
+shadow	magic	27275	Tumeken's shadow	Powered Staff	5	14013	The Hueycoatl	0	0	0	164	-17	0	0	24.0	5.99040	0	0	0	0	0	0	0	0		0	0		-1	0	0	2500	99;99;99;112	0	0		0	
+lance	melee	22978	Dragon hunter lance	Spear	4	14014	The Hueycoatl	162	141	178	-55	-48	141	0	0.0	1.00479	0	0	0	0	0	0	0	0		0	0		-1	0	0	300	118;118;99;99	5	0		0	
+lance	melee	22978	Dragon hunter lance	Spear	4	14015	The Hueycoatl	162	141	178	-55	-48	141	0	0.0	6.67034	0	0	0	0	0	0	0	0		0	0		-1	0	0	300	118;118;99;99	5	0		0	
+temotli	melee	29889	Glacial temotli	Blunt	4	14014	The Hueycoatl	58	47	157	-50	-44	127	0	0.0	1.79892	0	0	0	0	0	0	0	0		0	0		-1	0	0	300	118;118;99;99	5	0		0	
+temotli	melee	29889	Glacial temotli	Blunt	4	14015	The Hueycoatl	58	47	157	-50	-44	127	0	0.0	5.25504	0	0	0	0	0	0	0	0		0	0		-1	0	0	300	118;118;99;99	5	0		0	
+inquisitors-mace	melee	24417	Inquisitor's mace	Spiked	4	14014	The Hueycoatl	129	72	215	-55	-48	167	0	0.0	0.99953	0	0	0	0	0	0	0	0		0	0		-1	0	0	300	118;118;99;99	5	0		0	
+inquisitors-mace	melee	24417	Inquisitor's mace	Spiked	4	14015	The Hueycoatl	129	72	215	-55	-48	167	0	0.0	6.41171	0	0	0	0	0	0	0	0		0	0		-1	0	0	300	118;118;99;99	5	0		0	
+scythe	melee	22325	Scythe of Vitur	Scythe	5	14014	The Hueycoatl	117	210	77	-61	-63	138	0	0.0	0.88529	0	0	0	0	0	0	0	0		0	0		-1	0	0	300	118;118;99;99	0	0		0	
+scythe	melee	22325	Scythe of Vitur	Scythe	5	14015	The Hueycoatl	117	210	77	-61	-63	138	0	0.0	6.78660	0	0	0	0	0	0	0	0		0	0		-1	0	0	300	118;118;99;99	0	0		0	
+scythe-inquisitor	melee	22325	Scythe of Vitur	Scythe	5	14014	The Hueycoatl	117	172	115	-56	-44	138	0	0.0	0.93889	0	0	0	0	0	0	0	0		0	0		-1	0	0	300	118;118;99;99	5	0		0	
+scythe-inquisitor	melee	22325	Scythe of Vitur	Scythe	5	14015	The Hueycoatl	117	172	115	-56	-44	138	0	0.0	7.35784	0	0	0	0	0	0	0	0		0	0		-1	0	0	300	118;118;99;99	5	0		0	
+fang	melee	26219	Osmumten's fang	Stab Sword	5	14014	The Hueycoatl	182	189	75	-60	-67	174	0	0.0	0.35394	0	0	0	0	0	0	0	0		0	0		-1	0	0	300	118;118;99;99	0	0		0	
+fang	melee	26219	Osmumten's fang	Stab Sword	5	14015	The Hueycoatl	182	189	75	-60	-67	174	0	0.0	5.10496	0	0	0	0	0	0	0	0		0	0		-1	0	0	300	118;118;99;99	0	0		0	
+elder-maul	melee	21003	Elder maul	Blunt	6	14014	The Hueycoatl	47	85	182	-55	-63	210	0	0.0	0.66349	0	0	0	0	0	0	0	0		0	0		-1	0	0	300	118;118;99;99	0	0		0	
+elder-maul	melee	21003	Elder maul	Blunt	6	14015	The Hueycoatl	47	85	182	-55	-63	210	0	0.0	4.93219	0	0	0	0	0	0	0	0		0	0		-1	0	0	300	118;118;99;99	0	0		0	
+tbow	ranged	20997	Twisted bow	Bow	6	14014	The Hueycoatl	-8	-8	-8	-19	215	0	100	0.0	0.18009	0	0	0	0	0	0	0	0		0	0		-1	0	0	300	99;99;112;99	0	0		0	Dragon arrow
+tbow	ranged	20997	Twisted bow	Bow	6	14015	The Hueycoatl	-8	-8	-8	-19	215	0	100	0.0	3.22560	0	0	0	0	0	0	0	0		0	0		-1	0	0	300	99;99;112;99	0	0		0	Dragon arrow
+blowpipe	ranged	12926	Toxic blowpipe	Thrown	3	14014	The Hueycoatl	-8	-8	-8	-19	175	0	75	0.0	0.29058	0	0	0	0	0	0	0	0		0	0		-1	0	0	300	99;99;112;99	0	0		0	
+blowpipe	ranged	12926	Toxic blowpipe	Thrown	3	14015	The Hueycoatl	-8	-8	-8	-19	175	0	75	0.0	2.37531	0	0	0	0	0	0	0	0		0	0		-1	0	0	300	99;99;112;99	0	0		0	
+zcb-ruby	ranged	26374	Zaryte crossbow	Crossbow	6	14014	The Hueycoatl	-15	-16	-15	-29	273	0	152	0.0	0.18238	0	0	0	0	0	0	0	0		0	0		-1	0	0	300	99;99;112;99	0	1		0	Ruby dragon bolts (e)
+zcb-ruby	ranged	26374	Zaryte crossbow	Crossbow	6	14015	The Hueycoatl	-15	-16	-15	-29	273	0	152	0.0	2.84668	0	0	0	0	0	0	0	0		0	0		-1	0	0	300	99;99;112;99	0	1		0	Ruby dragon bolts (e)
+shadow	magic	27275	Tumeken's shadow	Powered Staff	5	14014	The Hueycoatl	0	0	0	164	-17	0	0	24.0	0.35422	0	0	0	0	0	0	0	0		0	0		-1	0	0	300	99;99;99;112	0	0		0	
+shadow	magic	27275	Tumeken's shadow	Powered Staff	5	14015	The Hueycoatl	0	0	0	164	-17	0	0	24.0	5.99040	0	0	0	0	0	0	0	0		0	0		-1	0	0	300	99;99;99;112	0	0		0	
+kodai-earth-surge	magic	21006	Kodai wand	Staff	4	14014	The Hueycoatl	0	0	0	157	-17	0	0	39.0	0.71269	0	0	0	0	0	0	0	50		0	0		-1	0	0	300	99;99;99;112	0	0		0	
+kodai-earth-surge	magic	21006	Kodai wand	Staff	4	14015	The Hueycoatl	0	0	0	157	-17	0	0	39.0	4.09387	0	0	0	0	0	0	0	50		0	0		-1	0	0	300	99;99;99;112	0	0		0	
+kodai-fire-surge	magic	21006	Kodai wand	Staff	4	14014	The Hueycoatl	0	0	0	157	-17	0	0	39.0	0.29143	0	0	0	0	0	0	0	51		0	0		-1	0	0	300	99;99;99;112	0	0		0	
+kodai-fire-surge	magic	21006	Kodai wand	Staff	4	14015	The Hueycoatl	0	0	0	157	-17	0	0	39.0	2.60015	0	0	0	0	0	0	0	51		0	0		-1	0	0	300	99;99;99;112	0	0		0	
+twinflame-earth-wave	magic	30634	Twinflame staff	Staff	6	14014	The Hueycoatl	7	-1	28	141	-17	22	0	24.0	1.06923	0	0	0	0	0	0	0	15		0	0		-1	0	0	300	99;99;99;112	0	0		0	
+twinflame-earth-wave	magic	30634	Twinflame staff	Staff	6	14015	The Hueycoatl	7	-1	28	141	-17	22	0	24.0	3.81438	0	0	0	0	0	0	0	15		0	0		-1	0	0	300	99;99;99;112	0	0		0	
+twinflame-fire-wave	magic	30634	Twinflame staff	Staff	6	14014	The Hueycoatl	7	-1	28	141	-17	22	0	24.0	0.44902	0	0	0	0	0	0	0	16		0	0		-1	0	0	300	99;99;99;112	0	0		0	
+twinflame-fire-wave	magic	30634	Twinflame staff	Staff	6	14015	The Hueycoatl	7	-1	28	141	-17	22	0	24.0	2.37314	0	0	0	0	0	0	0	16		0	0		-1	0	0	300	99;99;99;112	0	0		0	
+shadow	magic	27275	Tumeken's shadow	Powered Staff	5	14150	Fire elemental (Royal Titans)	0	0	0	164	-17	0	0	24.0	13.20000	0	0	0	0	0	0	0	0		0	0		-1	0	0	40	99;99;99;112	0	0		0	
+shadow	magic	27275	Tumeken's shadow	Powered Staff	5	14151	Ice elemental (Royal Titans)	0	0	0	164	-17	0	0	24.0	13.20000	0	0	0	0	0	0	0	0		0	0		-1	0	0	40	99;99;99;112	0	0		0	
+shadow	magic	27275	Tumeken's shadow	Powered Staff	5	11709	Baboon Brawler	0	0	0	164	-17	0	0	24.0	13.20000	0	0	0	0	0	0	0	0		0	0		-1	0	0	25	99;99;99;112	0	0		0	
+shadow	magic	27275	Tumeken's shadow	Powered Staff	5	11710	Baboon Thrower	0	0	0	164	-17	0	0	24.0	4.74542	0	0	0	0	0	0	0	0		0	0		-1	0	0	30	99;99;99;112	0	0		0	
+shadow	magic	27275	Tumeken's shadow	Powered Staff	5	11711	Baboon Mage	0	0	0	164	-17	0	0	24.0	4.74542	0	0	0	0	0	0	0	0		0	0		-1	0	0	20	99;99;99;112	0	0		0	
+shadow	magic	27275	Tumeken's shadow	Powered Staff	5	14180	Judge of Yama	0	0	0	164	-17	0	0	24.0	13.20000	0	0	0	0	0	0	0	0		0	0		-1	0	0	400	99;99;99;112	0	0		0	
+sang	magic	22323	Sanguinesti staff	Powered Staff	4	14150	Fire elemental (Royal Titans)	0	0	0	154	-21	0	0	24.0	13.75000	0	0	0	0	0	0	0	0		0	0		-1	0	0	40	99;99;99;112	0	0		0	
+sang	magic	22323	Sanguinesti staff	Powered Staff	4	14151	Ice elemental (Royal Titans)	0	0	0	154	-21	0	0	24.0	13.75000	0	0	0	0	0	0	0	0		0	0		-1	0	0	40	99;99;99;112	0	0		0	
+sang	magic	22323	Sanguinesti staff	Powered Staff	4	11709	Baboon Brawler	0	0	0	154	-21	0	0	24.0	13.75000	0	0	0	0	0	0	0	0		0	0		-1	0	0	25	99;99;99;112	0	0		0	
+sang	magic	22323	Sanguinesti staff	Powered Staff	4	11710	Baboon Thrower	0	0	0	154	-21	0	0	24.0	2.18788	0	0	0	0	0	0	0	0		0	0		-1	0	0	30	99;99;99;112	0	0		0	
+sang	magic	22323	Sanguinesti staff	Powered Staff	4	11711	Baboon Mage	0	0	0	154	-21	0	0	24.0	2.18788	0	0	0	0	0	0	0	0		0	0		-1	0	0	20	99;99;99;112	0	0		0	
+sang	magic	22323	Sanguinesti staff	Powered Staff	4	14180	Judge of Yama	0	0	0	154	-21	0	0	24.0	13.75000	0	0	0	0	0	0	0	0		0	0		-1	0	0	400	99;99;99;112	0	0		0	
+kodai-fire-surge	magic	21006	Kodai wand	Staff	4	14150	Fire elemental (Royal Titans)	0	0	0	157	-17	0	0	39.0	6.80000	0	0	0	0	0	0	0	51		0	0		-1	0	0	40	99;99;99;112	0	0		0	
+kodai-fire-surge	magic	21006	Kodai wand	Staff	4	14151	Ice elemental (Royal Titans)	0	0	0	157	-17	0	0	39.0	11.60000	0	0	0	0	0	0	0	51		0	0		-1	0	0	40	99;99;99;112	0	0		0	
+kodai-fire-surge	magic	21006	Kodai wand	Staff	4	11709	Baboon Brawler	0	0	0	157	-17	0	0	39.0	6.80000	0	0	0	0	0	0	0	51		0	0		-1	0	0	25	99;99;99;112	0	0		0	
+kodai-fire-surge	magic	21006	Kodai wand	Staff	4	11710	Baboon Thrower	0	0	0	157	-17	0	0	39.0	1.18706	0	0	0	0	0	0	0	51		0	0		-1	0	0	30	99;99;99;112	0	0		0	
+kodai-fire-surge	magic	21006	Kodai wand	Staff	4	11711	Baboon Mage	0	0	0	157	-17	0	0	39.0	1.18706	0	0	0	0	0	0	0	51		0	0		-1	0	0	20	99;99;99;112	0	0		0	
+kodai-fire-surge	magic	21006	Kodai wand	Staff	4	14180	Judge of Yama	0	0	0	157	-17	0	0	39.0	6.80000	0	0	0	0	0	0	0	51		0	0		-1	0	0	400	99;99;99;112	0	0		0	
+kodai-water-surge	magic	21006	Kodai wand	Staff	4	14150	Fire elemental (Royal Titans)	0	0	0	157	-17	0	0	39.0	11.60000	0	0	0	0	0	0	0	49		0	0		-1	0	0	40	99;99;99;112	0	0		0	
+kodai-water-surge	magic	21006	Kodai wand	Staff	4	14151	Ice elemental (Royal Titans)	0	0	0	157	-17	0	0	39.0	6.80000	0	0	0	0	0	0	0	49		0	0		-1	0	0	40	99;99;99;112	0	0		0	
+kodai-water-surge	magic	21006	Kodai wand	Staff	4	11709	Baboon Brawler	0	0	0	157	-17	0	0	39.0	6.80000	0	0	0	0	0	0	0	49		0	0		-1	0	0	25	99;99;99;112	0	0		0	
+kodai-water-surge	magic	21006	Kodai wand	Staff	4	11710	Baboon Thrower	0	0	0	157	-17	0	0	39.0	1.18706	0	0	0	0	0	0	0	49		0	0		-1	0	0	30	99;99;99;112	0	0		0	
+kodai-water-surge	magic	21006	Kodai wand	Staff	4	11711	Baboon Mage	0	0	0	157	-17	0	0	39.0	1.18706	0	0	0	0	0	0	0	49		0	0		-1	0	0	20	99;99;99;112	0	0		0	
+kodai-water-surge	magic	21006	Kodai wand	Staff	4	14180	Judge of Yama	0	0	0	157	-17	0	0	39.0	7.40000	0	0	0	0	0	0	0	49		0	0		-1	0	0	400	99;99;99;112	0	0		0	
+twinflame-fire-wave	magic	30634	Twinflame staff	Staff	6	14150	Fire elemental (Royal Titans)	7	-1	28	141	-17	22	0	24.0	6.16667	0	0	0	0	0	0	0	16		0	0		-1	0	0	40	99;99;99;112	0	0		0	
+twinflame-fire-wave	magic	30634	Twinflame staff	Staff	6	14151	Ice elemental (Royal Titans)	7	-1	28	141	-17	22	0	24.0	10.83333	0	0	0	0	0	0	0	16		0	0		-1	0	0	40	99;99;99;112	0	0		0	
+twinflame-fire-wave	magic	30634	Twinflame staff	Staff	6	11709	Baboon Brawler	7	-1	28	141	-17	22	0	24.0	6.16667	0	0	0	0	0	0	0	16		0	0		-1	0	0	25	99;99;99;112	0	0		0	
+twinflame-fire-wave	magic	30634	Twinflame staff	Staff	6	11710	Baboon Thrower	7	-1	28	141	-17	22	0	24.0	1.09868	0	0	0	0	0	0	0	16		0	0		-1	0	0	30	99;99;99;112	0	0		0	
+twinflame-fire-wave	magic	30634	Twinflame staff	Staff	6	11711	Baboon Mage	7	-1	28	141	-17	22	0	24.0	1.09868	0	0	0	0	0	0	0	16		0	0		-1	0	0	20	99;99;99;112	0	0		0	
+twinflame-fire-wave	magic	30634	Twinflame staff	Staff	6	14180	Judge of Yama	7	-1	28	141	-17	22	0	24.0	6.16667	0	0	0	0	0	0	0	16		0	0		-1	0	0	400	99;99;99;112	0	0		0	
+twinflame-water-wave	magic	30634	Twinflame staff	Staff	6	14150	Fire elemental (Royal Titans)	7	-1	28	141	-17	22	0	24.0	10.83333	0	0	0	0	0	0	0	14		0	0		-1	0	0	40	99;99;99;112	0	0		0	
+twinflame-water-wave	magic	30634	Twinflame staff	Staff	6	14151	Ice elemental (Royal Titans)	7	-1	28	141	-17	22	0	24.0	6.16667	0	0	0	0	0	0	0	14		0	0		-1	0	0	40	99;99;99;112	0	0		0	
+twinflame-water-wave	magic	30634	Twinflame staff	Staff	6	11709	Baboon Brawler	7	-1	28	141	-17	22	0	24.0	6.16667	0	0	0	0	0	0	0	14		0	0		-1	0	0	25	99;99;99;112	0	0		0	
+twinflame-water-wave	magic	30634	Twinflame staff	Staff	6	11710	Baboon Thrower	7	-1	28	141	-17	22	0	24.0	1.09868	0	0	0	0	0	0	0	14		0	0		-1	0	0	30	99;99;99;112	0	0		0	
+twinflame-water-wave	magic	30634	Twinflame staff	Staff	6	11711	Baboon Mage	7	-1	28	141	-17	22	0	24.0	1.09868	0	0	0	0	0	0	0	14		0	0		-1	0	0	20	99;99;99;112	0	0		0	
+twinflame-water-wave	magic	30634	Twinflame staff	Staff	6	14180	Judge of Yama	7	-1	28	141	-17	22	0	24.0	7.00000	0	0	0	0	0	0	0	14		0	0		-1	0	0	400	99;99;99;112	0	0		0	
+twinflame-fire-bolt	magic	30634	Twinflame staff	Staff	6	14150	Fire elemental (Royal Titans)	7	-1	28	141	-17	22	0	24.0	3.66667	0	0	0	0	0	0	0	8		0	0		-1	0	0	40	99;99;99;112	0	0		0	
+twinflame-fire-bolt	magic	30634	Twinflame staff	Staff	6	14151	Ice elemental (Royal Titans)	7	-1	28	141	-17	22	0	24.0	6.50000	0	0	0	0	0	0	0	8		0	0		-1	0	0	40	99;99;99;112	0	0		0	
+twinflame-fire-bolt	magic	30634	Twinflame staff	Staff	6	11709	Baboon Brawler	7	-1	28	141	-17	22	0	24.0	3.66667	0	0	0	0	0	0	0	8		0	0		-1	0	0	25	99;99;99;112	0	0		0	
+twinflame-fire-bolt	magic	30634	Twinflame staff	Staff	6	11710	Baboon Thrower	7	-1	28	141	-17	22	0	24.0	0.64504	0	0	0	0	0	0	0	8		0	0		-1	0	0	30	99;99;99;112	0	0		0	
+twinflame-fire-bolt	magic	30634	Twinflame staff	Staff	6	11711	Baboon Mage	7	-1	28	141	-17	22	0	24.0	0.64504	0	0	0	0	0	0	0	8		0	0		-1	0	0	20	99;99;99;112	0	0		0	
+twinflame-fire-bolt	magic	30634	Twinflame staff	Staff	6	14180	Judge of Yama	7	-1	28	141	-17	22	0	24.0	3.66667	0	0	0	0	0	0	0	8		0	0		-1	0	0	400	99;99;99;112	0	0		0	
+twinflame-fire-surge	magic	30634	Twinflame staff	Staff	6	14150	Fire elemental (Royal Titans)	7	-1	28	141	-17	22	0	24.0	5.50000	0	0	0	0	0	0	0	51		0	0		-1	0	0	40	99;99;99;112	0	0		0	
+twinflame-fire-surge	magic	30634	Twinflame staff	Staff	6	14151	Ice elemental (Royal Titans)	7	-1	28	141	-17	22	0	24.0	9.50000	0	0	0	0	0	0	0	51		0	0		-1	0	0	40	99;99;99;112	0	0		0	
+twinflame-fire-surge	magic	30634	Twinflame staff	Staff	6	11709	Baboon Brawler	7	-1	28	141	-17	22	0	24.0	5.50000	0	0	0	0	0	0	0	51		0	0		-1	0	0	25	99;99;99;112	0	0		0	
+twinflame-fire-surge	magic	30634	Twinflame staff	Staff	6	11710	Baboon Thrower	7	-1	28	141	-17	22	0	24.0	0.97976	0	0	0	0	0	0	0	51		0	0		-1	0	0	30	99;99;99;112	0	0		0	
+twinflame-fire-surge	magic	30634	Twinflame staff	Staff	6	11711	Baboon Mage	7	-1	28	141	-17	22	0	24.0	0.97976	0	0	0	0	0	0	0	51		0	0		-1	0	0	20	99;99;99;112	0	0		0	
+twinflame-fire-surge	magic	30634	Twinflame staff	Staff	6	14180	Judge of Yama	7	-1	28	141	-17	22	0	24.0	5.50000	0	0	0	0	0	0	0	51		0	0		-1	0	0	400	99;99;99;112	0	0		0	
+scythe	melee	22325	Scythe of Vitur	Scythe	5	14150	Fire elemental (Royal Titans)	117	210	77	-61	-63	138	0	0.0	4.79241	0	0	0	0	0	0	0	0		0	0		-1	0	0	40	118;118;99;99	0	0		0	
+scythe	melee	22325	Scythe of Vitur	Scythe	5	14151	Ice elemental (Royal Titans)	117	210	77	-61	-63	138	0	0.0	4.75397	0	0	0	0	0	0	0	0		0	0		-1	0	0	40	118;118;99;99	0	0		0	
+scythe	melee	22325	Scythe of Vitur	Scythe	5	11709	Baboon Brawler	117	210	77	-61	-63	138	0	0.0	3.68806	0	0	0	0	0	0	0	0		0	0		-1	0	0	25	118;118;99;99	0	0		0	
+scythe	melee	22325	Scythe of Vitur	Scythe	5	11710	Baboon Thrower	117	210	77	-61	-63	138	0	0.0	9.80000	0	0	0	0	0	0	0	0		0	0		-1	0	0	30	118;118;99;99	0	0		0	
+scythe	melee	22325	Scythe of Vitur	Scythe	5	11711	Baboon Mage	117	210	77	-61	-63	138	0	0.0	3.68806	0	0	0	0	0	0	0	0		0	0		-1	0	0	20	118;118;99;99	0	0		0	
+scythe	melee	22325	Scythe of Vitur	Scythe	5	14180	Judge of Yama	117	210	77	-61	-63	138	0	0.0	17.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	400	118;118;99;99	0	0		0	
+fang	melee	26219	Osmumten's fang	Stab Sword	5	14150	Fire elemental (Royal Titans)	182	189	75	-60	-67	174	0	0.0	5.79503	0	0	0	0	0	0	0	0		0	0		-1	0	0	40	118;118;99;99	0	0		0	
+fang	melee	26219	Osmumten's fang	Stab Sword	5	14151	Ice elemental (Royal Titans)	182	189	75	-60	-67	174	0	0.0	5.79102	0	0	0	0	0	0	0	0		0	0		-1	0	0	40	118;118;99;99	0	0		0	
+fang	melee	26219	Osmumten's fang	Stab Sword	5	11709	Baboon Brawler	182	189	75	-60	-67	174	0	0.0	5.21020	0	0	0	0	0	0	0	0		0	0		-1	0	0	25	118;118;99;99	0	0		0	
+fang	melee	26219	Osmumten's fang	Stab Sword	5	11710	Baboon Thrower	182	189	75	-60	-67	174	0	0.0	10.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	30	118;118;99;99	0	0		0	
+fang	melee	26219	Osmumten's fang	Stab Sword	5	11711	Baboon Mage	182	189	75	-60	-67	174	0	0.0	5.21020	0	0	0	0	0	0	0	0		0	0		-1	0	0	20	118;118;99;99	0	0		0	
+fang	melee	26219	Osmumten's fang	Stab Sword	5	14180	Judge of Yama	182	189	75	-60	-67	174	0	0.0	10.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	400	118;118;99;99	0	0		0	
+rapier	melee	22324	Ghrazi rapier	Stab Sword	4	14150	Fire elemental (Royal Titans)	177	169	75	-60	-67	164	0	0.0	6.82318	0	0	0	0	0	0	0	0		0	0		-1	0	0	40	118;118;99;99	0	0		0	
+rapier	melee	22324	Ghrazi rapier	Stab Sword	4	14151	Ice elemental (Royal Titans)	177	169	75	-60	-67	164	0	0.0	6.76076	0	0	0	0	0	0	0	0		0	0		-1	0	0	40	118;118;99;99	0	0		0	
+rapier	melee	22324	Ghrazi rapier	Stab Sword	4	11709	Baboon Brawler	177	169	75	-60	-67	164	0	0.0	5.02986	0	0	0	0	0	0	0	0		0	0		-1	0	0	25	118;118;99;99	0	0		0	
+rapier	melee	22324	Ghrazi rapier	Stab Sword	4	11710	Baboon Thrower	177	169	75	-60	-67	164	0	0.0	14.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	30	118;118;99;99	0	0		0	
+rapier	melee	22324	Ghrazi rapier	Stab Sword	4	11711	Baboon Mage	177	169	75	-60	-67	164	0	0.0	5.02986	0	0	0	0	0	0	0	0		0	0		-1	0	0	20	118;118;99;99	0	0		0	
+rapier	melee	22324	Ghrazi rapier	Stab Sword	4	14180	Judge of Yama	177	169	75	-60	-67	164	0	0.0	14.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	400	118;118;99;99	0	0		0	
+tbow	ranged	20997	Twisted bow	Bow	6	14150	Fire elemental (Royal Titans)	-8	-8	-8	-19	215	0	100	0.0	2.48983	0	0	0	0	0	0	0	0		0	0		-1	0	0	40	99;99;112;99	0	0		0	Dragon arrow
+tbow	ranged	20997	Twisted bow	Bow	6	14151	Ice elemental (Royal Titans)	-8	-8	-8	-19	215	0	100	0.0	2.74868	0	0	0	0	0	0	0	0		0	0		-1	0	0	40	99;99;112;99	0	0		0	Dragon arrow
+tbow	ranged	20997	Twisted bow	Bow	6	11709	Baboon Brawler	-8	-8	-8	-19	215	0	100	0.0	1.92609	0	0	0	0	0	0	0	0		0	0		-1	0	0	25	99;99;112;99	0	0		0	Dragon arrow
+tbow	ranged	20997	Twisted bow	Bow	6	11710	Baboon Thrower	-8	-8	-8	-19	215	0	100	0.0	1.92609	0	0	0	0	0	0	0	0		0	0		-1	0	0	30	99;99;112;99	0	0		0	Dragon arrow
+tbow	ranged	20997	Twisted bow	Bow	6	11711	Baboon Mage	-8	-8	-8	-19	215	0	100	0.0	6.40000	0	0	0	0	0	0	0	0		0	0		-1	0	0	20	99;99;112;99	0	0		0	Dragon arrow
+tbow	ranged	20997	Twisted bow	Bow	6	14180	Judge of Yama	-8	-8	-8	-19	215	0	100	0.0	15.80000	0	0	0	0	0	0	0	0		0	0		-1	0	0	400	99;99;112;99	0	0		0	Dragon arrow
+blowpipe	ranged	12926	Toxic blowpipe	Thrown	3	14150	Fire elemental (Royal Titans)	-8	-8	-8	-19	175	0	75	0.0	7.55306	0	0	0	0	0	0	0	0		0	0		-1	0	0	40	99;99;112;99	0	0		0	
+blowpipe	ranged	12926	Toxic blowpipe	Thrown	3	14151	Ice elemental (Royal Titans)	-8	-8	-8	-19	175	0	75	0.0	7.47984	0	0	0	0	0	0	0	0		0	0		-1	0	0	40	99;99;112;99	0	0		0	
+blowpipe	ranged	12926	Toxic blowpipe	Thrown	3	11709	Baboon Brawler	-8	-8	-8	-19	175	0	75	0.0	5.44937	0	0	0	0	0	0	0	0		0	0		-1	0	0	25	99;99;112;99	0	0		0	
+blowpipe	ranged	12926	Toxic blowpipe	Thrown	3	11710	Baboon Thrower	-8	-8	-8	-19	175	0	75	0.0	5.44937	0	0	0	0	0	0	0	0		0	0		-1	0	0	30	99;99;112;99	0	0		0	
+blowpipe	ranged	12926	Toxic blowpipe	Thrown	3	11711	Baboon Mage	-8	-8	-8	-19	175	0	75	0.0	15.50000	0	0	0	0	0	0	0	0		0	0		-1	0	0	20	99;99;112;99	0	0		0	
+blowpipe	ranged	12926	Toxic blowpipe	Thrown	3	14180	Judge of Yama	-8	-8	-8	-19	175	0	75	0.0	15.50000	0	0	0	0	0	0	0	0		0	0		-1	0	0	400	99;99;112;99	0	0		0	
+zcb-ruby	ranged	26374	Zaryte crossbow	Crossbow	6	14150	Fire elemental (Royal Titans)	-15	-16	-15	-29	273	0	152	0.0	4.59702	0	0	0	0	0	0	0	0		0	0		-1	0	0	40	99;99;112;99	0	1		0	Ruby dragon bolts (e)
+zcb-ruby	ranged	26374	Zaryte crossbow	Crossbow	6	14151	Ice elemental (Royal Titans)	-15	-16	-15	-29	273	0	152	0.0	4.56639	0	0	0	0	0	0	0	0		0	0		-1	0	0	40	99;99;112;99	0	1		0	Ruby dragon bolts (e)
+zcb-ruby	ranged	26374	Zaryte crossbow	Crossbow	6	11709	Baboon Brawler	-15	-16	-15	-29	273	0	152	0.0	3.67744	0	0	0	0	0	0	0	0		0	0		-1	0	0	25	99;99;112;99	0	1		0	Ruby dragon bolts (e)
+zcb-ruby	ranged	26374	Zaryte crossbow	Crossbow	6	11710	Baboon Thrower	-15	-16	-15	-29	273	0	152	0.0	3.69064	0	0	0	0	0	0	0	0		0	0		-1	0	0	30	99;99;112;99	0	1		0	Ruby dragon bolts (e)
+zcb-ruby	ranged	26374	Zaryte crossbow	Crossbow	6	11711	Baboon Mage	-15	-16	-15	-29	273	0	152	0.0	9.80000	0	0	0	0	0	0	0	0		0	0		-1	0	0	20	99;99;112;99	0	1		0	Ruby dragon bolts (e)
+zcb-ruby	ranged	26374	Zaryte crossbow	Crossbow	6	14180	Judge of Yama	-15	-16	-15	-29	273	0	152	0.0	17.60000	0	0	0	0	0	0	0	0		0	0		-1	0	0	400	99;99;112;99	0	1		0	Ruby dragon bolts (e)
+zcb-diamond	ranged	26374	Zaryte crossbow	Crossbow	6	14150	Fire elemental (Royal Titans)	-15	-16	-15	-29	273	0	152	0.0	4.95119	0	0	0	0	0	0	0	0		0	0		-1	0	0	40	99;99;112;99	0	2		0	Diamond dragon bolts (e)
+zcb-diamond	ranged	26374	Zaryte crossbow	Crossbow	6	14151	Ice elemental (Royal Titans)	-15	-16	-15	-29	273	0	152	0.0	4.92200	0	0	0	0	0	0	0	0		0	0		-1	0	0	40	99;99;112;99	0	2		0	Diamond dragon bolts (e)
+zcb-diamond	ranged	26374	Zaryte crossbow	Crossbow	6	11709	Baboon Brawler	-15	-16	-15	-29	273	0	152	0.0	4.11266	0	0	0	0	0	0	0	0		0	0		-1	0	0	25	99;99;112;99	0	2		0	Diamond dragon bolts (e)
+zcb-diamond	ranged	26374	Zaryte crossbow	Crossbow	6	11710	Baboon Thrower	-15	-16	-15	-29	273	0	152	0.0	4.11266	0	0	0	0	0	0	0	0		0	0		-1	0	0	30	99;99;112;99	0	2		0	Diamond dragon bolts (e)
+zcb-diamond	ranged	26374	Zaryte crossbow	Crossbow	6	11711	Baboon Mage	-15	-16	-15	-29	273	0	152	0.0	12.20000	0	0	0	0	0	0	0	0		0	0		-1	0	0	20	99;99;112;99	0	2		0	Diamond dragon bolts (e)
+zcb-diamond	ranged	26374	Zaryte crossbow	Crossbow	6	14180	Judge of Yama	-15	-16	-15	-29	273	0	152	0.0	12.20000	0	0	0	0	0	0	0	0		0	0		-1	0	0	400	99;99;112;99	0	2		0	Diamond dragon bolts (e)
+twinflame-fire-wave-in-melee-armour	magic	30634	Twinflame staff	Staff	6	14150	Fire elemental (Royal Titans)	54	84	75	-43	-63	85	0	0.0	1.50000	0	0	0	0	0	0	0	16		0	0		-1	0	0	40	99;99;99;112	0	0		0	
+twinflame-fire-wave-in-melee-armour	magic	30634	Twinflame staff	Staff	6	14151	Ice elemental (Royal Titans)	54	84	75	-43	-63	85	0	0.0	2.90000	0	0	0	0	0	0	0	16		0	0		-1	0	0	40	99;99;99;112	0	0		0	
+twinflame-water-wave-in-melee-armour	magic	30634	Twinflame staff	Staff	6	14150	Fire elemental (Royal Titans)	54	84	75	-43	-63	85	0	0.0	2.90000	0	0	0	0	0	0	0	14		0	0		-1	0	0	40	99;99;99;112	0	0		0	
+twinflame-water-wave-in-melee-armour	magic	30634	Twinflame staff	Staff	6	14151	Ice elemental (Royal Titans)	54	84	75	-43	-63	85	0	0.0	1.50000	0	0	0	0	0	0	0	14		0	0		-1	0	0	40	99;99;99;112	0	0		0	
+twinflame-fire-wave-void	magic	30634	Twinflame staff	Staff	6	14150	Fire elemental (Royal Titans)	7	-1	28	62	0	22	0	10.0	5.50000	0	0	0	0	0	0	0	16		0	0		-1	0	0	40	99;99;99;112	0	0		1	
+twinflame-fire-wave-void	magic	30634	Twinflame staff	Staff	6	14151	Ice elemental (Royal Titans)	7	-1	28	62	0	22	0	10.0	10.16667	0	0	0	0	0	0	0	16		0	0		-1	0	0	40	99;99;99;112	0	0		1	
+sang-in-melee-armour	magic	22323	Sanguinesti staff	Powered Staff	4	14150	Fire elemental (Royal Titans)	47	85	47	-30	-67	63	0	0.0	3.45000	0	0	0	0	0	0	0	0		0	0		-1	0	0	40	99;99;99;112	0	0		0	
+sang-in-melee-armour	magic	22323	Sanguinesti staff	Powered Staff	4	14151	Ice elemental (Royal Titans)	47	85	47	-30	-67	63	0	0.0	3.45000	0	0	0	0	0	0	0	0		0	0		-1	0	0	40	99;99;99;112	0	0		0	
+fang	melee	26219	Osmumten's fang	Stab Sword	5	319	Corporeal Beast	182	189	75	-60	-67	174	0	0.0	4.64001	0	0	0	0	0	0	0	0		0	0		-1	0	0	2000	118;118;99;99	0	0		0	
+scythe	melee	22325	Scythe of Vitur	Scythe	5	319	Corporeal Beast	117	210	77	-61	-63	138	0	0.0	1.00313	0	0	0	0	0	0	0	0		0	0		-1	0	0	2000	118;118;99;99	0	0		0	
+rapier	melee	22324	Ghrazi rapier	Stab Sword	4	319	Corporeal Beast	177	169	75	-60	-67	164	0	0.0	2.07920	0	0	0	0	0	0	0	0		0	0		-1	0	0	2000	118;118;99;99	0	0		0	
+hasta	melee	11889	Zamorakian hasta	Spear	4	319	Corporeal Beast	162	179	140	-60	-67	146	0	0.0	1.81636	0	0	0	0	0	0	0	0		0	0		-1	0	0	2000	118;118;99;99	0	0		0	
+elder-maul	melee	21003	Elder maul	Blunt	6	319	Corporeal Beast	47	85	182	-55	-63	210	0	0.0	0.96807	0	0	0	0	0	0	0	0		0	0		-1	0	0	2000	118;118;99;99	0	0		0	
+tbow	ranged	20997	Twisted bow	Bow	6	319	Corporeal Beast	-8	-8	-8	-19	215	0	100	0.0	1.15322	0	0	0	0	0	0	0	0		0	0		-1	0	0	2000	99;99;112;99	0	0		0	Dragon arrow
+blowpipe	ranged	12926	Toxic blowpipe	Thrown	3	319	Corporeal Beast	-8	-8	-8	-19	175	0	75	0.0	0.67849	0	0	0	0	0	0	0	0		0	0		-1	0	0	2000	99;99;112;99	0	0		0	
+zcb-ruby	ranged	26374	Zaryte crossbow	Crossbow	6	319	Corporeal Beast	-15	-16	-15	-29	273	0	152	0.0	2.47719	0	0	0	0	0	0	0	0		0	0		-1	0	0	2000	99;99;112;99	0	1		0	Ruby dragon bolts (e)
+zcb-diamond	ranged	26374	Zaryte crossbow	Crossbow	6	319	Corporeal Beast	-15	-16	-15	-29	273	0	152	0.0	1.30689	0	0	0	0	0	0	0	0		0	0		-1	0	0	2000	99;99;112;99	0	2		0	Diamond dragon bolts (e)
+shadow	magic	27275	Tumeken's shadow	Powered Staff	5	319	Corporeal Beast	0	0	0	164	-17	0	0	24.0	3.58183	0	0	0	0	0	0	0	0		0	0		-1	0	0	2000	99;99;99;112	0	0		0	
+sang	magic	22323	Sanguinesti staff	Powered Staff	4	319	Corporeal Beast	0	0	0	154	-21	0	0	24.0	1.34521	0	0	0	0	0	0	0	0		0	0		-1	0	0	2000	99;99;99;112	0	0		0	
+kodai-fire-surge	magic	21006	Kodai wand	Staff	4	319	Corporeal Beast	0	0	0	157	-17	0	0	39.0	0.72987	0	0	0	0	0	0	0	51		0	0		-1	0	0	2000	99;99;99;112	0	0		0	
+zcb-ruby	ranged	26374	Zaryte crossbow	Crossbow	6	319	Corporeal Beast	-15	-16	-15	-29	273	0	152	0.0	2.47719	0	0	0	0	0	0	0	0		0	0		-1	0	0	600	99;99;112;99	0	1		0	Ruby dragon bolts (e)
+zcb-diamond	ranged	26374	Zaryte crossbow	Crossbow	6	319	Corporeal Beast	-15	-16	-15	-29	273	0	152	0.0	1.30689	0	0	0	0	0	0	0	0		0	0		-1	0	0	600	99;99;112;99	0	2		0	Diamond dragon bolts (e)
+scythe	melee	22325	Scythe of Vitur	Scythe	5	13668	Araxxor	117	210	77	-61	-63	138	0	0.0	6.43684	0	0	0	0	0	0	0	0		0	0		-1	0	0	1020	118;118;99;99	0	0		0	
+fang	melee	26219	Osmumten's fang	Stab Sword	5	13668	Araxxor	182	189	75	-60	-67	174	0	0.0	4.30270	0	0	0	0	0	0	0	0		0	0		-1	0	0	1020	118;118;99;99	0	0		0	
+rapier	melee	22324	Ghrazi rapier	Stab Sword	4	13668	Araxxor	177	169	75	-60	-67	164	0	0.0	4.98506	0	0	0	0	0	0	0	0		0	0		-1	0	0	1020	118;118;99;99	0	0		0	
+tbow	ranged	20997	Twisted bow	Bow	6	13668	Araxxor	-8	-8	-8	-19	215	0	100	0.0	5.00955	0	0	0	0	0	0	0	0		0	0		-1	0	0	1020	99;99;112;99	0	0		0	Dragon arrow
+zcb-ruby	ranged	26374	Zaryte crossbow	Crossbow	6	13668	Araxxor	-15	-16	-15	-29	273	0	152	0.0	4.08889	0	0	0	0	0	0	0	0		0	0		-1	0	0	1020	99;99;112;99	0	1		0	Ruby dragon bolts (e)
+shadow	magic	27275	Tumeken's shadow	Powered Staff	5	13668	Araxxor	0	0	0	164	-17	0	0	24.0	4.24746	0	0	0	0	0	0	0	0		0	0		-1	0	0	1020	99;99;99;112	0	0		0	
+sang	magic	22323	Sanguinesti staff	Powered Staff	4	13668	Araxxor	0	0	0	154	-21	0	0	24.0	1.72536	0	0	0	0	0	0	0	0		0	0		-1	0	0	1020	99;99;99;112	0	0		0	
+scythe	melee	22325	Scythe of Vitur	Scythe	5	13668	Araxxor	117	210	77	-61	-63	138	0	0.0	6.43684	0	0	0	0	0	0	0	0		0	0		-1	0	0	256	118;118;99;99	0	0		0	
+fang	melee	26219	Osmumten's fang	Stab Sword	5	13668	Araxxor	182	189	75	-60	-67	174	0	0.0	4.30270	0	0	0	0	0	0	0	0		0	0		-1	0	0	256	118;118;99;99	0	0		0	
+rapier	melee	22324	Ghrazi rapier	Stab Sword	4	13668	Araxxor	177	169	75	-60	-67	164	0	0.0	4.98506	0	0	0	0	0	0	0	0		0	0		-1	0	0	256	118;118;99;99	0	0		0	
+tbow	ranged	20997	Twisted bow	Bow	6	13668	Araxxor	-8	-8	-8	-19	215	0	100	0.0	5.00955	0	0	0	0	0	0	0	0		0	0		-1	0	0	256	99;99;112;99	0	0		0	Dragon arrow
+zcb-ruby	ranged	26374	Zaryte crossbow	Crossbow	6	13668	Araxxor	-15	-16	-15	-29	273	0	152	0.0	3.37609	0	0	0	0	0	0	0	0		0	0		-1	0	0	256	99;99;112;99	0	1		0	Ruby dragon bolts (e)
+shadow	magic	27275	Tumeken's shadow	Powered Staff	5	13668	Araxxor	0	0	0	164	-17	0	0	24.0	4.24746	0	0	0	0	0	0	0	0		0	0		-1	0	0	256	99;99;99;112	0	0		0	
+sang	magic	22323	Sanguinesti staff	Powered Staff	4	13668	Araxxor	0	0	0	154	-21	0	0	24.0	1.72536	0	0	0	0	0	0	0	0		0	0		-1	0	0	256	99;99;99;112	0	0		0	
+scythe	melee	22325	Scythe of Vitur	Scythe	5	13668	Araxxor	117	210	77	-61	-63	138	0	0.0	5.92877	0	0	0	0	0	0	0	0		0	0		-1	0	0	255	118;118;99;99	0	0	Enraged	0	
+fang	melee	26219	Osmumten's fang	Stab Sword	5	13668	Araxxor	182	189	75	-60	-67	174	0	0.0	3.88582	0	0	0	0	0	0	0	0		0	0		-1	0	0	255	118;118;99;99	0	0	Enraged	0	
+rapier	melee	22324	Ghrazi rapier	Stab Sword	4	13668	Araxxor	177	169	75	-60	-67	164	0	0.0	4.49430	0	0	0	0	0	0	0	0		0	0		-1	0	0	255	118;118;99;99	0	0	Enraged	0	
+tbow	ranged	20997	Twisted bow	Bow	6	13668	Araxxor	-8	-8	-8	-19	215	0	100	0.0	4.30644	0	0	0	0	0	0	0	0		0	0		-1	0	0	255	99;99;112;99	0	0	Enraged	0	Dragon arrow
+zcb-ruby	ranged	26374	Zaryte crossbow	Crossbow	6	13668	Araxxor	-15	-16	-15	-29	273	0	152	0.0	2.91028	0	0	0	0	0	0	0	0		0	0		-1	0	0	255	99;99;112;99	0	1	Enraged	0	Ruby dragon bolts (e)
+shadow	magic	27275	Tumeken's shadow	Powered Staff	5	13668	Araxxor	0	0	0	164	-17	0	0	24.0	3.91604	0	0	0	0	0	0	0	0		0	0		-1	0	0	255	99;99;99;112	0	0	Enraged	0	
+sang	magic	22323	Sanguinesti staff	Powered Staff	4	13668	Araxxor	0	0	0	154	-21	0	0	24.0	1.51254	0	0	0	0	0	0	0	0		0	0		-1	0	0	255	99;99;99;112	0	0	Enraged	0	
+scythe	melee	22325	Scythe of Vitur	Scythe	5	13668	Araxxor	117	210	77	-61	-63	138	0	0.0	5.92877	0	0	0	0	0	0	0	0		0	0		-1	0	0	204	118;118;99;99	0	0	Enraged	0	
+fang	melee	26219	Osmumten's fang	Stab Sword	5	13668	Araxxor	182	189	75	-60	-67	174	0	0.0	3.88582	0	0	0	0	0	0	0	0		0	0		-1	0	0	204	118;118;99;99	0	0	Enraged	0	
+rapier	melee	22324	Ghrazi rapier	Stab Sword	4	13668	Araxxor	177	169	75	-60	-67	164	0	0.0	4.49430	0	0	0	0	0	0	0	0		0	0		-1	0	0	204	118;118;99;99	0	0	Enraged	0	
+tbow	ranged	20997	Twisted bow	Bow	6	13668	Araxxor	-8	-8	-8	-19	215	0	100	0.0	4.30644	0	0	0	0	0	0	0	0		0	0		-1	0	0	204	99;99;112;99	0	0	Enraged	0	Dragon arrow
+zcb-ruby	ranged	26374	Zaryte crossbow	Crossbow	6	13668	Araxxor	-15	-16	-15	-29	273	0	152	0.0	2.75188	0	0	0	0	0	0	0	0		0	0		-1	0	0	204	99;99;112;99	0	1	Enraged	0	Ruby dragon bolts (e)
+shadow	magic	27275	Tumeken's shadow	Powered Staff	5	13668	Araxxor	0	0	0	164	-17	0	0	24.0	3.91604	0	0	0	0	0	0	0	0		0	0		-1	0	0	204	99;99;99;112	0	0	Enraged	0	
+sang	magic	22323	Sanguinesti staff	Powered Staff	4	13668	Araxxor	0	0	0	154	-21	0	0	24.0	1.51254	0	0	0	0	0	0	0	0		0	0		-1	0	0	204	99;99;99;112	0	0	Enraged	0	
+twinflame-fire-bolt	magic	30634	Twinflame staff	Staff	6	7261	Hill Giant	7	-1	28	141	-17	22	0	24.0	1.79640	0	0	0	0	0	0	0	8		0	0		-1	0	0	35	99;99;99;112	0	0		0	
+twinflame-fire-bolt	magic	30634	Twinflame staff	Staff	6	8059	Vorkath	7	-1	28	141	-17	22	0	24.0	1.07951	0	0	0	0	0	0	0	8		0	0		-1	0	0	750	99;99;99;112	0	0		0	
+twinflame-fire-bolt	magic	30634	Twinflame staff	Staff	6	2215	General Graardor	7	-1	28	141	-17	22	0	24.0	0.94411	0	0	0	0	0	0	0	8		0	0		-1	0	0	255	99;99;99;112	0	0		0	
+twinflame-fire-bolt	magic	30634	Twinflame staff	Staff	6	5862	Cerberus	7	-1	28	141	-17	22	0	24.0	1.01636	0	0	0	0	0	0	0	8		0	0		-1	0	0	600	99;99;99;112	0	0		0	
+twinflame-fire-bolt	magic	30634	Twinflame staff	Staff	6	415	Abyssal demon	7	-1	28	141	-17	22	0	24.0	1.79640	0	0	0	0	0	0	0	8		0	0		-1	0	0	150	99;99;99;112	0	0		0	
+twinflame-fire-blast	magic	30634	Twinflame staff	Staff	6	7261	Hill Giant	7	-1	28	141	-17	22	0	24.0	2.48329	0	0	0	0	0	0	0	12		0	0		-1	0	0	35	99;99;99;112	0	0		0	
+twinflame-fire-blast	magic	30634	Twinflame staff	Staff	6	8059	Vorkath	7	-1	28	141	-17	22	0	24.0	1.51985	0	0	0	0	0	0	0	12		0	0		-1	0	0	750	99;99;99;112	0	0		0	
+twinflame-fire-blast	magic	30634	Twinflame staff	Staff	6	2215	General Graardor	7	-1	28	141	-17	22	0	24.0	1.30511	0	0	0	0	0	0	0	12		0	0		-1	0	0	255	99;99;99;112	0	0		0	
+twinflame-fire-blast	magic	30634	Twinflame staff	Staff	6	5862	Cerberus	7	-1	28	141	-17	22	0	24.0	1.40499	0	0	0	0	0	0	0	12		0	0		-1	0	0	600	99;99;99;112	0	0		0	
+twinflame-fire-blast	magic	30634	Twinflame staff	Staff	6	415	Abyssal demon	7	-1	28	141	-17	22	0	24.0	2.48329	0	0	0	0	0	0	0	12		0	0		-1	0	0	150	99;99;99;112	0	0		0	
+twinflame-fire-wave	magic	30634	Twinflame staff	Staff	6	7261	Hill Giant	7	-1	28	141	-17	22	0	24.0	3.05977	0	0	0	0	0	0	0	16		0	0		-1	0	0	35	99;99;99;112	0	0		0	
+twinflame-fire-wave	magic	30634	Twinflame staff	Staff	6	8059	Vorkath	7	-1	28	141	-17	22	0	24.0	1.90670	0	0	0	0	0	0	0	16		0	0		-1	0	0	750	99;99;99;112	0	0		0	
+twinflame-fire-wave	magic	30634	Twinflame staff	Staff	6	2215	General Graardor	7	-1	28	141	-17	22	0	24.0	1.60808	0	0	0	0	0	0	0	16		0	0		-1	0	0	255	99;99;99;112	0	0		0	
+twinflame-fire-wave	magic	30634	Twinflame staff	Staff	6	5862	Cerberus	7	-1	28	141	-17	22	0	24.0	1.73115	0	0	0	0	0	0	0	16		0	0		-1	0	0	600	99;99;99;112	0	0		0	
+twinflame-fire-wave	magic	30634	Twinflame staff	Staff	6	415	Abyssal demon	7	-1	28	141	-17	22	0	24.0	3.05977	0	0	0	0	0	0	0	16		0	0		-1	0	0	150	99;99;99;112	0	0		0	
+twinflame-water-wave	magic	30634	Twinflame staff	Staff	6	7261	Hill Giant	7	-1	28	141	-17	22	0	24.0	3.05977	0	0	0	0	0	0	0	14		0	0		-1	0	0	35	99;99;99;112	0	0		0	
+twinflame-water-wave	magic	30634	Twinflame staff	Staff	6	8059	Vorkath	7	-1	28	141	-17	22	0	24.0	1.07368	0	0	0	0	0	0	0	14		0	0		-1	0	0	750	99;99;99;112	0	0		0	
+twinflame-water-wave	magic	30634	Twinflame staff	Staff	6	2215	General Graardor	7	-1	28	141	-17	22	0	24.0	1.60808	0	0	0	0	0	0	0	14		0	0		-1	0	0	255	99;99;99;112	0	0		0	
+twinflame-water-wave	magic	30634	Twinflame staff	Staff	6	5862	Cerberus	7	-1	28	141	-17	22	0	24.0	2.72610	0	0	0	0	0	0	0	14		0	0		-1	0	0	600	99;99;99;112	0	0		0	
+twinflame-water-wave	magic	30634	Twinflame staff	Staff	6	415	Abyssal demon	7	-1	28	141	-17	22	0	24.0	3.05977	0	0	0	0	0	0	0	14		0	0		-1	0	0	150	99;99;99;112	0	0		0	
+twinflame-earth-wave	magic	30634	Twinflame staff	Staff	6	7261	Hill Giant	7	-1	28	141	-17	22	0	24.0	3.64313	0	0	0	0	0	0	0	15		0	0		-1	0	0	35	99;99;99;112	0	0		0	
+twinflame-earth-wave	magic	30634	Twinflame staff	Staff	6	8059	Vorkath	7	-1	28	141	-17	22	0	24.0	1.07368	0	0	0	0	0	0	0	15		0	0		-1	0	0	750	99;99;99;112	0	0		0	
+twinflame-earth-wave	magic	30634	Twinflame staff	Staff	6	2215	General Graardor	7	-1	28	141	-17	22	0	24.0	2.60857	0	0	0	0	0	0	0	15		0	0		-1	0	0	255	99;99;99;112	0	0		0	
+twinflame-earth-wave	magic	30634	Twinflame staff	Staff	6	5862	Cerberus	7	-1	28	141	-17	22	0	24.0	1.73115	0	0	0	0	0	0	0	15		0	0		-1	0	0	600	99;99;99;112	0	0		0	
+twinflame-earth-wave	magic	30634	Twinflame staff	Staff	6	415	Abyssal demon	7	-1	28	141	-17	22	0	24.0	3.05977	0	0	0	0	0	0	0	15		0	0		-1	0	0	150	99;99;99;112	0	0		0	
+twinflame-fire-surge	magic	30634	Twinflame staff	Staff	6	7261	Hill Giant	7	-1	28	141	-17	22	0	24.0	2.72858	0	0	0	0	0	0	0	51		0	0		-1	0	0	35	99;99;99;112	0	0		0	
+twinflame-fire-surge	magic	30634	Twinflame staff	Staff	6	8059	Vorkath	7	-1	28	141	-17	22	0	24.0	1.66060	0	0	0	0	0	0	0	51		0	0		-1	0	0	750	99;99;99;112	0	0		0	
+twinflame-fire-surge	magic	30634	Twinflame staff	Staff	6	2215	General Graardor	7	-1	28	141	-17	22	0	24.0	1.43402	0	0	0	0	0	0	0	51		0	0		-1	0	0	255	99;99;99;112	0	0		0	
+twinflame-fire-surge	magic	30634	Twinflame staff	Staff	6	5862	Cerberus	7	-1	28	141	-17	22	0	24.0	1.54377	0	0	0	0	0	0	0	51		0	0		-1	0	0	600	99;99;99;112	0	0		0	
+twinflame-fire-surge	magic	30634	Twinflame staff	Staff	6	415	Abyssal demon	7	-1	28	141	-17	22	0	24.0	2.72858	0	0	0	0	0	0	0	51		0	0		-1	0	0	150	99;99;99;112	0	0		0	
+twinflame-fire-strike	magic	30634	Twinflame staff	Staff	6	7261	Hill Giant	7	-1	28	141	-17	22	0	24.0	0.92167	0	0	0	0	0	0	0	4		0	0		-1	0	0	35	99;99;99;112	0	0		0	
+twinflame-fire-strike	magic	30634	Twinflame staff	Staff	6	8059	Vorkath	7	-1	28	141	-17	22	0	24.0	0.55819	0	0	0	0	0	0	0	4		0	0		-1	0	0	750	99;99;99;112	0	0		0	
+twinflame-fire-strike	magic	30634	Twinflame staff	Staff	6	2215	General Graardor	7	-1	28	141	-17	22	0	24.0	0.48439	0	0	0	0	0	0	0	4		0	0		-1	0	0	255	99;99;99;112	0	0		0	
+twinflame-fire-strike	magic	30634	Twinflame staff	Staff	6	5862	Cerberus	7	-1	28	141	-17	22	0	24.0	0.52146	0	0	0	0	0	0	0	4		0	0		-1	0	0	600	99;99;99;112	0	0		0	
+twinflame-fire-strike	magic	30634	Twinflame staff	Staff	6	415	Abyssal demon	7	-1	28	141	-17	22	0	24.0	0.92167	0	0	0	0	0	0	0	4		0	0		-1	0	0	150	99;99;99;112	0	0		0	
+emberlight	melee	29589	Emberlight	Slash Sword	4	13599	Tormented Demon	140	184	75	-60	-67	84	0	0.0	6.81866	0	0	0	0	0	0	0	0		0	0		-1	0	0	600	118;118;99;99	0	0	Shielded+Shielded (Defenceless)	0	
+emberlight	melee	29589	Emberlight	Slash Sword	4	13600	Tormented Demon	140	184	75	-60	-67	84	0	0.0	6.81866	0	0	0	0	0	0	0	0		0	0		-1	0	0	600	118;118;99;99	0	0	Shielded+Shielded (Defenceless)	0	
+emberlight	melee	29589	Emberlight	Slash Sword	4	13601	Tormented Demon	140	184	75	-60	-67	84	0	0.0	6.81866	0	0	0	0	0	0	0	0		0	0		-1	0	0	600	118;118;99;99	0	0	Shielded+Shielded (Defenceless)	0	
+emberlight	melee	29589	Emberlight	Slash Sword	4	13602	Tormented Demon	140	184	75	-60	-67	84	0	0.0	6.81866	0	0	0	0	0	0	0	0		0	0		-1	0	0	600	118;118;99;99	0	0	Shielded+Shielded (Defenceless)	0	
+arclight	melee	19675	Arclight	Slash Sword	4	13599	Tormented Demon	87	152	75	-60	-67	79	0	0.0	6.10623	0	0	0	0	0	0	0	0		0	0		-1	0	0	600	118;118;99;99	0	0	Shielded+Shielded (Defenceless)	0	
+arclight	melee	19675	Arclight	Slash Sword	4	13600	Tormented Demon	87	152	75	-60	-67	79	0	0.0	6.10623	0	0	0	0	0	0	0	0		0	0		-1	0	0	600	118;118;99;99	0	0	Shielded+Shielded (Defenceless)	0	
+arclight	melee	19675	Arclight	Slash Sword	4	13601	Tormented Demon	87	152	75	-60	-67	79	0	0.0	6.10623	0	0	0	0	0	0	0	0		0	0		-1	0	0	600	118;118;99;99	0	0	Shielded+Shielded (Defenceless)	0	
+arclight	melee	19675	Arclight	Slash Sword	4	13602	Tormented Demon	87	152	75	-60	-67	79	0	0.0	6.10623	0	0	0	0	0	0	0	0		0	0		-1	0	0	600	118;118;99;99	0	0	Shielded+Shielded (Defenceless)	0	
+scythe	melee	22325	Scythe of Vitur	Scythe	5	13599	Tormented Demon	117	210	77	-61	-63	138	0	0.0	5.07310	0	0	0	0	0	0	0	0		0	0		-1	0	0	600	118;118;99;99	0	0	Shielded+Shielded (Defenceless)	0	
+scythe	melee	22325	Scythe of Vitur	Scythe	5	13600	Tormented Demon	117	210	77	-61	-63	138	0	0.0	5.07310	0	0	0	0	0	0	0	0		0	0		-1	0	0	600	118;118;99;99	0	0	Shielded+Shielded (Defenceless)	0	
+scythe	melee	22325	Scythe of Vitur	Scythe	5	13601	Tormented Demon	117	210	77	-61	-63	138	0	0.0	5.07310	0	0	0	0	0	0	0	0		0	0		-1	0	0	600	118;118;99;99	0	0	Shielded+Shielded (Defenceless)	0	
+scythe	melee	22325	Scythe of Vitur	Scythe	5	13602	Tormented Demon	117	210	77	-61	-63	138	0	0.0	5.07310	0	0	0	0	0	0	0	0		0	0		-1	0	0	600	118;118;99;99	0	0	Shielded+Shielded (Defenceless)	0	
+rapier	melee	22324	Ghrazi rapier	Stab Sword	4	13599	Tormented Demon	177	169	75	-60	-67	164	0	0.0	4.66109	0	0	0	0	0	0	0	0		0	0		-1	0	0	600	118;118;99;99	0	0	Shielded+Shielded (Defenceless)	0	
+rapier	melee	22324	Ghrazi rapier	Stab Sword	4	13600	Tormented Demon	177	169	75	-60	-67	164	0	0.0	4.66109	0	0	0	0	0	0	0	0		0	0		-1	0	0	600	118;118;99;99	0	0	Shielded+Shielded (Defenceless)	0	
+rapier	melee	22324	Ghrazi rapier	Stab Sword	4	13601	Tormented Demon	177	169	75	-60	-67	164	0	0.0	4.66109	0	0	0	0	0	0	0	0		0	0		-1	0	0	600	118;118;99;99	0	0	Shielded+Shielded (Defenceless)	0	
+rapier	melee	22324	Ghrazi rapier	Stab Sword	4	13602	Tormented Demon	177	169	75	-60	-67	164	0	0.0	4.66109	0	0	0	0	0	0	0	0		0	0		-1	0	0	600	118;118;99;99	0	0	Shielded+Shielded (Defenceless)	0	
+fang	melee	26219	Osmumten's fang	Stab Sword	5	13599	Tormented Demon	182	189	75	-60	-67	174	0	0.0	4.28628	0	0	0	0	0	0	0	0		0	0		-1	0	0	600	118;118;99;99	0	0	Shielded+Shielded (Defenceless)	0	
+fang	melee	26219	Osmumten's fang	Stab Sword	5	13600	Tormented Demon	182	189	75	-60	-67	174	0	0.0	4.28628	0	0	0	0	0	0	0	0		0	0		-1	0	0	600	118;118;99;99	0	0	Shielded+Shielded (Defenceless)	0	
+fang	melee	26219	Osmumten's fang	Stab Sword	5	13601	Tormented Demon	182	189	75	-60	-67	174	0	0.0	4.28628	0	0	0	0	0	0	0	0		0	0		-1	0	0	600	118;118;99;99	0	0	Shielded+Shielded (Defenceless)	0	
+fang	melee	26219	Osmumten's fang	Stab Sword	5	13602	Tormented Demon	182	189	75	-60	-67	174	0	0.0	4.28628	0	0	0	0	0	0	0	0		0	0		-1	0	0	600	118;118;99;99	0	0	Shielded+Shielded (Defenceless)	0	
+inquisitors-mace	melee	24417	Inquisitor's mace	Spiked	4	13599	Tormented Demon	129	72	215	-55	-48	167	0	0.0	4.91717	0	0	0	0	0	0	0	0		0	0		-1	0	0	600	118;118;99;99	5	0	Shielded+Shielded (Defenceless)	0	
+inquisitors-mace	melee	24417	Inquisitor's mace	Spiked	4	13600	Tormented Demon	129	72	215	-55	-48	167	0	0.0	4.91717	0	0	0	0	0	0	0	0		0	0		-1	0	0	600	118;118;99;99	5	0	Shielded+Shielded (Defenceless)	0	
+inquisitors-mace	melee	24417	Inquisitor's mace	Spiked	4	13601	Tormented Demon	129	72	215	-55	-48	167	0	0.0	4.91717	0	0	0	0	0	0	0	0		0	0		-1	0	0	600	118;118;99;99	5	0	Shielded+Shielded (Defenceless)	0	
+inquisitors-mace	melee	24417	Inquisitor's mace	Spiked	4	13602	Tormented Demon	129	72	215	-55	-48	167	0	0.0	4.91717	0	0	0	0	0	0	0	0		0	0		-1	0	0	600	118;118;99;99	5	0	Shielded+Shielded (Defenceless)	0	
+whip	melee	4151	Abyssal whip	Whip	4	13599	Tormented Demon	77	196	75	-60	-67	153	0	0.0	4.94100	0	0	0	0	0	0	0	0		0	0		-1	0	0	600	118;118;99;99	0	0	Shielded+Shielded (Defenceless)	0	
+whip	melee	4151	Abyssal whip	Whip	4	13600	Tormented Demon	77	196	75	-60	-67	153	0	0.0	4.94100	0	0	0	0	0	0	0	0		0	0		-1	0	0	600	118;118;99;99	0	0	Shielded+Shielded (Defenceless)	0	
+whip	melee	4151	Abyssal whip	Whip	4	13601	Tormented Demon	77	196	75	-60	-67	153	0	0.0	4.94100	0	0	0	0	0	0	0	0		0	0		-1	0	0	600	118;118;99;99	0	0	Shielded+Shielded (Defenceless)	0	
+whip	melee	4151	Abyssal whip	Whip	4	13602	Tormented Demon	77	196	75	-60	-67	153	0	0.0	4.94100	0	0	0	0	0	0	0	0		0	0		-1	0	0	600	118;118;99;99	0	0	Shielded+Shielded (Defenceless)	0	
+tentacle	melee	12006	Abyssal tentacle	Whip	4	13599	Tormented Demon	77	204	75	-60	-67	157	0	0.0	5.08346	0	0	0	0	0	0	0	0		0	0		-1	0	0	600	118;118;99;99	0	0	Shielded+Shielded (Defenceless)	0	
+tentacle	melee	12006	Abyssal tentacle	Whip	4	13600	Tormented Demon	77	204	75	-60	-67	157	0	0.0	5.08346	0	0	0	0	0	0	0	0		0	0		-1	0	0	600	118;118;99;99	0	0	Shielded+Shielded (Defenceless)	0	
+tentacle	melee	12006	Abyssal tentacle	Whip	4	13601	Tormented Demon	77	204	75	-60	-67	157	0	0.0	5.08346	0	0	0	0	0	0	0	0		0	0		-1	0	0	600	118;118;99;99	0	0	Shielded+Shielded (Defenceless)	0	
+tentacle	melee	12006	Abyssal tentacle	Whip	4	13602	Tormented Demon	77	204	75	-60	-67	157	0	0.0	5.08346	0	0	0	0	0	0	0	0		0	0		-1	0	0	600	118;118;99;99	0	0	Shielded+Shielded (Defenceless)	0	
+abyssal-dagger	melee	13265	Abyssal dagger	Stab Sword	4	13599	Tormented Demon	152	154	71	-59	-67	146	0	0.0	5.28448	0	0	0	0	0	0	0	0		0	0		-1	0	0	600	118;118;99;99	0	0	Shielded+Shielded (Defenceless)	0	
+abyssal-dagger	melee	13265	Abyssal dagger	Stab Sword	4	13600	Tormented Demon	152	154	71	-59	-67	146	0	0.0	5.28448	0	0	0	0	0	0	0	0		0	0		-1	0	0	600	118;118;99;99	0	0	Shielded+Shielded (Defenceless)	0	
+abyssal-dagger	melee	13265	Abyssal dagger	Stab Sword	4	13601	Tormented Demon	152	154	71	-59	-67	146	0	0.0	5.28448	0	0	0	0	0	0	0	0		0	0		-1	0	0	600	118;118;99;99	0	0	Shielded+Shielded (Defenceless)	0	
+abyssal-dagger	melee	13265	Abyssal dagger	Stab Sword	4	13602	Tormented Demon	152	154	71	-59	-67	146	0	0.0	5.28448	0	0	0	0	0	0	0	0		0	0		-1	0	0	600	118;118;99;99	0	0	Shielded+Shielded (Defenceless)	0	
+tbow	ranged	20997	Twisted bow	Bow	6	13599	Tormented Demon	-8	-8	-8	-19	215	0	100	0.0	5.28718	0	0	0	0	0	0	0	0		0	0		-1	0	0	600	99;99;112;99	0	0	Shielded+Shielded (Defenceless)	0	Dragon arrow
+tbow	ranged	20997	Twisted bow	Bow	6	13600	Tormented Demon	-8	-8	-8	-19	215	0	100	0.0	5.28718	0	0	0	0	0	0	0	0		0	0		-1	0	0	600	99;99;112;99	0	0	Shielded+Shielded (Defenceless)	0	Dragon arrow
+tbow	ranged	20997	Twisted bow	Bow	6	13601	Tormented Demon	-8	-8	-8	-19	215	0	100	0.0	5.28718	0	0	0	0	0	0	0	0		0	0		-1	0	0	600	99;99;112;99	0	0	Shielded+Shielded (Defenceless)	0	Dragon arrow
+tbow	ranged	20997	Twisted bow	Bow	6	13602	Tormented Demon	-8	-8	-8	-19	215	0	100	0.0	5.28718	0	0	0	0	0	0	0	0		0	0		-1	0	0	600	99;99;112;99	0	0	Shielded+Shielded (Defenceless)	0	Dragon arrow
+scorching	ranged	29591	Scorching bow	Bow	5	13599	Tormented Demon	-8	-8	-8	-19	269	0	120	0.0	5.81980	0	0	0	0	0	0	0	0		0	0		-1	0	0	600	99;99;112;99	0	0	Shielded+Shielded (Defenceless)	0	Dragon arrow
+scorching	ranged	29591	Scorching bow	Bow	5	13600	Tormented Demon	-8	-8	-8	-19	269	0	120	0.0	5.81980	0	0	0	0	0	0	0	0		0	0		-1	0	0	600	99;99;112;99	0	0	Shielded+Shielded (Defenceless)	0	Dragon arrow
+scorching	ranged	29591	Scorching bow	Bow	5	13601	Tormented Demon	-8	-8	-8	-19	269	0	120	0.0	5.81980	0	0	0	0	0	0	0	0		0	0		-1	0	0	600	99;99;112;99	0	0	Shielded+Shielded (Defenceless)	0	Dragon arrow
+scorching	ranged	29591	Scorching bow	Bow	5	13602	Tormented Demon	-8	-8	-8	-19	269	0	120	0.0	5.81980	0	0	0	0	0	0	0	0		0	0		-1	0	0	600	99;99;112;99	0	0	Shielded+Shielded (Defenceless)	0	Dragon arrow
+blowpipe	ranged	12926	Toxic blowpipe	Thrown	3	13599	Tormented Demon	-8	-8	-8	-19	175	0	75	0.0	4.59012	0	0	0	0	0	0	0	0		0	0		-1	0	0	600	99;99;112;99	0	0	Shielded+Shielded (Defenceless)	0	
+blowpipe	ranged	12926	Toxic blowpipe	Thrown	3	13600	Tormented Demon	-8	-8	-8	-19	175	0	75	0.0	4.59012	0	0	0	0	0	0	0	0		0	0		-1	0	0	600	99;99;112;99	0	0	Shielded+Shielded (Defenceless)	0	
+blowpipe	ranged	12926	Toxic blowpipe	Thrown	3	13601	Tormented Demon	-8	-8	-8	-19	175	0	75	0.0	4.59012	0	0	0	0	0	0	0	0		0	0		-1	0	0	600	99;99;112;99	0	0	Shielded+Shielded (Defenceless)	0	
+blowpipe	ranged	12926	Toxic blowpipe	Thrown	3	13602	Tormented Demon	-8	-8	-8	-19	175	0	75	0.0	4.59012	0	0	0	0	0	0	0	0		0	0		-1	0	0	600	99;99;112;99	0	0	Shielded+Shielded (Defenceless)	0	
+zcb-ruby	ranged	26374	Zaryte crossbow	Crossbow	6	13599	Tormented Demon	-15	-16	-15	-29	273	0	152	0.0	4.29585	0	0	0	0	0	0	0	0		0	0		-1	0	0	600	99;99;112;99	0	1	Shielded+Shielded (Defenceless)	0	Ruby dragon bolts (e)
+zcb-ruby	ranged	26374	Zaryte crossbow	Crossbow	6	13600	Tormented Demon	-15	-16	-15	-29	273	0	152	0.0	4.29585	0	0	0	0	0	0	0	0		0	0		-1	0	0	600	99;99;112;99	0	1	Shielded+Shielded (Defenceless)	0	Ruby dragon bolts (e)
+zcb-ruby	ranged	26374	Zaryte crossbow	Crossbow	6	13601	Tormented Demon	-15	-16	-15	-29	273	0	152	0.0	4.29585	0	0	0	0	0	0	0	0		0	0		-1	0	0	600	99;99;112;99	0	1	Shielded+Shielded (Defenceless)	0	Ruby dragon bolts (e)
+zcb-ruby	ranged	26374	Zaryte crossbow	Crossbow	6	13602	Tormented Demon	-15	-16	-15	-29	273	0	152	0.0	4.29585	0	0	0	0	0	0	0	0		0	0		-1	0	0	600	99;99;112;99	0	1	Shielded+Shielded (Defenceless)	0	Ruby dragon bolts (e)
+zcb-diamond	ranged	26374	Zaryte crossbow	Crossbow	6	13599	Tormented Demon	-15	-16	-15	-29	273	0	152	0.0	3.51531	0	0	0	0	0	0	0	0		0	0		-1	0	0	600	99;99;112;99	0	2	Shielded+Shielded (Defenceless)	0	Diamond dragon bolts (e)
+zcb-diamond	ranged	26374	Zaryte crossbow	Crossbow	6	13600	Tormented Demon	-15	-16	-15	-29	273	0	152	0.0	3.51531	0	0	0	0	0	0	0	0		0	0		-1	0	0	600	99;99;112;99	0	2	Shielded+Shielded (Defenceless)	0	Diamond dragon bolts (e)
+zcb-diamond	ranged	26374	Zaryte crossbow	Crossbow	6	13601	Tormented Demon	-15	-16	-15	-29	273	0	152	0.0	3.51531	0	0	0	0	0	0	0	0		0	0		-1	0	0	600	99;99;112;99	0	2	Shielded+Shielded (Defenceless)	0	Diamond dragon bolts (e)
+zcb-diamond	ranged	26374	Zaryte crossbow	Crossbow	6	13602	Tormented Demon	-15	-16	-15	-29	273	0	152	0.0	3.51531	0	0	0	0	0	0	0	0		0	0		-1	0	0	600	99;99;112;99	0	2	Shielded+Shielded (Defenceless)	0	Diamond dragon bolts (e)
+shadow	magic	27275	Tumeken's shadow	Powered Staff	5	13599	Tormented Demon	0	0	0	164	-17	0	0	24.0	4.92356	0	0	0	0	0	0	0	0		0	0		-1	0	0	600	99;99;99;112	0	0	Shielded+Shielded (Defenceless)	0	
+shadow	magic	27275	Tumeken's shadow	Powered Staff	5	13600	Tormented Demon	0	0	0	164	-17	0	0	24.0	4.92356	0	0	0	0	0	0	0	0		0	0		-1	0	0	600	99;99;99;112	0	0	Shielded+Shielded (Defenceless)	0	
+shadow	magic	27275	Tumeken's shadow	Powered Staff	5	13601	Tormented Demon	0	0	0	164	-17	0	0	24.0	4.92356	0	0	0	0	0	0	0	0		0	0		-1	0	0	600	99;99;99;112	0	0	Shielded+Shielded (Defenceless)	0	
+shadow	magic	27275	Tumeken's shadow	Powered Staff	5	13602	Tormented Demon	0	0	0	164	-17	0	0	24.0	4.92356	0	0	0	0	0	0	0	0		0	0		-1	0	0	600	99;99;99;112	0	0	Shielded+Shielded (Defenceless)	0	
+sang	magic	22323	Sanguinesti staff	Powered Staff	4	13599	Tormented Demon	0	0	0	154	-21	0	0	24.0	4.24630	0	0	0	0	0	0	0	0		0	0		-1	0	0	600	99;99;99;112	0	0	Shielded+Shielded (Defenceless)	0	
+sang	magic	22323	Sanguinesti staff	Powered Staff	4	13600	Tormented Demon	0	0	0	154	-21	0	0	24.0	4.24630	0	0	0	0	0	0	0	0		0	0		-1	0	0	600	99;99;99;112	0	0	Shielded+Shielded (Defenceless)	0	
+sang	magic	22323	Sanguinesti staff	Powered Staff	4	13601	Tormented Demon	0	0	0	154	-21	0	0	24.0	4.24630	0	0	0	0	0	0	0	0		0	0		-1	0	0	600	99;99;99;112	0	0	Shielded+Shielded (Defenceless)	0	
+sang	magic	22323	Sanguinesti staff	Powered Staff	4	13602	Tormented Demon	0	0	0	154	-21	0	0	24.0	4.24630	0	0	0	0	0	0	0	0		0	0		-1	0	0	600	99;99;99;112	0	0	Shielded+Shielded (Defenceless)	0	
+kodai-water-surge	magic	21006	Kodai wand	Staff	4	13599	Tormented Demon	0	0	0	157	-17	0	0	39.0	2.86805	0	0	0	0	0	0	0	49		0	0		-1	0	0	600	99;99;99;112	0	0	Shielded+Shielded (Defenceless)	0	
+kodai-water-surge	magic	21006	Kodai wand	Staff	4	13600	Tormented Demon	0	0	0	157	-17	0	0	39.0	2.86805	0	0	0	0	0	0	0	49		0	0		-1	0	0	600	99;99;99;112	0	0	Shielded+Shielded (Defenceless)	0	
+kodai-water-surge	magic	21006	Kodai wand	Staff	4	13601	Tormented Demon	0	0	0	157	-17	0	0	39.0	2.86805	0	0	0	0	0	0	0	49		0	0		-1	0	0	600	99;99;99;112	0	0	Shielded+Shielded (Defenceless)	0	
+kodai-water-surge	magic	21006	Kodai wand	Staff	4	13602	Tormented Demon	0	0	0	157	-17	0	0	39.0	2.86805	0	0	0	0	0	0	0	49		0	0		-1	0	0	600	99;99;99;112	0	0	Shielded+Shielded (Defenceless)	0	
+noxious-halberd	melee	29796	Noxious halberd	Polearm	5	13675	Acidic Araxyte	127	217	47	-55	-63	205	0	0.0	13.20000	0	0	0	0	0	0	0	0		0	0		-1	0	0	58	118;118;99;99	0	0		0	
+noxious-halberd	melee	29796	Noxious halberd	Polearm	5	13671	Mirrorback Araxyte	127	217	47	-55	-63	205	0	0.0	13.20000	0	0	0	0	0	0	0	0		0	0		-1	0	0	58	118;118;99;99	0	0		0	
+inquisitors-mace	melee	24417	Inquisitor's mace	Spiked	4	13675	Acidic Araxyte	129	72	215	-55	-48	167	0	0.0	14.25000	0	0	0	0	0	0	0	0		0	0		-1	0	0	58	118;118;99;99	5	0		0	
+inquisitors-mace	melee	24417	Inquisitor's mace	Spiked	4	13671	Mirrorback Araxyte	129	72	215	-55	-48	167	0	0.0	14.25000	0	0	0	0	0	0	0	0		0	0		-1	0	0	58	118;118;99;99	5	0		0	
+elder-maul	melee	21003	Elder maul	Blunt	6	13675	Acidic Araxyte	47	85	182	-55	-63	210	0	0.0	11.16667	0	0	0	0	0	0	0	0		0	0		-1	0	0	58	118;118;99;99	0	0		0	
+elder-maul	melee	21003	Elder maul	Blunt	6	13671	Mirrorback Araxyte	47	85	182	-55	-63	210	0	0.0	11.16667	0	0	0	0	0	0	0	0		0	0		-1	0	0	58	118;118;99;99	0	0		0	
+scythe	melee	22325	Scythe of Vitur	Scythe	5	13675	Acidic Araxyte	117	210	77	-61	-63	138	0	0.0	6.84160	0	0	0	0	0	0	0	0		0	0		-1	0	0	58	118;118;99;99	0	0		0	
+scythe	melee	22325	Scythe of Vitur	Scythe	5	13671	Mirrorback Araxyte	117	210	77	-61	-63	138	0	0.0	6.84160	0	0	0	0	0	0	0	0		0	0		-1	0	0	58	118;118;99;99	0	0		0	
+fang	melee	26219	Osmumten's fang	Stab Sword	5	13675	Acidic Araxyte	182	189	75	-60	-67	174	0	0.0	5.76030	0	0	0	0	0	0	0	0		0	0		-1	0	0	58	118;118;99;99	0	0		0	
+fang	melee	26219	Osmumten's fang	Stab Sword	5	13671	Mirrorback Araxyte	182	189	75	-60	-67	174	0	0.0	5.76030	0	0	0	0	0	0	0	0		0	0		-1	0	0	58	118;118;99;99	0	0		0	
+rapier	melee	22324	Ghrazi rapier	Stab Sword	4	13675	Acidic Araxyte	177	169	75	-60	-67	164	0	0.0	6.49208	0	0	0	0	0	0	0	0		0	0		-1	0	0	58	118;118;99;99	0	0		0	
+rapier	melee	22324	Ghrazi rapier	Stab Sword	4	13671	Mirrorback Araxyte	177	169	75	-60	-67	164	0	0.0	6.49208	0	0	0	0	0	0	0	0		0	0		-1	0	0	58	118;118;99;99	0	0		0	
+emberlight	melee	29589	Emberlight	Slash Sword	4	13675	Acidic Araxyte	140	184	75	-60	-67	84	0	0.0	4.18643	0	0	0	0	0	0	0	0		0	0		-1	0	0	58	118;118;99;99	0	0		0	
+emberlight	melee	29589	Emberlight	Slash Sword	4	13671	Mirrorback Araxyte	140	184	75	-60	-67	84	0	0.0	4.18643	0	0	0	0	0	0	0	0		0	0		-1	0	0	58	118;118;99;99	0	0		0	
+tbow	ranged	20997	Twisted bow	Bow	6	13675	Acidic Araxyte	-8	-8	-8	-19	215	0	100	0.0	1.59345	0	0	0	0	0	0	0	0		0	0		-1	0	0	58	99;99;112;99	0	0		0	Dragon arrow
+tbow	ranged	20997	Twisted bow	Bow	6	13671	Mirrorback Araxyte	-8	-8	-8	-19	215	0	100	0.0	1.59345	0	0	0	0	0	0	0	0		0	0		-1	0	0	58	99;99;112;99	0	0		0	Dragon arrow
+blowpipe	ranged	12926	Toxic blowpipe	Thrown	3	13675	Acidic Araxyte	-8	-8	-8	-19	175	0	75	0.0	7.16465	0	0	0	0	0	0	0	0		0	0		-1	0	0	58	99;99;112;99	0	0		0	
+blowpipe	ranged	12926	Toxic blowpipe	Thrown	3	13671	Mirrorback Araxyte	-8	-8	-8	-19	175	0	75	0.0	7.16465	0	0	0	0	0	0	0	0		0	0		-1	0	0	58	99;99;112;99	0	0		0	
+zcb-runite	ranged	26374	Zaryte crossbow	Crossbow	6	13675	Acidic Araxyte	-15	-16	-15	-29	273	0	145	0.0	9.40000	0	0	0	0	0	0	0	0		0	0		-1	0	0	58	99;99;112;99	0	0		0	Runite bolts
+zcb-runite	ranged	26374	Zaryte crossbow	Crossbow	6	13671	Mirrorback Araxyte	-15	-16	-15	-29	273	0	145	0.0	9.40000	0	0	0	0	0	0	0	0		0	0		-1	0	0	58	99;99;112;99	0	0		0	Runite bolts
+zcb-ruby	ranged	26374	Zaryte crossbow	Crossbow	6	13675	Acidic Araxyte	-15	-16	-15	-29	273	0	152	0.0	9.80000	0	0	0	0	0	0	0	0		0	0		-1	0	0	58	99;99;112;99	0	1		0	Ruby dragon bolts (e)
+zcb-ruby	ranged	26374	Zaryte crossbow	Crossbow	6	13671	Mirrorback Araxyte	-15	-16	-15	-29	273	0	152	0.0	9.80000	0	0	0	0	0	0	0	0		0	0		-1	0	0	58	99;99;112;99	0	1		0	Ruby dragon bolts (e)
+zcb-in-melee-armour	ranged	26374	Zaryte crossbow	Crossbow	6	13675	Acidic Araxyte	40	77	40	-65	65	63	125	0.0	3.68738	0	0	0	0	0	0	0	0		0	0		-1	0	0	58	99;99;112;99	0	0		0	Runite bolts
+zcb-in-melee-armour	ranged	26374	Zaryte crossbow	Crossbow	6	13671	Mirrorback Araxyte	40	77	40	-65	65	63	125	0.0	3.68738	0	0	0	0	0	0	0	0		0	0		-1	0	0	58	99;99;112;99	0	0		0	Runite bolts
+shadow	magic	27275	Tumeken's shadow	Powered Staff	5	13675	Acidic Araxyte	0	0	0	164	-17	0	0	24.0	6.58167	0	0	0	0	0	0	0	0		0	0		-1	0	0	58	99;99;99;112	0	0		0	
+shadow	magic	27275	Tumeken's shadow	Powered Staff	5	13671	Mirrorback Araxyte	0	0	0	164	-17	0	0	24.0	6.58167	0	0	0	0	0	0	0	0		0	0		-1	0	0	58	99;99;99;112	0	0		0	
+sang	magic	22323	Sanguinesti staff	Powered Staff	4	13675	Acidic Araxyte	0	0	0	154	-21	0	0	24.0	6.22747	0	0	0	0	0	0	0	0		0	0		-1	0	0	58	99;99;99;112	0	0		0	
+sang	magic	22323	Sanguinesti staff	Powered Staff	4	13671	Mirrorback Araxyte	0	0	0	154	-21	0	0	24.0	6.22747	0	0	0	0	0	0	0	0		0	0		-1	0	0	58	99;99;99;112	0	0		0	
+scythe	melee	22325	Scythe of Vitur	Scythe	5	5916	Spawn	117	210	77	-61	-63	138	0	0.0	4.90400	0	0	0	0	0	0	0	0		0	0		-1	0	0	15	118;118;99;99	0	0		0	
+scythe	melee	22325	Scythe of Vitur	Scythe	5	5917	Spawn	117	210	77	-61	-63	138	0	0.0	4.90400	0	0	0	0	0	0	0	0		0	0		-1	0	0	15	118;118;99;99	0	0		0	
+rapier	melee	22324	Ghrazi rapier	Stab Sword	4	5916	Spawn	177	169	75	-60	-67	164	0	0.0	7.00439	0	0	0	0	0	0	0	0		0	0		-1	0	0	15	118;118;99;99	0	0		0	
+rapier	melee	22324	Ghrazi rapier	Stab Sword	4	5917	Spawn	177	169	75	-60	-67	164	0	0.0	7.00439	0	0	0	0	0	0	0	0		0	0		-1	0	0	15	118;118;99;99	0	0		0	
+fang	melee	26219	Osmumten's fang	Stab Sword	5	5916	Spawn	182	189	75	-60	-67	174	0	0.0	5.80000	0	0	0	0	0	0	0	0		0	0		-1	0	0	15	118;118;99;99	0	0		0	
+fang	melee	26219	Osmumten's fang	Stab Sword	5	5917	Spawn	182	189	75	-60	-67	174	0	0.0	5.80000	0	0	0	0	0	0	0	0		0	0		-1	0	0	15	118;118;99;99	0	0		0	
+inquisitors-mace	melee	24417	Inquisitor's mace	Spiked	4	5916	Spawn	129	72	215	-55	-48	167	0	0.0	7.12931	0	0	0	0	0	0	0	0		0	0		-1	0	0	15	118;118;99;99	5	0		0	
+inquisitors-mace	melee	24417	Inquisitor's mace	Spiked	4	5917	Spawn	129	72	215	-55	-48	167	0	0.0	7.12931	0	0	0	0	0	0	0	0		0	0		-1	0	0	15	118;118;99;99	5	0		0	
+emberlight	melee	29589	Emberlight	Slash Sword	4	5916	Spawn	140	184	75	-60	-67	84	0	0.0	4.50676	0	0	0	0	0	0	0	0		0	0		-1	0	0	15	118;118;99;99	0	0		0	
+emberlight	melee	29589	Emberlight	Slash Sword	4	5917	Spawn	140	184	75	-60	-67	84	0	0.0	4.50676	0	0	0	0	0	0	0	0		0	0		-1	0	0	15	118;118;99;99	0	0		0	
+tbow	ranged	20997	Twisted bow	Bow	6	5916	Spawn	-8	-8	-8	-19	215	0	100	0.0	1.91000	0	0	0	0	0	0	0	0		0	0		-1	0	0	15	99;99;112;99	0	0		0	Dragon arrow
+tbow	ranged	20997	Twisted bow	Bow	6	5917	Spawn	-8	-8	-8	-19	215	0	100	0.0	1.91000	0	0	0	0	0	0	0	0		0	0		-1	0	0	15	99;99;112;99	0	0		0	Dragon arrow
+blowpipe	ranged	12926	Toxic blowpipe	Thrown	3	5916	Spawn	-8	-8	-8	-19	175	0	75	0.0	7.76562	0	0	0	0	0	0	0	0		0	0		-1	0	0	15	99;99;112;99	0	0		0	
+blowpipe	ranged	12926	Toxic blowpipe	Thrown	3	5917	Spawn	-8	-8	-8	-19	175	0	75	0.0	7.76562	0	0	0	0	0	0	0	0		0	0		-1	0	0	15	99;99;112;99	0	0		0	
+zcb-runite	ranged	26374	Zaryte crossbow	Crossbow	6	5916	Spawn	-15	-16	-15	-29	273	0	145	0.0	4.70417	0	0	0	0	0	0	0	0		0	0		-1	0	0	15	99;99;112;99	0	0		0	Runite bolts
+zcb-runite	ranged	26374	Zaryte crossbow	Crossbow	6	5917	Spawn	-15	-16	-15	-29	273	0	145	0.0	4.70417	0	0	0	0	0	0	0	0		0	0		-1	0	0	15	99;99;112;99	0	0		0	Runite bolts
+shadow	magic	27275	Tumeken's shadow	Powered Staff	5	5916	Spawn	0	0	0	164	-17	0	0	24.0	6.60299	0	0	0	0	0	0	0	0		0	0		-1	0	0	15	99;99;99;112	0	0		0	
+shadow	magic	27275	Tumeken's shadow	Powered Staff	5	5917	Spawn	0	0	0	164	-17	0	0	24.0	6.60299	0	0	0	0	0	0	0	0		0	0		-1	0	0	15	99;99;99;112	0	0		0	
+sang	magic	22323	Sanguinesti staff	Powered Staff	4	5916	Spawn	0	0	0	154	-21	0	0	24.0	6.27917	0	0	0	0	0	0	0	0		0	0		-1	0	0	15	99;99;99;112	0	0		0	
+sang	magic	22323	Sanguinesti staff	Powered Staff	4	5917	Spawn	0	0	0	154	-21	0	0	24.0	6.27917	0	0	0	0	0	0	0	0		0	0		-1	0	0	15	99;99;99;112	0	0		0	
+scythe	melee	22325	Scythe of Vitur	Scythe	5	7223	Giant rat (Scurrius)	117	210	77	-61	-63	138	0	0.0	3.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	15	118;118;99;99	0	0		0	
+scythe	melee	22325	Scythe of Vitur	Scythe	5	8584	Flower	117	210	77	-61	-63	138	0	0.0	2.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	10	118;118;99;99	0	0		0	
+scythe	melee	22325	Scythe of Vitur	Scythe	5	11193	Flower (A Night at the Theatre)	117	210	77	-61	-63	138	0	0.0	2.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	10	118;118;99;99	0	0		0	
+rapier	melee	22324	Ghrazi rapier	Stab Sword	4	7223	Giant rat (Scurrius)	177	169	75	-60	-67	164	0	0.0	3.75000	0	0	0	0	0	0	0	0		0	0		-1	0	0	15	118;118;99;99	0	0		0	
+rapier	melee	22324	Ghrazi rapier	Stab Sword	4	8584	Flower	177	169	75	-60	-67	164	0	0.0	2.50000	0	0	0	0	0	0	0	0		0	0		-1	0	0	10	118;118;99;99	0	0		0	
+rapier	melee	22324	Ghrazi rapier	Stab Sword	4	11193	Flower (A Night at the Theatre)	177	169	75	-60	-67	164	0	0.0	2.50000	0	0	0	0	0	0	0	0		0	0		-1	0	0	10	118;118;99;99	0	0		0	
+fang	melee	26219	Osmumten's fang	Stab Sword	5	7223	Giant rat (Scurrius)	182	189	75	-60	-67	174	0	0.0	3.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	15	118;118;99;99	0	0		0	
+fang	melee	26219	Osmumten's fang	Stab Sword	5	8584	Flower	182	189	75	-60	-67	174	0	0.0	2.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	10	118;118;99;99	0	0		0	
+fang	melee	26219	Osmumten's fang	Stab Sword	5	11193	Flower (A Night at the Theatre)	182	189	75	-60	-67	174	0	0.0	2.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	10	118;118;99;99	0	0		0	
+inquisitors-mace	melee	24417	Inquisitor's mace	Spiked	4	7223	Giant rat (Scurrius)	129	72	215	-55	-48	167	0	0.0	3.75000	0	0	0	0	0	0	0	0		0	0		-1	0	0	15	118;118;99;99	5	0		0	
+inquisitors-mace	melee	24417	Inquisitor's mace	Spiked	4	8584	Flower	129	72	215	-55	-48	167	0	0.0	2.50000	0	0	0	0	0	0	0	0		0	0		-1	0	0	10	118;118;99;99	5	0		0	
+inquisitors-mace	melee	24417	Inquisitor's mace	Spiked	4	11193	Flower (A Night at the Theatre)	129	72	215	-55	-48	167	0	0.0	2.50000	0	0	0	0	0	0	0	0		0	0		-1	0	0	10	118;118;99;99	5	0		0	
+tbow	ranged	20997	Twisted bow	Bow	6	7223	Giant rat (Scurrius)	-8	-8	-8	-19	215	0	100	0.0	3.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	15	99;99;112;99	0	0		0	Dragon arrow
+tbow	ranged	20997	Twisted bow	Bow	6	8584	Flower	-8	-8	-8	-19	215	0	100	0.0	2.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	10	99;99;112;99	0	0		0	Dragon arrow
+tbow	ranged	20997	Twisted bow	Bow	6	11193	Flower (A Night at the Theatre)	-8	-8	-8	-19	215	0	100	0.0	2.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	10	99;99;112;99	0	0		0	Dragon arrow
+blowpipe	ranged	12926	Toxic blowpipe	Thrown	3	7223	Giant rat (Scurrius)	-8	-8	-8	-19	175	0	75	0.0	7.50000	0	0	0	0	0	0	0	0		0	0		-1	0	0	15	99;99;112;99	0	0		0	
+blowpipe	ranged	12926	Toxic blowpipe	Thrown	3	8584	Flower	-8	-8	-8	-19	175	0	75	0.0	5.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	10	99;99;112;99	0	0		0	
+blowpipe	ranged	12926	Toxic blowpipe	Thrown	3	11193	Flower (A Night at the Theatre)	-8	-8	-8	-19	175	0	75	0.0	5.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	10	99;99;112;99	0	0		0	
+zcb-runite	ranged	26374	Zaryte crossbow	Crossbow	6	7223	Giant rat (Scurrius)	-15	-16	-15	-29	273	0	145	0.0	3.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	15	99;99;112;99	0	0		0	Runite bolts
+zcb-runite	ranged	26374	Zaryte crossbow	Crossbow	6	8584	Flower	-15	-16	-15	-29	273	0	145	0.0	2.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	10	99;99;112;99	0	0		0	Runite bolts
+zcb-runite	ranged	26374	Zaryte crossbow	Crossbow	6	11193	Flower (A Night at the Theatre)	-15	-16	-15	-29	273	0	145	0.0	2.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	10	99;99;112;99	0	0		0	Runite bolts
+zcb-ruby	ranged	26374	Zaryte crossbow	Crossbow	6	7223	Giant rat (Scurrius)	-15	-16	-15	-29	273	0	152	0.0	3.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	15	99;99;112;99	0	1		0	Ruby dragon bolts (e)
+zcb-ruby	ranged	26374	Zaryte crossbow	Crossbow	6	8584	Flower	-15	-16	-15	-29	273	0	152	0.0	2.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	10	99;99;112;99	0	1		0	Ruby dragon bolts (e)
+zcb-ruby	ranged	26374	Zaryte crossbow	Crossbow	6	11193	Flower (A Night at the Theatre)	-15	-16	-15	-29	273	0	152	0.0	2.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	10	99;99;112;99	0	1		0	Ruby dragon bolts (e)
+shadow	magic	27275	Tumeken's shadow	Powered Staff	5	7223	Giant rat (Scurrius)	0	0	0	164	-17	0	0	24.0	3.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	15	99;99;99;112	0	0		0	
+shadow	magic	27275	Tumeken's shadow	Powered Staff	5	8584	Flower	0	0	0	164	-17	0	0	24.0	2.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	10	99;99;99;112	0	0		0	
+shadow	magic	27275	Tumeken's shadow	Powered Staff	5	11193	Flower (A Night at the Theatre)	0	0	0	164	-17	0	0	24.0	2.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	10	99;99;99;112	0	0		0	
+sang	magic	22323	Sanguinesti staff	Powered Staff	4	7223	Giant rat (Scurrius)	0	0	0	154	-21	0	0	24.0	3.75000	0	0	0	0	0	0	0	0		0	0		-1	0	0	15	99;99;99;112	0	0		0	
+sang	magic	22323	Sanguinesti staff	Powered Staff	4	8584	Flower	0	0	0	154	-21	0	0	24.0	2.50000	0	0	0	0	0	0	0	0		0	0		-1	0	0	10	99;99;99;112	0	0		0	
+sang	magic	22323	Sanguinesti staff	Powered Staff	4	11193	Flower (A Night at the Theatre)	0	0	0	154	-21	0	0	24.0	2.50000	0	0	0	0	0	0	0	0		0	0		-1	0	0	10	99;99;99;112	0	0		0	

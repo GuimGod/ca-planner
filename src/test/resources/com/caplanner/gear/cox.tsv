@@ -1,0 +1,2381 @@
+# npc id	name	version	party size	challenge mode (1)	highest combat	highest hitpoints	sum of mining	attack	strength	defence	magic	ranged	hitpoints (the calculator's scaled levels)
+7533	Abyssal portal	Normal	1	0	126	99	99	1	1	176	176	1	250
+7533	Abyssal portal	Normal	1	1	126	99	99	1	1	264	264	1	375
+7533	Abyssal portal	Normal	2	0	126	99	198	1	1	177	177	1	500
+7533	Abyssal portal	Normal	2	1	126	99	198	1	1	265	265	1	750
+7533	Abyssal portal	Normal	3	0	126	99	297	1	1	179	179	1	500
+7533	Abyssal portal	Normal	3	1	126	99	297	1	1	268	268	1	750
+7533	Abyssal portal	Normal	4	0	126	99	396	1	1	181	181	1	750
+7533	Abyssal portal	Normal	4	1	126	99	396	1	1	271	271	1	1125
+7533	Abyssal portal	Normal	5	0	126	99	495	1	1	183	183	1	750
+7533	Abyssal portal	Normal	5	1	126	99	495	1	1	274	274	1	1125
+7533	Abyssal portal	Normal	7	0	126	99	693	1	1	186	186	1	1000
+7533	Abyssal portal	Normal	7	1	126	99	693	1	1	279	279	1	1500
+7533	Abyssal portal	Normal	8	0	126	99	792	1	1	186	186	1	1250
+7533	Abyssal portal	Normal	8	1	126	99	792	1	1	279	279	1	1875
+7533	Abyssal portal	Normal	9	0	126	99	891	1	1	188	188	1	1250
+7533	Abyssal portal	Normal	9	1	126	99	891	1	1	282	282	1	1875
+7533	Abyssal portal	Normal	12	0	126	99	1188	1	1	193	193	1	1750
+7533	Abyssal portal	Normal	12	1	126	99	1188	1	1	289	289	1	2625
+7533	Abyssal portal	Normal	15	0	126	99	1485	1	1	197	197	1	2000
+7533	Abyssal portal	Normal	15	1	126	99	1485	1	1	295	295	1	3000
+7533	Abyssal portal	Normal	16	0	126	99	1584	1	1	198	198	1	2250
+7533	Abyssal portal	Normal	16	1	126	99	1584	1	1	297	297	1	3375
+7533	Abyssal portal	Normal	23	0	126	99	2277	1	1	209	209	1	3000
+7533	Abyssal portal	Normal	23	1	126	99	2277	1	1	313	313	1	4500
+7533	Abyssal portal	Normal	24	0	126	99	2376	1	1	211	211	1	3250
+7533	Abyssal portal	Normal	24	1	126	99	2376	1	1	316	316	1	4875
+7533	Abyssal portal	Normal	32	0	126	99	3168	1	1	221	221	1	4250
+7533	Abyssal portal	Normal	32	1	126	99	3168	1	1	331	331	1	6375
+7533	Abyssal portal	Normal	49	0	126	99	4851	1	1	244	244	1	6250
+7533	Abyssal portal	Normal	49	1	126	99	4851	1	1	366	366	1	9375
+7533	Abyssal portal	Normal	50	0	126	99	4950	1	1	248	248	1	6500
+7533	Abyssal portal	Normal	50	1	126	99	4950	1	1	372	372	1	9750
+7533	Abyssal portal	Normal	51	0	126	99	5049	1	1	249	249	1	6500
+7533	Abyssal portal	Normal	51	1	126	99	5049	1	1	373	373	1	9750
+7533	Abyssal portal	Normal	64	0	126	99	6336	1	1	265	265	1	8250
+7533	Abyssal portal	Normal	64	1	126	99	6336	1	1	397	397	1	12375
+7533	Abyssal portal	Normal	100	0	126	99	9900	1	1	313	313	1	12750
+7533	Abyssal portal	Normal	100	1	126	99	9900	1	1	469	469	1	19125
+7533	Abyssal portal	Normal	1	0	100	99	99	1	1	176	176	1	198
+7533	Abyssal portal	Normal	1	0	60	99	99	1	1	176	176	1	119
+7533	Abyssal portal	Normal	1	0	126	70	99	1	1	152	152	1	250
+7533	Abyssal portal	Normal	1	0	90	55	99	1	1	140	140	1	178
+7533	Abyssal portal	Normal	1	0	126	1	99	1	1	97	97	1	250
+7533	Abyssal portal	Normal	1	1	100	99	99	1	1	264	264	1	297
+7533	Abyssal portal	Normal	1	1	60	99	99	1	1	264	264	1	178
+7533	Abyssal portal	Normal	1	1	126	70	99	1	1	228	228	1	375
+7533	Abyssal portal	Normal	1	1	90	55	99	1	1	210	210	1	267
+7533	Abyssal portal	Normal	1	1	126	1	99	1	1	145	145	1	375
+7533	Abyssal portal	Normal	3	0	100	99	297	1	1	179	179	1	396
+7533	Abyssal portal	Normal	3	0	60	99	297	1	1	179	179	1	238
+7533	Abyssal portal	Normal	3	0	126	70	297	1	1	155	155	1	500
+7533	Abyssal portal	Normal	3	0	90	55	297	1	1	142	142	1	356
+7533	Abyssal portal	Normal	3	0	126	1	297	1	1	98	98	1	500
+7533	Abyssal portal	Normal	3	1	100	99	297	1	1	268	268	1	594
+7533	Abyssal portal	Normal	3	1	60	99	297	1	1	268	268	1	357
+7533	Abyssal portal	Normal	3	1	126	70	297	1	1	232	232	1	750
+7533	Abyssal portal	Normal	3	1	90	55	297	1	1	213	213	1	534
+7533	Abyssal portal	Normal	3	1	126	1	297	1	1	147	147	1	750
+7533	Abyssal portal	Normal	24	0	100	99	2376	1	1	211	211	1	2574
+7533	Abyssal portal	Normal	24	0	60	99	2376	1	1	211	211	1	1547
+7533	Abyssal portal	Normal	24	0	126	70	2376	1	1	182	182	1	3250
+7533	Abyssal portal	Normal	24	0	90	55	2376	1	1	168	168	1	2314
+7533	Abyssal portal	Normal	24	0	126	1	2376	1	1	116	116	1	3250
+7533	Abyssal portal	Normal	24	1	100	99	2376	1	1	316	316	1	3861
+7533	Abyssal portal	Normal	24	1	60	99	2376	1	1	316	316	1	2320
+7533	Abyssal portal	Normal	24	1	126	70	2376	1	1	273	273	1	4875
+7533	Abyssal portal	Normal	24	1	90	55	2376	1	1	252	252	1	3471
+7533	Abyssal portal	Normal	24	1	126	1	2376	1	1	174	174	1	4875
+7560	Deathly mage	Normal	1	0	126	99	99	1	1	155	210	1	120
+7560	Deathly mage	Normal	1	1	126	99	99	1	1	232	315	1	180
+7560	Deathly mage	Normal	2	0	126	99	198	1	1	156	226	1	240
+7560	Deathly mage	Normal	2	1	126	99	198	1	1	234	339	1	360
+7560	Deathly mage	Normal	3	0	126	99	297	1	1	158	228	1	240
+7560	Deathly mage	Normal	3	1	126	99	297	1	1	237	342	1	360
+7560	Deathly mage	Normal	4	0	126	99	396	1	1	159	231	1	360
+7560	Deathly mage	Normal	4	1	126	99	396	1	1	238	346	1	540
+7560	Deathly mage	Normal	5	0	126	99	495	1	1	161	247	1	360
+7560	Deathly mage	Normal	5	1	126	99	495	1	1	241	370	1	540
+7560	Deathly mage	Normal	7	0	126	99	693	1	1	164	252	1	480
+7560	Deathly mage	Normal	7	1	126	99	693	1	1	246	378	1	720
+7560	Deathly mage	Normal	8	0	126	99	792	1	1	164	254	1	600
+7560	Deathly mage	Normal	8	1	126	99	792	1	1	246	381	1	900
+7560	Deathly mage	Normal	9	0	126	99	891	1	1	165	256	1	600
+7560	Deathly mage	Normal	9	1	126	99	891	1	1	247	384	1	900
+7560	Deathly mage	Normal	12	0	126	99	1188	1	1	170	277	1	840
+7560	Deathly mage	Normal	12	1	126	99	1188	1	1	255	415	1	1260
+7560	Deathly mage	Normal	15	0	126	99	1485	1	1	173	283	1	960
+7560	Deathly mage	Normal	15	1	126	99	1485	1	1	259	424	1	1440
+7560	Deathly mage	Normal	16	0	126	99	1584	1	1	175	285	1	1080
+7560	Deathly mage	Normal	16	1	126	99	1584	1	1	262	427	1	1620
+7560	Deathly mage	Normal	23	0	126	99	2277	1	1	184	315	1	1440
+7560	Deathly mage	Normal	23	1	126	99	2277	1	1	276	472	1	2160
+7560	Deathly mage	Normal	24	0	126	99	2376	1	1	186	317	1	1560
+7560	Deathly mage	Normal	24	1	126	99	2376	1	1	279	475	1	2340
+7560	Deathly mage	Normal	32	0	126	99	3168	1	1	195	348	1	2040
+7560	Deathly mage	Normal	32	1	126	99	3168	1	1	292	522	1	3060
+7560	Deathly mage	Normal	49	0	126	99	4851	1	1	215	399	1	3000
+7560	Deathly mage	Normal	49	1	126	99	4851	1	1	322	598	1	4500
+7560	Deathly mage	Normal	50	0	126	99	4950	1	1	218	415	1	3120
+7560	Deathly mage	Normal	50	1	126	99	4950	1	1	327	622	1	4680
+7560	Deathly mage	Normal	51	0	126	99	5049	1	1	220	417	1	3120
+7560	Deathly mage	Normal	51	1	126	99	5049	1	1	330	625	1	4680
+7560	Deathly mage	Normal	64	0	126	99	6336	1	1	234	445	1	3960
+7560	Deathly mage	Normal	64	1	126	99	6336	1	1	351	667	1	5940
+7560	Deathly mage	Normal	100	0	126	99	9900	1	1	275	550	1	6120
+7560	Deathly mage	Normal	100	1	126	99	9900	1	1	412	825	1	9180
+7560	Deathly mage	Normal	1	0	100	99	99	1	1	155	210	1	95
+7560	Deathly mage	Normal	1	0	60	99	99	1	1	155	210	1	57
+7560	Deathly mage	Normal	1	0	126	70	99	1	1	134	182	1	120
+7560	Deathly mage	Normal	1	0	90	55	99	1	1	123	167	1	85
+7560	Deathly mage	Normal	1	0	126	1	99	1	1	86	116	1	120
+7560	Deathly mage	Normal	1	1	100	99	99	1	1	232	315	1	142
+7560	Deathly mage	Normal	1	1	60	99	99	1	1	232	315	1	85
+7560	Deathly mage	Normal	1	1	126	70	99	1	1	201	273	1	180
+7560	Deathly mage	Normal	1	1	90	55	99	1	1	184	250	1	127
+7560	Deathly mage	Normal	1	1	126	1	99	1	1	129	174	1	180
+7560	Deathly mage	Normal	3	0	100	99	297	1	1	158	228	1	190
+7560	Deathly mage	Normal	3	0	60	99	297	1	1	158	228	1	114
+7560	Deathly mage	Normal	3	0	126	70	297	1	1	136	198	1	240
+7560	Deathly mage	Normal	3	0	90	55	297	1	1	125	182	1	170
+7560	Deathly mage	Normal	3	0	126	1	297	1	1	87	126	1	240
+7560	Deathly mage	Normal	3	1	100	99	297	1	1	237	342	1	285
+7560	Deathly mage	Normal	3	1	60	99	297	1	1	237	342	1	171
+7560	Deathly mage	Normal	3	1	126	70	297	1	1	204	297	1	360
+7560	Deathly mage	Normal	3	1	90	55	297	1	1	187	273	1	255
+7560	Deathly mage	Normal	3	1	126	1	297	1	1	130	189	1	360
+7560	Deathly mage	Normal	24	0	100	99	2376	1	1	186	317	1	1235
+7560	Deathly mage	Normal	24	0	60	99	2376	1	1	186	317	1	741
+7560	Deathly mage	Normal	24	0	126	70	2376	1	1	160	274	1	1560
+7560	Deathly mage	Normal	24	0	90	55	2376	1	1	147	252	1	1105
+7560	Deathly mage	Normal	24	0	126	1	2376	1	1	103	175	1	1560
+7560	Deathly mage	Normal	24	1	100	99	2376	1	1	279	475	1	1852
+7560	Deathly mage	Normal	24	1	60	99	2376	1	1	279	475	1	1111
+7560	Deathly mage	Normal	24	1	126	70	2376	1	1	240	411	1	2340
+7560	Deathly mage	Normal	24	1	90	55	2376	1	1	220	378	1	1657
+7560	Deathly mage	Normal	24	1	126	1	2376	1	1	154	262	1	2340
+7559	Deathly ranger	Normal	1	0	126	99	99	1	1	155	155	210	120
+7559	Deathly ranger	Normal	1	1	126	99	99	1	1	232	232	315	180
+7559	Deathly ranger	Normal	2	0	126	99	198	1	1	156	156	226	240
+7559	Deathly ranger	Normal	2	1	126	99	198	1	1	234	234	339	360
+7559	Deathly ranger	Normal	3	0	126	99	297	1	1	158	158	228	240
+7559	Deathly ranger	Normal	3	1	126	99	297	1	1	237	237	342	360
+7559	Deathly ranger	Normal	4	0	126	99	396	1	1	159	159	231	360
+7559	Deathly ranger	Normal	4	1	126	99	396	1	1	238	238	346	540
+7559	Deathly ranger	Normal	5	0	126	99	495	1	1	161	161	247	360
+7559	Deathly ranger	Normal	5	1	126	99	495	1	1	241	241	370	540
+7559	Deathly ranger	Normal	7	0	126	99	693	1	1	164	164	252	480
+7559	Deathly ranger	Normal	7	1	126	99	693	1	1	246	246	378	720
+7559	Deathly ranger	Normal	8	0	126	99	792	1	1	164	164	254	600
+7559	Deathly ranger	Normal	8	1	126	99	792	1	1	246	246	381	900
+7559	Deathly ranger	Normal	9	0	126	99	891	1	1	165	165	256	600
+7559	Deathly ranger	Normal	9	1	126	99	891	1	1	247	247	384	900
+7559	Deathly ranger	Normal	12	0	126	99	1188	1	1	170	170	277	840
+7559	Deathly ranger	Normal	12	1	126	99	1188	1	1	255	255	415	1260
+7559	Deathly ranger	Normal	15	0	126	99	1485	1	1	173	173	283	960
+7559	Deathly ranger	Normal	15	1	126	99	1485	1	1	259	259	424	1440
+7559	Deathly ranger	Normal	16	0	126	99	1584	1	1	175	175	285	1080
+7559	Deathly ranger	Normal	16	1	126	99	1584	1	1	262	262	427	1620
+7559	Deathly ranger	Normal	23	0	126	99	2277	1	1	184	184	315	1440
+7559	Deathly ranger	Normal	23	1	126	99	2277	1	1	276	276	472	2160
+7559	Deathly ranger	Normal	24	0	126	99	2376	1	1	186	186	317	1560
+7559	Deathly ranger	Normal	24	1	126	99	2376	1	1	279	279	475	2340
+7559	Deathly ranger	Normal	32	0	126	99	3168	1	1	195	195	348	2040
+7559	Deathly ranger	Normal	32	1	126	99	3168	1	1	292	292	522	3060
+7559	Deathly ranger	Normal	49	0	126	99	4851	1	1	215	215	399	3000
+7559	Deathly ranger	Normal	49	1	126	99	4851	1	1	322	322	598	4500
+7559	Deathly ranger	Normal	50	0	126	99	4950	1	1	218	218	415	3120
+7559	Deathly ranger	Normal	50	1	126	99	4950	1	1	327	327	622	4680
+7559	Deathly ranger	Normal	51	0	126	99	5049	1	1	220	220	417	3120
+7559	Deathly ranger	Normal	51	1	126	99	5049	1	1	330	330	625	4680
+7559	Deathly ranger	Normal	64	0	126	99	6336	1	1	234	234	445	3960
+7559	Deathly ranger	Normal	64	1	126	99	6336	1	1	351	351	667	5940
+7559	Deathly ranger	Normal	100	0	126	99	9900	1	1	275	275	550	6120
+7559	Deathly ranger	Normal	100	1	126	99	9900	1	1	412	412	825	9180
+7559	Deathly ranger	Normal	1	0	100	99	99	1	1	155	155	210	95
+7559	Deathly ranger	Normal	1	0	60	99	99	1	1	155	155	210	57
+7559	Deathly ranger	Normal	1	0	126	70	99	1	1	134	134	182	120
+7559	Deathly ranger	Normal	1	0	90	55	99	1	1	123	123	167	85
+7559	Deathly ranger	Normal	1	0	126	1	99	1	1	86	86	116	120
+7559	Deathly ranger	Normal	1	1	100	99	99	1	1	232	232	315	142
+7559	Deathly ranger	Normal	1	1	60	99	99	1	1	232	232	315	85
+7559	Deathly ranger	Normal	1	1	126	70	99	1	1	201	201	273	180
+7559	Deathly ranger	Normal	1	1	90	55	99	1	1	184	184	250	127
+7559	Deathly ranger	Normal	1	1	126	1	99	1	1	129	129	174	180
+7559	Deathly ranger	Normal	3	0	100	99	297	1	1	158	158	228	190
+7559	Deathly ranger	Normal	3	0	60	99	297	1	1	158	158	228	114
+7559	Deathly ranger	Normal	3	0	126	70	297	1	1	136	136	198	240
+7559	Deathly ranger	Normal	3	0	90	55	297	1	1	125	125	182	170
+7559	Deathly ranger	Normal	3	0	126	1	297	1	1	87	87	126	240
+7559	Deathly ranger	Normal	3	1	100	99	297	1	1	237	237	342	285
+7559	Deathly ranger	Normal	3	1	60	99	297	1	1	237	237	342	171
+7559	Deathly ranger	Normal	3	1	126	70	297	1	1	204	204	297	360
+7559	Deathly ranger	Normal	3	1	90	55	297	1	1	187	187	273	255
+7559	Deathly ranger	Normal	3	1	126	1	297	1	1	130	130	189	360
+7559	Deathly ranger	Normal	24	0	100	99	2376	1	1	186	186	317	1235
+7559	Deathly ranger	Normal	24	0	60	99	2376	1	1	186	186	317	741
+7559	Deathly ranger	Normal	24	0	126	70	2376	1	1	160	160	274	1560
+7559	Deathly ranger	Normal	24	0	90	55	2376	1	1	147	147	252	1105
+7559	Deathly ranger	Normal	24	0	126	1	2376	1	1	103	103	175	1560
+7559	Deathly ranger	Normal	24	1	100	99	2376	1	1	279	279	475	1852
+7559	Deathly ranger	Normal	24	1	60	99	2376	1	1	279	279	475	1111
+7559	Deathly ranger	Normal	24	1	126	70	2376	1	1	240	240	411	2340
+7559	Deathly ranger	Normal	24	1	90	55	2376	1	1	220	220	378	1657
+7559	Deathly ranger	Normal	24	1	126	1	2376	1	1	154	154	262	2340
+7568	Glowing crystal	Normal	1	0	126	99	99	1	1	100	100	1	120
+7568	Glowing crystal	Normal	1	1	126	99	99	1	1	100	150	1	120
+7568	Glowing crystal	Normal	2	0	126	99	198	1	1	101	108	1	240
+7568	Glowing crystal	Normal	2	1	126	99	198	1	1	101	162	1	240
+7568	Glowing crystal	Normal	3	0	126	99	297	1	1	102	109	1	240
+7568	Glowing crystal	Normal	3	1	126	99	297	1	1	102	163	1	240
+7568	Glowing crystal	Normal	4	0	126	99	396	1	1	103	110	1	360
+7568	Glowing crystal	Normal	4	1	126	99	396	1	1	103	165	1	360
+7568	Glowing crystal	Normal	5	0	126	99	495	1	1	104	118	1	360
+7568	Glowing crystal	Normal	5	1	126	99	495	1	1	104	177	1	360
+7568	Glowing crystal	Normal	7	0	126	99	693	1	1	106	120	1	480
+7568	Glowing crystal	Normal	7	1	126	99	693	1	1	106	180	1	480
+7568	Glowing crystal	Normal	8	0	126	99	792	1	1	106	121	1	600
+7568	Glowing crystal	Normal	8	1	126	99	792	1	1	106	181	1	600
+7568	Glowing crystal	Normal	9	0	126	99	891	1	1	107	122	1	600
+7568	Glowing crystal	Normal	9	1	126	99	891	1	1	107	183	1	600
+7568	Glowing crystal	Normal	12	0	126	99	1188	1	1	110	132	1	840
+7568	Glowing crystal	Normal	12	1	126	99	1188	1	1	110	198	1	840
+7568	Glowing crystal	Normal	15	0	126	99	1485	1	1	112	135	1	960
+7568	Glowing crystal	Normal	15	1	126	99	1485	1	1	112	202	1	960
+7568	Glowing crystal	Normal	16	0	126	99	1584	1	1	113	136	1	1080
+7568	Glowing crystal	Normal	16	1	126	99	1584	1	1	113	204	1	1080
+7568	Glowing crystal	Normal	23	0	126	99	2277	1	1	119	150	1	1440
+7568	Glowing crystal	Normal	23	1	126	99	2277	1	1	119	225	1	1440
+7568	Glowing crystal	Normal	24	0	126	99	2376	1	1	120	151	1	1560
+7568	Glowing crystal	Normal	24	1	126	99	2376	1	1	120	226	1	1560
+7568	Glowing crystal	Normal	32	0	126	99	3168	1	1	126	166	1	2040
+7568	Glowing crystal	Normal	32	1	126	99	3168	1	1	126	249	1	2040
+7568	Glowing crystal	Normal	49	0	126	99	4851	1	1	139	190	1	3000
+7568	Glowing crystal	Normal	49	1	126	99	4851	1	1	139	285	1	3000
+7568	Glowing crystal	Normal	50	0	126	99	4950	1	1	141	198	1	3120
+7568	Glowing crystal	Normal	50	1	126	99	4950	1	1	141	297	1	3120
+7568	Glowing crystal	Normal	51	0	126	99	5049	1	1	142	199	1	3120
+7568	Glowing crystal	Normal	51	1	126	99	5049	1	1	142	298	1	3120
+7568	Glowing crystal	Normal	64	0	126	99	6336	1	1	151	212	1	3960
+7568	Glowing crystal	Normal	64	1	126	99	6336	1	1	151	318	1	3960
+7568	Glowing crystal	Normal	100	0	126	99	9900	1	1	178	262	1	6120
+7568	Glowing crystal	Normal	100	1	126	99	9900	1	1	178	393	1	6120
+7568	Glowing crystal	Normal	1	0	100	99	99	1	1	100	100	1	95
+7568	Glowing crystal	Normal	1	0	60	99	99	1	1	100	100	1	57
+7568	Glowing crystal	Normal	1	0	126	70	99	1	1	86	86	1	120
+7568	Glowing crystal	Normal	1	0	90	55	99	1	1	79	79	1	85
+7568	Glowing crystal	Normal	1	0	126	1	99	1	1	55	55	1	120
+7568	Glowing crystal	Normal	1	1	100	99	99	1	1	100	150	1	95
+7568	Glowing crystal	Normal	1	1	60	99	99	1	1	100	150	1	57
+7568	Glowing crystal	Normal	1	1	126	70	99	1	1	86	129	1	120
+7568	Glowing crystal	Normal	1	1	90	55	99	1	1	79	118	1	85
+7568	Glowing crystal	Normal	1	1	126	1	99	1	1	55	82	1	120
+7568	Glowing crystal	Normal	3	0	100	99	297	1	1	102	109	1	190
+7568	Glowing crystal	Normal	3	0	60	99	297	1	1	102	109	1	114
+7568	Glowing crystal	Normal	3	0	126	70	297	1	1	87	93	1	240
+7568	Glowing crystal	Normal	3	0	90	55	297	1	1	80	86	1	170
+7568	Glowing crystal	Normal	3	0	126	1	297	1	1	56	59	1	240
+7568	Glowing crystal	Normal	3	1	100	99	297	1	1	102	163	1	190
+7568	Glowing crystal	Normal	3	1	60	99	297	1	1	102	163	1	114
+7568	Glowing crystal	Normal	3	1	126	70	297	1	1	87	139	1	240
+7568	Glowing crystal	Normal	3	1	90	55	297	1	1	80	129	1	170
+7568	Glowing crystal	Normal	3	1	126	1	297	1	1	56	88	1	240
+7568	Glowing crystal	Normal	24	0	100	99	2376	1	1	120	151	1	1235
+7568	Glowing crystal	Normal	24	0	60	99	2376	1	1	120	151	1	741
+7568	Glowing crystal	Normal	24	0	126	70	2376	1	1	103	129	1	1560
+7568	Glowing crystal	Normal	24	0	90	55	2376	1	1	94	119	1	1105
+7568	Glowing crystal	Normal	24	0	126	1	2376	1	1	66	83	1	1560
+7568	Glowing crystal	Normal	24	1	100	99	2376	1	1	120	226	1	1235
+7568	Glowing crystal	Normal	24	1	60	99	2376	1	1	120	226	1	741
+7568	Glowing crystal	Normal	24	1	126	70	2376	1	1	103	193	1	1560
+7568	Glowing crystal	Normal	24	1	90	55	2376	1	1	94	178	1	1105
+7568	Glowing crystal	Normal	24	1	126	1	2376	1	1	66	124	1	1560
+7551	Great Olm	Head (Normal)	1	0	126	99	99	250	250	150	250	250	800
+7551	Great Olm	Head (Normal)	1	1	126	99	99	375	375	225	375	375	800
+7551	Great Olm	Head (Normal)	2	0	126	99	198	270	270	151	270	270	1200
+7551	Great Olm	Head (Normal)	2	1	126	99	198	405	405	226	405	405	1200
+7551	Great Olm	Head (Normal)	3	0	126	99	297	272	272	153	272	272	1600
+7551	Great Olm	Head (Normal)	3	1	126	99	297	408	408	229	408	408	1600
+7551	Great Olm	Head (Normal)	4	0	126	99	396	275	275	154	275	275	2000
+7551	Great Olm	Head (Normal)	4	1	126	99	396	412	412	231	412	412	2000
+7551	Great Olm	Head (Normal)	5	0	126	99	495	295	295	156	295	295	2400
+7551	Great Olm	Head (Normal)	5	1	126	99	495	442	442	234	442	442	2400
+7551	Great Olm	Head (Normal)	7	0	126	99	693	300	300	159	300	300	3200
+7551	Great Olm	Head (Normal)	7	1	126	99	693	450	450	238	450	450	3200
+7551	Great Olm	Head (Normal)	8	0	126	99	792	302	302	159	302	302	2400
+7551	Great Olm	Head (Normal)	8	1	126	99	792	453	453	238	453	453	2400
+7551	Great Olm	Head (Normal)	9	0	126	99	891	305	305	160	305	305	2800
+7551	Great Olm	Head (Normal)	9	1	126	99	891	457	457	240	457	457	2800
+7551	Great Olm	Head (Normal)	12	0	126	99	1188	330	330	165	330	330	4000
+7551	Great Olm	Head (Normal)	12	1	126	99	1188	495	495	247	495	495	4000
+7551	Great Olm	Head (Normal)	15	0	126	99	1485	337	337	168	337	337	5200
+7551	Great Olm	Head (Normal)	15	1	126	99	1485	505	505	252	505	505	5200
+7551	Great Olm	Head (Normal)	16	0	126	99	1584	340	340	169	340	340	4400
+7551	Great Olm	Head (Normal)	16	1	126	99	1584	510	510	253	510	510	4400
+7551	Great Olm	Head (Normal)	23	0	126	99	2277	375	375	178	375	375	7200
+7551	Great Olm	Head (Normal)	23	1	126	99	2277	562	562	267	562	562	7200
+7551	Great Olm	Head (Normal)	24	0	126	99	2376	377	377	180	377	377	6400
+7551	Great Olm	Head (Normal)	24	1	126	99	2376	565	565	270	565	565	6400
+7551	Great Olm	Head (Normal)	32	0	126	99	3168	415	415	189	415	415	8400
+7551	Great Olm	Head (Normal)	32	1	126	99	3168	622	622	283	622	622	8400
+7551	Great Olm	Head (Normal)	49	0	126	99	4851	475	475	208	475	475	12800
+7551	Great Olm	Head (Normal)	49	1	126	99	4851	712	712	312	712	712	12800
+7551	Great Olm	Head (Normal)	50	0	126	99	4950	495	495	211	495	495	13200
+7551	Great Olm	Head (Normal)	50	1	126	99	4950	742	742	316	742	742	13200
+7551	Great Olm	Head (Normal)	51	0	126	99	5049	497	497	213	497	497	13600
+7551	Great Olm	Head (Normal)	51	1	126	99	5049	745	745	319	745	745	13600
+7551	Great Olm	Head (Normal)	64	0	126	99	6336	530	530	226	530	530	13600
+7551	Great Olm	Head (Normal)	64	1	126	99	6336	795	795	339	795	795	13600
+7551	Great Olm	Head (Normal)	100	0	126	99	9900	655	655	267	655	655	13600
+7551	Great Olm	Head (Normal)	100	1	126	99	9900	982	982	400	982	982	13600
+7551	Great Olm	Head (Normal)	1	0	100	99	99	250	250	150	250	250	800
+7551	Great Olm	Head (Normal)	1	0	60	99	99	250	250	150	250	250	800
+7551	Great Olm	Head (Normal)	1	0	126	70	99	217	217	130	217	217	800
+7551	Great Olm	Head (Normal)	1	0	90	55	99	199	199	119	199	199	800
+7551	Great Olm	Head (Normal)	1	0	126	1	99	138	138	83	138	138	800
+7551	Great Olm	Head (Normal)	1	1	100	99	99	375	375	225	375	375	800
+7551	Great Olm	Head (Normal)	1	1	60	99	99	375	375	225	375	375	800
+7551	Great Olm	Head (Normal)	1	1	126	70	99	325	325	195	325	325	800
+7551	Great Olm	Head (Normal)	1	1	90	55	99	298	298	178	298	298	800
+7551	Great Olm	Head (Normal)	1	1	126	1	99	207	207	124	207	207	800
+7551	Great Olm	Head (Normal)	3	0	100	99	297	272	272	153	272	272	1600
+7551	Great Olm	Head (Normal)	3	0	60	99	297	272	272	153	272	272	1600
+7551	Great Olm	Head (Normal)	3	0	126	70	297	236	236	132	236	236	1600
+7551	Great Olm	Head (Normal)	3	0	90	55	297	216	216	121	216	216	1600
+7551	Great Olm	Head (Normal)	3	0	126	1	297	150	150	84	150	150	1600
+7551	Great Olm	Head (Normal)	3	1	100	99	297	408	408	229	408	408	1600
+7551	Great Olm	Head (Normal)	3	1	60	99	297	408	408	229	408	408	1600
+7551	Great Olm	Head (Normal)	3	1	126	70	297	354	354	198	354	354	1600
+7551	Great Olm	Head (Normal)	3	1	90	55	297	324	324	181	324	324	1600
+7551	Great Olm	Head (Normal)	3	1	126	1	297	225	225	126	225	225	1600
+7551	Great Olm	Head (Normal)	24	0	100	99	2376	377	377	180	377	377	6400
+7551	Great Olm	Head (Normal)	24	0	60	99	2376	377	377	180	377	377	6400
+7551	Great Olm	Head (Normal)	24	0	126	70	2376	327	327	156	327	327	6400
+7551	Great Olm	Head (Normal)	24	0	90	55	2376	300	300	142	300	300	6400
+7551	Great Olm	Head (Normal)	24	0	126	1	2376	208	208	99	208	208	6400
+7551	Great Olm	Head (Normal)	24	1	100	99	2376	565	565	270	565	565	6400
+7551	Great Olm	Head (Normal)	24	1	60	99	2376	565	565	270	565	565	6400
+7551	Great Olm	Head (Normal)	24	1	126	70	2376	490	490	234	490	490	6400
+7551	Great Olm	Head (Normal)	24	1	90	55	2376	450	450	213	450	450	6400
+7551	Great Olm	Head (Normal)	24	1	126	1	2376	312	312	148	312	312	6400
+7552	Great Olm	Left claw (Normal)	1	0	126	99	99	250	250	175	175	250	600
+7552	Great Olm	Left claw (Normal)	1	1	126	99	99	375	375	262	262	375	600
+7552	Great Olm	Left claw (Normal)	2	0	126	99	198	270	270	176	176	270	900
+7552	Great Olm	Left claw (Normal)	2	1	126	99	198	405	405	264	264	405	900
+7552	Great Olm	Left claw (Normal)	3	0	126	99	297	272	272	178	178	272	1200
+7552	Great Olm	Left claw (Normal)	3	1	126	99	297	408	408	267	267	408	1200
+7552	Great Olm	Left claw (Normal)	4	0	126	99	396	275	275	180	180	275	1500
+7552	Great Olm	Left claw (Normal)	4	1	126	99	396	412	412	270	270	412	1500
+7552	Great Olm	Left claw (Normal)	5	0	126	99	495	295	295	182	182	295	1800
+7552	Great Olm	Left claw (Normal)	5	1	126	99	495	442	442	273	273	442	1800
+7552	Great Olm	Left claw (Normal)	7	0	126	99	693	300	300	185	185	300	2400
+7552	Great Olm	Left claw (Normal)	7	1	126	99	693	450	450	277	277	450	2400
+7552	Great Olm	Left claw (Normal)	8	0	126	99	792	302	302	185	185	302	1800
+7552	Great Olm	Left claw (Normal)	8	1	126	99	792	453	453	277	277	453	1800
+7552	Great Olm	Left claw (Normal)	9	0	126	99	891	305	305	187	187	305	2100
+7552	Great Olm	Left claw (Normal)	9	1	126	99	891	457	457	280	280	457	2100
+7552	Great Olm	Left claw (Normal)	12	0	126	99	1188	330	330	192	192	330	3000
+7552	Great Olm	Left claw (Normal)	12	1	126	99	1188	495	495	288	288	495	3000
+7552	Great Olm	Left claw (Normal)	15	0	126	99	1485	337	337	196	196	337	3900
+7552	Great Olm	Left claw (Normal)	15	1	126	99	1485	505	505	294	294	505	3900
+7552	Great Olm	Left claw (Normal)	16	0	126	99	1584	340	340	197	197	340	3300
+7552	Great Olm	Left claw (Normal)	16	1	126	99	1584	510	510	295	295	510	3300
+7552	Great Olm	Left claw (Normal)	23	0	126	99	2277	375	375	208	208	375	5400
+7552	Great Olm	Left claw (Normal)	23	1	126	99	2277	562	562	312	312	562	5400
+7552	Great Olm	Left claw (Normal)	24	0	126	99	2376	377	377	210	210	377	4800
+7552	Great Olm	Left claw (Normal)	24	1	126	99	2376	565	565	315	315	565	4800
+7552	Great Olm	Left claw (Normal)	32	0	126	99	3168	415	415	220	220	415	6300
+7552	Great Olm	Left claw (Normal)	32	1	126	99	3168	622	622	330	330	622	6300
+7552	Great Olm	Left claw (Normal)	49	0	126	99	4851	475	475	243	243	475	9600
+7552	Great Olm	Left claw (Normal)	49	1	126	99	4851	712	712	364	364	712	9600
+7552	Great Olm	Left claw (Normal)	50	0	126	99	4950	495	495	246	246	495	9900
+7552	Great Olm	Left claw (Normal)	50	1	126	99	4950	742	742	369	369	742	9900
+7552	Great Olm	Left claw (Normal)	51	0	126	99	5049	497	497	248	248	497	10200
+7552	Great Olm	Left claw (Normal)	51	1	126	99	5049	745	745	372	372	745	10200
+7552	Great Olm	Left claw (Normal)	64	0	126	99	6336	530	530	264	264	530	10200
+7552	Great Olm	Left claw (Normal)	64	1	126	99	6336	795	795	396	396	795	10200
+7552	Great Olm	Left claw (Normal)	100	0	126	99	9900	655	655	311	311	655	10200
+7552	Great Olm	Left claw (Normal)	100	1	126	99	9900	982	982	466	466	982	10200
+7552	Great Olm	Left claw (Normal)	1	0	100	99	99	250	250	175	175	250	600
+7552	Great Olm	Left claw (Normal)	1	0	60	99	99	250	250	175	175	250	600
+7552	Great Olm	Left claw (Normal)	1	0	126	70	99	217	217	152	152	217	600
+7552	Great Olm	Left claw (Normal)	1	0	90	55	99	199	199	139	139	199	600
+7552	Great Olm	Left claw (Normal)	1	0	126	1	99	138	138	97	97	138	600
+7552	Great Olm	Left claw (Normal)	1	1	100	99	99	375	375	262	262	375	600
+7552	Great Olm	Left claw (Normal)	1	1	60	99	99	375	375	262	262	375	600
+7552	Great Olm	Left claw (Normal)	1	1	126	70	99	325	325	228	228	325	600
+7552	Great Olm	Left claw (Normal)	1	1	90	55	99	298	298	208	208	298	600
+7552	Great Olm	Left claw (Normal)	1	1	126	1	99	207	207	145	145	207	600
+7552	Great Olm	Left claw (Normal)	3	0	100	99	297	272	272	178	178	272	1200
+7552	Great Olm	Left claw (Normal)	3	0	60	99	297	272	272	178	178	272	1200
+7552	Great Olm	Left claw (Normal)	3	0	126	70	297	236	236	155	155	236	1200
+7552	Great Olm	Left claw (Normal)	3	0	90	55	297	216	216	141	141	216	1200
+7552	Great Olm	Left claw (Normal)	3	0	126	1	297	150	150	98	98	150	1200
+7552	Great Olm	Left claw (Normal)	3	1	100	99	297	408	408	267	267	408	1200
+7552	Great Olm	Left claw (Normal)	3	1	60	99	297	408	408	267	267	408	1200
+7552	Great Olm	Left claw (Normal)	3	1	126	70	297	354	354	232	232	354	1200
+7552	Great Olm	Left claw (Normal)	3	1	90	55	297	324	324	211	211	324	1200
+7552	Great Olm	Left claw (Normal)	3	1	126	1	297	225	225	147	147	225	1200
+7552	Great Olm	Left claw (Normal)	24	0	100	99	2376	377	377	210	210	377	4800
+7552	Great Olm	Left claw (Normal)	24	0	60	99	2376	377	377	210	210	377	4800
+7552	Great Olm	Left claw (Normal)	24	0	126	70	2376	327	327	182	182	327	4800
+7552	Great Olm	Left claw (Normal)	24	0	90	55	2376	300	300	166	166	300	4800
+7552	Great Olm	Left claw (Normal)	24	0	126	1	2376	208	208	116	116	208	4800
+7552	Great Olm	Left claw (Normal)	24	1	100	99	2376	565	565	315	315	565	4800
+7552	Great Olm	Left claw (Normal)	24	1	60	99	2376	565	565	315	315	565	4800
+7552	Great Olm	Left claw (Normal)	24	1	126	70	2376	490	490	273	273	490	4800
+7552	Great Olm	Left claw (Normal)	24	1	90	55	2376	450	450	249	249	450	4800
+7552	Great Olm	Left claw (Normal)	24	1	126	1	2376	312	312	174	174	312	4800
+7550	Great Olm	Right claw (Normal)	1	0	126	99	99	250	250	175	87	250	600
+7550	Great Olm	Right claw (Normal)	1	1	126	99	99	375	375	262	131	375	600
+7550	Great Olm	Right claw (Normal)	2	0	126	99	198	270	270	176	88	270	900
+7550	Great Olm	Right claw (Normal)	2	1	126	99	198	405	405	264	132	405	900
+7550	Great Olm	Right claw (Normal)	3	0	126	99	297	272	272	178	89	272	1200
+7550	Great Olm	Right claw (Normal)	3	1	126	99	297	408	408	267	133	408	1200
+7550	Great Olm	Right claw (Normal)	4	0	126	99	396	275	275	180	90	275	1500
+7550	Great Olm	Right claw (Normal)	4	1	126	99	396	412	412	270	135	412	1500
+7550	Great Olm	Right claw (Normal)	5	0	126	99	495	295	295	182	91	295	1800
+7550	Great Olm	Right claw (Normal)	5	1	126	99	495	442	442	273	136	442	1800
+7550	Great Olm	Right claw (Normal)	7	0	126	99	693	300	300	185	92	300	2400
+7550	Great Olm	Right claw (Normal)	7	1	126	99	693	450	450	277	138	450	2400
+7550	Great Olm	Right claw (Normal)	8	0	126	99	792	302	302	185	92	302	1800
+7550	Great Olm	Right claw (Normal)	8	1	126	99	792	453	453	277	138	453	1800
+7550	Great Olm	Right claw (Normal)	9	0	126	99	891	305	305	187	93	305	2100
+7550	Great Olm	Right claw (Normal)	9	1	126	99	891	457	457	280	140	457	2100
+7550	Great Olm	Right claw (Normal)	12	0	126	99	1188	330	330	192	96	330	3000
+7550	Great Olm	Right claw (Normal)	12	1	126	99	1188	495	495	288	144	495	3000
+7550	Great Olm	Right claw (Normal)	15	0	126	99	1485	337	337	196	98	337	3900
+7550	Great Olm	Right claw (Normal)	15	1	126	99	1485	505	505	294	147	505	3900
+7550	Great Olm	Right claw (Normal)	16	0	126	99	1584	340	340	197	98	340	3300
+7550	Great Olm	Right claw (Normal)	16	1	126	99	1584	510	510	295	147	510	3300
+7550	Great Olm	Right claw (Normal)	23	0	126	99	2277	375	375	208	104	375	5400
+7550	Great Olm	Right claw (Normal)	23	1	126	99	2277	562	562	312	156	562	5400
+7550	Great Olm	Right claw (Normal)	24	0	126	99	2376	377	377	210	105	377	4800
+7550	Great Olm	Right claw (Normal)	24	1	126	99	2376	565	565	315	157	565	4800
+7550	Great Olm	Right claw (Normal)	32	0	126	99	3168	415	415	220	110	415	6300
+7550	Great Olm	Right claw (Normal)	32	1	126	99	3168	622	622	330	165	622	6300
+7550	Great Olm	Right claw (Normal)	49	0	126	99	4851	475	475	243	121	475	9600
+7550	Great Olm	Right claw (Normal)	49	1	126	99	4851	712	712	364	182	712	9600
+7550	Great Olm	Right claw (Normal)	50	0	126	99	4950	495	495	246	123	495	9900
+7550	Great Olm	Right claw (Normal)	50	1	126	99	4950	742	742	369	184	742	9900
+7550	Great Olm	Right claw (Normal)	51	0	126	99	5049	497	497	248	124	497	10200
+7550	Great Olm	Right claw (Normal)	51	1	126	99	5049	745	745	372	186	745	10200
+7550	Great Olm	Right claw (Normal)	64	0	126	99	6336	530	530	264	132	530	10200
+7550	Great Olm	Right claw (Normal)	64	1	126	99	6336	795	795	396	198	795	10200
+7550	Great Olm	Right claw (Normal)	100	0	126	99	9900	655	655	311	155	655	10200
+7550	Great Olm	Right claw (Normal)	100	1	126	99	9900	982	982	466	233	982	10200
+7550	Great Olm	Right claw (Normal)	1	0	100	99	99	250	250	175	87	250	600
+7550	Great Olm	Right claw (Normal)	1	0	60	99	99	250	250	175	87	250	600
+7550	Great Olm	Right claw (Normal)	1	0	126	70	99	217	217	152	76	217	600
+7550	Great Olm	Right claw (Normal)	1	0	90	55	99	199	199	139	69	199	600
+7550	Great Olm	Right claw (Normal)	1	0	126	1	99	138	138	97	48	138	600
+7550	Great Olm	Right claw (Normal)	1	1	100	99	99	375	375	262	131	375	600
+7550	Great Olm	Right claw (Normal)	1	1	60	99	99	375	375	262	131	375	600
+7550	Great Olm	Right claw (Normal)	1	1	126	70	99	325	325	228	114	325	600
+7550	Great Olm	Right claw (Normal)	1	1	90	55	99	298	298	208	104	298	600
+7550	Great Olm	Right claw (Normal)	1	1	126	1	99	207	207	145	72	207	600
+7550	Great Olm	Right claw (Normal)	3	0	100	99	297	272	272	178	89	272	1200
+7550	Great Olm	Right claw (Normal)	3	0	60	99	297	272	272	178	89	272	1200
+7550	Great Olm	Right claw (Normal)	3	0	126	70	297	236	236	155	77	236	1200
+7550	Great Olm	Right claw (Normal)	3	0	90	55	297	216	216	141	70	216	1200
+7550	Great Olm	Right claw (Normal)	3	0	126	1	297	150	150	98	49	150	1200
+7550	Great Olm	Right claw (Normal)	3	1	100	99	297	408	408	267	133	408	1200
+7550	Great Olm	Right claw (Normal)	3	1	60	99	297	408	408	267	133	408	1200
+7550	Great Olm	Right claw (Normal)	3	1	126	70	297	354	354	232	116	354	1200
+7550	Great Olm	Right claw (Normal)	3	1	90	55	297	324	324	211	105	324	1200
+7550	Great Olm	Right claw (Normal)	3	1	126	1	297	225	225	147	73	225	1200
+7550	Great Olm	Right claw (Normal)	24	0	100	99	2376	377	377	210	105	377	4800
+7550	Great Olm	Right claw (Normal)	24	0	60	99	2376	377	377	210	105	377	4800
+7550	Great Olm	Right claw (Normal)	24	0	126	70	2376	327	327	182	91	327	4800
+7550	Great Olm	Right claw (Normal)	24	0	90	55	2376	300	300	166	83	300	4800
+7550	Great Olm	Right claw (Normal)	24	0	126	1	2376	208	208	116	58	208	4800
+7550	Great Olm	Right claw (Normal)	24	1	100	99	2376	565	565	315	157	565	4800
+7550	Great Olm	Right claw (Normal)	24	1	60	99	2376	565	565	315	157	565	4800
+7550	Great Olm	Right claw (Normal)	24	1	126	70	2376	490	490	273	136	490	4800
+7550	Great Olm	Right claw (Normal)	24	1	90	55	2376	450	450	249	124	450	4800
+7550	Great Olm	Right claw (Normal)	24	1	126	1	2376	312	312	174	87	312	4800
+7569	Guardian (Chambers of Xeric)	Normal	1	0	126	99	99	140	140	100	1	1	250
+7569	Guardian (Chambers of Xeric)	Normal	1	1	126	99	99	210	210	150	1	1	375
+7569	Guardian (Chambers of Xeric)	Normal	2	0	126	99	198	151	151	101	1	1	500
+7569	Guardian (Chambers of Xeric)	Normal	2	1	126	99	198	226	226	151	1	1	750
+7569	Guardian (Chambers of Xeric)	Normal	3	0	126	99	297	152	152	102	1	1	500
+7569	Guardian (Chambers of Xeric)	Normal	3	1	126	99	297	228	228	153	1	1	750
+7569	Guardian (Chambers of Xeric)	Normal	4	0	126	99	396	154	154	103	1	1	750
+7569	Guardian (Chambers of Xeric)	Normal	4	1	126	99	396	231	231	154	1	1	1125
+7569	Guardian (Chambers of Xeric)	Normal	5	0	126	99	495	165	165	104	1	1	750
+7569	Guardian (Chambers of Xeric)	Normal	5	1	126	99	495	247	247	156	1	1	1125
+7569	Guardian (Chambers of Xeric)	Normal	7	0	126	99	693	168	168	106	1	1	1000
+7569	Guardian (Chambers of Xeric)	Normal	7	1	126	99	693	252	252	159	1	1	1500
+7569	Guardian (Chambers of Xeric)	Normal	8	0	126	99	792	169	169	106	1	1	1250
+7569	Guardian (Chambers of Xeric)	Normal	8	1	126	99	792	253	253	159	1	1	1875
+7569	Guardian (Chambers of Xeric)	Normal	9	0	126	99	891	170	170	107	1	1	1250
+7569	Guardian (Chambers of Xeric)	Normal	9	1	126	99	891	255	255	160	1	1	1875
+7569	Guardian (Chambers of Xeric)	Normal	12	0	126	99	1188	184	184	110	1	1	1750
+7569	Guardian (Chambers of Xeric)	Normal	12	1	126	99	1188	276	276	165	1	1	2625
+7569	Guardian (Chambers of Xeric)	Normal	15	0	126	99	1485	189	189	112	1	1	2000
+7569	Guardian (Chambers of Xeric)	Normal	15	1	126	99	1485	283	283	168	1	1	3000
+7569	Guardian (Chambers of Xeric)	Normal	16	0	126	99	1584	190	190	113	1	1	2250
+7569	Guardian (Chambers of Xeric)	Normal	16	1	126	99	1584	285	285	169	1	1	3375
+7569	Guardian (Chambers of Xeric)	Normal	23	0	126	99	2277	210	210	119	1	1	3000
+7569	Guardian (Chambers of Xeric)	Normal	23	1	126	99	2277	315	315	178	1	1	4500
+7569	Guardian (Chambers of Xeric)	Normal	24	0	126	99	2376	211	211	120	1	1	3250
+7569	Guardian (Chambers of Xeric)	Normal	24	1	126	99	2376	316	316	180	1	1	4875
+7569	Guardian (Chambers of Xeric)	Normal	32	0	126	99	3168	232	232	126	1	1	4250
+7569	Guardian (Chambers of Xeric)	Normal	32	1	126	99	3168	348	348	189	1	1	6375
+7569	Guardian (Chambers of Xeric)	Normal	49	0	126	99	4851	266	266	139	1	1	6250
+7569	Guardian (Chambers of Xeric)	Normal	49	1	126	99	4851	399	399	208	1	1	9375
+7569	Guardian (Chambers of Xeric)	Normal	50	0	126	99	4950	277	277	141	1	1	6500
+7569	Guardian (Chambers of Xeric)	Normal	50	1	126	99	4950	415	415	211	1	1	9750
+7569	Guardian (Chambers of Xeric)	Normal	51	0	126	99	5049	278	278	142	1	1	6500
+7569	Guardian (Chambers of Xeric)	Normal	51	1	126	99	5049	417	417	213	1	1	9750
+7569	Guardian (Chambers of Xeric)	Normal	64	0	126	99	6336	296	296	151	1	1	8250
+7569	Guardian (Chambers of Xeric)	Normal	64	1	126	99	6336	444	444	226	1	1	12375
+7569	Guardian (Chambers of Xeric)	Normal	100	0	126	99	9900	366	366	178	1	1	12750
+7569	Guardian (Chambers of Xeric)	Normal	100	1	126	99	9900	549	549	267	1	1	19125
+7569	Guardian (Chambers of Xeric)	Normal	1	0	100	99	99	140	140	100	1	1	198
+7569	Guardian (Chambers of Xeric)	Normal	1	0	60	99	99	140	140	100	1	1	119
+7569	Guardian (Chambers of Xeric)	Normal	1	0	126	70	99	121	121	86	1	1	250
+7569	Guardian (Chambers of Xeric)	Normal	1	0	90	55	99	111	111	79	1	1	178
+7569	Guardian (Chambers of Xeric)	Normal	1	0	126	1	99	77	77	55	1	1	250
+7569	Guardian (Chambers of Xeric)	Normal	1	1	100	99	99	210	210	150	1	1	297
+7569	Guardian (Chambers of Xeric)	Normal	1	1	60	99	99	210	210	150	1	1	178
+7569	Guardian (Chambers of Xeric)	Normal	1	1	126	70	99	181	181	129	1	1	375
+7569	Guardian (Chambers of Xeric)	Normal	1	1	90	55	99	166	166	118	1	1	267
+7569	Guardian (Chambers of Xeric)	Normal	1	1	126	1	99	115	115	82	1	1	375
+7569	Guardian (Chambers of Xeric)	Normal	3	0	100	99	297	152	152	102	1	1	396
+7569	Guardian (Chambers of Xeric)	Normal	3	0	60	99	297	152	152	102	1	1	238
+7569	Guardian (Chambers of Xeric)	Normal	3	0	126	70	297	131	131	87	1	1	500
+7569	Guardian (Chambers of Xeric)	Normal	3	0	90	55	297	120	120	80	1	1	356
+7569	Guardian (Chambers of Xeric)	Normal	3	0	126	1	297	83	83	56	1	1	500
+7569	Guardian (Chambers of Xeric)	Normal	3	1	100	99	297	228	228	153	1	1	594
+7569	Guardian (Chambers of Xeric)	Normal	3	1	60	99	297	228	228	153	1	1	357
+7569	Guardian (Chambers of Xeric)	Normal	3	1	126	70	297	196	196	130	1	1	750
+7569	Guardian (Chambers of Xeric)	Normal	3	1	90	55	297	180	180	120	1	1	534
+7569	Guardian (Chambers of Xeric)	Normal	3	1	126	1	297	124	124	84	1	1	750
+7569	Guardian (Chambers of Xeric)	Normal	24	0	100	99	2376	211	211	120	1	1	2574
+7569	Guardian (Chambers of Xeric)	Normal	24	0	60	99	2376	211	211	120	1	1	1547
+7569	Guardian (Chambers of Xeric)	Normal	24	0	126	70	2376	182	182	103	1	1	3250
+7569	Guardian (Chambers of Xeric)	Normal	24	0	90	55	2376	167	167	94	1	1	2314
+7569	Guardian (Chambers of Xeric)	Normal	24	0	126	1	2376	116	116	66	1	1	3250
+7569	Guardian (Chambers of Xeric)	Normal	24	1	100	99	2376	316	316	180	1	1	3861
+7569	Guardian (Chambers of Xeric)	Normal	24	1	60	99	2376	316	316	180	1	1	2320
+7569	Guardian (Chambers of Xeric)	Normal	24	1	126	70	2376	273	273	154	1	1	4875
+7569	Guardian (Chambers of Xeric)	Normal	24	1	90	55	2376	250	250	141	1	1	3471
+7569	Guardian (Chambers of Xeric)	Normal	24	1	126	1	2376	174	174	99	1	1	4875
+7584	Ice demon	Normal	1	0	126	99	99	1	1	160	390	390	140
+7584	Ice demon	Normal	1	1	126	99	99	1	1	240	585	585	210
+7584	Ice demon	Normal	2	0	126	99	198	1	1	161	421	421	280
+7584	Ice demon	Normal	2	1	126	99	198	1	1	241	631	631	420
+7584	Ice demon	Normal	3	0	126	99	297	1	1	163	425	425	280
+7584	Ice demon	Normal	3	1	126	99	297	1	1	244	637	637	420
+7584	Ice demon	Normal	4	0	126	99	396	1	1	164	429	429	420
+7584	Ice demon	Normal	4	1	126	99	396	1	1	246	643	643	630
+7584	Ice demon	Normal	5	0	126	99	495	1	1	166	460	460	420
+7584	Ice demon	Normal	5	1	126	99	495	1	1	249	690	690	630
+7584	Ice demon	Normal	7	0	126	99	693	1	1	169	468	468	560
+7584	Ice demon	Normal	7	1	126	99	693	1	1	253	702	702	840
+7584	Ice demon	Normal	8	0	126	99	792	1	1	169	471	471	700
+7584	Ice demon	Normal	8	1	126	99	792	1	1	253	706	706	1050
+7584	Ice demon	Normal	9	0	126	99	891	1	1	171	475	475	700
+7584	Ice demon	Normal	9	1	126	99	891	1	1	256	712	712	1050
+7584	Ice demon	Normal	12	0	126	99	1188	1	1	176	514	514	980
+7584	Ice demon	Normal	12	1	126	99	1188	1	1	264	771	771	1470
+7584	Ice demon	Normal	15	0	126	99	1485	1	1	179	526	526	1120
+7584	Ice demon	Normal	15	1	126	99	1485	1	1	268	789	789	1680
+7584	Ice demon	Normal	16	0	126	99	1584	1	1	180	530	530	1260
+7584	Ice demon	Normal	16	1	126	99	1584	1	1	270	795	795	1890
+7584	Ice demon	Normal	23	0	126	99	2277	1	1	190	585	585	1680
+7584	Ice demon	Normal	23	1	126	99	2277	1	1	285	877	877	2520
+7584	Ice demon	Normal	24	0	126	99	2376	1	1	192	588	588	1820
+7584	Ice demon	Normal	24	1	126	99	2376	1	1	288	882	882	2730
+7584	Ice demon	Normal	32	0	126	99	3168	1	1	201	647	647	2380
+7584	Ice demon	Normal	32	1	126	99	3168	1	1	301	970	970	3570
+7584	Ice demon	Normal	49	0	126	99	4851	1	1	222	741	741	3500
+7584	Ice demon	Normal	49	1	126	99	4851	1	1	333	1111	1111	5250
+7584	Ice demon	Normal	50	0	126	99	4950	1	1	225	772	772	3640
+7584	Ice demon	Normal	50	1	126	99	4950	1	1	337	1158	1158	5460
+7584	Ice demon	Normal	51	0	126	99	5049	1	1	227	776	776	3640
+7584	Ice demon	Normal	51	1	126	99	5049	1	1	340	1164	1164	5460
+7584	Ice demon	Normal	64	0	126	99	6336	1	1	241	826	826	4620
+7584	Ice demon	Normal	64	1	126	99	6336	1	1	361	1239	1239	6930
+7584	Ice demon	Normal	100	0	126	99	9900	1	1	284	1021	1021	7140
+7584	Ice demon	Normal	100	1	126	99	9900	1	1	426	1531	1531	10710
+7584	Ice demon	Normal	1	0	100	99	99	1	1	160	390	390	111
+7584	Ice demon	Normal	1	0	60	99	99	1	1	160	390	390	66
+7584	Ice demon	Normal	1	0	126	70	99	1	1	138	338	338	140
+7584	Ice demon	Normal	1	0	90	55	99	1	1	127	311	311	100
+7584	Ice demon	Normal	1	0	126	1	99	1	1	88	216	216	140
+7584	Ice demon	Normal	1	1	100	99	99	1	1	240	585	585	166
+7584	Ice demon	Normal	1	1	60	99	99	1	1	240	585	585	99
+7584	Ice demon	Normal	1	1	126	70	99	1	1	207	507	507	210
+7584	Ice demon	Normal	1	1	90	55	99	1	1	190	466	466	150
+7584	Ice demon	Normal	1	1	126	1	99	1	1	132	324	324	210
+7584	Ice demon	Normal	3	0	100	99	297	1	1	163	425	425	222
+7584	Ice demon	Normal	3	0	60	99	297	1	1	163	425	425	132
+7584	Ice demon	Normal	3	0	126	70	297	1	1	140	368	368	280
+7584	Ice demon	Normal	3	0	90	55	297	1	1	129	338	338	200
+7584	Ice demon	Normal	3	0	126	1	297	1	1	89	235	235	280
+7584	Ice demon	Normal	3	1	100	99	297	1	1	244	637	637	333
+7584	Ice demon	Normal	3	1	60	99	297	1	1	244	637	637	198
+7584	Ice demon	Normal	3	1	126	70	297	1	1	210	552	552	420
+7584	Ice demon	Normal	3	1	90	55	297	1	1	193	507	507	300
+7584	Ice demon	Normal	3	1	126	1	297	1	1	133	352	352	420
+7584	Ice demon	Normal	24	0	100	99	2376	1	1	192	588	588	1443
+7584	Ice demon	Normal	24	0	60	99	2376	1	1	192	588	588	858
+7584	Ice demon	Normal	24	0	126	70	2376	1	1	165	510	510	1820
+7584	Ice demon	Normal	24	0	90	55	2376	1	1	152	469	469	1300
+7584	Ice demon	Normal	24	0	126	1	2376	1	1	105	326	326	1820
+7584	Ice demon	Normal	24	1	100	99	2376	1	1	288	882	882	2164
+7584	Ice demon	Normal	24	1	60	99	2376	1	1	288	882	882	1287
+7584	Ice demon	Normal	24	1	126	70	2376	1	1	247	765	765	2730
+7584	Ice demon	Normal	24	1	90	55	2376	1	1	228	703	703	1950
+7584	Ice demon	Normal	24	1	126	1	2376	1	1	157	489	489	2730
+7573	Lizardman shaman (Chambers of Xeric)	Normal	1	0	126	99	99	130	130	210	130	130	190
+7573	Lizardman shaman (Chambers of Xeric)	Normal	1	1	126	99	99	195	195	315	195	195	285
+7573	Lizardman shaman (Chambers of Xeric)	Normal	2	0	126	99	198	140	140	212	140	140	380
+7573	Lizardman shaman (Chambers of Xeric)	Normal	2	1	126	99	198	210	210	318	210	210	570
+7573	Lizardman shaman (Chambers of Xeric)	Normal	3	0	126	99	297	141	141	214	141	141	380
+7573	Lizardman shaman (Chambers of Xeric)	Normal	3	1	126	99	297	211	211	321	211	211	570
+7573	Lizardman shaman (Chambers of Xeric)	Normal	4	0	126	99	396	143	143	216	143	143	570
+7573	Lizardman shaman (Chambers of Xeric)	Normal	4	1	126	99	396	214	214	324	214	214	855
+7573	Lizardman shaman (Chambers of Xeric)	Normal	5	0	126	99	495	153	153	218	153	153	570
+7573	Lizardman shaman (Chambers of Xeric)	Normal	5	1	126	99	495	229	229	327	229	229	855
+7573	Lizardman shaman (Chambers of Xeric)	Normal	7	0	126	99	693	156	156	222	156	156	760
+7573	Lizardman shaman (Chambers of Xeric)	Normal	7	1	126	99	693	234	234	333	234	234	1140
+7573	Lizardman shaman (Chambers of Xeric)	Normal	8	0	126	99	792	157	157	222	157	157	950
+7573	Lizardman shaman (Chambers of Xeric)	Normal	8	1	126	99	792	235	235	333	235	235	1425
+7573	Lizardman shaman (Chambers of Xeric)	Normal	9	0	126	99	891	158	158	224	158	158	950
+7573	Lizardman shaman (Chambers of Xeric)	Normal	9	1	126	99	891	237	237	336	237	237	1425
+7573	Lizardman shaman (Chambers of Xeric)	Normal	12	0	126	99	1188	171	171	231	171	171	1330
+7573	Lizardman shaman (Chambers of Xeric)	Normal	12	1	126	99	1188	256	256	346	256	256	1995
+7573	Lizardman shaman (Chambers of Xeric)	Normal	15	0	126	99	1485	175	175	235	175	175	1520
+7573	Lizardman shaman (Chambers of Xeric)	Normal	15	1	126	99	1485	262	262	352	262	262	2280
+7573	Lizardman shaman (Chambers of Xeric)	Normal	16	0	126	99	1584	176	176	237	176	176	1710
+7573	Lizardman shaman (Chambers of Xeric)	Normal	16	1	126	99	1584	264	264	355	264	264	2565
+7573	Lizardman shaman (Chambers of Xeric)	Normal	23	0	126	99	2277	195	195	249	195	195	2280
+7573	Lizardman shaman (Chambers of Xeric)	Normal	23	1	126	99	2277	292	292	373	292	292	3420
+7573	Lizardman shaman (Chambers of Xeric)	Normal	24	0	126	99	2376	196	196	252	196	196	2470
+7573	Lizardman shaman (Chambers of Xeric)	Normal	24	1	126	99	2376	294	294	378	294	294	3705
+7573	Lizardman shaman (Chambers of Xeric)	Normal	32	0	126	99	3168	215	215	264	215	215	3230
+7573	Lizardman shaman (Chambers of Xeric)	Normal	32	1	126	99	3168	322	322	396	322	322	4845
+7573	Lizardman shaman (Chambers of Xeric)	Normal	49	0	126	99	4851	247	247	291	247	247	4750
+7573	Lizardman shaman (Chambers of Xeric)	Normal	49	1	126	99	4851	370	370	436	370	370	7125
+7573	Lizardman shaman (Chambers of Xeric)	Normal	50	0	126	99	4950	257	257	296	257	257	4940
+7573	Lizardman shaman (Chambers of Xeric)	Normal	50	1	126	99	4950	385	385	444	385	385	7410
+7573	Lizardman shaman (Chambers of Xeric)	Normal	51	0	126	99	5049	258	258	298	258	258	4940
+7573	Lizardman shaman (Chambers of Xeric)	Normal	51	1	126	99	5049	387	387	447	387	387	7410
+7573	Lizardman shaman (Chambers of Xeric)	Normal	64	0	126	99	6336	275	275	317	275	275	6270
+7573	Lizardman shaman (Chambers of Xeric)	Normal	64	1	126	99	6336	412	412	475	412	412	9405
+7573	Lizardman shaman (Chambers of Xeric)	Normal	100	0	126	99	9900	340	340	373	340	340	9690
+7573	Lizardman shaman (Chambers of Xeric)	Normal	100	1	126	99	9900	510	510	559	510	510	14535
+7573	Lizardman shaman (Chambers of Xeric)	Normal	1	0	100	99	99	130	130	210	130	130	150
+7573	Lizardman shaman (Chambers of Xeric)	Normal	1	0	60	99	99	130	130	210	130	130	90
+7573	Lizardman shaman (Chambers of Xeric)	Normal	1	0	126	70	99	112	112	182	112	112	190
+7573	Lizardman shaman (Chambers of Xeric)	Normal	1	0	90	55	99	103	103	167	103	103	135
+7573	Lizardman shaman (Chambers of Xeric)	Normal	1	0	126	1	99	72	72	116	72	72	190
+7573	Lizardman shaman (Chambers of Xeric)	Normal	1	1	100	99	99	195	195	315	195	195	225
+7573	Lizardman shaman (Chambers of Xeric)	Normal	1	1	60	99	99	195	195	315	195	195	135
+7573	Lizardman shaman (Chambers of Xeric)	Normal	1	1	126	70	99	168	168	273	168	168	285
+7573	Lizardman shaman (Chambers of Xeric)	Normal	1	1	90	55	99	154	154	250	154	154	202
+7573	Lizardman shaman (Chambers of Xeric)	Normal	1	1	126	1	99	108	108	174	108	108	285
+7573	Lizardman shaman (Chambers of Xeric)	Normal	3	0	100	99	297	141	141	214	141	141	300
+7573	Lizardman shaman (Chambers of Xeric)	Normal	3	0	60	99	297	141	141	214	141	141	180
+7573	Lizardman shaman (Chambers of Xeric)	Normal	3	0	126	70	297	122	122	185	122	122	380
+7573	Lizardman shaman (Chambers of Xeric)	Normal	3	0	90	55	297	112	112	170	112	112	270
+7573	Lizardman shaman (Chambers of Xeric)	Normal	3	0	126	1	297	78	78	118	78	78	380
+7573	Lizardman shaman (Chambers of Xeric)	Normal	3	1	100	99	297	211	211	321	211	211	450
+7573	Lizardman shaman (Chambers of Xeric)	Normal	3	1	60	99	297	211	211	321	211	211	270
+7573	Lizardman shaman (Chambers of Xeric)	Normal	3	1	126	70	297	183	183	277	183	183	570
+7573	Lizardman shaman (Chambers of Xeric)	Normal	3	1	90	55	297	168	168	255	168	168	405
+7573	Lizardman shaman (Chambers of Xeric)	Normal	3	1	126	1	297	117	117	177	117	117	570
+7573	Lizardman shaman (Chambers of Xeric)	Normal	24	0	100	99	2376	196	196	252	196	196	1950
+7573	Lizardman shaman (Chambers of Xeric)	Normal	24	0	60	99	2376	196	196	252	196	196	1170
+7573	Lizardman shaman (Chambers of Xeric)	Normal	24	0	126	70	2376	169	169	218	169	169	2470
+7573	Lizardman shaman (Chambers of Xeric)	Normal	24	0	90	55	2376	155	155	200	155	155	1755
+7573	Lizardman shaman (Chambers of Xeric)	Normal	24	0	126	1	2376	108	108	139	108	108	2470
+7573	Lizardman shaman (Chambers of Xeric)	Normal	24	1	100	99	2376	294	294	378	294	294	2925
+7573	Lizardman shaman (Chambers of Xeric)	Normal	24	1	60	99	2376	294	294	378	294	294	1755
+7573	Lizardman shaman (Chambers of Xeric)	Normal	24	1	126	70	2376	253	253	327	253	253	3705
+7573	Lizardman shaman (Chambers of Xeric)	Normal	24	1	90	55	2376	232	232	300	232	232	2632
+7573	Lizardman shaman (Chambers of Xeric)	Normal	24	1	126	1	2376	162	162	208	162	162	3705
+7561	Muttadile	Large	1	0	126	99	99	250	250	220	250	250	250
+7561	Muttadile	Large	1	1	126	99	99	375	375	330	375	375	375
+7561	Muttadile	Large	2	0	126	99	198	270	270	222	270	270	500
+7561	Muttadile	Large	2	1	126	99	198	405	405	333	405	405	750
+7561	Muttadile	Large	3	0	126	99	297	272	272	224	272	272	500
+7561	Muttadile	Large	3	1	126	99	297	408	408	336	408	408	750
+7561	Muttadile	Large	4	0	126	99	396	275	275	226	275	275	750
+7561	Muttadile	Large	4	1	126	99	396	412	412	339	412	412	1125
+7561	Muttadile	Large	5	0	126	99	495	295	295	228	295	295	750
+7561	Muttadile	Large	5	1	126	99	495	442	442	342	442	442	1125
+7561	Muttadile	Large	7	0	126	99	693	300	300	233	300	300	1000
+7561	Muttadile	Large	7	1	126	99	693	450	450	349	450	450	1500
+7561	Muttadile	Large	8	0	126	99	792	302	302	233	302	302	1250
+7561	Muttadile	Large	8	1	126	99	792	453	453	349	453	453	1875
+7561	Muttadile	Large	9	0	126	99	891	305	305	235	305	305	1250
+7561	Muttadile	Large	9	1	126	99	891	457	457	352	457	457	1875
+7561	Muttadile	Large	12	0	126	99	1188	330	330	242	330	330	1750
+7561	Muttadile	Large	12	1	126	99	1188	495	495	363	495	495	2625
+7561	Muttadile	Large	15	0	126	99	1485	337	337	246	337	337	2000
+7561	Muttadile	Large	15	1	126	99	1485	505	505	369	505	505	3000
+7561	Muttadile	Large	16	0	126	99	1584	340	340	248	340	340	2250
+7561	Muttadile	Large	16	1	126	99	1584	510	510	372	510	510	3375
+7561	Muttadile	Large	23	0	126	99	2277	375	375	261	375	375	3000
+7561	Muttadile	Large	23	1	126	99	2277	562	562	391	562	562	4500
+7561	Muttadile	Large	24	0	126	99	2376	377	377	264	377	377	3250
+7561	Muttadile	Large	24	1	126	99	2376	565	565	396	565	565	4875
+7561	Muttadile	Large	32	0	126	99	3168	415	415	277	415	415	4250
+7561	Muttadile	Large	32	1	126	99	3168	622	622	415	622	622	6375
+7561	Muttadile	Large	49	0	126	99	4851	475	475	305	475	475	6250
+7561	Muttadile	Large	49	1	126	99	4851	712	712	457	712	712	9375
+7561	Muttadile	Large	50	0	126	99	4950	495	495	310	495	495	6500
+7561	Muttadile	Large	50	1	126	99	4950	742	742	465	742	742	9750
+7561	Muttadile	Large	51	0	126	99	5049	497	497	312	497	497	6500
+7561	Muttadile	Large	51	1	126	99	5049	745	745	468	745	745	9750
+7561	Muttadile	Large	64	0	126	99	6336	530	530	332	530	530	8250
+7561	Muttadile	Large	64	1	126	99	6336	795	795	498	795	795	12375
+7561	Muttadile	Large	100	0	126	99	9900	655	655	391	655	655	12750
+7561	Muttadile	Large	100	1	126	99	9900	982	982	586	982	982	19125
+7561	Muttadile	Large	1	0	100	99	99	250	250	220	250	250	198
+7561	Muttadile	Large	1	0	60	99	99	250	250	220	250	250	119
+7561	Muttadile	Large	1	0	126	70	99	217	217	191	217	217	250
+7561	Muttadile	Large	1	0	90	55	99	199	199	175	199	199	178
+7561	Muttadile	Large	1	0	126	1	99	138	138	122	138	138	250
+7561	Muttadile	Large	1	1	100	99	99	375	375	330	375	375	297
+7561	Muttadile	Large	1	1	60	99	99	375	375	330	375	375	178
+7561	Muttadile	Large	1	1	126	70	99	325	325	286	325	325	375
+7561	Muttadile	Large	1	1	90	55	99	298	298	262	298	298	267
+7561	Muttadile	Large	1	1	126	1	99	207	207	183	207	207	375
+7561	Muttadile	Large	3	0	100	99	297	272	272	224	272	272	396
+7561	Muttadile	Large	3	0	60	99	297	272	272	224	272	272	238
+7561	Muttadile	Large	3	0	126	70	297	236	236	194	236	236	500
+7561	Muttadile	Large	3	0	90	55	297	216	216	178	216	216	356
+7561	Muttadile	Large	3	0	126	1	297	150	150	124	150	150	500
+7561	Muttadile	Large	3	1	100	99	297	408	408	336	408	408	594
+7561	Muttadile	Large	3	1	60	99	297	408	408	336	408	408	357
+7561	Muttadile	Large	3	1	126	70	297	354	354	291	354	354	750
+7561	Muttadile	Large	3	1	90	55	297	324	324	267	324	324	534
+7561	Muttadile	Large	3	1	126	1	297	225	225	186	225	225	750
+7561	Muttadile	Large	24	0	100	99	2376	377	377	264	377	377	2574
+7561	Muttadile	Large	24	0	60	99	2376	377	377	264	377	377	1547
+7561	Muttadile	Large	24	0	126	70	2376	327	327	229	327	327	3250
+7561	Muttadile	Large	24	0	90	55	2376	300	300	210	300	300	2314
+7561	Muttadile	Large	24	0	126	1	2376	208	208	146	208	208	3250
+7561	Muttadile	Large	24	1	100	99	2376	565	565	396	565	565	3861
+7561	Muttadile	Large	24	1	60	99	2376	565	565	396	565	565	2320
+7561	Muttadile	Large	24	1	126	70	2376	490	490	343	490	490	4875
+7561	Muttadile	Large	24	1	90	55	2376	450	450	315	450	450	3471
+7561	Muttadile	Large	24	1	126	1	2376	312	312	219	312	312	4875
+7562	Muttadile	Small	1	0	126	99	99	150	150	138	1	150	250
+7562	Muttadile	Small	1	1	126	99	99	225	225	207	1	225	375
+7562	Muttadile	Small	2	0	126	99	198	162	162	139	1	162	500
+7562	Muttadile	Small	2	1	126	99	198	243	243	208	1	243	750
+7562	Muttadile	Small	3	0	126	99	297	163	163	140	1	163	500
+7562	Muttadile	Small	3	1	126	99	297	244	244	210	1	244	750
+7562	Muttadile	Small	4	0	126	99	396	165	165	142	1	165	750
+7562	Muttadile	Small	4	1	126	99	396	247	247	213	1	247	1125
+7562	Muttadile	Small	5	0	126	99	495	177	177	143	1	177	750
+7562	Muttadile	Small	5	1	126	99	495	265	265	214	1	265	1125
+7562	Muttadile	Small	7	0	126	99	693	180	180	146	1	180	1000
+7562	Muttadile	Small	7	1	126	99	693	270	270	219	1	270	1500
+7562	Muttadile	Small	8	0	126	99	792	181	181	146	1	181	1250
+7562	Muttadile	Small	8	1	126	99	792	271	271	219	1	271	1875
+7562	Muttadile	Small	9	0	126	99	891	183	183	147	1	183	1250
+7562	Muttadile	Small	9	1	126	99	891	274	274	220	1	274	1875
+7562	Muttadile	Small	12	0	126	99	1188	198	198	151	1	198	1750
+7562	Muttadile	Small	12	1	126	99	1188	297	297	226	1	297	2625
+7562	Muttadile	Small	15	0	126	99	1485	202	202	154	1	202	2000
+7562	Muttadile	Small	15	1	126	99	1485	303	303	231	1	303	3000
+7562	Muttadile	Small	16	0	126	99	1584	204	204	155	1	204	2250
+7562	Muttadile	Small	16	1	126	99	1584	306	306	232	1	306	3375
+7562	Muttadile	Small	23	0	126	99	2277	225	225	164	1	225	3000
+7562	Muttadile	Small	23	1	126	99	2277	337	337	246	1	337	4500
+7562	Muttadile	Small	24	0	126	99	2376	226	226	165	1	226	3250
+7562	Muttadile	Small	24	1	126	99	2376	339	339	247	1	339	4875
+7562	Muttadile	Small	32	0	126	99	3168	249	249	173	1	249	4250
+7562	Muttadile	Small	32	1	126	99	3168	373	373	259	1	373	6375
+7562	Muttadile	Small	49	0	126	99	4851	285	285	191	1	285	6250
+7562	Muttadile	Small	49	1	126	99	4851	427	427	286	1	427	9375
+7562	Muttadile	Small	50	0	126	99	4950	297	297	194	1	297	6500
+7562	Muttadile	Small	50	1	126	99	4950	445	445	291	1	445	9750
+7562	Muttadile	Small	51	0	126	99	5049	298	298	195	1	298	6500
+7562	Muttadile	Small	51	1	126	99	5049	447	447	292	1	447	9750
+7562	Muttadile	Small	64	0	126	99	6336	318	318	208	1	318	8250
+7562	Muttadile	Small	64	1	126	99	6336	477	477	312	1	477	12375
+7562	Muttadile	Small	100	0	126	99	9900	393	393	245	1	393	12750
+7562	Muttadile	Small	100	1	126	99	9900	589	589	367	1	589	19125
+7562	Muttadile	Small	1	0	100	99	99	150	150	138	1	150	198
+7562	Muttadile	Small	1	0	60	99	99	150	150	138	1	150	119
+7562	Muttadile	Small	1	0	126	70	99	130	130	119	1	130	250
+7562	Muttadile	Small	1	0	90	55	99	119	119	110	1	119	178
+7562	Muttadile	Small	1	0	126	1	99	83	83	76	1	83	250
+7562	Muttadile	Small	1	1	100	99	99	225	225	207	1	225	297
+7562	Muttadile	Small	1	1	60	99	99	225	225	207	1	225	178
+7562	Muttadile	Small	1	1	126	70	99	195	195	178	1	195	375
+7562	Muttadile	Small	1	1	90	55	99	178	178	165	1	178	267
+7562	Muttadile	Small	1	1	126	1	99	124	124	114	1	124	375
+7562	Muttadile	Small	3	0	100	99	297	163	163	140	1	163	396
+7562	Muttadile	Small	3	0	60	99	297	163	163	140	1	163	238
+7562	Muttadile	Small	3	0	126	70	297	141	141	121	1	141	500
+7562	Muttadile	Small	3	0	90	55	297	129	129	112	1	129	356
+7562	Muttadile	Small	3	0	126	1	297	90	90	77	1	90	500
+7562	Muttadile	Small	3	1	100	99	297	244	244	210	1	244	594
+7562	Muttadile	Small	3	1	60	99	297	244	244	210	1	244	357
+7562	Muttadile	Small	3	1	126	70	297	211	211	181	1	211	750
+7562	Muttadile	Small	3	1	90	55	297	193	193	168	1	193	534
+7562	Muttadile	Small	3	1	126	1	297	135	135	115	1	135	750
+7562	Muttadile	Small	24	0	100	99	2376	226	226	165	1	226	2574
+7562	Muttadile	Small	24	0	60	99	2376	226	226	165	1	226	1547
+7562	Muttadile	Small	24	0	126	70	2376	196	196	142	1	196	3250
+7562	Muttadile	Small	24	0	90	55	2376	179	179	132	1	179	2314
+7562	Muttadile	Small	24	0	126	1	2376	125	125	91	1	125	3250
+7562	Muttadile	Small	24	1	100	99	2376	339	339	247	1	339	3861
+7562	Muttadile	Small	24	1	60	99	2376	339	339	247	1	339	2320
+7562	Muttadile	Small	24	1	126	70	2376	294	294	213	1	294	4875
+7562	Muttadile	Small	24	1	90	55	2376	268	268	198	1	268	3471
+7562	Muttadile	Small	24	1	126	1	2376	187	187	136	1	187	4875
+7548	Scavenger beast	Normal	1	0	126	99	99	120	120	45	1	1	30
+7548	Scavenger beast	Normal	1	1	126	99	99	179	179	67	1	1	45
+7548	Scavenger beast	Normal	2	0	126	99	198	120	120	45	1	1	30
+7548	Scavenger beast	Normal	2	1	126	99	198	179	179	67	1	1	45
+7548	Scavenger beast	Normal	3	0	126	99	297	120	120	45	1	1	30
+7548	Scavenger beast	Normal	3	1	126	99	297	179	179	67	1	1	45
+7548	Scavenger beast	Normal	4	0	126	99	396	120	120	45	1	1	30
+7548	Scavenger beast	Normal	4	1	126	99	396	179	179	67	1	1	45
+7548	Scavenger beast	Normal	5	0	126	99	495	120	120	45	1	1	30
+7548	Scavenger beast	Normal	5	1	126	99	495	179	179	67	1	1	45
+7548	Scavenger beast	Normal	7	0	126	99	693	120	120	45	1	1	30
+7548	Scavenger beast	Normal	7	1	126	99	693	179	179	67	1	1	45
+7548	Scavenger beast	Normal	8	0	126	99	792	120	120	45	1	1	30
+7548	Scavenger beast	Normal	8	1	126	99	792	179	179	67	1	1	45
+7548	Scavenger beast	Normal	9	0	126	99	891	120	120	45	1	1	30
+7548	Scavenger beast	Normal	9	1	126	99	891	179	179	67	1	1	45
+7548	Scavenger beast	Normal	12	0	126	99	1188	120	120	45	1	1	30
+7548	Scavenger beast	Normal	12	1	126	99	1188	179	179	67	1	1	45
+7548	Scavenger beast	Normal	15	0	126	99	1485	120	120	45	1	1	30
+7548	Scavenger beast	Normal	15	1	126	99	1485	179	179	67	1	1	45
+7548	Scavenger beast	Normal	16	0	126	99	1584	120	120	45	1	1	30
+7548	Scavenger beast	Normal	16	1	126	99	1584	179	179	67	1	1	45
+7548	Scavenger beast	Normal	23	0	126	99	2277	120	120	45	1	1	30
+7548	Scavenger beast	Normal	23	1	126	99	2277	179	179	67	1	1	45
+7548	Scavenger beast	Normal	24	0	126	99	2376	120	120	45	1	1	30
+7548	Scavenger beast	Normal	24	1	126	99	2376	179	179	67	1	1	45
+7548	Scavenger beast	Normal	32	0	126	99	3168	120	120	45	1	1	30
+7548	Scavenger beast	Normal	32	1	126	99	3168	179	179	67	1	1	45
+7548	Scavenger beast	Normal	49	0	126	99	4851	120	120	45	1	1	30
+7548	Scavenger beast	Normal	49	1	126	99	4851	179	179	67	1	1	45
+7548	Scavenger beast	Normal	50	0	126	99	4950	120	120	45	1	1	30
+7548	Scavenger beast	Normal	50	1	126	99	4950	179	179	67	1	1	45
+7548	Scavenger beast	Normal	51	0	126	99	5049	120	120	45	1	1	30
+7548	Scavenger beast	Normal	51	1	126	99	5049	179	179	67	1	1	45
+7548	Scavenger beast	Normal	64	0	126	99	6336	120	120	45	1	1	30
+7548	Scavenger beast	Normal	64	1	126	99	6336	179	179	67	1	1	45
+7548	Scavenger beast	Normal	100	0	126	99	9900	120	120	45	1	1	30
+7548	Scavenger beast	Normal	100	1	126	99	9900	179	179	67	1	1	45
+7548	Scavenger beast	Normal	1	0	100	99	99	120	120	45	1	1	23
+7548	Scavenger beast	Normal	1	0	60	99	99	120	120	45	1	1	14
+7548	Scavenger beast	Normal	1	0	126	70	99	84	84	31	1	1	30
+7548	Scavenger beast	Normal	1	0	90	55	99	66	66	25	1	1	21
+7548	Scavenger beast	Normal	1	0	126	1	99	66	66	25	1	1	30
+7548	Scavenger beast	Normal	1	1	100	99	99	179	179	67	1	1	35
+7548	Scavenger beast	Normal	1	1	60	99	99	179	179	67	1	1	21
+7548	Scavenger beast	Normal	1	1	126	70	99	127	127	47	1	1	45
+7548	Scavenger beast	Normal	1	1	90	55	99	99	99	37	1	1	32
+7548	Scavenger beast	Normal	1	1	126	1	99	99	99	37	1	1	45
+7548	Scavenger beast	Normal	3	0	100	99	297	120	120	45	1	1	23
+7548	Scavenger beast	Normal	3	0	60	99	297	120	120	45	1	1	14
+7548	Scavenger beast	Normal	3	0	126	70	297	84	84	31	1	1	30
+7548	Scavenger beast	Normal	3	0	90	55	297	66	66	25	1	1	21
+7548	Scavenger beast	Normal	3	0	126	1	297	66	66	25	1	1	30
+7548	Scavenger beast	Normal	3	1	100	99	297	179	179	67	1	1	35
+7548	Scavenger beast	Normal	3	1	60	99	297	179	179	67	1	1	21
+7548	Scavenger beast	Normal	3	1	126	70	297	127	127	47	1	1	45
+7548	Scavenger beast	Normal	3	1	90	55	297	99	99	37	1	1	32
+7548	Scavenger beast	Normal	3	1	126	1	297	99	99	37	1	1	45
+7548	Scavenger beast	Normal	24	0	100	99	2376	120	120	45	1	1	23
+7548	Scavenger beast	Normal	24	0	60	99	2376	120	120	45	1	1	14
+7548	Scavenger beast	Normal	24	0	126	70	2376	84	84	31	1	1	30
+7548	Scavenger beast	Normal	24	0	90	55	2376	66	66	25	1	1	21
+7548	Scavenger beast	Normal	24	0	126	1	2376	66	66	25	1	1	30
+7548	Scavenger beast	Normal	24	1	100	99	2376	179	179	67	1	1	35
+7548	Scavenger beast	Normal	24	1	60	99	2376	179	179	67	1	1	21
+7548	Scavenger beast	Normal	24	1	126	70	2376	127	127	47	1	1	45
+7548	Scavenger beast	Normal	24	1	90	55	2376	99	99	37	1	1	32
+7548	Scavenger beast	Normal	24	1	126	1	2376	99	99	37	1	1	45
+7604	Skeletal Mystic	Normal	1	0	126	99	99	140	140	187	140	1	160
+7604	Skeletal Mystic	Normal	1	1	126	99	99	210	210	280	210	1	240
+7604	Skeletal Mystic	Normal	2	0	126	99	198	151	151	188	151	1	320
+7604	Skeletal Mystic	Normal	2	1	126	99	198	226	226	282	226	1	480
+7604	Skeletal Mystic	Normal	3	0	126	99	297	152	152	190	152	1	320
+7604	Skeletal Mystic	Normal	3	1	126	99	297	228	228	285	228	1	480
+7604	Skeletal Mystic	Normal	4	0	126	99	396	154	154	192	154	1	480
+7604	Skeletal Mystic	Normal	4	1	126	99	396	231	231	288	231	1	720
+7604	Skeletal Mystic	Normal	5	0	126	99	495	165	165	194	165	1	480
+7604	Skeletal Mystic	Normal	5	1	126	99	495	247	247	291	247	1	720
+7604	Skeletal Mystic	Normal	7	0	126	99	693	168	168	198	168	1	640
+7604	Skeletal Mystic	Normal	7	1	126	99	693	252	252	297	252	1	960
+7604	Skeletal Mystic	Normal	8	0	126	99	792	169	169	198	169	1	800
+7604	Skeletal Mystic	Normal	8	1	126	99	792	253	253	297	253	1	1200
+7604	Skeletal Mystic	Normal	9	0	126	99	891	170	170	200	170	1	800
+7604	Skeletal Mystic	Normal	9	1	126	99	891	255	255	300	255	1	1200
+7604	Skeletal Mystic	Normal	12	0	126	99	1188	184	184	205	184	1	1120
+7604	Skeletal Mystic	Normal	12	1	126	99	1188	276	276	307	276	1	1680
+7604	Skeletal Mystic	Normal	15	0	126	99	1485	189	189	209	189	1	1280
+7604	Skeletal Mystic	Normal	15	1	126	99	1485	283	283	313	283	1	1920
+7604	Skeletal Mystic	Normal	16	0	126	99	1584	190	190	211	190	1	1440
+7604	Skeletal Mystic	Normal	16	1	126	99	1584	285	285	316	285	1	2160
+7604	Skeletal Mystic	Normal	23	0	126	99	2277	210	210	222	210	1	1920
+7604	Skeletal Mystic	Normal	23	1	126	99	2277	315	315	333	315	1	2880
+7604	Skeletal Mystic	Normal	24	0	126	99	2376	211	211	224	211	1	2080
+7604	Skeletal Mystic	Normal	24	1	126	99	2376	316	316	336	316	1	3120
+7604	Skeletal Mystic	Normal	32	0	126	99	3168	232	232	235	232	1	2720
+7604	Skeletal Mystic	Normal	32	1	126	99	3168	348	348	352	348	1	4080
+7604	Skeletal Mystic	Normal	49	0	126	99	4851	266	266	259	266	1	4000
+7604	Skeletal Mystic	Normal	49	1	126	99	4851	399	399	388	399	1	6000
+7604	Skeletal Mystic	Normal	50	0	126	99	4950	277	277	263	277	1	4160
+7604	Skeletal Mystic	Normal	50	1	126	99	4950	415	415	394	415	1	6240
+7604	Skeletal Mystic	Normal	51	0	126	99	5049	278	278	265	278	1	4160
+7604	Skeletal Mystic	Normal	51	1	126	99	5049	417	417	397	417	1	6240
+7604	Skeletal Mystic	Normal	64	0	126	99	6336	296	296	282	296	1	5280
+7604	Skeletal Mystic	Normal	64	1	126	99	6336	444	444	423	444	1	7920
+7604	Skeletal Mystic	Normal	100	0	126	99	9900	366	366	332	366	1	8160
+7604	Skeletal Mystic	Normal	100	1	126	99	9900	549	549	498	549	1	12240
+7604	Skeletal Mystic	Normal	1	0	100	99	99	140	140	187	140	1	126
+7604	Skeletal Mystic	Normal	1	0	60	99	99	140	140	187	140	1	76
+7604	Skeletal Mystic	Normal	1	0	126	70	99	121	121	162	121	1	160
+7604	Skeletal Mystic	Normal	1	0	90	55	99	111	111	149	111	1	114
+7604	Skeletal Mystic	Normal	1	0	126	1	99	77	77	103	77	1	160
+7604	Skeletal Mystic	Normal	1	1	100	99	99	210	210	280	210	1	189
+7604	Skeletal Mystic	Normal	1	1	60	99	99	210	210	280	210	1	114
+7604	Skeletal Mystic	Normal	1	1	126	70	99	181	181	243	181	1	240
+7604	Skeletal Mystic	Normal	1	1	90	55	99	166	166	223	166	1	171
+7604	Skeletal Mystic	Normal	1	1	126	1	99	115	115	154	115	1	240
+7604	Skeletal Mystic	Normal	3	0	100	99	297	152	152	190	152	1	252
+7604	Skeletal Mystic	Normal	3	0	60	99	297	152	152	190	152	1	152
+7604	Skeletal Mystic	Normal	3	0	126	70	297	131	131	165	131	1	320
+7604	Skeletal Mystic	Normal	3	0	90	55	297	120	120	151	120	1	228
+7604	Skeletal Mystic	Normal	3	0	126	1	297	83	83	105	83	1	320
+7604	Skeletal Mystic	Normal	3	1	100	99	297	228	228	285	228	1	378
+7604	Skeletal Mystic	Normal	3	1	60	99	297	228	228	285	228	1	228
+7604	Skeletal Mystic	Normal	3	1	126	70	297	196	196	247	196	1	480
+7604	Skeletal Mystic	Normal	3	1	90	55	297	180	180	226	180	1	342
+7604	Skeletal Mystic	Normal	3	1	126	1	297	124	124	157	124	1	480
+7604	Skeletal Mystic	Normal	24	0	100	99	2376	211	211	224	211	1	1638
+7604	Skeletal Mystic	Normal	24	0	60	99	2376	211	211	224	211	1	988
+7604	Skeletal Mystic	Normal	24	0	126	70	2376	182	182	194	182	1	2080
+7604	Skeletal Mystic	Normal	24	0	90	55	2376	167	167	178	167	1	1482
+7604	Skeletal Mystic	Normal	24	0	126	1	2376	116	116	123	116	1	2080
+7604	Skeletal Mystic	Normal	24	1	100	99	2376	316	316	336	316	1	2457
+7604	Skeletal Mystic	Normal	24	1	60	99	2376	316	316	336	316	1	1482
+7604	Skeletal Mystic	Normal	24	1	126	70	2376	273	273	291	273	1	3120
+7604	Skeletal Mystic	Normal	24	1	90	55	2376	250	250	267	250	1	2223
+7604	Skeletal Mystic	Normal	24	1	126	1	2376	174	174	184	174	1	3120
+7543	Tekton	Enraged	1	0	126	99	99	390	390	205	205	1	300
+7543	Tekton	Enraged	1	1	126	99	99	585	585	246	246	1	450
+7543	Tekton	Enraged	2	0	126	99	198	421	421	207	207	1	600
+7543	Tekton	Enraged	2	1	126	99	198	631	631	248	248	1	900
+7543	Tekton	Enraged	3	0	126	99	297	425	425	209	209	1	600
+7543	Tekton	Enraged	3	1	126	99	297	637	637	250	250	1	900
+7543	Tekton	Enraged	4	0	126	99	396	429	429	211	211	1	900
+7543	Tekton	Enraged	4	1	126	99	396	643	643	284	284	1	1350
+7543	Tekton	Enraged	5	0	126	99	495	460	460	213	213	1	900
+7543	Tekton	Enraged	5	1	126	99	495	690	690	287	287	1	1350
+7543	Tekton	Enraged	7	0	126	99	693	468	468	217	217	1	1200
+7543	Tekton	Enraged	7	1	126	99	693	702	702	292	292	1	1800
+7543	Tekton	Enraged	8	0	126	99	792	471	471	217	217	1	1500
+7543	Tekton	Enraged	8	1	126	99	792	706	706	292	292	1	2250
+7543	Tekton	Enraged	9	0	126	99	891	475	475	219	219	1	1500
+7543	Tekton	Enraged	9	1	126	99	891	712	712	295	295	1	2250
+7543	Tekton	Enraged	12	0	126	99	1188	514	514	225	225	1	2100
+7543	Tekton	Enraged	12	1	126	99	1188	771	771	303	303	1	3150
+7543	Tekton	Enraged	15	0	126	99	1485	526	526	229	229	1	2400
+7543	Tekton	Enraged	15	1	126	99	1485	789	789	309	309	1	3600
+7543	Tekton	Enraged	16	0	126	99	1584	530	530	231	231	1	2700
+7543	Tekton	Enraged	16	1	126	99	1584	795	795	311	311	1	4050
+7543	Tekton	Enraged	23	0	126	99	2277	585	585	243	243	1	3600
+7543	Tekton	Enraged	23	1	126	99	2277	877	877	328	328	1	5400
+7543	Tekton	Enraged	24	0	126	99	2376	588	588	246	246	1	3900
+7543	Tekton	Enraged	24	1	126	99	2376	882	882	332	332	1	5850
+7543	Tekton	Enraged	32	0	126	99	3168	647	647	258	258	1	5100
+7543	Tekton	Enraged	32	1	126	99	3168	970	970	348	348	1	7650
+7543	Tekton	Enraged	49	0	126	99	4851	741	741	284	284	1	7500
+7543	Tekton	Enraged	49	1	126	99	4851	1111	1111	383	383	1	11250
+7543	Tekton	Enraged	50	0	126	99	4950	772	772	289	289	1	7800
+7543	Tekton	Enraged	50	1	126	99	4950	1158	1158	390	390	1	11700
+7543	Tekton	Enraged	51	0	126	99	5049	776	776	291	291	1	7800
+7543	Tekton	Enraged	51	1	126	99	5049	1164	1164	392	392	1	11700
+7543	Tekton	Enraged	64	0	126	99	6336	826	826	309	309	1	9900
+7543	Tekton	Enraged	64	1	126	99	6336	1239	1239	417	417	1	14850
+7543	Tekton	Enraged	100	0	126	99	9900	1021	1021	364	364	1	15300
+7543	Tekton	Enraged	100	1	126	99	9900	1531	1531	491	491	1	22950
+7543	Tekton	Enraged	1	0	100	99	99	390	390	205	205	1	238
+7543	Tekton	Enraged	1	0	60	99	99	390	390	205	205	1	142
+7543	Tekton	Enraged	1	0	126	70	99	338	338	178	178	1	300
+7543	Tekton	Enraged	1	0	90	55	99	311	311	163	163	1	214
+7543	Tekton	Enraged	1	0	126	1	99	216	216	113	113	1	300
+7543	Tekton	Enraged	1	1	100	99	99	585	585	246	246	1	357
+7543	Tekton	Enraged	1	1	60	99	99	585	585	246	246	1	213
+7543	Tekton	Enraged	1	1	126	70	99	507	507	213	213	1	450
+7543	Tekton	Enraged	1	1	90	55	99	466	466	195	195	1	321
+7543	Tekton	Enraged	1	1	126	1	99	324	324	135	135	1	450
+7543	Tekton	Enraged	3	0	100	99	297	425	425	209	209	1	476
+7543	Tekton	Enraged	3	0	60	99	297	425	425	209	209	1	284
+7543	Tekton	Enraged	3	0	126	70	297	368	368	181	181	1	600
+7543	Tekton	Enraged	3	0	90	55	297	338	338	166	166	1	428
+7543	Tekton	Enraged	3	0	126	1	297	235	235	115	115	1	600
+7543	Tekton	Enraged	3	1	100	99	297	637	637	250	250	1	714
+7543	Tekton	Enraged	3	1	60	99	297	637	637	250	250	1	426
+7543	Tekton	Enraged	3	1	126	70	297	552	552	217	217	1	900
+7543	Tekton	Enraged	3	1	90	55	297	507	507	199	199	1	642
+7543	Tekton	Enraged	3	1	126	1	297	352	352	138	138	1	900
+7543	Tekton	Enraged	24	0	100	99	2376	588	588	246	246	1	3094
+7543	Tekton	Enraged	24	0	60	99	2376	588	588	246	246	1	1846
+7543	Tekton	Enraged	24	0	126	70	2376	510	510	213	213	1	3900
+7543	Tekton	Enraged	24	0	90	55	2376	469	469	195	195	1	2782
+7543	Tekton	Enraged	24	0	126	1	2376	326	326	135	135	1	3900
+7543	Tekton	Enraged	24	1	100	99	2376	882	882	332	332	1	4641
+7543	Tekton	Enraged	24	1	60	99	2376	882	882	332	332	1	2769
+7543	Tekton	Enraged	24	1	126	70	2376	765	765	287	287	1	5850
+7543	Tekton	Enraged	24	1	90	55	2376	703	703	263	263	1	4173
+7543	Tekton	Enraged	24	1	126	1	2376	489	489	182	182	1	5850
+7540	Tekton	Normal	1	0	126	99	99	390	390	205	205	1	300
+7540	Tekton	Normal	1	1	126	99	99	585	585	246	246	1	450
+7540	Tekton	Normal	2	0	126	99	198	421	421	207	207	1	600
+7540	Tekton	Normal	2	1	126	99	198	631	631	248	248	1	900
+7540	Tekton	Normal	3	0	126	99	297	425	425	209	209	1	600
+7540	Tekton	Normal	3	1	126	99	297	637	637	250	250	1	900
+7540	Tekton	Normal	4	0	126	99	396	429	429	211	211	1	900
+7540	Tekton	Normal	4	1	126	99	396	643	643	284	284	1	1350
+7540	Tekton	Normal	5	0	126	99	495	460	460	213	213	1	900
+7540	Tekton	Normal	5	1	126	99	495	690	690	287	287	1	1350
+7540	Tekton	Normal	7	0	126	99	693	468	468	217	217	1	1200
+7540	Tekton	Normal	7	1	126	99	693	702	702	292	292	1	1800
+7540	Tekton	Normal	8	0	126	99	792	471	471	217	217	1	1500
+7540	Tekton	Normal	8	1	126	99	792	706	706	292	292	1	2250
+7540	Tekton	Normal	9	0	126	99	891	475	475	219	219	1	1500
+7540	Tekton	Normal	9	1	126	99	891	712	712	295	295	1	2250
+7540	Tekton	Normal	12	0	126	99	1188	514	514	225	225	1	2100
+7540	Tekton	Normal	12	1	126	99	1188	771	771	303	303	1	3150
+7540	Tekton	Normal	15	0	126	99	1485	526	526	229	229	1	2400
+7540	Tekton	Normal	15	1	126	99	1485	789	789	309	309	1	3600
+7540	Tekton	Normal	16	0	126	99	1584	530	530	231	231	1	2700
+7540	Tekton	Normal	16	1	126	99	1584	795	795	311	311	1	4050
+7540	Tekton	Normal	23	0	126	99	2277	585	585	243	243	1	3600
+7540	Tekton	Normal	23	1	126	99	2277	877	877	328	328	1	5400
+7540	Tekton	Normal	24	0	126	99	2376	588	588	246	246	1	3900
+7540	Tekton	Normal	24	1	126	99	2376	882	882	332	332	1	5850
+7540	Tekton	Normal	32	0	126	99	3168	647	647	258	258	1	5100
+7540	Tekton	Normal	32	1	126	99	3168	970	970	348	348	1	7650
+7540	Tekton	Normal	49	0	126	99	4851	741	741	284	284	1	7500
+7540	Tekton	Normal	49	1	126	99	4851	1111	1111	383	383	1	11250
+7540	Tekton	Normal	50	0	126	99	4950	772	772	289	289	1	7800
+7540	Tekton	Normal	50	1	126	99	4950	1158	1158	390	390	1	11700
+7540	Tekton	Normal	51	0	126	99	5049	776	776	291	291	1	7800
+7540	Tekton	Normal	51	1	126	99	5049	1164	1164	392	392	1	11700
+7540	Tekton	Normal	64	0	126	99	6336	826	826	309	309	1	9900
+7540	Tekton	Normal	64	1	126	99	6336	1239	1239	417	417	1	14850
+7540	Tekton	Normal	100	0	126	99	9900	1021	1021	364	364	1	15300
+7540	Tekton	Normal	100	1	126	99	9900	1531	1531	491	491	1	22950
+7540	Tekton	Normal	1	0	100	99	99	390	390	205	205	1	238
+7540	Tekton	Normal	1	0	60	99	99	390	390	205	205	1	142
+7540	Tekton	Normal	1	0	126	70	99	338	338	178	178	1	300
+7540	Tekton	Normal	1	0	90	55	99	311	311	163	163	1	214
+7540	Tekton	Normal	1	0	126	1	99	216	216	113	113	1	300
+7540	Tekton	Normal	1	1	100	99	99	585	585	246	246	1	357
+7540	Tekton	Normal	1	1	60	99	99	585	585	246	246	1	213
+7540	Tekton	Normal	1	1	126	70	99	507	507	213	213	1	450
+7540	Tekton	Normal	1	1	90	55	99	466	466	195	195	1	321
+7540	Tekton	Normal	1	1	126	1	99	324	324	135	135	1	450
+7540	Tekton	Normal	3	0	100	99	297	425	425	209	209	1	476
+7540	Tekton	Normal	3	0	60	99	297	425	425	209	209	1	284
+7540	Tekton	Normal	3	0	126	70	297	368	368	181	181	1	600
+7540	Tekton	Normal	3	0	90	55	297	338	338	166	166	1	428
+7540	Tekton	Normal	3	0	126	1	297	235	235	115	115	1	600
+7540	Tekton	Normal	3	1	100	99	297	637	637	250	250	1	714
+7540	Tekton	Normal	3	1	60	99	297	637	637	250	250	1	426
+7540	Tekton	Normal	3	1	126	70	297	552	552	217	217	1	900
+7540	Tekton	Normal	3	1	90	55	297	507	507	199	199	1	642
+7540	Tekton	Normal	3	1	126	1	297	352	352	138	138	1	900
+7540	Tekton	Normal	24	0	100	99	2376	588	588	246	246	1	3094
+7540	Tekton	Normal	24	0	60	99	2376	588	588	246	246	1	1846
+7540	Tekton	Normal	24	0	126	70	2376	510	510	213	213	1	3900
+7540	Tekton	Normal	24	0	90	55	2376	469	469	195	195	1	2782
+7540	Tekton	Normal	24	0	126	1	2376	326	326	135	135	1	3900
+7540	Tekton	Normal	24	1	100	99	2376	882	882	332	332	1	4641
+7540	Tekton	Normal	24	1	60	99	2376	882	882	332	332	1	2769
+7540	Tekton	Normal	24	1	126	70	2376	765	765	287	287	1	5850
+7540	Tekton	Normal	24	1	90	55	2376	703	703	263	263	1	4173
+7540	Tekton	Normal	24	1	126	1	2376	489	489	182	182	1	5850
+7529	Vanguard	Magic	1	0	126	99	99	150	150	160	150	150	180
+7529	Vanguard	Magic	1	1	126	99	99	225	225	240	225	225	270
+7529	Vanguard	Magic	2	0	126	99	198	162	162	161	162	162	360
+7529	Vanguard	Magic	2	1	126	99	198	243	243	241	243	243	540
+7529	Vanguard	Magic	3	0	126	99	297	163	163	163	163	163	360
+7529	Vanguard	Magic	3	1	126	99	297	244	244	244	244	244	540
+7529	Vanguard	Magic	4	0	126	99	396	165	165	164	165	165	540
+7529	Vanguard	Magic	4	1	126	99	396	247	247	246	247	247	810
+7529	Vanguard	Magic	5	0	126	99	495	177	177	166	177	177	540
+7529	Vanguard	Magic	5	1	126	99	495	265	265	249	265	265	810
+7529	Vanguard	Magic	7	0	126	99	693	180	180	169	180	180	720
+7529	Vanguard	Magic	7	1	126	99	693	270	270	253	270	270	1080
+7529	Vanguard	Magic	8	0	126	99	792	181	181	169	181	181	900
+7529	Vanguard	Magic	8	1	126	99	792	271	271	253	271	271	1350
+7529	Vanguard	Magic	9	0	126	99	891	183	183	171	183	183	900
+7529	Vanguard	Magic	9	1	126	99	891	274	274	256	274	274	1350
+7529	Vanguard	Magic	12	0	126	99	1188	198	198	176	198	198	1260
+7529	Vanguard	Magic	12	1	126	99	1188	297	297	264	297	297	1890
+7529	Vanguard	Magic	15	0	126	99	1485	202	202	179	202	202	1440
+7529	Vanguard	Magic	15	1	126	99	1485	303	303	268	303	303	2160
+7529	Vanguard	Magic	16	0	126	99	1584	204	204	180	204	204	1620
+7529	Vanguard	Magic	16	1	126	99	1584	306	306	270	306	306	2430
+7529	Vanguard	Magic	23	0	126	99	2277	225	225	190	225	225	2160
+7529	Vanguard	Magic	23	1	126	99	2277	337	337	285	337	337	3240
+7529	Vanguard	Magic	24	0	126	99	2376	226	226	192	226	226	2340
+7529	Vanguard	Magic	24	1	126	99	2376	339	339	288	339	339	3510
+7529	Vanguard	Magic	32	0	126	99	3168	249	249	201	249	249	3060
+7529	Vanguard	Magic	32	1	126	99	3168	373	373	301	373	373	4590
+7529	Vanguard	Magic	49	0	126	99	4851	285	285	222	285	285	4500
+7529	Vanguard	Magic	49	1	126	99	4851	427	427	333	427	427	6750
+7529	Vanguard	Magic	50	0	126	99	4950	297	297	225	297	297	4680
+7529	Vanguard	Magic	50	1	126	99	4950	445	445	337	445	445	7020
+7529	Vanguard	Magic	51	0	126	99	5049	298	298	227	298	298	4680
+7529	Vanguard	Magic	51	1	126	99	5049	447	447	340	447	447	7020
+7529	Vanguard	Magic	64	0	126	99	6336	318	318	241	318	318	5940
+7529	Vanguard	Magic	64	1	126	99	6336	477	477	361	477	477	8910
+7529	Vanguard	Magic	100	0	126	99	9900	393	393	284	393	393	9180
+7529	Vanguard	Magic	100	1	126	99	9900	589	589	426	589	589	13770
+7529	Vanguard	Magic	1	0	100	99	99	150	150	160	150	150	142
+7529	Vanguard	Magic	1	0	60	99	99	150	150	160	150	150	85
+7529	Vanguard	Magic	1	0	126	70	99	130	130	138	130	130	180
+7529	Vanguard	Magic	1	0	90	55	99	119	119	127	119	119	128
+7529	Vanguard	Magic	1	0	126	1	99	83	83	88	83	83	180
+7529	Vanguard	Magic	1	1	100	99	99	225	225	240	225	225	213
+7529	Vanguard	Magic	1	1	60	99	99	225	225	240	225	225	127
+7529	Vanguard	Magic	1	1	126	70	99	195	195	207	195	195	270
+7529	Vanguard	Magic	1	1	90	55	99	178	178	190	178	178	192
+7529	Vanguard	Magic	1	1	126	1	99	124	124	132	124	124	270
+7529	Vanguard	Magic	3	0	100	99	297	163	163	163	163	163	284
+7529	Vanguard	Magic	3	0	60	99	297	163	163	163	163	163	170
+7529	Vanguard	Magic	3	0	126	70	297	141	141	140	141	141	360
+7529	Vanguard	Magic	3	0	90	55	297	129	129	129	129	129	256
+7529	Vanguard	Magic	3	0	126	1	297	90	90	89	90	90	360
+7529	Vanguard	Magic	3	1	100	99	297	244	244	244	244	244	426
+7529	Vanguard	Magic	3	1	60	99	297	244	244	244	244	244	255
+7529	Vanguard	Magic	3	1	126	70	297	211	211	210	211	211	540
+7529	Vanguard	Magic	3	1	90	55	297	193	193	193	193	193	384
+7529	Vanguard	Magic	3	1	126	1	297	135	135	133	135	135	540
+7529	Vanguard	Magic	24	0	100	99	2376	226	226	192	226	226	1846
+7529	Vanguard	Magic	24	0	60	99	2376	226	226	192	226	226	1105
+7529	Vanguard	Magic	24	0	126	70	2376	196	196	165	196	196	2340
+7529	Vanguard	Magic	24	0	90	55	2376	179	179	152	179	179	1664
+7529	Vanguard	Magic	24	0	126	1	2376	125	125	105	125	125	2340
+7529	Vanguard	Magic	24	1	100	99	2376	339	339	288	339	339	2769
+7529	Vanguard	Magic	24	1	60	99	2376	339	339	288	339	339	1657
+7529	Vanguard	Magic	24	1	126	70	2376	294	294	247	294	294	3510
+7529	Vanguard	Magic	24	1	90	55	2376	268	268	228	268	268	2496
+7529	Vanguard	Magic	24	1	126	1	2376	187	187	157	187	187	3510
+7527	Vanguard	Melee	1	0	126	99	99	150	150	160	150	150	180
+7527	Vanguard	Melee	1	1	126	99	99	225	225	240	225	225	270
+7527	Vanguard	Melee	2	0	126	99	198	162	162	161	162	162	360
+7527	Vanguard	Melee	2	1	126	99	198	243	243	241	243	243	540
+7527	Vanguard	Melee	3	0	126	99	297	163	163	163	163	163	360
+7527	Vanguard	Melee	3	1	126	99	297	244	244	244	244	244	540
+7527	Vanguard	Melee	4	0	126	99	396	165	165	164	165	165	540
+7527	Vanguard	Melee	4	1	126	99	396	247	247	246	247	247	810
+7527	Vanguard	Melee	5	0	126	99	495	177	177	166	177	177	540
+7527	Vanguard	Melee	5	1	126	99	495	265	265	249	265	265	810
+7527	Vanguard	Melee	7	0	126	99	693	180	180	169	180	180	720
+7527	Vanguard	Melee	7	1	126	99	693	270	270	253	270	270	1080
+7527	Vanguard	Melee	8	0	126	99	792	181	181	169	181	181	900
+7527	Vanguard	Melee	8	1	126	99	792	271	271	253	271	271	1350
+7527	Vanguard	Melee	9	0	126	99	891	183	183	171	183	183	900
+7527	Vanguard	Melee	9	1	126	99	891	274	274	256	274	274	1350
+7527	Vanguard	Melee	12	0	126	99	1188	198	198	176	198	198	1260
+7527	Vanguard	Melee	12	1	126	99	1188	297	297	264	297	297	1890
+7527	Vanguard	Melee	15	0	126	99	1485	202	202	179	202	202	1440
+7527	Vanguard	Melee	15	1	126	99	1485	303	303	268	303	303	2160
+7527	Vanguard	Melee	16	0	126	99	1584	204	204	180	204	204	1620
+7527	Vanguard	Melee	16	1	126	99	1584	306	306	270	306	306	2430
+7527	Vanguard	Melee	23	0	126	99	2277	225	225	190	225	225	2160
+7527	Vanguard	Melee	23	1	126	99	2277	337	337	285	337	337	3240
+7527	Vanguard	Melee	24	0	126	99	2376	226	226	192	226	226	2340
+7527	Vanguard	Melee	24	1	126	99	2376	339	339	288	339	339	3510
+7527	Vanguard	Melee	32	0	126	99	3168	249	249	201	249	249	3060
+7527	Vanguard	Melee	32	1	126	99	3168	373	373	301	373	373	4590
+7527	Vanguard	Melee	49	0	126	99	4851	285	285	222	285	285	4500
+7527	Vanguard	Melee	49	1	126	99	4851	427	427	333	427	427	6750
+7527	Vanguard	Melee	50	0	126	99	4950	297	297	225	297	297	4680
+7527	Vanguard	Melee	50	1	126	99	4950	445	445	337	445	445	7020
+7527	Vanguard	Melee	51	0	126	99	5049	298	298	227	298	298	4680
+7527	Vanguard	Melee	51	1	126	99	5049	447	447	340	447	447	7020
+7527	Vanguard	Melee	64	0	126	99	6336	318	318	241	318	318	5940
+7527	Vanguard	Melee	64	1	126	99	6336	477	477	361	477	477	8910
+7527	Vanguard	Melee	100	0	126	99	9900	393	393	284	393	393	9180
+7527	Vanguard	Melee	100	1	126	99	9900	589	589	426	589	589	13770
+7527	Vanguard	Melee	1	0	100	99	99	150	150	160	150	150	142
+7527	Vanguard	Melee	1	0	60	99	99	150	150	160	150	150	85
+7527	Vanguard	Melee	1	0	126	70	99	130	130	138	130	130	180
+7527	Vanguard	Melee	1	0	90	55	99	119	119	127	119	119	128
+7527	Vanguard	Melee	1	0	126	1	99	83	83	88	83	83	180
+7527	Vanguard	Melee	1	1	100	99	99	225	225	240	225	225	213
+7527	Vanguard	Melee	1	1	60	99	99	225	225	240	225	225	127
+7527	Vanguard	Melee	1	1	126	70	99	195	195	207	195	195	270
+7527	Vanguard	Melee	1	1	90	55	99	178	178	190	178	178	192
+7527	Vanguard	Melee	1	1	126	1	99	124	124	132	124	124	270
+7527	Vanguard	Melee	3	0	100	99	297	163	163	163	163	163	284
+7527	Vanguard	Melee	3	0	60	99	297	163	163	163	163	163	170
+7527	Vanguard	Melee	3	0	126	70	297	141	141	140	141	141	360
+7527	Vanguard	Melee	3	0	90	55	297	129	129	129	129	129	256
+7527	Vanguard	Melee	3	0	126	1	297	90	90	89	90	90	360
+7527	Vanguard	Melee	3	1	100	99	297	244	244	244	244	244	426
+7527	Vanguard	Melee	3	1	60	99	297	244	244	244	244	244	255
+7527	Vanguard	Melee	3	1	126	70	297	211	211	210	211	211	540
+7527	Vanguard	Melee	3	1	90	55	297	193	193	193	193	193	384
+7527	Vanguard	Melee	3	1	126	1	297	135	135	133	135	135	540
+7527	Vanguard	Melee	24	0	100	99	2376	226	226	192	226	226	1846
+7527	Vanguard	Melee	24	0	60	99	2376	226	226	192	226	226	1105
+7527	Vanguard	Melee	24	0	126	70	2376	196	196	165	196	196	2340
+7527	Vanguard	Melee	24	0	90	55	2376	179	179	152	179	179	1664
+7527	Vanguard	Melee	24	0	126	1	2376	125	125	105	125	125	2340
+7527	Vanguard	Melee	24	1	100	99	2376	339	339	288	339	339	2769
+7527	Vanguard	Melee	24	1	60	99	2376	339	339	288	339	339	1657
+7527	Vanguard	Melee	24	1	126	70	2376	294	294	247	294	294	3510
+7527	Vanguard	Melee	24	1	90	55	2376	268	268	228	268	268	2496
+7527	Vanguard	Melee	24	1	126	1	2376	187	187	157	187	187	3510
+7528	Vanguard	Ranged	1	0	126	99	99	150	150	160	150	150	180
+7528	Vanguard	Ranged	1	1	126	99	99	225	225	240	225	225	270
+7528	Vanguard	Ranged	2	0	126	99	198	162	162	161	162	162	360
+7528	Vanguard	Ranged	2	1	126	99	198	243	243	241	243	243	540
+7528	Vanguard	Ranged	3	0	126	99	297	163	163	163	163	163	360
+7528	Vanguard	Ranged	3	1	126	99	297	244	244	244	244	244	540
+7528	Vanguard	Ranged	4	0	126	99	396	165	165	164	165	165	540
+7528	Vanguard	Ranged	4	1	126	99	396	247	247	246	247	247	810
+7528	Vanguard	Ranged	5	0	126	99	495	177	177	166	177	177	540
+7528	Vanguard	Ranged	5	1	126	99	495	265	265	249	265	265	810
+7528	Vanguard	Ranged	7	0	126	99	693	180	180	169	180	180	720
+7528	Vanguard	Ranged	7	1	126	99	693	270	270	253	270	270	1080
+7528	Vanguard	Ranged	8	0	126	99	792	181	181	169	181	181	900
+7528	Vanguard	Ranged	8	1	126	99	792	271	271	253	271	271	1350
+7528	Vanguard	Ranged	9	0	126	99	891	183	183	171	183	183	900
+7528	Vanguard	Ranged	9	1	126	99	891	274	274	256	274	274	1350
+7528	Vanguard	Ranged	12	0	126	99	1188	198	198	176	198	198	1260
+7528	Vanguard	Ranged	12	1	126	99	1188	297	297	264	297	297	1890
+7528	Vanguard	Ranged	15	0	126	99	1485	202	202	179	202	202	1440
+7528	Vanguard	Ranged	15	1	126	99	1485	303	303	268	303	303	2160
+7528	Vanguard	Ranged	16	0	126	99	1584	204	204	180	204	204	1620
+7528	Vanguard	Ranged	16	1	126	99	1584	306	306	270	306	306	2430
+7528	Vanguard	Ranged	23	0	126	99	2277	225	225	190	225	225	2160
+7528	Vanguard	Ranged	23	1	126	99	2277	337	337	285	337	337	3240
+7528	Vanguard	Ranged	24	0	126	99	2376	226	226	192	226	226	2340
+7528	Vanguard	Ranged	24	1	126	99	2376	339	339	288	339	339	3510
+7528	Vanguard	Ranged	32	0	126	99	3168	249	249	201	249	249	3060
+7528	Vanguard	Ranged	32	1	126	99	3168	373	373	301	373	373	4590
+7528	Vanguard	Ranged	49	0	126	99	4851	285	285	222	285	285	4500
+7528	Vanguard	Ranged	49	1	126	99	4851	427	427	333	427	427	6750
+7528	Vanguard	Ranged	50	0	126	99	4950	297	297	225	297	297	4680
+7528	Vanguard	Ranged	50	1	126	99	4950	445	445	337	445	445	7020
+7528	Vanguard	Ranged	51	0	126	99	5049	298	298	227	298	298	4680
+7528	Vanguard	Ranged	51	1	126	99	5049	447	447	340	447	447	7020
+7528	Vanguard	Ranged	64	0	126	99	6336	318	318	241	318	318	5940
+7528	Vanguard	Ranged	64	1	126	99	6336	477	477	361	477	477	8910
+7528	Vanguard	Ranged	100	0	126	99	9900	393	393	284	393	393	9180
+7528	Vanguard	Ranged	100	1	126	99	9900	589	589	426	589	589	13770
+7528	Vanguard	Ranged	1	0	100	99	99	150	150	160	150	150	142
+7528	Vanguard	Ranged	1	0	60	99	99	150	150	160	150	150	85
+7528	Vanguard	Ranged	1	0	126	70	99	130	130	138	130	130	180
+7528	Vanguard	Ranged	1	0	90	55	99	119	119	127	119	119	128
+7528	Vanguard	Ranged	1	0	126	1	99	83	83	88	83	83	180
+7528	Vanguard	Ranged	1	1	100	99	99	225	225	240	225	225	213
+7528	Vanguard	Ranged	1	1	60	99	99	225	225	240	225	225	127
+7528	Vanguard	Ranged	1	1	126	70	99	195	195	207	195	195	270
+7528	Vanguard	Ranged	1	1	90	55	99	178	178	190	178	178	192
+7528	Vanguard	Ranged	1	1	126	1	99	124	124	132	124	124	270
+7528	Vanguard	Ranged	3	0	100	99	297	163	163	163	163	163	284
+7528	Vanguard	Ranged	3	0	60	99	297	163	163	163	163	163	170
+7528	Vanguard	Ranged	3	0	126	70	297	141	141	140	141	141	360
+7528	Vanguard	Ranged	3	0	90	55	297	129	129	129	129	129	256
+7528	Vanguard	Ranged	3	0	126	1	297	90	90	89	90	90	360
+7528	Vanguard	Ranged	3	1	100	99	297	244	244	244	244	244	426
+7528	Vanguard	Ranged	3	1	60	99	297	244	244	244	244	244	255
+7528	Vanguard	Ranged	3	1	126	70	297	211	211	210	211	211	540
+7528	Vanguard	Ranged	3	1	90	55	297	193	193	193	193	193	384
+7528	Vanguard	Ranged	3	1	126	1	297	135	135	133	135	135	540
+7528	Vanguard	Ranged	24	0	100	99	2376	226	226	192	226	226	1846
+7528	Vanguard	Ranged	24	0	60	99	2376	226	226	192	226	226	1105
+7528	Vanguard	Ranged	24	0	126	70	2376	196	196	165	196	196	2340
+7528	Vanguard	Ranged	24	0	90	55	2376	179	179	152	179	179	1664
+7528	Vanguard	Ranged	24	0	126	1	2376	125	125	105	125	125	2340
+7528	Vanguard	Ranged	24	1	100	99	2376	339	339	288	339	339	2769
+7528	Vanguard	Ranged	24	1	60	99	2376	339	339	288	339	339	1657
+7528	Vanguard	Ranged	24	1	126	70	2376	294	294	247	294	294	3510
+7528	Vanguard	Ranged	24	1	90	55	2376	268	268	228	268	268	2496
+7528	Vanguard	Ranged	24	1	126	1	2376	187	187	157	187	187	3510
+7566	Vasa Nistirio	Normal	1	0	126	99	99	1	1	175	230	230	300
+7566	Vasa Nistirio	Normal	1	1	126	99	99	1	1	262	345	345	450
+7566	Vasa Nistirio	Normal	2	0	126	99	198	1	1	176	248	248	600
+7566	Vasa Nistirio	Normal	2	1	126	99	198	1	1	264	372	372	900
+7566	Vasa Nistirio	Normal	3	0	126	99	297	1	1	178	250	250	600
+7566	Vasa Nistirio	Normal	3	1	126	99	297	1	1	267	375	375	900
+7566	Vasa Nistirio	Normal	4	0	126	99	396	1	1	180	253	253	900
+7566	Vasa Nistirio	Normal	4	1	126	99	396	1	1	270	379	379	1350
+7566	Vasa Nistirio	Normal	5	0	126	99	495	1	1	182	271	271	900
+7566	Vasa Nistirio	Normal	5	1	126	99	495	1	1	273	406	406	1350
+7566	Vasa Nistirio	Normal	7	0	126	99	693	1	1	185	276	276	1200
+7566	Vasa Nistirio	Normal	7	1	126	99	693	1	1	277	414	414	1800
+7566	Vasa Nistirio	Normal	8	0	126	99	792	1	1	185	278	278	1500
+7566	Vasa Nistirio	Normal	8	1	126	99	792	1	1	277	417	417	2250
+7566	Vasa Nistirio	Normal	9	0	126	99	891	1	1	187	280	280	1500
+7566	Vasa Nistirio	Normal	9	1	126	99	891	1	1	280	420	420	2250
+7566	Vasa Nistirio	Normal	12	0	126	99	1188	1	1	192	303	303	2100
+7566	Vasa Nistirio	Normal	12	1	126	99	1188	1	1	288	454	454	3150
+7566	Vasa Nistirio	Normal	15	0	126	99	1485	1	1	196	310	310	2400
+7566	Vasa Nistirio	Normal	15	1	126	99	1485	1	1	294	465	465	3600
+7566	Vasa Nistirio	Normal	16	0	126	99	1584	1	1	197	312	312	2700
+7566	Vasa Nistirio	Normal	16	1	126	99	1584	1	1	295	468	468	4050
+7566	Vasa Nistirio	Normal	23	0	126	99	2277	1	1	208	345	345	3600
+7566	Vasa Nistirio	Normal	23	1	126	99	2277	1	1	312	517	517	5400
+7566	Vasa Nistirio	Normal	24	0	126	99	2376	1	1	210	347	347	3900
+7566	Vasa Nistirio	Normal	24	1	126	99	2376	1	1	315	520	520	5850
+7566	Vasa Nistirio	Normal	32	0	126	99	3168	1	1	220	381	381	5100
+7566	Vasa Nistirio	Normal	32	1	126	99	3168	1	1	330	571	571	7650
+7566	Vasa Nistirio	Normal	49	0	126	99	4851	1	1	243	437	437	7500
+7566	Vasa Nistirio	Normal	49	1	126	99	4851	1	1	364	655	655	11250
+7566	Vasa Nistirio	Normal	50	0	126	99	4950	1	1	246	455	455	7800
+7566	Vasa Nistirio	Normal	50	1	126	99	4950	1	1	369	682	682	11700
+7566	Vasa Nistirio	Normal	51	0	126	99	5049	1	1	248	457	457	7800
+7566	Vasa Nistirio	Normal	51	1	126	99	5049	1	1	372	685	685	11700
+7566	Vasa Nistirio	Normal	64	0	126	99	6336	1	1	264	487	487	9900
+7566	Vasa Nistirio	Normal	64	1	126	99	6336	1	1	396	730	730	14850
+7566	Vasa Nistirio	Normal	100	0	126	99	9900	1	1	311	602	602	15300
+7566	Vasa Nistirio	Normal	100	1	126	99	9900	1	1	466	903	903	22950
+7566	Vasa Nistirio	Normal	1	0	100	99	99	1	1	175	230	230	238
+7566	Vasa Nistirio	Normal	1	0	60	99	99	1	1	175	230	230	142
+7566	Vasa Nistirio	Normal	1	0	126	70	99	1	1	152	199	199	300
+7566	Vasa Nistirio	Normal	1	0	90	55	99	1	1	139	183	183	214
+7566	Vasa Nistirio	Normal	1	0	126	1	99	1	1	97	127	127	300
+7566	Vasa Nistirio	Normal	1	1	100	99	99	1	1	262	345	345	357
+7566	Vasa Nistirio	Normal	1	1	60	99	99	1	1	262	345	345	213
+7566	Vasa Nistirio	Normal	1	1	126	70	99	1	1	228	298	298	450
+7566	Vasa Nistirio	Normal	1	1	90	55	99	1	1	208	274	274	321
+7566	Vasa Nistirio	Normal	1	1	126	1	99	1	1	145	190	190	450
+7566	Vasa Nistirio	Normal	3	0	100	99	297	1	1	178	250	250	476
+7566	Vasa Nistirio	Normal	3	0	60	99	297	1	1	178	250	250	284
+7566	Vasa Nistirio	Normal	3	0	126	70	297	1	1	155	216	216	600
+7566	Vasa Nistirio	Normal	3	0	90	55	297	1	1	141	199	199	428
+7566	Vasa Nistirio	Normal	3	0	126	1	297	1	1	98	138	138	600
+7566	Vasa Nistirio	Normal	3	1	100	99	297	1	1	267	375	375	714
+7566	Vasa Nistirio	Normal	3	1	60	99	297	1	1	267	375	375	426
+7566	Vasa Nistirio	Normal	3	1	126	70	297	1	1	232	324	324	900
+7566	Vasa Nistirio	Normal	3	1	90	55	297	1	1	211	298	298	642
+7566	Vasa Nistirio	Normal	3	1	126	1	297	1	1	147	207	207	900
+7566	Vasa Nistirio	Normal	24	0	100	99	2376	1	1	210	347	347	3094
+7566	Vasa Nistirio	Normal	24	0	60	99	2376	1	1	210	347	347	1846
+7566	Vasa Nistirio	Normal	24	0	126	70	2376	1	1	182	300	300	3900
+7566	Vasa Nistirio	Normal	24	0	90	55	2376	1	1	166	276	276	2782
+7566	Vasa Nistirio	Normal	24	0	126	1	2376	1	1	116	191	191	3900
+7566	Vasa Nistirio	Normal	24	1	100	99	2376	1	1	315	520	520	4641
+7566	Vasa Nistirio	Normal	24	1	60	99	2376	1	1	315	520	520	2769
+7566	Vasa Nistirio	Normal	24	1	126	70	2376	1	1	273	450	450	5850
+7566	Vasa Nistirio	Normal	24	1	90	55	2376	1	1	249	414	414	4173
+7566	Vasa Nistirio	Normal	24	1	126	1	2376	1	1	174	286	286	5850
+7538	Vespine soldier	Normal	1	0	126	99	99	150	150	40	40	1	100
+7538	Vespine soldier	Normal	1	1	126	99	99	224	224	59	59	1	150
+7538	Vespine soldier	Normal	2	0	126	99	198	150	150	40	40	1	100
+7538	Vespine soldier	Normal	2	1	126	99	198	224	224	59	59	1	150
+7538	Vespine soldier	Normal	3	0	126	99	297	150	150	40	40	1	100
+7538	Vespine soldier	Normal	3	1	126	99	297	224	224	59	59	1	150
+7538	Vespine soldier	Normal	4	0	126	99	396	150	150	40	40	1	100
+7538	Vespine soldier	Normal	4	1	126	99	396	224	224	59	59	1	150
+7538	Vespine soldier	Normal	5	0	126	99	495	150	150	40	40	1	100
+7538	Vespine soldier	Normal	5	1	126	99	495	224	224	59	59	1	150
+7538	Vespine soldier	Normal	7	0	126	99	693	150	150	40	40	1	100
+7538	Vespine soldier	Normal	7	1	126	99	693	224	224	59	59	1	150
+7538	Vespine soldier	Normal	8	0	126	99	792	150	150	40	40	1	100
+7538	Vespine soldier	Normal	8	1	126	99	792	224	224	59	59	1	150
+7538	Vespine soldier	Normal	9	0	126	99	891	150	150	40	40	1	100
+7538	Vespine soldier	Normal	9	1	126	99	891	224	224	59	59	1	150
+7538	Vespine soldier	Normal	12	0	126	99	1188	150	150	40	40	1	100
+7538	Vespine soldier	Normal	12	1	126	99	1188	224	224	59	59	1	150
+7538	Vespine soldier	Normal	15	0	126	99	1485	150	150	40	40	1	100
+7538	Vespine soldier	Normal	15	1	126	99	1485	224	224	59	59	1	150
+7538	Vespine soldier	Normal	16	0	126	99	1584	150	150	40	40	1	100
+7538	Vespine soldier	Normal	16	1	126	99	1584	224	224	59	59	1	150
+7538	Vespine soldier	Normal	23	0	126	99	2277	150	150	40	40	1	100
+7538	Vespine soldier	Normal	23	1	126	99	2277	224	224	59	59	1	150
+7538	Vespine soldier	Normal	24	0	126	99	2376	150	150	40	40	1	100
+7538	Vespine soldier	Normal	24	1	126	99	2376	224	224	59	59	1	150
+7538	Vespine soldier	Normal	32	0	126	99	3168	150	150	40	40	1	100
+7538	Vespine soldier	Normal	32	1	126	99	3168	224	224	59	59	1	150
+7538	Vespine soldier	Normal	49	0	126	99	4851	150	150	40	40	1	100
+7538	Vespine soldier	Normal	49	1	126	99	4851	224	224	59	59	1	150
+7538	Vespine soldier	Normal	50	0	126	99	4950	150	150	40	40	1	100
+7538	Vespine soldier	Normal	50	1	126	99	4950	224	224	59	59	1	150
+7538	Vespine soldier	Normal	51	0	126	99	5049	150	150	40	40	1	100
+7538	Vespine soldier	Normal	51	1	126	99	5049	224	224	59	59	1	150
+7538	Vespine soldier	Normal	64	0	126	99	6336	150	150	40	40	1	100
+7538	Vespine soldier	Normal	64	1	126	99	6336	224	224	59	59	1	150
+7538	Vespine soldier	Normal	100	0	126	99	9900	150	150	40	40	1	100
+7538	Vespine soldier	Normal	100	1	126	99	9900	224	224	59	59	1	150
+7538	Vespine soldier	Normal	1	0	100	99	99	150	150	40	40	1	79
+7538	Vespine soldier	Normal	1	0	60	99	99	150	150	40	40	1	47
+7538	Vespine soldier	Normal	1	0	126	70	99	106	106	28	28	1	100
+7538	Vespine soldier	Normal	1	0	90	55	99	83	83	22	22	1	71
+7538	Vespine soldier	Normal	1	0	126	1	99	83	83	22	22	1	100
+7538	Vespine soldier	Normal	1	1	100	99	99	224	224	59	59	1	119
+7538	Vespine soldier	Normal	1	1	60	99	99	224	224	59	59	1	71
+7538	Vespine soldier	Normal	1	1	126	70	99	159	159	42	42	1	150
+7538	Vespine soldier	Normal	1	1	90	55	99	124	124	33	33	1	107
+7538	Vespine soldier	Normal	1	1	126	1	99	124	124	33	33	1	150
+7538	Vespine soldier	Normal	3	0	100	99	297	150	150	40	40	1	79
+7538	Vespine soldier	Normal	3	0	60	99	297	150	150	40	40	1	47
+7538	Vespine soldier	Normal	3	0	126	70	297	106	106	28	28	1	100
+7538	Vespine soldier	Normal	3	0	90	55	297	83	83	22	22	1	71
+7538	Vespine soldier	Normal	3	0	126	1	297	83	83	22	22	1	100
+7538	Vespine soldier	Normal	3	1	100	99	297	224	224	59	59	1	119
+7538	Vespine soldier	Normal	3	1	60	99	297	224	224	59	59	1	71
+7538	Vespine soldier	Normal	3	1	126	70	297	159	159	42	42	1	150
+7538	Vespine soldier	Normal	3	1	90	55	297	124	124	33	33	1	107
+7538	Vespine soldier	Normal	3	1	126	1	297	124	124	33	33	1	150
+7538	Vespine soldier	Normal	24	0	100	99	2376	150	150	40	40	1	79
+7538	Vespine soldier	Normal	24	0	60	99	2376	150	150	40	40	1	47
+7538	Vespine soldier	Normal	24	0	126	70	2376	106	106	28	28	1	100
+7538	Vespine soldier	Normal	24	0	90	55	2376	83	83	22	22	1	71
+7538	Vespine soldier	Normal	24	0	126	1	2376	83	83	22	22	1	100
+7538	Vespine soldier	Normal	24	1	100	99	2376	224	224	59	59	1	119
+7538	Vespine soldier	Normal	24	1	60	99	2376	224	224	59	59	1	71
+7538	Vespine soldier	Normal	24	1	126	70	2376	159	159	42	42	1	150
+7538	Vespine soldier	Normal	24	1	90	55	2376	124	124	33	33	1	107
+7538	Vespine soldier	Normal	24	1	126	1	2376	124	124	33	33	1	150
+7530	Vespula	Normal	1	0	126	99	99	150	150	88	88	150	200
+7530	Vespula	Normal	1	1	126	99	99	225	225	132	132	225	300
+7530	Vespula	Normal	2	0	126	99	198	162	162	88	88	162	400
+7530	Vespula	Normal	2	1	126	99	198	243	243	132	132	243	600
+7530	Vespula	Normal	3	0	126	99	297	163	163	89	89	163	400
+7530	Vespula	Normal	3	1	126	99	297	244	244	133	133	244	600
+7530	Vespula	Normal	4	0	126	99	396	165	165	90	90	165	600
+7530	Vespula	Normal	4	1	126	99	396	247	247	135	135	247	900
+7530	Vespula	Normal	5	0	126	99	495	177	177	91	91	177	600
+7530	Vespula	Normal	5	1	126	99	495	265	265	136	136	265	900
+7530	Vespula	Normal	7	0	126	99	693	180	180	93	93	180	800
+7530	Vespula	Normal	7	1	126	99	693	270	270	139	139	270	1200
+7530	Vespula	Normal	8	0	126	99	792	181	181	93	93	181	1000
+7530	Vespula	Normal	8	1	126	99	792	271	271	139	139	271	1500
+7530	Vespula	Normal	9	0	126	99	891	183	183	94	94	183	1000
+7530	Vespula	Normal	9	1	126	99	891	274	274	141	141	274	1500
+7530	Vespula	Normal	12	0	126	99	1188	198	198	96	96	198	1400
+7530	Vespula	Normal	12	1	126	99	1188	297	297	144	144	297	2100
+7530	Vespula	Normal	15	0	126	99	1485	202	202	98	98	202	1600
+7530	Vespula	Normal	15	1	126	99	1485	303	303	147	147	303	2400
+7530	Vespula	Normal	16	0	126	99	1584	204	204	99	99	204	1800
+7530	Vespula	Normal	16	1	126	99	1584	306	306	148	148	306	2700
+7530	Vespula	Normal	23	0	126	99	2277	225	225	104	104	225	2400
+7530	Vespula	Normal	23	1	126	99	2277	337	337	156	156	337	3600
+7530	Vespula	Normal	24	0	126	99	2376	226	226	105	105	226	2600
+7530	Vespula	Normal	24	1	126	99	2376	339	339	157	157	339	3900
+7530	Vespula	Normal	32	0	126	99	3168	249	249	110	110	249	3400
+7530	Vespula	Normal	32	1	126	99	3168	373	373	165	165	373	5100
+7530	Vespula	Normal	49	0	126	99	4851	285	285	122	122	285	5000
+7530	Vespula	Normal	49	1	126	99	4851	427	427	183	183	427	7500
+7530	Vespula	Normal	50	0	126	99	4950	297	297	124	124	297	5200
+7530	Vespula	Normal	50	1	126	99	4950	445	445	186	186	445	7800
+7530	Vespula	Normal	51	0	126	99	5049	298	298	124	124	298	5200
+7530	Vespula	Normal	51	1	126	99	5049	447	447	186	186	447	7800
+7530	Vespula	Normal	64	0	126	99	6336	318	318	132	132	318	6600
+7530	Vespula	Normal	64	1	126	99	6336	477	477	198	198	477	9900
+7530	Vespula	Normal	100	0	126	99	9900	393	393	156	156	393	10200
+7530	Vespula	Normal	100	1	126	99	9900	589	589	234	234	589	15300
+7530	Vespula	Normal	1	0	100	99	99	150	150	88	88	150	158
+7530	Vespula	Normal	1	0	60	99	99	150	150	88	88	150	95
+7530	Vespula	Normal	1	0	126	70	99	130	130	76	76	130	200
+7530	Vespula	Normal	1	0	90	55	99	119	119	70	70	119	142
+7530	Vespula	Normal	1	0	126	1	99	83	83	50	50	83	200
+7530	Vespula	Normal	1	1	100	99	99	225	225	132	132	225	237
+7530	Vespula	Normal	1	1	60	99	99	225	225	132	132	225	142
+7530	Vespula	Normal	1	1	126	70	99	195	195	114	114	195	300
+7530	Vespula	Normal	1	1	90	55	99	178	178	105	105	178	213
+7530	Vespula	Normal	1	1	126	1	99	124	124	72	72	124	300
+7530	Vespula	Normal	3	0	100	99	297	163	163	89	89	163	316
+7530	Vespula	Normal	3	0	60	99	297	163	163	89	89	163	190
+7530	Vespula	Normal	3	0	126	70	297	141	141	77	77	141	400
+7530	Vespula	Normal	3	0	90	55	297	129	129	71	71	129	284
+7530	Vespula	Normal	3	0	126	1	297	90	90	50	50	90	400
+7530	Vespula	Normal	3	1	100	99	297	244	244	133	133	244	474
+7530	Vespula	Normal	3	1	60	99	297	244	244	133	133	244	285
+7530	Vespula	Normal	3	1	126	70	297	211	211	115	115	211	600
+7530	Vespula	Normal	3	1	90	55	297	193	193	106	106	193	426
+7530	Vespula	Normal	3	1	126	1	297	135	135	72	72	135	600
+7530	Vespula	Normal	24	0	100	99	2376	226	226	105	105	226	2054
+7530	Vespula	Normal	24	0	60	99	2376	226	226	105	105	226	1235
+7530	Vespula	Normal	24	0	126	70	2376	196	196	91	91	196	2600
+7530	Vespula	Normal	24	0	90	55	2376	179	179	84	84	179	1846
+7530	Vespula	Normal	24	0	126	1	2376	125	125	57	57	125	2600
+7530	Vespula	Normal	24	1	100	99	2376	339	339	157	157	339	3081
+7530	Vespula	Normal	24	1	60	99	2376	339	339	157	157	339	1852
+7530	Vespula	Normal	24	1	126	70	2376	294	294	136	136	294	3900
+7530	Vespula	Normal	24	1	90	55	2376	268	268	126	126	268	2769
+7530	Vespula	Normal	24	1	126	1	2376	187	187	85	85	187	3900
+7541	Tekton	Normal	1	0	126	99	99	390	390	205	205	1	300
+7541	Tekton	Normal	1	1	126	99	99	585	585	246	246	1	450
+7541	Tekton	Normal	2	0	126	99	198	421	421	207	207	1	600
+7541	Tekton	Normal	2	1	126	99	198	631	631	248	248	1	900
+7541	Tekton	Normal	3	0	126	99	297	425	425	209	209	1	600
+7541	Tekton	Normal	3	1	126	99	297	637	637	250	250	1	900
+7541	Tekton	Normal	4	0	126	99	396	429	429	211	211	1	900
+7541	Tekton	Normal	4	1	126	99	396	643	643	284	284	1	1350
+7541	Tekton	Normal	5	0	126	99	495	460	460	213	213	1	900
+7541	Tekton	Normal	5	1	126	99	495	690	690	287	287	1	1350
+7541	Tekton	Normal	7	0	126	99	693	468	468	217	217	1	1200
+7541	Tekton	Normal	7	1	126	99	693	702	702	292	292	1	1800
+7541	Tekton	Normal	8	0	126	99	792	471	471	217	217	1	1500
+7541	Tekton	Normal	8	1	126	99	792	706	706	292	292	1	2250
+7541	Tekton	Normal	9	0	126	99	891	475	475	219	219	1	1500
+7541	Tekton	Normal	9	1	126	99	891	712	712	295	295	1	2250
+7541	Tekton	Normal	12	0	126	99	1188	514	514	225	225	1	2100
+7541	Tekton	Normal	12	1	126	99	1188	771	771	303	303	1	3150
+7541	Tekton	Normal	15	0	126	99	1485	526	526	229	229	1	2400
+7541	Tekton	Normal	15	1	126	99	1485	789	789	309	309	1	3600
+7541	Tekton	Normal	16	0	126	99	1584	530	530	231	231	1	2700
+7541	Tekton	Normal	16	1	126	99	1584	795	795	311	311	1	4050
+7541	Tekton	Normal	23	0	126	99	2277	585	585	243	243	1	3600
+7541	Tekton	Normal	23	1	126	99	2277	877	877	328	328	1	5400
+7541	Tekton	Normal	24	0	126	99	2376	588	588	246	246	1	3900
+7541	Tekton	Normal	24	1	126	99	2376	882	882	332	332	1	5850
+7541	Tekton	Normal	32	0	126	99	3168	647	647	258	258	1	5100
+7541	Tekton	Normal	32	1	126	99	3168	970	970	348	348	1	7650
+7541	Tekton	Normal	49	0	126	99	4851	741	741	284	284	1	7500
+7541	Tekton	Normal	49	1	126	99	4851	1111	1111	383	383	1	11250
+7541	Tekton	Normal	50	0	126	99	4950	772	772	289	289	1	7800
+7541	Tekton	Normal	50	1	126	99	4950	1158	1158	390	390	1	11700
+7541	Tekton	Normal	51	0	126	99	5049	776	776	291	291	1	7800
+7541	Tekton	Normal	51	1	126	99	5049	1164	1164	392	392	1	11700
+7541	Tekton	Normal	64	0	126	99	6336	826	826	309	309	1	9900
+7541	Tekton	Normal	64	1	126	99	6336	1239	1239	417	417	1	14850
+7541	Tekton	Normal	100	0	126	99	9900	1021	1021	364	364	1	15300
+7541	Tekton	Normal	100	1	126	99	9900	1531	1531	491	491	1	22950
+7541	Tekton	Normal	1	0	100	99	99	390	390	205	205	1	238
+7541	Tekton	Normal	1	0	60	99	99	390	390	205	205	1	142
+7541	Tekton	Normal	1	0	126	70	99	338	338	178	178	1	300
+7541	Tekton	Normal	1	0	90	55	99	311	311	163	163	1	214
+7541	Tekton	Normal	1	0	126	1	99	216	216	113	113	1	300
+7541	Tekton	Normal	1	1	100	99	99	585	585	246	246	1	357
+7541	Tekton	Normal	1	1	60	99	99	585	585	246	246	1	213
+7541	Tekton	Normal	1	1	126	70	99	507	507	213	213	1	450
+7541	Tekton	Normal	1	1	90	55	99	466	466	195	195	1	321
+7541	Tekton	Normal	1	1	126	1	99	324	324	135	135	1	450
+7541	Tekton	Normal	3	0	100	99	297	425	425	209	209	1	476
+7541	Tekton	Normal	3	0	60	99	297	425	425	209	209	1	284
+7541	Tekton	Normal	3	0	126	70	297	368	368	181	181	1	600
+7541	Tekton	Normal	3	0	90	55	297	338	338	166	166	1	428
+7541	Tekton	Normal	3	0	126	1	297	235	235	115	115	1	600
+7541	Tekton	Normal	3	1	100	99	297	637	637	250	250	1	714
+7541	Tekton	Normal	3	1	60	99	297	637	637	250	250	1	426
+7541	Tekton	Normal	3	1	126	70	297	552	552	217	217	1	900
+7541	Tekton	Normal	3	1	90	55	297	507	507	199	199	1	642
+7541	Tekton	Normal	3	1	126	1	297	352	352	138	138	1	900
+7541	Tekton	Normal	24	0	100	99	2376	588	588	246	246	1	3094
+7541	Tekton	Normal	24	0	60	99	2376	588	588	246	246	1	1846
+7541	Tekton	Normal	24	0	126	70	2376	510	510	213	213	1	3900
+7541	Tekton	Normal	24	0	90	55	2376	469	469	195	195	1	2782
+7541	Tekton	Normal	24	0	126	1	2376	326	326	135	135	1	3900
+7541	Tekton	Normal	24	1	100	99	2376	882	882	332	332	1	4641
+7541	Tekton	Normal	24	1	60	99	2376	882	882	332	332	1	2769
+7541	Tekton	Normal	24	1	126	70	2376	765	765	287	287	1	5850
+7541	Tekton	Normal	24	1	90	55	2376	703	703	263	263	1	4173
+7541	Tekton	Normal	24	1	126	1	2376	489	489	182	182	1	5850
+7542	Tekton	Normal	1	0	126	99	99	390	390	205	205	1	300
+7542	Tekton	Normal	1	1	126	99	99	585	585	246	246	1	450
+7542	Tekton	Normal	2	0	126	99	198	421	421	207	207	1	600
+7542	Tekton	Normal	2	1	126	99	198	631	631	248	248	1	900
+7542	Tekton	Normal	3	0	126	99	297	425	425	209	209	1	600
+7542	Tekton	Normal	3	1	126	99	297	637	637	250	250	1	900
+7542	Tekton	Normal	4	0	126	99	396	429	429	211	211	1	900
+7542	Tekton	Normal	4	1	126	99	396	643	643	284	284	1	1350
+7542	Tekton	Normal	5	0	126	99	495	460	460	213	213	1	900
+7542	Tekton	Normal	5	1	126	99	495	690	690	287	287	1	1350
+7542	Tekton	Normal	7	0	126	99	693	468	468	217	217	1	1200
+7542	Tekton	Normal	7	1	126	99	693	702	702	292	292	1	1800
+7542	Tekton	Normal	8	0	126	99	792	471	471	217	217	1	1500
+7542	Tekton	Normal	8	1	126	99	792	706	706	292	292	1	2250
+7542	Tekton	Normal	9	0	126	99	891	475	475	219	219	1	1500
+7542	Tekton	Normal	9	1	126	99	891	712	712	295	295	1	2250
+7542	Tekton	Normal	12	0	126	99	1188	514	514	225	225	1	2100
+7542	Tekton	Normal	12	1	126	99	1188	771	771	303	303	1	3150
+7542	Tekton	Normal	15	0	126	99	1485	526	526	229	229	1	2400
+7542	Tekton	Normal	15	1	126	99	1485	789	789	309	309	1	3600
+7542	Tekton	Normal	16	0	126	99	1584	530	530	231	231	1	2700
+7542	Tekton	Normal	16	1	126	99	1584	795	795	311	311	1	4050
+7542	Tekton	Normal	23	0	126	99	2277	585	585	243	243	1	3600
+7542	Tekton	Normal	23	1	126	99	2277	877	877	328	328	1	5400
+7542	Tekton	Normal	24	0	126	99	2376	588	588	246	246	1	3900
+7542	Tekton	Normal	24	1	126	99	2376	882	882	332	332	1	5850
+7542	Tekton	Normal	32	0	126	99	3168	647	647	258	258	1	5100
+7542	Tekton	Normal	32	1	126	99	3168	970	970	348	348	1	7650
+7542	Tekton	Normal	49	0	126	99	4851	741	741	284	284	1	7500
+7542	Tekton	Normal	49	1	126	99	4851	1111	1111	383	383	1	11250
+7542	Tekton	Normal	50	0	126	99	4950	772	772	289	289	1	7800
+7542	Tekton	Normal	50	1	126	99	4950	1158	1158	390	390	1	11700
+7542	Tekton	Normal	51	0	126	99	5049	776	776	291	291	1	7800
+7542	Tekton	Normal	51	1	126	99	5049	1164	1164	392	392	1	11700
+7542	Tekton	Normal	64	0	126	99	6336	826	826	309	309	1	9900
+7542	Tekton	Normal	64	1	126	99	6336	1239	1239	417	417	1	14850
+7542	Tekton	Normal	100	0	126	99	9900	1021	1021	364	364	1	15300
+7542	Tekton	Normal	100	1	126	99	9900	1531	1531	491	491	1	22950
+7542	Tekton	Normal	1	0	100	99	99	390	390	205	205	1	238
+7542	Tekton	Normal	1	0	60	99	99	390	390	205	205	1	142
+7542	Tekton	Normal	1	0	126	70	99	338	338	178	178	1	300
+7542	Tekton	Normal	1	0	90	55	99	311	311	163	163	1	214
+7542	Tekton	Normal	1	0	126	1	99	216	216	113	113	1	300
+7542	Tekton	Normal	1	1	100	99	99	585	585	246	246	1	357
+7542	Tekton	Normal	1	1	60	99	99	585	585	246	246	1	213
+7542	Tekton	Normal	1	1	126	70	99	507	507	213	213	1	450
+7542	Tekton	Normal	1	1	90	55	99	466	466	195	195	1	321
+7542	Tekton	Normal	1	1	126	1	99	324	324	135	135	1	450
+7542	Tekton	Normal	3	0	100	99	297	425	425	209	209	1	476
+7542	Tekton	Normal	3	0	60	99	297	425	425	209	209	1	284
+7542	Tekton	Normal	3	0	126	70	297	368	368	181	181	1	600
+7542	Tekton	Normal	3	0	90	55	297	338	338	166	166	1	428
+7542	Tekton	Normal	3	0	126	1	297	235	235	115	115	1	600
+7542	Tekton	Normal	3	1	100	99	297	637	637	250	250	1	714
+7542	Tekton	Normal	3	1	60	99	297	637	637	250	250	1	426
+7542	Tekton	Normal	3	1	126	70	297	552	552	217	217	1	900
+7542	Tekton	Normal	3	1	90	55	297	507	507	199	199	1	642
+7542	Tekton	Normal	3	1	126	1	297	352	352	138	138	1	900
+7542	Tekton	Normal	24	0	100	99	2376	588	588	246	246	1	3094
+7542	Tekton	Normal	24	0	60	99	2376	588	588	246	246	1	1846
+7542	Tekton	Normal	24	0	126	70	2376	510	510	213	213	1	3900
+7542	Tekton	Normal	24	0	90	55	2376	469	469	195	195	1	2782
+7542	Tekton	Normal	24	0	126	1	2376	326	326	135	135	1	3900
+7542	Tekton	Normal	24	1	100	99	2376	882	882	332	332	1	4641
+7542	Tekton	Normal	24	1	60	99	2376	882	882	332	332	1	2769
+7542	Tekton	Normal	24	1	126	70	2376	765	765	287	287	1	5850
+7542	Tekton	Normal	24	1	90	55	2376	703	703	263	263	1	4173
+7542	Tekton	Normal	24	1	126	1	2376	489	489	182	182	1	5850
+7544	Tekton	Enraged	1	0	126	99	99	390	390	205	205	1	300
+7544	Tekton	Enraged	1	1	126	99	99	585	585	246	246	1	450
+7544	Tekton	Enraged	2	0	126	99	198	421	421	207	207	1	600
+7544	Tekton	Enraged	2	1	126	99	198	631	631	248	248	1	900
+7544	Tekton	Enraged	3	0	126	99	297	425	425	209	209	1	600
+7544	Tekton	Enraged	3	1	126	99	297	637	637	250	250	1	900
+7544	Tekton	Enraged	4	0	126	99	396	429	429	211	211	1	900
+7544	Tekton	Enraged	4	1	126	99	396	643	643	284	284	1	1350
+7544	Tekton	Enraged	5	0	126	99	495	460	460	213	213	1	900
+7544	Tekton	Enraged	5	1	126	99	495	690	690	287	287	1	1350
+7544	Tekton	Enraged	7	0	126	99	693	468	468	217	217	1	1200
+7544	Tekton	Enraged	7	1	126	99	693	702	702	292	292	1	1800
+7544	Tekton	Enraged	8	0	126	99	792	471	471	217	217	1	1500
+7544	Tekton	Enraged	8	1	126	99	792	706	706	292	292	1	2250
+7544	Tekton	Enraged	9	0	126	99	891	475	475	219	219	1	1500
+7544	Tekton	Enraged	9	1	126	99	891	712	712	295	295	1	2250
+7544	Tekton	Enraged	12	0	126	99	1188	514	514	225	225	1	2100
+7544	Tekton	Enraged	12	1	126	99	1188	771	771	303	303	1	3150
+7544	Tekton	Enraged	15	0	126	99	1485	526	526	229	229	1	2400
+7544	Tekton	Enraged	15	1	126	99	1485	789	789	309	309	1	3600
+7544	Tekton	Enraged	16	0	126	99	1584	530	530	231	231	1	2700
+7544	Tekton	Enraged	16	1	126	99	1584	795	795	311	311	1	4050
+7544	Tekton	Enraged	23	0	126	99	2277	585	585	243	243	1	3600
+7544	Tekton	Enraged	23	1	126	99	2277	877	877	328	328	1	5400
+7544	Tekton	Enraged	24	0	126	99	2376	588	588	246	246	1	3900
+7544	Tekton	Enraged	24	1	126	99	2376	882	882	332	332	1	5850
+7544	Tekton	Enraged	32	0	126	99	3168	647	647	258	258	1	5100
+7544	Tekton	Enraged	32	1	126	99	3168	970	970	348	348	1	7650
+7544	Tekton	Enraged	49	0	126	99	4851	741	741	284	284	1	7500
+7544	Tekton	Enraged	49	1	126	99	4851	1111	1111	383	383	1	11250
+7544	Tekton	Enraged	50	0	126	99	4950	772	772	289	289	1	7800
+7544	Tekton	Enraged	50	1	126	99	4950	1158	1158	390	390	1	11700
+7544	Tekton	Enraged	51	0	126	99	5049	776	776	291	291	1	7800
+7544	Tekton	Enraged	51	1	126	99	5049	1164	1164	392	392	1	11700
+7544	Tekton	Enraged	64	0	126	99	6336	826	826	309	309	1	9900
+7544	Tekton	Enraged	64	1	126	99	6336	1239	1239	417	417	1	14850
+7544	Tekton	Enraged	100	0	126	99	9900	1021	1021	364	364	1	15300
+7544	Tekton	Enraged	100	1	126	99	9900	1531	1531	491	491	1	22950
+7544	Tekton	Enraged	1	0	100	99	99	390	390	205	205	1	238
+7544	Tekton	Enraged	1	0	60	99	99	390	390	205	205	1	142
+7544	Tekton	Enraged	1	0	126	70	99	338	338	178	178	1	300
+7544	Tekton	Enraged	1	0	90	55	99	311	311	163	163	1	214
+7544	Tekton	Enraged	1	0	126	1	99	216	216	113	113	1	300
+7544	Tekton	Enraged	1	1	100	99	99	585	585	246	246	1	357
+7544	Tekton	Enraged	1	1	60	99	99	585	585	246	246	1	213
+7544	Tekton	Enraged	1	1	126	70	99	507	507	213	213	1	450
+7544	Tekton	Enraged	1	1	90	55	99	466	466	195	195	1	321
+7544	Tekton	Enraged	1	1	126	1	99	324	324	135	135	1	450
+7544	Tekton	Enraged	3	0	100	99	297	425	425	209	209	1	476
+7544	Tekton	Enraged	3	0	60	99	297	425	425	209	209	1	284
+7544	Tekton	Enraged	3	0	126	70	297	368	368	181	181	1	600
+7544	Tekton	Enraged	3	0	90	55	297	338	338	166	166	1	428
+7544	Tekton	Enraged	3	0	126	1	297	235	235	115	115	1	600
+7544	Tekton	Enraged	3	1	100	99	297	637	637	250	250	1	714
+7544	Tekton	Enraged	3	1	60	99	297	637	637	250	250	1	426
+7544	Tekton	Enraged	3	1	126	70	297	552	552	217	217	1	900
+7544	Tekton	Enraged	3	1	90	55	297	507	507	199	199	1	642
+7544	Tekton	Enraged	3	1	126	1	297	352	352	138	138	1	900
+7544	Tekton	Enraged	24	0	100	99	2376	588	588	246	246	1	3094
+7544	Tekton	Enraged	24	0	60	99	2376	588	588	246	246	1	1846
+7544	Tekton	Enraged	24	0	126	70	2376	510	510	213	213	1	3900
+7544	Tekton	Enraged	24	0	90	55	2376	469	469	195	195	1	2782
+7544	Tekton	Enraged	24	0	126	1	2376	326	326	135	135	1	3900
+7544	Tekton	Enraged	24	1	100	99	2376	882	882	332	332	1	4641
+7544	Tekton	Enraged	24	1	60	99	2376	882	882	332	332	1	2769
+7544	Tekton	Enraged	24	1	126	70	2376	765	765	287	287	1	5850
+7544	Tekton	Enraged	24	1	90	55	2376	703	703	263	263	1	4173
+7544	Tekton	Enraged	24	1	126	1	2376	489	489	182	182	1	5850
+7545	Tekton	Normal	1	0	126	99	99	390	390	205	205	1	300
+7545	Tekton	Normal	1	1	126	99	99	585	585	246	246	1	450
+7545	Tekton	Normal	2	0	126	99	198	421	421	207	207	1	600
+7545	Tekton	Normal	2	1	126	99	198	631	631	248	248	1	900
+7545	Tekton	Normal	3	0	126	99	297	425	425	209	209	1	600
+7545	Tekton	Normal	3	1	126	99	297	637	637	250	250	1	900
+7545	Tekton	Normal	4	0	126	99	396	429	429	211	211	1	900
+7545	Tekton	Normal	4	1	126	99	396	643	643	284	284	1	1350
+7545	Tekton	Normal	5	0	126	99	495	460	460	213	213	1	900
+7545	Tekton	Normal	5	1	126	99	495	690	690	287	287	1	1350
+7545	Tekton	Normal	7	0	126	99	693	468	468	217	217	1	1200
+7545	Tekton	Normal	7	1	126	99	693	702	702	292	292	1	1800
+7545	Tekton	Normal	8	0	126	99	792	471	471	217	217	1	1500
+7545	Tekton	Normal	8	1	126	99	792	706	706	292	292	1	2250
+7545	Tekton	Normal	9	0	126	99	891	475	475	219	219	1	1500
+7545	Tekton	Normal	9	1	126	99	891	712	712	295	295	1	2250
+7545	Tekton	Normal	12	0	126	99	1188	514	514	225	225	1	2100
+7545	Tekton	Normal	12	1	126	99	1188	771	771	303	303	1	3150
+7545	Tekton	Normal	15	0	126	99	1485	526	526	229	229	1	2400
+7545	Tekton	Normal	15	1	126	99	1485	789	789	309	309	1	3600
+7545	Tekton	Normal	16	0	126	99	1584	530	530	231	231	1	2700
+7545	Tekton	Normal	16	1	126	99	1584	795	795	311	311	1	4050
+7545	Tekton	Normal	23	0	126	99	2277	585	585	243	243	1	3600
+7545	Tekton	Normal	23	1	126	99	2277	877	877	328	328	1	5400
+7545	Tekton	Normal	24	0	126	99	2376	588	588	246	246	1	3900
+7545	Tekton	Normal	24	1	126	99	2376	882	882	332	332	1	5850
+7545	Tekton	Normal	32	0	126	99	3168	647	647	258	258	1	5100
+7545	Tekton	Normal	32	1	126	99	3168	970	970	348	348	1	7650
+7545	Tekton	Normal	49	0	126	99	4851	741	741	284	284	1	7500
+7545	Tekton	Normal	49	1	126	99	4851	1111	1111	383	383	1	11250
+7545	Tekton	Normal	50	0	126	99	4950	772	772	289	289	1	7800
+7545	Tekton	Normal	50	1	126	99	4950	1158	1158	390	390	1	11700
+7545	Tekton	Normal	51	0	126	99	5049	776	776	291	291	1	7800
+7545	Tekton	Normal	51	1	126	99	5049	1164	1164	392	392	1	11700
+7545	Tekton	Normal	64	0	126	99	6336	826	826	309	309	1	9900
+7545	Tekton	Normal	64	1	126	99	6336	1239	1239	417	417	1	14850
+7545	Tekton	Normal	100	0	126	99	9900	1021	1021	364	364	1	15300
+7545	Tekton	Normal	100	1	126	99	9900	1531	1531	491	491	1	22950
+7545	Tekton	Normal	1	0	100	99	99	390	390	205	205	1	238
+7545	Tekton	Normal	1	0	60	99	99	390	390	205	205	1	142
+7545	Tekton	Normal	1	0	126	70	99	338	338	178	178	1	300
+7545	Tekton	Normal	1	0	90	55	99	311	311	163	163	1	214
+7545	Tekton	Normal	1	0	126	1	99	216	216	113	113	1	300
+7545	Tekton	Normal	1	1	100	99	99	585	585	246	246	1	357
+7545	Tekton	Normal	1	1	60	99	99	585	585	246	246	1	213
+7545	Tekton	Normal	1	1	126	70	99	507	507	213	213	1	450
+7545	Tekton	Normal	1	1	90	55	99	466	466	195	195	1	321
+7545	Tekton	Normal	1	1	126	1	99	324	324	135	135	1	450
+7545	Tekton	Normal	3	0	100	99	297	425	425	209	209	1	476
+7545	Tekton	Normal	3	0	60	99	297	425	425	209	209	1	284
+7545	Tekton	Normal	3	0	126	70	297	368	368	181	181	1	600
+7545	Tekton	Normal	3	0	90	55	297	338	338	166	166	1	428
+7545	Tekton	Normal	3	0	126	1	297	235	235	115	115	1	600
+7545	Tekton	Normal	3	1	100	99	297	637	637	250	250	1	714
+7545	Tekton	Normal	3	1	60	99	297	637	637	250	250	1	426
+7545	Tekton	Normal	3	1	126	70	297	552	552	217	217	1	900
+7545	Tekton	Normal	3	1	90	55	297	507	507	199	199	1	642
+7545	Tekton	Normal	3	1	126	1	297	352	352	138	138	1	900
+7545	Tekton	Normal	24	0	100	99	2376	588	588	246	246	1	3094
+7545	Tekton	Normal	24	0	60	99	2376	588	588	246	246	1	1846
+7545	Tekton	Normal	24	0	126	70	2376	510	510	213	213	1	3900
+7545	Tekton	Normal	24	0	90	55	2376	469	469	195	195	1	2782
+7545	Tekton	Normal	24	0	126	1	2376	326	326	135	135	1	3900
+7545	Tekton	Normal	24	1	100	99	2376	882	882	332	332	1	4641
+7545	Tekton	Normal	24	1	60	99	2376	882	882	332	332	1	2769
+7545	Tekton	Normal	24	1	126	70	2376	765	765	287	287	1	5850
+7545	Tekton	Normal	24	1	90	55	2376	703	703	263	263	1	4173
+7545	Tekton	Normal	24	1	126	1	2376	489	489	182	182	1	5850
+7553	Great Olm	Right claw (Normal)	1	0	126	99	99	250	250	175	87	250	600
+7553	Great Olm	Right claw (Normal)	1	1	126	99	99	375	375	262	131	375	600
+7553	Great Olm	Right claw (Normal)	2	0	126	99	198	270	270	176	88	270	900
+7553	Great Olm	Right claw (Normal)	2	1	126	99	198	405	405	264	132	405	900
+7553	Great Olm	Right claw (Normal)	3	0	126	99	297	272	272	178	89	272	1200
+7553	Great Olm	Right claw (Normal)	3	1	126	99	297	408	408	267	133	408	1200
+7553	Great Olm	Right claw (Normal)	4	0	126	99	396	275	275	180	90	275	1500
+7553	Great Olm	Right claw (Normal)	4	1	126	99	396	412	412	270	135	412	1500
+7553	Great Olm	Right claw (Normal)	5	0	126	99	495	295	295	182	91	295	1800
+7553	Great Olm	Right claw (Normal)	5	1	126	99	495	442	442	273	136	442	1800
+7553	Great Olm	Right claw (Normal)	7	0	126	99	693	300	300	185	92	300	2400
+7553	Great Olm	Right claw (Normal)	7	1	126	99	693	450	450	277	138	450	2400
+7553	Great Olm	Right claw (Normal)	8	0	126	99	792	302	302	185	92	302	1800
+7553	Great Olm	Right claw (Normal)	8	1	126	99	792	453	453	277	138	453	1800
+7553	Great Olm	Right claw (Normal)	9	0	126	99	891	305	305	187	93	305	2100
+7553	Great Olm	Right claw (Normal)	9	1	126	99	891	457	457	280	140	457	2100
+7553	Great Olm	Right claw (Normal)	12	0	126	99	1188	330	330	192	96	330	3000
+7553	Great Olm	Right claw (Normal)	12	1	126	99	1188	495	495	288	144	495	3000
+7553	Great Olm	Right claw (Normal)	15	0	126	99	1485	337	337	196	98	337	3900
+7553	Great Olm	Right claw (Normal)	15	1	126	99	1485	505	505	294	147	505	3900
+7553	Great Olm	Right claw (Normal)	16	0	126	99	1584	340	340	197	98	340	3300
+7553	Great Olm	Right claw (Normal)	16	1	126	99	1584	510	510	295	147	510	3300
+7553	Great Olm	Right claw (Normal)	23	0	126	99	2277	375	375	208	104	375	5400
+7553	Great Olm	Right claw (Normal)	23	1	126	99	2277	562	562	312	156	562	5400
+7553	Great Olm	Right claw (Normal)	24	0	126	99	2376	377	377	210	105	377	4800
+7553	Great Olm	Right claw (Normal)	24	1	126	99	2376	565	565	315	157	565	4800
+7553	Great Olm	Right claw (Normal)	32	0	126	99	3168	415	415	220	110	415	6300
+7553	Great Olm	Right claw (Normal)	32	1	126	99	3168	622	622	330	165	622	6300
+7553	Great Olm	Right claw (Normal)	49	0	126	99	4851	475	475	243	121	475	9600
+7553	Great Olm	Right claw (Normal)	49	1	126	99	4851	712	712	364	182	712	9600
+7553	Great Olm	Right claw (Normal)	50	0	126	99	4950	495	495	246	123	495	9900
+7553	Great Olm	Right claw (Normal)	50	1	126	99	4950	742	742	369	184	742	9900
+7553	Great Olm	Right claw (Normal)	51	0	126	99	5049	497	497	248	124	497	10200
+7553	Great Olm	Right claw (Normal)	51	1	126	99	5049	745	745	372	186	745	10200
+7553	Great Olm	Right claw (Normal)	64	0	126	99	6336	530	530	264	132	530	10200
+7553	Great Olm	Right claw (Normal)	64	1	126	99	6336	795	795	396	198	795	10200
+7553	Great Olm	Right claw (Normal)	100	0	126	99	9900	655	655	311	155	655	10200
+7553	Great Olm	Right claw (Normal)	100	1	126	99	9900	982	982	466	233	982	10200
+7553	Great Olm	Right claw (Normal)	1	0	100	99	99	250	250	175	87	250	600
+7553	Great Olm	Right claw (Normal)	1	0	60	99	99	250	250	175	87	250	600
+7553	Great Olm	Right claw (Normal)	1	0	126	70	99	217	217	152	76	217	600
+7553	Great Olm	Right claw (Normal)	1	0	90	55	99	199	199	139	69	199	600
+7553	Great Olm	Right claw (Normal)	1	0	126	1	99	138	138	97	48	138	600
+7553	Great Olm	Right claw (Normal)	1	1	100	99	99	375	375	262	131	375	600
+7553	Great Olm	Right claw (Normal)	1	1	60	99	99	375	375	262	131	375	600
+7553	Great Olm	Right claw (Normal)	1	1	126	70	99	325	325	228	114	325	600
+7553	Great Olm	Right claw (Normal)	1	1	90	55	99	298	298	208	104	298	600
+7553	Great Olm	Right claw (Normal)	1	1	126	1	99	207	207	145	72	207	600
+7553	Great Olm	Right claw (Normal)	3	0	100	99	297	272	272	178	89	272	1200
+7553	Great Olm	Right claw (Normal)	3	0	60	99	297	272	272	178	89	272	1200
+7553	Great Olm	Right claw (Normal)	3	0	126	70	297	236	236	155	77	236	1200
+7553	Great Olm	Right claw (Normal)	3	0	90	55	297	216	216	141	70	216	1200
+7553	Great Olm	Right claw (Normal)	3	0	126	1	297	150	150	98	49	150	1200
+7553	Great Olm	Right claw (Normal)	3	1	100	99	297	408	408	267	133	408	1200
+7553	Great Olm	Right claw (Normal)	3	1	60	99	297	408	408	267	133	408	1200
+7553	Great Olm	Right claw (Normal)	3	1	126	70	297	354	354	232	116	354	1200
+7553	Great Olm	Right claw (Normal)	3	1	90	55	297	324	324	211	105	324	1200
+7553	Great Olm	Right claw (Normal)	3	1	126	1	297	225	225	147	73	225	1200
+7553	Great Olm	Right claw (Normal)	24	0	100	99	2376	377	377	210	105	377	4800
+7553	Great Olm	Right claw (Normal)	24	0	60	99	2376	377	377	210	105	377	4800
+7553	Great Olm	Right claw (Normal)	24	0	126	70	2376	327	327	182	91	327	4800
+7553	Great Olm	Right claw (Normal)	24	0	90	55	2376	300	300	166	83	300	4800
+7553	Great Olm	Right claw (Normal)	24	0	126	1	2376	208	208	116	58	208	4800
+7553	Great Olm	Right claw (Normal)	24	1	100	99	2376	565	565	315	157	565	4800
+7553	Great Olm	Right claw (Normal)	24	1	60	99	2376	565	565	315	157	565	4800
+7553	Great Olm	Right claw (Normal)	24	1	126	70	2376	490	490	273	136	490	4800
+7553	Great Olm	Right claw (Normal)	24	1	90	55	2376	450	450	249	124	450	4800
+7553	Great Olm	Right claw (Normal)	24	1	126	1	2376	312	312	174	87	312	4800
+7554	Great Olm	Head (Normal)	1	0	126	99	99	250	250	150	250	250	800
+7554	Great Olm	Head (Normal)	1	1	126	99	99	375	375	225	375	375	800
+7554	Great Olm	Head (Normal)	2	0	126	99	198	270	270	151	270	270	1200
+7554	Great Olm	Head (Normal)	2	1	126	99	198	405	405	226	405	405	1200
+7554	Great Olm	Head (Normal)	3	0	126	99	297	272	272	153	272	272	1600
+7554	Great Olm	Head (Normal)	3	1	126	99	297	408	408	229	408	408	1600
+7554	Great Olm	Head (Normal)	4	0	126	99	396	275	275	154	275	275	2000
+7554	Great Olm	Head (Normal)	4	1	126	99	396	412	412	231	412	412	2000
+7554	Great Olm	Head (Normal)	5	0	126	99	495	295	295	156	295	295	2400
+7554	Great Olm	Head (Normal)	5	1	126	99	495	442	442	234	442	442	2400
+7554	Great Olm	Head (Normal)	7	0	126	99	693	300	300	159	300	300	3200
+7554	Great Olm	Head (Normal)	7	1	126	99	693	450	450	238	450	450	3200
+7554	Great Olm	Head (Normal)	8	0	126	99	792	302	302	159	302	302	2400
+7554	Great Olm	Head (Normal)	8	1	126	99	792	453	453	238	453	453	2400
+7554	Great Olm	Head (Normal)	9	0	126	99	891	305	305	160	305	305	2800
+7554	Great Olm	Head (Normal)	9	1	126	99	891	457	457	240	457	457	2800
+7554	Great Olm	Head (Normal)	12	0	126	99	1188	330	330	165	330	330	4000
+7554	Great Olm	Head (Normal)	12	1	126	99	1188	495	495	247	495	495	4000
+7554	Great Olm	Head (Normal)	15	0	126	99	1485	337	337	168	337	337	5200
+7554	Great Olm	Head (Normal)	15	1	126	99	1485	505	505	252	505	505	5200
+7554	Great Olm	Head (Normal)	16	0	126	99	1584	340	340	169	340	340	4400
+7554	Great Olm	Head (Normal)	16	1	126	99	1584	510	510	253	510	510	4400
+7554	Great Olm	Head (Normal)	23	0	126	99	2277	375	375	178	375	375	7200
+7554	Great Olm	Head (Normal)	23	1	126	99	2277	562	562	267	562	562	7200
+7554	Great Olm	Head (Normal)	24	0	126	99	2376	377	377	180	377	377	6400
+7554	Great Olm	Head (Normal)	24	1	126	99	2376	565	565	270	565	565	6400
+7554	Great Olm	Head (Normal)	32	0	126	99	3168	415	415	189	415	415	8400
+7554	Great Olm	Head (Normal)	32	1	126	99	3168	622	622	283	622	622	8400
+7554	Great Olm	Head (Normal)	49	0	126	99	4851	475	475	208	475	475	12800
+7554	Great Olm	Head (Normal)	49	1	126	99	4851	712	712	312	712	712	12800
+7554	Great Olm	Head (Normal)	50	0	126	99	4950	495	495	211	495	495	13200
+7554	Great Olm	Head (Normal)	50	1	126	99	4950	742	742	316	742	742	13200
+7554	Great Olm	Head (Normal)	51	0	126	99	5049	497	497	213	497	497	13600
+7554	Great Olm	Head (Normal)	51	1	126	99	5049	745	745	319	745	745	13600
+7554	Great Olm	Head (Normal)	64	0	126	99	6336	530	530	226	530	530	13600
+7554	Great Olm	Head (Normal)	64	1	126	99	6336	795	795	339	795	795	13600
+7554	Great Olm	Head (Normal)	100	0	126	99	9900	655	655	267	655	655	13600
+7554	Great Olm	Head (Normal)	100	1	126	99	9900	982	982	400	982	982	13600
+7554	Great Olm	Head (Normal)	1	0	100	99	99	250	250	150	250	250	800
+7554	Great Olm	Head (Normal)	1	0	60	99	99	250	250	150	250	250	800
+7554	Great Olm	Head (Normal)	1	0	126	70	99	217	217	130	217	217	800
+7554	Great Olm	Head (Normal)	1	0	90	55	99	199	199	119	199	199	800
+7554	Great Olm	Head (Normal)	1	0	126	1	99	138	138	83	138	138	800
+7554	Great Olm	Head (Normal)	1	1	100	99	99	375	375	225	375	375	800
+7554	Great Olm	Head (Normal)	1	1	60	99	99	375	375	225	375	375	800
+7554	Great Olm	Head (Normal)	1	1	126	70	99	325	325	195	325	325	800
+7554	Great Olm	Head (Normal)	1	1	90	55	99	298	298	178	298	298	800
+7554	Great Olm	Head (Normal)	1	1	126	1	99	207	207	124	207	207	800
+7554	Great Olm	Head (Normal)	3	0	100	99	297	272	272	153	272	272	1600
+7554	Great Olm	Head (Normal)	3	0	60	99	297	272	272	153	272	272	1600
+7554	Great Olm	Head (Normal)	3	0	126	70	297	236	236	132	236	236	1600
+7554	Great Olm	Head (Normal)	3	0	90	55	297	216	216	121	216	216	1600
+7554	Great Olm	Head (Normal)	3	0	126	1	297	150	150	84	150	150	1600
+7554	Great Olm	Head (Normal)	3	1	100	99	297	408	408	229	408	408	1600
+7554	Great Olm	Head (Normal)	3	1	60	99	297	408	408	229	408	408	1600
+7554	Great Olm	Head (Normal)	3	1	126	70	297	354	354	198	354	354	1600
+7554	Great Olm	Head (Normal)	3	1	90	55	297	324	324	181	324	324	1600
+7554	Great Olm	Head (Normal)	3	1	126	1	297	225	225	126	225	225	1600
+7554	Great Olm	Head (Normal)	24	0	100	99	2376	377	377	180	377	377	6400
+7554	Great Olm	Head (Normal)	24	0	60	99	2376	377	377	180	377	377	6400
+7554	Great Olm	Head (Normal)	24	0	126	70	2376	327	327	156	327	327	6400
+7554	Great Olm	Head (Normal)	24	0	90	55	2376	300	300	142	300	300	6400
+7554	Great Olm	Head (Normal)	24	0	126	1	2376	208	208	99	208	208	6400
+7554	Great Olm	Head (Normal)	24	1	100	99	2376	565	565	270	565	565	6400
+7554	Great Olm	Head (Normal)	24	1	60	99	2376	565	565	270	565	565	6400
+7554	Great Olm	Head (Normal)	24	1	126	70	2376	490	490	234	490	490	6400
+7554	Great Olm	Head (Normal)	24	1	90	55	2376	450	450	213	450	450	6400
+7554	Great Olm	Head (Normal)	24	1	126	1	2376	312	312	148	312	312	6400
+7555	Great Olm	Left claw (Normal)	1	0	126	99	99	250	250	175	175	250	600
+7555	Great Olm	Left claw (Normal)	1	1	126	99	99	375	375	262	262	375	600
+7555	Great Olm	Left claw (Normal)	2	0	126	99	198	270	270	176	176	270	900
+7555	Great Olm	Left claw (Normal)	2	1	126	99	198	405	405	264	264	405	900
+7555	Great Olm	Left claw (Normal)	3	0	126	99	297	272	272	178	178	272	1200
+7555	Great Olm	Left claw (Normal)	3	1	126	99	297	408	408	267	267	408	1200
+7555	Great Olm	Left claw (Normal)	4	0	126	99	396	275	275	180	180	275	1500
+7555	Great Olm	Left claw (Normal)	4	1	126	99	396	412	412	270	270	412	1500
+7555	Great Olm	Left claw (Normal)	5	0	126	99	495	295	295	182	182	295	1800
+7555	Great Olm	Left claw (Normal)	5	1	126	99	495	442	442	273	273	442	1800
+7555	Great Olm	Left claw (Normal)	7	0	126	99	693	300	300	185	185	300	2400
+7555	Great Olm	Left claw (Normal)	7	1	126	99	693	450	450	277	277	450	2400
+7555	Great Olm	Left claw (Normal)	8	0	126	99	792	302	302	185	185	302	1800
+7555	Great Olm	Left claw (Normal)	8	1	126	99	792	453	453	277	277	453	1800
+7555	Great Olm	Left claw (Normal)	9	0	126	99	891	305	305	187	187	305	2100
+7555	Great Olm	Left claw (Normal)	9	1	126	99	891	457	457	280	280	457	2100
+7555	Great Olm	Left claw (Normal)	12	0	126	99	1188	330	330	192	192	330	3000
+7555	Great Olm	Left claw (Normal)	12	1	126	99	1188	495	495	288	288	495	3000
+7555	Great Olm	Left claw (Normal)	15	0	126	99	1485	337	337	196	196	337	3900
+7555	Great Olm	Left claw (Normal)	15	1	126	99	1485	505	505	294	294	505	3900
+7555	Great Olm	Left claw (Normal)	16	0	126	99	1584	340	340	197	197	340	3300
+7555	Great Olm	Left claw (Normal)	16	1	126	99	1584	510	510	295	295	510	3300
+7555	Great Olm	Left claw (Normal)	23	0	126	99	2277	375	375	208	208	375	5400
+7555	Great Olm	Left claw (Normal)	23	1	126	99	2277	562	562	312	312	562	5400
+7555	Great Olm	Left claw (Normal)	24	0	126	99	2376	377	377	210	210	377	4800
+7555	Great Olm	Left claw (Normal)	24	1	126	99	2376	565	565	315	315	565	4800
+7555	Great Olm	Left claw (Normal)	32	0	126	99	3168	415	415	220	220	415	6300
+7555	Great Olm	Left claw (Normal)	32	1	126	99	3168	622	622	330	330	622	6300
+7555	Great Olm	Left claw (Normal)	49	0	126	99	4851	475	475	243	243	475	9600
+7555	Great Olm	Left claw (Normal)	49	1	126	99	4851	712	712	364	364	712	9600
+7555	Great Olm	Left claw (Normal)	50	0	126	99	4950	495	495	246	246	495	9900
+7555	Great Olm	Left claw (Normal)	50	1	126	99	4950	742	742	369	369	742	9900
+7555	Great Olm	Left claw (Normal)	51	0	126	99	5049	497	497	248	248	497	10200
+7555	Great Olm	Left claw (Normal)	51	1	126	99	5049	745	745	372	372	745	10200
+7555	Great Olm	Left claw (Normal)	64	0	126	99	6336	530	530	264	264	530	10200
+7555	Great Olm	Left claw (Normal)	64	1	126	99	6336	795	795	396	396	795	10200
+7555	Great Olm	Left claw (Normal)	100	0	126	99	9900	655	655	311	311	655	10200
+7555	Great Olm	Left claw (Normal)	100	1	126	99	9900	982	982	466	466	982	10200
+7555	Great Olm	Left claw (Normal)	1	0	100	99	99	250	250	175	175	250	600
+7555	Great Olm	Left claw (Normal)	1	0	60	99	99	250	250	175	175	250	600
+7555	Great Olm	Left claw (Normal)	1	0	126	70	99	217	217	152	152	217	600
+7555	Great Olm	Left claw (Normal)	1	0	90	55	99	199	199	139	139	199	600
+7555	Great Olm	Left claw (Normal)	1	0	126	1	99	138	138	97	97	138	600
+7555	Great Olm	Left claw (Normal)	1	1	100	99	99	375	375	262	262	375	600
+7555	Great Olm	Left claw (Normal)	1	1	60	99	99	375	375	262	262	375	600
+7555	Great Olm	Left claw (Normal)	1	1	126	70	99	325	325	228	228	325	600
+7555	Great Olm	Left claw (Normal)	1	1	90	55	99	298	298	208	208	298	600
+7555	Great Olm	Left claw (Normal)	1	1	126	1	99	207	207	145	145	207	600
+7555	Great Olm	Left claw (Normal)	3	0	100	99	297	272	272	178	178	272	1200
+7555	Great Olm	Left claw (Normal)	3	0	60	99	297	272	272	178	178	272	1200
+7555	Great Olm	Left claw (Normal)	3	0	126	70	297	236	236	155	155	236	1200
+7555	Great Olm	Left claw (Normal)	3	0	90	55	297	216	216	141	141	216	1200
+7555	Great Olm	Left claw (Normal)	3	0	126	1	297	150	150	98	98	150	1200
+7555	Great Olm	Left claw (Normal)	3	1	100	99	297	408	408	267	267	408	1200
+7555	Great Olm	Left claw (Normal)	3	1	60	99	297	408	408	267	267	408	1200
+7555	Great Olm	Left claw (Normal)	3	1	126	70	297	354	354	232	232	354	1200
+7555	Great Olm	Left claw (Normal)	3	1	90	55	297	324	324	211	211	324	1200
+7555	Great Olm	Left claw (Normal)	3	1	126	1	297	225	225	147	147	225	1200
+7555	Great Olm	Left claw (Normal)	24	0	100	99	2376	377	377	210	210	377	4800
+7555	Great Olm	Left claw (Normal)	24	0	60	99	2376	377	377	210	210	377	4800
+7555	Great Olm	Left claw (Normal)	24	0	126	70	2376	327	327	182	182	327	4800
+7555	Great Olm	Left claw (Normal)	24	0	90	55	2376	300	300	166	166	300	4800
+7555	Great Olm	Left claw (Normal)	24	0	126	1	2376	208	208	116	116	208	4800
+7555	Great Olm	Left claw (Normal)	24	1	100	99	2376	565	565	315	315	565	4800
+7555	Great Olm	Left claw (Normal)	24	1	60	99	2376	565	565	315	315	565	4800
+7555	Great Olm	Left claw (Normal)	24	1	126	70	2376	490	490	273	273	490	4800
+7555	Great Olm	Left claw (Normal)	24	1	90	55	2376	450	450	249	249	450	4800
+7555	Great Olm	Left claw (Normal)	24	1	126	1	2376	312	312	174	174	312	4800
+7563	Muttadile	Large	1	0	126	99	99	250	250	220	250	250	250
+7563	Muttadile	Large	1	1	126	99	99	375	375	330	375	375	375
+7563	Muttadile	Large	2	0	126	99	198	270	270	222	270	270	500
+7563	Muttadile	Large	2	1	126	99	198	405	405	333	405	405	750
+7563	Muttadile	Large	3	0	126	99	297	272	272	224	272	272	500
+7563	Muttadile	Large	3	1	126	99	297	408	408	336	408	408	750
+7563	Muttadile	Large	4	0	126	99	396	275	275	226	275	275	750
+7563	Muttadile	Large	4	1	126	99	396	412	412	339	412	412	1125
+7563	Muttadile	Large	5	0	126	99	495	295	295	228	295	295	750
+7563	Muttadile	Large	5	1	126	99	495	442	442	342	442	442	1125
+7563	Muttadile	Large	7	0	126	99	693	300	300	233	300	300	1000
+7563	Muttadile	Large	7	1	126	99	693	450	450	349	450	450	1500
+7563	Muttadile	Large	8	0	126	99	792	302	302	233	302	302	1250
+7563	Muttadile	Large	8	1	126	99	792	453	453	349	453	453	1875
+7563	Muttadile	Large	9	0	126	99	891	305	305	235	305	305	1250
+7563	Muttadile	Large	9	1	126	99	891	457	457	352	457	457	1875
+7563	Muttadile	Large	12	0	126	99	1188	330	330	242	330	330	1750
+7563	Muttadile	Large	12	1	126	99	1188	495	495	363	495	495	2625
+7563	Muttadile	Large	15	0	126	99	1485	337	337	246	337	337	2000
+7563	Muttadile	Large	15	1	126	99	1485	505	505	369	505	505	3000
+7563	Muttadile	Large	16	0	126	99	1584	340	340	248	340	340	2250
+7563	Muttadile	Large	16	1	126	99	1584	510	510	372	510	510	3375
+7563	Muttadile	Large	23	0	126	99	2277	375	375	261	375	375	3000
+7563	Muttadile	Large	23	1	126	99	2277	562	562	391	562	562	4500
+7563	Muttadile	Large	24	0	126	99	2376	377	377	264	377	377	3250
+7563	Muttadile	Large	24	1	126	99	2376	565	565	396	565	565	4875
+7563	Muttadile	Large	32	0	126	99	3168	415	415	277	415	415	4250
+7563	Muttadile	Large	32	1	126	99	3168	622	622	415	622	622	6375
+7563	Muttadile	Large	49	0	126	99	4851	475	475	305	475	475	6250
+7563	Muttadile	Large	49	1	126	99	4851	712	712	457	712	712	9375
+7563	Muttadile	Large	50	0	126	99	4950	495	495	310	495	495	6500
+7563	Muttadile	Large	50	1	126	99	4950	742	742	465	742	742	9750
+7563	Muttadile	Large	51	0	126	99	5049	497	497	312	497	497	6500
+7563	Muttadile	Large	51	1	126	99	5049	745	745	468	745	745	9750
+7563	Muttadile	Large	64	0	126	99	6336	530	530	332	530	530	8250
+7563	Muttadile	Large	64	1	126	99	6336	795	795	498	795	795	12375
+7563	Muttadile	Large	100	0	126	99	9900	655	655	391	655	655	12750
+7563	Muttadile	Large	100	1	126	99	9900	982	982	586	982	982	19125
+7563	Muttadile	Large	1	0	100	99	99	250	250	220	250	250	198
+7563	Muttadile	Large	1	0	60	99	99	250	250	220	250	250	119
+7563	Muttadile	Large	1	0	126	70	99	217	217	191	217	217	250
+7563	Muttadile	Large	1	0	90	55	99	199	199	175	199	199	178
+7563	Muttadile	Large	1	0	126	1	99	138	138	122	138	138	250
+7563	Muttadile	Large	1	1	100	99	99	375	375	330	375	375	297
+7563	Muttadile	Large	1	1	60	99	99	375	375	330	375	375	178
+7563	Muttadile	Large	1	1	126	70	99	325	325	286	325	325	375
+7563	Muttadile	Large	1	1	90	55	99	298	298	262	298	298	267
+7563	Muttadile	Large	1	1	126	1	99	207	207	183	207	207	375
+7563	Muttadile	Large	3	0	100	99	297	272	272	224	272	272	396
+7563	Muttadile	Large	3	0	60	99	297	272	272	224	272	272	238
+7563	Muttadile	Large	3	0	126	70	297	236	236	194	236	236	500
+7563	Muttadile	Large	3	0	90	55	297	216	216	178	216	216	356
+7563	Muttadile	Large	3	0	126	1	297	150	150	124	150	150	500
+7563	Muttadile	Large	3	1	100	99	297	408	408	336	408	408	594
+7563	Muttadile	Large	3	1	60	99	297	408	408	336	408	408	357
+7563	Muttadile	Large	3	1	126	70	297	354	354	291	354	354	750
+7563	Muttadile	Large	3	1	90	55	297	324	324	267	324	324	534
+7563	Muttadile	Large	3	1	126	1	297	225	225	186	225	225	750
+7563	Muttadile	Large	24	0	100	99	2376	377	377	264	377	377	2574
+7563	Muttadile	Large	24	0	60	99	2376	377	377	264	377	377	1547
+7563	Muttadile	Large	24	0	126	70	2376	327	327	229	327	327	3250
+7563	Muttadile	Large	24	0	90	55	2376	300	300	210	300	300	2314
+7563	Muttadile	Large	24	0	126	1	2376	208	208	146	208	208	3250
+7563	Muttadile	Large	24	1	100	99	2376	565	565	396	565	565	3861
+7563	Muttadile	Large	24	1	60	99	2376	565	565	396	565	565	2320
+7563	Muttadile	Large	24	1	126	70	2376	490	490	343	490	490	4875
+7563	Muttadile	Large	24	1	90	55	2376	450	450	315	450	450	3471
+7563	Muttadile	Large	24	1	126	1	2376	312	312	219	312	312	4875
+7570	Guardian (Chambers of Xeric)	Normal	1	0	126	99	99	140	140	100	1	1	250
+7570	Guardian (Chambers of Xeric)	Normal	1	1	126	99	99	210	210	150	1	1	375
+7570	Guardian (Chambers of Xeric)	Normal	2	0	126	99	198	151	151	101	1	1	500
+7570	Guardian (Chambers of Xeric)	Normal	2	1	126	99	198	226	226	151	1	1	750
+7570	Guardian (Chambers of Xeric)	Normal	3	0	126	99	297	152	152	102	1	1	500
+7570	Guardian (Chambers of Xeric)	Normal	3	1	126	99	297	228	228	153	1	1	750
+7570	Guardian (Chambers of Xeric)	Normal	4	0	126	99	396	154	154	103	1	1	750
+7570	Guardian (Chambers of Xeric)	Normal	4	1	126	99	396	231	231	154	1	1	1125
+7570	Guardian (Chambers of Xeric)	Normal	5	0	126	99	495	165	165	104	1	1	750
+7570	Guardian (Chambers of Xeric)	Normal	5	1	126	99	495	247	247	156	1	1	1125
+7570	Guardian (Chambers of Xeric)	Normal	7	0	126	99	693	168	168	106	1	1	1000
+7570	Guardian (Chambers of Xeric)	Normal	7	1	126	99	693	252	252	159	1	1	1500
+7570	Guardian (Chambers of Xeric)	Normal	8	0	126	99	792	169	169	106	1	1	1250
+7570	Guardian (Chambers of Xeric)	Normal	8	1	126	99	792	253	253	159	1	1	1875
+7570	Guardian (Chambers of Xeric)	Normal	9	0	126	99	891	170	170	107	1	1	1250
+7570	Guardian (Chambers of Xeric)	Normal	9	1	126	99	891	255	255	160	1	1	1875
+7570	Guardian (Chambers of Xeric)	Normal	12	0	126	99	1188	184	184	110	1	1	1750
+7570	Guardian (Chambers of Xeric)	Normal	12	1	126	99	1188	276	276	165	1	1	2625
+7570	Guardian (Chambers of Xeric)	Normal	15	0	126	99	1485	189	189	112	1	1	2000
+7570	Guardian (Chambers of Xeric)	Normal	15	1	126	99	1485	283	283	168	1	1	3000
+7570	Guardian (Chambers of Xeric)	Normal	16	0	126	99	1584	190	190	113	1	1	2250
+7570	Guardian (Chambers of Xeric)	Normal	16	1	126	99	1584	285	285	169	1	1	3375
+7570	Guardian (Chambers of Xeric)	Normal	23	0	126	99	2277	210	210	119	1	1	3000
+7570	Guardian (Chambers of Xeric)	Normal	23	1	126	99	2277	315	315	178	1	1	4500
+7570	Guardian (Chambers of Xeric)	Normal	24	0	126	99	2376	211	211	120	1	1	3250
+7570	Guardian (Chambers of Xeric)	Normal	24	1	126	99	2376	316	316	180	1	1	4875
+7570	Guardian (Chambers of Xeric)	Normal	32	0	126	99	3168	232	232	126	1	1	4250
+7570	Guardian (Chambers of Xeric)	Normal	32	1	126	99	3168	348	348	189	1	1	6375
+7570	Guardian (Chambers of Xeric)	Normal	49	0	126	99	4851	266	266	139	1	1	6250
+7570	Guardian (Chambers of Xeric)	Normal	49	1	126	99	4851	399	399	208	1	1	9375
+7570	Guardian (Chambers of Xeric)	Normal	50	0	126	99	4950	277	277	141	1	1	6500
+7570	Guardian (Chambers of Xeric)	Normal	50	1	126	99	4950	415	415	211	1	1	9750
+7570	Guardian (Chambers of Xeric)	Normal	51	0	126	99	5049	278	278	142	1	1	6500
+7570	Guardian (Chambers of Xeric)	Normal	51	1	126	99	5049	417	417	213	1	1	9750
+7570	Guardian (Chambers of Xeric)	Normal	64	0	126	99	6336	296	296	151	1	1	8250
+7570	Guardian (Chambers of Xeric)	Normal	64	1	126	99	6336	444	444	226	1	1	12375
+7570	Guardian (Chambers of Xeric)	Normal	100	0	126	99	9900	366	366	178	1	1	12750
+7570	Guardian (Chambers of Xeric)	Normal	100	1	126	99	9900	549	549	267	1	1	19125
+7570	Guardian (Chambers of Xeric)	Normal	1	0	100	99	99	140	140	100	1	1	198
+7570	Guardian (Chambers of Xeric)	Normal	1	0	60	99	99	140	140	100	1	1	119
+7570	Guardian (Chambers of Xeric)	Normal	1	0	126	70	99	121	121	86	1	1	250
+7570	Guardian (Chambers of Xeric)	Normal	1	0	90	55	99	111	111	79	1	1	178
+7570	Guardian (Chambers of Xeric)	Normal	1	0	126	1	99	77	77	55	1	1	250
+7570	Guardian (Chambers of Xeric)	Normal	1	1	100	99	99	210	210	150	1	1	297
+7570	Guardian (Chambers of Xeric)	Normal	1	1	60	99	99	210	210	150	1	1	178
+7570	Guardian (Chambers of Xeric)	Normal	1	1	126	70	99	181	181	129	1	1	375
+7570	Guardian (Chambers of Xeric)	Normal	1	1	90	55	99	166	166	118	1	1	267
+7570	Guardian (Chambers of Xeric)	Normal	1	1	126	1	99	115	115	82	1	1	375
+7570	Guardian (Chambers of Xeric)	Normal	3	0	100	99	297	152	152	102	1	1	396
+7570	Guardian (Chambers of Xeric)	Normal	3	0	60	99	297	152	152	102	1	1	238
+7570	Guardian (Chambers of Xeric)	Normal	3	0	126	70	297	131	131	87	1	1	500
+7570	Guardian (Chambers of Xeric)	Normal	3	0	90	55	297	120	120	80	1	1	356
+7570	Guardian (Chambers of Xeric)	Normal	3	0	126	1	297	83	83	56	1	1	500
+7570	Guardian (Chambers of Xeric)	Normal	3	1	100	99	297	228	228	153	1	1	594
+7570	Guardian (Chambers of Xeric)	Normal	3	1	60	99	297	228	228	153	1	1	357
+7570	Guardian (Chambers of Xeric)	Normal	3	1	126	70	297	196	196	130	1	1	750
+7570	Guardian (Chambers of Xeric)	Normal	3	1	90	55	297	180	180	120	1	1	534
+7570	Guardian (Chambers of Xeric)	Normal	3	1	126	1	297	124	124	84	1	1	750
+7570	Guardian (Chambers of Xeric)	Normal	24	0	100	99	2376	211	211	120	1	1	2574
+7570	Guardian (Chambers of Xeric)	Normal	24	0	60	99	2376	211	211	120	1	1	1547
+7570	Guardian (Chambers of Xeric)	Normal	24	0	126	70	2376	182	182	103	1	1	3250
+7570	Guardian (Chambers of Xeric)	Normal	24	0	90	55	2376	167	167	94	1	1	2314
+7570	Guardian (Chambers of Xeric)	Normal	24	0	126	1	2376	116	116	66	1	1	3250
+7570	Guardian (Chambers of Xeric)	Normal	24	1	100	99	2376	316	316	180	1	1	3861
+7570	Guardian (Chambers of Xeric)	Normal	24	1	60	99	2376	316	316	180	1	1	2320
+7570	Guardian (Chambers of Xeric)	Normal	24	1	126	70	2376	273	273	154	1	1	4875
+7570	Guardian (Chambers of Xeric)	Normal	24	1	90	55	2376	250	250	141	1	1	3471
+7570	Guardian (Chambers of Xeric)	Normal	24	1	126	1	2376	174	174	99	1	1	4875
+7571	Guardian (Chambers of Xeric)	Normal	1	0	126	99	99	140	140	100	1	1	250
+7571	Guardian (Chambers of Xeric)	Normal	1	1	126	99	99	210	210	150	1	1	375
+7571	Guardian (Chambers of Xeric)	Normal	2	0	126	99	198	151	151	101	1	1	500
+7571	Guardian (Chambers of Xeric)	Normal	2	1	126	99	198	226	226	151	1	1	750
+7571	Guardian (Chambers of Xeric)	Normal	3	0	126	99	297	152	152	102	1	1	500
+7571	Guardian (Chambers of Xeric)	Normal	3	1	126	99	297	228	228	153	1	1	750
+7571	Guardian (Chambers of Xeric)	Normal	4	0	126	99	396	154	154	103	1	1	750
+7571	Guardian (Chambers of Xeric)	Normal	4	1	126	99	396	231	231	154	1	1	1125
+7571	Guardian (Chambers of Xeric)	Normal	5	0	126	99	495	165	165	104	1	1	750
+7571	Guardian (Chambers of Xeric)	Normal	5	1	126	99	495	247	247	156	1	1	1125
+7571	Guardian (Chambers of Xeric)	Normal	7	0	126	99	693	168	168	106	1	1	1000
+7571	Guardian (Chambers of Xeric)	Normal	7	1	126	99	693	252	252	159	1	1	1500
+7571	Guardian (Chambers of Xeric)	Normal	8	0	126	99	792	169	169	106	1	1	1250
+7571	Guardian (Chambers of Xeric)	Normal	8	1	126	99	792	253	253	159	1	1	1875
+7571	Guardian (Chambers of Xeric)	Normal	9	0	126	99	891	170	170	107	1	1	1250
+7571	Guardian (Chambers of Xeric)	Normal	9	1	126	99	891	255	255	160	1	1	1875
+7571	Guardian (Chambers of Xeric)	Normal	12	0	126	99	1188	184	184	110	1	1	1750
+7571	Guardian (Chambers of Xeric)	Normal	12	1	126	99	1188	276	276	165	1	1	2625
+7571	Guardian (Chambers of Xeric)	Normal	15	0	126	99	1485	189	189	112	1	1	2000
+7571	Guardian (Chambers of Xeric)	Normal	15	1	126	99	1485	283	283	168	1	1	3000
+7571	Guardian (Chambers of Xeric)	Normal	16	0	126	99	1584	190	190	113	1	1	2250
+7571	Guardian (Chambers of Xeric)	Normal	16	1	126	99	1584	285	285	169	1	1	3375
+7571	Guardian (Chambers of Xeric)	Normal	23	0	126	99	2277	210	210	119	1	1	3000
+7571	Guardian (Chambers of Xeric)	Normal	23	1	126	99	2277	315	315	178	1	1	4500
+7571	Guardian (Chambers of Xeric)	Normal	24	0	126	99	2376	211	211	120	1	1	3250
+7571	Guardian (Chambers of Xeric)	Normal	24	1	126	99	2376	316	316	180	1	1	4875
+7571	Guardian (Chambers of Xeric)	Normal	32	0	126	99	3168	232	232	126	1	1	4250
+7571	Guardian (Chambers of Xeric)	Normal	32	1	126	99	3168	348	348	189	1	1	6375
+7571	Guardian (Chambers of Xeric)	Normal	49	0	126	99	4851	266	266	139	1	1	6250
+7571	Guardian (Chambers of Xeric)	Normal	49	1	126	99	4851	399	399	208	1	1	9375
+7571	Guardian (Chambers of Xeric)	Normal	50	0	126	99	4950	277	277	141	1	1	6500
+7571	Guardian (Chambers of Xeric)	Normal	50	1	126	99	4950	415	415	211	1	1	9750
+7571	Guardian (Chambers of Xeric)	Normal	51	0	126	99	5049	278	278	142	1	1	6500
+7571	Guardian (Chambers of Xeric)	Normal	51	1	126	99	5049	417	417	213	1	1	9750
+7571	Guardian (Chambers of Xeric)	Normal	64	0	126	99	6336	296	296	151	1	1	8250
+7571	Guardian (Chambers of Xeric)	Normal	64	1	126	99	6336	444	444	226	1	1	12375
+7571	Guardian (Chambers of Xeric)	Normal	100	0	126	99	9900	366	366	178	1	1	12750
+7571	Guardian (Chambers of Xeric)	Normal	100	1	126	99	9900	549	549	267	1	1	19125
+7571	Guardian (Chambers of Xeric)	Normal	1	0	100	99	99	140	140	100	1	1	198
+7571	Guardian (Chambers of Xeric)	Normal	1	0	60	99	99	140	140	100	1	1	119
+7571	Guardian (Chambers of Xeric)	Normal	1	0	126	70	99	121	121	86	1	1	250
+7571	Guardian (Chambers of Xeric)	Normal	1	0	90	55	99	111	111	79	1	1	178
+7571	Guardian (Chambers of Xeric)	Normal	1	0	126	1	99	77	77	55	1	1	250
+7571	Guardian (Chambers of Xeric)	Normal	1	1	100	99	99	210	210	150	1	1	297
+7571	Guardian (Chambers of Xeric)	Normal	1	1	60	99	99	210	210	150	1	1	178
+7571	Guardian (Chambers of Xeric)	Normal	1	1	126	70	99	181	181	129	1	1	375
+7571	Guardian (Chambers of Xeric)	Normal	1	1	90	55	99	166	166	118	1	1	267
+7571	Guardian (Chambers of Xeric)	Normal	1	1	126	1	99	115	115	82	1	1	375
+7571	Guardian (Chambers of Xeric)	Normal	3	0	100	99	297	152	152	102	1	1	396
+7571	Guardian (Chambers of Xeric)	Normal	3	0	60	99	297	152	152	102	1	1	238
+7571	Guardian (Chambers of Xeric)	Normal	3	0	126	70	297	131	131	87	1	1	500
+7571	Guardian (Chambers of Xeric)	Normal	3	0	90	55	297	120	120	80	1	1	356
+7571	Guardian (Chambers of Xeric)	Normal	3	0	126	1	297	83	83	56	1	1	500
+7571	Guardian (Chambers of Xeric)	Normal	3	1	100	99	297	228	228	153	1	1	594
+7571	Guardian (Chambers of Xeric)	Normal	3	1	60	99	297	228	228	153	1	1	357
+7571	Guardian (Chambers of Xeric)	Normal	3	1	126	70	297	196	196	130	1	1	750
+7571	Guardian (Chambers of Xeric)	Normal	3	1	90	55	297	180	180	120	1	1	534
+7571	Guardian (Chambers of Xeric)	Normal	3	1	126	1	297	124	124	84	1	1	750
+7571	Guardian (Chambers of Xeric)	Normal	24	0	100	99	2376	211	211	120	1	1	2574
+7571	Guardian (Chambers of Xeric)	Normal	24	0	60	99	2376	211	211	120	1	1	1547
+7571	Guardian (Chambers of Xeric)	Normal	24	0	126	70	2376	182	182	103	1	1	3250
+7571	Guardian (Chambers of Xeric)	Normal	24	0	90	55	2376	167	167	94	1	1	2314
+7571	Guardian (Chambers of Xeric)	Normal	24	0	126	1	2376	116	116	66	1	1	3250
+7571	Guardian (Chambers of Xeric)	Normal	24	1	100	99	2376	316	316	180	1	1	3861
+7571	Guardian (Chambers of Xeric)	Normal	24	1	60	99	2376	316	316	180	1	1	2320
+7571	Guardian (Chambers of Xeric)	Normal	24	1	126	70	2376	273	273	154	1	1	4875
+7571	Guardian (Chambers of Xeric)	Normal	24	1	90	55	2376	250	250	141	1	1	3471
+7571	Guardian (Chambers of Xeric)	Normal	24	1	126	1	2376	174	174	99	1	1	4875
+7572	Guardian (Chambers of Xeric)	Normal	1	0	126	99	99	140	140	100	1	1	250
+7572	Guardian (Chambers of Xeric)	Normal	1	1	126	99	99	210	210	150	1	1	375
+7572	Guardian (Chambers of Xeric)	Normal	2	0	126	99	198	151	151	101	1	1	500
+7572	Guardian (Chambers of Xeric)	Normal	2	1	126	99	198	226	226	151	1	1	750
+7572	Guardian (Chambers of Xeric)	Normal	3	0	126	99	297	152	152	102	1	1	500
+7572	Guardian (Chambers of Xeric)	Normal	3	1	126	99	297	228	228	153	1	1	750
+7572	Guardian (Chambers of Xeric)	Normal	4	0	126	99	396	154	154	103	1	1	750
+7572	Guardian (Chambers of Xeric)	Normal	4	1	126	99	396	231	231	154	1	1	1125
+7572	Guardian (Chambers of Xeric)	Normal	5	0	126	99	495	165	165	104	1	1	750
+7572	Guardian (Chambers of Xeric)	Normal	5	1	126	99	495	247	247	156	1	1	1125
+7572	Guardian (Chambers of Xeric)	Normal	7	0	126	99	693	168	168	106	1	1	1000
+7572	Guardian (Chambers of Xeric)	Normal	7	1	126	99	693	252	252	159	1	1	1500
+7572	Guardian (Chambers of Xeric)	Normal	8	0	126	99	792	169	169	106	1	1	1250
+7572	Guardian (Chambers of Xeric)	Normal	8	1	126	99	792	253	253	159	1	1	1875
+7572	Guardian (Chambers of Xeric)	Normal	9	0	126	99	891	170	170	107	1	1	1250
+7572	Guardian (Chambers of Xeric)	Normal	9	1	126	99	891	255	255	160	1	1	1875
+7572	Guardian (Chambers of Xeric)	Normal	12	0	126	99	1188	184	184	110	1	1	1750
+7572	Guardian (Chambers of Xeric)	Normal	12	1	126	99	1188	276	276	165	1	1	2625
+7572	Guardian (Chambers of Xeric)	Normal	15	0	126	99	1485	189	189	112	1	1	2000
+7572	Guardian (Chambers of Xeric)	Normal	15	1	126	99	1485	283	283	168	1	1	3000
+7572	Guardian (Chambers of Xeric)	Normal	16	0	126	99	1584	190	190	113	1	1	2250
+7572	Guardian (Chambers of Xeric)	Normal	16	1	126	99	1584	285	285	169	1	1	3375
+7572	Guardian (Chambers of Xeric)	Normal	23	0	126	99	2277	210	210	119	1	1	3000
+7572	Guardian (Chambers of Xeric)	Normal	23	1	126	99	2277	315	315	178	1	1	4500
+7572	Guardian (Chambers of Xeric)	Normal	24	0	126	99	2376	211	211	120	1	1	3250
+7572	Guardian (Chambers of Xeric)	Normal	24	1	126	99	2376	316	316	180	1	1	4875
+7572	Guardian (Chambers of Xeric)	Normal	32	0	126	99	3168	232	232	126	1	1	4250
+7572	Guardian (Chambers of Xeric)	Normal	32	1	126	99	3168	348	348	189	1	1	6375
+7572	Guardian (Chambers of Xeric)	Normal	49	0	126	99	4851	266	266	139	1	1	6250
+7572	Guardian (Chambers of Xeric)	Normal	49	1	126	99	4851	399	399	208	1	1	9375
+7572	Guardian (Chambers of Xeric)	Normal	50	0	126	99	4950	277	277	141	1	1	6500
+7572	Guardian (Chambers of Xeric)	Normal	50	1	126	99	4950	415	415	211	1	1	9750
+7572	Guardian (Chambers of Xeric)	Normal	51	0	126	99	5049	278	278	142	1	1	6500
+7572	Guardian (Chambers of Xeric)	Normal	51	1	126	99	5049	417	417	213	1	1	9750
+7572	Guardian (Chambers of Xeric)	Normal	64	0	126	99	6336	296	296	151	1	1	8250
+7572	Guardian (Chambers of Xeric)	Normal	64	1	126	99	6336	444	444	226	1	1	12375
+7572	Guardian (Chambers of Xeric)	Normal	100	0	126	99	9900	366	366	178	1	1	12750
+7572	Guardian (Chambers of Xeric)	Normal	100	1	126	99	9900	549	549	267	1	1	19125
+7572	Guardian (Chambers of Xeric)	Normal	1	0	100	99	99	140	140	100	1	1	198
+7572	Guardian (Chambers of Xeric)	Normal	1	0	60	99	99	140	140	100	1	1	119
+7572	Guardian (Chambers of Xeric)	Normal	1	0	126	70	99	121	121	86	1	1	250
+7572	Guardian (Chambers of Xeric)	Normal	1	0	90	55	99	111	111	79	1	1	178
+7572	Guardian (Chambers of Xeric)	Normal	1	0	126	1	99	77	77	55	1	1	250
+7572	Guardian (Chambers of Xeric)	Normal	1	1	100	99	99	210	210	150	1	1	297
+7572	Guardian (Chambers of Xeric)	Normal	1	1	60	99	99	210	210	150	1	1	178
+7572	Guardian (Chambers of Xeric)	Normal	1	1	126	70	99	181	181	129	1	1	375
+7572	Guardian (Chambers of Xeric)	Normal	1	1	90	55	99	166	166	118	1	1	267
+7572	Guardian (Chambers of Xeric)	Normal	1	1	126	1	99	115	115	82	1	1	375
+7572	Guardian (Chambers of Xeric)	Normal	3	0	100	99	297	152	152	102	1	1	396
+7572	Guardian (Chambers of Xeric)	Normal	3	0	60	99	297	152	152	102	1	1	238
+7572	Guardian (Chambers of Xeric)	Normal	3	0	126	70	297	131	131	87	1	1	500
+7572	Guardian (Chambers of Xeric)	Normal	3	0	90	55	297	120	120	80	1	1	356
+7572	Guardian (Chambers of Xeric)	Normal	3	0	126	1	297	83	83	56	1	1	500
+7572	Guardian (Chambers of Xeric)	Normal	3	1	100	99	297	228	228	153	1	1	594
+7572	Guardian (Chambers of Xeric)	Normal	3	1	60	99	297	228	228	153	1	1	357
+7572	Guardian (Chambers of Xeric)	Normal	3	1	126	70	297	196	196	130	1	1	750
+7572	Guardian (Chambers of Xeric)	Normal	3	1	90	55	297	180	180	120	1	1	534
+7572	Guardian (Chambers of Xeric)	Normal	3	1	126	1	297	124	124	84	1	1	750
+7572	Guardian (Chambers of Xeric)	Normal	24	0	100	99	2376	211	211	120	1	1	2574
+7572	Guardian (Chambers of Xeric)	Normal	24	0	60	99	2376	211	211	120	1	1	1547
+7572	Guardian (Chambers of Xeric)	Normal	24	0	126	70	2376	182	182	103	1	1	3250
+7572	Guardian (Chambers of Xeric)	Normal	24	0	90	55	2376	167	167	94	1	1	2314
+7572	Guardian (Chambers of Xeric)	Normal	24	0	126	1	2376	116	116	66	1	1	3250
+7572	Guardian (Chambers of Xeric)	Normal	24	1	100	99	2376	316	316	180	1	1	3861
+7572	Guardian (Chambers of Xeric)	Normal	24	1	60	99	2376	316	316	180	1	1	2320
+7572	Guardian (Chambers of Xeric)	Normal	24	1	126	70	2376	273	273	154	1	1	4875
+7572	Guardian (Chambers of Xeric)	Normal	24	1	90	55	2376	250	250	141	1	1	3471
+7572	Guardian (Chambers of Xeric)	Normal	24	1	126	1	2376	174	174	99	1	1	4875
+7574	Lizardman shaman (Chambers of Xeric)	Normal	1	0	126	99	99	130	130	210	130	130	190
+7574	Lizardman shaman (Chambers of Xeric)	Normal	1	1	126	99	99	195	195	315	195	195	285
+7574	Lizardman shaman (Chambers of Xeric)	Normal	2	0	126	99	198	140	140	212	140	140	380
+7574	Lizardman shaman (Chambers of Xeric)	Normal	2	1	126	99	198	210	210	318	210	210	570
+7574	Lizardman shaman (Chambers of Xeric)	Normal	3	0	126	99	297	141	141	214	141	141	380
+7574	Lizardman shaman (Chambers of Xeric)	Normal	3	1	126	99	297	211	211	321	211	211	570
+7574	Lizardman shaman (Chambers of Xeric)	Normal	4	0	126	99	396	143	143	216	143	143	570
+7574	Lizardman shaman (Chambers of Xeric)	Normal	4	1	126	99	396	214	214	324	214	214	855
+7574	Lizardman shaman (Chambers of Xeric)	Normal	5	0	126	99	495	153	153	218	153	153	570
+7574	Lizardman shaman (Chambers of Xeric)	Normal	5	1	126	99	495	229	229	327	229	229	855
+7574	Lizardman shaman (Chambers of Xeric)	Normal	7	0	126	99	693	156	156	222	156	156	760
+7574	Lizardman shaman (Chambers of Xeric)	Normal	7	1	126	99	693	234	234	333	234	234	1140
+7574	Lizardman shaman (Chambers of Xeric)	Normal	8	0	126	99	792	157	157	222	157	157	950
+7574	Lizardman shaman (Chambers of Xeric)	Normal	8	1	126	99	792	235	235	333	235	235	1425
+7574	Lizardman shaman (Chambers of Xeric)	Normal	9	0	126	99	891	158	158	224	158	158	950
+7574	Lizardman shaman (Chambers of Xeric)	Normal	9	1	126	99	891	237	237	336	237	237	1425
+7574	Lizardman shaman (Chambers of Xeric)	Normal	12	0	126	99	1188	171	171	231	171	171	1330
+7574	Lizardman shaman (Chambers of Xeric)	Normal	12	1	126	99	1188	256	256	346	256	256	1995
+7574	Lizardman shaman (Chambers of Xeric)	Normal	15	0	126	99	1485	175	175	235	175	175	1520
+7574	Lizardman shaman (Chambers of Xeric)	Normal	15	1	126	99	1485	262	262	352	262	262	2280
+7574	Lizardman shaman (Chambers of Xeric)	Normal	16	0	126	99	1584	176	176	237	176	176	1710
+7574	Lizardman shaman (Chambers of Xeric)	Normal	16	1	126	99	1584	264	264	355	264	264	2565
+7574	Lizardman shaman (Chambers of Xeric)	Normal	23	0	126	99	2277	195	195	249	195	195	2280
+7574	Lizardman shaman (Chambers of Xeric)	Normal	23	1	126	99	2277	292	292	373	292	292	3420
+7574	Lizardman shaman (Chambers of Xeric)	Normal	24	0	126	99	2376	196	196	252	196	196	2470
+7574	Lizardman shaman (Chambers of Xeric)	Normal	24	1	126	99	2376	294	294	378	294	294	3705
+7574	Lizardman shaman (Chambers of Xeric)	Normal	32	0	126	99	3168	215	215	264	215	215	3230
+7574	Lizardman shaman (Chambers of Xeric)	Normal	32	1	126	99	3168	322	322	396	322	322	4845
+7574	Lizardman shaman (Chambers of Xeric)	Normal	49	0	126	99	4851	247	247	291	247	247	4750
+7574	Lizardman shaman (Chambers of Xeric)	Normal	49	1	126	99	4851	370	370	436	370	370	7125
+7574	Lizardman shaman (Chambers of Xeric)	Normal	50	0	126	99	4950	257	257	296	257	257	4940
+7574	Lizardman shaman (Chambers of Xeric)	Normal	50	1	126	99	4950	385	385	444	385	385	7410
+7574	Lizardman shaman (Chambers of Xeric)	Normal	51	0	126	99	5049	258	258	298	258	258	4940
+7574	Lizardman shaman (Chambers of Xeric)	Normal	51	1	126	99	5049	387	387	447	387	387	7410
+7574	Lizardman shaman (Chambers of Xeric)	Normal	64	0	126	99	6336	275	275	317	275	275	6270
+7574	Lizardman shaman (Chambers of Xeric)	Normal	64	1	126	99	6336	412	412	475	412	412	9405
+7574	Lizardman shaman (Chambers of Xeric)	Normal	100	0	126	99	9900	340	340	373	340	340	9690
+7574	Lizardman shaman (Chambers of Xeric)	Normal	100	1	126	99	9900	510	510	559	510	510	14535
+7574	Lizardman shaman (Chambers of Xeric)	Normal	1	0	100	99	99	130	130	210	130	130	150
+7574	Lizardman shaman (Chambers of Xeric)	Normal	1	0	60	99	99	130	130	210	130	130	90
+7574	Lizardman shaman (Chambers of Xeric)	Normal	1	0	126	70	99	112	112	182	112	112	190
+7574	Lizardman shaman (Chambers of Xeric)	Normal	1	0	90	55	99	103	103	167	103	103	135
+7574	Lizardman shaman (Chambers of Xeric)	Normal	1	0	126	1	99	72	72	116	72	72	190
+7574	Lizardman shaman (Chambers of Xeric)	Normal	1	1	100	99	99	195	195	315	195	195	225
+7574	Lizardman shaman (Chambers of Xeric)	Normal	1	1	60	99	99	195	195	315	195	195	135
+7574	Lizardman shaman (Chambers of Xeric)	Normal	1	1	126	70	99	168	168	273	168	168	285
+7574	Lizardman shaman (Chambers of Xeric)	Normal	1	1	90	55	99	154	154	250	154	154	202
+7574	Lizardman shaman (Chambers of Xeric)	Normal	1	1	126	1	99	108	108	174	108	108	285
+7574	Lizardman shaman (Chambers of Xeric)	Normal	3	0	100	99	297	141	141	214	141	141	300
+7574	Lizardman shaman (Chambers of Xeric)	Normal	3	0	60	99	297	141	141	214	141	141	180
+7574	Lizardman shaman (Chambers of Xeric)	Normal	3	0	126	70	297	122	122	185	122	122	380
+7574	Lizardman shaman (Chambers of Xeric)	Normal	3	0	90	55	297	112	112	170	112	112	270
+7574	Lizardman shaman (Chambers of Xeric)	Normal	3	0	126	1	297	78	78	118	78	78	380
+7574	Lizardman shaman (Chambers of Xeric)	Normal	3	1	100	99	297	211	211	321	211	211	450
+7574	Lizardman shaman (Chambers of Xeric)	Normal	3	1	60	99	297	211	211	321	211	211	270
+7574	Lizardman shaman (Chambers of Xeric)	Normal	3	1	126	70	297	183	183	277	183	183	570
+7574	Lizardman shaman (Chambers of Xeric)	Normal	3	1	90	55	297	168	168	255	168	168	405
+7574	Lizardman shaman (Chambers of Xeric)	Normal	3	1	126	1	297	117	117	177	117	117	570
+7574	Lizardman shaman (Chambers of Xeric)	Normal	24	0	100	99	2376	196	196	252	196	196	1950
+7574	Lizardman shaman (Chambers of Xeric)	Normal	24	0	60	99	2376	196	196	252	196	196	1170
+7574	Lizardman shaman (Chambers of Xeric)	Normal	24	0	126	70	2376	169	169	218	169	169	2470
+7574	Lizardman shaman (Chambers of Xeric)	Normal	24	0	90	55	2376	155	155	200	155	155	1755
+7574	Lizardman shaman (Chambers of Xeric)	Normal	24	0	126	1	2376	108	108	139	108	108	2470
+7574	Lizardman shaman (Chambers of Xeric)	Normal	24	1	100	99	2376	294	294	378	294	294	2925
+7574	Lizardman shaman (Chambers of Xeric)	Normal	24	1	60	99	2376	294	294	378	294	294	1755
+7574	Lizardman shaman (Chambers of Xeric)	Normal	24	1	126	70	2376	253	253	327	253	253	3705
+7574	Lizardman shaman (Chambers of Xeric)	Normal	24	1	90	55	2376	232	232	300	232	232	2632
+7574	Lizardman shaman (Chambers of Xeric)	Normal	24	1	126	1	2376	162	162	208	162	162	3705
+7585	Ice demon	Normal	1	0	126	99	99	1	1	160	390	390	140
+7585	Ice demon	Normal	1	1	126	99	99	1	1	240	585	585	210
+7585	Ice demon	Normal	2	0	126	99	198	1	1	161	421	421	280
+7585	Ice demon	Normal	2	1	126	99	198	1	1	241	631	631	420
+7585	Ice demon	Normal	3	0	126	99	297	1	1	163	425	425	280
+7585	Ice demon	Normal	3	1	126	99	297	1	1	244	637	637	420
+7585	Ice demon	Normal	4	0	126	99	396	1	1	164	429	429	420
+7585	Ice demon	Normal	4	1	126	99	396	1	1	246	643	643	630
+7585	Ice demon	Normal	5	0	126	99	495	1	1	166	460	460	420
+7585	Ice demon	Normal	5	1	126	99	495	1	1	249	690	690	630
+7585	Ice demon	Normal	7	0	126	99	693	1	1	169	468	468	560
+7585	Ice demon	Normal	7	1	126	99	693	1	1	253	702	702	840
+7585	Ice demon	Normal	8	0	126	99	792	1	1	169	471	471	700
+7585	Ice demon	Normal	8	1	126	99	792	1	1	253	706	706	1050
+7585	Ice demon	Normal	9	0	126	99	891	1	1	171	475	475	700
+7585	Ice demon	Normal	9	1	126	99	891	1	1	256	712	712	1050
+7585	Ice demon	Normal	12	0	126	99	1188	1	1	176	514	514	980
+7585	Ice demon	Normal	12	1	126	99	1188	1	1	264	771	771	1470
+7585	Ice demon	Normal	15	0	126	99	1485	1	1	179	526	526	1120
+7585	Ice demon	Normal	15	1	126	99	1485	1	1	268	789	789	1680
+7585	Ice demon	Normal	16	0	126	99	1584	1	1	180	530	530	1260
+7585	Ice demon	Normal	16	1	126	99	1584	1	1	270	795	795	1890
+7585	Ice demon	Normal	23	0	126	99	2277	1	1	190	585	585	1680
+7585	Ice demon	Normal	23	1	126	99	2277	1	1	285	877	877	2520
+7585	Ice demon	Normal	24	0	126	99	2376	1	1	192	588	588	1820
+7585	Ice demon	Normal	24	1	126	99	2376	1	1	288	882	882	2730
+7585	Ice demon	Normal	32	0	126	99	3168	1	1	201	647	647	2380
+7585	Ice demon	Normal	32	1	126	99	3168	1	1	301	970	970	3570
+7585	Ice demon	Normal	49	0	126	99	4851	1	1	222	741	741	3500
+7585	Ice demon	Normal	49	1	126	99	4851	1	1	333	1111	1111	5250
+7585	Ice demon	Normal	50	0	126	99	4950	1	1	225	772	772	3640
+7585	Ice demon	Normal	50	1	126	99	4950	1	1	337	1158	1158	5460
+7585	Ice demon	Normal	51	0	126	99	5049	1	1	227	776	776	3640
+7585	Ice demon	Normal	51	1	126	99	5049	1	1	340	1164	1164	5460
+7585	Ice demon	Normal	64	0	126	99	6336	1	1	241	826	826	4620
+7585	Ice demon	Normal	64	1	126	99	6336	1	1	361	1239	1239	6930
+7585	Ice demon	Normal	100	0	126	99	9900	1	1	284	1021	1021	7140
+7585	Ice demon	Normal	100	1	126	99	9900	1	1	426	1531	1531	10710
+7585	Ice demon	Normal	1	0	100	99	99	1	1	160	390	390	111
+7585	Ice demon	Normal	1	0	60	99	99	1	1	160	390	390	66
+7585	Ice demon	Normal	1	0	126	70	99	1	1	138	338	338	140
+7585	Ice demon	Normal	1	0	90	55	99	1	1	127	311	311	100
+7585	Ice demon	Normal	1	0	126	1	99	1	1	88	216	216	140
+7585	Ice demon	Normal	1	1	100	99	99	1	1	240	585	585	166
+7585	Ice demon	Normal	1	1	60	99	99	1	1	240	585	585	99
+7585	Ice demon	Normal	1	1	126	70	99	1	1	207	507	507	210
+7585	Ice demon	Normal	1	1	90	55	99	1	1	190	466	466	150
+7585	Ice demon	Normal	1	1	126	1	99	1	1	132	324	324	210
+7585	Ice demon	Normal	3	0	100	99	297	1	1	163	425	425	222
+7585	Ice demon	Normal	3	0	60	99	297	1	1	163	425	425	132
+7585	Ice demon	Normal	3	0	126	70	297	1	1	140	368	368	280
+7585	Ice demon	Normal	3	0	90	55	297	1	1	129	338	338	200
+7585	Ice demon	Normal	3	0	126	1	297	1	1	89	235	235	280
+7585	Ice demon	Normal	3	1	100	99	297	1	1	244	637	637	333
+7585	Ice demon	Normal	3	1	60	99	297	1	1	244	637	637	198
+7585	Ice demon	Normal	3	1	126	70	297	1	1	210	552	552	420
+7585	Ice demon	Normal	3	1	90	55	297	1	1	193	507	507	300
+7585	Ice demon	Normal	3	1	126	1	297	1	1	133	352	352	420
+7585	Ice demon	Normal	24	0	100	99	2376	1	1	192	588	588	1443
+7585	Ice demon	Normal	24	0	60	99	2376	1	1	192	588	588	858
+7585	Ice demon	Normal	24	0	126	70	2376	1	1	165	510	510	1820
+7585	Ice demon	Normal	24	0	90	55	2376	1	1	152	469	469	1300
+7585	Ice demon	Normal	24	0	126	1	2376	1	1	105	326	326	1820
+7585	Ice demon	Normal	24	1	100	99	2376	1	1	288	882	882	2164
+7585	Ice demon	Normal	24	1	60	99	2376	1	1	288	882	882	1287
+7585	Ice demon	Normal	24	1	126	70	2376	1	1	247	765	765	2730
+7585	Ice demon	Normal	24	1	90	55	2376	1	1	228	703	703	1950
+7585	Ice demon	Normal	24	1	126	1	2376	1	1	157	489	489	2730

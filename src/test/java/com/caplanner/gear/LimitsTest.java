@@ -148,14 +148,36 @@ public class LimitsTest
 		assertEquals("Abyssal whip", weapon(gear.best("Sarachnis", owned, maxed(), false, oneHand)));
 		Gear.Limits shield = limits();
 		shield.shield = true;
-		Gear.Result r = gear.best("Sarachnis", owned, maxed(), false, shield);
-		assertEquals("Abyssal whip", weapon(r));
-		assertTrue(r.items.containsKey(SHIELD));
 		// a shield that adds no damage is still worn when the task wants one
 		Gear.Stat plain = item(1540, "Anti-dragon shield", SHIELD);
+		Gear.Result r = gear.best("Sarachnis", Arrays.asList(scythe(), whip(), defender(), plain), maxed(), false, shield);
+		assertEquals("Abyssal whip", weapon(r));
+		assertEquals("a defender is not a shield, though it deals more", "Anti-dragon shield", r.items.get(SHIELD).name);
 		Gear.Result worn = gear.best("Sarachnis", Arrays.asList(whip(), plain), maxed(), false, shield);
 		assertEquals("Anti-dragon shield", worn.items.get(SHIELD).name);
 		assertNull("no shield owned", gear.best("Sarachnis", Arrays.asList(scythe(), whip()), maxed(), false, shield));
+		assertNull("only a defender owned", gear.best("Sarachnis", owned, maxed(), false, shield));
+		// without the rule the defender is worn as before
+		assertEquals("Dragon defender", gear.best("Sarachnis", owned, maxed(), false, oneHand).items.get(SHIELD).name);
+	}
+
+	/** Mine's Better: "Defenders, God Books and the antler guard are not considered shields". */
+	@Test
+	public void booksTomesAndTheAntlerGuardAreNotShields() throws Exception
+	{
+		Gear gear = new Gear();
+		Gear.Limits shield = limits();
+		shield.shield = true;
+		Gear.Stat plain = item(1540, "Anti-dragon shield", SHIELD);
+		for (Gear.Stat notOne : Arrays.asList(item(3840, "Holy book", SHIELD), item(12612, "Book of war", SHIELD),
+			item(25818, "Book of the dead", SHIELD), item(20714, "Tome of fire", SHIELD), item(90001, "Antler guard", SHIELD),
+			item(22322, "Avernic defender", SHIELD)))
+		{
+			notOne.strength = 8;
+			assertNull(notOne.name, gear.best("Sarachnis", Arrays.asList(whip(), notOne), maxed(), false, shield));
+			Gear.Result r = gear.best("Sarachnis", Arrays.asList(whip(), notOne, plain), maxed(), false, shield);
+			assertEquals(notOne.name, "Anti-dragon shield", r.items.get(SHIELD).name);
+		}
 	}
 
 	@Test

@@ -55,6 +55,48 @@ public class RulesTest
 		assertNull("a task with no rule", r.missing(1, Arrays.asList("Abyssal whip")));
 	}
 
+	/** What the audit of October 2026 found missing or wrong in the bundled table, task by task (OSRS Wiki pages). */
+	@Test
+	public void theBundledTableFollowsTheWikiOnTheAuditedTasks() throws Exception
+	{
+		Rules r;
+		try (BufferedReader in = reader("/com/caplanner/rules.tsv"))
+		{
+			r = Rules.read(in);
+		}
+		// Facing Jad Head-on (I and III): the Keris partisan fails them, as do the Lunar staff, the Blisterwood flail
+		// and the Pharaoh's sceptre
+		assertTrue(r.of(153).exclude.containsAll(Arrays.asList("keris partisan", "blisterwood flail", "lunar staff")));
+		assertTrue(r.of(367).exclude.containsAll(Arrays.asList("keris partisan", "pharaoh's sceptre")));
+		// I Brought Mine Too: the Dragon hunter lance does, and owning only it is not "cannot"
+		assertNull(r.missing(540, Arrays.asList("Dragon hunter lance")));
+		assertEquals("Needs spear or hasta or halberd", r.missing(540, Arrays.asList("Abyssal whip")));
+		// Mage of the Swamp: magic attacks only
+		assertEquals(1, r.of(78).styles.size());
+		assertTrue(r.of(78).styles.contains("magic"));
+		// The Bane of Demons: demonbane spells, no recoil, no thralls; the spell itself is beyond the set
+		assertTrue(r.of(336).styles.contains("magic"));
+		assertTrue(r.of(336).exclude.containsAll(Arrays.asList("ring of recoil", "ring of suffering", "echo boots")));
+		assertTrue(r.of(336).without.contains("book of the dead"));
+		assertTrue(r.of(336).beyondTheSet);
+		// Rapid Reload: a crossbow or a ballista
+		assertTrue(r.of(555).weapon.containsAll(Arrays.asList("crossbow", "ballista")));
+		assertNull(r.missing(555, Arrays.asList("Armadyl crossbow")));
+		// Beef vs Beef: nothing worn and nothing eaten, which no set can follow
+		assertTrue(r.of(635).beyondTheSet);
+		// a weapon owned for the finishing blow, and the rest said
+		assertEquals("Needs dragon halberd or crystal halberd", r.missing(389, Arrays.asList("Abyssal whip")));
+		assertEquals("Needs rune thrownaxe", r.missing(200, Arrays.asList("Abyssal whip")));
+		assertNull(r.missing(548, Arrays.asList("Burning claws")));
+		for (int id : new int[]{124, 160, 227, 6, 482, 532, 606, 11, 215})
+		{
+			assertTrue("task " + id, r.of(id).beyondTheSet);
+		}
+		// Collateral Damage and Moving Collateral: chinchompas are one way of several, so nothing is asked to be owned
+		assertTrue(r.of(11).have.isEmpty());
+		assertTrue(r.of(215).have.isEmpty());
+	}
+
 	/** Every line of the bundled table must point at the task it says it does, and that task must be about gear. */
 	@Test
 	public void theBundledTableMatchesTheTasks() throws Exception
@@ -89,9 +131,12 @@ public class RulesTest
 				String[] task = tasks.get(Integer.parseInt(c[0]));
 				assertNotNull("no such task: " + line, task);
 				assertEquals("the line names another task: " + line, task[1] + ": " + task[2], c[2]);
-				// the game files one task about the weapon under another kind: Mage of the Ruins, magic attacks only
-				assertTrue("only Restriction tasks have a gear rule: " + line,
-					"Restriction".equals(task[3]) || "72".equals(c[0]));
+				// the game files some tasks about what is worn or used under another kind: Mage of the Ruins and of the
+				// Swamp (magic attacks only), and those the audit of October 2026 found (a weapon, a special attack,
+				// Vengeance, nothing worn)
+				assertTrue("only Restriction tasks have a gear rule: " + line, "Restriction".equals(task[3])
+					|| Arrays.asList("72", "78", "336", "555", "635", "389", "124", "160", "227", "6", "200", "548", "482", "606", "11")
+					.contains(c[0]));
 				Rules.Rule rule = rules.of(Integer.parseInt(c[0]));
 				assertTrue("a line that says nothing: " + line,
 					rule.shapesTheSet() || rule.beyondTheSet || !rule.have.isEmpty());

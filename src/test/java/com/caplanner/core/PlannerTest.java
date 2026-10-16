@@ -145,14 +145,20 @@ public class PlannerTest
 	@Test
 	public void theBankIsRememberedAsText()
 	{
-		OwnedItems bank = OwnedItems.of(new int[]{4151, -1, 995, 20997, 4151}, new int[]{1, 0, 1000, 0, 2});
+		// 28340 is the Soulreaper axe's placeholder as the game gives it: an id of its own, quantity 1
+		OwnedItems bank = OwnedItems.of(new int[]{4151, -1, 995, 20997, 4151, 28340, 0}, new int[]{1, 0, 1000, 0, 2, 1, 0});
 		assertTrue(bank.has(4151));
 		assertEquals(3, bank.quantity(4151));
-		assertFalse("a placeholder is not owned", bank.has(20997));
-		assertEquals(2, bank.size());
+		assertTrue("a placeholder counts as owned", bank.has(28340));
+		assertTrue("so does a slot with nothing in stock", bank.has(20997));
+		assertEquals(0, bank.quantity(20997));
+		assertFalse(bank.has(-1));
+		assertFalse(bank.has(0));
+		assertEquals(4, bank.size());
 		OwnedItems back = OwnedItems.decode(bank.encode());
 		assertEquals(1000, back.quantity(995));
-		assertEquals(2, back.size());
+		assertTrue(back.has(20997));
+		assertEquals(4, back.size());
 		assertEquals(0, OwnedItems.decode("rubbish,12:x,:3").size());
 		assertEquals(0, OwnedItems.decode(null).size());
 	}

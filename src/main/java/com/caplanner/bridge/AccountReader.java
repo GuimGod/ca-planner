@@ -71,6 +71,24 @@ public final class AccountReader
 		{
 			account.done.add("wilderness-medium");
 		}
+		if (client.getVarpValue(VarPlayerID.TOTAL_ZUK_KILLS) > 0)
+		{
+			account.done.add("inferno-done");
+		}
+		// the rooftop is opened once for good with a brittle key; a Guardians kill says as much
+		if (client.getVarbitValue(net.runelite.api.gameval.VarbitID.GARGBOSS_UNLOCKED_ROOF) > 0
+			|| client.getVarpValue(VarPlayerID.TOTAL_GARGBOSS_KILLS) > 0)
+		{
+			account.done.add("gg-roof");
+		}
+		// the Abyss is reached through the Enter the Abyss miniquest or through the fairy rings (Fairytale II
+		// started); a Sire kill says as much
+		if (Quest.ENTER_THE_ABYSS.getState(client) == QuestState.FINISHED
+			|| Quest.FAIRYTALE_II__CURE_A_QUEEN.getState(client) != QuestState.NOT_STARTED
+			|| client.getVarpValue(VarPlayerID.TOTAL_ABYSSALSIRE_KILLS) > 0)
+		{
+			account.done.add("abyss-access");
+		}
 		if (client.getVarpValue(VarPlayerID.SLAYER_COUNT) > 0)
 		{
 			account.slayerTask = slayerTask(client);

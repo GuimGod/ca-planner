@@ -80,7 +80,14 @@ tasks.register('preview', JavaExec) {
 tasks.register('bench', JavaExec) {
 	classpath = sourceSets.test.runtimeClasspath
 	mainClass = 'com.caplanner.gear.GearBench'
-	args project.findProperty('owned') ?: 'owned.tsv', project.findProperty('bosses') ?: 'Vardorvis', project.findProperty('bank') ?: ''
+	args project.findProperty('owned') ?: 'owned.tsv', project.findProperty('bosses') ?: 'Vardorvis', project.findProperty('bank') ?: '', project.findProperty('json') ?: '', project.findProperty('every') ?: '', project.findProperty('changes') ?: ''
+}
+
+// Local development: draws the boss page of one gear card the bench wrote to JSON.
+tasks.register('cardshot', JavaExec) {
+	classpath = sourceSets.test.runtimeClasspath
+	mainClass = 'com.caplanner.ui.CardShot'
+	args project.findProperty('cards') ?: 'cards.json', project.findProperty('boss') ?: 'Corporeal Beast', project.findProperty('out') ?: "${buildDir}/card.png", project.findProperty('icons') ?: 'icons', project.findProperty('lang') ?: 'en', project.findProperty('height') ?: '1400'
 }
 
 // Local development: draws the panel with real sets and item pictures, to show what the plugin does.
@@ -88,4 +95,11 @@ tasks.register('promo', JavaExec) {
 	classpath = sourceSets.test.runtimeClasspath
 	mainClass = 'com.caplanner.ui.PromoShots'
 	args project.findProperty('out') ?: "${buildDir}/promo", project.findProperty('caTasks') ?: '', project.findProperty('owned') ?: 'owned.tsv', project.findProperty('icons') ?: 'icons', project.findProperty('task') ?: '1', project.findProperty('lang') ?: 'en'
+}
+
+// Local development: draws the gear card as the player changed it, and the window to choose an item.
+tasks.register('editshots', JavaExec) {
+	classpath = sourceSets.test.runtimeClasspath
+	mainClass = 'com.caplanner.ui.EditShots'
+	args project.findProperty('owned') ?: 'owned.tsv', project.findProperty('bank') ?: 'bank.tsv', project.findProperty('icons') ?: 'icons', project.findProperty('out') ?: "${buildDir}/editshots"
 }

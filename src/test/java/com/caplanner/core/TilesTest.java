@@ -62,4 +62,23 @@ public class TilesTest
 			}
 		}
 	}
+
+	@Test
+	public void aTaskMayHaveTilesOfItsOwnApartFromTheBosss() throws Exception
+	{
+		Tiles tiles = tiles();
+		List<Tiles.Tile> ring = tiles.of("Vardorvis#492");
+		// the ring of a 5 by 5: 16 tiles, none of them among the 9 in the middle
+		assertEquals(16, ring.size());
+		for (Tiles.Tile t : ring)
+		{
+			assertTrue(t.x >= 1127 && t.x <= 1131 && t.y >= 3416 && t.y <= 3420);
+			assertTrue(t.x == 1127 || t.x == 1131 || t.y == 3416 || t.y == 3420);
+		}
+		assertEquals(1, tiles.legend("Vardorvis#492").size());
+		assertEquals("Inner 25", tiles.legend("Vardorvis#492").get(0)[0]);
+		// and the boss keeps its own four
+		assertEquals(4, tiles.of("Vardorvis").size());
+		assertTrue(tiles.of("Vardorvis#1").isEmpty());
+	}
 }

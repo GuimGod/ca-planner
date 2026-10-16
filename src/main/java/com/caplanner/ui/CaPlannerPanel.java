@@ -5,6 +5,7 @@
 package com.caplanner.ui;
 
 import com.caplanner.core.Bag;
+import com.caplanner.core.GearChoices;
 import com.caplanner.core.GearView;
 import com.caplanner.core.HowTo;
 import com.caplanner.core.Lang;
@@ -113,6 +114,23 @@ public class CaPlannerPanel extends PluginPanel
 		/** Marks the way to the boss on the map. */
 		void route(String boss);
 
+		/** When the route stops short of the boss (an instance or a dungeon the route plugins do not reach): what to do from there. */
+		default String placeNote(String boss)
+		{
+			return "";
+		}
+
+		/** Other places worth a route for the boss (where the key to its lair drops, say): the label and the note of each. */
+		default List<String[]> ways(String boss)
+		{
+			return java.util.Collections.emptyList();
+		}
+
+		/** Marks the way to one of those places on the map. */
+		default void routeWay(String boss, int index)
+		{
+		}
+
 		/** Shows a setup of that name in the bank, when Inventory Setups has one. */
 		void showSetup(String name);
 
@@ -131,6 +149,73 @@ public class CaPlannerPanel extends PluginPanel
 		 * @param done told on the Swing thread whether it went
 		 */
 		void sendReport(String boss, String task, String words, String report, java.util.function.Consumer<Boolean> done);
+
+		/** The player's changes to the boss's gear, in the order they made them; empty for none. */
+		default List<GearChoices.Pin> gearChanges(String boss)
+		{
+			return java.util.Collections.emptyList();
+		}
+
+		/**
+		 * Puts an item in a slot of the boss's gear, for all its tasks; item 0 takes out what is there. The cards of the
+		 * boss are worked out again.
+		 *
+		 * @param card		the key of the card the change is made on ("Vorkath", "Vorkath#273")
+		 * @param place       {@link GearChoices#WORN}, {@link GearChoices#BAG} or a part's place
+		 * @param recommended what the planner recommends in that slot of that card now, for saying later that it changed
+		 * @return null when it was kept, or one short line saying why it was not
+		 */
+		default String changeGear(String boss, String card, String place, int slot, int itemId, int quantity, int recommended)
+		{
+			return null;
+		}
+
+		/** Puts the recommendation back in one slot of the boss's gear. */
+		default void keepRecommendation(String boss, String place, int slot)
+		{
+		}
+
+		/** Puts the recommendation back in every slot of the boss's gear. */
+		default void forgetGearChanges(String boss)
+		{
+		}
+
+		/**
+		 * Finds items by a part of their name, those the player owns first, for a slot to put one in; the answer comes on
+		 * the Swing thread.
+		 *
+		 * @param slot the equipment slot the item must go in; {@link #ANY_WORN} for anything that can be worn, {@link #ANYTHING}
+		 *			 for anything at all (the inventory)
+		 */
+		default void findItems(String typed, int slot, java.util.function.Consumer<List<Found>> answer)
+		{
+			SwingUtilities.invokeLater(() -> answer.accept(new ArrayList<Found>()));
+		}
+	}
+
+	/** For {@link Actions#findItems}: anything that can be worn, in whichever slot it goes. */
+	public static final int ANY_WORN = -2;
+	/** For {@link Actions#findItems}: any item at all. */
+	public static final int ANYTHING = -1;
+
+	/** An item found by its name, for the player to put in a slot. */
+	public static final class Found
+	{
+		public final int itemId;
+		public final String name;
+		/** The equipment slot it is worn in, or -1. */
+		public final int slot;
+		public final boolean stackable;
+		public final boolean owned;
+
+		public Found(int itemId, String name, int slot, boolean stackable, boolean owned)
+		{
+			this.itemId = itemId;
+			this.name = name;
+			this.slot = slot;
+			this.stackable = stackable;
+			this.owned = owned;
+		}
 	}
 
 	/** The equipment slot index of each cell of the gear grid, row by row, as the game lays the slots out; -1 for a gap. */
@@ -227,6 +312,13 @@ public class CaPlannerPanel extends PluginPanel
 	private String notice;
 	/** Goes up each time the sets are forgotten: an answer asked for before that is not kept. */
 	private int gearGeneration;
+	/** A card the player changed, as it was before the change, shown until the new one is worked out. */
+	private final Map<String, GearView> shownBefore = new HashMap<>();
+	/** The bosses whose gear the player is changing: the slots of their cards answer a click. */
+	private final Set<String> editing = new HashSet<>();
+	/** While a card is drawn: its key, and whether it is the card from before a change, shown until the new one comes. */
+	private String drawingKey = "";
+	private boolean drawingStale;
 	/** The card whose setup was last copied or created, and what to say about it. */
 	private String setupDoneFor;
 	private String setupDone;
@@ -446,6 +538,7 @@ public class CaPlannerPanel extends PluginPanel
 			return;
 		}
 		gear.put(key, view);
+		shownBefore.remove(key);
 		String boss = key.contains("#") ? key.substring(0, key.indexOf('#')) : key;
 		if (boss.equals(openBoss) || (openTask != null && boss.equals(openTask.boss)) || (tab == Tab.AUTOPILOT && boss.equals(autoBoss)))
 		{
@@ -458,9 +551,45 @@ public class CaPlannerPanel extends PluginPanel
 	{
 		gearGeneration++;
 		gear.clear();
+		shownBefore.clear();
 		if (openBoss != null || openTask != null || tab == Tab.AUTOPILOT)
 		{
 			rebuild();
+		}
+	}
+
+	/**
+	 * The player changed the gear of a boss: its cards are worked out again. What they showed stays on screen until the
+	 * new ones come, so the page does not jump.
+	 */
+	public void forgetGearOf(String boss)
+	{
+		gearGeneration++;
+		for (String key : new ArrayList<>(gear.keySet()))
+		{
+			if (key.equals(boss) || key.startsWith(boss + "#"))
+			{
+				shownBefore.put(key, gear.remove(key));
+			}
+		}
+		// the other bosses' answers asked for before this are dropped: they are asked for again when next drawn
+		gear.values().removeIf(v -> v.status == GearView.Status.WORKING);
+		if (openBoss != null || openTask != null || tab == Tab.AUTOPILOT)
+		{
+			rebuild();
+		}
+	}
+
+	/** For the preview and the tests: as if the player had pressed "Change the gear" on a boss's card. */
+	void editing(String boss, boolean on)
+	{
+		if (on)
+		{
+			editing.add(boss);
+		}
+		else
+		{
+			editing.remove(boss);
 		}
 	}
 
@@ -1013,7 +1142,8 @@ public class CaPlannerPanel extends PluginPanel
 		card.setBorder(new EmptyBorder(PAD, PAD, PAD, PAD));
 		card.setAlignmentX(Component.LEFT_ALIGNMENT);
 		int width = CONTENT - 2 * PAD;
-		card.add(leftAligned(label("GEAR FROM YOUR BANK", SMALL, ACCENT)));
+		JLabel title = leftAligned(label("GEAR FROM YOUR BANK", SMALL, ACCENT));
+		card.add(title);
 		card.add(Box.createVerticalStrut(4));
 		GearView view = gear.get(key);
 		if (view == null)
@@ -1021,6 +1151,15 @@ public class CaPlannerPanel extends PluginPanel
 			view = GearView.of(GearView.Status.WORKING);
 			gear.put(key, view);
 			icons.wantGear(key, gearGeneration, boss, own ? taskId : -1);
+		}
+		drawingKey = key;
+		drawingStale = false;
+		if (view.status == GearView.Status.WORKING && shownBefore.containsKey(key))
+		{
+			// the card as it was, until the one with the player's change is worked out: to look at only, nothing on it
+			// answers a click or is copied
+			view = shownBefore.get(key);
+			drawingStale = true;
 		}
 		if (ruleKind == 3)
 		{
@@ -1039,6 +1178,12 @@ public class CaPlannerPanel extends PluginPanel
 			card.add(leftAligned(wrapped("Picked for this task's own rule.", SMALL, GOOD, width)));
 			card.add(Box.createVerticalStrut(4));
 		}
+		if (changedByPlayer(view))
+		{
+			// longer than the card is wide: on two lines
+			card.remove(title);
+			card.add(leftAligned(wrapped("GEAR FROM YOUR BANK, CHANGED BY YOU", SMALL, ACCENT, width)), 0);
+		}
 		for (String note : view.notes)
 		{
 			card.add(leftAligned(wrapped(note, SMALL, TEXT, width)));
@@ -1052,7 +1197,7 @@ public class CaPlannerPanel extends PluginPanel
 			case NO_BOSS:
 				card.add(leftAligned(wrapped("No gear or inventory is worked out for this one yet: raids, the Gauntlet (where nothing is taken in) and "
 					+ "fights that are not about damage are left out.", BODY, MUTED, width)));
-				inventory(card, view, width);
+				inventory(card, view, width, boss);
 				break;
 			case NOTHING:
 				card.add(leftAligned(wrapped(ruleKind == 1 || ruleKind == 3
@@ -1072,9 +1217,16 @@ public class CaPlannerPanel extends PluginPanel
 					card.add(leftAligned(wrapped("Worn for: " + view.wornFor, SMALL, GOOD, width)));
 					card.add(Box.createVerticalStrut(4));
 				}
-				gearGrid(card, view);
+				gearGrid(card, view, boss);
 				card.add(Box.createVerticalStrut(6));
-				String line = view.style + " · " + Math.round(view.dps * 10) / 10.0 + " damage a second";
+				String line = view.style + " · " + Math.round(view.dps * 10) / 10.0 + (changedByPlayer(view) && view.recommended != null
+					? " damage a second (recommended " + Math.round(view.recommended.dps * 10) / 10.0 + ")" : " damage a second");
+				if (view.style.isEmpty() && view.recommended != null)
+				{
+					// the set as changed does nothing here (a bow with no arrows, a weapon taken out)
+					line = "This set does no damage here, as far as the plugin can tell (recommended " + Math.round(view.recommended.dps * 10) / 10.0
+						+ " damage a second).";
+				}
 				if (view.bossHitpoints > 0 && view.dps > 0)
 				{
 					int seconds = (int) Math.round(view.bossHitpoints / view.dps);
@@ -1082,6 +1234,12 @@ public class CaPlannerPanel extends PluginPanel
 				}
 				card.add(leftAligned(wrapped(line, BODY, TEXT, width)));
 				card.add(Box.createVerticalStrut(3));
+				if (view.editedSpell != null)
+				{
+					card.add(leftAligned(wrapped("Counted casting " + view.editedSpell + ": bring the runes for it.", SMALL, TEXT, width)));
+					card.add(Box.createVerticalStrut(3));
+				}
+				changes(card, view, boss, width);
 				for (Bag.Line must : view.worn)
 				{
 					String what = must.name + (must.why.isEmpty() ? "" : ": " + must.why);
@@ -1108,9 +1266,30 @@ public class CaPlannerPanel extends PluginPanel
 					card.add(Box.createVerticalStrut(6));
 					card.add(leftAligned(wrapped(lang.of("TO CHANGE INTO FOR: " + part.label).toUpperCase(), SMALL, ACCENT, width)));
 					card.add(Box.createVerticalStrut(3));
-					if (part.nothing)
+					if (changing(boss) && part.carried.isEmpty())
+					{
+						pieces(card, part, view, boss);
+						card.add(Box.createVerticalStrut(3));
+					}
+					if (part.nothing && part.best != null)
+					{
+						card.add(leftAligned(wrapped("You own none of the weapons for this part. The best: " + part.best + ".", SMALL, BAD, width)));
+					}
+					else if (part.nothing)
 					{
 						card.add(leftAligned(wrapped("Nothing you own does this part, as far as the plugin can tell.", SMALL, BAD, width)));
+					}
+					else if (part.carried.isEmpty() && part.sharedWeapon != null)
+					{
+						card.add(leftAligned(wrapped("The " + part.sharedWeapon + " carried for " + part.sharedWith + " does this part too.",
+							SMALL, MUTED, width)));
+					}
+					else if (part.carried.isEmpty() && changedByPlayer(view) && part.npcId != 0)
+					{
+						// the set as the player changed it, counted against this part
+						card.add(leftAligned(wrapped(part.dps > 0 ? "The set you wear does this part: " + Math.round(part.dps * 10) / 10.0
+							+ " damage a second." : "The set as you changed it does nothing to this part, as far as the plugin can tell.",
+							SMALL, part.dps > 0 ? MUTED : BAD, width)));
 					}
 					else if (part.carried.isEmpty())
 					{
@@ -1118,7 +1297,13 @@ public class CaPlannerPanel extends PluginPanel
 					}
 					else
 					{
-						pieces(card, part.carried);
+						if (part.sharedWeapon != null)
+						{
+							// its weapon is carried for another part; the pieces here go with it
+							card.add(leftAligned(wrapped("The " + part.sharedWeapon + " carried for " + part.sharedWith + " does this part too.",
+								SMALL, MUTED, width)));
+						}
+						pieces(card, part, view, boss);
 						card.add(Box.createVerticalStrut(3));
 						card.add(leftAligned(wrapped(part.style + (part.dps > 0 ? " · " + Math.round(part.dps * 10) / 10.0
 							+ " damage a second with these on" : "") + (part.spell == null ? "" : " · casting " + part.spell), SMALL, TEXT, width)));
@@ -1136,7 +1321,7 @@ public class CaPlannerPanel extends PluginPanel
 				card.add(leftAligned(wrapped("An empty slot means nothing you own adds damage there. Counted with your best prayer"
 					+ ("Melee".equals(view.style) ? " and a super combat potion" : "Ranged".equals(view.style) ? " and a ranging potion" : "")
 					+ ", without special attacks.", SMALL, MUTED, width)));
-				inventory(card, view, width);
+				inventory(card, view, width, boss);
 				if (view.inventoryToCome)
 				{
 					card.add(Box.createVerticalStrut(8));
@@ -1153,7 +1338,9 @@ public class CaPlannerPanel extends PluginPanel
 				break;
 		}
 		final GearView shown = view;
-		boolean ready = view.status == GearView.Status.READY;
+		// the card from before a change is not copied: what is copied is what the card will show
+		boolean ready = view.status == GearView.Status.READY && !drawingStale;
+		drawingStale = false;
 		finishCard(card, view, shown, ready, boss, key, ruleKind, taskId, width);
 		card.add(Box.createVerticalStrut(8));
 		card.add(action("Bug or suggestion", "Something here is wrong, or could be better? Write what, and send it with what the planner gave", () -> report(boss, task, shown)));
@@ -1275,7 +1462,7 @@ public class CaPlannerPanel extends PluginPanel
 	}
 
 	/** The inventory to expect, when there is one to show. */
-	private void inventory(JPanel card, GearView view, int width)
+	private void inventory(JPanel card, GearView view, int width, String boss)
 	{
 		final Bag.Provisional provisional = view.provisional;
 		if (!view.bag.isEmpty() || !view.carriedSlots().isEmpty() || provisional != null)
@@ -1283,7 +1470,7 @@ public class CaPlannerPanel extends PluginPanel
 			card.add(Box.createVerticalStrut(8));
 			card.add(leftAligned(label(provisional != null ? "INVENTORY TO EXPECT (PROVISIONAL)" : "INVENTORY TO EXPECT", SMALL, ACCENT)));
 			card.add(Box.createVerticalStrut(4));
-			bagGrid(card, view);
+			bagGrid(card, view, boss);
 			for (Bag.Line item : view.bag)
 			{
 				if (item.needed)
@@ -1333,6 +1520,22 @@ public class CaPlannerPanel extends PluginPanel
 			{
 				card.add(action("Mark the way on the map", "Asks your route plugin (Shortest Path or GPS) for the way to " + boss,
 					() -> icons.route(boss)));
+				final String stopsShort = icons.placeNote(boss);
+				if (stopsShort != null && !stopsShort.isEmpty())
+				{
+					card.add(leftAligned(wrapped(stopsShort, SMALL, ACCENT, width)));
+				}
+				final List<String[]> ways = icons.ways(boss);
+				for (int i = 0; i < ways.size(); i++)
+				{
+					final int n = i;
+					card.add(Box.createVerticalStrut(4));
+					card.add(action(ways.get(i)[0], ways.get(i)[1], () -> icons.routeWay(boss, n)));
+					if (!ways.get(i)[1].isEmpty())
+					{
+						card.add(leftAligned(wrapped(ways.get(i)[1], SMALL, MUTED, width)));
+					}
+				}
 			}
 			else
 			{
@@ -1340,15 +1543,17 @@ public class CaPlannerPanel extends PluginPanel
 					+ "from the Plugin Hub and turn it on.", SMALL, MUTED, width)));
 			}
 		}
-		if (icons.hasTiles(boss))
+		// a task with tiles of its own ("boss#task id" in the table) shows those on its page, not the boss's
+		final String tilesOf = taskId >= 0 && icons.hasTiles(boss + "#" + taskId) ? boss + "#" + taskId : boss;
+		if (icons.hasTiles(tilesOf))
 		{
-			final List<String[]> legend = icons.tileLegend(boss);
-			final boolean marked = icons.tilesMarked(boss);
+			final List<String[]> legend = icons.tileLegend(tilesOf);
+			final boolean marked = icons.tilesMarked(tilesOf);
 			card.add(Box.createVerticalStrut(4));
 			card.add(action(marked ? "Clear the tiles" : "Mark the tiles in the game",
 				marked ? "Stops drawing this boss's tiles" : "Draws the tiles below in the game, until you clear them", () ->
 				{
-					icons.toggleTiles(boss);
+					icons.toggleTiles(tilesOf);
 					rebuild();
 				}));
 			card.add(Box.createVerticalStrut(3));
@@ -1380,7 +1585,7 @@ public class CaPlannerPanel extends PluginPanel
 				try
 				{
 					Toolkit.getDefaultToolkit().getSystemClipboard().setContents(
-						new StringSelection(SetupText.of(name, shown.itemIdBySlot, shown.inventory())), null);
+						new StringSelection(SetupText.of(name, shown.itemIdBySlot, shown.inventory(), setupNotes(shown))), null);
 					setupFailed = false;
 					setupDone = "Copied. Now, in Inventory Setups: Import setup, paste. It is saved as \"" + name
 						+ "\"; if you already have one of that name, delete it first or the new one gets another name.";
@@ -1417,9 +1622,442 @@ public class CaPlannerPanel extends PluginPanel
 		return card;
 	}
 
-	/** The items of the set, laid out as the game's equipment tab. */
-	private void gearGrid(JPanel card, GearView view)
+	/** The notes of the setup copied from a card: the planner's own, or that the player changed it and what they do not own. */
+	private static String setupNotes(GearView view)
 	{
+		if (!changedByPlayer(view))
+		{
+			return null;
+		}
+		List<String> missing = new ArrayList<>();
+		for (int slot : view.notOwned)
+		{
+			missing.add(view.nameBySlot.get(slot));
+		}
+		for (GearView.Part part : view.parts)
+		{
+			for (Bag.Line line : part.carried)
+			{
+				if (!line.owned && !missing.contains(line.name))
+				{
+					missing.add(line.name);
+				}
+			}
+		}
+		for (Bag.Line line : view.cells == null ? new ArrayList<Bag.Line>() : view.cells)
+		{
+			if (line != null && !line.owned && !missing.contains(line.name))
+			{
+				missing.add(line.name);
+			}
+		}
+		return SetupText.changedNotes(missing);
+	}
+
+	/** Whether the slots of a boss's card answer a click now: the player is changing its gear, on the card as it is. */
+	private boolean changing(String boss)
+	{
+		return editing.contains(boss) && !drawingStale;
+	}
+
+	/** Whether the player changed something on this card (not only a change the task's rule did not take). */
+	private static boolean changedByPlayer(GearView view)
+	{
+		for (GearView.Change c : view.changes)
+		{
+			if (c.kind == GearView.Change.Kind.CHANGED)
+			{
+				return true;
+			}
+		}
+		return false;
+	}
+
+	/**
+	 * What the player's changes to the boss's gear say, a line each with what can be done about it, and the buttons to
+	 * change the gear and to go back to the recommendation.
+	 */
+	private void changes(JPanel card, GearView view, String boss, int width)
+	{
+		final List<GearChoices.Pin> orphans = new ArrayList<>();
+		for (GearView.Change c : view.changes)
+		{
+			if (c.kind == GearView.Change.Kind.ORPHAN && !c.place.isEmpty())
+			{
+				for (GearChoices.Pin pin : icons.gearChanges(boss))
+				{
+					if (pin.place.equals(c.place) && pin.slot == c.slot)
+					{
+						orphans.add(pin);
+					}
+				}
+			}
+		}
+		for (GearView.Change c : view.changes)
+		{
+			if (c.line.isEmpty())
+			{
+				continue;
+			}
+			Color colour = c.kind == GearView.Change.Kind.CHANGED ? TEXT : c.kind == GearView.Change.Kind.TAKEN_OFF ? MUTED
+				: c.kind == GearView.Change.Kind.MOVED || c.kind == GearView.Change.Kind.RULE ? ACCENT : BAD;
+			card.add(leftAligned(wrapped(c.line, SMALL, colour, width)));
+			card.add(Box.createVerticalStrut(3));
+			if (c.kind == GearView.Change.Kind.MOVED)
+			{
+				final String place = c.place;
+				final int slot = c.slot;
+				card.add(action("Use the recommendation", "Puts back what the planner recommends in this slot now",
+					() -> icons.keepRecommendation(boss, place, slot)));
+				card.add(Box.createVerticalStrut(4));
+			}
+			if (c.kind == GearView.Change.Kind.ORPHAN && !orphans.isEmpty())
+			{
+				card.add(action("Forget them", "Forgets the changes that have no place on this card any more", () ->
+				{
+					for (GearChoices.Pin pin : orphans)
+					{
+						icons.keepRecommendation(boss, pin.place, pin.slot);
+					}
+				}));
+				card.add(Box.createVerticalStrut(4));
+			}
+		}
+		if (drawingStale)
+		{
+			card.add(leftAligned(wrapped("Working it out...", SMALL, MUTED, width)));
+			card.add(Box.createVerticalStrut(4));
+			return;
+		}
+		final boolean changing = editing.contains(boss);
+		if (changing)
+		{
+			card.add(leftAligned(wrapped("Click a slot to change it: what is worn, the pieces carried for each part, the inventory. "
+				+ "A change is for every task of this boss.", SMALL, GOOD, width)));
+			card.add(Box.createVerticalStrut(4));
+		}
+		card.add(action(changing ? "Done changing" : "Change the gear", changing ? "Stops the slots answering a click"
+			: "Lets you change any item of this card: the set, the pieces for each part, the inventory", () ->
+		{
+			if (changing)
+			{
+				editing.remove(boss);
+			}
+			else
+			{
+				editing.add(boss);
+			}
+			rebuild();
+		}));
+		if (!icons.gearChanges(boss).isEmpty())
+		{
+			card.add(Box.createVerticalStrut(4));
+			card.add(action("Back to the recommendation", "Forgets every change you made to this boss's gear", () ->
+			{
+				int sure = javax.swing.JOptionPane.showConfirmDialog(this,
+					lang.of("Forget every change you made to the gear of " + boss + "? Every slot goes back to the recommendation."),
+					lang.of("Back to the recommendation"), javax.swing.JOptionPane.YES_NO_OPTION);
+				if (sure == javax.swing.JOptionPane.YES_OPTION)
+				{
+					icons.forgetGearChanges(boss);
+				}
+			}));
+		}
+		card.add(Box.createVerticalStrut(4));
+	}
+
+	/** The name of an equipment slot, as the card says it. */
+	private static final String[] SLOT_NAMES = {"Head", "Cape", "Neck", "Weapon", "Body", "Shield", "", "Legs", "", "Hands", "Feet", "", "Ring",
+		"Ammunition"};
+
+	/** A slot of the set worn was clicked. */
+	private void chooseWorn(String boss, String card, GearView view, int slot)
+	{
+		GearView rec = view.recommended == null ? view : view.recommended;
+		Integer now = view.itemIdBySlot.get(slot);
+		Integer recommended = rec.itemIdBySlot.get(slot);
+		chooser(boss, card, GearChoices.WORN, slot, slot, lang.of(SLOT_NAMES[slot]), now == null ? null : view.nameBySlot.get(slot),
+			recommended == null ? null : rec.nameBySlot.get(slot), recommended == null ? GearChoices.NOTHING : recommended, view, null);
+	}
+
+	/** A slot of the pieces carried for a part was clicked: a piece (its slot), or a free one (-1). */
+	private void choosePiece(String boss, String card, GearView view, GearView.Part part, int slot, Bag.Line now)
+	{
+		GearView.Part rec = part;
+		if (view.recommended != null)
+		{
+			for (GearView.Part p : view.recommended.parts)
+			{
+				rec = p.key.equals(part.key) ? p : rec;
+			}
+		}
+		final GearView.Part recommendedPart = rec;
+		final GearView recView = view.recommended == null ? view : view.recommended;
+		String where = slot < 0 ? lang.of("A piece carried for " + part.label) : lang.of(SLOT_NAMES[slot] + " carried for " + part.label);
+		Bag.Line recommended = pieceOf(recView, recommendedPart, slot);
+		chooser(boss, card, GearChoices.part(part.key), slot, slot < 0 ? ANY_WORN : slot, where, now == null ? null : now.name,
+			recommended == null ? null : recommended.name, recommended == null ? GearChoices.NOTHING : recommended.itemId, view, part);
+	}
+
+	/** The piece a part carries in an equipment slot, as a card has it; null for none. */
+	private static Bag.Line pieceOf(GearView view, GearView.Part part, int slot)
+	{
+		List<Integer> slots = view.pieceSlots.get(part.key);
+		for (int i = 0; slots != null && slot >= 0 && i < slots.size() && i < part.carried.size(); i++)
+		{
+			if (slots.get(i) == slot)
+			{
+				return part.carried.get(i);
+			}
+		}
+		return null;
+	}
+
+	/** A slot of the supplies was clicked, as it is shown after the pieces to change into. */
+	private void chooseSupply(String boss, String card, GearView view, int shown, Bag.Line now)
+	{
+		int index = view.supplyIndex(shown);
+		GearView rec = view.recommended == null ? view : view.recommended;
+		List<Bag.Line> recCells = rec.supplyCells();
+		Bag.Line recommended = index < recCells.size() ? recCells.get(index) : null;
+		String where = lang.of("Inventory slot " + (view.carriedSlots().size() + shown + 1));
+		chooser(boss, card, GearChoices.BAG, index, ANYTHING, where, now == null ? null : now.name + (now.stack && now.quantity > 1 ? " x" + now.quantity : ""),
+			recommended == null ? null : recommended.name, recommended == null ? GearChoices.NOTHING : recommended.itemId, view, null);
+	}
+
+	/**
+	 * The window to put an item in a slot: a search by name (the items the player owns first), and buttons to take the
+	 * item out, to put the recommendation back in that slot, and to close. Nothing changes until one is pressed.
+	 *
+	 * @param slot	  the slot the change is kept under: an equipment slot, a place among the supplies, or -1 for a free slot
+	 *				  of a part (the item's own slot is taken)
+	 * @param findSlot  what the search lists: an equipment slot, {@link #ANY_WORN} or {@link #ANYTHING}
+	 * @param part	  the part a piece is for, or null
+	 */
+	private void chooser(String boss, String card, String place, int slot, int findSlot, String where, String now, String recommendedName,
+		int recommendedId, GearView view, GearView.Part part)
+	{
+		final JDialog dialog = new JDialog(SwingUtilities.getWindowAncestor(this), where);
+		JComponent content = chooserContent(boss, card, place, slot, findSlot, where, now, recommendedName, recommendedId, view, part,
+			dialog::dispose);
+		dialog.setContentPane(content);
+		dialog.pack();
+		dialog.setLocationRelativeTo(this);
+		dialog.setVisible(true);
+	}
+
+	/** What the window holds; on its own, so the preview can draw it. */
+	JComponent chooserContent(String boss, String card, String place, int slot, int findSlot, String where, String now,
+		String recommendedName, int recommendedId, GearView view, GearView.Part part, Runnable close)
+	{
+		final int width = 260;
+		JPanel all = column();
+		all.setOpaque(true);
+		all.setBackground(CARD);
+		all.setBorder(new EmptyBorder(PAD, PAD, PAD, PAD));
+		all.add(leftAligned(wrappedRaw(where, BODY_BOLD, ACCENT, width)));
+		all.add(Box.createVerticalStrut(4));
+		all.add(leftAligned(wrapped("Now: " + (now == null ? "nothing" : now), SMALL, TEXT, width)));
+		all.add(leftAligned(wrapped("Recommended: " + (recommendedName == null ? "nothing" : recommendedName), SMALL, MUTED, width)));
+		all.add(Box.createVerticalStrut(6));
+		final JTextField typed = new HintField(lang.of("Type a part of the item's name"));
+		typed.setFont(BODY);
+		typed.setBackground(ColorScheme.DARK_GRAY_COLOR);
+		typed.setForeground(TEXT);
+		typed.setCaretColor(TEXT);
+		typed.setBorder(BorderFactory.createCompoundBorder(BorderFactory.createLineBorder(BUTTON), new EmptyBorder(5, 6, 5, 6)));
+		typed.setAlignmentX(Component.LEFT_ALIGNMENT);
+		typed.setMaximumSize(new Dimension(Integer.MAX_VALUE, 30));
+		typed.setPreferredSize(new Dimension(width, 30));
+		all.add(typed);
+		all.add(Box.createVerticalStrut(4));
+		final javax.swing.JSpinner amount = new javax.swing.JSpinner(new javax.swing.SpinnerNumberModel(1, 1, Integer.MAX_VALUE, 1));
+		final JLabel amountLabel = label("How many, for an item that stacks:", SMALL, MUTED);
+		if (GearChoices.BAG.equals(place))
+		{
+			JPanel row = new JPanel(new BorderLayout(6, 0));
+			row.setOpaque(false);
+			row.setAlignmentX(Component.LEFT_ALIGNMENT);
+			row.setMaximumSize(new Dimension(Integer.MAX_VALUE, 26));
+			row.add(amountLabel, BorderLayout.CENTER);
+			amount.setPreferredSize(new Dimension(80, 24));
+			row.add(amount, BorderLayout.EAST);
+			all.add(row);
+			all.add(Box.createVerticalStrut(4));
+		}
+		final JLabel said = leftAligned(label(" ", SMALL, MUTED));
+		final JPanel found = column();
+		found.setOpaque(true);
+		found.setBackground(ColorScheme.DARK_GRAY_COLOR);
+		JPanel holder = new JPanel(new BorderLayout());
+		holder.setBackground(ColorScheme.DARK_GRAY_COLOR);
+		holder.add(found, BorderLayout.NORTH);
+		JScrollPane scroll = new JScrollPane(holder, ScrollPaneConstants.VERTICAL_SCROLLBAR_AS_NEEDED,
+			ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
+		scroll.setBorder(BorderFactory.createLineBorder(BUTTON));
+		scroll.getVerticalScrollBar().setUnitIncrement(16);
+		scroll.setAlignmentX(Component.LEFT_ALIGNMENT);
+		scroll.setPreferredSize(new Dimension(width, 240));
+		scroll.setMaximumSize(new Dimension(Integer.MAX_VALUE, 240));
+		all.add(scroll);
+		all.add(Box.createVerticalStrut(4));
+		all.add(said);
+		all.add(Box.createVerticalStrut(4));
+		final java.util.function.Consumer<List<Found>> show = list ->
+		{
+			found.removeAll();
+			for (Found f : list)
+			{
+				found.add(foundRow(f, width - 20, () ->
+				{
+					int quantity = f.stackable ? (Integer) amount.getValue() : 1;
+					int keptSlot = slot >= 0 ? slot : f.slot;
+					if (part != null && keptSlot >= 0 && !view.roomForPiece(part.key, keptSlot))
+					{
+						said.setForeground(BAD);
+						said.setText(lang.of("The inventory is full: take an item out first."));
+						return;
+					}
+					int recommended = recommendedId;
+					if (part != null && slot < 0)
+					{
+						// a free slot of a part: what the part recommends in the item's own slot
+						GearView rec = view.recommended == null ? view : view.recommended;
+						GearView.Part recPart = part;
+						for (GearView.Part p : rec.parts)
+						{
+							recPart = p.key.equals(part.key) ? p : recPart;
+						}
+						Bag.Line r = pieceOf(rec, recPart, keptSlot);
+						recommended = r == null ? GearChoices.NOTHING : r.itemId;
+					}
+					String problem = icons.changeGear(boss, card, place, keptSlot, f.itemId, quantity, recommended);
+					if (problem != null)
+					{
+						said.setForeground(BAD);
+						said.setText(lang.of(problem));
+						return;
+					}
+					close.run();
+				}));
+			}
+			if (list.isEmpty() && typed.getText().trim().length() >= 2)
+			{
+				found.add(leftAligned(wrapped("Nothing of that name goes here.", SMALL, MUTED, width - 20)));
+			}
+			found.revalidate();
+			found.repaint();
+		};
+		final javax.swing.Timer wait = new javax.swing.Timer(250, e -> icons.findItems(typed.getText(), findSlot, show));
+		wait.setRepeats(false);
+		typed.getDocument().addDocumentListener(new DocumentListener()
+		{
+			@Override
+			public void insertUpdate(DocumentEvent e)
+			{
+				wait.restart();
+			}
+
+			@Override
+			public void removeUpdate(DocumentEvent e)
+			{
+				wait.restart();
+			}
+
+			@Override
+			public void changedUpdate(DocumentEvent e)
+			{
+				wait.restart();
+			}
+		});
+		found.add(leftAligned(wrapped("Type at least two letters. What you own comes first; an item you do not own can be "
+			+ "put in too, and is marked.", SMALL, MUTED, width - 20)));
+		if (now != null && !(part != null && slot < 0))
+		{
+			all.add(action("Take it out", "Leaves this slot empty", () ->
+			{
+				String problem = icons.changeGear(boss, card, place, slot, GearChoices.NOTHING, 1, recommendedId);
+				if (problem != null)
+				{
+					said.setForeground(BAD);
+					said.setText(lang.of(problem));
+					return;
+				}
+				close.run();
+			}));
+			all.add(Box.createVerticalStrut(4));
+		}
+		boolean changed = false;
+		for (GearChoices.Pin pin : icons.gearChanges(boss))
+		{
+			changed |= pin.place.equals(place) && pin.slot == slot;
+		}
+		if (changed)
+		{
+			all.add(action("Back to the recommendation (this slot)", "Puts back what the planner recommends here", () ->
+			{
+				icons.keepRecommendation(boss, place, slot);
+				close.run();
+			}));
+			all.add(Box.createVerticalStrut(4));
+		}
+		all.add(action("Close", "Changes nothing", close));
+		all.setPreferredSize(new Dimension(width + 2 * PAD, all.getPreferredSize().height));
+		return all;
+	}
+
+	/** One item found: its picture, its name, and whether it is owned. A click puts it in. */
+	private JComponent foundRow(Found f, int width, Runnable onClick)
+	{
+		JPanel row = new JPanel(new BorderLayout(6, 0));
+		row.setOpaque(true);
+		row.setBackground(ColorScheme.DARK_GRAY_COLOR);
+		row.setBorder(new EmptyBorder(2, 4, 2, 4));
+		row.setAlignmentX(Component.LEFT_ALIGNMENT);
+		row.setMaximumSize(new Dimension(Integer.MAX_VALUE, 38));
+		JLabel icon = new JLabel();
+		icon.setPreferredSize(new Dimension(36, 32));
+		icon.setHorizontalAlignment(SwingConstants.CENTER);
+		icons.itemIcon(f.itemId, icon);
+		row.add(icon, BorderLayout.WEST);
+		JPanel words = column();
+		JLabel name = label(" ", BODY, TEXT);
+		// the game's name stays as the game has it
+		name.setText(f.name);
+		words.add(leftAligned(name));
+		words.add(leftAligned(label(f.owned ? "owned" : "not in your bank", SMALL, f.owned ? GOOD : MUTED)));
+		row.add(words, BorderLayout.CENTER);
+		row.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
+		row.setToolTipText(lang.of("Put it in"));
+		MouseAdapter click = new MouseAdapter()
+		{
+			@Override
+			public void mousePressed(MouseEvent e)
+			{
+				onClick.run();
+			}
+
+			@Override
+			public void mouseEntered(MouseEvent e)
+			{
+				row.setBackground(BUTTON_HOVER);
+			}
+
+			@Override
+			public void mouseExited(MouseEvent e)
+			{
+				row.setBackground(ColorScheme.DARK_GRAY_COLOR);
+			}
+		};
+		row.addMouseListener(click);
+		return row;
+	}
+
+	/** The items of the set, laid out as the game's equipment tab. */
+	private void gearGrid(JPanel card, GearView view, String boss)
+	{
+		final boolean changing = changing(boss) && view.status == GearView.Status.READY;
+		final String cardKey = drawingKey;
 		JPanel grid = new JPanel(new GridLayout(5, 3, 2, 2));
 		grid.setOpaque(false);
 		grid.setAlignmentX(Component.LEFT_ALIGNMENT);
@@ -1439,18 +2077,54 @@ public class CaPlannerPanel extends PluginPanel
 			if (id != null && id > 0)
 			{
 				cell.putClientProperty(NO_HTML, Boolean.TRUE);
-				cell.setToolTipText(view.nameBySlot.get(slot));
+				cell.setToolTipText(view.nameBySlot.get(slot) + (view.notOwned.contains(slot) ? " (" + lang.of("not in your bank") + ")" : ""));
 				icons.itemIcon(id, cell);
+			}
+			if (slot >= 0 && view.notOwned.contains(slot))
+			{
+				cell.setBorder(BorderFactory.createLineBorder(BAD));
+			}
+			if (slot >= 0 && changing)
+			{
+				final int s = slot;
+				clickable(cell, () -> chooseWorn(boss, cardKey, view, s));
 			}
 			grid.add(cell);
 		}
 		card.add(grid);
 	}
 
-	/** A row of pieces, four across: what to carry for a part of the fight. */
-	private void pieces(JPanel card, List<Bag.Line> carried)
+	/** A slot of a card that answers a click: a hand over it, and a light edge. */
+	private static void clickable(JLabel cell, Runnable onClick)
 	{
-		int rows = Math.max(1, (carried.size() + 3) / 4);
+		cell.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
+		if (cell.getBorder() == null)
+		{
+			cell.setBorder(BorderFactory.createLineBorder(BUTTON_HOVER));
+		}
+		if (cell.getToolTipText() == null)
+		{
+			cell.setToolTipText(lang.of("Empty: click to put an item in"));
+		}
+		cell.addMouseListener(new MouseAdapter()
+		{
+			@Override
+			public void mousePressed(MouseEvent e)
+			{
+				onClick.run();
+			}
+		});
+	}
+
+	/** A row of pieces, four across: what to carry for a part of the fight. */
+	private void pieces(JPanel card, GearView.Part part, GearView view, String boss)
+	{
+		final List<Bag.Line> carried = part.carried;
+		final boolean changing = changing(boss) && view.status == GearView.Status.READY && !part.key.isEmpty();
+		final String cardKey = drawingKey;
+		// while changing, a free slot after the pieces to put one more in
+		final boolean room = changing && carried.size() < GearView.MOST_PIECES;
+		int rows = Math.max(1, (carried.size() + (room ? 1 : 0) + 3) / 4);
 		JPanel grid = new JPanel(new GridLayout(rows, 4, 2, 2));
 		grid.setOpaque(false);
 		grid.setAlignmentX(Component.LEFT_ALIGNMENT);
@@ -1466,8 +2140,19 @@ public class CaPlannerPanel extends PluginPanel
 			if (i < carried.size())
 			{
 				cell.putClientProperty(NO_HTML, Boolean.TRUE);
-				cell.setToolTipText(carried.get(i).name);
+				cell.setToolTipText(carried.get(i).name + (carried.get(i).owned ? "" : " (" + lang.of("not in your bank") + ")"));
 				icons.itemIcon(carried.get(i).itemId, cell);
+				if (!carried.get(i).owned)
+				{
+					cell.setBorder(BorderFactory.createLineBorder(BAD));
+				}
+			}
+			if (changing && (i < carried.size() || room))
+			{
+				final List<Integer> slots = view.pieceSlots.get(part.key);
+				final int slot = i < carried.size() && slots != null && i < slots.size() ? slots.get(i) : -1;
+				final Bag.Line now = i < carried.size() ? carried.get(i) : null;
+				clickable(cell, () -> choosePiece(boss, cardKey, view, part, slot, now));
 			}
 			grid.add(cell);
 		}
@@ -1475,18 +2160,22 @@ public class CaPlannerPanel extends PluginPanel
 	}
 
 	/** The inventory as the game lays it out, four across. */
-	private void bagGrid(JPanel card, GearView view)
+	private void bagGrid(JPanel card, GearView view, String boss)
 	{
 		// the pieces to change into come first, each part in rows of its own
 		List<Bag.Line> cells = new ArrayList<>(view.carriedSlots());
-		for (Bag.Line line : view.bag)
+		final int carried = cells.size();
+		for (Bag.Line line : view.supplyCells())
 		{
-			for (int i = 0; i < line.slots() && cells.size() < Bag.SLOTS; i++)
+			if (cells.size() < Bag.SLOTS)
 			{
 				cells.add(line);
 			}
 		}
-		int rows = Math.max(1, (cells.size() + 3) / 4);
+		final boolean changing = changing(boss) && view.status == GearView.Status.READY;
+		final String cardKey = drawingKey;
+		// while changing, the whole inventory: its free slots take an item too
+		int rows = changing ? Bag.SLOTS / 4 : Math.max(1, (cells.size() + 3) / 4);
 		JPanel grid = new JPanel(new GridLayout(rows, 4, 2, 2));
 		grid.setOpaque(false);
 		grid.setAlignmentX(Component.LEFT_ALIGNMENT);
@@ -1499,6 +2188,16 @@ public class CaPlannerPanel extends PluginPanel
 			cell.setHorizontalAlignment(SwingConstants.CENTER);
 			cell.setOpaque(true);
 			cell.setBackground(BUTTON);
+			if (changing && i >= carried)
+			{
+				final int shown = i - carried;
+				final Bag.Line now = i < cells.size() ? cells.get(i) : null;
+				clickable(cell, () -> chooseSupply(boss, cardKey, view, shown, now));
+			}
+			else if (changing && i < carried && cells.get(i) != null)
+			{
+				cell.setToolTipText(cells.get(i).name + " · " + lang.of("change it in its part above"));
+			}
 			if (i < cells.size())
 			{
 				Bag.Line line = cells.get(i);

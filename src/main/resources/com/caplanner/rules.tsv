@@ -30,7 +30,7 @@
 574	spell=earth;exclude=ring of recoil|ring of suffering	The Hueycoatl: You're a wizard
 575	note	The Hueycoatl: I'm your son
 263	note	Thermonuclear Smoke Devil: Spec'd Out
-153	style=melee	TzTok-Jad: Facing Jad Head-on
+153	style=melee;exclude=keris partisan|blisterwood flail|lunar staff	TzTok-Jad: Facing Jad Head-on
 348	exclude=twisted bow	TzKal-Zuk: Budget Setup
 349	style=melee,ranged	TzKal-Zuk: Nibbler Chaser
 350	note	TzKal-Zuk: Facing Jad Head-on II
@@ -48,17 +48,35 @@
 285	note	Wintertodt: Cosy
 321	note	Chambers of Xeric: Kill It with Fire
 355	have=angler;note	Tempoross: Dress Like You Mean It
-367	style=melee	TzHaar-Ket-Rak's Challenges: Facing Jad Head-on III
+367	style=melee;exclude=keris partisan|pharaoh's sceptre	TzHaar-Ket-Rak's Challenges: Facing Jad Head-on III
 368	style=melee	TzHaar-Ket-Rak's Challenges: Facing Jad Head-on IV
 379	note	Theatre of Blood: Hard Mode: Harder Mode III
 427	note	Tombs of Amascut: Expert Mode: But... Damage
 429	style=melee;note	Tombs of Amascut: Expert Mode: Fancy feet
 533	have=dual macuahuitl|eclipse atlatl|blue moon spear;note	Moons of Peril: Betrayal
 534	weapon=dragon scimitar	Moons of Peril: Back to Our Roots
-540	weapon=spear|hasta|halberd	Fortis Colosseum: I Brought Mine Too
+540	weapon=spear|hasta|halberd|dragon hunter lance	Fortis Colosseum: I Brought Mine Too
 72	style=magic	Crazy Archaeologist: Mage of the Ruins
 472	weapon=salamander;note;without=book of the dead	Phantom Muspah: More than just a ranged weapon
 64	without=super restore|prayer regeneration potion	Chaos Fanatic: Praying to the Gods
 563	without=extended anti-venom+|antidote++	Araxxor: Let it seep in
 604	note;without=super restore|prayer regeneration potion|divine super combat potion|divine ranging potion|saturated heart|anglerfish|cooked karambwan|sanfew serum|antidote++	Yama: No toppings, no drinks, thanks
 617	without=super restore|prayer regeneration potion	Doom of Mokhaiotl: The Praying Mantis
+# Added after the audit of October 2026: tasks whose objective is about what is worn, wielded or used,
+# whatever kind the game files them under.
+78	style=magic	Deranged Archaeologist: Mage of the Swamp
+336	style=magic;exclude=ring of recoil|ring of suffering|echo boots;without=book of the dead;note	K'ril Tsutsaroth: The Bane of Demons
+555	weapon=crossbow|ballista	Tormented Demon: Rapid Reload
+635	note	Brutus: Beef vs Beef
+389	have=dragon halberd|crystal halberd;note	Theatre of Blood: Entry Mode: Chally Time
+124	note	Hespori: Hesporisn't
+160	note	Kalphite Queen: Insect Deflection
+227	note	Zulrah: Snake Rebound
+6	note	Abyssal Sire: Demonic Rebound
+200	have=rune thrownaxe;note	Dagannoth Prime: From One King to Another
+548	have=dragon claws|burning claws|rune claws;note	Fortis Colosseum: I was here first!
+482	note	Phantom Muspah: Versatile Drainer
+532	note	Moons of Peril: Fortified
+606	note	Yama: Fire fighter
+11	note	Kree'arra: Collateral Damage
+215	note	Commander Zilyana: Moving Collateral

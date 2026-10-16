@@ -1,0 +1,536 @@
+# npc id	name	party size	the table's hitpoints	the calculator's hitpoints
+8367	Blood spawn	1	7	5
+8367	Blood spawn	2	7	5
+8367	Blood spawn	3	7	5
+8367	Blood spawn	4	7	6
+8367	Blood spawn	5	7	7
+10844	Nylocas Athanatos	1	30	7
+10844	Nylocas Athanatos	2	30	14
+10844	Nylocas Athanatos	3	30	20
+10844	Nylocas Athanatos	4	30	25
+10844	Nylocas Athanatos	5	30	30
+8384	Nylocas Athanatos	1	180	135
+8384	Nylocas Athanatos	2	180	135
+8384	Nylocas Athanatos	3	180	135
+8384	Nylocas Athanatos	4	180	157
+8384	Nylocas Athanatos	5	180	180
+8347	Nylocas Hagios	1	22	16
+8347	Nylocas Hagios	2	22	16
+8347	Nylocas Hagios	3	22	16
+8347	Nylocas Hagios	4	22	19
+8347	Nylocas Hagios	5	22	22
+10779	Nylocas Hagios	1	3	0
+10779	Nylocas Hagios	2	3	1
+10779	Nylocas Hagios	3	3	2
+10779	Nylocas Hagios	4	3	2
+10779	Nylocas Hagios	5	3	3
+8344	Nylocas Hagios	1	11	8
+8344	Nylocas Hagios	2	11	8
+8344	Nylocas Hagios	3	11	8
+8344	Nylocas Hagios	4	11	9
+8344	Nylocas Hagios	5	11	11
+10776	Nylocas Hagios	1	2	0
+10776	Nylocas Hagios	2	2	0
+10776	Nylocas Hagios	3	2	1
+10776	Nylocas Hagios	4	2	1
+10776	Nylocas Hagios	5	2	2
+8345	Nylocas Ischyros	1	22	16
+8345	Nylocas Ischyros	2	22	16
+8345	Nylocas Ischyros	3	22	16
+8345	Nylocas Ischyros	4	22	19
+8345	Nylocas Ischyros	5	22	22
+10777	Nylocas Ischyros	1	3	0
+10777	Nylocas Ischyros	2	3	1
+10777	Nylocas Ischyros	3	3	2
+10777	Nylocas Ischyros	4	3	2
+10777	Nylocas Ischyros	5	3	3
+8342	Nylocas Ischyros	1	11	8
+8342	Nylocas Ischyros	2	11	8
+8342	Nylocas Ischyros	3	11	8
+8342	Nylocas Ischyros	4	11	9
+8342	Nylocas Ischyros	5	11	11
+10774	Nylocas Ischyros	1	2	0
+10774	Nylocas Ischyros	2	2	0
+10774	Nylocas Ischyros	3	2	1
+10774	Nylocas Ischyros	4	2	1
+10774	Nylocas Ischyros	5	2	2
+10820	Nylocas Matomenos	1	64	16
+10820	Nylocas Matomenos	2	64	30
+10820	Nylocas Matomenos	3	64	43
+10820	Nylocas Matomenos	4	64	54
+10820	Nylocas Matomenos	5	64	64
+10828	Nylocas Matomenos	1	100	75
+10828	Nylocas Matomenos	2	100	75
+10828	Nylocas Matomenos	3	100	75
+10828	Nylocas Matomenos	4	100	87
+10828	Nylocas Matomenos	5	100	100
+10862	Nylocas Matomenos	1	200	150
+10862	Nylocas Matomenos	2	200	150
+10862	Nylocas Matomenos	3	200	150
+10862	Nylocas Matomenos	4	200	175
+10862	Nylocas Matomenos	5	200	200
+8366	Nylocas Matomenos	1	100	75
+8366	Nylocas Matomenos	2	100	75
+8366	Nylocas Matomenos	3	100	75
+8366	Nylocas Matomenos	4	100	87
+8366	Nylocas Matomenos	5	100	100
+8385	Nylocas Matomenos	1	200	150
+8385	Nylocas Matomenos	2	200	150
+8385	Nylocas Matomenos	3	200	150
+8385	Nylocas Matomenos	4	200	175
+8385	Nylocas Matomenos	5	200	200
+10805	Nylocas Prinkipas	1	400	300
+10805	Nylocas Prinkipas	2	400	300
+10805	Nylocas Prinkipas	3	400	300
+10805	Nylocas Prinkipas	4	400	350
+10805	Nylocas Prinkipas	5	400	400
+10803	Nylocas Prinkipas	1	400	400
+10803	Nylocas Prinkipas	2	400	400
+10803	Nylocas Prinkipas	3	400	400
+10803	Nylocas Prinkipas	4	400	400
+10803	Nylocas Prinkipas	5	400	400
+10806	Nylocas Prinkipas	1	400	300
+10806	Nylocas Prinkipas	2	400	300
+10806	Nylocas Prinkipas	3	400	300
+10806	Nylocas Prinkipas	4	400	350
+10806	Nylocas Prinkipas	5	400	400
+8346	Nylocas Toxobolos	1	22	16
+8346	Nylocas Toxobolos	2	22	16
+8346	Nylocas Toxobolos	3	22	16
+8346	Nylocas Toxobolos	4	22	19
+8346	Nylocas Toxobolos	5	22	22
+10778	Nylocas Toxobolos	1	3	0
+10778	Nylocas Toxobolos	2	3	1
+10778	Nylocas Toxobolos	3	3	2
+10778	Nylocas Toxobolos	4	3	2
+10778	Nylocas Toxobolos	5	3	3
+8343	Nylocas Toxobolos	1	11	8
+8343	Nylocas Toxobolos	2	11	8
+8343	Nylocas Toxobolos	3	11	8
+8343	Nylocas Toxobolos	4	11	9
+8343	Nylocas Toxobolos	5	11	11
+10775	Nylocas Toxobolos	1	2	0
+10775	Nylocas Toxobolos	2	2	0
+10775	Nylocas Toxobolos	3	2	1
+10775	Nylocas Toxobolos	4	2	1
+10775	Nylocas Toxobolos	5	2	2
+10786	Nylocas Vasilias	1	1440	1440
+10786	Nylocas Vasilias	2	1440	1440
+10786	Nylocas Vasilias	3	1440	1440
+10786	Nylocas Vasilias	4	1440	1440
+10786	Nylocas Vasilias	5	1440	1440
+10807	Nylocas Vasilias	1	2500	2500
+10807	Nylocas Vasilias	2	2500	2500
+10807	Nylocas Vasilias	3	2500	2500
+10807	Nylocas Vasilias	4	2500	2500
+10807	Nylocas Vasilias	5	2500	2500
+8354	Nylocas Vasilias	1	2500	2500
+8354	Nylocas Vasilias	2	2500	2500
+8354	Nylocas Vasilias	3	2500	2500
+8354	Nylocas Vasilias	4	2500	2500
+8354	Nylocas Vasilias	5	2500	2500
+10812	Pestilent Bloat	1	1280	320
+10812	Pestilent Bloat	2	1280	608
+10812	Pestilent Bloat	3	1280	864
+10812	Pestilent Bloat	4	1280	1088
+10812	Pestilent Bloat	5	1280	1280
+10813	Pestilent Bloat	1	2400	1800
+10813	Pestilent Bloat	2	2400	1800
+10813	Pestilent Bloat	3	2400	1800
+10813	Pestilent Bloat	4	2400	2100
+10813	Pestilent Bloat	5	2400	2400
+8359	Pestilent Bloat	1	2000	1500
+8359	Pestilent Bloat	2	2000	1500
+8359	Pestilent Bloat	3	2000	1500
+8359	Pestilent Bloat	4	2000	1750
+8359	Pestilent Bloat	5	2000	2000
+10864	Sotetseg	1	2240	560
+10864	Sotetseg	2	2240	1064
+10864	Sotetseg	3	2240	1512
+10864	Sotetseg	4	2240	1904
+10864	Sotetseg	5	2240	2240
+10867	Sotetseg	1	4000	3000
+10867	Sotetseg	2	4000	3000
+10867	Sotetseg	3	4000	3000
+10867	Sotetseg	4	4000	3500
+10867	Sotetseg	5	4000	4000
+8387	Sotetseg	1	4000	3000
+8387	Sotetseg	2	4000	3000
+8387	Sotetseg	3	4000	3000
+8387	Sotetseg	4	4000	3500
+8387	Sotetseg	5	4000	4000
+8363	The Maiden of Sugadinti	1	1050	787
+8363	The Maiden of Sugadinti	2	1050	787
+8363	The Maiden of Sugadinti	3	1050	787
+8363	The Maiden of Sugadinti	4	1050	918
+8363	The Maiden of Sugadinti	5	1050	1050
+8362	The Maiden of Sugadinti	1	1750	1312
+8362	The Maiden of Sugadinti	2	1750	1312
+8362	The Maiden of Sugadinti	3	1750	1312
+8362	The Maiden of Sugadinti	4	1750	1531
+8362	The Maiden of Sugadinti	5	1750	1750
+8361	The Maiden of Sugadinti	1	2450	1837
+8361	The Maiden of Sugadinti	2	2450	1837
+8361	The Maiden of Sugadinti	3	2450	1837
+8361	The Maiden of Sugadinti	4	2450	2143
+8361	The Maiden of Sugadinti	5	2450	2450
+10814	The Maiden of Sugadinti	1	2000	500
+10814	The Maiden of Sugadinti	2	2000	950
+10814	The Maiden of Sugadinti	3	2000	1350
+10814	The Maiden of Sugadinti	4	2000	1700
+10814	The Maiden of Sugadinti	5	2000	2000
+10822	The Maiden of Sugadinti	1	3500	2625
+10822	The Maiden of Sugadinti	2	3500	2625
+10822	The Maiden of Sugadinti	3	3500	2625
+10822	The Maiden of Sugadinti	4	3500	3062
+10822	The Maiden of Sugadinti	5	3500	3500
+8360	The Maiden of Sugadinti	1	3500	2625
+8360	The Maiden of Sugadinti	2	3500	2625
+8360	The Maiden of Sugadinti	3	3500	2625
+8360	The Maiden of Sugadinti	4	3500	3062
+8360	The Maiden of Sugadinti	5	3500	3500
+10830	Verzik Vitur	1	1200	900
+10830	Verzik Vitur	2	1200	900
+10830	Verzik Vitur	3	1200	900
+10830	Verzik Vitur	4	1200	1050
+10830	Verzik Vitur	5	1200	1200
+10833	Verzik Vitur	1	1600	400
+10833	Verzik Vitur	2	1600	760
+10833	Verzik Vitur	3	1600	1080
+10833	Verzik Vitur	4	1600	1360
+10833	Verzik Vitur	5	1600	1600
+10835	Verzik Vitur	1	2400	600
+10835	Verzik Vitur	2	2400	1140
+10835	Verzik Vitur	3	2400	1620
+10835	Verzik Vitur	4	2400	2040
+10835	Verzik Vitur	5	2400	2400
+10847	Verzik Vitur	1	2000	1500
+10847	Verzik Vitur	2	2000	1500
+10847	Verzik Vitur	3	2000	1500
+10847	Verzik Vitur	4	2000	1750
+10847	Verzik Vitur	5	2000	2000
+10850	Verzik Vitur	1	3500	2625
+10850	Verzik Vitur	2	3500	2625
+10850	Verzik Vitur	3	3500	2625
+10850	Verzik Vitur	4	3500	3062
+10850	Verzik Vitur	5	3500	3500
+10852	Verzik Vitur	1	3500	2625
+10852	Verzik Vitur	2	3500	2625
+10852	Verzik Vitur	3	3500	2625
+10852	Verzik Vitur	4	3500	3062
+10852	Verzik Vitur	5	3500	3500
+8369	Verzik Vitur	1	2000	1500
+8369	Verzik Vitur	2	2000	1500
+8369	Verzik Vitur	3	2000	1500
+8369	Verzik Vitur	4	2000	1750
+8369	Verzik Vitur	5	2000	2000
+8372	Verzik Vitur	1	3500	2625
+8372	Verzik Vitur	2	3500	2625
+8372	Verzik Vitur	3	3500	2625
+8372	Verzik Vitur	4	3500	3062
+8372	Verzik Vitur	5	3500	3500
+8374	Verzik Vitur	1	3500	2625
+8374	Verzik Vitur	2	3500	2625
+8374	Verzik Vitur	3	3500	2625
+8374	Verzik Vitur	4	3500	3062
+8374	Verzik Vitur	5	3500	3500
+10768	Xarpus	1	3400	850
+10768	Xarpus	2	3400	1615
+10768	Xarpus	3	3400	2295
+10768	Xarpus	4	3400	2890
+10768	Xarpus	5	3400	3400
+10772	Xarpus	1	6000	4500
+10772	Xarpus	2	6000	4500
+10772	Xarpus	3	6000	4500
+10772	Xarpus	4	6000	5250
+10772	Xarpus	5	6000	6000
+8340	Xarpus	1	5000	3750
+8340	Xarpus	2	5000	3750
+8340	Xarpus	3	5000	3750
+8340	Xarpus	4	5000	4375
+8340	Xarpus	5	5000	5000
+8348	Nylocas Ischyros	1	11	8
+8348	Nylocas Ischyros	2	11	8
+8348	Nylocas Ischyros	3	11	8
+8348	Nylocas Ischyros	4	11	9
+8348	Nylocas Ischyros	5	11	11
+8349	Nylocas Toxobolos	1	11	8
+8349	Nylocas Toxobolos	2	11	8
+8349	Nylocas Toxobolos	3	11	8
+8349	Nylocas Toxobolos	4	11	9
+8349	Nylocas Toxobolos	5	11	11
+8350	Nylocas Hagios	1	11	8
+8350	Nylocas Hagios	2	11	8
+8350	Nylocas Hagios	3	11	8
+8350	Nylocas Hagios	4	11	9
+8350	Nylocas Hagios	5	11	11
+8351	Nylocas Ischyros	1	22	16
+8351	Nylocas Ischyros	2	22	16
+8351	Nylocas Ischyros	3	22	16
+8351	Nylocas Ischyros	4	22	19
+8351	Nylocas Ischyros	5	22	22
+8352	Nylocas Toxobolos	1	22	16
+8352	Nylocas Toxobolos	2	22	16
+8352	Nylocas Toxobolos	3	22	16
+8352	Nylocas Toxobolos	4	22	19
+8352	Nylocas Toxobolos	5	22	22
+8353	Nylocas Hagios	1	22	16
+8353	Nylocas Hagios	2	22	16
+8353	Nylocas Hagios	3	22	16
+8353	Nylocas Hagios	4	22	19
+8353	Nylocas Hagios	5	22	22
+8355	Nylocas Vasilias	1	2500	1875
+8355	Nylocas Vasilias	2	2500	1875
+8355	Nylocas Vasilias	3	2500	1875
+8355	Nylocas Vasilias	4	2500	2187
+8355	Nylocas Vasilias	5	2500	2500
+8356	Nylocas Vasilias	1	2500	1875
+8356	Nylocas Vasilias	2	2500	1875
+8356	Nylocas Vasilias	3	2500	1875
+8356	Nylocas Vasilias	4	2500	2187
+8356	Nylocas Vasilias	5	2500	2500
+8357	Nylocas Vasilias	1	2500	1875
+8357	Nylocas Vasilias	2	2500	1875
+8357	Nylocas Vasilias	3	2500	1875
+8357	Nylocas Vasilias	4	2500	2187
+8357	Nylocas Vasilias	5	2500	2500
+8370	Verzik Vitur	1	2000	1500
+8370	Verzik Vitur	2	2000	1500
+8370	Verzik Vitur	3	2000	1500
+8370	Verzik Vitur	4	2000	1750
+8370	Verzik Vitur	5	2000	2000
+8371	Verzik Vitur	1	2000	1500
+8371	Verzik Vitur	2	2000	1500
+8371	Verzik Vitur	3	2000	1500
+8371	Verzik Vitur	4	2000	1750
+8371	Verzik Vitur	5	2000	2000
+8373	Verzik Vitur	1	3500	2625
+8373	Verzik Vitur	2	3500	2625
+8373	Verzik Vitur	3	3500	2625
+8373	Verzik Vitur	4	3500	3062
+8373	Verzik Vitur	5	3500	3500
+8375	Verzik Vitur	1	3500	3500
+8375	Verzik Vitur	2	3500	3500
+8375	Verzik Vitur	3	3500	3500
+8375	Verzik Vitur	4	3500	3500
+8375	Verzik Vitur	5	3500	3500
+8388	Sotetseg	1	4000	3000
+8388	Sotetseg	2	4000	3000
+8388	Sotetseg	3	4000	3000
+8388	Sotetseg	4	4000	3500
+8388	Sotetseg	5	4000	4000
+10780	Nylocas Ischyros	1	2	0
+10780	Nylocas Ischyros	2	2	0
+10780	Nylocas Ischyros	3	2	1
+10780	Nylocas Ischyros	4	2	1
+10780	Nylocas Ischyros	5	2	2
+10781	Nylocas Toxobolos	1	2	0
+10781	Nylocas Toxobolos	2	2	0
+10781	Nylocas Toxobolos	3	2	1
+10781	Nylocas Toxobolos	4	2	1
+10781	Nylocas Toxobolos	5	2	2
+10782	Nylocas Hagios	1	2	0
+10782	Nylocas Hagios	2	2	0
+10782	Nylocas Hagios	3	2	1
+10782	Nylocas Hagios	4	2	1
+10782	Nylocas Hagios	5	2	2
+10783	Nylocas Ischyros	1	3	0
+10783	Nylocas Ischyros	2	3	1
+10783	Nylocas Ischyros	3	3	2
+10783	Nylocas Ischyros	4	3	2
+10783	Nylocas Ischyros	5	3	3
+10784	Nylocas Toxobolos	1	3	0
+10784	Nylocas Toxobolos	2	3	1
+10784	Nylocas Toxobolos	3	3	2
+10784	Nylocas Toxobolos	4	3	2
+10784	Nylocas Toxobolos	5	3	3
+10785	Nylocas Hagios	1	3	0
+10785	Nylocas Hagios	2	3	1
+10785	Nylocas Hagios	3	3	2
+10785	Nylocas Hagios	4	3	2
+10785	Nylocas Hagios	5	3	3
+10787	Nylocas Vasilias	1	1440	360
+10787	Nylocas Vasilias	2	1440	684
+10787	Nylocas Vasilias	3	1440	972
+10787	Nylocas Vasilias	4	1440	1224
+10787	Nylocas Vasilias	5	1440	1440
+10788	Nylocas Vasilias	1	1440	360
+10788	Nylocas Vasilias	2	1440	684
+10788	Nylocas Vasilias	3	1440	972
+10788	Nylocas Vasilias	4	1440	1224
+10788	Nylocas Vasilias	5	1440	1440
+10789	Nylocas Vasilias	1	1440	360
+10789	Nylocas Vasilias	2	1440	684
+10789	Nylocas Vasilias	3	1440	972
+10789	Nylocas Vasilias	4	1440	1224
+10789	Nylocas Vasilias	5	1440	1440
+10791	Nylocas Ischyros	1	11	8
+10791	Nylocas Ischyros	2	11	8
+10791	Nylocas Ischyros	3	11	8
+10791	Nylocas Ischyros	4	11	9
+10791	Nylocas Ischyros	5	11	11
+10792	Nylocas Toxobolos	1	11	8
+10792	Nylocas Toxobolos	2	11	8
+10792	Nylocas Toxobolos	3	11	8
+10792	Nylocas Toxobolos	4	11	9
+10792	Nylocas Toxobolos	5	11	11
+10793	Nylocas Hagios	1	11	8
+10793	Nylocas Hagios	2	11	8
+10793	Nylocas Hagios	3	11	8
+10793	Nylocas Hagios	4	11	9
+10793	Nylocas Hagios	5	11	11
+10794	Nylocas Ischyros	1	22	16
+10794	Nylocas Ischyros	2	22	16
+10794	Nylocas Ischyros	3	22	16
+10794	Nylocas Ischyros	4	22	19
+10794	Nylocas Ischyros	5	22	22
+10795	Nylocas Toxobolos	1	22	16
+10795	Nylocas Toxobolos	2	22	16
+10795	Nylocas Toxobolos	3	22	16
+10795	Nylocas Toxobolos	4	22	19
+10795	Nylocas Toxobolos	5	22	22
+10796	Nylocas Hagios	1	22	16
+10796	Nylocas Hagios	2	22	16
+10796	Nylocas Hagios	3	22	16
+10796	Nylocas Hagios	4	22	19
+10796	Nylocas Hagios	5	22	22
+10797	Nylocas Ischyros	1	11	8
+10797	Nylocas Ischyros	2	11	8
+10797	Nylocas Ischyros	3	11	8
+10797	Nylocas Ischyros	4	11	9
+10797	Nylocas Ischyros	5	11	11
+10798	Nylocas Toxobolos	1	11	8
+10798	Nylocas Toxobolos	2	11	8
+10798	Nylocas Toxobolos	3	11	8
+10798	Nylocas Toxobolos	4	11	9
+10798	Nylocas Toxobolos	5	11	11
+10799	Nylocas Hagios	1	11	8
+10799	Nylocas Hagios	2	11	8
+10799	Nylocas Hagios	3	11	8
+10799	Nylocas Hagios	4	11	9
+10799	Nylocas Hagios	5	11	11
+10800	Nylocas Ischyros	1	22	16
+10800	Nylocas Ischyros	2	22	16
+10800	Nylocas Ischyros	3	22	16
+10800	Nylocas Ischyros	4	22	19
+10800	Nylocas Ischyros	5	22	22
+10801	Nylocas Toxobolos	1	22	16
+10801	Nylocas Toxobolos	2	22	16
+10801	Nylocas Toxobolos	3	22	16
+10801	Nylocas Toxobolos	4	22	19
+10801	Nylocas Toxobolos	5	22	22
+10802	Nylocas Hagios	1	22	16
+10802	Nylocas Hagios	2	22	16
+10802	Nylocas Hagios	3	22	16
+10802	Nylocas Hagios	4	22	19
+10802	Nylocas Hagios	5	22	22
+10804	Nylocas Prinkipas	1	400	300
+10804	Nylocas Prinkipas	2	400	300
+10804	Nylocas Prinkipas	3	400	300
+10804	Nylocas Prinkipas	4	400	350
+10804	Nylocas Prinkipas	5	400	400
+10808	Nylocas Vasilias	1	2500	1875
+10808	Nylocas Vasilias	2	2500	1875
+10808	Nylocas Vasilias	3	2500	1875
+10808	Nylocas Vasilias	4	2500	2187
+10808	Nylocas Vasilias	5	2500	2500
+10809	Nylocas Vasilias	1	2500	1875
+10809	Nylocas Vasilias	2	2500	1875
+10809	Nylocas Vasilias	3	2500	1875
+10809	Nylocas Vasilias	4	2500	2187
+10809	Nylocas Vasilias	5	2500	2500
+10810	Nylocas Vasilias	1	2500	1875
+10810	Nylocas Vasilias	2	2500	1875
+10810	Nylocas Vasilias	3	2500	1875
+10810	Nylocas Vasilias	4	2500	2187
+10810	Nylocas Vasilias	5	2500	2500
+10815	The Maiden of Sugadinti	1	2000	500
+10815	The Maiden of Sugadinti	2	2000	950
+10815	The Maiden of Sugadinti	3	2000	1350
+10815	The Maiden of Sugadinti	4	2000	1700
+10815	The Maiden of Sugadinti	5	2000	2000
+10816	The Maiden of Sugadinti	1	2000	500
+10816	The Maiden of Sugadinti	2	2000	950
+10816	The Maiden of Sugadinti	3	2000	1350
+10816	The Maiden of Sugadinti	4	2000	1700
+10816	The Maiden of Sugadinti	5	2000	2000
+10817	The Maiden of Sugadinti	1	2000	500
+10817	The Maiden of Sugadinti	2	2000	950
+10817	The Maiden of Sugadinti	3	2000	1350
+10817	The Maiden of Sugadinti	4	2000	1700
+10817	The Maiden of Sugadinti	5	2000	2000
+10823	The Maiden of Sugadinti	1	3500	2625
+10823	The Maiden of Sugadinti	2	3500	2625
+10823	The Maiden of Sugadinti	3	3500	2625
+10823	The Maiden of Sugadinti	4	3500	3062
+10823	The Maiden of Sugadinti	5	3500	3500
+10824	The Maiden of Sugadinti	1	3500	2625
+10824	The Maiden of Sugadinti	2	3500	2625
+10824	The Maiden of Sugadinti	3	3500	2625
+10824	The Maiden of Sugadinti	4	3500	3062
+10824	The Maiden of Sugadinti	5	3500	3500
+10825	The Maiden of Sugadinti	1	3500	2625
+10825	The Maiden of Sugadinti	2	3500	2625
+10825	The Maiden of Sugadinti	3	3500	2625
+10825	The Maiden of Sugadinti	4	3500	3062
+10825	The Maiden of Sugadinti	5	3500	3500
+10831	Verzik Vitur	1	1200	900
+10831	Verzik Vitur	2	1200	900
+10831	Verzik Vitur	3	1200	900
+10831	Verzik Vitur	4	1200	1050
+10831	Verzik Vitur	5	1200	1200
+10832	Verzik Vitur	1	1200	900
+10832	Verzik Vitur	2	1200	900
+10832	Verzik Vitur	3	1200	900
+10832	Verzik Vitur	4	1200	1050
+10832	Verzik Vitur	5	1200	1200
+10834	Verzik Vitur	1	1600	400
+10834	Verzik Vitur	2	1600	760
+10834	Verzik Vitur	3	1600	1080
+10834	Verzik Vitur	4	1600	1360
+10834	Verzik Vitur	5	1600	1600
+10836	Verzik Vitur	1	2400	2400
+10836	Verzik Vitur	2	2400	2400
+10836	Verzik Vitur	3	2400	2400
+10836	Verzik Vitur	4	2400	2400
+10836	Verzik Vitur	5	2400	2400
+10848	Verzik Vitur	1	2000	1500
+10848	Verzik Vitur	2	2000	1500
+10848	Verzik Vitur	3	2000	1500
+10848	Verzik Vitur	4	2000	1750
+10848	Verzik Vitur	5	2000	2000
+10849	Verzik Vitur	1	2000	1500
+10849	Verzik Vitur	2	2000	1500
+10849	Verzik Vitur	3	2000	1500
+10849	Verzik Vitur	4	2000	1750
+10849	Verzik Vitur	5	2000	2000
+10851	Verzik Vitur	1	3500	2625
+10851	Verzik Vitur	2	3500	2625
+10851	Verzik Vitur	3	3500	2625
+10851	Verzik Vitur	4	3500	3062
+10851	Verzik Vitur	5	3500	3500
+10853	Verzik Vitur	1	3500	3500
+10853	Verzik Vitur	2	3500	3500
+10853	Verzik Vitur	3	3500	3500
+10853	Verzik Vitur	4	3500	3500
+10853	Verzik Vitur	5	3500	3500
+10865	Sotetseg	1	2240	560
+10865	Sotetseg	2	2240	1064
+10865	Sotetseg	3	2240	1512
+10865	Sotetseg	4	2240	1904
+10865	Sotetseg	5	2240	2240
+10868	Sotetseg	1	4000	3000
+10868	Sotetseg	2	4000	3000
+10868	Sotetseg	3	4000	3000
+10868	Sotetseg	4	4000	3500
+10868	Sotetseg	5	4000	4000
+10821	Blood spawn	1	7	1
+10821	Blood spawn	2	7	3
+10821	Blood spawn	3	7	4
+10821	Blood spawn	4	7	5
+10821	Blood spawn	5	7	7
+10829	Blood spawn	1	7	5
+10829	Blood spawn	2	7	5
+10829	Blood spawn	3	7	5
+10829	Blood spawn	4	7	6
+10829	Blood spawn	5	7	7

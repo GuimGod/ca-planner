@@ -76,6 +76,26 @@ public final class Report
 		else
 		{
 			out.append("- status: ").append(view.status).append('\n');
+			if (view.edited())
+			{
+				// so that nobody hunts for a bug of the planner in a set it did not pick
+				out.append("- gear edited by the player: what follows is the card as they changed it\n");
+				for (GearView.Change change : view.changes)
+				{
+					if (!change.line.isEmpty())
+					{
+						out.append("- change: ").append(change.line).append('\n');
+					}
+				}
+				List<String> recommended = new ArrayList<>();
+				for (Map.Entry<Integer, String> e : new TreeMap<>(view.recommended.nameBySlot).entrySet())
+				{
+					String slot = e.getKey() >= 0 && e.getKey() < SLOTS.length ? SLOTS[e.getKey()] : String.valueOf(e.getKey());
+					recommended.add(slot + " " + e.getValue());
+				}
+				out.append("- recommended set: ").append(String.join(" | ", recommended)).append(", ")
+					.append(Math.round(view.recommended.dps * 100) / 100.0).append(" dps\n");
+			}
 			if (!view.wornFor.isEmpty())
 			{
 				out.append("- worn for: ").append(view.wornFor).append('\n');
@@ -108,7 +128,17 @@ public final class Report
 			{
 				out.append("- must wear: ").append(line.name).append(line.owned ? "" : " (not owned)").append('\n');
 			}
-			if (!view.bag.isEmpty())
+			if (view.cells != null)
+			{
+				// the supplies as the player left them, slot by slot
+				List<String> bag = new ArrayList<>();
+				for (Bag.Line line : view.cells)
+				{
+					bag.add(line == null ? "(empty)" : (line.stack ? line.quantity + " x " : "") + line.name + (line.owned ? "" : " (not owned)"));
+				}
+				out.append("- inventory: ").append(String.join(", ", bag)).append(" (as changed, slot by slot)\n");
+			}
+			else if (!view.bag.isEmpty())
 			{
 				List<String> bag = new ArrayList<>();
 				for (Bag.Line line : view.bag)

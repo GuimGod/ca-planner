@@ -197,11 +197,7 @@ public class AccountsTest
 		Gear gear = new Gear();
 		// a staff the sums leave out stays out: it is not a Fire Surge caster
 		assertNull(gear.best("Vorkath", Arrays.asList(staff(28796, "Bone staff", 20, 0)), levels(99), false));
-		assertFalse(Weapons.cannotBeUsed("Iban's staff (u)"));
-		assertTrue(Weapons.cannotBeUsed("Sanguinesti staff (uncharged)"));
-		assertTrue(Weapons.cannotBeUsed("Dharok's greataxe 0"));
-		assertTrue(Weapons.cannotBeUsed("Uncharged trident"));
-		assertFalse(Weapons.cannotBeUsed("Dharok's greataxe 100"));
+		// which weapons cannot attack without their charges is the engine's, copied from Combat Check (ItemRulesTest)
 		// a staff with no runes to cast is not "a weapon the plugin has no figure for"
 		Gear.Limits staffOnly = new Gear.Limits();
 		staffOnly.weapon.add("mystic air staff");
@@ -238,12 +234,50 @@ public class AccountsTest
 		assertTrue(gear.best("Vorkath", Arrays.asList(wand), levels(99), false).dps > same * 1.5);
 		assertEquals(gear.best("Sarachnis", Arrays.asList(plain), levels(99), false).dps,
 			gear.best("Sarachnis", Arrays.asList(wand), levels(99), false).dps, 1e-9);
-		// the Slayer's staff casts Magic Dart when that does more than what the level allows otherwise
+		// Magic Dart has no figure in the engine (the authors' choice in Combat Check's review): the Slayer's staff
+		// casts what the level allows
 		Gear.Levels mid = levels(50);
 		mid.all.put("slayer", 55);
 		Gear.Result dart = gear.best("Scurrius", Arrays.asList(staff(4170, "Slayer's staff", 12, 0)), mid, false);
-		assertEquals("Magic Dart", dart.spell);
-		assertTrue("no other staff casts it", !"Magic Dart".equals(gear.best("Scurrius", Arrays.asList(plain), mid, false).spell));
+		assertTrue(dart == null || !"Magic Dart".equals(dart.spell));
+	}
+
+	@Test
+	public void virtusAddsToTheAncientMagicks() throws Exception
+	{
+		Gear gear = new Gear();
+		Gear.Stat wand = staff(21006, "Kodai wand", 28, 15);
+		Gear.Stat mask = item(26241, "Virtus mask", 0);
+		mask.magic = 8;
+		Gear.Stat top = item(26243, "Virtus robe top", 4);
+		top.magic = 35;
+		Gear.Stat legs = item(26245, "Virtus robe bottom", 7);
+		legs.magic = 26;
+		Gear.Levels ancients = levels(99);
+		ancients.ancients = true;
+		// the figures as they were before Virtus moved out of the sums: 3% more damage a piece with an Ancient spell
+		Gear.Result virtus = gear.best("Commander Zilyana", Arrays.asList(wand, mask, top, legs), ancients, false);
+		assertEquals("Ice Barrage", virtus.spell);
+		assertEquals(1.196775311406365, virtus.dps, 1e-12);
+		assertEquals("Virtus robe top", name(virtus, 4));
+		Map<Integer, Gear.Stat> worn = new HashMap<>();
+		worn.put(WEAPON, wand);
+		worn.put(0, mask);
+		worn.put(4, top);
+		worn.put(7, legs);
+		assertEquals(1.196775311406365, gear.dpsAt(2205, worn, ancients, false), 1e-12);
+		// the same bonuses on pieces of another name add nothing to the spell
+		Gear.Stat hat = item(4089, "Mystic hat", 0);
+		hat.magic = 8;
+		Gear.Stat robe = item(4091, "Mystic robe top", 4);
+		robe.magic = 35;
+		Gear.Stat bottom = item(4093, "Mystic robe bottom", 7);
+		bottom.magic = 26;
+		double plain = gear.best("Commander Zilyana", Arrays.asList(wand, hat, robe, bottom), ancients, false).dps;
+		assertTrue(virtus.dps > plain);
+		// nor does Virtus add to the standard spellbook
+		Gear.Result standard = gear.best("Commander Zilyana", Arrays.asList(wand, mask, top, legs), levels(99), false);
+		assertEquals(gear.best("Commander Zilyana", Arrays.asList(wand, hat, robe, bottom), levels(99), false).dps, standard.dps, 1e-9);
 	}
 
 	@Test
@@ -262,8 +296,7 @@ public class AccountsTest
 		assertEquals("Fire Surge", cast.spell);
 		Gear.Limits melee = new Gear.Limits();
 		melee.styles.add("melee");
-		Gear.Result hit = gear.best("Vorkath", Arrays.asList(sotd), levels(99), false, melee);
-		assertEquals("Melee", hit.style);
-		assertNull(hit.spell);
+		// its blade has no figure in the engine (the authors' choice in Combat Check's review): no melee set from it
+		assertNull(gear.best("Vorkath", Arrays.asList(sotd), levels(99), false, melee));
 	}
 }

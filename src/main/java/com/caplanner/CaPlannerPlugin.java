@@ -11,6 +11,8 @@ import com.caplanner.core.Bag;
 import com.caplanner.core.BossIcons;
 import com.caplanner.core.Completion;
 import com.caplanner.core.Ease;
+import com.caplanner.core.GearCard;
+import com.caplanner.core.GearChoices;
 import com.caplanner.core.GearView;
 import com.caplanner.core.OwnedItems;
 import com.caplanner.core.Places;
@@ -44,6 +46,7 @@ import java.util.Set;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ScheduledExecutorService;
 import javax.inject.Inject;
+import javax.swing.ImageIcon;
 import javax.swing.JLabel;
 import javax.swing.SwingUtilities;
 import lombok.extern.slf4j.Slf4j;
@@ -78,6 +81,8 @@ import net.runelite.client.plugins.PluginInstantiationException;
 import net.runelite.client.plugins.PluginManager;
 import net.runelite.client.ui.ClientToolbar;
 import net.runelite.client.ui.NavigationButton;
+import net.runelite.client.util.AsyncBufferedImage;
+import net.runelite.client.util.ImageUtil;
 
 /**
  * Lists the player's Combat Achievement tasks in a side panel, by boss and all together, and
@@ -100,6 +105,8 @@ public class CaPlannerPlugin extends Plugin implements CaPlannerPanel.Actions
 	private static final int SHOW_AFTER_MILLIS = 1500;
 	static final String CONFIG_GROUP = "caplanner";
 	private static final String BANK_KEY = "bank";
+	/** The setting that, ticked, forgets the account's changes to the gear and unticks itself. */
+	static final String FORGET_CHANGES = "forgetGearChanges";
 	/** Quests change without an event the plugin listens to: look again this often. */
 	private static final int LOOK_AGAIN_TICKS = 100;
 	/** How soon to try again when the game's task tables come back empty. */
@@ -108,6 +115,8 @@ public class CaPlannerPlugin extends Plugin implements CaPlannerPanel.Actions
 	private static final int NOT_SHOWN = Integer.MIN_VALUE;
 	/** Hiscores name to its entry; filled on first use. */
 	private static final Map<String, HiscoreSkill> HISCORES = new HashMap<>();
+	/** The side of the place the panel keeps for a boss's icon. */
+	private static final int BOSS_ICON = 26;
 
 	@Inject
 	private Client client;
@@ -203,6 +212,19 @@ public class CaPlannerPlugin extends Plugin implements CaPlannerPanel.Actions
 	private volatile String lastTaskAndQuiver;
 	/** Real levels as last seen, to tell a new level from a mere experience drop. */
 	private final Map<Skill, Integer> levels = new ConcurrentHashMap<>();
+	/**
+	 * The account's changes to the recommended gear and the text of the settings they were read from, together, so that
+	 * the Swing thread and the client thread never see one without the other.
+	 */
+	private volatile Object[] choicesRead = {null, GearChoices.none()};
+	/** Every item of the game, for the search of items; null until it is read. Client thread. */
+	private com.caplanner.core.ItemSearch itemIndex;
+	/** The items being read, a part a tick, and the item id they are read up to. Client thread. */
+	private List<com.caplanner.core.ItemSearch.Entry> itemIndexSoFar;
+	private int itemIndexedUpTo;
+	private long itemIndexStarted;
+	/** Items of the game read for the search in one tick. */
+	private static final int INDEX_STEP = 4000;
 
 	@Override
 	protected void startUp()
@@ -237,6 +259,11 @@ public class CaPlannerPlugin extends Plugin implements CaPlannerPanel.Actions
 		{
 			log.warn("could not read the gear tables: no sets will be picked", e);
 			gear = null;
+		}
+		if (gear != null && config.updateData())
+		{
+			// a newer copy of the engine's tables, when Combat Check's repository has one: asked for once
+			gear.fetchNewerTables(okHttpClient, r -> clientThread.invokeLater(r));
 		}
 		makePanel();
 		lastShown = null;
@@ -606,6 +633,12 @@ public class CaPlannerPlugin extends Plugin implements CaPlannerPanel.Actions
 		{
 			ids[i] = items[i].getId();
 			quantities[i] = items[i].getQuantity();
+			if (ids[i] > 0 && itemManager.getItemComposition(ids[i]).getPlaceholderTemplateId() != -1)
+			{
+				// a placeholder is the item, owned (it is canonicalized later), with none of it in stock: it counts for
+				// the sets, and the inventory does not take a potion that is not there
+				quantities[i] = 0;
+			}
 		}
 		// the bank changes with every deposit: only a different content is written again
 		String now = OwnedItems.of(ids, quantities).encode();
@@ -713,6 +746,14 @@ public class CaPlannerPlugin extends Plugin implements CaPlannerPanel.Actions
 				if (t.boss.equals("TzKal-Zuk"))
 				{
 					account.done.add("fire-cape-given");
+				}
+				if (t.boss.equals("Grotesque Guardians"))
+				{
+					account.done.add("gg-roof");
+				}
+				if (t.boss.equals("Abyssal Sire"))
+				{
+					account.done.add("abyss-access");
 				}
 			}
 		}
@@ -948,7 +989,42 @@ public class CaPlannerPlugin extends Plugin implements CaPlannerPanel.Actions
 	public void route(String boss)
 	{
 		Places p = places;
-		int[] tile = p == null ? null : p.of(boss);
+		mark(p == null ? null : p.of(boss));
+	}
+
+	@Override
+	public String placeNote(String boss)
+	{
+		Places p = places;
+		return p == null ? "" : p.note(boss);
+	}
+
+	@Override
+	public List<String[]> ways(String boss)
+	{
+		Places p = places;
+		List<String[]> out = new ArrayList<>();
+		if (p != null)
+		{
+			for (Places.Way w : p.ways(boss))
+			{
+				out.add(new String[]{w.label, w.note});
+			}
+		}
+		return out;
+	}
+
+	@Override
+	public void routeWay(String boss, int index)
+	{
+		Places p = places;
+		List<Places.Way> list = p == null ? null : p.ways(boss);
+		mark(list == null || index < 0 || index >= list.size() ? null : list.get(index).tile());
+	}
+
+	/** Asks the route plugins for the way to a tile; nothing when there is none. */
+	private void mark(int[] tile)
+	{
 		if (tile == null)
 		{
 			return;
@@ -972,6 +1048,186 @@ public class CaPlannerPlugin extends Plugin implements CaPlannerPanel.Actions
 		});
 	}
 
+	/**
+	 * The account's changes to the recommended gear, from its own settings (the RuneScape profile): read again only
+	 * when the text there changes. None before an account is logged in.
+	 */
+	private GearChoices choices()
+	{
+		String text = configManager.getRSProfileKey() == null ? null : configManager.getRSProfileConfiguration(CONFIG_GROUP, GearChoices.KEY);
+		if (text == null || text.isEmpty())
+		{
+			return GearChoices.none();
+		}
+		Object[] read = choicesRead;
+		if (!text.equals(read[0]))
+		{
+			// a text that cannot be read gives no changes, and the card is the recommendation
+			read = new Object[]{text, GearChoices.decode(text)};
+			choicesRead = read;
+		}
+		return (GearChoices) read[1];
+	}
+
+	/** Keeps the account's changes in its own settings, and has the cards of the boss worked out again. */
+	private void keep(String boss, GearChoices now)
+	{
+		if (configManager.getRSProfileKey() == null)
+		{
+			return;
+		}
+		String text = now.encode();
+		if (text.isEmpty())
+		{
+			configManager.unsetRSProfileConfiguration(CONFIG_GROUP, GearChoices.KEY);
+		}
+		else
+		{
+			configManager.setRSProfileConfiguration(CONFIG_GROUP, GearChoices.KEY, text);
+		}
+		final CaPlannerPanel target = panel;
+		SwingUtilities.invokeLater(() ->
+		{
+			if (target != null)
+			{
+				if (boss == null)
+				{
+					target.forgetGear();
+				}
+				else
+				{
+					target.forgetGearOf(boss);
+				}
+			}
+		});
+	}
+
+	@Override
+	public List<GearChoices.Pin> gearChanges(String boss)
+	{
+		return choices().of(boss);
+	}
+
+	@Override
+	public String changeGear(String boss, String card, String place, int slot, int itemId, int quantity, int recommended)
+	{
+		GearChoices before = choices();
+		GearChoices now = before.with(boss, place, slot, itemId, quantity, recommended, card);
+		if (now == before)
+		{
+			// the text would be longer than the settings can read back, or the boss has all the changes it can keep
+			return "No more changes can be kept: put some slots back to the recommendation first.";
+		}
+		keep(boss, now);
+		return null;
+	}
+
+	@Override
+	public void keepRecommendation(String boss, String place, int slot)
+	{
+		keep(boss, choices().without(boss, place, slot));
+	}
+
+	@Override
+	public void forgetGearChanges(String boss)
+	{
+		keep(boss, choices().withoutBoss(boss));
+	}
+
+	/**
+	 * Finds items of the game by a part of their name, the ones the player owns first. The items are read from the client
+	 * once, a part a tick on the client thread (they are many), and the search is answered when they are all read.
+	 */
+	@Override
+	public void findItems(String typed, int slot, java.util.function.Consumer<List<CaPlannerPanel.Found>> answer)
+	{
+		final String q = typed == null ? "" : typed.trim().toLowerCase(java.util.Locale.ROOT);
+		if (q.length() < 2)
+		{
+			SwingUtilities.invokeLater(() -> answer.accept(new ArrayList<CaPlannerPanel.Found>()));
+			return;
+		}
+		clientThread.invokeLater(() ->
+		{
+			if (!readItemIndex())
+			{
+				// more of the items to read first: this runs again on the next tick
+				return false;
+			}
+			String saved = client.getGameState() == GameState.LOGGED_IN
+				? configManager.getRSProfileConfiguration(CONFIG_GROUP, BANK_KEY) : null;
+			Map<String, Bag.Have> owned = saved == null ? new HashMap<String, Bag.Have>() : have(saved);
+			final List<CaPlannerPanel.Found> found = new ArrayList<>();
+			for (com.caplanner.core.ItemSearch.Hit hit : itemIndex.find(q, slot, owned, this::slotOf))
+			{
+				found.add(new CaPlannerPanel.Found(hit.itemId, hit.entry.name, hit.entry.slot, hit.entry.stackable, hit.owned));
+			}
+			SwingUtilities.invokeLater(() -> answer.accept(found));
+			return true;
+		});
+	}
+
+	/** The equipment slot of an item, or -1. Client thread. */
+	private int slotOf(int id)
+	{
+		ItemStats stats = itemManager.getItemStats(id);
+		return stats == null || stats.getEquipment() == null ? -1 : stats.getEquipment().getSlot();
+	}
+
+	/**
+	 * Reads a part of the game's items into the index: true when it is all read. Notes, placeholders and the other
+	 * forms of an item are left out, and of the items of one name and slot the first is kept. Client thread.
+	 */
+	private boolean readItemIndex()
+	{
+		if (itemIndex != null)
+		{
+			return true;
+		}
+		if (itemIndexSoFar == null)
+		{
+			itemIndexSoFar = new ArrayList<>();
+			itemIndexedUpTo = 0;
+			itemIndexStarted = System.nanoTime();
+		}
+		int count = client.getItemCount();
+		int end = Math.min(count, itemIndexedUpTo + INDEX_STEP);
+		for (int id = itemIndexedUpTo; id < end; id++)
+		{
+			try
+			{
+				net.runelite.api.ItemComposition c = itemManager.getItemComposition(id);
+				String name = c == null ? null : c.getName();
+				if (name == null || name.isEmpty() || "null".equals(name) || c.getNote() != -1 || c.getPlaceholderTemplateId() != -1
+					|| itemManager.canonicalize(id) != id)
+				{
+					continue;
+				}
+				itemIndexSoFar.add(new com.caplanner.core.ItemSearch.Entry(id, name, slotOf(id), c.isStackable()));
+			}
+			catch (RuntimeException e)
+			{
+				// an item the cache cannot give is left out
+				log.debug("item {} left out of the search", id, e);
+			}
+		}
+		itemIndexedUpTo = end;
+		if (end < count)
+		{
+			return false;
+		}
+		itemIndex = new com.caplanner.core.ItemSearch(itemIndexSoFar);
+		itemIndexSoFar = null;
+		log.debug("{} items read for the search in {} ms", itemIndex.size(), (System.nanoTime() - itemIndexStarted) / 1_000_000);
+		return true;
+	}
+
+	/** Whether a setting of this plugin is data it keeps for itself (the bank, the changes to the gear), not a setting. */
+	static boolean isOwnData(String key)
+	{
+		return BANK_KEY.equals(key) || GearChoices.KEY.equals(key);
+	}
+
 	@Override
 	public int ruleKind(int taskId)
 	{
@@ -983,22 +1239,7 @@ public class CaPlannerPlugin extends Plugin implements CaPlannerPanel.Actions
 	/** A task's rule as the limits of the search, or null when it does not shape the set. */
 	private Gear.Limits limits(int taskId)
 	{
-		Rules r = rules;
-		Rules.Rule rule = taskId < 0 || r == null ? null : r.of(taskId);
-		if (rule == null || !rule.shapesTheSet())
-		{
-			return null;
-		}
-		Gear.Limits l = new Gear.Limits();
-		l.styles.addAll(rule.styles);
-		l.weapon.addAll(rule.weapon);
-		l.exclude.addAll(rule.exclude);
-		l.oneHanded = rule.oneHanded;
-		l.shield = rule.shield;
-		l.meleeType = rule.meleeType;
-		l.ammoWord = rule.ammoWord;
-		l.spellElement = rule.spellElement;
-		return l;
+		return GearCard.limitsOf(rules, taskId);
 	}
 
 	/**
@@ -1058,21 +1299,12 @@ public class CaPlannerPlugin extends Plugin implements CaPlannerPanel.Actions
 		clientThread.invokeLater(() ->
 		{
 			final Gear g = gear;
-			final List<Gear.Stat> owned;
-			final Gear.Levels levels;
-			final boolean onTask;
-			final Gear.Limits limits;
-			final List<Bag.Wear> wear;
-			final List<String> notes;
-			final Map<String, Bag.Have> have;
-			final Set<String> done = new HashSet<>();
+			final GearCard.Input input = new GearCard.Input();
 			try
 			{
 				String saved = client.getGameState() == GameState.LOGGED_IN
 					? configManager.getRSProfileConfiguration(CONFIG_GROUP, BANK_KEY) : null;
-				final com.caplanner.gear.Fights several = fights;
-				final boolean inParts = several != null && several.has(boss);
-				if (g == null || (!g.knows(boss) && !inParts))
+				if (!GearCard.knows(g, fights, boss))
 				{
 					// no set is worked out for it, and so no inventory either: half an answer would pass for a whole one
 					// (and the Gauntlet takes nothing in at all)
@@ -1084,15 +1316,15 @@ public class CaPlannerPlugin extends Plugin implements CaPlannerPanel.Actions
 					answer(key, generation, GearView.of(GearView.Status.NO_BANK));
 					return;
 				}
-				owned = owned(saved);
-				levels = levels();
+				final List<Gear.Stat> owned = owned(saved);
+				final Gear.Levels levels = levels();
 				// the runes owned, for the spells that can be cast
 				levels.runes = new HashSet<>();
-				for (String name : have(saved).keySet())
+				for (Map.Entry<String, Bag.Have> e : have(saved).entrySet())
 				{
-					if (name.endsWith(" rune"))
+					if (e.getKey().endsWith(" rune") && e.getValue().quantity > 0)
 					{
-						levels.runes.add(name);
+						levels.runes.add(e.getKey());
 					}
 				}
 				// and the runes kept in a rune pouch, which are in no container
@@ -1113,38 +1345,33 @@ public class CaPlannerPlugin extends Plugin implements CaPlannerPanel.Actions
 						}
 					}
 				}
-				onTask = requirements.isOnItsTask(boss, account);
-				have = have(saved);
-				done.addAll(doneThings());
-				// what the fight itself asks of the gear comes on top of what the task asks
-				Bag table = bag;
-				wear = table == null ? new ArrayList<Bag.Wear>() : table.wear(boss, done);
-				notes = table == null ? new ArrayList<String>() : table.notes(boss);
-				List<String> wayThere = table == null ? new ArrayList<String>() : table.wayThereNotOwned(boss, have, done);
-				if (!wayThere.isEmpty())
+				input.gear = g;
+				input.fights = fights;
+				input.bag = bag;
+				input.rules = rules;
+				input.boss = boss;
+				input.taskId = taskId;
+				input.taskLimits = limits(taskId);
+				input.owned = owned;
+				input.levels = levels;
+				input.onTask = requirements.isOnItsTask(boss, account);
+				input.have = have(saved);
+				input.done.addAll(doneThings());
+				input.againstTheClock = againstTheClock;
+				// the player's changes to the boss's gear, and the items they put in, as the game has them
+				input.choices = choices().of(boss);
+				input.cardKey = key;
+				for (GearChoices.Pin pin : input.choices)
 				{
-					notes.add("Getting there: the OSRS Wiki names " + String.join(", then ", wayThere)
-						+ ". You own none of these; the route button finds a way with what you have.");
-				}
-				if (table != null && table.noWayOut(boss, have))
-				{
-					notes.add("No way out in this inventory: you own no teleport to your house or to a bank. A Teleport to house tablet or a Ring of dueling is enough.");
-				}
-				List<String> wield = table == null ? new ArrayList<String>() : table.wield(boss);
-				Gear.Limits ofTask = limits(taskId);
-				if (!wear.isEmpty() || !wield.isEmpty())
-				{
-					ofTask = ofTask == null ? new Gear.Limits() : ofTask;
-					for (Bag.Wear w : wear)
+					if (pin.itemId > 0 && !input.items.containsKey(pin.itemId))
 					{
-						ofTask.mustWear.add(w.names);
-					}
-					if (ofTask.weapon.isEmpty())
-					{
-						ofTask.weapon.addAll(wield);
+						GearCard.Item item = item(pin.itemId);
+						if (item != null)
+						{
+							input.items.put(pin.itemId, item);
+						}
 					}
 				}
-				limits = ofTask;
 			}
 			catch (RuntimeException e)
 			{
@@ -1158,120 +1385,7 @@ public class CaPlannerPlugin extends Plugin implements CaPlannerPanel.Actions
 			{
 				try
 				{
-					// a fight of several parts: the set is for the first, and pieces are carried for the others
-					com.caplanner.gear.Fights.Plan plan = fights != null && fights.has(boss)
-						? fights.plan(g, boss, owned, levels, onTask, limits, againstTheClock ? com.caplanner.gear.Fights.MOST_CARRIED_FOR_SPEED : 4) : null;
-					Gear.Result r = plan != null ? plan.main : fights != null && fights.has(boss) ? null : g.best(boss, owned, levels, onTask, limits);
-					if (r == null)
-					{
-						// the weapon the task names may be owned and merely have no figure here
-						List<String> named = g.weaponsWithoutFigure(owned, limits);
-						answer(key, generation, (named.isEmpty() ? GearView.of(GearView.Status.NOTHING) : GearView.noFigure(named))
-							.with(new ArrayList<Bag.Line>(), notes));
-						return;
-					}
-					Map<Integer, Integer> ids = new HashMap<>();
-					Map<Integer, String> names = new HashMap<>();
-					for (Map.Entry<Integer, Gear.Stat> e : r.items.entrySet())
-					{
-						ids.put(e.getKey(), e.getValue().itemId);
-						names.put(e.getKey(), e.getValue().name);
-					}
-					Bag b = bag;
-					List<GearView.Part> parts = new ArrayList<>();
-					Set<Integer> held = new HashSet<>(ids.values());
-					StringBuilder styles = new StringBuilder(r.style);
-					if (plan != null)
-					{
-						for (com.caplanner.gear.Fights.Role role : plan.roles)
-						{
-							List<Bag.Line> carried = new ArrayList<>();
-							for (Gear.Stat s : role.carried)
-							{
-								carried.add(Bag.Line.worn(s.itemId, s.name, true, ""));
-								held.add(s.itemId);
-							}
-							parts.add(new GearView.Part(role.label, role.style, role.dps, carried, role.spell, role.note, role.nothing));
-							if (!role.style.isEmpty())
-							{
-								styles.append(',').append(role.style);
-							}
-						}
-					}
-					GearView shape = GearView.of(GearView.Status.READY).withParts("", parts, new ArrayList<Bag.Line>());
-					int left = Bag.SLOTS - shape.carriedSlots().size();
-					// an inventory only for the fights that were gone through one by one; for the rest it is still to come
-					boolean mapped = b != null && b.isMapped(boss);
-					// where the fight was not gone through, the amounts of the wiki's inventory, said to be provisional
-					// thralls are of the Arceuus spellbook: a set that casts from another has no use for the book
-					Set<String> useless = new HashSet<>();
-					if (r.spell != null)
-					{
-						useless.add("book of the dead");
-					}
-					// and what the task itself forbids is not carried
-					Rules taskRules = rules;
-					Rules.Rule ofThisTask = taskId < 0 || taskRules == null ? null : taskRules.of(taskId);
-					boolean forbids = ofThisTask != null && !ofThisTask.without.isEmpty();
-					if (forbids)
-					{
-						useless.addAll(ofThisTask.without);
-					}
-					Bag.Provisional provisional = b != null && !mapped
-						? b.provisional(boss, r.style, have, done, held, left, useless) : null;
-					if (provisional != null)
-					{
-						Set<String> on = new HashSet<>();
-						for (Gear.Stat s : r.items.values())
-						{
-							if (s.name != null)
-							{
-								on.add(s.name.toLowerCase());
-							}
-						}
-						provisional = provisional.without(on);
-					}
-					List<Bag.Line> inventory = mapped ? b.of(boss, styles.toString(), have, done, held, left, useless)
-						: provisional != null ? provisional.lines : new ArrayList<Bag.Line>();
-					List<Bag.Line> worn = new ArrayList<>();
-					for (int i = 0; i < wear.size(); i++)
-					{
-						Bag.Wear w = wear.get(i);
-						Gear.Stat on = null;
-						for (Gear.Stat s : r.items.values())
-						{
-							for (String part : w.names)
-							{
-								if (on == null && s.name != null && s.name.toLowerCase().contains(part))
-								{
-									on = s;
-								}
-							}
-						}
-						worn.add(on != null ? Bag.Line.worn(on.itemId, on.name, true, w.why) : Bag.Line.worn(w.itemId, w.name, false, w.why));
-					}
-					List<String> told = new ArrayList<>(notes);
-					if (forbids)
-					{
-						told.add("This task forbids some of the usual supplies: they are left out of the inventory below.");
-					}
-					if (r.spell != null)
-					{
-						told.add("Counted casting " + r.spell + ": bring the runes for it.");
-					}
-					GearView view = GearView.ready(ids, names, r.style, r.dps, r.bossHitpoints, inventory).with(worn, told);
-					if (plan != null)
-					{
-						if (!plan.mainNote.isEmpty())
-						{
-							told.add(0, plan.mainNote);
-							view = view.with(worn, told);
-						}
-						view = view.withParts(plan.mainLabel, parts, inventory);
-					}
-					view.inventoryToCome = !mapped && provisional == null;
-					view.provisional = provisional;
-					answer(key, generation, view);
+					answer(key, generation, GearCard.build(input));
 				}
 				catch (RuntimeException e)
 				{
@@ -1314,6 +1428,16 @@ public class CaPlannerPlugin extends Plugin implements CaPlannerPanel.Actions
 	@Subscribe
 	public void onConfigChanged(net.runelite.client.events.ConfigChanged event)
 	{
+		if (CONFIG_GROUP.equals(event.getGroup()) && FORGET_CHANGES.equals(event.getKey()))
+		{
+			if (Boolean.parseBoolean(event.getNewValue()))
+			{
+				// the account's changes are forgotten, and the box unticks itself (which comes back here as false)
+				keep(null, GearChoices.none());
+				configManager.setConfiguration(CONFIG_GROUP, FORGET_CHANGES, false);
+			}
+			return;
+		}
 		if (CONFIG_GROUP.equals(event.getGroup()) && "language".equals(event.getKey()))
 		{
 			// another language: the panel is made again in it, and filled on the next tick
@@ -1330,7 +1454,7 @@ public class CaPlannerPlugin extends Plugin implements CaPlannerPanel.Actions
 			});
 			return;
 		}
-		if (CONFIG_GROUP.equals(event.getGroup()) && !BANK_KEY.equals(event.getKey()))
+		if (CONFIG_GROUP.equals(event.getGroup()) && !isOwnData(event.getKey()))
 		{
 			// a setting of the plugin: the open card shows other buttons
 			final CaPlannerPanel target = panel;
@@ -1384,29 +1508,51 @@ public class CaPlannerPlugin extends Plugin implements CaPlannerPanel.Actions
 		for (int raw : ids)
 		{
 			int id = itemManager.canonicalize(raw);
-			ItemStats stats = seen.add(id) ? itemManager.getItemStats(id) : null;
-			ItemEquipmentStats e = stats == null ? null : stats.getEquipment();
-			if (e == null)
+			Gear.Stat s = seen.add(id) ? stat(id) : null;
+			if (s != null)
 			{
-				continue;
+				out.add(s);
 			}
-			Gear.Stat s = new Gear.Stat();
-			s.itemId = id;
-			s.slot = e.getSlot();
-			s.twoHanded = e.isTwoHanded();
-			s.name = itemManager.getItemComposition(id).getName();
-			s.stab = e.getAstab();
-			s.slash = e.getAslash();
-			s.crush = e.getAcrush();
-			s.magic = e.getAmagic();
-			s.ranged = e.getArange();
-			s.strength = e.getStr();
-			s.rangedStrength = e.getRstr();
-			s.magicDamage = e.getMdmg();
-			s.speed = e.getAspeed();
-			out.add(s);
 		}
 		return out;
+	}
+
+	/** An item that can be worn, with its bonuses; null for one that cannot. Client thread. */
+	private Gear.Stat stat(int id)
+	{
+		ItemStats stats = itemManager.getItemStats(id);
+		ItemEquipmentStats e = stats == null ? null : stats.getEquipment();
+		if (e == null)
+		{
+			return null;
+		}
+		Gear.Stat s = new Gear.Stat();
+		s.itemId = id;
+		s.slot = e.getSlot();
+		s.twoHanded = e.isTwoHanded();
+		s.name = itemManager.getItemComposition(id).getName();
+		s.stab = e.getAstab();
+		s.slash = e.getAslash();
+		s.crush = e.getAcrush();
+		s.magic = e.getAmagic();
+		s.ranged = e.getArange();
+		s.strength = e.getStr();
+		s.rangedStrength = e.getRstr();
+		s.magicDamage = e.getMdmg();
+		s.speed = e.getAspeed();
+		return s;
+	}
+
+	/** An item the player put in a slot, as the game has it; null for an id the game does not know. Client thread. */
+	private GearCard.Item item(int id)
+	{
+		net.runelite.api.ItemComposition c = itemManager.getItemComposition(id);
+		String name = c == null ? null : c.getName();
+		if (name == null || name.isEmpty() || "null".equals(name))
+		{
+			return null;
+		}
+		return new GearCard.Item(id, name, c.isStackable(), stat(id));
 	}
 
 	/** The player's real levels and the attack prayers they have unlocked. Client thread. */
@@ -1435,7 +1581,7 @@ public class CaPlannerPlugin extends Plugin implements CaPlannerPanel.Actions
 		return l;
 	}
 
-	/** The boss's icon from the hiscores, which the client already has; nothing when it is not there. */
+	/** The boss's icon from the hiscores, which the client already has; for a boss they do not have, an item of its own. */
 	@Override
 	public void bossIcon(String boss, JLabel into)
 	{
@@ -1450,6 +1596,15 @@ public class CaPlannerPlugin extends Plugin implements CaPlannerPanel.Actions
 		if (skill != null && skill.getSpriteId() > 0)
 		{
 			spriteManager.addSpriteTo(into, skill.getSpriteId(), 0);
+			return;
+		}
+		int item = BossIcons.item(boss);
+		if (item > 0)
+		{
+			// an item's picture is 36 by 32, larger than a boss's place: brought down to it
+			AsyncBufferedImage image = itemManager.getImage(item);
+			image.onLoaded(() -> SwingUtilities.invokeLater(() ->
+				into.setIcon(new ImageIcon(ImageUtil.resizeImage(image, BOSS_ICON, BOSS_ICON * 32 / 36)))));
 		}
 	}
 

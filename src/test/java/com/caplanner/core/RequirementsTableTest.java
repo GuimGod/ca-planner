@@ -46,18 +46,28 @@ public class RequirementsTableTest
 					continue;
 				}
 				String[] cols = line.split("\t", -1);
-				assertTrue("boss not in the Combat Achievements: " + cols[0], bosses.contains(Requirements.key(cols[0])));
+				// "boss#task id": what one task of the boss needs on top of the boss's own
+				String boss = cols[0].contains("#") ? cols[0].substring(0, cols[0].indexOf('#')) : cols[0];
+				if (cols[0].contains("#"))
+				{
+					assertTrue("not a task id: " + cols[0], cols[0].substring(cols[0].indexOf('#') + 1).matches("\\d+"));
+				}
+				assertTrue("boss not in the Combat Achievements: " + cols[0], bosses.contains(Requirements.key(boss)));
 				for (String quest : cols[1].split(";"))
 				{
 					String name = quest.replace("*", "").trim();
 					assertTrue("quest the client does not know: " + name, name.isEmpty() || quests.contains(Requirements.key(name)));
 				}
-				for (String level : cols[2].split(";"))
+				for (String levels : cols[2].split(";"))
 				{
-					if (!level.trim().isEmpty())
+					// "Skill N or Skill N": one of them is enough
+					for (String level : levels.split(" or "))
 					{
-						String skill = level.trim().substring(0, level.trim().lastIndexOf(' ')).toLowerCase();
-						assertTrue("skill the client does not know: " + skill, skills.contains(skill));
+						if (!level.trim().isEmpty())
+						{
+							String skill = level.trim().substring(0, level.trim().lastIndexOf(' ')).toLowerCase();
+							assertTrue("skill the client does not know: " + skill, skills.contains(skill));
+						}
 					}
 				}
 			}

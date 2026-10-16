@@ -183,4 +183,33 @@ public class ProvisionalBagTest
 		assertNull(of(bag, "Crystalline Hunllef", "Ranged", have(385, 100, "Shark")));
 		assertTrue(bag.isProvisional("Nex"));
 	}
+
+	/** What the audit of October 2026 found in the wiki's inventories (each boss's Strategies page). */
+	@Test
+	public void theAuditedInventoriesAreTheWikis() throws Exception
+	{
+		Bag bag = bag();
+		// Deranged archaeologist: a Forgotten brew (a Magic boost), not a Saradomin brew, and an axe for the swamp vine
+		Bag.Provisional deranged = of(bag, "Deranged Archaeologist", "Magic", have(6685, 10, "Saradomin brew(4)",
+			27629, 5, "Forgotten brew(4)", 1359, 1, "Rune axe", 385, 100, "Shark"));
+		assertEquals(1, count(deranged.lines, "Forgotten brew"));
+		assertEquals(0, count(deranged.lines, "Saradomin brew"));
+		assertEquals(1, count(deranged.lines, "Rune axe"));
+		Bag.Provisional noAxe = of(bag, "Deranged Archaeologist", "Magic", have(385, 100, "Shark"));
+		assertTrue(noAxe.lacking.contains("Axe"));
+		assertTrue("a pickaxe is not an axe", of(bag, "Deranged Archaeologist", "Magic",
+			have(11920, 1, "Dragon pickaxe", 385, 100, "Shark")).lacking.contains("Axe"));
+		// Nex: 13 Saradomin brews and 3 Armadyl brews
+		Bag.Provisional nex = of(bag, "Nex", "Ranged", have(6685, 30, "Saradomin brew(4)", 22461, 10, "Armadyl brew(4)",
+			3024, 30, "Super restore(4)"));
+		assertEquals(13, count(nex.lines, "Saradomin brew"));
+		assertEquals(3, count(nex.lines, "Armadyl brew"));
+		// Scorpia: a cure for her poison and a Lockpick
+		Bag.Provisional scorpia = of(bag, "Scorpia", "Ranged", have(12913, 5, "Anti-venom+(4)", 1523, 1, "Lockpick",
+			385, 100, "Shark"));
+		assertEquals(2, count(scorpia.lines, "Anti-venom+"));
+		assertEquals(1, count(scorpia.lines, "Lockpick"));
+		// General Graardor: the wiki's inventory has no Ecumenical key, so none is said to be missing
+		assertFalse(of(bag, "General Graardor", "Melee", have(385, 100, "Shark")).lacking.contains("Ecumenical key"));
+	}
 }

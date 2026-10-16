@@ -2,8 +2,10 @@
 # (boss, quest and Slayer pages), October 2026. A quest brings its own skill requirements, so only the
 # levels the boss itself asks for are listed. A boss that is not here needs nothing.
 # boss	quests (; between them, * = having started it is enough)	levels (Skill N; ...)	Slayer task it can only be killed on (; between the names the game may use)	other things to have done (name=how to say it; name/task:Slayer tasks that do as well=...)
+# Levels of which one is enough are joined by " or " (Strength 60 or Agility 60, to get into the God Wars Dungeon).
+# A line for "boss#task id" is what that one task needs on top of what its boss does.
 Aberrant Spectre		Slayer 60	
-Abyssal Sire		Slayer 85	Abyssal demons
+Abyssal Sire		Slayer 85	Abyssal demons	abyss-access=Reach the Abyss once: the Enter the Abyss miniquest, or the fairy rings
 Alchemical Hydra		Slayer 95	Hydras
 Amoxliatl	The Heart of Darkness		
 Araxxor	Priest in Peril	Slayer 92	Araxytes; Spiders; Araxxor
@@ -26,11 +28,11 @@ Galvek	Dragon Slayer II*
 Gargoyle		Slayer 75	
 General Graardor	Troll Stronghold*	Strength 70	
 Glough	Monkey Madness II*		
-Grotesque Guardians		Slayer 75	Gargoyles; Grotesque Guardians
+Grotesque Guardians		Slayer 75	Gargoyles; Grotesque Guardians	gg-roof=Unlock the rooftop with a brittle key, from gargoyles on a Slayer task
 Hespori		Farming 65	
-K'ril Tsutsaroth	Troll Stronghold*	Hitpoints 70	
+K'ril Tsutsaroth	Troll Stronghold*	Hitpoints 70; Strength 60 or Agility 60	
 Kraken		Slayer 87	Cave kraken; Kraken
-Kree'arra	Troll Stronghold*	Ranged 70	
+Kree'arra	Troll Stronghold*	Ranged 70; Strength 60 or Agility 60	
 Kurask		Slayer 70	
 Leviathan	Desert Treasure II - The Fallen Empire		
 Mad Angel	Fallen From Grace		
@@ -64,3 +66,12 @@ TzKal-Zuk				fire-cape-given=Give a fire cape to TzHaar-Ket-Keh
 Callisto				wilderness-medium/task:Callisto,Artio,Venenatis,Spindel,Vet'ion,Calvar'ion=Wilderness Medium diary, or the boss as a Slayer task
 Venenatis				wilderness-medium/task:Callisto,Artio,Venenatis,Spindel,Vet'ion,Calvar'ion=Wilderness Medium diary, or the boss as a Slayer task
 Vet'ion				wilderness-medium/task:Callisto,Artio,Venenatis,Spindel,Vet'ion,Calvar'ion=Wilderness Medium diary, or the boss as a Slayer task
+# TzHaar-Ket-Rak's third challenge on asks for the Inferno done once; the first two do not.
+TzHaar-Ket-Rak's Challenges#362				inferno-done=Complete the Inferno once
+TzHaar-Ket-Rak's Challenges#363				inferno-done=Complete the Inferno once
+TzHaar-Ket-Rak's Challenges#365				inferno-done=Complete the Inferno once
+TzHaar-Ket-Rak's Challenges#366				inferno-done=Complete the Inferno once
+TzHaar-Ket-Rak's Challenges#368				inferno-done=Complete the Inferno once
+TzHaar-Ket-Rak's Challenges#369				inferno-done=Complete the Inferno once
+TzHaar-Ket-Rak's Challenges#370				inferno-done=Complete the Inferno once
+TzHaar-Ket-Rak's Challenges#371				inferno-done=Complete the Inferno once

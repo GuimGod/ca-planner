@@ -93,6 +93,96 @@ public class SetupAndPlacesTest
 	}
 
 	@Test
+	public void aLineWithALabelIsAnotherWayNotTheBossItself() throws Exception
+	{
+		Places p = Places.read(new StringReader("Bryophyta\t3220\t9933\t0\n"
+			+ "Bryophyta\t3159\t9901\t0\tMark the way to the mossy keys\tMoss giants\nObor\t3096\t9833\t0\n"));
+		assertArrayEquals(new int[]{3220, 9933, 0}, p.of("Bryophyta"));
+		assertEquals(1, p.ways("bryophyta").size());
+		assertEquals("Mark the way to the mossy keys", p.ways("Bryophyta").get(0).label);
+		assertEquals("Moss giants", p.ways("Bryophyta").get(0).note);
+		assertArrayEquals(new int[]{3159, 9901, 0}, p.ways("Bryophyta").get(0).tile());
+		assertTrue(p.ways("Obor").isEmpty());
+		assertTrue(p.ways(null).isEmpty());
+	}
+
+	@Test
+	public void aLineWithASecondTileIsARouteThatStopsShort() throws Exception
+	{
+		Places p = Places.read(new StringReader("Zulrah\t2215\t3057\t0\t2270\t3074\t0\tBoard the boat.\n"
+			+ "Vardorvis\t1117\t3428\t0\n"));
+		assertArrayEquals("the route goes to the last tile it reaches", new int[]{2215, 3057, 0}, p.of("Zulrah"));
+		assertArrayEquals("the boss's own tile is kept", new int[]{2270, 3074, 0}, p.inside("zulrah"));
+		assertEquals("Board the boat.", p.note("Zulrah"));
+		assertTrue("not another way to a place", p.ways("Zulrah").isEmpty());
+		assertNull(p.inside("Vardorvis"));
+		assertEquals("", p.note("Vardorvis"));
+		assertNull(p.inside(null));
+	}
+
+	/**
+	 * The audit of October 2026: tiles the route plugins cannot reach go to the last one they do, with a
+	 * note in both languages (the God Wars Dungeon's generals and Corp too); the Colosseum is its entrance; the Desert
+	 * Treasure II bosses, Skotizo and the Inferno have a way now.
+	 */
+	@Test
+	public void theBundledTableSendsTheRouteOnlyWhereItCanGo() throws Exception
+	{
+		Places p;
+		try (BufferedReader in = reader("/com/caplanner/places.tsv"))
+		{
+			p = Places.read(in);
+		}
+		Lang pt;
+		try (BufferedReader in = reader("/com/caplanner/lang/pt.tsv"))
+		{
+			pt = Lang.read(in);
+		}
+		String[][] stopsShort = {
+			{"Zulrah", "2215,3057,0", "2270,3074,0"},
+			{"Araxxor", "3656,3408,0", "3632,9815,0"},
+			{"Hespori", "1231,3728,0", "1248,10089,0"},
+			{"Vorkath", "2272,4053,0", "2269,4062,0"},
+			{"Thermonuclear Smoke Devil", "2412,3061,0", "2362,9456,0"},
+			{"Fire Giant", "2309,2919,0", "2121,9330,0"},
+			{"Greater Demon", "2309,2919,0", "2158,9336,0"},
+			{"Tormented Demon", "3245,9500,2", "4136,4372,0"},
+			{"Demonic Gorilla", "2436,3520,0", "2072,5651,0"},
+			{"Alchemical Hydra", "1311,3807,0", "1368,10270,0"},
+			{"Wyrm", "1311,3807,0", "1263,10158,0"},
+			{"Moons of Peril", "1439,9550,1", "1485,9632,0"},
+			// the route plugins go down the hole, but not through the doors of the generals' rooms
+			{"General Graardor", "2914,3744,0", "2872,5358,2"},
+			{"K'ril Tsutsaroth", "2914,3744,0", "2925,5322,2"},
+			{"Kree'arra", "2914,3744,0", "2832,5302,2"},
+			// where the games necklace lands (both route plugins), not the lair north of it
+			{"Corporeal Beast", "2965,4254,2", "2993,4254,2"},
+		};
+		for (String[] row : stopsShort)
+		{
+			assertEquals(row[0], row[1], tile(p.of(row[0])));
+			assertEquals(row[0], row[2], tile(p.inside(row[0])));
+			String note = p.note(row[0]);
+			assertTrue(row[0], note.startsWith("The route goes as far as "));
+			assertTrue("said in Portuguese too: " + row[0], pt.of(note).startsWith("A rota vai até "));
+		}
+		// the Desert Treasure II bosses, Skotizo and the Inferno: the last tile before each instance
+		assertEquals("2064,6436,0", tile(p.of("Leviathan")));
+		assertEquals("2588,6435,0", tile(p.of("Whisperer")));
+		assertEquals("2912,10336,0", tile(p.of("Duke Sucellus")));
+		assertEquals("1639,3673,0", tile(p.of("Skotizo")));
+		assertEquals("2496,5122,0", tile(p.of("TzKal-Zuk")));
+		assertEquals("1795,3107,0", tile(p.of("Fortis Colosseum")));
+		assertNull("the route goes all the way", p.inside("Fortis Colosseum"));
+		assertEquals("a tile we measured stays", "1641,3222,0", tile(p.of("Amoxliatl")));
+	}
+
+	private static String tile(int[] t)
+	{
+		return t == null ? null : t[0] + "," + t[1] + "," + t[2];
+	}
+
+	@Test
 	public void everyPlaceInTheBundledTableIsABossOfTheGame() throws Exception
 	{
 		java.util.Set<String> bosses = new java.util.HashSet<>();
@@ -115,7 +205,9 @@ public class SetupAndPlacesTest
 					continue;
 				}
 				String[] cols = line.split("\t");
-				assertEquals(line, 4, cols.length);
+				// four columns for the way to the boss; six (a label and a note more) for another place of its;
+				// eight (the boss's own tile and a note) when the route stops short of the boss
+				assertTrue(line, cols.length == 4 || cols.length == 6 || cols.length == 8);
 				assertTrue("not a Combat Achievements boss: " + cols[0], bosses.contains(Requirements.key(cols[0])));
 				assertTrue(Integer.parseInt(cols[1]) > 0 && Integer.parseInt(cols[2]) > 0);
 				rows++;

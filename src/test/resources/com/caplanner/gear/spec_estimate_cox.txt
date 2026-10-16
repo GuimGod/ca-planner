@@ -1,0 +1,336 @@
+# Two stretches of a Chambers of Xeric raid (Challenge Mode, a mass of 20+ players, 2026-10-15), as the local
+# "SPEC diagnostic" log wrote them: tick, then the line. Players are numbers in the fight, never names; "(me)" is the
+# player of the client. Tekton (NPC 7542) from tick 650 to 658 and Vasa Nistirio (7566) from 2915 to 2928. Projectile
+# lines are left out. The hitsplats were checked against the Combat Logger's file of the same raid: the same values on
+# every tick (1524 of 1524 ticks). The "party spec" lines are the answer key: the Special Attack Counter's message of each
+# party member who has it, a tick after the hit (Elder maul: hit 1 or 0; Dragon warhammer: the damage).
+650	target npc 63645 id 7542 at 13810,11023,3 size 4 | tint disabled 0
+650	player 1 anim 11124 frame 6 weapon 27100 at 13814,11026,3
+650	player 2 anim 11124 frame 0 weapon 27100 at 13813,11027,3
+650	player 3 anim -1 frame -1 weapon 21003 at 13815,11026,3
+650	player 4 anim -1 frame -1 weapon 21003 at 13816,11023,3
+650	player 5 anim 11124 frame 0 weapon 21003 at 13814,11026,3
+650	player 6 (me) anim -1 frame -1 weapon 11804 at 13815,11026,3
+650	player 7 anim 11124 frame 6 weapon 21003 at 13814,11023,3
+651	party spec player 8 seen weapon ELDER_MAUL hit 1 npc 63645 (target)
+651	party spec player 9 seen weapon DRAGON_WARHAMMER hit 0 npc 63645 (target)
+651	hitsplat npc 63645 amount 66 type 17 others
+651	hitsplat npc 63645 amount 2 type 17 others
+651	hitsplat npc 63645 amount 0 type 13 others
+651	player 10 anim 11124 frame 0 weapon 21003 at 13813,11022,3
+651	player 3 anim 11124 frame 0 weapon 21003 at 13814,11026,3
+651	player 4 anim 11124 frame 0 weapon 21003 at 13814,11023,3
+651	player 11 anim -1 frame 0 weapon 13576 at 13816,11026,3
+651	player 12 anim -1 frame -1 weapon 13576 at 13816,11025,3
+651	player 6 (me) anim 7642 frame 0 weapon 11804 at 13814,11026,3
+651	player 13 anim -1 frame -1 weapon 13576 at 13816,11025,3
+651	player 7 off target
+651	player 1 off target
+652	party spec player 5 seen weapon ELDER_MAUL hit 1 npc 63645 (target)
+652	party spec player 2 seen weapon ELDER_MAUL hit 0 npc 63645 (target)
+652	hitsplat npc 63645 amount 0 type 13 others
+652	hitsplat npc 63645 amount 17 type 17 others
+652	hitsplat npc 63645 amount 38 type 16 mine
+652	player 14 anim -1 frame -1 weapon 13576 at 13815,11026,3
+652	player 15 anim -1 frame -1 weapon 27100 at 13815,11026,3
+652	player 11 anim 1378 frame 0 weapon 13576 at 13814,11026,3
+652	player 12 anim 1378 frame 0 weapon 13576 at 13814,11025,3
+652	player 16 anim -1 frame -1 weapon 13576 at 13817,11025,3
+652	player 17 anim -1 frame -1 weapon 27246 at 13816,11026,3
+652	player 13 anim 1378 frame 0 weapon 13576 at 13814,11025,3
+652	player 3 off target
+652	player 10 off target
+652	player 2 off target
+653	party spec player 4 seen weapon ELDER_MAUL hit 1 npc 63645 (target)
+653	party spec player 3 seen weapon ELDER_MAUL hit 1 npc 63645 (target)
+653	party spec player 6 (me) seen weapon BANDOS_GODSWORD hit 38 npc 63645 (target)
+653	hitsplat npc 63645 amount 48 type 17 others
+653	hitsplat npc 63645 amount 52 type 17 others
+653	hitsplat npc 63645 amount 17 type 17 others
+653	hitsplat npc 63645 amount 76 type 17 others
+653	hitsplat npc 63645 amount 8 type 17 others
+653	hitsplat npc 63645 amount 33 type 17 others
+653	player 10 anim 11124 frame 13 weapon 21003 at 13811,11022,3
+653	player 8 anim -1 frame -1 weapon 21003 at 13815,11024,3
+653	player 14 anim 1378 frame 0 weapon 13576 at 13814,11026,3
+653	player 15 anim 11124 frame 0 weapon 27100 at 13814,11026,3
+653	player 7 anim -1 frame -1 weapon 21003 at 13812,11022,3
+653	player 17 anim 9471 frame 0 weapon 27246 at 13814,11026,3
+653	player 4 off target
+653	player 13 off target
+653	player 11 off target
+653	player 12 off target
+653	player 5 off target
+653	player 6 off target
+654	party spec player 13 seen weapon DRAGON_WARHAMMER hit 8 npc 63645 (target)
+654	party spec player 12 seen weapon DRAGON_WARHAMMER hit 76 npc 63645 (target)
+654	hitsplat npc 63645 amount 21 type 17 others
+654	hitsplat npc 63645 amount 37 type 17 others
+654	hitsplat npc 63645 amount 3 type 17 others
+654	hitsplat npc 63645 amount 26 type 16 mine
+654	hitsplat npc 63645 amount 57 type 17 others
+654	player 9 anim -1 frame -1 weapon 13576 at 13812,11022,3
+654	player 10 anim -1 frame -1 weapon 21003 at 13811,11022,3
+654	player 16 anim 1378 frame 0 weapon 13576 at 13814,11025,3
+654	player 8 off target
+654	player 14 off target
+655	party spec player 15 seen weapon ELDER_MAUL hit 1 npc 63645 (target)
+655	hitsplat npc 63645 amount 43 type 17 others
+655	hitsplat npc 63645 amount 32 type 17 others
+655	player 9 anim 1378 frame 0 weapon 13576 at 13812,11022,3
+655	player 1 anim 11124 frame 0 weapon 27100 at 13813,11022,3
+655	player 8 anim 11124 frame 0 weapon 21003 at 13814,11024,3
+655	player 2 anim -1 frame -1 weapon 27100 at 13809,11028,3
+655	player 3 anim -1 frame -1 weapon 21003 at 13814,11024,3
+655	player 5 anim -1 frame -1 weapon 21003 at 13811,11027,3
+655	player 7 anim 11124 frame 0 weapon 21003 at 13812,11022,3
+655	player 15 off target
+655	player 16 off target
+655	player 17 off target
+655	player 10 off target
+656	party spec player 16 seen weapon DRAGON_WARHAMMER hit 32 npc 63645 (target)
+656	hitsplat npc 63645 amount 12 type 17 others
+656	player 10 anim -1 frame -1 weapon 21003 at 13810,11022,3
+656	player 14 anim -1 frame -1 weapon 13576 at 13813,11027,3
+656	player 2 anim 11124 frame 0 weapon 27100 at 13810,11027,3
+656	player 11 anim -1 frame -1 weapon 13576 at 13814,11026,3
+656	player 12 anim -1 frame -1 weapon 13576 at 13814,11024,3
+656	player 5 anim 11124 frame 0 weapon 21003 at 13811,11027,3
+656	player 6 (me) anim -1 frame -1 weapon 11804 at 13812,11027,3
+656	player 18 anim 11124 frame 0 weapon 21003 at 13814,11023,3
+656	player 9 off target
+656	player 3 off target
+656	player 7 off target
+656	player 1 off target
+656	player 8 off target
+657	party spec player 8 seen weapon ELDER_MAUL hit 1 npc 63645 (target)
+657	party spec player 9 seen weapon DRAGON_WARHAMMER hit 12 npc 63645 (target)
+657	hitsplat npc 63645 amount 35 type 17 others
+657	hitsplat npc 63645 amount 2 type 17 others
+657	hitsplat npc 63645 amount 19 type 17 others
+657	hitsplat npc 63645 amount 21 type 17 others
+657	hitsplat npc 63645 amount 27 type 17 others
+657	player 3 anim 11124 frame 0 weapon 21003 at 13813,11022,3
+657	player 4 anim 11124 frame 0 weapon 21003 at 13814,11024,3
+657	player 6 (me) anim 7642 frame 0 weapon 11804 at 13812,11027,3
+657	player 10 off target
+657	player 18 off target
+658	party spec player 5 seen weapon ELDER_MAUL hit 1 npc 63645 (target)
+658	party spec player 2 seen weapon ELDER_MAUL hit 1 npc 63645 (target)
+658	party spec player 18 seen weapon ELDER_MAUL hit 1 npc 63645 (target)
+658	hitsplat npc 63645 amount 26 type 17 others
+658	hitsplat npc 63645 amount 50 type 17 others
+658	hitsplat npc 63645 amount 13 type 17 others
+658	hitsplat npc 63645 amount 20 type 16 mine
+658	player 10 anim 11124 frame 0 weapon 21003 at 13809,11023,3
+658	player 15 anim -1 frame -1 weapon 27100 at 13814,11026,3
+658	player 11 anim 1378 frame 0 weapon 13576 at 13814,11026,3
+658	player 12 anim 1378 frame 0 weapon 13576 at 13814,11024,3
+658	player 16 anim -1 frame -1 weapon 13576 at 13815,11025,3
+658	player 13 anim 8316 frame 12 weapon 13576 at 13811,11021,3
+658	player 3 off target
+658	player 4 off target
+658	player 5 off target
+658	player 2 off target
+2915	target npc 63470 id 7566 at 13805,11063,1 size 5 | tint disabled 0
+2915	player 2 anim -1 frame -1 weapon 20997 at 13797,11054,1
+2915	player 15 anim 426 frame 4 weapon 20997 at 13799,11056,1
+2915	player 3 anim 426 frame 0 weapon 20997 at 13799,11059,1
+2915	player 4 anim 426 frame 4 weapon 20997 at 13798,11062,1
+2915	player 11 anim 426 frame 0 weapon 20997 at 13800,11055,1
+2915	player 12 anim -1 frame -1 weapon 13576 at 13803,11059,1
+2915	player 5 anim -1 frame -1 weapon 21003 at 13803,11056,1
+2915	player 6 (me) anim 9168 frame 0 weapon 26374 at 13798,11058,1
+2915	player 19 anim 426 frame 4 weapon 20997 at 13799,11059,1
+2915	player 18 anim -1 frame -1 weapon 21003 at 13798,11060,1
+2915	player 20 anim -1 frame -1 weapon 29591 at 13807,11052,1
+2915	player 16 off target
+2915	player 13 off target
+2915	player 7 off target
+2915	player 14 off target
+2916	hitsplat npc 63470 amount 39 type 17 others
+2916	hitsplat npc 63470 amount 0 type 13 others
+2916	target npc 63470 id 7566 at 13806,11063,1 size 5 | tint disabled 0
+2916	player 10 anim -1 frame -1 weapon 20997 at 13805,11053,1
+2916	player 4 anim -1 frame -1 weapon 20997 at 13798,11062,1
+2916	player 17 anim -1 frame -1 weapon 20997 at 13799,11052,1
+2916	player 20 anim 426 frame 0 weapon 29591 at 13807,11054,1
+2916	player 13 anim -1 frame -1 weapon 13576 at 13806,11060,1
+2916	player 15 off target
+2916	player 19 off target
+2917	hitsplat npc 63470 amount 31 type 17 others
+2917	hitsplat npc 63470 amount 29 type 17 others
+2917	hitsplat npc 63470 amount 0 type 13 others
+2917	hitsplat npc 63470 amount 3 type 17 others
+2917	hitsplat npc 63470 amount 0 type 13 others
+2917	target npc 63470 id 7566 at 13806,11062,1 size 5 | tint disabled 0
+2917	player 9 anim -1 frame -1 weapon 20997 at 13797,11053,1
+2917	player 10 anim 426 frame 0 weapon 20997 at 13805,11053,1
+2917	player 1 anim -1 frame -1 weapon 20997 at 13806,11053,1
+2917	player 8 anim 426 frame 0 weapon 20997 at 13809,11059,1
+2917	player 11 anim -1 frame -1 weapon 20997 at 13800,11055,1
+2917	player 16 anim 1378 frame 0 weapon 13576 at 13807,11061,1
+2917	player 17 anim 426 frame 0 weapon 20997 at 13799,11052,1
+2917	player 13 anim 1378 frame 0 weapon 13576 at 13806,11061,1
+2917	player 3 off target
+2917	player 6 off target
+2918	hitsplat npc 63470 amount 0 type 13 others
+2918	hitsplat npc 63470 amount 110 type 43 mine
+2918	hitsplat npc 63470 amount 49 type 17 others
+2918	hitsplat npc 63470 amount 25 type 17 others
+2918	hitsplat npc 63470 amount 37 type 17 others
+2918	target npc 63470 id 7566 at 13806,11061,1 size 5 | tint disabled 0
+2918	player 9 anim 426 frame 0 weapon 20997 at 13797,11053,1
+2918	player 1 anim 426 frame 0 weapon 20997 at 13806,11053,1
+2918	player 2 anim 426 frame 0 weapon 20997 at 13797,11054,1
+2918	player 12 anim 1378 frame 0 weapon 13576 at 13806,11060,1
+2918	player 5 anim 11124 frame 0 weapon 21003 at 13806,11060,1
+2918	player 7 anim -1 frame -1 weapon 20997 at 13807,11052,1
+2918	player 13 off target
+2918	player 10 off target
+2918	player 8 off target
+2918	player 20 off target
+2919	party spec player 13 seen weapon DRAGON_WARHAMMER hit 25 npc 63470 (target)
+2919	party spec player 16 seen weapon DRAGON_WARHAMMER hit 37 npc 63470 (target)
+2919	hitsplat npc 63470 amount 73 type 17 others
+2919	target npc 63470 id 7566 at 13806,11060,1 size 5 | tint disabled 0
+2919	player 15 anim 426 frame 0 weapon 20997 at 13799,11054,1
+2919	player 4 anim 426 frame 0 weapon 20997 at 13798,11062,1
+2919	player 6 (me) anim -1 frame -1 weapon 20997 at 13802,11056,1
+2919	player 7 anim 426 frame 0 weapon 20997 at 13807,11052,1
+2919	player 19 anim 426 frame 0 weapon 20997 at 13802,11059,1
+2919	player 17 anim -1 frame -1 weapon 20997 at 13799,11052,1
+2919	player 20 anim -1 frame -1 weapon 29591 at 13809,11054,1
+2919	player 16 off target
+2919	player 12 off target
+2919	player 5 off target
+2919	player 1 off target
+2920	party spec player 5 seen weapon ELDER_MAUL hit 1 npc 63470 (target)
+2920	party spec player 12 seen weapon DRAGON_WARHAMMER hit 73 npc 63470 (target)
+2920	hitsplat npc 63470 amount 13 type 17 others
+2920	hitsplat npc 63470 amount 24 type 17 others
+2920	hitsplat npc 63470 amount 45 type 17 others
+2920	target npc 63470 id 7566 at 13806,11059,1 size 5 | tint disabled 0
+2920	player 9 anim -1 frame -1 weapon 20997 at 13797,11053,1
+2920	player 2 anim -1 frame -1 weapon 20997 at 13797,11054,1
+2920	player 11 anim 426 frame 0 weapon 20997 at 13800,11055,1
+2920	player 18 anim 11124 frame 0 weapon 21003 at 13805,11059,1
+2920	player 20 anim 426 frame 0 weapon 29591 at 13809,11054,1
+2920	player 19 off target
+2920	player 7 off target
+2921	hitsplat npc 63470 amount 0 type 13 others
+2921	hitsplat npc 63470 amount 87 type 17 others
+2921	hitsplat npc 63470 amount 28 type 17 others
+2921	target npc 63470 id 7566 at 13806,11058,1 size 5 | tint disabled 0
+2921	player 10 anim -1 frame -1 weapon 20997 at 13805,11049,1
+2921	player 8 anim -1 frame -1 weapon 20997 at 13815,11057,1
+2921	player 14 anim 401 frame 0 weapon 13576 at 13807,11057,1
+2921	player 15 anim -1 frame -1 weapon 20997 at 13799,11054,1
+2921	player 3 anim 426 frame 0 weapon 20997 at 13804,11059,1
+2921	player 4 anim -1 frame -1 weapon 20997 at 13798,11062,1
+2921	player 12 anim -1 frame -1 weapon 13576 at 13806,11063,1
+2921	player 6 (me) anim 426 frame 0 weapon 20997 at 13802,11056,1
+2921	player 18 off target
+2922	party spec player 18 seen weapon ELDER_MAUL hit 1 npc 63470 (target)
+2922	hitsplat npc 63470 amount 19 type 17 others
+2922	hitsplat npc 63470 amount 6 type 17 others
+2922	hitsplat npc 63470 amount 35 type 17 others
+2922	hitsplat npc 63470 amount 55 type 17 others
+2922	hitsplat npc 63470 amount 52 type 17 others
+2922	hitsplat npc 63470 amount 64 type 17 others
+2922	hitsplat npc 63470 amount 32 type 17 others
+2922	hitsplat npc 63470 amount 35 type 17 others
+2922	target npc 63470 id 7566 at 13806,11057,1 size 5 | tint disabled 0
+2922	player 10 anim 426 frame 0 weapon 20997 at 13805,11049,1
+2922	player 1 anim -1 frame -1 weapon 20997 at 13806,11047,1
+2922	player 8 anim 426 frame 0 weapon 20997 at 13815,11057,1
+2922	player 17 anim 426 frame 0 weapon 20997 at 13799,11052,1
+2922	player 3 off target
+2922	player 11 off target
+2922	player 14 off target
+2922	player 20 off target
+2923	hitsplat npc 63470 amount 82 type 17 others
+2923	hitsplat npc 63470 amount 1 type 17 others
+2923	hitsplat npc 63470 amount 35 type 17 others
+2923	target npc 63470 id 7566 at 13806,11056,1 size 5 | tint disabled 0
+2923	player 9 anim 426 frame 0 weapon 20997 at 13797,11053,1
+2923	player 1 anim 426 frame 0 weapon 20997 at 13806,11047,1
+2923	player 2 anim 426 frame 0 weapon 20997 at 13797,11054,1
+2923	player 15 anim 8316 frame 0 weapon 20997 at 13799,11054,1
+2923	player 3 anim -1 frame -1 weapon 20997 at 13802,11059,1
+2923	player 11 anim -1 frame -1 weapon 20997 at 13799,11057,1
+2923	player 7 anim -1 frame -1 weapon 20997 at 13810,11047,1
+2923	player 19 anim -1 frame -1 weapon 20997 at 13799,11059,1
+2923	player 18 anim -1 frame -1 weapon 21003 at 13805,11059,1
+2923	player 13 anim 426 frame 0 weapon 25867 at 13802,11057,1
+2923	player 10 off target
+2923	player 6 off target
+2923	player 8 off target
+2924	hitsplat npc 63470 amount 3 type 16 mine
+2924	target npc 63470 id 7566 at 13806,11055,1 size 5 | tint disabled 0
+2924	player 15 anim 426 frame 0 weapon 20997 at 13799,11054,1
+2924	player 4 anim 426 frame 0 weapon 20997 at 13798,11062,1
+2924	player 12 anim 1378 frame 0 weapon 13576 at 13806,11060,1
+2924	player 7 anim 426 frame 0 weapon 20997 at 13810,11047,1
+2924	player 19 anim 426 frame 0 weapon 20997 at 13799,11059,1
+2924	player 17 anim -1 frame -1 weapon 20997 at 13799,11052,1
+2924	player 20 anim 426 frame 0 weapon 29591 at 13812,11054,1
+2924	player 3 off target
+2924	player 13 off target
+2924	player 1 off target
+2925	hitsplat npc 63470 amount 41 type 17 others
+2925	hitsplat npc 63470 amount 40 type 17 others
+2925	hitsplat npc 63470 amount 74 type 17 others
+2925	hitsplat npc 63470 amount 17 type 17 others
+2925	target npc 63470 id 7566 at 13805,11054,1 size 5 | tint disabled 0
+2925	player 9 anim -1 frame -1 weapon 20997 at 13797,11053,1
+2925	player 2 anim -1 frame -1 weapon 20997 at 13797,11054,1
+2925	player 3 anim -1 frame -1 weapon 20997 at 13800,11059,1
+2925	player 11 anim 426 frame 0 weapon 20997 at 13799,11057,1
+2925	player 6 (me) anim -1 frame -1 weapon 20997 at 13801,11054,1
+2925	player 19 off target
+2926	party spec player 12 seen weapon DRAGON_WARHAMMER hit 17 npc 63470 (target)
+2926	hitsplat npc 63470 amount 26 type 17 others
+2926	hitsplat npc 63470 amount 24 type 17 others
+2926	target npc 63470 id 7566 at 13805,11053,1 size 5 | tint disabled 0
+2926	player 10 anim -1 frame -1 weapon 20997 at 13805,11043,1
+2926	player 1 anim -1 frame -1 weapon 20997 at 13807,11044,1
+2926	player 15 anim -1 frame -1 weapon 20997 at 13799,11054,1
+2926	player 3 anim 426 frame 0 weapon 20997 at 13800,11059,1
+2926	player 4 anim -1 frame -1 weapon 20997 at 13798,11062,1
+2926	player 6 (me) anim 426 frame 0 weapon 20997 at 13801,11054,1
+2926	player 19 anim -1 frame -1 weapon 20997 at 13797,11060,1
+2926	player 16 anim 426 frame 0 weapon 20997 at 13800,11056,1
+2926	player 18 anim 11124 frame 0 weapon 21003 at 13805,11058,1
+2926	player 12 off target
+2926	player 7 off target
+2926	player 20 off target
+2927	hitsplat npc 63470 amount 19 type 17 others
+2927	hitsplat npc 63470 amount 29 type 17 others
+2927	hitsplat npc 63470 amount 10 type 17 others
+2927	hitsplat npc 63470 amount 47 type 17 others
+2927	hitsplat npc 63470 amount 32 type 17 others
+2927	hitsplat npc 63470 amount 93 type 17 others
+2927	hitsplat npc 63470 amount 13 type 17 others
+2927	player 10 anim 426 frame 0 weapon 20997 at 13805,11043,1
+2927	player 8 anim 426 frame 0 weapon 20997 at 13817,11061,1
+2927	player 11 anim -1 frame -1 weapon 20997 at 13799,11057,1
+2927	player 17 anim 426 frame 0 weapon 20997 at 13799,11052,1
+2927	player 20 anim -1 frame -1 weapon 29591 at 13814,11053,1
+2927	player 13 anim 426 frame 0 weapon 25867 at 13798,11052,1
+2927	player 3 off target
+2927	player 19 off target
+2928	party spec player 18 seen weapon ELDER_MAUL hit 1 npc 63470 (target)
+2928	hitsplat npc 63470 amount 49 type 17 others
+2928	hitsplat npc 63470 amount 36 type 17 others
+2928	player 9 anim 426 frame 0 weapon 20997 at 13797,11053,1
+2928	player 1 anim 426 frame 0 weapon 20997 at 13807,11044,1
+2928	player 14 anim 829 frame 8 weapon 22978 at 13805,11063,1
+2928	player 2 anim 426 frame 0 weapon 20997 at 13797,11054,1
+2928	player 7 anim -1 frame -1 weapon 20997 at 13807,11046,1
+2928	player 19 anim -1 frame -1 weapon 20997 at 13797,11061,1
+2928	player 20 anim 426 frame 0 weapon 29591 at 13814,11053,1
+2928	player 16 off target
+2928	player 13 off target
+2928	player 6 off target
+2928	player 8 off target

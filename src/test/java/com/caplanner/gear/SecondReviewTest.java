@@ -84,16 +84,7 @@ public class SecondReviewTest
 	@Test
 	public void ammunitionTooGoodForTheWeaponIsNotShot() throws Exception
 	{
-		assertFalse(Weapons.canFire("Magic shortbow (i)", "Dragon arrow"));
-		assertTrue(Weapons.canFire("Magic shortbow (i)", "Amethyst arrow"));
-		assertTrue(Weapons.canFire("Twisted bow", "Dragon arrow"));
-		assertFalse(Weapons.canFire("Rune crossbow", "Ruby dragon bolts (e)"));
-		assertFalse(Weapons.canFire("Rune crossbow", "Dragon bolts"));
-		assertTrue(Weapons.canFire("Rune crossbow", "Runite bolts"));
-		assertTrue(Weapons.canFire("Rune crossbow", "Diamond bolts (e)"));
-		assertFalse(Weapons.canFire("Adamant crossbow", "Onyx bolts (e)"));
-		assertTrue(Weapons.canFire("Armadyl crossbow", "Dragon bolts"));
-		assertTrue("an unknown thing is not left out", Weapons.canFire("Some new bow", "Some new arrow"));
+		// which ammunition each weapon fires is the engine's, copied from Combat Check (WeaponsTest, ItemRulesTest)
 		Gear gear = new Gear();
 		List<Gear.Stat> owned = Arrays.asList(shooter(861, "Magic shortbow", true, 69, 0, 4),
 			ammo(11212, "Dragon arrow", 60), ammo(892, "Rune arrow", 49));

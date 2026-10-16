@@ -53,11 +53,15 @@ public final class Requirements
 		final Map<String, Boolean> quests = new LinkedHashMap<>();
 		/** Skill name to level. */
 		final Map<String, Integer> levels = new LinkedHashMap<>();
+		/** Levels of which one is enough ("Strength 60 or Agility 60"): skill name to level, one map for each. */
+		final List<Map<String, Integer>> eitherLevels = new ArrayList<>();
 		/** The Slayer tasks the boss can be killed on, when it needs one; empty when it does not. */
 		final List<String> slayerTasks = new ArrayList<>();
 	}
 
 	private final Map<String, Boss> bosses = new HashMap<>();
+	/** What some tasks of a boss need on top of the boss's own: by the boss's key, "#", the task id. */
+	private final Map<String, Boss> tasks = new HashMap<>();
 
 	/** Lower case, letters and digits only: how boss, quest and task names are compared. */
 	public static String key(String name)
@@ -68,8 +72,10 @@ public final class Requirements
 	/**
 	 * Reads the table: one boss a line, tab-separated, "#" for a comment.
 	 * Columns: boss, quests ("; " between them, a trailing "*" when having started is enough),
-	 * levels ("Skill N; ..."), Slayer tasks the boss can only be killed on ("; " between the
-	 * names the game may give that task), and other things to have done ("name=how to say it").
+	 * levels ("Skill N; ...", "Skill N or Skill N" when one of them is enough), Slayer tasks the
+	 * boss can only be killed on ("; " between the names the game may give that task), and other
+	 * things to have done ("name=how to say it"). A boss written "Boss#task id" is what that one
+	 * task needs on top of what its boss does.
 	 */
 	public static Requirements read(Reader table) throws IOException
 	{
@@ -91,15 +97,28 @@ public final class Requirements
 			}
 			for (String level : cell(cols, 2))
 			{
-				// a cell that is not "Skill N" is left out, rather than losing the whole table
-				int space = level.lastIndexOf(' ');
-				try
+				// "Skill N or Skill N": one of them is enough
+				Map<String, Integer> either = new LinkedHashMap<>();
+				for (String one : level.split(" or "))
 				{
-					boss.levels.put(level.substring(0, Math.max(0, space)).trim(), Integer.parseInt(level.substring(space + 1).trim()));
+					// a part that is not "Skill N" is left out, rather than losing the whole table
+					int space = one.trim().lastIndexOf(' ');
+					try
+					{
+						either.put(one.trim().substring(0, Math.max(0, space)).trim(), Integer.parseInt(one.trim().substring(space + 1).trim()));
+					}
+					catch (NumberFormatException e)
+					{
+						continue;
+					}
 				}
-				catch (NumberFormatException e)
+				if (either.size() == 1)
 				{
-					continue;
+					boss.levels.putAll(either);
+				}
+				else if (either.size() > 1)
+				{
+					boss.eitherLevels.add(either);
 				}
 			}
 			boss.slayerTasks.addAll(cell(cols, 3));
@@ -129,6 +148,19 @@ public final class Requirements
 				o.text = other.substring(eq + 1).trim();
 				boss.others.add(o);
 			}
+			int hash = cols[0].indexOf('#');
+			if (hash > 0)
+			{
+				try
+				{
+					out.tasks.put(key(cols[0].substring(0, hash)) + "#" + Integer.parseInt(cols[0].substring(hash + 1).trim()), boss);
+				}
+				catch (NumberFormatException e)
+				{
+					// not a task id: the line is left out
+				}
+				continue;
+			}
 			out.bosses.put(key(cols[0]), boss);
 		}
 		return out;
@@ -154,7 +186,9 @@ public final class Requirements
 	public List<String> questNames()
 	{
 		List<String> names = new ArrayList<>();
-		for (Boss b : bosses.values())
+		List<Boss> all = new ArrayList<>(bosses.values());
+		all.addAll(tasks.values());
+		for (Boss b : all)
 		{
 			for (String q : b.quests.keySet())
 			{
@@ -177,7 +211,24 @@ public final class Requirements
 	public Verdict check(Task task, Account account)
 	{
 		List<String> missing = new ArrayList<>();
-		Boss boss = bosses.get(key(task.boss));
+		missing(bosses.get(key(task.boss)), account, missing);
+		missing(tasks.get(key(task.boss) + "#" + task.id), account, missing);
+		if (!missing.isEmpty())
+		{
+			return new Verdict(Verdict.Status.BLOCKED, missing);
+		}
+		if (needsGroup(task))
+		{
+			List<String> group = new ArrayList<>();
+			group.add("Needs more than one player");
+			return new Verdict(Verdict.Status.NEEDS_GROUP, group);
+		}
+		return Verdict.CAN;
+	}
+
+	/** Adds to {@code missing} what the account lacks of one line of the table; nothing when there is no line. */
+	private static void missing(Boss boss, Account account, List<String> missing)
+	{
 		if (boss != null)
 		{
 			for (Map.Entry<String, Boolean> q : boss.quests.entrySet())
@@ -198,6 +249,24 @@ public final class Requirements
 					missing.add(l.getKey() + " " + l.getValue() + " (you have " + have + ")");
 				}
 			}
+			for (Map<String, Integer> either : boss.eitherLevels)
+			{
+				List<String> notEnough = new ArrayList<>();
+				for (Map.Entry<String, Integer> l : either.entrySet())
+				{
+					int have = account.level(l.getKey());
+					if (have >= l.getValue())
+					{
+						notEnough.clear();
+						break;
+					}
+					notEnough.add(l.getKey() + " " + l.getValue() + " (you have " + have + ")");
+				}
+				if (!notEnough.isEmpty())
+				{
+					missing.add(String.join(" or ", notEnough));
+				}
+			}
 			if (!boss.slayerTasks.isEmpty() && !onTask(boss.slayerTasks, account))
 			{
 				missing.add("Only on a Slayer task: " + boss.slayerTasks.get(0));
@@ -210,17 +279,6 @@ public final class Requirements
 				}
 			}
 		}
-		if (!missing.isEmpty())
-		{
-			return new Verdict(Verdict.Status.BLOCKED, missing);
-		}
-		if (needsGroup(task))
-		{
-			List<String> group = new ArrayList<>();
-			group.add("Needs more than one player");
-			return new Verdict(Verdict.Status.NEEDS_GROUP, group);
-		}
-		return Verdict.CAN;
 	}
 
 	/**

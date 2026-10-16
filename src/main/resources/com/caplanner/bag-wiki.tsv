@@ -7,6 +7,8 @@
 # ---- what each kind is, best first (a potion is written without its dose)
 =restore	super restore|sanfew serum|prayer potion
 =brew	saradomin brew
+=armadyl	armadyl brew
+=forgotten	forgotten brew
 =food	anglerfish|cooked moonlight antelope|manta ray|dark crab|sea turtle|shark|cooked karambwan|monkfish|swordfish|lobster
 =antifire	extended super antifire|super antifire potion|extended antifire|antifire potion
 =antivenom	extended anti-venom+|anti-venom+|anti-venom|antidote++
@@ -25,14 +27,14 @@ Callisto	restore 4; brew 3; food 13; boost 1; antivenom 1; stamina 1	Blighted an
 Chaos Elemental	restore 3; food 22; boost 1; antivenom 1	Looting bag
 Commander Zilyana	restore 16; brew 1; food 4; boost 1; pouch 1; teleport 1	Ecumenical key	Eldritch nightmare staff; Elidinis' ward (f)
 Demonic Gorilla	restore 8; food 7; boost 2; pouch 1; book 1; teleport 1		Twisted bow; Necklace of rupture; Saradomin godsword; Masori body (f); Burning claws
-Deranged Archaeologist	restore 3; brew 1; food 6; antivenom 1; pouch 1; teleport 1
+Deranged Archaeologist	restore 3; forgotten 1; food 6; antivenom 1; pouch 1; teleport 1	Axe: ~dragon axe|~crystal axe|~infernal axe|~rune axe|~adamant axe|~mithril axe|~black axe|~steel axe|~iron axe|~bronze axe|~felling axe
 Doom of Mokhaiotl	restore 5; brew 7; food 3; boost 3; antivenom 1; pouch 1; teleport 1	Mokhaiotl waystone	Darklight; Slayer's staff (e); Scorching bow; Scythe of vitur; Twisted bow; Noxious halberd
-General Graardor	restore 5; brew 8; food 6; boost 3; pouch 1; teleport 1	Ecumenical key	Blood ancient sceptre; Virtus robe top; Saradomin godsword
+General Graardor	restore 5; brew 8; food 6; boost 3; pouch 1; teleport 1		Blood ancient sceptre; Virtus robe top; Saradomin godsword
 Hespori	restore 1; food 18; boost 1; antivenom 1; pouch 1; book 1	Spade; Seed dibber; Hespori seed	Dragon dagger
 Lizardman Shaman	restore 6; food 7; boost 2; antivenom 1; stamina 2; pouch 1; teleport 1	Cannonball: granite cannonball|steel cannonball|cannonball x2000; Cannon base: ~cannon base; Cannon stand: ~cannon stand; Cannon barrels: ~cannon barrels; Cannon furnace: ~cannon furnace
 Mad Angel	restore 7; food 14; boost 1; pouch 1; book 1; teleport 1	Crystal dust	Crimson kisten
-Nex	restore 7; brew 16; food 1; pouch 1; book 1		Twisted bow; Osmumten's fang
-Scorpia	restore 10; brew 5; food 4; boost 1; stamina 1	Blighted ancient ice sack x100; Looting bag	Black d'hide body; Black d'hide chaps
+Nex	restore 7; brew 13; armadyl 3; food 1; pouch 1; book 1		Twisted bow; Osmumten's fang
+Scorpia	restore 10; brew 5; food 4; boost 1; antivenom 2; stamina 1	Blighted ancient ice sack x100; Looting bag; Lockpick	Black d'hide body; Black d'hide chaps
 Skeletal Wyvern	restore 5; food 18; boost 1; pouch 1		Voidwaker
 Skotizo	restore 2; food 21; boost 1; stamina 1; teleport 1		Burning claws
 Thermonuclear Smoke Devil	restore 5; boost 1; pouch 1; teleport 1		Ice ancient sceptre; Elidinis' ward (f)

@@ -92,6 +92,12 @@ final class Spells
 		return out;
 	}
 
+	/** Whether the spell is one of the Ancient Magicks. */
+	static boolean ancient(int spell)
+	{
+		return spell >= FIRST_ANCIENT && spell < FIRST_ANCIENT + 16;
+	}
+
 	/** "Fire Surge", "Ice Barrage"; null for a number that is no spell here. */
 	static String name(int spell)
 	{

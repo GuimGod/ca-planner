@@ -1,53 +1,246 @@
 # Fights that one set does not answer, part by part. Written for this plugin (October 2026) from the page
 # of each boss on the OSRS Wiki and from fights its authors mapped themselves. The first line of a boss is
 # what the set worn is picked for; each other line is a part to carry pieces for.
-# boss	kind (main | switch | weapon)	npc id of the part	label	style (empty = whichever does the most; spell = magic that is cast)	note	nofigure (when the sums do not know what makes the part what it is)
+# boss	kind (main | switch | weapon)	npc id of the part (0 on a main line: the boss's own row, as for a boss of one part; 0 on a part by name: no monster to sum against)	label	style (empty = whichever does the most; spell = magic that is cast)	note	flags: nofigure (when the sums do not know what makes the part what it is), carryN (up to N pieces carried for it), when=melee|ranged|magic (only with a set worn of that style), str (pieces judged by strength, not attack), keep (pieces carried for what they do, whatever their bonus), sums (with none of its weapons owned, the sums pick the part against its monster), advice (on a main line: a note of advice, not said under a task's own rule)	weapons by name, best first, separated by ";" (for a part the sums cannot weigh: the first one owned that the task allows is carried; a task that allows none leaves the part out)	pieces by name to change into with that weapon, one piece a group, groups separated by ";", the others of a group after "|" (of a group, the owned one with the most; each carried only when its attack bonus of the weapon's kind, or its strength with "str", is above what the set wears in that slot; ammunition always)
+# A line written from the OSRS Wiki names the page and its revision in the comment above it. The special attacks are
+# the "special" fields of the page's recommended equipment, in its order, for the style the line is for ("when").
 #
 # ---- three kings in one room: the other two are carried
+# Dagannoth Kings/Strategies rev 15373660, Tribrid (All Kings)
 Dagannoth Rex	main	2267	Dagannoth Rex		Only magic gets through him well.
 Dagannoth Rex	switch	2266	Dagannoth Prime		The three kings share the room.
 Dagannoth Rex	switch	2265	Dagannoth Supreme
+Dagannoth Rex	weapon	0	Special attack	melee			Saradomin godsword;Eldritch nightmare staff;Dragon claws;Toxic blowpipe;Ancient mace
 Dagannoth Prime	main	2266	Dagannoth Prime		Only ranged gets through him well.
 Dagannoth Prime	switch	2267	Dagannoth Rex		The three kings share the room.
 Dagannoth Prime	switch	2265	Dagannoth Supreme
+Dagannoth Prime	weapon	0	Special attack	melee			Saradomin godsword;Eldritch nightmare staff;Dragon claws;Toxic blowpipe;Ancient mace
 Dagannoth Supreme	main	2265	Dagannoth Supreme		Only melee gets through him well.
 Dagannoth Supreme	switch	2267	Dagannoth Rex		The three kings share the room.
 Dagannoth Supreme	switch	2266	Dagannoth Prime
+Dagannoth Supreme	weapon	0	Special attack	melee			Saradomin godsword;Eldritch nightmare staff;Dragon claws;Toxic blowpipe;Ancient mace
 #
 # ---- a boss that changes form
+# Zulrah/Strategies rev 15356843: Ranged and Melee; the Accursed sceptre's special attack with magic gear (its footnote)
 Zulrah	main	2042	Green and red forms
 Zulrah	switch	2044	Blue form		The blue form shrugs off magic.
+Zulrah	weapon	0	Special attack	ranged		when=ranged	Dragon knife;Toxic blowpipe;Dark bow;Tonalztics of ralos
+Zulrah	weapon	0	Special attack	melee		when=melee	Crystal halberd;Dragon halberd
+Zulrah	weapon	0	Special attack	magic		when=magic	Accursed sceptre
+# Phantom Muspah/Strategies rev 15371265: Ranged; its shield takes sapphire dragon bolts (e) with the Zaryte crossbow's special attack
 Phantom Muspah	main	12077	Ranged form, and the shield
-Phantom Muspah	switch	12078	Melee form		Its magic defence is far the lower in this form.
+Phantom Muspah	switch	12078	Melee form		Its magic defence is far the lower in this form.	carry8
+Phantom Muspah	weapon	0	Its shield: special attacks	ranged	A crossbow with sapphire dragon bolts (e) takes its shield down.	when=ranged	Zaryte crossbow;Armadyl crossbow	Sapphire dragon bolts (e);Twisted buckler
+Phantom Muspah	weapon	0	Special attack	ranged		when=ranged	Zaryte crossbow;Elder maul;Dragon warhammer;Tonalztics of ralos;Toxic blowpipe
 #
 # ---- two in the room, each harmed its own way
+# Grotesque Guardians/Strategies rev 15356598: Dawn with the venator bow and a blowpipe (the sums leave every blowpipe out); Melee
 Grotesque Guardians	main	7851	Dusk	melee	Dusk takes only melee.
-Grotesque Guardians	switch	7852	Dawn		Dawn flies: ranged, magic or a halberd.
+Grotesque Guardians	weapon	0	Dawn	ranged	Dawn flies: ranged, magic or a Noxious halberd. The wiki brings a blowpipe beside the venator bow.	carry8	Venator bow;Blazing blowpipe;Toxic blowpipe	Masori body (f)|Masori body|Armadyl chestplate;Masori chaps (f)|Masori chaps|Armadyl chainskirt;Necklace of anguish|Necklace of rupture;Zaryte vambraces;Dizana's quiver|Blessed dizana's quiver|Dizana's max cape|Ava's assembler
+Grotesque Guardians	weapon	0	Special attack	melee		when=melee	Dragon claws;Crystal halberd;Crimson kisten;Burning claws;Dragon dagger;Saradomin godsword
+# Royal Titans/Strategies rev 15367754: Ranged (atlatl or blowpipe; the sums have no ranged figure here); the Twinflame staff for the
+# elementals, which need a magic attack bonus of 70 or more; Melee (Scythe of Vitur)
 Royal Titans	main	12596	The Titans, within reach
-Royal Titans	switch	12596	The Titans, out of reach	ranged	Ranged is six times as accurate on a Titan that has stepped back.	nofigure
-Royal Titans	weapon	14147	Elementals and walls	spell	A fire and a water spell: elementals die to the opposite element, walls to Blast spells or better.	nofigure
+Royal Titans	weapon	0	The Titans, out of reach	ranged	Ranged is six times as accurate on a Titan that has stepped back.	carry8	Blazing blowpipe;Toxic blowpipe;Zaryte crossbow	Masori body (f)|Masori body|Armadyl chestplate;Masori chaps (f)|Masori chaps|Armadyl chainskirt;Necklace of anguish|Necklace of rupture;Zaryte vambraces;Dizana's quiver|Blessed dizana's quiver|Dizana's max cape|Ava's assembler
+Royal Titans	weapon	14147	Elementals and walls	spell	A fire and a water spell: elementals die to the opposite element, walls to Blast spells or better. They need a magic attack bonus of 70 or more.	nofigure sums	Twinflame staff	Ancestral robe top|Ahrim's robetop;Ancestral robe bottom|Ahrim's robeskirt;Occult necklace;Ancestral hat|Ahrim's hood
+Royal Titans	weapon	0	Special attack	melee		when=melee	Zaryte crossbow;Dragon claws;Crimson kisten;Burning claws;Dragon dagger;Voidwaker;Crystal halberd
 #
 # ---- three Moons, each weak to one kind of melee hit
+# Moons of Peril/Strategies rev 15357348: Blood Moon (no special attack that lowers its Defence: the Moons take none)
 Moons of Peril	main	13011	Blood Moon	melee
 Moons of Peril	weapon	13013	Blue Moon	melee
 Moons of Peril	weapon	13012	Eclipse Moon	melee
+Moons of Peril	weapon	0	Special attack	melee			Dragon claws;Crystal halberd;Crimson kisten;Dragon dagger;Burning claws;Voidwaker;Abyssal dagger;Dragon mace
 #
 # ---- her shield is broken with melee, the totems charged with magic
 The Nightmare	main	9425	Her shield		Sleepwalkers die to any hit: be quick, or hit several at once. Husks hold you until they die.
-The Nightmare	switch	9436	Totems	magic	Totems take twice the damage from magic.
+The Nightmare	switch	9435	Totems	magic	Totems take twice the damage from magic.	carry8
 Phosani's Nightmare	main	9416	Her shield		Sleepwalkers die to any hit: be quick, or hit several at once. Husks hold you until they die.
-Phosani's Nightmare	switch	9436	Totems	magic	Totems take twice the damage from magic.
+Phosani's Nightmare	switch	9435	Totems	magic	Totems take twice the damage from magic.	carry8
+Phosani's Nightmare	weapon	9466	Husks	melee	Husks hold you until they die.		Hallowfell;Ham joint;Goblin paint cannon
+Phosani's Nightmare	weapon	9468	Parasites	melee	Parasites come out of you: kill them quickly.		Hallowfell;Elder maul;Dragon mace
+# Phosani's Nightmare/Strategies rev 15371914: sleepwalkers also with a toxic blowpipe or blisterwood stakes
+Phosani's Nightmare	weapon	9470	Sleepwalkers		Sleepwalkers die to any hit: be quick, or hit several at once.		Eye of Ayak;Blazing blowpipe;Blisterwood stake;Toxic blowpipe
+Phosani's Nightmare	weapon	9416	Last phase: special attacks	melee	Her last phase: special attacks, with your energy kept full for it.		Crimson kisten;Voidwaker
 #
 # ---- found by reading the fights again: a second form, and a part melee does not reach
+# Kalphite Queen/Strategies rev 15369627: High level melee, with magic for the second form
 Kalphite Queen	main	963	First form		Her first form shrugs off ranged and magic.
-Kalphite Queen	switch	965	Second form		Her second form shrugs off melee.
+Kalphite Queen	switch	965	Second form		Her second form shrugs off melee.	carry8
+Kalphite Queen	weapon	0	Special attack	melee		when=melee	Crimson kisten;Voidwaker;Dragon claws
+# Abyssal Sire/Strategies rev 15366976: respiratory systems die to one hit of a demonbane weapon or spell; Phase 2 Melee - DPS
 Abyssal Sire	main	5886	The Sire
-Abyssal Sire	switch	5914	Respiratory systems		They take only ranged, magic or a halberd.
+Abyssal Sire	weapon	5914	Respiratory systems		They take only ranged, magic or a Noxious halberd, while the Sire is stunned.
+Abyssal Sire	weapon	0	Special attack	melee		when=melee	Burning claws;Voidwaker;Dragon claws;Crystal halberd;Abyssal dagger;Dragon dagger
 #
 # ---- it turns its protection against the style that last hurt it
+# Tormented Demon/Strategies rev 15372901: Melee, Ranged and Magic switches
 Tormented Demon	main	13599	Until it protects against your style
 Tormented Demon	switch	13599	Once it does	other	It protects against the style that last hurt it, again every 150 hitpoints it loses: two styles are needed.
+Tormented Demon	weapon	0	Special attack	melee		when=melee	Abyssal dagger;Dragon dagger;Burning claws;Arkan blade;Saradomin godsword;Emberlight;Arclight
+Tormented Demon	weapon	0	Special attack	ranged		when=ranged	Zaryte crossbow;Toxic blowpipe;Heavy ballista;Light ballista
+# Yama/Strategies rev 15360570: Melee (alone, three Emberlight special attacks take his Defence to 145; the purging staff for the
+# Judge and the void flares, which the sums never pick; the Saradomin godsword on the Judge)
 Yama	main	14176	Yama
-Yama	weapon	14180	The Judge, with magic	magic	Between phases. The Judge protects against ranged, and against whichever of melee and magic last hit it: change between a melee weapon and this. Every hit on it lands, and a weapon of several hits counts one.	nofigure
+Yama	weapon	14180	The Judge and the void flares, with magic	magic	The Judge protects against ranged, and against whichever of melee and magic last hit it: change between a melee weapon and this. Every hit on it lands, and a weapon of several hits counts one.	nofigure sums	Purging staff
+Yama	weapon	0	Special attack: lower his Defence	melee	Three Emberlight special attacks take his Defence to 145.	when=melee	Emberlight;Bandos godsword
+Yama	weapon	0	The Judge: special attack to heal	melee		when=melee	Saradomin godsword
+# Demonic gorilla/Strategies rev 15354866: Melee
 Demonic Gorilla	main	7144	Until it protects against your style
 Demonic Gorilla	switch	7144	Once it does	other	It changes its protection prayer after taking 50 damage of one style: two styles are needed.
+Demonic Gorilla	weapon	0	Special attack	melee		when=melee	Saradomin godsword;Dragon claws;Ancient godsword;Burning claws;Crimson kisten;Voidwaker
+#
+# ---- a special attack that is part of the fight, and what else it asks for
+# Corporeal Beast/Strategies rev 15373688, Quick pool (Osmumten's fang): "Elder maul + Voidwaker", or "Dragon warhammer + Osmumten's
+# fang"; maximum crush attack bonus gear for the maul or warhammer, strength boosting gear for the Voidwaker
+Corporeal Beast	main	0	Corporeal Beast		The wiki wears Masori (f) body and chaps here, for their magic defence.	advice
+Corporeal Beast	weapon	0	Special attack: lower its Defence	melee	Until two or three land, or it is down to about 1,700 health; then the Voidwaker.		Elder maul;Dragon warhammer	Inquisitor's great helm;Amulet of rancour;Inquisitor's hauberk;Inquisitor's plateskirt;Tyrannical ring (i)|Brimstone ring;Mythical cape
+Corporeal Beast	weapon	0	Special attack: damage	melee		str	Voidwaker;Osmumten's fang	Amulet of rancour;Ultor ring|Berserker ring (i)
+# Araxxor/Strategies rev 15370207: Melee ("Elder maul + Crimson kisten", one successful reduction a kill), Ranged; Araxyte weapon
+Araxxor	main	0	Araxxor
+Araxxor	weapon	0	Special attack: lower its Defence	melee	One that lands is enough: its Defence goes down by 45 at most.	when=melee	Elder maul;Dragon warhammer
+Araxxor	weapon	0	Special attack: damage	melee		when=melee	Crimson kisten;Burning claws;Dragon claws;Bandos godsword;Voidwaker
+Araxxor	weapon	0	Special attack	ranged		when=ranged	Elder maul;Dragon warhammer;Zaryte crossbow
+Araxxor	weapon	0	Araxytes		They always take a max hit from a Noxious halberd, a crush weapon or a heavy ranged weapon.		Noxious halberd;Hunters' sunlight crossbow;Karil's crossbow;Heavy ballista
+# Vorkath/Strategies rev 15368595: Melee (Dragon hunter lance), Ranged (crossbow); a staff swap for Crumble Undead on the spawn
+Vorkath	main	0	Vorkath
+Vorkath	weapon	0	Zombified spawn: Crumble Undead	magic	Or cast it from the spellbook, with chaos and dust runes.		Slayer's staff (e);Slayer's staff;Dust battlestaff
+Vorkath	weapon	0	Special attack	melee		when=melee	Voidwaker;Burning claws;Dragon claws;Elder maul;Bandos godsword;Crimson kisten;Dragon warhammer;Bone dagger
+Vorkath	weapon	0	Special attack	ranged		when=ranged	Zaryte crossbow;Toxic blowpipe;Armadyl crossbow
+# Cerberus/Strategies rev 15359012: Melee, Ranged; the spectral spirit shield halves the summoned souls' drain, with a one-handed weapon
+Cerberus	main	0	Cerberus
+Cerberus	weapon	0	Summoned souls	melee	It halves the prayer the souls drain: wear it with a one-handed weapon (the Emberlight or an Arclight).		Spectral spirit shield
+Cerberus	weapon	0	Special attack	melee		when=melee	Crimson kisten;Dragon claws;Burning claws;Voidwaker;Bandos godsword;Dragon dagger;Elder maul;Saradomin godsword;Dragon warhammer
+Cerberus	weapon	0	Special attack	ranged		when=ranged	Zaryte crossbow;Toxic blowpipe;Tonalztics of ralos;Saradomin godsword
+# Vardorvis/Strategies rev 15357517: Melee
+Vardorvis	main	0	Vardorvis
+Vardorvis	weapon	0	Special attack	melee		when=melee	Dragon claws;Burning claws;Voidwaker;Ancient godsword;Arkan blade;Saradomin godsword;Dragon dagger
+# The Leviathan/Strategies rev 15371267: Ranged ("the toxic blowpipe ... particularly effective for the enrage phase"), Magic
+Leviathan	main	0	Leviathan		The wiki has the Zaryte crossbow the best until it is down to 450 health.	advice
+Leviathan	weapon	0	Enrage, inside the pathfinder	ranged	Inside the pathfinder no ranged attack misses: a blowpipe's speed counts most.	when=ranged	Blazing blowpipe;Toxic blowpipe
+Leviathan	weapon	0	Special attack	ranged		when=ranged	Zaryte crossbow;Webweaver bow;Armadyl crossbow;Toxic blowpipe
+Leviathan	weapon	0	Special attack	magic		when=magic	Volatile nightmare staff
+# The Whisperer/Strategies rev 15362733: Magic; the venator bow for the lost souls, without it a blowpipe
+Whisperer	main	0	Whisperer
+Whisperer	weapon	0	Lost souls	ranged	A shot that bounces kills a row of three.		Venator bow;Blazing blowpipe;Rosewood blowpipe;Toxic blowpipe;Rune thrownaxe
+Whisperer	weapon	0	Special attack	magic		when=magic	Eldritch nightmare staff;Toxic blowpipe
+# Duke Sucellus/Strategies rev 15372792: Melee, without the Bandos godsword and the bone dagger: the awakened fight takes no Defence drain
+Duke Sucellus	main	0	Duke Sucellus
+Duke Sucellus	weapon	0	Special attack	melee		when=melee	Burning claws;Dragon claws;Voidwaker;Arkan blade;Abyssal dagger;Dragon dagger
+# Kraken/Strategies rev 15371400: Magic
+Kraken	main	0	Kraken
+Kraken	weapon	0	Special attack	magic		when=magic	Volatile nightmare staff;Eldritch nightmare staff;Toxic blowpipe;Eye of Ayak
+# K'ril Tsutsaroth/Strategies rev 15354847: Solo Melee, Ranged, Magic
+K'ril Tsutsaroth	main	0	K'ril Tsutsaroth		Alone, a popular way is the Scorching bow, its special attack holding him.	advice
+K'ril Tsutsaroth	weapon	0	Special attack	melee		when=melee	Saradomin godsword;Voidwaker;Dragon claws;Ancient godsword;Elder maul;Emberlight;Arclight
+K'ril Tsutsaroth	weapon	0	Special attack	ranged		when=ranged	Scorching bow;Toxic blowpipe
+K'ril Tsutsaroth	weapon	0	Special attack	magic		when=magic	Eldritch nightmare staff
+# Kree'arra/Strategies rev 15356508: Magic; Tbow / Bowfa
+Kree'arra	main	0	Kree'arra
+Kree'arra	weapon	0	Special attack	magic		when=magic	Eldritch nightmare staff
+Kree'arra	weapon	0	Special attack	ranged		when=ranged	Zaryte crossbow;Eldritch nightmare staff;Toxic blowpipe
+# The Mimic/Strategies rev 15357787: the same for every style
+The Mimic	main	0	The Mimic
+The Mimic	weapon	0	Special attack	melee			Voidwaker;Dragon claws;Burning claws;Dragon dagger
+# Inferno/Strategies rev 15373689, On task: the blowpipe for most of the waves, Ice Barrage on the nibblers; the Twisted bow for
+# the magers, Jad and Zuk
+TzKal-Zuk	main	0	TzKal-Zuk		The Inferno's waves come before him: the parts below are for them.	advice
+TzKal-Zuk	weapon	0	Waves: bats, blobs, meleers, rangers, healers	ranged		when=ranged	Blazing blowpipe;Toxic blowpipe
+TzKal-Zuk	weapon	0	Nibblers: Ice Barrage	magic	Ice Barrage on the nibblers before they reach the pillars.		Kodai wand;Nightmare staff;Toxic staff of the dead
+# TzHaar Fight Cave/Strategies rev 15371261: the blowpipe for the waves
+TzTok-Jad	main	0	TzTok-Jad		The Fight Cave's waves come before him: the part below is for them.	advice
+TzTok-Jad	weapon	0	Waves	ranged		when=ranged	Blazing blowpipe;Toxic blowpipe
+# The Hueycoatl/Strategies rev 15354883: Melee; Tail (dual macuahuitl, or the glacial temotli, with the blood moon armour)
+The Hueycoatl	main	0	The Hueycoatl
+The Hueycoatl	weapon	0	Tail	melee	Each hit on the tail is capped, higher with crush as your best bonus: a weapon of several hits does most. The blood moon armour speeds the dual macuahuitl.		Dual macuahuitl;Glacial temotli
+The Hueycoatl	weapon	0	Special attack	melee		when=melee	Crimson kisten;Dragon claws;Burning claws;Ursine chainmace;Arkan blade;Dragon mace
+# Nex/Strategies rev 15373653: Hybrid (Osmumten's fang), Ranged ("ranged is highly recommended for the Shadow and Zaros phases")
+Nex	main	0	Nex
+Nex	switch	11278	Shadow and Zaros phases	ranged	Ranged is the wiki's style for these two phases.	when=melee carry8
+Nex	weapon	0	Special attack	melee		when=melee	Zaryte crossbow;Voidwaker;Burning claws;Osmumten's fang
+Nex	weapon	0	Special attack	ranged		when=ranged	Zaryte crossbow;Armadyl crossbow;Voidwaker;Toxic blowpipe
+# Shellbane gryphon/Strategies rev 15357225: Melee
+Shellbane Gryphon	main	0	Shellbane Gryphon
+Shellbane Gryphon	weapon	0	Special attack	melee		when=melee	Dragon claws;Crimson kisten;Burning claws;Voidwaker;Dragon dagger;Arkan blade;Bone dagger
+# Giant Mole/Strategies rev 15361945: Ranged, Melee
+Giant Mole	main	0	Giant Mole
+Giant Mole	weapon	0	Special attack	ranged		when=ranged	Zaryte crossbow
+Giant Mole	weapon	0	Special attack	melee		when=melee	Burning claws;Voidwaker;Dragon claws;Arkan blade;Osmumten's fang
+# Sarachnis/Strategies rev 15360528: Melee (High level)
+Sarachnis	main	0	Sarachnis
+Sarachnis	weapon	0	Special attack	melee		when=melee	Dragon claws;Crimson kisten;Burning claws;Voidwaker;Arkan blade;Elder maul;Dragon dagger;Bandos godsword
+# Scurrius/Strategies rev 15354846: Melee and Ranged (high level)
+Scurrius	main	0	Scurrius
+Scurrius	weapon	0	Special attack	melee		when=melee	Dragon claws;Crimson kisten;Burning claws;Dragon dagger;Voidwaker;Arkan blade;Crystal halberd
+Scurrius	weapon	0	Special attack	ranged		when=ranged	Zaryte crossbow;Toxic blowpipe;Dragon thrownaxe;Dragon knife
+# Skotizo/Strategies rev 15372838: Melee, Ranged
+Skotizo	main	0	Skotizo
+Skotizo	weapon	0	Special attack	melee		when=melee	Dragon claws;Burning claws;Voidwaker;Elder maul;Bandos godsword;Emberlight;Dragon warhammer;Arclight
+Skotizo	weapon	0	Special attack	ranged		when=ranged	Voidwaker;Burning claws;Elder maul;Bandos godsword;Dragon warhammer;Emberlight;Arclight
+# Amoxliatl/Strategies rev 15354880: Melee
+Amoxliatl	main	0	Amoxliatl
+Amoxliatl	weapon	0	Special attack	melee		when=melee	Dragon claws;Crimson kisten;Burning claws;Bandos godsword;Voidwaker;Dragon dagger;Arkan blade;Saradomin godsword
+# Brutus/Strategies rev 15354867: Melee (high level)
+Brutus	main	0	Brutus
+Brutus	weapon	0	Special attack	melee		when=melee	Crystal halberd;Dragon claws;Burning claws;Dragon dagger
+# Callisto/Strategies rev 15368267: Ranged, Magic
+Callisto	main	0	Callisto
+Callisto	weapon	0	Special attack	ranged		when=ranged	Zaryte crossbow
+Callisto	weapon	0	Special attack	magic		when=magic	Accursed sceptre;Eye of Ayak
+# King Black Dragon/Strategies rev 15372306: 4-item melee
+King Black Dragon	main	0	King Black Dragon
+King Black Dragon	weapon	0	Special attack	melee		when=melee	Voidwaker;Burning claws;Arkan blade
+#
+# ---- bosses with no fight of the authors to check against: from the wiki's page alone (October 2026)
+# Alchemical Hydra/Strategies rev 15357786: Melee, Ranged
+Alchemical Hydra	main	0	Alchemical Hydra
+Alchemical Hydra	weapon	0	Special attack	melee		when=melee	Bandos godsword;Elder maul;Dragon warhammer;Dragon claws;Burning claws;Crimson kisten;Voidwaker;Bone dagger;Arkan blade;Dragon dagger;Saradomin godsword
+Alchemical Hydra	weapon	0	Special attack	ranged		when=ranged	Zaryte crossbow;Tonalztics of ralos;Toxic blowpipe;Dragon warhammer
+# Basilisk Knight/Strategies rev 15366194: Melee, Ranged, Magic
+Basilisk Knight	main	0	Basilisk Knight
+Basilisk Knight	weapon	0	Special attack	melee		when=melee	Voidwaker;Arkan blade;Abyssal dagger;Dragon dagger;Dragon mace
+Basilisk Knight	weapon	0	Special attack	ranged		when=ranged	Dragon knife;Zaryte crossbow
+Basilisk Knight	weapon	0	Special attack	magic		when=magic	Eye of Ayak
+# Chaos Elemental/Strategies rev 15373743: Melee
+Chaos Elemental	main	0	Chaos Elemental
+Chaos Elemental	weapon	0	Special attack	melee		when=melee	Ursine chainmace;Voidwaker;Dragon claws;Dragon dagger;Crystal halberd
+# Commander Zilyana/Strategies rev 15356593: Magic, Ranged
+Commander Zilyana	main	0	Commander Zilyana
+Commander Zilyana	weapon	0	Special attack	magic		when=magic	Eldritch nightmare staff;Eye of Ayak;Accursed sceptre
+Commander Zilyana	weapon	0	Special attack	ranged		when=ranged	Toxic blowpipe;Zaryte crossbow;Armadyl crossbow;Tonalztics of ralos
+# Doom of Mokhaiotl/Strategies rev 15373654: Ranged; Melee punish
+Doom of Mokhaiotl	main	0	Doom of Mokhaiotl		A demonbane weapon breaks its shield.	advice
+Doom of Mokhaiotl	weapon	0	Special attack	ranged		when=ranged	Zaryte crossbow;Dragon knife;Rosewood blowpipe;Dragon thrownaxe;Toxic blowpipe
+Doom of Mokhaiotl	weapon	0	Special attack	melee		when=melee	Crystal halberd;Dragon claws;Crimson kisten
+# General Graardor/Strategies rev 15353024: Melee (Solo), Magic (Solo), Ranged (Solo)
+General Graardor	main	0	General Graardor
+General Graardor	weapon	0	Special attack	melee		when=melee	Voidwaker;Saradomin godsword;Dragon claws;Elder maul;Dragon warhammer;Bandos godsword
+General Graardor	weapon	0	Special attack	magic		when=magic	Accursed sceptre;Eye of Ayak
+General Graardor	weapon	0	Special attack	ranged		when=ranged	Toxic blowpipe
+# Hespori/Strategies rev 15359177: Best-in-slot
+Hespori	main	0	Hespori
+Hespori	weapon	0	Special attack	melee		when=melee	Dragon claws;Burning claws;Dragon dagger;Voidwaker;Crystal halberd
+# Lizardman shaman/Strategies rev 15369517: Melee
+Lizardman Shaman	main	0	Lizardman Shaman
+Lizardman Shaman	weapon	0	Special attack	melee		when=melee	Saradomin godsword;Crystal halberd;Burning claws;Dragon dagger;Osmumten's fang;Voidwaker
+# Mad Angel/Strategies rev 15366931: Melee
+Mad Angel	main	0	Mad Angel		Turn auto-retaliate off.
+Mad Angel	weapon	0	Special attack	melee		when=melee	Voidwaker;Crimson kisten;Arkan blade;Dragon mace;Elder maul;Ancient godsword;Bandos godsword;Dragon warhammer
+# Maggot King/Strategies rev 15369482: Melee, Range
+Maggot King	main	0	Maggot King
+Maggot King	weapon	0	Special attack	melee		when=melee	Crimson kisten;Voidwaker;Dragon claws;Burning claws;Elder maul;Dragon warhammer;Bandos godsword
+Maggot King	weapon	0	Special attack	ranged		when=ranged	Zaryte crossbow
+# Skeletal Wyvern/Strategies rev 15370340: Melee
+Skeletal Wyvern	main	0	Skeletal Wyvern
+Skeletal Wyvern	weapon	0	Special attack	melee		when=melee	Voidwaker;Dragon dagger
+# The Nightmare/Strategies rev 15354871: Melee; the maul and the warhammer once a phase, the Saradomin godsword on the sleepwalkers
+The Nightmare	weapon	0	Special attack	melee	The Elder maul or the warhammer once a phase; the Saradomin godsword on the sleepwalkers.	when=melee	Elder maul;Saradomin godsword;Crimson kisten;Dragon warhammer;Voidwaker;Bandos godsword;Dragon claws
+# Thermonuclear smoke devil/Strategies rev 15354870: Melee
+Thermonuclear Smoke Devil	main	0	Thermonuclear Smoke Devil
+Thermonuclear Smoke Devil	weapon	0	Special attack	melee		when=melee	Dragon claws;Burning claws;Voidwaker;Crimson kisten;Arkan blade;Dragon dagger;Osmumten's fang;Saradomin godsword
+# Venenatis/Strategies rev 15371271: Melee, Ranged
+Venenatis	main	0	Venenatis
+Venenatis	weapon	0	Special attack	melee		when=melee	Dinh's bulwark;Elder maul;Dragon warhammer;Ursine chainmace;Dragon mace;Dragon 2h sword
+Venenatis	weapon	0	Special attack	ranged		when=ranged	Webweaver bow
+# Vet'ion/Strategies rev 15313276: Melee
+Vet'ion	main	0	Vet'ion

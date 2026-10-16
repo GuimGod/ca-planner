@@ -59,6 +59,27 @@ public class BagTest
 	}
 
 	@Test
+	public void aPlaceholderIsOwnedButNotInStock() throws Exception
+	{
+		Bag bag = Bag.read(new StringReader(TABLE + "Smoke Devil\twear\t1\tslayer helmet|facemask=4164\tthe smoke\n"
+			+ "Gargoyle\tmapped\n"));
+		// kept as placeholders (quantity 0): a facemask, a rock hammer, sharks
+		Map<String, Bag.Have> kept = have(4164, 0, "Facemask", 4162, 0, "Rock hammer", 385, 0, "Shark", 2434, 4, "Prayer potion(4)");
+		Set<String> none = new HashSet<>();
+		assertTrue("the set can wear it: nothing is missing", bag.missing("Smoke Devil", kept, none).isEmpty());
+		assertTrue(bag.missing("Gargoyle", kept, none).isEmpty());
+		List<Bag.Line> lines = bag.of("Gargoyle", "Melee", kept, none, new HashSet<Integer>());
+		// none in stock: the hammer the fight needs is listed as still to get, and no shark is taken
+		assertFalse(line(lines, "Rock hammer").owned);
+		assertNull(line(lines, "Shark"));
+		assertNotNull(line(lines, "Prayer potion(4)"));
+		// a placeholder the set wears is not listed again
+		Set<Integer> worn = new HashSet<>();
+		worn.add(4162);
+		assertNull(line(bag.of("Gargoyle", "Melee", kept, none, worn), "Rock hammer"));
+	}
+
+	@Test
 	public void suppliesAreOnlyOnesThePlayerOwns() throws Exception
 	{
 		Bag bag = Bag.read(new StringReader(TABLE));

@@ -2,6 +2,12 @@
 # page of the OSRS Wiki, and the places the GPS plugin lists under the boss's name. The entrance, the lair or the last
 # tile outside an instance: not a place to stand in the fight. A boss with no row has no way marked yet.
 # boss	x	y	plane
+# A line with two more columns (label, note) is another place worth a route for that boss, under a button of its
+# own on the boss's page: where the key to its lair drops, say. It is not the way to the boss.
+# A line with four more columns (x, y, plane, note) is the way to a boss the route plugins (Shortest Path, GPS) cannot
+# reach: the first tile is the last one they reach (the entrance, or the surface above), the second is where the boss
+# is, and the note, shown under the button, says the rest of the way. When they can reach it, the second tile moves
+# into the first place and the rest of the line goes.
 Amoxliatl	1641	3222	0
 Cerberus	1310	1253	0
 Chaos Fanatic	2979	3846	0
@@ -26,8 +32,8 @@ Wintertodt	1630	3963	0
 Yama	1435	3668	0
 Zalcano	3281	6058	0
 Aberrant Spectre	2457	9788	0
-Alchemical Hydra	1368	10270	0
-Araxxor	3632	9815	0
+Alchemical Hydra	1311	3807	0	1368	10270	0	The route goes as far as Mount Karuulm: not every route plugin goes into the Karuulm Slayer Dungeon. From there you go on yourself, down into the dungeon.
+Araxxor	3656	3408	0	3632	9815	0	The route goes as far as the entrance of the Morytania Spider Cave: the route plugins do not go into the cave. From there you go on yourself, through the web tunnel to Araxxor.
 Barrows	3566	3291	0
 Basilisk Knight	2455	10388	0
 Black Dragon	2839	9829	0
@@ -35,13 +41,13 @@ Bloodveld	2459	9832	0
 Callisto	3293	3848	0
 Chambers of Xeric	1245	3557	0
 Chambers of Xeric: Challenge Mode	1245	3557	0
-Corporeal Beast	2986	4386	2
-Fire Giant	2121	9330	0
-Fortis Colosseum	1825	3109	0
+Corporeal Beast	2965	4254	2	2993	4254	2	The route goes as far as the Corporeal Beast's cave, where the games necklace lands: the route plugins do not go into its lair. From there you go on yourself, through the passage to the east.
+Fire Giant	2309	2919	0	2121	9330	0	The route goes as far as the entrance of the Isle of Souls Dungeon: the route plugins do not go into the dungeon. From there you go on yourself.
+Fortis Colosseum	1795	3107	0
 Gargoyle	3452	9935	3
-Greater Demon	2158	9336	0
+Greater Demon	2309	2919	0	2158	9336	0	The route goes as far as the entrance of the Isle of Souls Dungeon: the route plugins do not go into the dungeon. From there you go on yourself.
 Hellhound	2424	9793	0
-Hespori	1248	10089	0
+Hespori	1231	3728	0	1248	10089	0	The route goes as far as the cave in the Farming Guild: the fight is in an instance the route plugins cannot reach. From there you go on yourself: enter the cave.
 Kurask	2701	10001	0
 Skeletal Wyvern	3057	9547	0
 The Nightmare	3808	9762	1
@@ -49,30 +55,36 @@ Phosani's Nightmare	3808	9762	1
 Theatre of Blood	3663	3219	0
 Theatre of Blood: Entry Mode	3663	3219	0
 Theatre of Blood: Hard Mode	3663	3219	0
-Thermonuclear Smoke Devil	2362	9456	0
+Thermonuclear Smoke Devil	2412	3061	0	2362	9456	0	The route goes as far as the entrance of the Smoke Devil Dungeon: the route plugins do not go into the dungeon. From there you go on yourself, to the boss's room.
 Tombs of Amascut	3345	2725	0
 Tombs of Amascut: Entry Mode	3345	2725	0
 Tombs of Amascut: Expert Mode	3345	2725	0
 TzHaar-Ket-Rak's Challenges	2545	5110	0
 Vet'ion	3223	3786	0
-Wyrm	1263	10158	0
-Zulrah	2270	3074	0
+Wyrm	1311	3807	0	1263	10158	0	The route goes as far as Mount Karuulm: not every route plugin goes into the Karuulm Slayer Dungeon. From there you go on yourself, down into the dungeon.
+Zulrah	2215	3057	0	2270	3074	0	The route goes as far as the sacrificial boat at Zul-Andra: the shrine is an instance the route plugins cannot reach. From there you go on yourself: board the boat.
 Abyssal Sire	3107	4791	0
 Brutal Black Dragon	1611	10090	0
 Brutus	3263	3297	0
-Bryophyta	3220	9933	0
+Bryophyta	3174	9901	0
+Bryophyta	3159	9901	0	Mark the way to the mossy keys	Moss giants of the Varrock Sewers, by her lair: 1 in 150 for a mossy key (1 in 75 on a moss giant task). A cannon can be set up there. One key opens the lair for good and is not used up by it; after that Bryophyta drops keys herself (1 in 16), and each key opens her chest once. Bring a knife or a slashing weapon for the web.
 Chaos Elemental	3261	3927	0
-Demonic Gorilla	2072	5651	0
+Demonic Gorilla	2436	3520	0	2072	5651	0	The route goes as far as the gap in the fence north-west of the Grand Tree: the route plugins do not go into the Crash Site Cavern. From there you go on yourself: through the gap, then north-east into the cavern.
 Deranged Archaeologist	3683	3706	0
-General Graardor	2872	5358	0
-K'ril Tsutsaroth	2925	5322	0
-Kree'arra	2832	5302	0
+General Graardor	2914	3744	0	2872	5358	2	The route goes as far as the hole into the God Wars Dungeon: the route plugins do not go through the doors of the generals' rooms. From there you go on yourself: climb down, then to Bandos's stronghold.
+K'ril Tsutsaroth	2914	3744	0	2925	5322	2	The route goes as far as the hole into the God Wars Dungeon: the route plugins do not go through the doors of the generals' rooms. From there you go on yourself: climb down, then to Zamorak's fortress, across the river.
+Kree'arra	2914	3744	0	2832	5302	2	The route goes as far as the hole into the God Wars Dungeon: the route plugins do not go through the doors of the generals' rooms. From there you go on yourself: climb down, then to Armadyl's eyrie.
 Lizardman Shaman	1424	3718	0
 Mad Angel	2532	2215	0
 Maggot King	2658	7792	0
-Moons of Peril	1485	9632	0
+Moons of Peril	1439	9550	1	1485	9632	0	The route goes as far as Cam Torum: the route plugins do not go into Neypotzli, where the Moons are. From there you go on yourself: north, and up the stairs into Neypotzli.
 Scorpia	3233	10341	0
 Shellbane gryphon	3176	2477	0
-Tormented Demon	4136	4372	0
+Tormented Demon	3245	9500	2	4136	4372	0	The route goes as far as the Chasm of Tears: the route plugins do not go into the Ancient Guthixian Temple. From there you go on yourself: a light creature on the northern ledge, drawn with a lit sapphire lantern, takes you down to the temple.
 Venenatis	3319	3798	0
-Vorkath	2269	4062	0
+Vorkath	2272	4053	0	2269	4062	0	The route goes as far as the ice chunks on Ungael: the crater is an instance the route plugins cannot reach. From there you go on yourself: climb over the ice chunks.
+Duke Sucellus	2912	10336	0
+Leviathan	2064	6436	0
+Skotizo	1639	3673	0
+TzKal-Zuk	2496	5122	0
+Whisperer	2588	6435	0

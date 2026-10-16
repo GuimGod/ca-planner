@@ -298,3 +298,22 @@ Moons of Peril	1349	9574	0	FFC080FF	Moth (+22 prayer)
 Moons of Peril	1350	9570	0	FFC080FF	Moth (+22 prayer)	
 Moons of Peril	1362	9570	0	FFC080FF	Moth (+22 prayer)	
 Moons of Peril	1393	9706	0	FFFF8000	Lizard: rope on the rocks, then rustle the bush	
+# A boss name followed by "#" and a task id: tiles of that task alone, shown on the task's page in place of the boss's.
+# Axe Enthusiast (492): the ring of the inner 25 tiles; the centre tile (1129, 3418) was read from where Vardorvis
+# stands before the fight (he takes 3x3) and a first try stood 2 min 20 s on a corner of it without failing.
+Vardorvis#492	1127	3416	0	FFFF7A00		
+Vardorvis#492	1127	3417	0	FFFF7A00		
+Vardorvis#492	1127	3418	0	FFFF7A00		
+Vardorvis#492	1127	3419	0	FFFF7A00		
+Vardorvis#492	1127	3420	0	FFFF7A00		
+Vardorvis#492	1128	3416	0	FFFF7A00		
+Vardorvis#492	1128	3420	0	FFFF7A00		
+Vardorvis#492	1129	3416	0	FFFF7A00		
+Vardorvis#492	1129	3420	0	FFFF7A00	Inner 25	Axe Enthusiast: the ring of the inner 25 tiles (Vardorvis stands on the 9 in the middle). Be on these from about 250 of his hitpoints until he dies; the game says so in the chat the moment you step off them.
+Vardorvis#492	1130	3416	0	FFFF7A00		
+Vardorvis#492	1130	3420	0	FFFF7A00		
+Vardorvis#492	1131	3416	0	FFFF7A00		
+Vardorvis#492	1131	3417	0	FFFF7A00		
+Vardorvis#492	1131	3418	0	FFFF7A00		
+Vardorvis#492	1131	3419	0	FFFF7A00		
+Vardorvis#492	1131	3420	0	FFFF7A00		

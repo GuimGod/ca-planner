@@ -134,8 +134,7 @@ final class SetEffects
 		}
 		if (StyleCalc.RANGED.equals(c.combatClass) && isCrystalBow(c.weaponName))
 		{
-			int weight = itemName.startsWith("Crystal helm") ? 1 : itemName.startsWith("Crystal legs") ? 2
-				: itemName.startsWith("Crystal body") ? 3 : 0;
+			int weight = crystalWeight(itemName);
 			if (weight > 0)
 			{
 				return weight * CRYSTAL_UNIT;
@@ -199,6 +198,79 @@ final class SetEffects
 	}
 
 	/** True for a blessing: the one thing worn in the ammunition slot that is not ammunition. */
+	/**
+	 * Weapons held for their special attack and put away again, by a part of their name in lower case:
+	 * with one of them in hand, the weapon it was taken out for is not the one to go back to yet.
+	 */
+	private static final String[] SPECIAL_ATTACK_WEAPONS = {
+		// damage
+		"dragon claws", "burning claws", "voidwaker", "armadyl godsword", "crimson kisten", "dragon dagger", "abyssal dagger",
+		"granite maul", "dark bow", "magic shortbow", "dragon thrownaxe", "dragon knife", "dragon halberd", "crystal halberd",
+		"dragon mace", "dragon longsword", "dragon sword", "dragon 2h sword", "saradomin sword", "saradomin's blessed sword",
+		"vesta's longsword", "vesta's spear", "statius's warhammer", "morrigan's javelin", "morrigan's throwing axe",
+		"dragon crossbow", "armadyl crossbow", "light ballista", "heavy ballista", "volatile nightmare staff",
+		"eldritch nightmare staff", "rune claws", "brine sabre",
+		// the Tonalztics of Ralos: its special attack lowers the monster's defence (DefenceDrains), like the hammers below
+		"tonalztics",
+		// the monster's defence or other levels
+		"dragon warhammer", "elder maul", "bandos godsword", "barrelchest anchor", "bone dagger", "darklight", "seercull",
+		"ancient mace", "dorgeshuun crossbow",
+		// healing, holding in place, a boost
+		"saradomin godsword", "zamorak godsword", "ancient godsword", "dragon spear", "zamorakian spear", "dragon battleaxe",
+		"excalibur", "dinh's bulwark"};
+
+	/** Whether the weapon is one held for its special attack rather than to fight with. */
+	static boolean isSpecialAttackWeapon(String weaponName)
+	{
+		String n = weaponName == null ? "" : weaponName.toLowerCase(java.util.Locale.ROOT);
+		for (String part : SPECIAL_ATTACK_WEAPONS)
+		{
+			if (n.contains(part))
+			{
+				return true;
+			}
+		}
+		return false;
+	}
+
+	/**
+	 * Weapons whose worth is in hitting several monsters with one attack, by a part of their name in lower
+	 * case: the figures here are for one monster, so with one of them in hand no other weapon is pointed at.
+	 */
+	private static final String[] MANY_TARGET_WEAPONS = {"venator bow"};
+
+	/**
+	 * The Ancient Magicks that hit up to nine monsters in a 3x3 area, by their number in the game's autocast setting
+	 * (OSRS Wiki, Varbit 276): the bursts (35 to 38) and the barrages (43 to 46). The rushes and the blitzes hit one.
+	 */
+	static boolean isManyTargetSpell(int spell)
+	{
+		return spell >= 35 && spell <= 38 || spell >= 43 && spell <= 46;
+	}
+
+	/**
+	 * Whether no other weapon is pointed at while this one is in hand: one held for its special attack, or a weapon or a
+	 * spell on autocast chosen for hitting several monsters at once (the figures here are for one).
+	 */
+	static boolean pointsAtNoOtherWeapon(String weaponName, int spell)
+	{
+		return isSpecialAttackWeapon(weaponName) || isManyTargetWeapon(weaponName) || isManyTargetSpell(spell);
+	}
+
+	/** Whether the weapon is one chosen for what it does to several monsters at once. */
+	static boolean isManyTargetWeapon(String weaponName)
+	{
+		String n = weaponName == null ? "" : weaponName.toLowerCase(java.util.Locale.ROOT);
+		for (String part : MANY_TARGET_WEAPONS)
+		{
+			if (n.contains(part))
+			{
+				return true;
+			}
+		}
+		return false;
+	}
+
 	static boolean isBlessing(String itemName)
 	{
 		return itemName != null && itemName.toLowerCase(java.util.Locale.ROOT).contains(" blessing");
@@ -240,7 +312,7 @@ final class SetEffects
 	/**
 	 * Whether a monster is of the player's task: TRUE or FALSE when the task is one of the known
 	 * categories, null when it is not (a name the table does not have, or the "Bosses" task, whose
-	 * boss is not in the name).
+	 * boss is not in the name: {@link #onBossTask} takes the boss the game names).
 	 *
 	 * @param taskName         the task's name as the game gives it, or null
 	 * @param monsterCategories the monster's categories, as {@link #taskKey} writes them
@@ -255,6 +327,71 @@ final class SetEffects
 			return null;
 		}
 		return monsterCategories.contains(key);
+	}
+
+	/**
+	 * The monsters a boss task is done on, by the name the game gives the task (lower case, without a leading "the"),
+	 * when they are not the one named: the bosses the OSRS Wiki (Boss slayer tasks, Assignable bosses) lets kill instead,
+	 * the brothers, kings and guardians of a task named for all of them, and the Kraken of "The Cave Kraken Boss". The
+	 * task names are those of RuneLite's Slayer plugin (Task.java), which reads them from the same table of the game.
+	 */
+	private static final java.util.Map<String, List<String>> BOSS_TASK_TARGETS = new java.util.HashMap<>();
+
+	static
+	{
+		BOSS_TASK_TARGETS.put("barrows brothers", java.util.Arrays.asList("ahrim the blighted", "dharok the wretched",
+			"guthan the infested", "karil the tainted", "torag the corrupted", "verac the defiled"));
+		BOSS_TASK_TARGETS.put("callisto", java.util.Arrays.asList("callisto", "artio"));
+		BOSS_TASK_TARGETS.put("venenatis", java.util.Arrays.asList("venenatis", "spindel"));
+		BOSS_TASK_TARGETS.put("vet'ion", java.util.Arrays.asList("vet'ion", "calvar'ion"));
+		BOSS_TASK_TARGETS.put("crazy archaeologists", java.util.Arrays.asList("crazy archaeologist", "deranged archaeologist"));
+		BOSS_TASK_TARGETS.put("dagannoth kings", java.util.Arrays.asList("dagannoth rex", "dagannoth prime", "dagannoth supreme"));
+		BOSS_TASK_TARGETS.put("grotesque guardians", java.util.Arrays.asList("dusk", "dawn"));
+		BOSS_TASK_TARGETS.put("cave kraken boss", java.util.Collections.singletonList("kraken"));
+		// the Abyssal Sire's fight: its respiratory systems carry the Sire's categories (OSRS Wiki, Respiratory system)
+		BOSS_TASK_TARGETS.put("abyssal sire", java.util.Arrays.asList("abyssal sire", "respiratory system"));
+	}
+
+	/** A boss's or a boss task's name as compared: lower case, without a leading "the" ("The Leviathan" is "leviathan"). */
+	static String bossKey(String name)
+	{
+		String key = name == null ? "" : name.trim().toLowerCase(java.util.Locale.ROOT);
+		return key.startsWith("the ") ? key.substring(4) : key;
+	}
+
+	/**
+	 * Whether a monster is of the player's boss task (the game's task "Bosses", with the boss read from the game's table
+	 * of boss tasks): TRUE for the boss named or one the wiki lets kill instead, FALSE for any other monster and for the
+	 * awakened fights of Desert Treasure II's bosses, on which Slayer equipment has no effect (OSRS Wiki, Slayer helmet
+	 * and Boss slayer tasks); null when the boss is not known.
+	 *
+	 * @param bossTaskName the boss task's name as the game gives it ("The Abyssal Sire"), or null
+	 * @param monsterName  the monster's name
+	 * @param awakened     whether it is the awakened fight of one of Desert Treasure II's bosses
+	 * @param konar        whether Konar gave the task: on hers the Deranged archaeologist does not stand in for the Crazy one
+	 */
+	static Boolean onBossTask(String bossTaskName, String monsterName, boolean awakened, boolean konar)
+	{
+		String task = bossKey(bossTaskName);
+		if (task.isEmpty())
+		{
+			return null;
+		}
+		if (awakened)
+		{
+			return Boolean.FALSE;
+		}
+		String monster = bossKey(monsterName);
+		List<String> targets = BOSS_TASK_TARGETS.get(task);
+		if (targets == null)
+		{
+			return monster.equals(task);
+		}
+		if (konar && monster.equals("deranged archaeologist"))
+		{
+			return Boolean.FALSE;
+		}
+		return targets.contains(monster);
 	}
 
 	/** True for a piece that should stay on whatever else is carried, when nothing is known of the monster. */
@@ -316,11 +453,96 @@ final class SetEffects
 		return false;
 	}
 
-	/** The weight of a crystal armour piece with a crystal bow: helm 1, legs 2, body 3; 0 for anything else. */
+	/**
+	 * The weight of a crystal armour piece of Prifddinas with a crystal bow: helm 1, legs 2, body 3; 0 for anything else.
+	 * The Gauntlet's armour ("(basic)", "(attuned)", "(perfected)") is another item, and a piece without charges
+	 * ("(inactive)") loses its set effect (OSRS Wiki, Crystal body; the calculator counts both by the name).
+	 */
 	static int crystalWeight(String itemName)
 	{
-		return itemName == null ? 0 : itemName.startsWith("Crystal helm") ? 1 : itemName.startsWith("Crystal legs") ? 2
+		if (itemName == null || gauntletItem(itemName) || itemName.toLowerCase(java.util.Locale.ROOT).contains("(inactive)"))
+		{
+			return 0;
+		}
+		return itemName.startsWith("Crystal helm") ? 1 : itemName.startsWith("Crystal legs") ? 2
 			: itemName.startsWith("Crystal body") ? 3 : 0;
+	}
+
+	/** An item of the Gauntlet, by the tier in its name: "(basic)", "(attuned)" or "(perfected)". */
+	static boolean gauntletItem(String itemName)
+	{
+		String n = itemName == null ? "" : itemName.toLowerCase(java.util.Locale.ROOT);
+		return n.endsWith("(basic)") || n.endsWith("(attuned)") || n.endsWith("(perfected)");
+	}
+
+	/** The whole obsidian armour (the calculator's isWearingObsidian): helmet, platebody and platelegs. */
+	static boolean obsidianSet(Collection<String> names)
+	{
+		return hasStart(names, "Obsidian helmet") && hasStart(names, "Obsidian platebody") && hasStart(names, "Obsidian platelegs");
+	}
+
+	/** A Berserker necklace, plain or (or). */
+	static boolean berserkerNecklace(Collection<String> names)
+	{
+		return hasStart(names, "Berserker necklace");
+	}
+
+	/**
+	 * Ahrim's whole set with the Amulet of the damned (the calculator's isWearingAhrims): the staff, the hood, the robetop
+	 * and the robeskirt, none broken.
+	 */
+	static boolean ahrimsSet(Collection<String> names)
+	{
+		if (!wholeBarrowsSet(names, "ahrim's ") || names == null)
+		{
+			return false;
+		}
+		for (String name : names)
+		{
+			if (name != null && name.toLowerCase(java.util.Locale.ROOT).startsWith("amulet of the damned"))
+			{
+				return true;
+			}
+		}
+		return false;
+	}
+
+	/**
+	 * What the names of everything worn (the weapon among them) say about the sets that count in the damage: the crystal
+	 * armour's weight, the Void sets, Dharok's, Ahrim's with the damned, the obsidian armour and the Berserker necklace.
+	 */
+	static void wornSets(SetCalc.Loadout l, Collection<String> names)
+	{
+		l.crystal = 0;
+		if (names != null)
+		{
+			for (String name : names)
+			{
+				l.crystal += crystalWeight(name);
+			}
+		}
+		l.voidMelee = voidKind(names, StyleCalc.MELEE);
+		l.voidRanged = voidKind(names, StyleCalc.RANGED);
+		l.voidMagic = voidKind(names, StyleCalc.MAGIC);
+		l.dharokSet = wholeBarrowsSet(names, "dharok's ");
+		l.ahrimsSet = ahrimsSet(names);
+		l.obsidianSet = obsidianSet(names);
+		l.berserkerNecklace = berserkerNecklace(names);
+	}
+
+	private static boolean hasStart(Collection<String> names, String prefix)
+	{
+		if (names != null)
+		{
+			for (String name : names)
+			{
+				if (startsWith(name, prefix))
+				{
+					return true;
+				}
+			}
+		}
+		return false;
 	}
 
 	/**
@@ -440,11 +662,15 @@ final class SetEffects
 		return wholeBarrowsSet(all, b);
 	}
 
+	/**
+	 * The bows the crystal armour of Prifddinas works with (the calculator's isWearingCrystalBow): the Crystal bow and the
+	 * Bow of Faerdhinen. The Gauntlet's Crystal bow ("(basic)", "(attuned)", "(perfected)") is another item.
+	 */
 	static boolean isCrystalBow(String weaponName)
 	{
 		// the game writes "Bow of Faerdhinen (c)": the comparison must not depend on capitals
 		String n = weaponName == null ? "" : weaponName.toLowerCase(java.util.Locale.ROOT);
-		return n.startsWith("bow of faerdhinen") || n.startsWith("crystal bow");
+		return n.startsWith("bow of faerdhinen") || n.startsWith("crystal bow") && !gauntletItem(n);
 	}
 
 	/**

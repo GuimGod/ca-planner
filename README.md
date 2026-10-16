@@ -20,12 +20,13 @@ It reads the tasks and what you have done from the game itself, so there is noth
 
 ## Gear from your bank
 
-For each boss the panel shows the set that deals the most damage among what you own, slot by slot, with the damage a second and the time the boss's health takes at that rate. Open your bank once so the plugin knows what you own; it remembers it per account.
+For each boss the panel shows the set that deals the most damage among what you own, slot by slot, with the damage a second and the time the boss's health takes at that rate. Open your bank once so the plugin knows what you own; it remembers it per account. An item you keep a placeholder for counts as owned: you had it, you know what it is for, and you can buy it again when you need it. The inventory only takes supplies you have in stock.
 
-- It only suggests what you can wear and use: the levels an item asks for, the runes you own for a spell, ammunition the weapon can fire, charges.
+- It only suggests what you can wear and use: the levels an item asks for, the runes you own for a spell, ammunition the weapon can fire, charges. A part carried by name (below) is checked for the levels and the charge of its items, not for the spellbook or the runes of a spell it names.
 - What a fight makes you wear is in the set (a Slayer helmet or a facemask, an anti-dragon shield, boots of stone), and is listed in red when you do not own it.
 - A task with a rule of its own gets its own set: one combat style only, a given weapon, no shield, a kind of spell.
 - **Fights of several parts.** Where one set does not answer the whole fight, the panel says what to wear and what to carry for each part: the three Dagannoth Kings, Zulrah's forms, the Phantom Muspah, the Grotesque Guardians, the Royal Titans, the Moons of Peril, the Nightmare's totems, the Kalphite Queen's two forms, the Abyssal Sire's respiratory systems, the Tormented Demons, Yama's Judge. A task against the clock carries more pieces.
+- **For this, that item.** Where a part of the fight is not about damage the sums can count, the card names the item for it, the best first, and carries the first one you own: the special attacks of each fight in the order of the OSRS Wiki's recommended equipment (at the Corporeal Beast the Elder maul with the crush pieces that land it, then the Voidwaker), the Royal Titans out of reach, the Dawn's ranged, the Whisperer's lost souls, the Leviathan's enrage, Vorkath's spawn, Cerberus' summoned souls, Araxxor's araxytes, the Muspah's shield, Yama's Judge, the Hueycoatl's tail and the Inferno's waves. When you own none, the card names the best one to get; what a task's own rule does not allow is left out, and said so.
 - Raids, the Gauntlet and fights that are not about damage get no set.
 
 The figures use the standard accuracy and max hit formulas for melee, ranged and magic, with your best prayer and the potion of the style, and no special attacks. Weapons with a rule of their own are counted with it (demonbane and dragonbane weapons, the Scythe of vitur by the size of the monster, the Twisted bow, Tumeken's shadow, the keris partisans, crystal armour, Void, Inquisitor's, the Slayer helmet on task, the Salve amulet, ruby and diamond bolts, the elemental staves and tomes). A few get no figure and are said so: the Soulreaper axe, chinchompas and some others.
@@ -42,6 +43,16 @@ Under the set, the inventory: what the fight cannot be done without (a key, a to
 - A way out, always: the best one you own, from a Max cape or a house teleport down to a Ring of dueling, an Amulet of glory, a city tablet or a Ring of wealth. With none owned the page says so.
 
 It is a place to start from: the amounts and your switches are yours to settle.
+
+## Changing the gear
+
+Not happy with an item? Press "Change the gear" on the card and click any slot: what you wear, the pieces carried for a part of the fight, the inventory. Type part of a name to find the item (what you own comes first; one you do not own can be put in too, and is marked), take the item out, or put the recommendation back in that slot. "Back to the recommendation" undoes every change of the boss.
+
+- A change is for the whole boss, on its own page, its tasks and the Autopilot. Where a task's rule does not allow it (one hand, a shield, one style only), that task's card shows the recommendation in that slot and says why.
+- The card says it was changed by you, a line per change, with the damage of your set beside the recommended one, by the same sums.
+- Your own changes leave the inventory as it was. When the recommendation itself changes (an item you got, a new version), whatever you did not change follows it; where you did, your change stays and the card says what the recommendation is now, with a button to use it.
+- Copying the setup or creating it in Inventory Setups takes the card as it is, with your changes.
+- The changes are kept in this plugin's settings, for each account; the plugin sends nothing about them anywhere. "Forget my gear changes" in the settings clears those of the account you are logged in with.
 
 ## Working with other plugins
 
@@ -62,7 +73,11 @@ Every boss and task page has a "Bug or suggestion" button. It opens a window whe
 - "Open the report on GitHub" opens a new issue with the text filled in, for you to post.
 - "Copy the report" puts it on the clipboard.
 
-Apart from that button, the plugin makes no network requests.
+Apart from that button, the plugin makes one request: see the next section.
+
+## The monster table
+
+The gear the planner picks comes from the same damage engine as the Combat Check plugin, by the same authors, and from its table of monsters and weapons. When the plugin starts it asks Combat Check's GitHub repository whether a newer copy of that table has been published, and uses it, so a monster the game added is known without waiting for a new version of the plugin. It is one small request at startup; only numbers and names are read, and nothing about you is sent. Turn "Update the monster table" off in the settings and the plugin uses the table it came with and makes no request.
 
 ## Language
 

@@ -60,7 +60,6 @@ final class Loadouts
 			l.mask = Math.max(l.mask, p.mask);
 			l.salve = Math.max(l.salve, p.salve);
 			l.crystal += SetEffects.crystalWeight(p.name);
-			l.virtus += p.name != null && p.name.startsWith("Virtus ") ? 1 : 0;
 			names.add(p.name);
 		}
 		l.voidMelee = SetEffects.voidKind(names, StyleCalc.MELEE);
@@ -74,5 +73,26 @@ final class Loadouts
 		l.bolt = shot ? SetCalc.boltKind(ammo.name) : 0;
 		l.boltEffect = shot && l.bolt == 0 && ammo.name.endsWith("(e)") && !SetCalc.harmlessBolts(ammo.name);
 		return l;
+	}
+
+	/**
+	 * The magic damage, in percent, the pieces add to a spell of the Ancient Magicks cast from a staff, and to
+	 * no other spell: Virtus, 3% a piece (OSRS Wiki). It is what {@link SetEffects#magicDamageBonus} gives each
+	 * piece with that spellbook, which the sums take as part of {@link SetCalc.Loadout#magicDamage}.
+	 */
+	static double ancientMagicDamage(SwitchSet.Piece[] pieces)
+	{
+		SetEffects.Context ancient = new SetEffects.Context();
+		ancient.castingStaff = true;
+		ancient.ancientSpellbook = true;
+		double damage = 0;
+		for (SwitchSet.Piece p : pieces)
+		{
+			if (p != null)
+			{
+				damage += SetEffects.magicDamageBonus(p.name, ancient);
+			}
+		}
+		return damage;
 	}
 }

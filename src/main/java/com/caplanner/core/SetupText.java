@@ -49,7 +49,13 @@ public final class SetupText
 	 */
 	public static String of(String name, Map<Integer, Integer> itemIdBySlot, List<int[]> inventory)
 	{
-		return "{\"setup\":" + setup(name, itemIdBySlot, inventory) + ",\"layout\":[" + layout(itemIdBySlot, inventory) + "]}";
+		return of(name, itemIdBySlot, inventory, null);
+	}
+
+	/** @param notes the setup's notes; null for the planner's own */
+	public static String of(String name, Map<Integer, Integer> itemIdBySlot, List<int[]> inventory, String notes)
+	{
+		return "{\"setup\":" + setup(name, itemIdBySlot, inventory, notes) + ",\"layout\":[" + layout(itemIdBySlot, inventory) + "]}";
 	}
 
 	/** The setup alone, as Inventory Setups keeps it. */
@@ -59,6 +65,12 @@ public final class SetupText
 	}
 
 	public static String setup(String name, Map<Integer, Integer> itemIdBySlot, List<int[]> inventory)
+	{
+		return setup(name, itemIdBySlot, inventory, null);
+	}
+
+	/** @param notes the setup's notes; null for the planner's own */
+	public static String setup(String name, Map<Integer, Integer> itemIdBySlot, List<int[]> inventory, String notes)
 	{
 		StringBuilder out = new StringBuilder("{\"inv\":[");
 		for (int i = 0; i < INVENTORY_SLOTS; i++)
@@ -81,7 +93,8 @@ public final class SetupText
 			out.append(slot == 0 ? "" : ",").append(id == null || id <= 0 ? "null" : "{\"id\":" + id + "}");
 		}
 		out.append("],\"name\":\"").append(name.replace("\\", " ").replace("\"", " "))
-			.append("\",\"notes\":\"").append(inventory.isEmpty() ? "Picked by CA Planner from your bank. Add your own supplies."
+			.append("\",\"notes\":\"").append(notes != null ? notes.replace("\\", " ").replace("\"", " ")
+				: inventory.isEmpty() ? "Picked by CA Planner from your bank. Add your own supplies."
 				: "Picked by CA Planner from your bank. The inventory is a place to start from.").append('"')
 			.append(",\"hc\":\"#FFFF0000\",\"hd\":false,\"fb\":true,\"uh\":false}");
 		return out.toString();
@@ -122,6 +135,13 @@ public final class SetupText
 			out.append(i == 0 ? "" : ",").append(cells[i]);
 		}
 		return out.toString();
+	}
+
+	/** The notes of a setup the player changed: so it is not taken for the planner's own, with what they do not own. */
+	public static String changedNotes(List<String> notOwned)
+	{
+		return "Picked by CA Planner from your bank, changed by you." + (notOwned.isEmpty() ? ""
+			: " Not in your bank: " + String.join(", ", notOwned) + ".");
 	}
 
 	/** The name of a task's own setup, when its rule gives it a set of its own; else the boss's. */

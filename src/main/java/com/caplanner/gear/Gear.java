@@ -35,6 +35,11 @@ public final class Gear
 	/** The hitpoints left at which ruby bolts reach the most they can deal. */
 	private static final int RUBY_FULL = 500;
 	private static final String[] CLASSES = {StyleCalc.MELEE, StyleCalc.RANGED, StyleCalc.MAGIC};
+	/**
+	 * What goes in the shield slot and is not a shield, for a task that asks for one to be worn (Mine's Better:
+	 * "Defenders, God Books and the antler guard are not considered shields"): defenders, books and tomes.
+	 */
+	private static final List<String> NOT_A_SHIELD = java.util.Arrays.asList("defender", "book", "tome", "antler guard");
 
 	/** An item that can be worn, with the bonuses the game gives it. */
 	public static final class Stat
@@ -132,8 +137,37 @@ public final class Gear
 		}
 	}
 
-	private final StyleData data;
+	/** The engine's tables: the ones bundled, or a newer copy of them fetched at startup. */
+	private volatile StyleData data;
 	private final WearLevels wear;
+
+	/**
+	 * Asks Combat Check's repository, whose engine this is, for a newer copy of the engine's tables (monsters, weapons
+	 * and their attack styles), off the client thread; the copy is used from then on, unless the tables were changed
+	 * meanwhile. {@code later} runs the change where the plugin wants it (the client thread).
+	 */
+	public void fetchNewerTables(okhttp3.OkHttpClient http, java.util.function.Consumer<Runnable> later)
+	{
+		StyleData bundled = data;
+		RemoteData.fetch(http, RemoteData.bundled(), bundled, newer -> later.accept(() -> useNewer(bundled, newer)));
+	}
+
+	/** The tables in use. */
+	StyleData tables()
+	{
+		return data;
+	}
+
+	/** Takes the newer tables when the ones in use are still those they were fetched against. */
+	boolean useNewer(StyleData seen, StyleData newer)
+	{
+		if (newer == null || data != seen)
+		{
+			return false;
+		}
+		data = newer;
+		return true;
+	}
 
 	public Gear() throws IOException
 	{
@@ -153,7 +187,7 @@ public final class Gear
 	{
 		// nor is a boss that is not fought with weapons at all (Zalcano is mined)
 		String b = boss == null ? "" : boss.toLowerCase(Locale.ROOT);
-		return boss != null && !b.contains("hunllef") && !b.equals("zalcano") && data.named(boss) != null;
+		return boss != null && !b.contains("hunllef") && !b.equals("zalcano") && BossRows.named(data, boss) != null;
 	}
 
 	/**
@@ -176,8 +210,8 @@ public final class Gear
 	 */
 	public Result best(String boss, Collection<Stat> owned, Levels levels, boolean onTask, Limits limits)
 	{
-		StyleData.Monster monster = knows(boss) ? data.named(boss) : null;
-		return monster == null ? null : best(monster, Weapons.isInWilderness(boss), owned, levels, onTask, limits);
+		StyleData.Monster monster = knows(boss) ? BossRows.named(data, boss) : null;
+		return monster == null ? null : best(monster, BossRows.isInWilderness(boss), owned, levels, onTask, limits);
 	}
 
 	/**
@@ -189,6 +223,64 @@ public final class Gear
 	{
 		StyleData.Monster monster = data.monster(npcId);
 		return monster == null ? null : best(monster, false, owned, levels, onTask, limits);
+	}
+
+	/** The npc id of the table's row a boss's set is picked for, or 0 when there is none. For the bench. */
+	int npcOf(String boss)
+	{
+		StyleData.Monster monster = knows(boss) ? BossRows.named(data, boss) : null;
+		return monster == null ? 0 : monster.id;
+	}
+
+	/**
+	 * The ammunition to carry with a weapon held for a part: the owned one it fires with the most ranged strength, that
+	 * the task allows; null when the weapon shoots none, or what the set wears there fires from it already.
+	 */
+	Stat ammoFor(Stat weapon, Collection<Stat> owned, Stat worn, Limits lim)
+	{
+		String category = data.category(weapon.itemId);
+		if (Weapons.ammoKind(category, weapon.name) == null)
+		{
+			return null;
+		}
+		if (worn != null && Weapons.isShotAmmo(worn.name) && Weapons.canFire(weapon.itemId, category, weapon.name, worn.itemId, worn.name))
+		{
+			return null;
+		}
+		Stat best = null;
+		for (Stat s : owned)
+		{
+			if (s.slot != SwitchSet.AMMO || !Weapons.isShotAmmo(s.name) || !Weapons.canFire(weapon.itemId, category, weapon.name, s.itemId, s.name))
+			{
+				continue;
+			}
+			if (lim != null && (named(s.name, lim.exclude) || (lim.ammoWord != null && !Weapons.has(s.name, lim.ammoWord))))
+			{
+				continue;
+			}
+			// a tie goes to ruby bolts, the ones the wiki names for a crossbow's special attack (Araxxor/Strategies)
+			boolean ruby = s.name.toLowerCase(Locale.ROOT).contains("ruby");
+			if (best == null || s.rangedStrength > best.rangedStrength
+				|| (s.rangedStrength == best.rangedStrength && (s.ranged > best.ranged || (s.ranged == best.ranged && ruby))))
+			{
+				best = s;
+			}
+		}
+		return best;
+	}
+
+	/** Whether a weapon shoots ammunition and what is worn in its slot is not something it fires. */
+	boolean needsAmmo(Stat weapon, Stat worn)
+	{
+		String category = data.category(weapon.itemId);
+		return Weapons.ammoKind(category, weapon.name) != null
+			&& (worn == null || !Weapons.isShotAmmo(worn.name) || !Weapons.canFire(weapon.itemId, category, weapon.name, worn.itemId, worn.name));
+	}
+
+	/** Whether the player can wear the item and, for a weapon, attack with it: the levels it asks, a charge it needs. */
+	boolean canUse(Stat s, Levels levels)
+	{
+		return s.name == null || (!Weapons.cannotAttackUncharged(s.name) && wear.canWear(s.name, levels.all));
 	}
 
 	/** Whether the table has a monster of that id. */
@@ -237,6 +329,253 @@ public final class Gear
 		return most / 0.6;
 	}
 
+	/**
+	 * As {@link #dpsAt}, with the class the most is done in and the spell it is counted with: for a part of a fight the
+	 * player changed.
+	 */
+	public Worth worthAt(int npcId, Map<Integer, Stat> worn, Levels levels, boolean onTask)
+	{
+		StyleData.Monster monster = data.monster(npcId);
+		SwitchSet.Piece[] set = new SwitchSet.Piece[SwitchSet.SLOTS];
+		for (Map.Entry<Integer, Stat> e : worn.entrySet())
+		{
+			if (e.getKey() >= 0 && e.getKey() < SwitchSet.SLOTS && e.getValue() != null)
+			{
+				set[e.getKey()] = piece(e.getValue());
+			}
+		}
+		if (monster == null || set[SwitchSet.WEAPON] == null)
+		{
+			return new Worth(0, "", null);
+		}
+		SetCalc.Target target = target(monster, false, onTask);
+		Limits lim = new Limits();
+		lim.castable = Spells.castable(levels.magic, levels.runes, levels.ancients, null);
+		double most = 0;
+		String bestClass = null;
+		for (String cls : CLASSES)
+		{
+			lim.now = cls;
+			SetCalc.Loadout l = Loadouts.of(set, data);
+			if (cls.equals(SetCalc.combatClass(l)) || (StyleCalc.MAGIC.equals(cls) && casts(l, lim)))
+			{
+				double v = value(set, player(levels, cls), target, lim);
+				if (v > most)
+				{
+					most = v;
+					bestClass = cls;
+				}
+			}
+		}
+		if (bestClass == null)
+		{
+			return new Worth(0, "", null);
+		}
+		lim.now = bestClass;
+		int spell = spell(set, player(levels, bestClass), target, lim);
+		return new Worth(most / 0.6, bestClass.substring(0, 1).toUpperCase(Locale.ROOT) + bestClass.substring(1),
+			spell > 0 ? Spells.name(spell) : null);
+	}
+
+	/** The damage of a set the player changed: a second, the class it is done in, and the spell it is counted with. */
+	public static final class Worth
+	{
+		public final double dps;
+		/** "Melee", "Ranged" or "Magic"; empty when the set does nothing. */
+		public final String style;
+		/** Null when the weapon casts no spell. */
+		public final String spell;
+
+		Worth(double dps, String style, String spell)
+		{
+			this.dps = dps;
+			this.style = style;
+			this.spell = spell;
+		}
+	}
+
+	/**
+	 * The damage of a set as it is, counted as {@link #best} counts the set it picks: against the boss's own row (and in
+	 * the Wilderness when the boss is) for npc id 0, or against that monster of the table; with the potion and prayer of
+	 * each class the weapon can be used in that the task allows, and the most of them taken. For a set the player
+	 * changed, beside the one recommended.
+	 *
+	 * @param rule what the task allows (its styles, the kind of hit, spells only); null for anything
+	 */
+	public Worth worthOf(String boss, int npcId, Map<Integer, Stat> worn, Levels levels, boolean onTask, Limits rule)
+	{
+		StyleData.Monster monster = npcId == 0 ? (knows(boss) ? BossRows.named(data, boss) : null) : data.monster(npcId);
+		if (monster == null)
+		{
+			return new Worth(0, "", null);
+		}
+		SetCalc.Target target = target(monster, npcId == 0 && BossRows.isInWilderness(boss), onTask);
+		SwitchSet.Piece[] set = new SwitchSet.Piece[SwitchSet.SLOTS];
+		for (Map.Entry<Integer, Stat> e : worn.entrySet())
+		{
+			if (e.getKey() >= 0 && e.getKey() < SwitchSet.SLOTS && e.getValue() != null)
+			{
+				set[e.getKey()] = piece(e.getValue());
+			}
+		}
+		if (set[SwitchSet.WEAPON] == null)
+		{
+			return new Worth(0, "", null);
+		}
+		Limits lim = copy(rule);
+		lim.castable = Spells.castable(levels.magic, levels.runes, levels.ancients, lim.spellElement);
+		SwitchSet.Piece[] weaponOnly = new SwitchSet.Piece[SwitchSet.SLOTS];
+		weaponOnly[SwitchSet.WEAPON] = set[SwitchSet.WEAPON];
+		double most = 0;
+		String bestClass = null;
+		for (String cls : CLASSES)
+		{
+			// the classes the weapon is of, as the search takes them (a staff of the dead is a blade and a staff)
+			boolean ofClass = cls.equals(SetCalc.combatClass(Loadouts.of(weaponOnly, data)))
+				|| (StyleCalc.MAGIC.equals(cls) && "Bladed Staff".equals(data.category(set[SwitchSet.WEAPON].itemId)));
+			if (!ofClass || !classAllowed(cls, lim))
+			{
+				continue;
+			}
+			lim.now = cls;
+			double v = value(set, player(levels, cls), target, lim);
+			if (v > most)
+			{
+				most = v;
+				bestClass = cls;
+			}
+		}
+		if (bestClass == null)
+		{
+			return new Worth(0, "", null);
+		}
+		lim.now = bestClass;
+		int spell = spell(set, player(levels, bestClass), target, lim);
+		return new Worth(most / 0.6, bestClass.substring(0, 1).toUpperCase(Locale.ROOT) + bestClass.substring(1),
+			spell > 0 ? Spells.name(spell) : null);
+	}
+
+	/** Whether a task's rule lets a set be used in that class at all. */
+	private static boolean classAllowed(String cls, Limits lim)
+	{
+		return (lim.styles.isEmpty() || lim.styles.contains(cls))
+			&& ((lim.spellElement == null && !lim.spellsOnly) || StyleCalc.MAGIC.equals(cls))
+			&& (lim.meleeType == null || StyleCalc.MELEE.equals(cls));
+	}
+
+	/** What a task allows, as a copy the sums can write in; nothing allowed is lost. */
+	private static Limits copy(Limits rule)
+	{
+		Limits l = new Limits();
+		if (rule != null)
+		{
+			l.styles.addAll(rule.styles);
+			l.weapon.addAll(rule.weapon);
+			l.exclude.addAll(rule.exclude);
+			l.oneHanded = rule.oneHanded;
+			l.shield = rule.shield;
+			l.meleeType = rule.meleeType;
+			l.ammoWord = rule.ammoWord;
+			l.spellElement = rule.spellElement;
+			l.spellsOnly = rule.spellsOnly;
+		}
+		return l;
+	}
+
+	/**
+	 * Why a set the player changed breaks a task's rule, in a few words ("this task asks for a shield"), or null when it
+	 * keeps to it. Only the rule of the task: what the fight makes the player wear is not checked here.
+	 *
+	 * @param rule what the task allows; null for anything
+	 */
+	public String breaks(Map<Integer, Stat> worn, Levels levels, Limits rule)
+	{
+		if (rule == null)
+		{
+			return null;
+		}
+		for (Stat s : worn.values())
+		{
+			if (s != null && named(s.name, rule.exclude))
+			{
+				return "this task does not allow " + s.name;
+			}
+		}
+		Stat weapon = worn.get(SwitchSet.WEAPON);
+		boolean asksOfWeapon = !rule.styles.isEmpty() || !rule.weapon.isEmpty() || rule.spellsOnly || rule.spellElement != null
+			|| rule.meleeType != null || rule.ammoWord != null;
+		if (weapon == null)
+		{
+			return asksOfWeapon ? "this task asks for a weapon" : rule.shield && !hasShield(worn) ? "this task asks for a shield" : null;
+		}
+		if (!rule.weapon.isEmpty() && !named(weapon.name, rule.weapon))
+		{
+			// a list a table of words can say in another language: no "or" in it
+			return rule.weapon.size() == 1 ? "this task asks for " + rule.weapon.get(0) : "this task asks for one of: " + String.join(", ", rule.weapon);
+		}
+		if (rule.shield && (weapon.twoHanded || !hasShield(worn)))
+		{
+			return "this task asks for a shield";
+		}
+		if (rule.oneHanded && weapon.twoHanded)
+		{
+			return "this task asks for a one-handed weapon";
+		}
+		SwitchSet.Piece[] set = new SwitchSet.Piece[SwitchSet.SLOTS];
+		for (Map.Entry<Integer, Stat> e : worn.entrySet())
+		{
+			if (e.getKey() >= 0 && e.getKey() < SwitchSet.SLOTS && e.getValue() != null)
+			{
+				set[e.getKey()] = piece(e.getValue());
+			}
+		}
+		SetCalc.Loadout l = Loadouts.of(set, data);
+		String cls = SetCalc.combatClass(l);
+		Limits lim = copy(rule);
+		lim.now = StyleCalc.MAGIC;
+		boolean casts = casts(l, lim) || "Bladed Staff".equals(data.category(weapon.itemId));
+		if (!rule.styles.isEmpty() && !rule.styles.contains(cls) && !(rule.styles.contains(StyleCalc.MAGIC) && casts))
+		{
+			return rule.styles.size() == 1 ? "this task allows " + rule.styles.iterator().next() + " only"
+				: "this task allows only: " + String.join(", ", new java.util.TreeSet<>(rule.styles));
+		}
+		if ((rule.spellsOnly || rule.spellElement != null) && !casts(l, lim))
+		{
+			return "this task asks for spells";
+		}
+		if (rule.meleeType != null)
+		{
+			boolean hits = false;
+			for (StyleData.Style style : l.styles == null ? new ArrayList<StyleData.Style>() : l.styles)
+			{
+				hits |= rule.meleeType.equals(style.type);
+			}
+			if (!StyleCalc.MELEE.equals(cls) || !hits)
+			{
+				return "this task asks for " + rule.meleeType + " hits";
+			}
+		}
+		if (rule.ammoWord != null)
+		{
+			String category = data.category(weapon.itemId);
+			Stat ammo = worn.get(SwitchSet.AMMO);
+			boolean kept = Weapons.throwsItself(category) ? Weapons.has(weapon.name, rule.ammoWord)
+				: Weapons.ammoKind(category, weapon.name) != null && ammo != null && Weapons.has(ammo.name, rule.ammoWord);
+			if (!kept)
+			{
+				return "this task asks for " + rule.ammoWord + " ammunition";
+			}
+		}
+		return null;
+	}
+
+	/** Whether what is worn in the shield's hand is a shield, as a task that asks for one takes it. */
+	private static boolean hasShield(Map<Integer, Stat> worn)
+	{
+		Stat shield = worn.get(SwitchSet.SHIELD);
+		return shield != null && !named(shield.name, NOT_A_SHIELD);
+	}
+
 	private static SetCalc.Target target(StyleData.Monster monster, boolean wilderness, boolean onTask)
 	{
 		SetCalc.Target target = monster.target();
@@ -259,7 +598,8 @@ public final class Gear
 		for (Stat s : owned)
 		{
 			if (s != null && s.itemId > 0 && s.slot >= 0 && s.slot < SwitchSet.SLOTS && !byId.containsKey(s.itemId)
-				&& !named(s.name, lim.exclude) && !Weapons.cannotBeUsed(s.name) && wear.canWear(s.name, levels.all))
+				&& !named(s.name, lim.exclude) && !Weapons.cannotAttackUncharged(s.name) && wear.canWear(s.name, levels.all)
+				&& !(lim.shield && s.slot == SwitchSet.SHIELD && named(s.name, NOT_A_SHIELD)))
 			{
 				byId.put(s.itemId, piece(s));
 				stats.put(s.itemId, s);
@@ -578,7 +918,7 @@ public final class Gear
 				{
 					continue;
 				}
-				if (shot && !Weapons.canFire(weapon.name, p.name))
+				if (shot && !Weapons.canFire(weapon.itemId, data.category(weapon.itemId), weapon.name, p.itemId, p.name))
 				{
 					// arrows too good for the bow, bolts too good for the crossbow
 					continue;
@@ -623,11 +963,15 @@ public final class Gear
 			return 0;
 		}
 		l.tome = Spells.tome(set[SwitchSet.SHIELD] == null ? null : set[SwitchSet.SHIELD].name);
+		// Virtus adds to the Ancient Magicks only
+		double damage = l.magicDamage;
+		double ancientDamage = Loadouts.ancientMagicDamage(set);
 		int best = 0;
 		double most = 0;
 		for (int spell : lim.castable)
 		{
 			l.spell = spell;
+			l.magicDamage = Spells.ancient(spell) ? damage + ancientDamage : damage;
 			if (!SetCalc.plain(l))
 			{
 				continue;
@@ -650,10 +994,14 @@ public final class Gear
 		{
 			// a staff with no attack of its own: as good as the best spell the player can cast with it
 			l.tome = Spells.tome(set[SwitchSet.SHIELD] == null ? null : set[SwitchSet.SHIELD].name);
+			// Virtus adds to the Ancient Magicks only
+			double damage = l.magicDamage;
+			double ancientDamage = Loadouts.ancientMagicDamage(set);
 			double most = 0;
 			for (int spell : lim.castable)
 			{
 				l.spell = spell;
+				l.magicDamage = Spells.ancient(spell) ? damage + ancientDamage : damage;
 				if (SetCalc.plain(l))
 				{
 					most = Math.max(most, SetCalc.perTick(l, player, target, false));

@@ -70,6 +70,7 @@ Nothing missing with that name.	Nada faltando com esse nome.
 # ---- reasons
 Finish {}	Termine {1}
 Start {}	Comece {1}
+{} (you have {}) or {} (you have {})	{1} (você tem {2}) ou {3} (você tem {4})
 {} (you have {})	{1} (você tem {2})
 Only on a Slayer task: {}	Só em Slayer task: {1}
 Needs more than one player	Precisa de mais de um jogador
@@ -78,6 +79,9 @@ Needs {} to wear	Precisa vestir {1}
 Needs {}	Precisa de {1}
 Complete the Gauntlet once	Complete a Gauntlet uma vez
 Complete the Theatre of Blood once	Complete o Theatre of Blood uma vez
+Complete the Inferno once	Complete o Inferno uma vez
+Unlock the rooftop with a brittle key, from gargoyles on a Slayer task	Destranque o telhado com uma brittle key, dos gargoyles em Slayer task
+Reach the Abyss once: the Enter the Abyss miniquest, or the fairy rings	Chegue ao Abyss uma vez: a miniquest Enter the Abyss, ou os fairy rings
 Give a fire cape to TzHaar-Ket-Keh	Entregue uma fire cape ao TzHaar-Ket-Keh
 Wilderness Medium diary, or the boss as a Slayer task	Diary Medium da Wilderness, ou o boss como Slayer task
 · {}	· {1}
@@ -147,6 +151,7 @@ The limit is {}. By damage alone this set is {} over it, before anything else in
 TO CHANGE INTO FOR: {}	PRA TROCAR EM: {1}
 Nothing you own does this part, as far as the plugin can tell.	Nada do que você tem resolve esta parte, até onde o plugin sabe.
 The set you wear does this part too.	O set vestido também resolve esta parte.
+The {} carried for {} does this part too.	A arma levada pra {2} também resolve esta parte: {1}.
 An empty slot means nothing you own adds damage there. Counted with your best prayer and a super combat potion, without special attacks.	Slot vazio quer dizer que nada do que você tem soma dano ali. Contado com o seu melhor prayer e uma Super combat potion, sem special attacks.
 An empty slot means nothing you own adds damage there. Counted with your best prayer and a ranging potion, without special attacks.	Slot vazio quer dizer que nada do que você tem soma dano ali. Contado com o seu melhor prayer e uma Ranging potion, sem special attacks.
 An empty slot means nothing you own adds damage there. Counted with your best prayer, without special attacks.	Slot vazio quer dizer que nada do que você tem soma dano ali. Contado com o seu melhor prayer, sem special attacks.
@@ -164,6 +169,18 @@ Supplies are only ones you own; what the fight needs is listed either way. A pla
 #
 # ---- way and setup
 Mark the way on the map	Marcar o caminho no mapa
+Mark the way to the mossy keys	Marcar o caminho das mossy keys
+Moss giants of the Varrock Sewers, by her lair: 1 in 150 for a mossy key (1 in 75 on a moss giant task). A cannon can be set up there. One key opens the lair for good and is not used up by it; after that Bryophyta drops keys herself (1 in 16), and each key opens her chest once. Bring a knife or a slashing weapon for the web.	Moss giants do Varrock Sewers, ao lado da toca dela: 1 em 150 pra uma mossy key (1 em 75 em task de moss giants). Dá pra montar cannon lá. Uma chave destranca a toca de vez e não é gasta nisso; depois a própria Bryophyta dropa chaves (1 em 16), e cada chave abre o baú dela uma vez. Leve uma knife ou uma arma de corte pra teia.
+The route goes as far as the sacrificial boat at Zul-Andra: the shrine is an instance the route plugins cannot reach. From there you go on yourself: board the boat.	A rota vai até o sacrificial boat em Zul-Andra: o santuário é instância e os plugins de rota não chegam lá. Dali você segue sozinho: embarque no barco.
+The route goes as far as the entrance of the Morytania Spider Cave: the route plugins do not go into the cave. From there you go on yourself, through the web tunnel to Araxxor.	A rota vai até a entrada da Morytania Spider Cave: os plugins de rota não entram na caverna. Dali você segue sozinho, pelo web tunnel até o Araxxor.
+The route goes as far as the cave in the Farming Guild: the fight is in an instance the route plugins cannot reach. From there you go on yourself: enter the cave.	A rota vai até a caverna da Farming Guild: a luta é numa instância que os plugins de rota não alcançam. Dali você segue sozinho: entre na caverna.
+The route goes as far as the ice chunks on Ungael: the crater is an instance the route plugins cannot reach. From there you go on yourself: climb over the ice chunks.	A rota vai até os ice chunks em Ungael: a cratera é instância e os plugins de rota não chegam lá. Dali você segue sozinho: pule os ice chunks.
+The route goes as far as the entrance of the Smoke Devil Dungeon: the route plugins do not go into the dungeon. From there you go on yourself, to the boss's room.	A rota vai até a entrada do Smoke Devil Dungeon: os plugins de rota não entram na dungeon. Dali você segue sozinho, até a sala do boss.
+The route goes as far as the entrance of the Isle of Souls Dungeon: the route plugins do not go into the dungeon. From there you go on yourself.	A rota vai até a entrada da Isle of Souls Dungeon: os plugins de rota não entram na dungeon. Dali você segue sozinho.
+The route goes as far as the Chasm of Tears: the route plugins do not go into the Ancient Guthixian Temple. From there you go on yourself: a light creature on the northern ledge, drawn with a lit sapphire lantern, takes you down to the temple.	A rota vai até o Chasm of Tears: os plugins de rota não entram no Ancient Guthixian Temple. Dali você segue sozinho: uma light creature na borda norte, atraída com uma sapphire lantern acesa, leva você até o templo.
+The route goes as far as the gap in the fence north-west of the Grand Tree: the route plugins do not go into the Crash Site Cavern. From there you go on yourself: through the gap, then north-east into the cavern.	A rota vai até o buraco na cerca a noroeste da Grand Tree: os plugins de rota não entram na Crash Site Cavern. Dali você segue sozinho: passe pelo buraco e vá pro nordeste até a caverna.
+The route goes as far as Mount Karuulm: not every route plugin goes into the Karuulm Slayer Dungeon. From there you go on yourself, down into the dungeon.	A rota vai até o Mount Karuulm: nem todo plugin de rota entra na Karuulm Slayer Dungeon. Dali você segue sozinho, descendo pra dungeon.
+The route goes as far as Cam Torum: the route plugins do not go into Neypotzli, where the Moons are. From there you go on yourself: north, and up the stairs into Neypotzli.	A rota vai até Cam Torum: os plugins de rota não entram em Neypotzli, onde ficam as Moons. Dali você segue sozinho: pro norte, e suba a escada pra Neypotzli.
 The way there: under construction for this boss.	O caminho até lá: em construção pra este boss.
 Asks your route plugin (Shortest Path or GPS) for the way to {}	Pede ao seu plugin de rota (Shortest Path ou GPS) o caminho até {1}
 To have the way there marked on the map, install the Shortest Path plugin or the GPS plugin from the Plugin Hub and turn it on.	Pra ter o caminho marcado no mapa, instale o plugin Shortest Path ou o GPS pelo Plugin Hub e ligue ele.
@@ -211,7 +228,7 @@ one totem a fight	um totem por luta
 starts the fight	começa a luta
 to cross into the Eyrie	pra atravessar pro Eyrie
 any crossbow, to fire the grapple	qualquer crossbow, pra disparar o grapple
-to ring the gong at the door	pra tocar o gongo da porta
+to bang on the door (an Elder maul or a Dragon warhammer does it too)	pra bater na porta (Elder maul ou Dragon warhammer também servem)
 two to climb down, until the Desert Hard diary makes them stay	duas pra descer, até o Desert Hard diary deixar elas fixas
 poison	veneno
 venom	venom
@@ -295,6 +312,8 @@ Clear the tiles	Tirar os tiles
 TILES	TILES
 Tiles the authors placed and used themselves. They are fixed: nothing follows the fight.	Tiles que os autores marcaram e usaram. São fixos: nada acompanha a luta.
 # ---- what is written on the tiles, and what each is for
+Inner 25	25 do centro
+Axe Enthusiast: the ring of the inner 25 tiles (Vardorvis stands on the 9 in the middle). Be on these from about 250 of his hitpoints until he dies; the game says so in the chat the moment you step off them.	Axe Enthusiast: o contorno dos 25 tiles do centro (o Vardorvis fica nos 9 do meio). Fique neles desde uns 250 de vida dele até ele morrer; o jogo avisa no chat na hora em que você pisa fora.
 Stand here	Fique aqui
 Step here, and back	Pise aqui e volte
 Against the wall, midway between two pillars: the tile to fight from, and to step off when an axe comes.	Colado na parede, no meio entre dois pilares: o tile de onde lutar, e de onde sair quando vem um machado.
@@ -344,3 +363,147 @@ Lizard: rope on the rocks, then rustle the bush	Lagarto: rope nas pedras, depois
 3 East or 3 West	3 Leste ou 3 Oeste
 When three axes come from the east or from the west and the other tiles leave nowhere to go: this one.	Quando vêm três machados do leste ou do oeste e os outros tiles não deixam pra onde ir: este.
 It changes its protection prayer after taking 50 damage of one style: two styles are needed.	Ele troca a prayer de proteção depois de tomar 50 de dano de um estilo: precisa de dois estilos.
+The route goes as far as the Corporeal Beast's cave, where the games necklace lands: the route plugins do not go into its lair. From there you go on yourself, through the passage to the east.	A rota vai até a caverna do Corporeal Beast, onde o games necklace deixa: os plugins de rota não entram no covil. Dali você segue sozinho, pela passagem a leste.
+The route goes as far as the hole into the God Wars Dungeon: the route plugins do not go through the doors of the generals' rooms. From there you go on yourself: climb down, then to Bandos's stronghold.	A rota vai até o buraco da God Wars Dungeon: os plugins de rota não passam pelas portas das salas dos generais. Dali você segue sozinho: desça e vá até a fortaleza de Bandos.
+The route goes as far as the hole into the God Wars Dungeon: the route plugins do not go through the doors of the generals' rooms. From there you go on yourself: climb down, then to Zamorak's fortress, across the river.	A rota vai até o buraco da God Wars Dungeon: os plugins de rota não passam pelas portas das salas dos generais. Dali você segue sozinho: desça e vá até a fortaleza de Zamorak, do outro lado do rio.
+The route goes as far as the hole into the God Wars Dungeon: the route plugins do not go through the doors of the generals' rooms. From there you go on yourself: climb down, then to Armadyl's eyrie.	A rota vai até o buraco da God Wars Dungeon: os plugins de rota não passam pelas portas das salas dos generais. Dali você segue sozinho: desça e vá até o ninho de Armadyl.
+Husks	Husks
+Husks hold you until they die.	Husks te prendem até morrerem.
+Parasites	Parasitas
+Parasites come out of you: kill them quickly.	Os parasitas saem de você: mate eles rápido.
+Sleepwalkers	Sleepwalkers
+Last phase: special attacks	Fase final: specs
+Her last phase: special attacks, with your energy kept full for it.	A fase final dela: specs, com a energia cheia guardada pra ela.
+You own none of the weapons for this part. The best: {}.	Você não tem nenhuma das armas desta parte. A melhor: {1}.
+This task's rule leaves out: {}.	A regra desta task deixa de fora: {1}.
+# ---- parts of a fight carried by name (October 2026)
+Special attack	Spec
+Special attack: lower its Defence	Spec: baixar a defesa
+Special attack: lower his Defence	Spec: baixar a defesa
+Special attack: damage	Spec: dano
+Its shield: special attacks	O escudo: specs
+A crossbow with sapphire dragon bolts (e) takes its shield down.	Uma besta com sapphire dragon bolts (e) derruba o escudo.
+Dawn flies: ranged, magic or a Noxious halberd. The wiki brings a blowpipe beside the venator bow.	A Dawn voa: ranged, magic ou Noxious halberd. A wiki leva uma blowpipe junto do venator bow.
+A fire and a water spell: elementals die to the opposite element, walls to Blast spells or better. They need a magic attack bonus of 70 or more.	Uma magia de fogo e uma de água: os elementais morrem pro elemento oposto, as paredes pra Blast ou melhor. Elas pedem bônus de ataque mágico de 70 ou mais.
+Sleepwalkers die to any hit: be quick, or hit several at once.	Sleepwalkers morrem com qualquer hit: seja rápido, ou acerte vários de uma vez.
+They take only ranged, magic or a Noxious halberd, while the Sire is stunned.	Só tomam ranged, magic ou Noxious halberd, com o Sire atordoado.
+The Judge and the void flares, with magic	O Judge e os void flares, com magic
+The Judge protects against ranged, and against whichever of melee and magic last hit it: change between a melee weapon and this. Every hit on it lands, and a weapon of several hits counts one.	O Judge reza contra ranged, e contra o que acertou por último entre melee e magic: alterne entre uma arma de melee e esta. Todo hit nele acerta, e uma arma de vários hits conta um.
+Three Emberlight special attacks take his Defence to 145.	Três specs da Emberlight levam a defesa dele a 145.
+The Judge: special attack to heal	O Judge: spec pra curar
+The wiki wears Masori (f) body and chaps here, for their magic defence.	A wiki veste Masori (f) no corpo e nas pernas aqui, pela defesa mágica.
+Until two or three land, or it is down to about 1,700 health; then the Voidwaker.	Até acertar duas ou três, ou ele chegar a uns 1.700 de vida; depois a Voidwaker.
+One that lands is enough: its Defence goes down by 45 at most.	Uma que acerta basta: a defesa dele cai 45 no máximo.
+Araxytes	Araxytes
+They always take a max hit from a Noxious halberd, a crush weapon or a heavy ranged weapon.	Sempre tomam max hit de Noxious halberd, arma de crush ou arma pesada de ranged.
+Zombified spawn: Crumble Undead	Zombified spawn: Crumble Undead
+Or cast it from the spellbook, with chaos and dust runes.	Ou lance do livro, com chaos e dust runes.
+Summoned souls	Almas invocadas
+It halves the prayer the souls drain: wear it with a one-handed weapon (the Emberlight or an Arclight).	Corta pela metade a prayer que as almas drenam: use com arma de uma mão (a Emberlight ou uma Arclight).
+The wiki has the Zaryte crossbow the best until it is down to 450 health.	A wiki dá a Zaryte crossbow como a melhor até ele chegar a 450 de vida.
+Enrage, inside the pathfinder	Enrage, dentro do pathfinder
+Inside the pathfinder no ranged attack misses: a blowpipe's speed counts most.	Dentro do pathfinder nenhum ataque de ranged erra: a velocidade da blowpipe é o que mais conta.
+Lost souls	Lost souls
+A shot that bounces kills a row of three.	Um tiro que ricocheteia mata uma fileira de três.
+Alone, a popular way is the Scorching bow, its special attack holding him.	Solo, um jeito comum é o Scorching bow, com a spec prendendo ele.
+The Inferno's waves come before him: the parts below are for them.	As ondas da Inferno vêm antes dele: as partes abaixo são pra elas.
+Waves: bats, blobs, meleers, rangers, healers	Ondas: bats, blobs, meleers, rangers, healers
+Nibblers: Ice Barrage	Nibblers: Ice Barrage
+Ice Barrage on the nibblers before they reach the pillars.	Ice Barrage nos nibblers antes de chegarem nos pilares.
+The Fight Cave's waves come before him: the part below is for them.	As ondas da Fight Cave vêm antes dele: a parte abaixo é pra elas.
+Waves	Ondas
+Tail	Cauda
+Each hit on the tail is capped, higher with crush as your best bonus: a weapon of several hits does most. The blood moon armour speeds the dual macuahuitl.	Cada hit na cauda tem teto, maior com crush como o seu maior bônus: arma de vários hits rende mais. A armadura Blood moon acelera a dual macuahuitl.
+Shadow and Zaros phases	Fases Shadow e Zaros
+Ranged is the wiki's style for these two phases.	Ranged é o estilo da wiki nessas duas fases.
+Its knockback fails on 40 kg or more of worn equipment: the plugin does not weigh the set.	O empurrão dele falha com 40 kg ou mais de equipamento vestido: o plugin não pesa o set.
+mines the salt faster (an iron pickaxe hangs on the wall there)	minera o sal mais rápido (tem uma iron pickaxe na parede lá)
+shows where she dug to	mostra pra onde ela cavou
+its icy breath	o sopro de gelo dele
+the growthlings	os growthlings
+A demonbane weapon breaks its shield.	Uma arma demonbane quebra o escudo dele.
+Turn auto-retaliate off.	Desligue o auto-retaliate.
+The Elder maul or the warhammer once a phase; the Saradomin godsword on the sleepwalkers.	Elder maul ou warhammer uma vez por fase; a Saradomin godsword nos sleepwalkers.
+#
+# ---- the player's changes to the gear (the more particular shapes before the more general ones)
+GEAR FROM YOUR BANK, CHANGED BY YOU	GEAR DO SEU BANCO, TROCADA POR VOCÊ
+{} damage a second (recommended {})	{1} de dano por segundo (recomendado {2})
+Change the gear	Trocar a gear
+Done changing	Terminar a troca
+Lets you change any item of this card: the set, the pieces for each part, the inventory	Deixa trocar qualquer item deste card: o set, as peças de cada parte, a mochila
+Stops the slots answering a click	Os slots param de responder ao clique
+Click a slot to change it: what is worn, the pieces carried for each part, the inventory. A change is for every task of this boss.	Clique num slot pra trocar: o que você veste, as peças de cada parte, a mochila. A troca vale pra todas as tasks deste boss.
+Back to the recommendation	Voltar ao recomendado
+Forgets every change you made to this boss's gear	Esquece todas as trocas que você fez na gear deste boss
+Forget every change you made to the gear of {}? Every slot goes back to the recommendation.	Esquecer todas as trocas que você fez na gear de {1}? Todos os slots voltam ao recomendado.
+Use the recommendation	Usar o recomendado
+Puts back what the planner recommends in this slot now	Põe de volta o que o planner recomenda neste slot agora
+Forget them	Esquecer
+Forgets the changes that have no place on this card any more	Esquece as trocas que não têm mais lugar neste card
+Head	Cabeça
+Cape	Capa
+Neck	Pescoço
+Weapon	Arma
+Body	Corpo
+Shield	Escudo
+Legs	Pernas
+Hands	Mãos
+Feet	Pés
+Ring	Anel
+Ammunition	Munição
+A piece carried for {}	Uma peça levada pra {1}
+not in your bank	não está no seu banco
+Empty: click to put an item in	Vazio: clique pra pôr um item
+change it in its part above	troque na parte dele, acima
+Now: {}	Agora: {1}
+Recommended: {}	Recomendado: {1}
+nothing	nada
+Type a part of the item's name	Digite parte do nome do item
+How many, for an item that stacks:	Quantos, pra item que empilha:
+The inventory is full: take an item out first.	A mochila está cheia: tire um item antes.
+Nothing of that name goes here.	Nada com esse nome vai aqui.
+Type at least two letters. What you own comes first; an item you do not own can be put in too, and is marked.	Digite pelo menos duas letras. O que você tem vem primeiro; dá pra pôr um item que você não tem, e ele fica marcado.
+Take it out	Tirar o item
+Leaves this slot empty	Deixa este slot vazio
+Back to the recommendation (this slot)	Voltar ao recomendado (só este)
+Puts back what the planner recommends here	Põe de volta o que o planner recomenda aqui
+Changes nothing	Não muda nada
+owned	tenho
+Put it in	Pôr
+{}: you changed {} → {}	{1}: você trocou {2} → {3}
+{}: you took out {}	{1}: você tirou {2}
+{}: you put in {}	{1}: você pôs {2}
+{}: the recommendation here is now {}.	{1}: o recomendado aqui agora é {2}.
+{}: {}, so the recommendation stays here.	{1}: {2}, então fica o recomendado aqui.
+this task asks for one of: {}	esta task pede um destes: {1}
+this task allows only: {}	esta task só aceita: {1}
+this task asks for a one-handed weapon	esta task pede arma de uma mão
+this task asks for a shield	esta task pede escudo
+this task asks for a weapon	esta task pede uma arma
+this task asks for spells	esta task pede magias
+this task asks for {} hits	esta task pede golpes de {1}
+this task asks for {} ammunition	esta task pede munição de {1}
+this task allows {} only	esta task só aceita {1}
+this task does not allow {}	esta task não aceita {1}
+this task asks for {}	esta task pede {1}
+{} is not in your bank.	{1} não está no seu banco.
+{} taken off: {} goes in the shield's hand and {} is two-handed.	{1} saiu: {2} vai na mão do escudo e {3} é de duas mãos.
+{} taken off: {} is two-handed.	{1} saiu: {2} é de duas mãos.
+The fight needs {} worn: you changed it.	A luta exige {1} vestido: você trocou.
+The fight needs {} held: you changed it.	A luta exige {1} na mão: você trocou.
+The fight needs {} in the inventory: you took it out.	A luta exige {1} na mochila: você tirou.
+1 old change no longer applies.	1 troca antiga não vale mais.
+{} old changes no longer apply.	{1} trocas antigas não valem mais.
+Over 28 inventory slots: the last 1 is left out.	Passou de 28 espaços na mochila: o último ficou de fora.
+Over 28 inventory slots: the last {} are left out.	Passou de 28 espaços na mochila: os {1} últimos ficaram de fora.
+The inventory is full, so {} is not carried for {}. Take an item out first.	A mochila está cheia, então {1} não vai pra {2}. Tire um item antes.
+Inventory slot {}	Espaço {1} da mochila
+{} carried for {}	{1} levado pra {2}
+{}: {} is two-handed and recommended here, so {} is left out.	{1}: {2} é de duas mãos e é o recomendado aqui, então {3} fica de fora.
+{} carries {} pieces at most, so {} is not carried for it.	{1} leva no máximo {2} peças, então {3} não vai pra ela.
+For {}: {} goes in the shield's hand, so {} comes off.	Pra {1}: {2} vai na mão do escudo, então {3} sai.
+Inventory	Mochila
+This set does no damage here, as far as the plugin can tell (recommended {} damage a second).	Este set não dá dano aqui, até onde o plugin sabe (recomendado {1} de dano por segundo).
+The set you wear does this part: {} damage a second.	O set que você veste resolve esta parte: {1} de dano por segundo.
+The set as you changed it does nothing to this part, as far as the plugin can tell.	O set como você trocou não faz nada nesta parte, até onde o plugin sabe.
+No more changes can be kept: put some slots back to the recommendation first.	Não cabem mais trocas: volte alguns slots ao recomendado antes.

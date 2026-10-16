@@ -36,8 +36,10 @@ final class StyleCalc
 		int strength;
 		/** Inquisitor's pieces worn, weighted as the game does: helm 1, hauberk 2, plateskirt 2. */
 		int inquisitor;
-		/** Osmumten's fang: rolls accuracy twice and narrows its damage range, on stab only. */
+		/** Osmumten's fang: rolls accuracy twice on stab, and narrows its damage range with every style. */
 		boolean fang;
+		/** A weapon that hits twice, up to half the max each (Torag's hammers, the Glacial temotli...). */
+		boolean twoHits;
 		/** A weapon that deals full damage to the Corporeal Beast on stab (fang, halberd, spear). */
 		boolean corpbane;
 
@@ -47,18 +49,54 @@ final class StyleCalc
 		int defenceCrush;
 		/** The Corporeal Beast halves melee damage from anything but a corpbane weapon on stab. */
 		boolean corporealBeast;
-		/** A monster every attack lands on, whatever the style (the calculator's rule for the Tormented Demon). */
+		/** A monster every attack lands on, whatever the style (the Wardens of the second phase, the Doom's shield and burrow). */
 		boolean alwaysHit;
+		/**
+		 * The share of the attacks that meet the monster without defence and land, the others rolling against it: the
+		 * Tormented Demon's (SetCalc.Target#defencelessShare), 0 for any other.
+		 */
+		double defencelessShare;
 		/** Slayer helmet on task or Salve amulet against the undead: multiplies the attack roll and the max hit. */
 		int bonusNumerator = 1;
 		int bonusDenominator = 1;
 		/** What a weapon with a rule of its own does to the attack roll and to the max hit (a demonbane weapon on a demon). */
 		double weaponAccuracy = 1;
 		double weaponDamage = 1;
+		/** The same in whole numbers, each rounded down as the calculator does (the keris partisans: 115/100, 133/100). */
+		int accuracyNumerator = 1;
+		int accuracyDenominator = 1;
+		int damageNumerator = 1;
+		int damageDenominator = 1;
+		/** The whole obsidian armour with a TzHaar weapon: a tenth of the accuracy and of the max hit before the bonuses is added. */
+		boolean obsidian;
 		/** Added to the max hit after everything else (the Colossal blade, by the monster's size). */
 		int maxAdd;
 		/** The whole melee Void set: a tenth more effective Attack and Strength, rounded down, before the gear's bonus. */
 		boolean voidMelee;
+		/** A monster every melee attack lands on at the max hit (the calculator's ALWAYS_MAX_HIT_MONSTERS). */
+		boolean alwaysMax;
+		/** The ranged and magic attack bonuses worn: with the three of melee, which one is the highest. */
+		int ranged;
+		int magic;
+		/**
+		 * Araxxor's araxytes ({@link Weapons#araxyteMax}): every attack of the Noxious halberd ({@link #noxiousHalberd}),
+		 * and of a crush style while crush is the highest attack bonus worn, lands at the max hit.
+		 */
+		boolean araxyteMax;
+		boolean noxiousHalberd;
+		/** A hit kills the monster (Scurrius's rats, the Flowers): every style deals the same, its hitpoints. */
+		boolean oneHit;
+		/** A monster of the Tombs of Amascut: Osmumten's fang rolls its accuracy twice the raid's way, 1 - (1 - p)^2. */
+		boolean toa;
+		/** The raid level the monster's defence roll is multiplied by, as (250 + it) / 250; 0 for none. */
+		int defenceRollInvocation;
+		/**
+		 * The Hueycoatl's tail: each hit that lands is limited to a random 0 to 4, or 0 to 9 with a crush style while crush
+		 * is the highest of the stab, slash and crush bonuses (then a hit left at nothing, a miss too, deals 1).
+		 */
+		boolean hueycoatlTail;
+		/** Verzik's first phase: each melee hit that lands is limited to a random 0 to 10. */
+		boolean verzikP1;
 	}
 
 	private StyleCalc()
@@ -89,13 +127,52 @@ final class StyleCalc
 		}
 		double[] cm = chanceAndMax(in, type, stance);
 		long max = (long) cm[1];
-		boolean fangStab = in.fang && STAB.equals(type);
-		double average = fangStab ? averageBetween(max * 3 / 20, max - max * 3 / 20) : averageBetween(0, max);
+		// Osmumten's fang deals 15% to 85% of its max hit with every style; its double roll is for stab only
+		long min = in.fang ? max * 3 / 20 : 0;
+		if (in.oneHit)
+		{
+			// every style that can deal anything deals the monster's hitpoints: a tie
+			return max - min > 0 ? 1 : 0;
+		}
+		boolean araxyte = in.araxyteMax && (in.noxiousHalberd
+			|| CRUSH.equals(type) && "crush".equals(SetCalc.highestBonus(in.stab, in.slash, in.crush, in.ranged, in.magic)));
+		if (in.alwaysMax || araxyte)
+		{
+			return Math.max(1, max - min);
+		}
+		// each hit limited to a random 0 to 10 on Verzik's first phase; on the Hueycoatl's tail 0 to 4, or 0 to 9 for
+		// crush while crush is the highest bonus (a miss then deals 1)
+		boolean crushRule = in.hueycoatlTail && CRUSH.equals(type) && in.crush > in.slash && in.crush > in.stab;
+		int limit = in.verzikP1 ? 10 : in.hueycoatlTail ? (crushRule ? 9 : 4) : 0;
+		double average = in.twoHits ? between(0, max / 2, limit, crushRule) + between(0, max - max / 2, limit, crushRule)
+			: between(min, max - min, limit, crushRule);
 		if (in.corporealBeast && !(in.corpbane && STAB.equals(type)))
 		{
 			average /= 2;
 		}
-		return cm[0] * average;
+		return cm[0] * average + (crushRule ? (in.twoHits ? 2 : 1) * (1 - cm[0]) : 0);
+	}
+
+	/**
+	 * Mean of a hit rolled evenly from min to max that landed, limited as on Verzik's first phase or the Hueycoatl's tail
+	 * when {@code limit} is set.
+	 */
+	private static double between(long min, long max, int limit, boolean zeroToOne)
+	{
+		if (limit <= 0)
+		{
+			return averageBetween(min, max);
+		}
+		if (max < min)
+		{
+			return 0;
+		}
+		double sum = 0;
+		for (long h = min; h <= max; h++)
+		{
+			sum += SetCalc.limitedMean(Math.max(1, h), limit, zeroToOne);
+		}
+		return sum / (max - min + 1);
 	}
 
 	/** The chance to hit and the max hit of one attack with this damage type and stance. */
@@ -127,20 +204,41 @@ final class StyleCalc
 
 		long attackRoll = attack * (attackBonus + 64);
 		long max = (strength * (in.strength + 64) + 320) / 640;
+		long baseRoll = attackRoll;
+		long baseMax = max;
 		attackRoll = attackRoll * in.bonusNumerator / in.bonusDenominator;
 		max = max * in.bonusNumerator / in.bonusDenominator;
-		attackRoll = (long) (attackRoll * in.weaponAccuracy);
-		max = (long) (max * in.weaponDamage) + in.maxAdd;
+		if (in.obsidian)
+		{
+			// a tenth of the roll and of the max hit before the Salve amulet or the Slayer helmet (the calculator's)
+			attackRoll += baseRoll / 10;
+			max += baseMax / 10;
+		}
+		attackRoll = (long) (attackRoll * in.weaponAccuracy) * in.accuracyNumerator / in.accuracyDenominator;
+		max = (long) (max * in.weaponDamage) * in.damageNumerator / in.damageDenominator + in.maxAdd;
 		if (CRUSH.equals(type) && in.inquisitor > 0)
 		{
 			attackRoll = attackRoll * (200 + in.inquisitor) / 200;
 			max = max * (200 + in.inquisitor) / 200;
 		}
-		long defenceRoll = (long) (in.defenceLevel + 9) * (defenceBonus + 64);
+		// in the Tombs of Amascut the roll grows with the raid level, after the drains (the calculator's order)
+		long defenceRoll = ToaScaling.defenceRoll((long) (in.defenceLevel + 9) * (defenceBonus + 64), in.defenceRollInvocation);
 
 		boolean fangStab = in.fang && STAB.equals(type);
-		double chance = in.alwaysHit ? 1 : fangStab ? fangChance(attackRoll, defenceRoll) : chance(attackRoll, defenceRoll);
+		double chance = in.alwaysHit ? 1 : fangStab ? (in.toa ? fangChanceInTheTombs(attackRoll, defenceRoll)
+			: fangChance(attackRoll, defenceRoll)) : chance(attackRoll, defenceRoll);
+		if (!in.alwaysHit && in.defencelessShare > 0)
+		{
+			chance = in.defencelessShare + (1 - in.defencelessShare) * chance;
+		}
 		return new double[]{chance, max};
+	}
+
+	/** Osmumten's fang inside the Tombs of Amascut: two rolls of the ordinary chance, 1 - (1 - p)^2 (the calculator's). */
+	static double fangChanceInTheTombs(long attack, long defence)
+	{
+		double p = chance(attack, defence);
+		return 1 - (1 - p) * (1 - p);
 	}
 
 	/** Mean of a hit rolled evenly from min to max, where a successful hit of 0 counts as 1. */

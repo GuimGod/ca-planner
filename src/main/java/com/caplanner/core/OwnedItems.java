@@ -27,17 +27,21 @@ public final class OwnedItems
 	}
 
 	/**
+	 * A placeholder counts as owned: whoever keeps one has had the item, knows what it is for, and can buy it
+	 * again. The game gives a placeholder an id of its own with quantity 1 (the item's id comes from
+	 * canonicalizing it); a slot with quantity 0 is owned all the same, with none of it in stock.
+	 *
 	 * @param ids        item ids, slot by slot; an empty slot is -1 or 0
-	 * @param quantities the quantity in each slot; a placeholder has quantity 0 and is not owned
+	 * @param quantities the quantity in each slot
 	 */
 	public static OwnedItems of(int[] ids, int[] quantities)
 	{
 		Map<Integer, Integer> map = new LinkedHashMap<>();
 		for (int i = 0; i < ids.length && i < quantities.length; i++)
 		{
-			if (ids[i] > 0 && quantities[i] > 0)
+			if (ids[i] > 0)
 			{
-				map.merge(ids[i], quantities[i], (a, b) -> (int) Math.min(Integer.MAX_VALUE, (long) a + b));
+				map.merge(ids[i], Math.max(0, quantities[i]), (a, b) -> (int) Math.min(Integer.MAX_VALUE, (long) a + b));
 			}
 		}
 		return new OwnedItems(map);
@@ -97,7 +101,7 @@ public final class OwnedItems
 				{
 					int id = Integer.parseInt(pair.substring(0, colon).trim());
 					int quantity = Integer.parseInt(pair.substring(colon + 1).trim());
-					if (id > 0 && quantity > 0)
+					if (id > 0 && quantity >= 0)
 					{
 						map.put(id, quantity);
 					}

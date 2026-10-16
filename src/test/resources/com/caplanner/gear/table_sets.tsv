@@ -1,0 +1,613 @@
+# set	class	weapon id	weapon	category	speed	npc id	npc	stab	slash	crush	magic	ranged	str	rstr	mdmg	calculator damage per tick	slayer helmet kind	salve amulet kind	on task (1)	crystal armour weight	void melee	void ranged	in the wilderness (1)	autocast spell number	tome element	Chambers of Xeric party size (0 for no scaling)	Challenge Mode (1)	special attacks on top	Tombs of Amascut raid level (-1 when none is read)	path level	party size read in the Theatre of Blood or the Tombs of Amascut (0 for none)	the monster's health now	boosted levels attack;strength;ranged;magic	inquisitor weight	bolts (1 ruby, 2 diamond)	the calculator's phase	void magic (1 Void, 2 Elite Void)	ammunition worn	Efaritay's aid worn (1)
+tbow	ranged	20997	Twisted bow	Bow	6	494	Kraken	-8	-8	-8	-19	215	0	100	0.0	0.23012	0	0	0	0	0	0	0	0		0	0		-1	0	0	255	99;99;112;99	0	0		0	Dragon arrow	0
+tbow	ranged	20997	Twisted bow	Bow	6	492	Cave kraken	-8	-8	-8	-19	215	0	100	0.0	0.47633	0	0	0	0	0	0	0	0		0	0		-1	0	0	125	99;99;112;99	0	0		0	Dragon arrow	0
+blowpipe	ranged	12926	Toxic blowpipe	Thrown	3	494	Kraken	-8	-8	-8	-19	175	0	75	0.0	0.96113	0	0	0	0	0	0	0	0		0	0		-1	0	0	255	99;99;112;99	0	0		0		0
+blowpipe	ranged	12926	Toxic blowpipe	Thrown	3	492	Cave kraken	-8	-8	-8	-19	175	0	75	0.0	0.62543	0	0	0	0	0	0	0	0		0	0		-1	0	0	125	99;99;112;99	0	0		0		0
+dhcb	ranged	21012	Dragon hunter crossbow	Crossbow	6	494	Kraken	-15	-16	-15	-29	258	0	145	0.0	0.59211	0	0	0	0	0	0	0	0		0	0		-1	0	0	255	99;99;112;99	0	0		0	Runite bolts	0
+dhcb	ranged	21012	Dragon hunter crossbow	Crossbow	6	492	Cave kraken	-15	-16	-15	-29	258	0	145	0.0	0.44082	0	0	0	0	0	0	0	0		0	0		-1	0	0	125	99;99;112;99	0	0		0	Runite bolts	0
+shadow	magic	27275	Tumeken's shadow	Powered Staff	5	494	Kraken	0	0	0	164	-17	0	0	24.0	6.52662	0	0	0	0	0	0	0	0		0	0		-1	0	0	255	99;99;99;112	0	0		0		0
+shadow	magic	27275	Tumeken's shadow	Powered Staff	5	492	Cave kraken	0	0	0	164	-17	0	0	24.0	6.59783	0	0	0	0	0	0	0	0		0	0		-1	0	0	125	99;99;99;112	0	0		0		0
+sang	magic	22323	Sanguinesti staff	Powered Staff	4	494	Kraken	0	0	0	154	-21	0	0	24.0	6.09395	0	0	0	0	0	0	0	0		0	0		-1	0	0	255	99;99;99;112	0	0		0		0
+sang	magic	22323	Sanguinesti staff	Powered Staff	4	492	Cave kraken	0	0	0	154	-21	0	0	24.0	6.26667	0	0	0	0	0	0	0	0		0	0		-1	0	0	125	99;99;99;112	0	0		0		0
+trident	magic	12899	Trident of the Swamp	Powered Staff	4	494	Kraken	0	0	0	154	-17	0	0	24.0	5.34316	0	0	0	0	0	0	0	0		0	0		-1	0	0	255	99;99;99;112	0	0		0		0
+trident	magic	12899	Trident of the Swamp	Powered Staff	4	492	Cave kraken	0	0	0	154	-17	0	0	24.0	5.49460	0	0	0	0	0	0	0	0		0	0		-1	0	0	125	99;99;99;112	0	0		0		0
+scythe	melee	22325	Scythe of Vitur	Scythe	5	494	Kraken	117	210	77	-61	-63	138	0	0.0	0.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	255	118;118;99;99	0	0		0		0
+rapier	melee	22324	Ghrazi rapier	Stab Sword	4	494	Kraken	177	169	75	-60	-67	164	0	0.0	0.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	255	118;118;99;99	0	0		0		0
+inquisitors-mace	melee	24417	Inquisitor's mace	Spiked	4	494	Kraken	129	110	177	-60	-67	167	0	0.0	0.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	255	118;118;99;99	0	0		0		0
+dragon-pickaxe	melee	11920	Dragon pickaxe	Pickaxe	5	1362	Slagilith	115	112	107	-60	-67	113	0	0.0	3.81479	0	0	0	0	0	0	0	0		0	0		-1	0	0	60	118;118;99;99	0	0		0		0
+dragon-pickaxe	melee	11920	Dragon pickaxe	Pickaxe	5	1364	Slagilith	115	112	107	-60	-67	113	0	0.0	3.81479	0	0	0	0	0	0	0	0		0	0		-1	0	0	60	118;118;99;99	0	0		0		0
+scythe	melee	22325	Scythe of Vitur	Scythe	5	1362	Slagilith	117	210	77	-61	-63	138	0	0.0	2.03374	0	0	0	0	0	0	0	0		0	0		-1	0	0	60	118;118;99;99	0	0		0		0
+scythe	melee	22325	Scythe of Vitur	Scythe	5	1364	Slagilith	117	210	77	-61	-63	138	0	0.0	2.03374	0	0	0	0	0	0	0	0		0	0		-1	0	0	60	118;118;99;99	0	0		0		0
+rapier	melee	22324	Ghrazi rapier	Stab Sword	4	1362	Slagilith	177	169	75	-60	-67	164	0	0.0	1.94994	0	0	0	0	0	0	0	0		0	0		-1	0	0	60	118;118;99;99	0	0		0		0
+rapier	melee	22324	Ghrazi rapier	Stab Sword	4	1364	Slagilith	177	169	75	-60	-67	164	0	0.0	1.94994	0	0	0	0	0	0	0	0		0	0		-1	0	0	60	118;118;99;99	0	0		0		0
+tbow	ranged	20997	Twisted bow	Bow	6	1362	Slagilith	-8	-8	-8	-19	215	0	100	0.0	0.39776	0	0	0	0	0	0	0	0		0	0		-1	0	0	60	99;99;112;99	0	0		0	Dragon arrow	0
+tbow	ranged	20997	Twisted bow	Bow	6	1364	Slagilith	-8	-8	-8	-19	215	0	100	0.0	0.39776	0	0	0	0	0	0	0	0		0	0		-1	0	0	60	99;99;112;99	0	0		0	Dragon arrow	0
+blowpipe	ranged	12926	Toxic blowpipe	Thrown	3	1362	Slagilith	-8	-8	-8	-19	175	0	75	0.0	2.08013	0	0	0	0	0	0	0	0		0	0		-1	0	0	60	99;99;112;99	0	0		0		0
+blowpipe	ranged	12926	Toxic blowpipe	Thrown	3	1364	Slagilith	-8	-8	-8	-19	175	0	75	0.0	2.08013	0	0	0	0	0	0	0	0		0	0		-1	0	0	60	99;99;112;99	0	0		0		0
+shadow	magic	27275	Tumeken's shadow	Powered Staff	5	1362	Slagilith	0	0	0	164	-17	0	0	24.0	2.12553	0	0	0	0	0	0	0	0		0	0		-1	0	0	60	99;99;99;112	0	0		0		0
+shadow	magic	27275	Tumeken's shadow	Powered Staff	5	1364	Slagilith	0	0	0	164	-17	0	0	24.0	2.12553	0	0	0	0	0	0	0	0		0	0		-1	0	0	60	99;99;99;112	0	0		0		0
+sang	magic	22323	Sanguinesti staff	Powered Staff	4	1362	Slagilith	0	0	0	154	-21	0	0	24.0	1.98722	0	0	0	0	0	0	0	0		0	0		-1	0	0	60	99;99;99;112	0	0		0		0
+sang	magic	22323	Sanguinesti staff	Powered Staff	4	1364	Slagilith	0	0	0	154	-21	0	0	24.0	1.98722	0	0	0	0	0	0	0	0		0	0		-1	0	0	60	99;99;99;112	0	0		0		0
+scythe	melee	22325	Scythe of Vitur	Scythe	5	866	Zogre	117	210	77	-61	-63	138	0	0.0	1.62202	0	0	0	0	0	0	0	0		0	0		-1	0	0	71	118;118;99;99	0	0		0		0
+scythe	melee	22325	Scythe of Vitur	Scythe	5	870	Zogre	117	210	77	-61	-63	138	0	0.0	1.62202	0	0	0	0	0	0	0	0		0	0		-1	0	0	71	118;118;99;99	0	0		0		0
+scythe	melee	22325	Scythe of Vitur	Scythe	5	872	Skogre	117	210	77	-61	-63	138	0	0.0	1.62202	0	0	0	0	0	0	0	0		0	0		-1	0	0	71	118;118;99;99	0	0		0		0
+scythe	melee	22325	Scythe of Vitur	Scythe	5	882	Slash Bash	117	210	77	-61	-63	138	0	0.0	1.75894	0	0	0	0	0	0	0	0		0	0		-1	0	0	100	118;118;99;99	0	0		0		0
+rapier	melee	22324	Ghrazi rapier	Stab Sword	4	866	Zogre	177	169	75	-60	-67	164	0	0.0	1.59284	0	0	0	0	0	0	0	0		0	0		-1	0	0	71	118;118;99;99	0	0		0		0
+rapier	melee	22324	Ghrazi rapier	Stab Sword	4	870	Zogre	177	169	75	-60	-67	164	0	0.0	1.59284	0	0	0	0	0	0	0	0		0	0		-1	0	0	71	118;118;99;99	0	0		0		0
+rapier	melee	22324	Ghrazi rapier	Stab Sword	4	872	Skogre	177	169	75	-60	-67	164	0	0.0	1.59284	0	0	0	0	0	0	0	0		0	0		-1	0	0	71	118;118;99;99	0	0		0		0
+rapier	melee	22324	Ghrazi rapier	Stab Sword	4	882	Slash Bash	177	169	75	-60	-67	164	0	0.0	1.50813	0	0	0	0	0	0	0	0		0	0		-1	0	0	100	118;118;99;99	0	0		0		0
+inquisitors-mace	melee	24417	Inquisitor's mace	Spiked	4	866	Zogre	129	110	177	-60	-67	167	0	0.0	1.59284	0	0	0	0	0	0	0	0		0	0		-1	0	0	71	118;118;99;99	0	0		0		0
+inquisitors-mace	melee	24417	Inquisitor's mace	Spiked	4	870	Zogre	129	110	177	-60	-67	167	0	0.0	1.59284	0	0	0	0	0	0	0	0		0	0		-1	0	0	71	118;118;99;99	0	0		0		0
+inquisitors-mace	melee	24417	Inquisitor's mace	Spiked	4	872	Skogre	129	110	177	-60	-67	167	0	0.0	1.59284	0	0	0	0	0	0	0	0		0	0		-1	0	0	71	118;118;99;99	0	0		0		0
+inquisitors-mace	melee	24417	Inquisitor's mace	Spiked	4	882	Slash Bash	129	110	177	-60	-67	167	0	0.0	1.50813	0	0	0	0	0	0	0	0		0	0		-1	0	0	100	118;118;99;99	0	0		0		0
+tbow	ranged	20997	Twisted bow	Bow	6	866	Zogre	-8	-8	-8	-19	215	0	100	0.0	0.36444	0	0	0	0	0	0	0	0		0	0		-1	0	0	71	99;99;112;99	0	0		0	Dragon arrow	0
+tbow	ranged	20997	Twisted bow	Bow	6	870	Zogre	-8	-8	-8	-19	215	0	100	0.0	0.36444	0	0	0	0	0	0	0	0		0	0		-1	0	0	71	99;99;112;99	0	0		0	Dragon arrow	0
+tbow	ranged	20997	Twisted bow	Bow	6	872	Skogre	-8	-8	-8	-19	215	0	100	0.0	0.36444	0	0	0	0	0	0	0	0		0	0		-1	0	0	71	99;99;112;99	0	0		0	Dragon arrow	0
+tbow	ranged	20997	Twisted bow	Bow	6	882	Slash Bash	-8	-8	-8	-19	215	0	100	0.0	0.34425	0	0	0	0	0	0	0	0		0	0		-1	0	0	100	99;99;112;99	0	0		0	Dragon arrow	0
+blowpipe	ranged	12926	Toxic blowpipe	Thrown	3	866	Zogre	-8	-8	-8	-19	175	0	75	0.0	1.67735	0	0	0	0	0	0	0	0		0	0		-1	0	0	71	99;99;112;99	0	0		0		0
+blowpipe	ranged	12926	Toxic blowpipe	Thrown	3	870	Zogre	-8	-8	-8	-19	175	0	75	0.0	1.67735	0	0	0	0	0	0	0	0		0	0		-1	0	0	71	99;99;112;99	0	0		0		0
+blowpipe	ranged	12926	Toxic blowpipe	Thrown	3	872	Skogre	-8	-8	-8	-19	175	0	75	0.0	1.67735	0	0	0	0	0	0	0	0		0	0		-1	0	0	71	99;99;112;99	0	0		0		0
+blowpipe	ranged	12926	Toxic blowpipe	Thrown	3	882	Slash Bash	-8	-8	-8	-19	175	0	75	0.0	1.63610	0	0	0	0	0	0	0	0		0	0		-1	0	0	100	99;99;112;99	0	0		0		0
+shadow	magic	27275	Tumeken's shadow	Powered Staff	5	866	Zogre	0	0	0	164	-17	0	0	24.0	1.57009	0	0	0	0	0	0	0	0		0	0		-1	0	0	71	99;99;99;112	0	0		0		0
+shadow	magic	27275	Tumeken's shadow	Powered Staff	5	870	Zogre	0	0	0	164	-17	0	0	24.0	1.57009	0	0	0	0	0	0	0	0		0	0		-1	0	0	71	99;99;99;112	0	0		0		0
+shadow	magic	27275	Tumeken's shadow	Powered Staff	5	872	Skogre	0	0	0	164	-17	0	0	24.0	1.57009	0	0	0	0	0	0	0	0		0	0		-1	0	0	71	99;99;99;112	0	0		0		0
+shadow	magic	27275	Tumeken's shadow	Powered Staff	5	882	Slash Bash	0	0	0	164	-17	0	0	24.0	1.57009	0	0	0	0	0	0	0	0		0	0		-1	0	0	100	99;99;99;112	0	0		0		0
+sang	magic	22323	Sanguinesti staff	Powered Staff	4	866	Zogre	0	0	0	154	-21	0	0	24.0	1.46062	0	0	0	0	0	0	0	0		0	0		-1	0	0	71	99;99;99;112	0	0		0		0
+sang	magic	22323	Sanguinesti staff	Powered Staff	4	870	Zogre	0	0	0	154	-21	0	0	24.0	1.46062	0	0	0	0	0	0	0	0		0	0		-1	0	0	71	99;99;99;112	0	0		0		0
+sang	magic	22323	Sanguinesti staff	Powered Staff	4	872	Skogre	0	0	0	154	-21	0	0	24.0	1.46062	0	0	0	0	0	0	0	0		0	0		-1	0	0	71	99;99;99;112	0	0		0		0
+sang	magic	22323	Sanguinesti staff	Powered Staff	4	882	Slash Bash	0	0	0	154	-21	0	0	24.0	1.46062	0	0	0	0	0	0	0	0		0	0		-1	0	0	100	99;99;99;112	0	0		0		0
+leaf-bladed-battleaxe	melee	20727	Leaf-bladed battleaxe	Axe	5	410	Kurask	75	186	147	-60	-67	163	0	0.0	5.57990	0	0	0	0	0	0	0	0		0	0		-1	0	0	97	118;118;99;99	0	0		0		0
+leaf-bladed-battleaxe	melee	20727	Leaf-bladed battleaxe	Axe	5	411	Kurask	75	186	147	-60	-67	163	0	0.0	5.57990	0	0	0	0	0	0	0	0		0	0		-1	0	0	97	118;118;99;99	0	0		0		0
+leaf-bladed-battleaxe	melee	20727	Leaf-bladed battleaxe	Axe	5	7405	King kurask	75	186	147	-60	-67	163	0	0.0	3.86529	0	0	0	0	0	0	0	0		0	0		-1	0	0	270	118;118;99;99	0	0		0		0
+leaf-bladed-battleaxe	melee	20727	Leaf-bladed battleaxe	Axe	5	427	Turoth	75	186	147	-60	-67	163	0	0.0	5.70262	0	0	0	0	0	0	0	0		0	0		-1	0	0	81	118;118;99;99	0	0		0		0
+leaf-bladed-battleaxe	melee	20727	Leaf-bladed battleaxe	Axe	5	430	Turoth	75	186	147	-60	-67	163	0	0.0	5.73872	0	0	0	0	0	0	0	0		0	0		-1	0	0	76	118;118;99;99	0	0		0		0
+leaf-bladed-battleaxe	melee	20727	Leaf-bladed battleaxe	Axe	5	10397	Spiked Turoth	75	186	147	-60	-67	163	0	0.0	4.94596	0	0	0	0	0	0	0	0		0	0		-1	0	0	195	118;118;99;99	0	0		0		0
+scythe	melee	22325	Scythe of Vitur	Scythe	5	410	Kurask	117	210	77	-61	-63	138	0	0.0	0.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	97	118;118;99;99	0	0		0		0
+scythe	melee	22325	Scythe of Vitur	Scythe	5	411	Kurask	117	210	77	-61	-63	138	0	0.0	0.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	97	118;118;99;99	0	0		0		0
+scythe	melee	22325	Scythe of Vitur	Scythe	5	7405	King kurask	117	210	77	-61	-63	138	0	0.0	0.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	270	118;118;99;99	0	0		0		0
+scythe	melee	22325	Scythe of Vitur	Scythe	5	427	Turoth	117	210	77	-61	-63	138	0	0.0	0.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	81	118;118;99;99	0	0		0		0
+scythe	melee	22325	Scythe of Vitur	Scythe	5	430	Turoth	117	210	77	-61	-63	138	0	0.0	0.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	76	118;118;99;99	0	0		0		0
+scythe	melee	22325	Scythe of Vitur	Scythe	5	10397	Spiked Turoth	117	210	77	-61	-63	138	0	0.0	0.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	195	118;118;99;99	0	0		0		0
+rapier	melee	22324	Ghrazi rapier	Stab Sword	4	410	Kurask	177	169	75	-60	-67	164	0	0.0	0.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	97	118;118;99;99	0	0		0		0
+rapier	melee	22324	Ghrazi rapier	Stab Sword	4	411	Kurask	177	169	75	-60	-67	164	0	0.0	0.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	97	118;118;99;99	0	0		0		0
+rapier	melee	22324	Ghrazi rapier	Stab Sword	4	7405	King kurask	177	169	75	-60	-67	164	0	0.0	0.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	270	118;118;99;99	0	0		0		0
+rapier	melee	22324	Ghrazi rapier	Stab Sword	4	427	Turoth	177	169	75	-60	-67	164	0	0.0	0.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	81	118;118;99;99	0	0		0		0
+rapier	melee	22324	Ghrazi rapier	Stab Sword	4	430	Turoth	177	169	75	-60	-67	164	0	0.0	0.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	76	118;118;99;99	0	0		0		0
+rapier	melee	22324	Ghrazi rapier	Stab Sword	4	10397	Spiked Turoth	177	169	75	-60	-67	164	0	0.0	0.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	195	118;118;99;99	0	0		0		0
+tbow	ranged	20997	Twisted bow	Bow	6	410	Kurask	-8	-8	-8	-19	215	0	100	0.0	0.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	97	99;99;112;99	0	0		0	Dragon arrow	0
+tbow	ranged	20997	Twisted bow	Bow	6	411	Kurask	-8	-8	-8	-19	215	0	100	0.0	0.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	97	99;99;112;99	0	0		0	Dragon arrow	0
+tbow	ranged	20997	Twisted bow	Bow	6	7405	King kurask	-8	-8	-8	-19	215	0	100	0.0	0.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	270	99;99;112;99	0	0		0	Dragon arrow	0
+tbow	ranged	20997	Twisted bow	Bow	6	427	Turoth	-8	-8	-8	-19	215	0	100	0.0	0.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	81	99;99;112;99	0	0		0	Dragon arrow	0
+tbow	ranged	20997	Twisted bow	Bow	6	430	Turoth	-8	-8	-8	-19	215	0	100	0.0	0.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	76	99;99;112;99	0	0		0	Dragon arrow	0
+tbow	ranged	20997	Twisted bow	Bow	6	10397	Spiked Turoth	-8	-8	-8	-19	215	0	100	0.0	0.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	195	99;99;112;99	0	0		0	Dragon arrow	0
+tbow-broad-arrows	ranged	20997	Twisted bow	Bow	6	410	Kurask	-8	-8	-8	-19	215	0	68	0.0	1.24066	0	0	0	0	0	0	0	0		0	0		-1	0	0	97	99;99;112;99	0	0		0	Broad arrows	0
+tbow-broad-arrows	ranged	20997	Twisted bow	Bow	6	411	Kurask	-8	-8	-8	-19	215	0	68	0.0	1.24066	0	0	0	0	0	0	0	0		0	0		-1	0	0	97	99;99;112;99	0	0		0	Broad arrows	0
+tbow-broad-arrows	ranged	20997	Twisted bow	Bow	6	7405	King kurask	-8	-8	-8	-19	215	0	68	0.0	0.77039	0	0	0	0	0	0	0	0		0	0		-1	0	0	270	99;99;112;99	0	0		0	Broad arrows	0
+tbow-broad-arrows	ranged	20997	Twisted bow	Bow	6	427	Turoth	-8	-8	-8	-19	215	0	68	0.0	1.29598	0	0	0	0	0	0	0	0		0	0		-1	0	0	81	99;99;112;99	0	0		0	Broad arrows	0
+tbow-broad-arrows	ranged	20997	Twisted bow	Bow	6	430	Turoth	-8	-8	-8	-19	215	0	68	0.0	1.31225	0	0	0	0	0	0	0	0		0	0		-1	0	0	76	99;99;112;99	0	0		0	Broad arrows	0
+tbow-broad-arrows	ranged	20997	Twisted bow	Bow	6	10397	Spiked Turoth	-8	-8	-8	-19	215	0	68	0.0	1.08119	0	0	0	0	0	0	0	0		0	0		-1	0	0	195	99;99;112;99	0	0		0	Broad arrows	0
+acb-broad-bolts	ranged	11785	Armadyl crossbow	Crossbow	6	410	Kurask	-15	-16	-15	-29	263	0	130	0.0	4.05833	0	0	0	0	0	0	0	0		0	0		-1	0	0	97	99;99;112;99	0	0		0	Broad bolts	0
+acb-broad-bolts	ranged	11785	Armadyl crossbow	Crossbow	6	411	Kurask	-15	-16	-15	-29	263	0	130	0.0	4.05833	0	0	0	0	0	0	0	0		0	0		-1	0	0	97	99;99;112;99	0	0		0	Broad bolts	0
+acb-broad-bolts	ranged	11785	Armadyl crossbow	Crossbow	6	7405	King kurask	-15	-16	-15	-29	263	0	130	0.0	3.61822	0	0	0	0	0	0	0	0		0	0		-1	0	0	270	99;99;112;99	0	0		0	Broad bolts	0
+acb-broad-bolts	ranged	11785	Armadyl crossbow	Crossbow	6	427	Turoth	-15	-16	-15	-29	263	0	130	0.0	4.10993	0	0	0	0	0	0	0	0		0	0		-1	0	0	81	99;99;112;99	0	0		0	Broad bolts	0
+acb-broad-bolts	ranged	11785	Armadyl crossbow	Crossbow	6	430	Turoth	-15	-16	-15	-29	263	0	130	0.0	4.12511	0	0	0	0	0	0	0	0		0	0		-1	0	0	76	99;99;112;99	0	0		0	Broad bolts	0
+acb-broad-bolts	ranged	11785	Armadyl crossbow	Crossbow	6	10397	Spiked Turoth	-15	-16	-15	-29	263	0	130	0.0	3.90960	0	0	0	0	0	0	0	0		0	0		-1	0	0	195	99;99;112;99	0	0		0	Broad bolts	0
+blowpipe	ranged	12926	Toxic blowpipe	Thrown	3	410	Kurask	-8	-8	-8	-19	175	0	75	0.0	0.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	97	99;99;112;99	0	0		0		0
+blowpipe	ranged	12926	Toxic blowpipe	Thrown	3	411	Kurask	-8	-8	-8	-19	175	0	75	0.0	0.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	97	99;99;112;99	0	0		0		0
+blowpipe	ranged	12926	Toxic blowpipe	Thrown	3	7405	King kurask	-8	-8	-8	-19	175	0	75	0.0	0.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	270	99;99;112;99	0	0		0		0
+blowpipe	ranged	12926	Toxic blowpipe	Thrown	3	427	Turoth	-8	-8	-8	-19	175	0	75	0.0	0.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	81	99;99;112;99	0	0		0		0
+blowpipe	ranged	12926	Toxic blowpipe	Thrown	3	430	Turoth	-8	-8	-8	-19	175	0	75	0.0	0.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	76	99;99;112;99	0	0		0		0
+blowpipe	ranged	12926	Toxic blowpipe	Thrown	3	10397	Spiked Turoth	-8	-8	-8	-19	175	0	75	0.0	0.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	195	99;99;112;99	0	0		0		0
+shadow	magic	27275	Tumeken's shadow	Powered Staff	5	410	Kurask	0	0	0	164	-17	0	0	24.0	0.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	97	99;99;99;112	0	0		0		0
+shadow	magic	27275	Tumeken's shadow	Powered Staff	5	411	Kurask	0	0	0	164	-17	0	0	24.0	0.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	97	99;99;99;112	0	0		0		0
+shadow	magic	27275	Tumeken's shadow	Powered Staff	5	7405	King kurask	0	0	0	164	-17	0	0	24.0	0.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	270	99;99;99;112	0	0		0		0
+shadow	magic	27275	Tumeken's shadow	Powered Staff	5	427	Turoth	0	0	0	164	-17	0	0	24.0	0.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	81	99;99;99;112	0	0		0		0
+shadow	magic	27275	Tumeken's shadow	Powered Staff	5	430	Turoth	0	0	0	164	-17	0	0	24.0	0.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	76	99;99;99;112	0	0		0		0
+shadow	magic	27275	Tumeken's shadow	Powered Staff	5	10397	Spiked Turoth	0	0	0	164	-17	0	0	24.0	0.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	195	99;99;99;112	0	0		0		0
+sang	magic	22323	Sanguinesti staff	Powered Staff	4	410	Kurask	0	0	0	154	-21	0	0	24.0	0.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	97	99;99;99;112	0	0		0		0
+sang	magic	22323	Sanguinesti staff	Powered Staff	4	411	Kurask	0	0	0	154	-21	0	0	24.0	0.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	97	99;99;99;112	0	0		0		0
+sang	magic	22323	Sanguinesti staff	Powered Staff	4	7405	King kurask	0	0	0	154	-21	0	0	24.0	0.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	270	99;99;99;112	0	0		0		0
+sang	magic	22323	Sanguinesti staff	Powered Staff	4	427	Turoth	0	0	0	154	-21	0	0	24.0	0.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	81	99;99;99;112	0	0		0		0
+sang	magic	22323	Sanguinesti staff	Powered Staff	4	430	Turoth	0	0	0	154	-21	0	0	24.0	0.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	76	99;99;99;112	0	0		0		0
+sang	magic	22323	Sanguinesti staff	Powered Staff	4	10397	Spiked Turoth	0	0	0	154	-21	0	0	24.0	0.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	195	99;99;99;112	0	0		0		0
+scythe	melee	22325	Scythe of Vitur	Scythe	5	9756	Vyrewatch Sentinel	117	210	77	-61	-63	138	0	0.0	0.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	150	118;118;99;99	0	0		0		0
+scythe	melee	22325	Scythe of Vitur	Scythe	5	3709	Vyrewatch	117	210	77	-61	-63	138	0	0.0	0.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	90	118;118;99;99	0	0		0		0
+scythe	melee	22325	Scythe of Vitur	Scythe	5	9561	Damien Leucurte	117	210	77	-61	-63	138	0	0.0	0.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	217	118;118;99;99	0	0		0		0
+scythe	melee	22325	Scythe of Vitur	Scythe	5	15765	Venator	117	210	77	-61	-63	138	0	0.0	0.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	345	118;118;99;99	0	0		0		0
+scythe	melee	22325	Scythe of Vitur	Scythe	5	3694	Vampyre Juvinate	117	210	77	-61	-63	138	0	0.0	0.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	85	118;118;99;99	0	0		0		0
+scythe	melee	22325	Scythe of Vitur	Scythe	5	3237	Feral Vampyre	117	210	77	-61	-63	138	0	0.0	4.65788	0	0	0	0	0	0	0	0		0	0		-1	0	0	40	118;118;99;99	0	0		0		0
+rapier	melee	22324	Ghrazi rapier	Stab Sword	4	9756	Vyrewatch Sentinel	177	169	75	-60	-67	164	0	0.0	0.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	150	118;118;99;99	0	0		0		0
+rapier	melee	22324	Ghrazi rapier	Stab Sword	4	3709	Vyrewatch	177	169	75	-60	-67	164	0	0.0	0.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	90	118;118;99;99	0	0		0		0
+rapier	melee	22324	Ghrazi rapier	Stab Sword	4	9561	Damien Leucurte	177	169	75	-60	-67	164	0	0.0	0.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	217	118;118;99;99	0	0		0		0
+rapier	melee	22324	Ghrazi rapier	Stab Sword	4	15765	Venator	177	169	75	-60	-67	164	0	0.0	0.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	345	118;118;99;99	0	0		0		0
+rapier	melee	22324	Ghrazi rapier	Stab Sword	4	3694	Vampyre Juvinate	177	169	75	-60	-67	164	0	0.0	0.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	85	118;118;99;99	0	0		0		0
+rapier	melee	22324	Ghrazi rapier	Stab Sword	4	3237	Feral Vampyre	177	169	75	-60	-67	164	0	0.0	6.60472	0	0	0	0	0	0	0	0		0	0		-1	0	0	40	118;118;99;99	0	0		0		0
+emberlight	melee	29589	Emberlight	Slash Sword	4	9756	Vyrewatch Sentinel	140	184	75	-60	-67	84	0	0.0	0.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	150	118;118;99;99	0	0		0		0
+emberlight	melee	29589	Emberlight	Slash Sword	4	3709	Vyrewatch	140	184	75	-60	-67	84	0	0.0	0.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	90	118;118;99;99	0	0		0		0
+emberlight	melee	29589	Emberlight	Slash Sword	4	9561	Damien Leucurte	140	184	75	-60	-67	84	0	0.0	0.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	217	118;118;99;99	0	0		0		0
+emberlight	melee	29589	Emberlight	Slash Sword	4	15765	Venator	140	184	75	-60	-67	84	0	0.0	0.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	345	118;118;99;99	0	0		0		0
+emberlight	melee	29589	Emberlight	Slash Sword	4	3694	Vampyre Juvinate	140	184	75	-60	-67	84	0	0.0	0.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	85	118;118;99;99	0	0		0		0
+emberlight	melee	29589	Emberlight	Slash Sword	4	3237	Feral Vampyre	140	184	75	-60	-67	84	0	0.0	4.25686	0	0	0	0	0	0	0	0		0	0		-1	0	0	40	118;118;99;99	0	0		0		0
+tbow	ranged	20997	Twisted bow	Bow	6	9756	Vyrewatch Sentinel	-8	-8	-8	-19	215	0	100	0.0	0.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	150	99;99;112;99	0	0		0	Dragon arrow	0
+tbow	ranged	20997	Twisted bow	Bow	6	3709	Vyrewatch	-8	-8	-8	-19	215	0	100	0.0	0.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	90	99;99;112;99	0	0		0	Dragon arrow	0
+tbow	ranged	20997	Twisted bow	Bow	6	9561	Damien Leucurte	-8	-8	-8	-19	215	0	100	0.0	0.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	217	99;99;112;99	0	0		0	Dragon arrow	0
+tbow	ranged	20997	Twisted bow	Bow	6	15765	Venator	-8	-8	-8	-19	215	0	100	0.0	0.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	345	99;99;112;99	0	0		0	Dragon arrow	0
+tbow	ranged	20997	Twisted bow	Bow	6	3694	Vampyre Juvinate	-8	-8	-8	-19	215	0	100	0.0	0.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	85	99;99;112;99	0	0		0	Dragon arrow	0
+tbow	ranged	20997	Twisted bow	Bow	6	3237	Feral Vampyre	-8	-8	-8	-19	215	0	100	0.0	2.94698	0	0	0	0	0	0	0	0		0	0		-1	0	0	40	99;99;112;99	0	0		0	Dragon arrow	0
+blowpipe	ranged	12926	Toxic blowpipe	Thrown	3	9756	Vyrewatch Sentinel	-8	-8	-8	-19	175	0	75	0.0	0.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	150	99;99;112;99	0	0		0		0
+blowpipe	ranged	12926	Toxic blowpipe	Thrown	3	3709	Vyrewatch	-8	-8	-8	-19	175	0	75	0.0	0.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	90	99;99;112;99	0	0		0		0
+blowpipe	ranged	12926	Toxic blowpipe	Thrown	3	9561	Damien Leucurte	-8	-8	-8	-19	175	0	75	0.0	0.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	217	99;99;112;99	0	0		0		0
+blowpipe	ranged	12926	Toxic blowpipe	Thrown	3	15765	Venator	-8	-8	-8	-19	175	0	75	0.0	0.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	345	99;99;112;99	0	0		0		0
+blowpipe	ranged	12926	Toxic blowpipe	Thrown	3	3694	Vampyre Juvinate	-8	-8	-8	-19	175	0	75	0.0	0.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	85	99;99;112;99	0	0		0		0
+blowpipe	ranged	12926	Toxic blowpipe	Thrown	3	3237	Feral Vampyre	-8	-8	-8	-19	175	0	75	0.0	7.29679	0	0	0	0	0	0	0	0		0	0		-1	0	0	40	99;99;112;99	0	0		0		0
+shadow	magic	27275	Tumeken's shadow	Powered Staff	5	9756	Vyrewatch Sentinel	0	0	0	164	-17	0	0	24.0	0.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	150	99;99;99;112	0	0		0		0
+shadow	magic	27275	Tumeken's shadow	Powered Staff	5	3709	Vyrewatch	0	0	0	164	-17	0	0	24.0	0.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	90	99;99;99;112	0	0		0		0
+shadow	magic	27275	Tumeken's shadow	Powered Staff	5	9561	Damien Leucurte	0	0	0	164	-17	0	0	24.0	0.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	217	99;99;99;112	0	0		0		0
+shadow	magic	27275	Tumeken's shadow	Powered Staff	5	15765	Venator	0	0	0	164	-17	0	0	24.0	0.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	345	99;99;99;112	0	0		0		0
+shadow	magic	27275	Tumeken's shadow	Powered Staff	5	3694	Vampyre Juvinate	0	0	0	164	-17	0	0	24.0	0.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	85	99;99;99;112	0	0		0		0
+shadow	magic	27275	Tumeken's shadow	Powered Staff	5	3237	Feral Vampyre	0	0	0	164	-17	0	0	24.0	6.47959	0	0	0	0	0	0	0	0		0	0		-1	0	0	40	99;99;99;112	0	0		0		0
+sang	magic	22323	Sanguinesti staff	Powered Staff	4	9756	Vyrewatch Sentinel	0	0	0	154	-21	0	0	24.0	0.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	150	99;99;99;112	0	0		0		0
+sang	magic	22323	Sanguinesti staff	Powered Staff	4	3709	Vyrewatch	0	0	0	154	-21	0	0	24.0	0.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	90	99;99;99;112	0	0		0		0
+sang	magic	22323	Sanguinesti staff	Powered Staff	4	9561	Damien Leucurte	0	0	0	154	-21	0	0	24.0	0.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	217	99;99;99;112	0	0		0		0
+sang	magic	22323	Sanguinesti staff	Powered Staff	4	15765	Venator	0	0	0	154	-21	0	0	24.0	0.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	345	99;99;99;112	0	0		0		0
+sang	magic	22323	Sanguinesti staff	Powered Staff	4	3694	Vampyre Juvinate	0	0	0	154	-21	0	0	24.0	0.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	85	99;99;99;112	0	0		0		0
+sang	magic	22323	Sanguinesti staff	Powered Staff	4	3237	Feral Vampyre	0	0	0	154	-21	0	0	24.0	5.97989	0	0	0	0	0	0	0	0		0	0		-1	0	0	40	99;99;99;112	0	0		0		0
+sunspear	melee	33722	Sunspear	Spear	5	9756	Vyrewatch Sentinel	147	106	107	-55	-63	133	0	0.0	5.93326	0	0	0	0	0	0	0	0		0	0		-1	0	0	150	118;118;99;99	0	0		0		0
+sunspear	melee	33722	Sunspear	Spear	5	3709	Vyrewatch	147	106	107	-55	-63	133	0	0.0	6.47146	0	0	0	0	0	0	0	0		0	0		-1	0	0	90	118;118;99;99	0	0		0		0
+sunspear	melee	33722	Sunspear	Spear	5	9561	Damien Leucurte	147	106	107	-55	-63	133	0	0.0	5.59777	0	0	0	0	0	0	0	0		0	0		-1	0	0	217	118;118;99;99	0	0		0		0
+sunspear	melee	33722	Sunspear	Spear	5	15765	Venator	147	106	107	-55	-63	133	0	0.0	6.33027	0	0	0	0	0	0	0	0		0	0		-1	0	0	345	118;118;99;99	0	0		0		0
+sunspear	melee	33722	Sunspear	Spear	5	3694	Vampyre Juvinate	147	106	107	-55	-63	133	0	0.0	6.78305	0	0	0	0	0	0	0	0		0	0		-1	0	0	85	118;118;99;99	0	0		0		0
+sunspear	melee	33722	Sunspear	Spear	5	3237	Feral Vampyre	147	106	107	-55	-63	133	0	0.0	6.64142	0	0	0	0	0	0	0	0		0	0		-1	0	0	40	118;118;99;99	0	0		0		0
+sunspear	melee	33722	Sunspear	Spear	5	5635	Vampyre Juvinate	147	106	107	-55	-63	133	0	0.0	6.64142	0	0	0	0	0	0	0	0		0	0		-1	0	0	100	118;118;99;99	0	0		0		0
+sunspear	melee	33722	Sunspear	Spear	5	3692	Vampyre Juvenile	147	106	107	-55	-63	133	0	0.0	6.78305	0	0	0	0	0	0	0	0		0	0		-1	0	0	60	118;118;99;99	0	0		0		0
+hallowed-flail	melee	33718	Hallowed flail	Flail	4	9756	Vyrewatch Sentinel	109	182	75	-50	-67	117	0	0.0	5.89260	0	0	0	0	0	0	0	0		0	0		-1	0	0	150	118;118;99;99	0	0		0		0
+hallowed-flail	melee	33718	Hallowed flail	Flail	4	3709	Vyrewatch	109	182	75	-50	-67	117	0	0.0	6.34304	0	0	0	0	0	0	0	0		0	0		-1	0	0	90	118;118;99;99	0	0		0		0
+hallowed-flail	melee	33718	Hallowed flail	Flail	4	9561	Damien Leucurte	109	182	75	-50	-67	117	0	0.0	5.61182	0	0	0	0	0	0	0	0		0	0		-1	0	0	217	118;118;99;99	0	0		0		0
+hallowed-flail	melee	33718	Hallowed flail	Flail	4	15765	Venator	109	182	75	-50	-67	117	0	0.0	5.98595	0	0	0	0	0	0	0	0		0	0		-1	0	0	345	118;118;99;99	0	0		0		0
+hallowed-flail	melee	33718	Hallowed flail	Flail	4	3694	Vampyre Juvinate	109	182	75	-50	-67	117	0	0.0	2.17786	0	0	0	0	0	0	0	0		0	0		-1	0	0	85	118;118;99;99	0	0		0		0
+hallowed-flail	melee	33718	Hallowed flail	Flail	4	3237	Feral Vampyre	109	182	75	-50	-67	117	0	0.0	6.48529	0	0	0	0	0	0	0	0		0	0		-1	0	0	40	118;118;99;99	0	0		0		0
+hallowed-flail	melee	33718	Hallowed flail	Flail	4	5635	Vampyre Juvinate	109	182	75	-50	-67	117	0	0.0	2.13876	0	0	0	0	0	0	0	0		0	0		-1	0	0	100	118;118;99;99	0	0		0		0
+hallowed-flail	melee	33718	Hallowed flail	Flail	4	3692	Vampyre Juvenile	109	182	75	-50	-67	117	0	0.0	6.60382	0	0	0	0	0	0	0	0		0	0		-1	0	0	60	118;118;99;99	0	0		0		0
+silverlight	melee	2402	Silverlight	Slash Sword	5	9756	Vyrewatch Sentinel	86	128	73	-60	-67	83	0	0.0	0.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	150	118;118;99;99	0	0		0		0
+silverlight	melee	2402	Silverlight	Slash Sword	5	3709	Vyrewatch	86	128	73	-60	-67	83	0	0.0	0.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	90	118;118;99;99	0	0		0		0
+silverlight	melee	2402	Silverlight	Slash Sword	5	9561	Damien Leucurte	86	128	73	-60	-67	83	0	0.0	0.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	217	118;118;99;99	0	0		0		0
+silverlight	melee	2402	Silverlight	Slash Sword	5	15765	Venator	86	128	73	-60	-67	83	0	0.0	0.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	345	118;118;99;99	0	0		0		0
+silverlight	melee	2402	Silverlight	Slash Sword	5	3694	Vampyre Juvinate	86	128	73	-60	-67	83	0	0.0	1.63354	0	0	0	0	0	0	0	0		0	0		-1	0	0	85	118;118;99;99	0	0		0		0
+silverlight	melee	2402	Silverlight	Slash Sword	5	3237	Feral Vampyre	86	128	73	-60	-67	83	0	0.0	3.60311	0	0	0	0	0	0	0	0		0	0		-1	0	0	40	118;118;99;99	0	0		0		0
+silverlight	melee	2402	Silverlight	Slash Sword	5	5635	Vampyre Juvinate	86	128	73	-60	-67	83	0	0.0	1.58577	0	0	0	0	0	0	0	0		0	0		-1	0	0	100	118;118;99;99	0	0		0		0
+silverlight	melee	2402	Silverlight	Slash Sword	5	3692	Vampyre Juvenile	86	128	73	-60	-67	83	0	0.0	3.71164	0	0	0	0	0	0	0	0		0	0		-1	0	0	60	118;118;99;99	0	0		0		0
+arclight	melee	19675	Arclight	Slash Sword	4	9756	Vyrewatch Sentinel	87	152	75	-60	-67	79	0	0.0	0.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	150	118;118;99;99	0	0		0		0
+arclight	melee	19675	Arclight	Slash Sword	4	3709	Vyrewatch	87	152	75	-60	-67	79	0	0.0	0.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	90	118;118;99;99	0	0		0		0
+arclight	melee	19675	Arclight	Slash Sword	4	9561	Damien Leucurte	87	152	75	-60	-67	79	0	0.0	0.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	217	118;118;99;99	0	0		0		0
+arclight	melee	19675	Arclight	Slash Sword	4	15765	Venator	87	152	75	-60	-67	79	0	0.0	0.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	345	118;118;99;99	0	0		0		0
+arclight	melee	19675	Arclight	Slash Sword	4	3694	Vampyre Juvinate	87	152	75	-60	-67	79	0	0.0	2.04254	0	0	0	0	0	0	0	0		0	0		-1	0	0	85	118;118;99;99	0	0		0		0
+arclight	melee	19675	Arclight	Slash Sword	4	3237	Feral Vampyre	87	152	75	-60	-67	79	0	0.0	4.41509	0	0	0	0	0	0	0	0		0	0		-1	0	0	40	118;118;99;99	0	0		0		0
+arclight	melee	19675	Arclight	Slash Sword	4	5635	Vampyre Juvinate	87	152	75	-60	-67	79	0	0.0	1.98972	0	0	0	0	0	0	0	0		0	0		-1	0	0	100	118;118;99;99	0	0		0		0
+arclight	melee	19675	Arclight	Slash Sword	4	3692	Vampyre Juvenile	87	152	75	-60	-67	79	0	0.0	4.53229	0	0	0	0	0	0	0	0		0	0		-1	0	0	60	118;118;99;99	0	0		0		0
+sunspear-efaritay	melee	33722	Sunspear	Spear	5	9756	Vyrewatch Sentinel	147	106	107	-55	-63	121	0	0.0	6.14335	0	0	0	0	0	0	0	0		0	0		-1	0	0	150	118;118;99;99	0	0		0		1
+sunspear-efaritay	melee	33722	Sunspear	Spear	5	3709	Vyrewatch	147	106	107	-55	-63	121	0	0.0	6.70060	0	0	0	0	0	0	0	0		0	0		-1	0	0	90	118;118;99;99	0	0		0		1
+sunspear-efaritay	melee	33722	Sunspear	Spear	5	9561	Damien Leucurte	147	106	107	-55	-63	121	0	0.0	5.79598	0	0	0	0	0	0	0	0		0	0		-1	0	0	217	118;118;99;99	0	0		0		1
+sunspear-efaritay	melee	33722	Sunspear	Spear	5	15765	Venator	147	106	107	-55	-63	121	0	0.0	6.55442	0	0	0	0	0	0	0	0		0	0		-1	0	0	345	118;118;99;99	0	0		0		1
+sunspear-efaritay	melee	33722	Sunspear	Spear	5	3694	Vampyre Juvinate	147	106	107	-55	-63	121	0	0.0	7.02322	0	0	0	0	0	0	0	0		0	0		-1	0	0	85	118;118;99;99	0	0		0		1
+sunspear-efaritay	melee	33722	Sunspear	Spear	5	3237	Feral Vampyre	147	106	107	-55	-63	121	0	0.0	6.87658	0	0	0	0	0	0	0	0		0	0		-1	0	0	40	118;118;99;99	0	0		0		1
+sunspear-efaritay	melee	33722	Sunspear	Spear	5	5635	Vampyre Juvinate	147	106	107	-55	-63	121	0	0.0	6.87658	0	0	0	0	0	0	0	0		0	0		-1	0	0	100	118;118;99;99	0	0		0		1
+sunspear-efaritay	melee	33722	Sunspear	Spear	5	3692	Vampyre Juvenile	147	106	107	-55	-63	121	0	0.0	7.02322	0	0	0	0	0	0	0	0		0	0		-1	0	0	60	118;118;99;99	0	0		0		1
+hallowed-flail-efaritay	melee	33718	Hallowed flail	Flail	4	9756	Vyrewatch Sentinel	109	182	75	-50	-67	105	0	0.0	6.04357	0	0	0	0	0	0	0	0		0	0		-1	0	0	150	118;118;99;99	0	0		0		1
+hallowed-flail-efaritay	melee	33718	Hallowed flail	Flail	4	3709	Vyrewatch	109	182	75	-50	-67	105	0	0.0	6.43749	0	0	0	0	0	0	0	0		0	0		-1	0	0	90	118;118;99;99	0	0		0		1
+hallowed-flail-efaritay	melee	33718	Hallowed flail	Flail	4	9561	Damien Leucurte	109	182	75	-50	-67	105	0	0.0	5.79803	0	0	0	0	0	0	0	0		0	0		-1	0	0	217	118;118;99;99	0	0		0		1
+hallowed-flail-efaritay	melee	33718	Hallowed flail	Flail	4	15765	Venator	109	182	75	-50	-67	105	0	0.0	6.12521	0	0	0	0	0	0	0	0		0	0		-1	0	0	345	118;118;99;99	0	0		0		1
+hallowed-flail-efaritay	melee	33718	Hallowed flail	Flail	4	3694	Vampyre Juvinate	109	182	75	-50	-67	105	0	0.0	2.16761	0	0	0	0	0	0	0	0		0	0		-1	0	0	85	118;118;99;99	0	0		0		1
+hallowed-flail-efaritay	melee	33718	Hallowed flail	Flail	4	3237	Feral Vampyre	109	182	75	-50	-67	105	0	0.0	6.56188	0	0	0	0	0	0	0	0		0	0		-1	0	0	40	118;118;99;99	0	0		0		1
+hallowed-flail-efaritay	melee	33718	Hallowed flail	Flail	4	5635	Vampyre Juvinate	109	182	75	-50	-67	105	0	0.0	2.13390	0	0	0	0	0	0	0	0		0	0		-1	0	0	100	118;118;99;99	0	0		0		1
+hallowed-flail-efaritay	melee	33718	Hallowed flail	Flail	4	3692	Vampyre Juvenile	109	182	75	-50	-67	105	0	0.0	6.66554	0	0	0	0	0	0	0	0		0	0		-1	0	0	60	118;118;99;99	0	0		0		1
+silverlight-efaritay	melee	2402	Silverlight	Slash Sword	5	9756	Vyrewatch Sentinel	86	128	73	-60	-67	71	0	0.0	0.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	150	118;118;99;99	0	0		0		1
+silverlight-efaritay	melee	2402	Silverlight	Slash Sword	5	3709	Vyrewatch	86	128	73	-60	-67	71	0	0.0	0.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	90	118;118;99;99	0	0		0		1
+silverlight-efaritay	melee	2402	Silverlight	Slash Sword	5	9561	Damien Leucurte	86	128	73	-60	-67	71	0	0.0	0.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	217	118;118;99;99	0	0		0		1
+silverlight-efaritay	melee	2402	Silverlight	Slash Sword	5	15765	Venator	86	128	73	-60	-67	71	0	0.0	0.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	345	118;118;99;99	0	0		0		1
+silverlight-efaritay	melee	2402	Silverlight	Slash Sword	5	3694	Vampyre Juvinate	86	128	73	-60	-67	71	0	0.0	1.53926	0	0	0	0	0	0	0	0		0	0		-1	0	0	85	118;118;99;99	0	0		0		1
+silverlight-efaritay	melee	2402	Silverlight	Slash Sword	5	3237	Feral Vampyre	86	128	73	-60	-67	71	0	0.0	3.57989	0	0	0	0	0	0	0	0		0	0		-1	0	0	40	118;118;99;99	0	0		0		1
+silverlight-efaritay	melee	2402	Silverlight	Slash Sword	5	5635	Vampyre Juvinate	86	128	73	-60	-67	71	0	0.0	1.50035	0	0	0	0	0	0	0	0		0	0		-1	0	0	100	118;118;99;99	0	0		0		1
+silverlight-efaritay	melee	2402	Silverlight	Slash Sword	5	3692	Vampyre Juvenile	86	128	73	-60	-67	71	0	0.0	3.67272	0	0	0	0	0	0	0	0		0	0		-1	0	0	60	118;118;99;99	0	0		0		1
+rapier-efaritay	melee	22324	Ghrazi rapier	Stab Sword	4	9756	Vyrewatch Sentinel	177	169	75	-60	-67	152	0	0.0	0.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	150	118;118;99;99	0	0		0		1
+rapier-efaritay	melee	22324	Ghrazi rapier	Stab Sword	4	3709	Vyrewatch	177	169	75	-60	-67	152	0	0.0	0.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	90	118;118;99;99	0	0		0		1
+rapier-efaritay	melee	22324	Ghrazi rapier	Stab Sword	4	9561	Damien Leucurte	177	169	75	-60	-67	152	0	0.0	0.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	217	118;118;99;99	0	0		0		1
+rapier-efaritay	melee	22324	Ghrazi rapier	Stab Sword	4	15765	Venator	177	169	75	-60	-67	152	0	0.0	0.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	345	118;118;99;99	0	0		0		1
+rapier-efaritay	melee	22324	Ghrazi rapier	Stab Sword	4	3694	Vampyre Juvinate	177	169	75	-60	-67	152	0	0.0	3.13696	0	0	0	0	0	0	0	0		0	0		-1	0	0	85	118;118;99;99	0	0		0		1
+rapier-efaritay	melee	22324	Ghrazi rapier	Stab Sword	4	3237	Feral Vampyre	177	169	75	-60	-67	152	0	0.0	6.25135	0	0	0	0	0	0	0	0		0	0		-1	0	0	40	118;118;99;99	0	0		0		1
+rapier-efaritay	melee	22324	Ghrazi rapier	Stab Sword	4	5635	Vampyre Juvinate	177	169	75	-60	-67	152	0	0.0	3.06456	0	0	0	0	0	0	0	0		0	0		-1	0	0	100	118;118;99;99	0	0		0		1
+rapier-efaritay	melee	22324	Ghrazi rapier	Stab Sword	4	3692	Vampyre Juvenile	177	169	75	-60	-67	152	0	0.0	6.39904	0	0	0	0	0	0	0	0		0	0		-1	0	0	60	118;118;99;99	0	0		0		1
+scythe-efaritay	melee	22325	Scythe of Vitur	Scythe	5	9756	Vyrewatch Sentinel	117	210	77	-61	-63	126	0	0.0	0.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	150	118;118;99;99	0	0		0		1
+scythe-efaritay	melee	22325	Scythe of Vitur	Scythe	5	3709	Vyrewatch	117	210	77	-61	-63	126	0	0.0	0.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	90	118;118;99;99	0	0		0		1
+scythe-efaritay	melee	22325	Scythe of Vitur	Scythe	5	9561	Damien Leucurte	117	210	77	-61	-63	126	0	0.0	0.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	217	118;118;99;99	0	0		0		1
+scythe-efaritay	melee	22325	Scythe of Vitur	Scythe	5	15765	Venator	117	210	77	-61	-63	126	0	0.0	0.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	345	118;118;99;99	0	0		0		1
+scythe-efaritay	melee	22325	Scythe of Vitur	Scythe	5	3694	Vampyre Juvinate	117	210	77	-61	-63	126	0	0.0	2.18220	0	0	0	0	0	0	0	0		0	0		-1	0	0	85	118;118;99;99	0	0		0		1
+scythe-efaritay	melee	22325	Scythe of Vitur	Scythe	5	3237	Feral Vampyre	117	210	77	-61	-63	126	0	0.0	4.37318	0	0	0	0	0	0	0	0		0	0		-1	0	0	40	118;118;99;99	0	0		0		1
+scythe-efaritay	melee	22325	Scythe of Vitur	Scythe	5	5635	Vampyre Juvinate	117	210	77	-61	-63	126	0	0.0	2.13809	0	0	0	0	0	0	0	0		0	0		-1	0	0	100	118;118;99;99	0	0		0		1
+scythe-efaritay	melee	22325	Scythe of Vitur	Scythe	5	3692	Vampyre Juvenile	117	210	77	-61	-63	126	0	0.0	4.46340	0	0	0	0	0	0	0	0		0	0		-1	0	0	60	118;118;99;99	0	0		0		1
+tbow-efaritay	ranged	20997	Twisted bow	Bow	6	9756	Vyrewatch Sentinel	-8	-8	-8	-19	205	0	98	0.0	0.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	150	99;99;112;99	0	0		0	Dragon arrow	1
+tbow-efaritay	ranged	20997	Twisted bow	Bow	6	3709	Vyrewatch	-8	-8	-8	-19	205	0	98	0.0	0.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	90	99;99;112;99	0	0		0	Dragon arrow	1
+tbow-efaritay	ranged	20997	Twisted bow	Bow	6	9561	Damien Leucurte	-8	-8	-8	-19	205	0	98	0.0	0.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	217	99;99;112;99	0	0		0	Dragon arrow	1
+tbow-efaritay	ranged	20997	Twisted bow	Bow	6	15765	Venator	-8	-8	-8	-19	205	0	98	0.0	0.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	345	99;99;112;99	0	0		0	Dragon arrow	1
+tbow-efaritay	ranged	20997	Twisted bow	Bow	6	3694	Vampyre Juvinate	-8	-8	-8	-19	205	0	98	0.0	0.82643	0	0	0	0	0	0	0	0		0	0		-1	0	0	85	99;99;112;99	0	0		0	Dragon arrow	1
+tbow-efaritay	ranged	20997	Twisted bow	Bow	6	3237	Feral Vampyre	-8	-8	-8	-19	205	0	98	0.0	2.93735	0	0	0	0	0	0	0	0		0	0		-1	0	0	40	99;99;112;99	0	0		0	Dragon arrow	1
+tbow-efaritay	ranged	20997	Twisted bow	Bow	6	5635	Vampyre Juvinate	-8	-8	-8	-19	205	0	98	0.0	1.56784	0	0	0	0	0	0	0	0		0	0		-1	0	0	100	99;99;112;99	0	0		0	Dragon arrow	1
+tbow-efaritay	ranged	20997	Twisted bow	Bow	6	3692	Vampyre Juvenile	-8	-8	-8	-19	205	0	98	0.0	1.75387	0	0	0	0	0	0	0	0		0	0		-1	0	0	60	99;99;112;99	0	0		0	Dragon arrow	1
+shadow-efaritay	magic	27275	Tumeken's shadow	Powered Staff	5	9756	Vyrewatch Sentinel	0	0	0	149	-17	0	0	22.0	0.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	150	99;99;99;112	0	0		0		1
+shadow-efaritay	magic	27275	Tumeken's shadow	Powered Staff	5	3709	Vyrewatch	0	0	0	149	-17	0	0	22.0	0.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	90	99;99;99;112	0	0		0		1
+shadow-efaritay	magic	27275	Tumeken's shadow	Powered Staff	5	9561	Damien Leucurte	0	0	0	149	-17	0	0	22.0	0.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	217	99;99;99;112	0	0		0		1
+shadow-efaritay	magic	27275	Tumeken's shadow	Powered Staff	5	15765	Venator	0	0	0	149	-17	0	0	22.0	0.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	345	99;99;99;112	0	0		0		1
+shadow-efaritay	magic	27275	Tumeken's shadow	Powered Staff	5	3694	Vampyre Juvinate	0	0	0	149	-17	0	0	22.0	3.13766	0	0	0	0	0	0	0	0		0	0		-1	0	0	85	99;99;99;112	0	0		0		1
+shadow-efaritay	magic	27275	Tumeken's shadow	Powered Staff	5	3237	Feral Vampyre	0	0	0	149	-17	0	0	22.0	6.27288	0	0	0	0	0	0	0	0		0	0		-1	0	0	40	99;99;99;112	0	0		0		1
+shadow-efaritay	magic	27275	Tumeken's shadow	Powered Staff	5	5635	Vampyre Juvinate	0	0	0	149	-17	0	0	22.0	3.07364	0	0	0	0	0	0	0	0		0	0		-1	0	0	100	99;99;99;112	0	0		0		1
+shadow-efaritay	magic	27275	Tumeken's shadow	Powered Staff	5	3692	Vampyre Juvenile	0	0	0	149	-17	0	0	22.0	6.37644	0	0	0	0	0	0	0	0		0	0		-1	0	0	60	99;99;99;112	0	0		0		1
+scythe	melee	22325	Scythe of Vitur	Scythe	5	8061	Vorkath	117	210	77	-61	-63	138	0	0.0	4.54669	0	0	0	0	0	0	0	0		0	0		-1	0	0	750	118;118;99;99	0	0		0		0
+dhl	melee	22978	Dragon hunter lance	Spear	4	8061	Vorkath	162	179	140	-60	-67	141	0	0.0	5.46462	0	0	0	0	0	0	0	0		0	0		-1	0	0	750	118;118;99;99	0	0		0		0
+tbow	ranged	20997	Twisted bow	Bow	6	8061	Vorkath	-8	-8	-8	-19	215	0	100	0.0	4.66931	0	0	0	0	0	0	0	0		0	0		-1	0	0	750	99;99;112;99	0	0		0	Dragon arrow	0
+blowpipe	ranged	12926	Toxic blowpipe	Thrown	3	8061	Vorkath	-8	-8	-8	-19	175	0	75	0.0	5.46928	0	0	0	0	0	0	0	0		0	0		-1	0	0	750	99;99;112;99	0	0		0		0
+dhcb	ranged	21012	Dragon hunter crossbow	Crossbow	6	8061	Vorkath	-15	-16	-15	-29	258	0	145	0.0	4.82356	0	0	0	0	0	0	0	0		0	0		-1	0	0	750	99;99;112;99	0	0		0	Runite bolts	0
+shadow	magic	27275	Tumeken's shadow	Powered Staff	5	8061	Vorkath	0	0	0	164	-17	0	0	24.0	4.70216	0	0	0	0	0	0	0	0		0	0		-1	0	0	750	99;99;99;112	0	0		0		0
+scythe	melee	22325	Scythe of Vitur	Scythe	5	6767	Lizardman shaman	117	210	77	-61	-63	138	0	0.0	6.90888	0	0	0	0	0	0	0	0		0	0		-1	0	0	150	118;118;99;99	0	0		0		0
+scythe	melee	22325	Scythe of Vitur	Scythe	5	7744	Lizardman shaman	117	210	77	-61	-63	138	0	0.0	6.90888	0	0	0	0	0	0	0	0		0	0		-1	0	0	150	118;118;99;99	0	0		0		0
+scythe	melee	22325	Scythe of Vitur	Scythe	5	7745	Lizardman shaman	117	210	77	-61	-63	138	0	0.0	6.90888	0	0	0	0	0	0	0	0		0	0		-1	0	0	150	118;118;99;99	0	0		0		0
+scythe	melee	22325	Scythe of Vitur	Scythe	5	974	Dagannoth	117	210	77	-61	-63	138	0	0.0	6.85333	0	0	0	0	0	0	0	0		0	0		-1	0	0	120	118;118;99;99	0	0		0		0
+scythe	melee	22325	Scythe of Vitur	Scythe	5	975	Dagannoth	117	210	77	-61	-63	138	0	0.0	6.85333	0	0	0	0	0	0	0	0		0	0		-1	0	0	120	118;118;99;99	0	0		0		0
+scythe	melee	22325	Scythe of Vitur	Scythe	5	5942	Dagannoth (Waterbirth Island)	117	210	77	-61	-63	138	0	0.0	4.53056	0	0	0	0	0	0	0	0		0	0		-1	0	0	85	118;118;99;99	0	0		0		0
+scythe	melee	22325	Scythe of Vitur	Scythe	5	5943	Dagannoth (Waterbirth Island)	117	210	77	-61	-63	138	0	0.0	4.39723	0	0	0	0	0	0	0	0		0	0		-1	0	0	95	118;118;99;99	0	0		0		0
+scythe	melee	22325	Scythe of Vitur	Scythe	5	12813	Minotaur (Fortis Colosseum)	117	210	77	-61	-63	138	0	0.0	7.19712	0	0	0	0	0	0	0	0		0	0		-1	0	0	225	118;118;99;99	0	0		0		0
+scythe	melee	22325	Scythe of Vitur	Scythe	5	13666	Araxyte	117	210	77	-61	-63	138	0	0.0	4.51434	0	0	0	0	0	0	0	0		0	0		-1	0	0	60	118;118;99;99	0	0		0		0
+rapier	melee	22324	Ghrazi rapier	Stab Sword	4	6767	Lizardman shaman	177	169	75	-60	-67	164	0	0.0	6.36480	0	0	0	0	0	0	0	0		0	0		-1	0	0	150	118;118;99;99	0	0		0		0
+rapier	melee	22324	Ghrazi rapier	Stab Sword	4	7744	Lizardman shaman	177	169	75	-60	-67	164	0	0.0	6.36480	0	0	0	0	0	0	0	0		0	0		-1	0	0	150	118;118;99;99	0	0		0		0
+rapier	melee	22324	Ghrazi rapier	Stab Sword	4	7745	Lizardman shaman	177	169	75	-60	-67	164	0	0.0	6.36480	0	0	0	0	0	0	0	0		0	0		-1	0	0	150	118;118;99;99	0	0		0		0
+rapier	melee	22324	Ghrazi rapier	Stab Sword	4	974	Dagannoth	177	169	75	-60	-67	164	0	0.0	6.50485	0	0	0	0	0	0	0	0		0	0		-1	0	0	120	118;118;99;99	0	0		0		0
+rapier	melee	22324	Ghrazi rapier	Stab Sword	4	975	Dagannoth	177	169	75	-60	-67	164	0	0.0	6.50485	0	0	0	0	0	0	0	0		0	0		-1	0	0	120	118;118;99;99	0	0		0		0
+rapier	melee	22324	Ghrazi rapier	Stab Sword	4	5942	Dagannoth (Waterbirth Island)	177	169	75	-60	-67	164	0	0.0	6.39796	0	0	0	0	0	0	0	0		0	0		-1	0	0	85	118;118;99;99	0	0		0		0
+rapier	melee	22324	Ghrazi rapier	Stab Sword	4	5943	Dagannoth (Waterbirth Island)	177	169	75	-60	-67	164	0	0.0	6.18145	0	0	0	0	0	0	0	0		0	0		-1	0	0	95	118;118;99;99	0	0		0		0
+rapier	melee	22324	Ghrazi rapier	Stab Sword	4	12813	Minotaur (Fortis Colosseum)	177	169	75	-60	-67	164	0	0.0	5.76209	0	0	0	0	0	0	0	0		0	0		-1	0	0	225	118;118;99;99	0	0		0		0
+rapier	melee	22324	Ghrazi rapier	Stab Sword	4	13666	Araxyte	177	169	75	-60	-67	164	0	0.0	6.34991	0	0	0	0	0	0	0	0		0	0		-1	0	0	60	118;118;99;99	0	0		0		0
+inquisitors-mace	melee	24417	Inquisitor's mace	Spiked	4	6767	Lizardman shaman	129	110	177	-60	-67	167	0	0.0	6.21107	0	0	0	0	0	0	0	0		0	0		-1	0	0	150	118;118;99;99	0	0		0		0
+inquisitors-mace	melee	24417	Inquisitor's mace	Spiked	4	7744	Lizardman shaman	129	110	177	-60	-67	167	0	0.0	6.21107	0	0	0	0	0	0	0	0		0	0		-1	0	0	150	118;118;99;99	0	0		0		0
+inquisitors-mace	melee	24417	Inquisitor's mace	Spiked	4	7745	Lizardman shaman	129	110	177	-60	-67	167	0	0.0	6.21107	0	0	0	0	0	0	0	0		0	0		-1	0	0	150	118;118;99;99	0	0		0		0
+inquisitors-mace	melee	24417	Inquisitor's mace	Spiked	4	974	Dagannoth	129	110	177	-60	-67	167	0	0.0	6.50485	0	0	0	0	0	0	0	0		0	0		-1	0	0	120	118;118;99;99	0	0		0		0
+inquisitors-mace	melee	24417	Inquisitor's mace	Spiked	4	975	Dagannoth	129	110	177	-60	-67	167	0	0.0	6.50485	0	0	0	0	0	0	0	0		0	0		-1	0	0	120	118;118;99;99	0	0		0		0
+inquisitors-mace	melee	24417	Inquisitor's mace	Spiked	4	5942	Dagannoth (Waterbirth Island)	129	110	177	-60	-67	167	0	0.0	6.25220	0	0	0	0	0	0	0	0		0	0		-1	0	0	85	118;118;99;99	0	0		0		0
+inquisitors-mace	melee	24417	Inquisitor's mace	Spiked	4	5943	Dagannoth (Waterbirth Island)	129	110	177	-60	-67	167	0	0.0	6.18145	0	0	0	0	0	0	0	0		0	0		-1	0	0	95	118;118;99;99	0	0		0		0
+inquisitors-mace	melee	24417	Inquisitor's mace	Spiked	4	12813	Minotaur (Fortis Colosseum)	129	110	177	-60	-67	167	0	0.0	5.76209	0	0	0	0	0	0	0	0		0	0		-1	0	0	225	118;118;99;99	0	0		0		0
+inquisitors-mace	melee	24417	Inquisitor's mace	Spiked	4	13666	Araxyte	129	110	177	-60	-67	167	0	0.0	6.43892	0	0	0	0	0	0	0	0		0	0		-1	0	0	60	118;118;99;99	0	0		0		0
+tbow	ranged	20997	Twisted bow	Bow	6	6767	Lizardman shaman	-8	-8	-8	-19	215	0	100	0.0	4.87859	0	0	0	0	0	0	0	0		0	0		-1	0	0	150	99;99;112;99	0	0		0	Dragon arrow	0
+tbow	ranged	20997	Twisted bow	Bow	6	7744	Lizardman shaman	-8	-8	-8	-19	215	0	100	0.0	4.87859	0	0	0	0	0	0	0	0		0	0		-1	0	0	150	99;99;112;99	0	0		0	Dragon arrow	0
+tbow	ranged	20997	Twisted bow	Bow	6	7745	Lizardman shaman	-8	-8	-8	-19	215	0	100	0.0	4.87859	0	0	0	0	0	0	0	0		0	0		-1	0	0	150	99;99;112;99	0	0		0	Dragon arrow	0
+tbow	ranged	20997	Twisted bow	Bow	6	974	Dagannoth	-8	-8	-8	-19	215	0	100	0.0	1.36031	0	0	0	0	0	0	0	0		0	0		-1	0	0	120	99;99;112;99	0	0		0	Dragon arrow	0
+tbow	ranged	20997	Twisted bow	Bow	6	975	Dagannoth	-8	-8	-8	-19	215	0	100	0.0	1.36031	0	0	0	0	0	0	0	0		0	0		-1	0	0	120	99;99;112;99	0	0		0	Dragon arrow	0
+tbow	ranged	20997	Twisted bow	Bow	6	5942	Dagannoth (Waterbirth Island)	-8	-8	-8	-19	215	0	100	0.0	0.84185	0	0	0	0	0	0	0	0		0	0		-1	0	0	85	99;99;112;99	0	0		0	Dragon arrow	0
+tbow	ranged	20997	Twisted bow	Bow	6	5943	Dagannoth (Waterbirth Island)	-8	-8	-8	-19	215	0	100	0.0	1.40153	0	0	0	0	0	0	0	0		0	0		-1	0	0	95	99;99;112;99	0	0		0	Dragon arrow	0
+tbow	ranged	20997	Twisted bow	Bow	6	12813	Minotaur (Fortis Colosseum)	-8	-8	-8	-19	215	0	100	0.0	6.82496	0	0	0	0	0	0	0	0		0	0		-1	0	0	225	99;99;112;99	0	0		0	Dragon arrow	0
+tbow	ranged	20997	Twisted bow	Bow	6	13666	Araxyte	-8	-8	-8	-19	215	0	100	0.0	3.42887	0	0	0	0	0	0	0	0		0	0		-1	0	0	60	99;99;112;99	0	0		0	Dragon arrow	0
+blowpipe	ranged	12926	Toxic blowpipe	Thrown	3	6767	Lizardman shaman	-8	-8	-8	-19	175	0	75	0.0	6.84489	0	0	0	0	0	0	0	0		0	0		-1	0	0	150	99;99;112;99	0	0		0		0
+blowpipe	ranged	12926	Toxic blowpipe	Thrown	3	7744	Lizardman shaman	-8	-8	-8	-19	175	0	75	0.0	6.84489	0	0	0	0	0	0	0	0		0	0		-1	0	0	150	99;99;112;99	0	0		0		0
+blowpipe	ranged	12926	Toxic blowpipe	Thrown	3	7745	Lizardman shaman	-8	-8	-8	-19	175	0	75	0.0	6.84489	0	0	0	0	0	0	0	0		0	0		-1	0	0	150	99;99;112;99	0	0		0		0
+blowpipe	ranged	12926	Toxic blowpipe	Thrown	3	974	Dagannoth	-8	-8	-8	-19	175	0	75	0.0	6.72202	0	0	0	0	0	0	0	0		0	0		-1	0	0	120	99;99;112;99	0	0		0		0
+blowpipe	ranged	12926	Toxic blowpipe	Thrown	3	975	Dagannoth	-8	-8	-8	-19	175	0	75	0.0	6.72202	0	0	0	0	0	0	0	0		0	0		-1	0	0	120	99;99;112;99	0	0		0		0
+blowpipe	ranged	12926	Toxic blowpipe	Thrown	3	5942	Dagannoth (Waterbirth Island)	-8	-8	-8	-19	175	0	75	0.0	5.70884	0	0	0	0	0	0	0	0		0	0		-1	0	0	85	99;99;112;99	0	0		0		0
+blowpipe	ranged	12926	Toxic blowpipe	Thrown	3	5943	Dagannoth (Waterbirth Island)	-8	-8	-8	-19	175	0	75	0.0	6.80027	0	0	0	0	0	0	0	0		0	0		-1	0	0	95	99;99;112;99	0	0		0		0
+blowpipe	ranged	12926	Toxic blowpipe	Thrown	3	12813	Minotaur (Fortis Colosseum)	-8	-8	-8	-19	175	0	75	0.0	6.03513	0	0	0	0	0	0	0	0		0	0		-1	0	0	225	99;99;112;99	0	0		0		0
+blowpipe	ranged	12926	Toxic blowpipe	Thrown	3	13666	Araxyte	-8	-8	-8	-19	175	0	75	0.0	7.10230	0	0	0	0	0	0	0	0		0	0		-1	0	0	60	99;99;112;99	0	0		0		0
+shadow	magic	27275	Tumeken's shadow	Powered Staff	5	6767	Lizardman shaman	0	0	0	164	-17	0	0	24.0	5.97978	0	0	0	0	0	0	0	0		0	0		-1	0	0	150	99;99;99;112	0	0		0		0
+shadow	magic	27275	Tumeken's shadow	Powered Staff	5	7744	Lizardman shaman	0	0	0	164	-17	0	0	24.0	5.97978	0	0	0	0	0	0	0	0		0	0		-1	0	0	150	99;99;99;112	0	0		0		0
+shadow	magic	27275	Tumeken's shadow	Powered Staff	5	7745	Lizardman shaman	0	0	0	164	-17	0	0	24.0	5.97978	0	0	0	0	0	0	0	0		0	0		-1	0	0	150	99;99;99;112	0	0		0		0
+shadow	magic	27275	Tumeken's shadow	Powered Staff	5	974	Dagannoth	0	0	0	164	-17	0	0	24.0	6.55808	0	0	0	0	0	0	0	0		0	0		-1	0	0	120	99;99;99;112	0	0		0		0
+shadow	magic	27275	Tumeken's shadow	Powered Staff	5	975	Dagannoth	0	0	0	164	-17	0	0	24.0	6.55808	0	0	0	0	0	0	0	0		0	0		-1	0	0	120	99;99;99;112	0	0		0		0
+shadow	magic	27275	Tumeken's shadow	Powered Staff	5	5942	Dagannoth (Waterbirth Island)	0	0	0	164	-17	0	0	24.0	6.49909	0	0	0	0	0	0	0	0		0	0		-1	0	0	85	99;99;99;112	0	0		0		0
+shadow	magic	27275	Tumeken's shadow	Powered Staff	5	5943	Dagannoth (Waterbirth Island)	0	0	0	164	-17	0	0	24.0	6.55808	0	0	0	0	0	0	0	0		0	0		-1	0	0	95	99;99;99;112	0	0		0		0
+shadow	magic	27275	Tumeken's shadow	Powered Staff	5	12813	Minotaur (Fortis Colosseum)	0	0	0	164	-17	0	0	24.0	5.95108	0	0	0	0	0	0	0	0		0	0		-1	0	0	225	99;99;99;112	0	0		0		0
+shadow	magic	27275	Tumeken's shadow	Powered Staff	5	13666	Araxyte	0	0	0	164	-17	0	0	24.0	6.37499	0	0	0	0	0	0	0	0		0	0		-1	0	0	60	99;99;99;112	0	0		0		0
+scythe	melee	22325	Scythe of Vitur	Scythe	5	7851	Dusk	117	210	77	-61	-63	138	0	0.0	8.34738	0	0	0	0	0	0	0	0		0	0		-1	0	0	450	118;118;99;99	0	0		0		0
+scythe	melee	22325	Scythe of Vitur	Scythe	5	7887	Dusk	117	210	77	-61	-63	138	0	0.0	7.46446	0	0	0	0	0	0	0	0		0	0		-1	0	0	450	118;118;99;99	0	0		0		0
+scythe	melee	22325	Scythe of Vitur	Scythe	5	7888	Dusk	117	210	77	-61	-63	138	0	0.0	7.46446	0	0	0	0	0	0	0	0		0	0		-1	0	0	450	118;118;99;99	0	0		0		0
+scythe	melee	22325	Scythe of Vitur	Scythe	5	2137	Cyclops	117	210	77	-61	-63	138	0	0.0	6.94503	0	0	0	0	0	0	0	0		0	0		-1	0	0	150	118;118;99;99	0	0		0		0
+scythe	melee	22325	Scythe of Vitur	Scythe	5	2138	Cyclops	117	210	77	-61	-63	138	0	0.0	6.94503	0	0	0	0	0	0	0	0		0	0		-1	0	0	150	118;118;99;99	0	0		0		0
+scythe	melee	22325	Scythe of Vitur	Scythe	5	2463	Cyclops	117	210	77	-61	-63	138	0	0.0	7.11123	0	0	0	0	0	0	0	0		0	0		-1	0	0	75	118;118;99;99	0	0		0		0
+scythe	melee	22325	Scythe of Vitur	Scythe	5	2465	Cyclops	117	210	77	-61	-63	138	0	0.0	7.11123	0	0	0	0	0	0	0	0		0	0		-1	0	0	75	118;118;99;99	0	0		0		0
+scythe	melee	22325	Scythe of Vitur	Scythe	5	2464	Cyclops	117	210	77	-61	-63	138	0	0.0	7.05965	0	0	0	0	0	0	0	0		0	0		-1	0	0	100	118;118;99;99	0	0		0		0
+scythe	melee	22325	Scythe of Vitur	Scythe	5	2468	Cyclops	117	210	77	-61	-63	138	0	0.0	7.05965	0	0	0	0	0	0	0	0		0	0		-1	0	0	100	118;118;99;99	0	0		0		0
+rapier	melee	22324	Ghrazi rapier	Stab Sword	4	7851	Dusk	177	169	75	-60	-67	164	0	0.0	6.54955	0	0	0	0	0	0	0	0		0	0		-1	0	0	450	118;118;99;99	0	0		0		0
+rapier	melee	22324	Ghrazi rapier	Stab Sword	4	7887	Dusk	177	169	75	-60	-67	164	0	0.0	6.01176	0	0	0	0	0	0	0	0		0	0		-1	0	0	450	118;118;99;99	0	0		0		0
+rapier	melee	22324	Ghrazi rapier	Stab Sword	4	7888	Dusk	177	169	75	-60	-67	164	0	0.0	6.01176	0	0	0	0	0	0	0	0		0	0		-1	0	0	450	118;118;99;99	0	0		0		0
+rapier	melee	22324	Ghrazi rapier	Stab Sword	4	2137	Cyclops	177	169	75	-60	-67	164	0	0.0	6.60472	0	0	0	0	0	0	0	0		0	0		-1	0	0	150	118;118;99;99	0	0		0		0
+rapier	melee	22324	Ghrazi rapier	Stab Sword	4	2138	Cyclops	177	169	75	-60	-67	164	0	0.0	6.60472	0	0	0	0	0	0	0	0		0	0		-1	0	0	150	118;118;99;99	0	0		0		0
+rapier	melee	22324	Ghrazi rapier	Stab Sword	4	2463	Cyclops	177	169	75	-60	-67	164	0	0.0	6.78573	0	0	0	0	0	0	0	0		0	0		-1	0	0	75	118;118;99;99	0	0		0		0
+rapier	melee	22324	Ghrazi rapier	Stab Sword	4	2465	Cyclops	177	169	75	-60	-67	164	0	0.0	6.78573	0	0	0	0	0	0	0	0		0	0		-1	0	0	75	118;118;99;99	0	0		0		0
+rapier	melee	22324	Ghrazi rapier	Stab Sword	4	2464	Cyclops	177	169	75	-60	-67	164	0	0.0	6.72956	0	0	0	0	0	0	0	0		0	0		-1	0	0	100	118;118;99;99	0	0		0		0
+rapier	melee	22324	Ghrazi rapier	Stab Sword	4	2468	Cyclops	177	169	75	-60	-67	164	0	0.0	6.72956	0	0	0	0	0	0	0	0		0	0		-1	0	0	100	118;118;99;99	0	0		0		0
+tbow	ranged	20997	Twisted bow	Bow	6	7851	Dusk	-8	-8	-8	-19	215	0	100	0.0	0.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	450	99;99;112;99	0	0		0	Dragon arrow	0
+tbow	ranged	20997	Twisted bow	Bow	6	7887	Dusk	-8	-8	-8	-19	215	0	100	0.0	0.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	450	99;99;112;99	0	0		0	Dragon arrow	0
+tbow	ranged	20997	Twisted bow	Bow	6	7888	Dusk	-8	-8	-8	-19	215	0	100	0.0	0.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	450	99;99;112;99	0	0		0	Dragon arrow	0
+tbow	ranged	20997	Twisted bow	Bow	6	2137	Cyclops	-8	-8	-8	-19	215	0	100	0.0	0.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	150	99;99;112;99	0	0		0	Dragon arrow	0
+tbow	ranged	20997	Twisted bow	Bow	6	2138	Cyclops	-8	-8	-8	-19	215	0	100	0.0	0.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	150	99;99;112;99	0	0		0	Dragon arrow	0
+tbow	ranged	20997	Twisted bow	Bow	6	2463	Cyclops	-8	-8	-8	-19	215	0	100	0.0	0.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	75	99;99;112;99	0	0		0	Dragon arrow	0
+tbow	ranged	20997	Twisted bow	Bow	6	2465	Cyclops	-8	-8	-8	-19	215	0	100	0.0	0.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	75	99;99;112;99	0	0		0	Dragon arrow	0
+tbow	ranged	20997	Twisted bow	Bow	6	2464	Cyclops	-8	-8	-8	-19	215	0	100	0.0	0.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	100	99;99;112;99	0	0		0	Dragon arrow	0
+tbow	ranged	20997	Twisted bow	Bow	6	2468	Cyclops	-8	-8	-8	-19	215	0	100	0.0	0.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	100	99;99;112;99	0	0		0	Dragon arrow	0
+blowpipe	ranged	12926	Toxic blowpipe	Thrown	3	7851	Dusk	-8	-8	-8	-19	175	0	75	0.0	0.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	450	99;99;112;99	0	0		0		0
+blowpipe	ranged	12926	Toxic blowpipe	Thrown	3	7887	Dusk	-8	-8	-8	-19	175	0	75	0.0	0.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	450	99;99;112;99	0	0		0		0
+blowpipe	ranged	12926	Toxic blowpipe	Thrown	3	7888	Dusk	-8	-8	-8	-19	175	0	75	0.0	0.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	450	99;99;112;99	0	0		0		0
+blowpipe	ranged	12926	Toxic blowpipe	Thrown	3	2137	Cyclops	-8	-8	-8	-19	175	0	75	0.0	0.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	150	99;99;112;99	0	0		0		0
+blowpipe	ranged	12926	Toxic blowpipe	Thrown	3	2138	Cyclops	-8	-8	-8	-19	175	0	75	0.0	0.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	150	99;99;112;99	0	0		0		0
+blowpipe	ranged	12926	Toxic blowpipe	Thrown	3	2463	Cyclops	-8	-8	-8	-19	175	0	75	0.0	0.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	75	99;99;112;99	0	0		0		0
+blowpipe	ranged	12926	Toxic blowpipe	Thrown	3	2465	Cyclops	-8	-8	-8	-19	175	0	75	0.0	0.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	75	99;99;112;99	0	0		0		0
+blowpipe	ranged	12926	Toxic blowpipe	Thrown	3	2464	Cyclops	-8	-8	-8	-19	175	0	75	0.0	0.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	100	99;99;112;99	0	0		0		0
+blowpipe	ranged	12926	Toxic blowpipe	Thrown	3	2468	Cyclops	-8	-8	-8	-19	175	0	75	0.0	0.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	100	99;99;112;99	0	0		0		0
+shadow	magic	27275	Tumeken's shadow	Powered Staff	5	7851	Dusk	0	0	0	164	-17	0	0	24.0	0.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	450	99;99;99;112	0	0		0		0
+shadow	magic	27275	Tumeken's shadow	Powered Staff	5	7887	Dusk	0	0	0	164	-17	0	0	24.0	0.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	450	99;99;99;112	0	0		0		0
+shadow	magic	27275	Tumeken's shadow	Powered Staff	5	7888	Dusk	0	0	0	164	-17	0	0	24.0	0.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	450	99;99;99;112	0	0		0		0
+shadow	magic	27275	Tumeken's shadow	Powered Staff	5	2137	Cyclops	0	0	0	164	-17	0	0	24.0	0.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	150	99;99;99;112	0	0		0		0
+shadow	magic	27275	Tumeken's shadow	Powered Staff	5	2138	Cyclops	0	0	0	164	-17	0	0	24.0	0.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	150	99;99;99;112	0	0		0		0
+shadow	magic	27275	Tumeken's shadow	Powered Staff	5	2463	Cyclops	0	0	0	164	-17	0	0	24.0	0.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	75	99;99;99;112	0	0		0		0
+shadow	magic	27275	Tumeken's shadow	Powered Staff	5	2465	Cyclops	0	0	0	164	-17	0	0	24.0	0.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	75	99;99;99;112	0	0		0		0
+shadow	magic	27275	Tumeken's shadow	Powered Staff	5	2464	Cyclops	0	0	0	164	-17	0	0	24.0	0.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	100	99;99;99;112	0	0		0		0
+shadow	magic	27275	Tumeken's shadow	Powered Staff	5	2468	Cyclops	0	0	0	164	-17	0	0	24.0	0.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	100	99;99;99;112	0	0		0		0
+sang	magic	22323	Sanguinesti staff	Powered Staff	4	7851	Dusk	0	0	0	154	-21	0	0	24.0	0.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	450	99;99;99;112	0	0		0		0
+sang	magic	22323	Sanguinesti staff	Powered Staff	4	7887	Dusk	0	0	0	154	-21	0	0	24.0	0.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	450	99;99;99;112	0	0		0		0
+sang	magic	22323	Sanguinesti staff	Powered Staff	4	7888	Dusk	0	0	0	154	-21	0	0	24.0	0.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	450	99;99;99;112	0	0		0		0
+sang	magic	22323	Sanguinesti staff	Powered Staff	4	2137	Cyclops	0	0	0	154	-21	0	0	24.0	0.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	150	99;99;99;112	0	0		0		0
+sang	magic	22323	Sanguinesti staff	Powered Staff	4	2138	Cyclops	0	0	0	154	-21	0	0	24.0	0.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	150	99;99;99;112	0	0		0		0
+sang	magic	22323	Sanguinesti staff	Powered Staff	4	2463	Cyclops	0	0	0	154	-21	0	0	24.0	0.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	75	99;99;99;112	0	0		0		0
+sang	magic	22323	Sanguinesti staff	Powered Staff	4	2465	Cyclops	0	0	0	154	-21	0	0	24.0	0.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	75	99;99;99;112	0	0		0		0
+sang	magic	22323	Sanguinesti staff	Powered Staff	4	2464	Cyclops	0	0	0	154	-21	0	0	24.0	0.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	100	99;99;99;112	0	0		0		0
+sang	magic	22323	Sanguinesti staff	Powered Staff	4	2468	Cyclops	0	0	0	154	-21	0	0	24.0	0.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	100	99;99;99;112	0	0		0		0
+scythe	melee	22325	Scythe of Vitur	Scythe	5	14707	Doom of Mokhaiotl	117	210	77	-61	-63	138	0	0.0	6.03573	0	0	0	0	0	0	0	0		0	0		-1	0	0	625	118;118;99;99	0	0	Normal	0		0
+rapier	melee	22324	Ghrazi rapier	Stab Sword	4	14707	Doom of Mokhaiotl	177	169	75	-60	-67	164	0	0.0	3.49560	0	0	0	0	0	0	0	0		0	0		-1	0	0	625	118;118;99;99	0	0	Normal	0		0
+emberlight	melee	29589	Emberlight	Slash Sword	4	14707	Doom of Mokhaiotl	140	184	75	-60	-67	84	0	0.0	5.44072	0	0	0	0	0	0	0	0		0	0		-1	0	0	625	118;118;99;99	0	0	Normal	0		0
+tbow	ranged	20997	Twisted bow	Bow	6	14707	Doom of Mokhaiotl	-8	-8	-8	-19	215	0	100	0.0	6.32260	0	0	0	0	0	0	0	0		0	0		-1	0	0	625	99;99;112;99	0	0	Normal	0	Dragon arrow	0
+scorching	ranged	29591	Scorching bow	Bow	5	14707	Doom of Mokhaiotl	-8	-8	-8	-19	269	0	120	0.0	5.53609	0	0	0	0	0	0	0	0		0	0		-1	0	0	625	99;99;112;99	0	0	Normal	0	Dragon arrow	0
+blowpipe	ranged	12926	Toxic blowpipe	Thrown	3	14707	Doom of Mokhaiotl	-8	-8	-8	-19	175	0	75	0.0	5.22834	0	0	0	0	0	0	0	0		0	0		-1	0	0	625	99;99;112;99	0	0	Normal	0		0
+shadow	magic	27275	Tumeken's shadow	Powered Staff	5	14707	Doom of Mokhaiotl	0	0	0	164	-17	0	0	24.0	4.10130	0	0	0	0	0	0	0	0		0	0		-1	0	0	625	99;99;99;112	0	0	Normal	0		0
+scythe	melee	22325	Scythe of Vitur	Scythe	5	14708	Doom of Mokhaiotl	117	210	77	-61	-63	138	0	0.0	0.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	625	118;118;99;99	0	0	Shielded	0		0
+rapier	melee	22324	Ghrazi rapier	Stab Sword	4	14708	Doom of Mokhaiotl	177	169	75	-60	-67	164	0	0.0	0.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	625	118;118;99;99	0	0	Shielded	0		0
+emberlight	melee	29589	Emberlight	Slash Sword	4	14708	Doom of Mokhaiotl	140	184	75	-60	-67	84	0	0.0	7.62903	0	0	0	0	0	0	0	0		0	0		-1	0	0	625	118;118;99;99	0	0	Shielded	0		0
+tbow	ranged	20997	Twisted bow	Bow	6	14708	Doom of Mokhaiotl	-8	-8	-8	-19	215	0	100	0.0	0.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	625	99;99;112;99	0	0	Shielded	0	Dragon arrow	0
+scorching	ranged	29591	Scorching bow	Bow	5	14708	Doom of Mokhaiotl	-8	-8	-8	-19	269	0	120	0.0	6.75455	0	0	0	0	0	0	0	0		0	0		-1	0	0	625	99;99;112;99	0	0	Shielded	0	Dragon arrow	0
+blowpipe	ranged	12926	Toxic blowpipe	Thrown	3	14708	Doom of Mokhaiotl	-8	-8	-8	-19	175	0	75	0.0	0.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	625	99;99;112;99	0	0	Shielded	0		0
+shadow	magic	27275	Tumeken's shadow	Powered Staff	5	14708	Doom of Mokhaiotl	0	0	0	164	-17	0	0	24.0	0.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	625	99;99;99;112	0	0	Shielded	0		0
+scythe	melee	22325	Scythe of Vitur	Scythe	5	14709	Doom of Mokhaiotl	117	210	77	-61	-63	138	0	0.0	8.52738	0	0	0	0	0	0	0	0		0	0		-1	0	0	625	118;118;99;99	0	0	Burrowing	0		0
+rapier	melee	22324	Ghrazi rapier	Stab Sword	4	14709	Doom of Mokhaiotl	177	169	75	-60	-67	164	0	0.0	7.00439	0	0	0	0	0	0	0	0		0	0		-1	0	0	625	118;118;99;99	0	0	Burrowing	0		0
+emberlight	melee	29589	Emberlight	Slash Sword	4	14709	Doom of Mokhaiotl	140	184	75	-60	-67	84	0	0.0	7.62903	0	0	0	0	0	0	0	0		0	0		-1	0	0	625	118;118;99;99	0	0	Burrowing	0		0
+tbow	ranged	20997	Twisted bow	Bow	6	14709	Doom of Mokhaiotl	-8	-8	-8	-19	215	0	100	0.0	7.90250	0	0	0	0	0	0	0	0		0	0		-1	0	0	625	99;99;112;99	0	0	Burrowing	0	Dragon arrow	0
+scorching	ranged	29591	Scorching bow	Bow	5	14709	Doom of Mokhaiotl	-8	-8	-8	-19	269	0	120	0.0	6.75455	0	0	0	0	0	0	0	0		0	0		-1	0	0	625	99;99;112;99	0	0	Burrowing	0	Dragon arrow	0
+blowpipe	ranged	12926	Toxic blowpipe	Thrown	3	14709	Doom of Mokhaiotl	-8	-8	-8	-19	175	0	75	0.0	7.76562	0	0	0	0	0	0	0	0		0	0		-1	0	0	625	99;99;112;99	0	0	Burrowing	0		0
+shadow	magic	27275	Tumeken's shadow	Powered Staff	5	14709	Doom of Mokhaiotl	0	0	0	164	-17	0	0	24.0	6.60299	0	0	0	0	0	0	0	0		0	0		-1	0	0	625	99;99;99;112	0	0	Burrowing	0		0
+scythe	melee	22325	Scythe of Vitur	Scythe	5	13012	Eclipse Moon	117	210	77	-61	-63	138	0	0.0	4.71618	0	0	0	0	0	0	0	0		0	0		-1	0	0	500	118;118;99;99	0	0		0		0
+rapier	melee	22324	Ghrazi rapier	Stab Sword	4	13012	Eclipse Moon	177	169	75	-60	-67	164	0	0.0	5.24811	0	0	0	0	0	0	0	0		0	0		-1	0	0	500	118;118;99;99	0	0		0		0
+inquisitors-mace	melee	24417	Inquisitor's mace	Spiked	4	13012	Eclipse Moon	129	110	177	-60	-67	167	0	0.0	5.16542	0	0	0	0	0	0	0	0		0	0		-1	0	0	500	118;118;99;99	0	0		0		0
+tbow	ranged	20997	Twisted bow	Bow	6	13012	Eclipse Moon	-8	-8	-8	-19	215	0	100	0.0	1.74469	0	0	0	0	0	0	0	0		0	0		-1	0	0	500	99;99;112;99	0	0		0	Dragon arrow	0
+blowpipe	ranged	12926	Toxic blowpipe	Thrown	3	13012	Eclipse Moon	-8	-8	-8	-19	175	0	75	0.0	2.21422	0	0	0	0	0	0	0	0		0	0		-1	0	0	500	99;99;112;99	0	0		0		0
+shadow	magic	27275	Tumeken's shadow	Powered Staff	5	13012	Eclipse Moon	0	0	0	164	-17	0	0	24.0	4.18545	0	0	0	0	0	0	0	0		0	0		-1	0	0	500	99;99;99;112	0	0		0		0
+scythe	melee	22325	Scythe of Vitur	Scythe	5	8612	Drake	117	210	77	-61	-63	138	0	0.0	5.93581	0	0	0	0	0	0	0	0		0	0		-1	0	0	225	118;118;99;99	0	0		0		0
+scythe	melee	22325	Scythe of Vitur	Scythe	5	15576	Veiled kraken	117	210	77	-61	-63	138	0	0.0	2.47363	0	0	0	0	0	0	0	0		0	0		-1	0	0	225	118;118;99;99	0	0		0		0
+scythe	melee	22325	Scythe of Vitur	Scythe	5	13463	Elite Black Knight	117	210	77	-61	-63	138	0	0.0	2.76233	0	0	0	0	0	0	0	0		0	0		-1	0	0	90	118;118;99;99	0	0		0		0
+scythe	melee	22325	Scythe of Vitur	Scythe	5	12730	Armoured zombie (Defender of Varrock)	117	210	77	-61	-63	138	0	0.0	4.33127	0	0	0	0	0	0	0	0		0	0		-1	0	0	75	118;118;99;99	0	0		0		0
+scythe	melee	22325	Scythe of Vitur	Scythe	5	10691	Body Golem	117	210	77	-61	-63	138	0	0.0	6.23759	0	0	0	0	0	0	0	0		0	0		-1	0	0	60	118;118;99;99	0	0		0		0
+scythe	melee	22325	Scythe of Vitur	Scythe	5	10399	Shadow Wyrm	117	210	77	-61	-63	138	0	0.0	5.39517	0	0	0	0	0	0	0	0		0	0		-1	0	0	290	118;118;99;99	0	0		0		0
+scythe	melee	22325	Scythe of Vitur	Scythe	5	7392	Giant rockslug	117	210	77	-61	-63	138	0	0.0	6.88437	0	0	0	0	0	0	0	0		0	0		-1	0	0	77	118;118;99;99	0	0		0		0
+scythe	melee	22325	Scythe of Vitur	Scythe	5	6600	Runite Golem	117	210	77	-61	-63	138	0	0.0	3.57528	0	0	0	0	0	0	0	0		0	0		-1	0	0	120	118;118;99;99	0	0		0		0
+rapier	melee	22324	Ghrazi rapier	Stab Sword	4	8612	Drake	177	169	75	-60	-67	164	0	0.0	5.70577	0	0	0	0	0	0	0	0		0	0		-1	0	0	225	118;118;99;99	0	0		0		0
+rapier	melee	22324	Ghrazi rapier	Stab Sword	4	15576	Veiled kraken	177	169	75	-60	-67	164	0	0.0	3.35893	0	0	0	0	0	0	0	0		0	0		-1	0	0	225	118;118;99;99	0	0		0		0
+rapier	melee	22324	Ghrazi rapier	Stab Sword	4	13463	Elite Black Knight	177	169	75	-60	-67	164	0	0.0	4.08399	0	0	0	0	0	0	0	0		0	0		-1	0	0	90	118;118;99;99	0	0		0		0
+rapier	melee	22324	Ghrazi rapier	Stab Sword	4	12730	Armoured zombie (Defender of Varrock)	177	169	75	-60	-67	164	0	0.0	6.14591	0	0	0	0	0	0	0	0		0	0		-1	0	0	75	118;118;99;99	0	0		0		0
+rapier	melee	22324	Ghrazi rapier	Stab Sword	4	10691	Body Golem	177	169	75	-60	-67	164	0	0.0	6.17508	0	0	0	0	0	0	0	0		0	0		-1	0	0	60	118;118;99;99	0	0		0		0
+rapier	melee	22324	Ghrazi rapier	Stab Sword	4	10399	Shadow Wyrm	177	169	75	-60	-67	164	0	0.0	5.49220	0	0	0	0	0	0	0	0		0	0		-1	0	0	290	118;118;99;99	0	0		0		0
+rapier	melee	22324	Ghrazi rapier	Stab Sword	4	7392	Giant rockslug	177	169	75	-60	-67	164	0	0.0	6.01383	0	0	0	0	0	0	0	0		0	0		-1	0	0	77	118;118;99;99	0	0		0		0
+rapier	melee	22324	Ghrazi rapier	Stab Sword	4	6600	Runite Golem	177	169	75	-60	-67	164	0	0.0	5.10656	0	0	0	0	0	0	0	0		0	0		-1	0	0	120	118;118;99;99	0	0		0		0
+fang	melee	26219	Osmumten's fang	Stab Sword	5	8612	Drake	182	189	75	-60	-67	174	0	0.0	5.29382	0	0	0	0	0	0	0	0		0	0		-1	0	0	225	118;118;99;99	0	0		0		0
+fang	melee	26219	Osmumten's fang	Stab Sword	5	15576	Veiled kraken	182	189	75	-60	-67	174	0	0.0	2.88443	0	0	0	0	0	0	0	0		0	0		-1	0	0	225	118;118;99;99	0	0		0		0
+fang	melee	26219	Osmumten's fang	Stab Sword	5	13463	Elite Black Knight	182	189	75	-60	-67	174	0	0.0	4.07602	0	0	0	0	0	0	0	0		0	0		-1	0	0	90	118;118;99;99	0	0		0		0
+fang	melee	26219	Osmumten's fang	Stab Sword	5	12730	Armoured zombie (Defender of Varrock)	182	189	75	-60	-67	174	0	0.0	5.54185	0	0	0	0	0	0	0	0		0	0		-1	0	0	75	118;118;99;99	0	0		0		0
+fang	melee	26219	Osmumten's fang	Stab Sword	5	10691	Body Golem	182	189	75	-60	-67	174	0	0.0	5.38138	0	0	0	0	0	0	0	0		0	0		-1	0	0	60	118;118;99;99	0	0		0		0
+fang	melee	26219	Osmumten's fang	Stab Sword	5	10399	Shadow Wyrm	182	189	75	-60	-67	174	0	0.0	5.23021	0	0	0	0	0	0	0	0		0	0		-1	0	0	290	118;118;99;99	0	0		0		0
+fang	melee	26219	Osmumten's fang	Stab Sword	5	7392	Giant rockslug	182	189	75	-60	-67	174	0	0.0	5.35939	0	0	0	0	0	0	0	0		0	0		-1	0	0	77	118;118;99;99	0	0		0		0
+fang	melee	26219	Osmumten's fang	Stab Sword	5	6600	Runite Golem	182	189	75	-60	-67	174	0	0.0	4.84612	0	0	0	0	0	0	0	0		0	0		-1	0	0	120	118;118;99;99	0	0		0		0
+inquisitors-mace	melee	24417	Inquisitor's mace	Spiked	4	8612	Drake	129	110	177	-60	-67	167	0	0.0	5.51170	0	0	0	0	0	0	0	0		0	0		-1	0	0	225	118;118;99;99	0	0		0		0
+inquisitors-mace	melee	24417	Inquisitor's mace	Spiked	4	15576	Veiled kraken	129	110	177	-60	-67	167	0	0.0	3.35893	0	0	0	0	0	0	0	0		0	0		-1	0	0	225	118;118;99;99	0	0		0		0
+inquisitors-mace	melee	24417	Inquisitor's mace	Spiked	4	13463	Elite Black Knight	129	110	177	-60	-67	167	0	0.0	4.60242	0	0	0	0	0	0	0	0		0	0		-1	0	0	90	118;118;99;99	0	0		0		0
+inquisitors-mace	melee	24417	Inquisitor's mace	Spiked	4	12730	Armoured zombie (Defender of Varrock)	129	110	177	-60	-67	167	0	0.0	6.29074	0	0	0	0	0	0	0	0		0	0		-1	0	0	75	118;118;99;99	0	0		0		0
+inquisitors-mace	melee	24417	Inquisitor's mace	Spiked	4	10691	Body Golem	129	110	177	-60	-67	167	0	0.0	6.19956	0	0	0	0	0	0	0	0		0	0		-1	0	0	60	118;118;99;99	0	0		0		0
+inquisitors-mace	melee	24417	Inquisitor's mace	Spiked	4	10399	Shadow Wyrm	129	110	177	-60	-67	167	0	0.0	5.24679	0	0	0	0	0	0	0	0		0	0		-1	0	0	290	118;118;99;99	0	0		0		0
+inquisitors-mace	melee	24417	Inquisitor's mace	Spiked	4	7392	Giant rockslug	129	110	177	-60	-67	167	0	0.0	6.01383	0	0	0	0	0	0	0	0		0	0		-1	0	0	77	118;118;99;99	0	0		0		0
+inquisitors-mace	melee	24417	Inquisitor's mace	Spiked	4	6600	Runite Golem	129	110	177	-60	-67	167	0	0.0	5.10656	0	0	0	0	0	0	0	0		0	0		-1	0	0	120	118;118;99;99	0	0		0		0
+tbow	ranged	20997	Twisted bow	Bow	6	8612	Drake	-8	-8	-8	-19	215	0	100	0.0	3.44074	0	0	0	0	0	0	0	0		0	0		-1	0	0	225	99;99;112;99	0	0		0	Dragon arrow	0
+tbow	ranged	20997	Twisted bow	Bow	6	15576	Veiled kraken	-8	-8	-8	-19	215	0	100	0.0	0.87449	0	0	0	0	0	0	0	0		0	0		-1	0	0	225	99;99;112;99	0	0		0	Dragon arrow	0
+tbow	ranged	20997	Twisted bow	Bow	6	13463	Elite Black Knight	-8	-8	-8	-19	215	0	100	0.0	1.88599	0	0	0	0	0	0	0	0		0	0		-1	0	0	90	99;99;112;99	0	0		0	Dragon arrow	0
+tbow	ranged	20997	Twisted bow	Bow	6	12730	Armoured zombie (Defender of Varrock)	-8	-8	-8	-19	215	0	100	0.0	1.40248	0	0	0	0	0	0	0	0		0	0		-1	0	0	75	99;99;112;99	0	0		0	Dragon arrow	0
+tbow	ranged	20997	Twisted bow	Bow	6	10691	Body Golem	-8	-8	-8	-19	215	0	100	0.0	1.33701	0	0	0	0	0	0	0	0		0	0		-1	0	0	60	99;99;112;99	0	0		0	Dragon arrow	0
+tbow	ranged	20997	Twisted bow	Bow	6	10399	Shadow Wyrm	-8	-8	-8	-19	215	0	100	0.0	5.27199	0	0	0	0	0	0	0	0		0	0		-1	0	0	290	99;99;112;99	0	0		0	Dragon arrow	0
+tbow	ranged	20997	Twisted bow	Bow	6	7392	Giant rockslug	-8	-8	-8	-19	215	0	100	0.0	1.26422	0	0	0	0	0	0	0	0		0	0		-1	0	0	77	99;99;112;99	0	0		0	Dragon arrow	0
+tbow	ranged	20997	Twisted bow	Bow	6	6600	Runite Golem	-8	-8	-8	-19	215	0	100	0.0	0.77832	0	0	0	0	0	0	0	0		0	0		-1	0	0	120	99;99;112;99	0	0		0	Dragon arrow	0
+blowpipe	ranged	12926	Toxic blowpipe	Thrown	3	8612	Drake	-8	-8	-8	-19	175	0	75	0.0	4.67825	0	0	0	0	0	0	0	0		0	0		-1	0	0	225	99;99;112;99	0	0		0		0
+blowpipe	ranged	12926	Toxic blowpipe	Thrown	3	15576	Veiled kraken	-8	-8	-8	-19	175	0	75	0.0	0.74754	0	0	0	0	0	0	0	0		0	0		-1	0	0	225	99;99;112;99	0	0		0		0
+blowpipe	ranged	12926	Toxic blowpipe	Thrown	3	13463	Elite Black Knight	-8	-8	-8	-19	175	0	75	0.0	3.29267	0	0	0	0	0	0	0	0		0	0		-1	0	0	90	99;99;112;99	0	0		0		0
+blowpipe	ranged	12926	Toxic blowpipe	Thrown	3	12730	Armoured zombie (Defender of Varrock)	-8	-8	-8	-19	175	0	75	0.0	6.65550	0	0	0	0	0	0	0	0		0	0		-1	0	0	75	99;99;112;99	0	0		0		0
+blowpipe	ranged	12926	Toxic blowpipe	Thrown	3	10691	Body Golem	-8	-8	-8	-19	175	0	75	0.0	6.39654	0	0	0	0	0	0	0	0		0	0		-1	0	0	60	99;99;112;99	0	0		0		0
+blowpipe	ranged	12926	Toxic blowpipe	Thrown	3	10399	Shadow Wyrm	-8	-8	-8	-19	175	0	75	0.0	5.66957	0	0	0	0	0	0	0	0		0	0		-1	0	0	290	99;99;112;99	0	0		0		0
+blowpipe	ranged	12926	Toxic blowpipe	Thrown	3	7392	Giant rockslug	-8	-8	-8	-19	175	0	75	0.0	6.24554	0	0	0	0	0	0	0	0		0	0		-1	0	0	77	99;99;112;99	0	0		0		0
+blowpipe	ranged	12926	Toxic blowpipe	Thrown	3	6600	Runite Golem	-8	-8	-8	-19	175	0	75	0.0	4.93710	0	0	0	0	0	0	0	0		0	0		-1	0	0	120	99;99;112;99	0	0		0		0
+dhcb	ranged	21012	Dragon hunter crossbow	Crossbow	6	8612	Drake	-15	-16	-15	-29	258	0	145	0.0	5.03436	0	0	0	0	0	0	0	0		0	0		-1	0	0	225	99;99;112;99	0	0		0	Runite bolts	0
+dhcb	ranged	21012	Dragon hunter crossbow	Crossbow	6	15576	Veiled kraken	-15	-16	-15	-29	258	0	145	0.0	2.00904	0	0	0	0	0	0	0	0		0	0		-1	0	0	225	99;99;112;99	0	0		0	Runite bolts	0
+dhcb	ranged	21012	Dragon hunter crossbow	Crossbow	6	13463	Elite Black Knight	-15	-16	-15	-29	258	0	145	0.0	2.95795	0	0	0	0	0	0	0	0		0	0		-1	0	0	90	99;99;112;99	0	0		0	Runite bolts	0
+dhcb	ranged	21012	Dragon hunter crossbow	Crossbow	6	12730	Armoured zombie (Defender of Varrock)	-15	-16	-15	-29	258	0	145	0.0	4.22343	0	0	0	0	0	0	0	0		0	0		-1	0	0	75	99;99;112;99	0	0		0	Runite bolts	0
+dhcb	ranged	21012	Dragon hunter crossbow	Crossbow	6	10691	Body Golem	-15	-16	-15	-29	258	0	145	0.0	4.12397	0	0	0	0	0	0	0	0		0	0		-1	0	0	60	99;99;112;99	0	0		0	Runite bolts	0
+dhcb	ranged	21012	Dragon hunter crossbow	Crossbow	6	10399	Shadow Wyrm	-15	-16	-15	-29	258	0	145	0.0	4.89784	0	0	0	0	0	0	0	0		0	0		-1	0	0	290	99;99;112;99	0	0		0	Runite bolts	0
+dhcb	ranged	21012	Dragon hunter crossbow	Crossbow	6	7392	Giant rockslug	-15	-16	-15	-29	258	0	145	0.0	4.05285	0	0	0	0	0	0	0	0		0	0		-1	0	0	77	99;99;112;99	0	0		0	Runite bolts	0
+dhcb	ranged	21012	Dragon hunter crossbow	Crossbow	6	6600	Runite Golem	-15	-16	-15	-29	258	0	145	0.0	3.46160	0	0	0	0	0	0	0	0		0	0		-1	0	0	120	99;99;112;99	0	0		0	Runite bolts	0
+zcb-ruby	ranged	26374	Zaryte crossbow	Crossbow	6	8612	Drake	-15	-16	-15	-29	273	0	152	0.0	4.47100	0	0	0	0	0	0	0	0		0	0		-1	0	0	225	99;99;112;99	0	1		0	Ruby dragon bolts (e)	0
+zcb-ruby	ranged	26374	Zaryte crossbow	Crossbow	6	15576	Veiled kraken	-15	-16	-15	-29	273	0	152	0.0	2.48736	0	0	0	0	0	0	0	0		0	0		-1	0	0	225	99;99;112;99	0	1		0	Ruby dragon bolts (e)	0
+zcb-ruby	ranged	26374	Zaryte crossbow	Crossbow	6	13463	Elite Black Knight	-15	-16	-15	-29	273	0	152	0.0	3.09923	0	0	0	0	0	0	0	0		0	0		-1	0	0	90	99;99;112;99	0	1		0	Ruby dragon bolts (e)	0
+zcb-ruby	ranged	26374	Zaryte crossbow	Crossbow	6	12730	Armoured zombie (Defender of Varrock)	-15	-16	-15	-29	273	0	152	0.0	4.32988	0	0	0	0	0	0	0	0		0	0		-1	0	0	75	99;99;112;99	0	1		0	Ruby dragon bolts (e)	0
+zcb-ruby	ranged	26374	Zaryte crossbow	Crossbow	6	10691	Body Golem	-15	-16	-15	-29	273	0	152	0.0	4.18337	0	0	0	0	0	0	0	0		0	0		-1	0	0	60	99;99;112;99	0	1		0	Ruby dragon bolts (e)	0
+zcb-ruby	ranged	26374	Zaryte crossbow	Crossbow	6	10399	Shadow Wyrm	-15	-16	-15	-29	273	0	152	0.0	4.52371	0	0	0	0	0	0	0	0		0	0		-1	0	0	290	99;99;112;99	0	1		0	Ruby dragon bolts (e)	0
+zcb-ruby	ranged	26374	Zaryte crossbow	Crossbow	6	7392	Giant rockslug	-15	-16	-15	-29	273	0	152	0.0	4.15657	0	0	0	0	0	0	0	0		0	0		-1	0	0	77	99;99;112;99	0	1		0	Ruby dragon bolts (e)	0
+zcb-ruby	ranged	26374	Zaryte crossbow	Crossbow	6	6600	Runite Golem	-15	-16	-15	-29	273	0	152	0.0	3.70718	0	0	0	0	0	0	0	0		0	0		-1	0	0	120	99;99;112;99	0	1		0	Ruby dragon bolts (e)	0
+zcb-diamond	ranged	26374	Zaryte crossbow	Crossbow	6	8612	Drake	-15	-16	-15	-29	273	0	152	0.0	4.29727	0	0	0	0	0	0	0	0		0	0		-1	0	0	225	99;99;112;99	0	2		0	Diamond dragon bolts (e)	0
+zcb-diamond	ranged	26374	Zaryte crossbow	Crossbow	6	15576	Veiled kraken	-15	-16	-15	-29	273	0	152	0.0	2.32610	0	0	0	0	0	0	0	0		0	0		-1	0	0	225	99;99;112;99	0	2		0	Diamond dragon bolts (e)	0
+zcb-diamond	ranged	26374	Zaryte crossbow	Crossbow	6	13463	Elite Black Knight	-15	-16	-15	-29	273	0	152	0.0	3.32923	0	0	0	0	0	0	0	0		0	0		-1	0	0	90	99;99;112;99	0	2		0	Diamond dragon bolts (e)	0
+zcb-diamond	ranged	26374	Zaryte crossbow	Crossbow	6	12730	Armoured zombie (Defender of Varrock)	-15	-16	-15	-29	273	0	152	0.0	4.58658	0	0	0	0	0	0	0	0		0	0		-1	0	0	75	99;99;112;99	0	2		0	Diamond dragon bolts (e)	0
+zcb-diamond	ranged	26374	Zaryte crossbow	Crossbow	6	10691	Body Golem	-15	-16	-15	-29	273	0	152	0.0	4.47600	0	0	0	0	0	0	0	0		0	0		-1	0	0	60	99;99;112;99	0	2		0	Diamond dragon bolts (e)	0
+zcb-diamond	ranged	26374	Zaryte crossbow	Crossbow	6	10399	Shadow Wyrm	-15	-16	-15	-29	273	0	152	0.0	4.17140	0	0	0	0	0	0	0	0		0	0		-1	0	0	290	99;99;112;99	0	2		0	Diamond dragon bolts (e)	0
+zcb-diamond	ranged	26374	Zaryte crossbow	Crossbow	6	7392	Giant rockslug	-15	-16	-15	-29	273	0	152	0.0	4.41273	0	0	0	0	0	0	0	0		0	0		-1	0	0	77	99;99;112;99	0	2		0	Diamond dragon bolts (e)	0
+zcb-diamond	ranged	26374	Zaryte crossbow	Crossbow	6	6600	Runite Golem	-15	-16	-15	-29	273	0	152	0.0	3.84236	0	0	0	0	0	0	0	0		0	0		-1	0	0	120	99;99;112;99	0	2		0	Diamond dragon bolts (e)	0
+shadow	magic	27275	Tumeken's shadow	Powered Staff	5	8612	Drake	0	0	0	164	-17	0	0	24.0	6.20322	0	0	0	0	0	0	0	0		0	0		-1	0	0	225	99;99;99;112	0	0		0		0
+shadow	magic	27275	Tumeken's shadow	Powered Staff	5	15576	Veiled kraken	0	0	0	164	-17	0	0	24.0	4.93555	0	0	0	0	0	0	0	0		0	0		-1	0	0	225	99;99;99;112	0	0		0		0
+shadow	magic	27275	Tumeken's shadow	Powered Staff	5	13463	Elite Black Knight	0	0	0	164	-17	0	0	24.0	6.41962	0	0	0	0	0	0	0	0		0	0		-1	0	0	90	99;99;99;112	0	0		0		0
+shadow	magic	27275	Tumeken's shadow	Powered Staff	5	12730	Armoured zombie (Defender of Varrock)	0	0	0	164	-17	0	0	24.0	6.57774	0	0	0	0	0	0	0	0		0	0		-1	0	0	75	99;99;99;112	0	0		0		0
+shadow	magic	27275	Tumeken's shadow	Powered Staff	5	10691	Body Golem	0	0	0	164	-17	0	0	24.0	6.57695	0	0	0	0	0	0	0	0		0	0		-1	0	0	60	99;99;99;112	0	0		0		0
+shadow	magic	27275	Tumeken's shadow	Powered Staff	5	10399	Shadow Wyrm	0	0	0	164	-17	0	0	24.0	5.84530	0	0	0	0	0	0	0	0		0	0		-1	0	0	290	99;99;99;112	0	0		0		0
+shadow	magic	27275	Tumeken's shadow	Powered Staff	5	7392	Giant rockslug	0	0	0	164	-17	0	0	24.0	6.57774	0	0	0	0	0	0	0	0		0	0		-1	0	0	77	99;99;99;112	0	0		0		0
+shadow	magic	27275	Tumeken's shadow	Powered Staff	5	6600	Runite Golem	0	0	0	164	-17	0	0	24.0	6.57774	0	0	0	0	0	0	0	0		0	0		-1	0	0	120	99;99;99;112	0	0		0		0
+zcb-ruby	ranged	26374	Zaryte crossbow	Crossbow	6	2042	Zulrah	-15	-16	-15	-29	273	0	152	0.0	3.52145	0	0	0	0	0	0	0	0		0	0		-1	0	0	500	99;99;112;99	0	1		0	Ruby dragon bolts (e)	0
+zcb-diamond	ranged	26374	Zaryte crossbow	Crossbow	6	2042	Zulrah	-15	-16	-15	-29	273	0	152	0.0	3.39627	0	0	0	0	0	0	0	0		0	0		-1	0	0	500	99;99;112;99	0	2		0	Diamond dragon bolts (e)	0
+tbow	ranged	20997	Twisted bow	Bow	6	2042	Zulrah	-8	-8	-8	-19	215	0	100	0.0	4.52711	0	0	0	0	0	0	0	0		0	0		-1	0	0	500	99;99;112;99	0	0		0	Dragon arrow	0
+scythe	melee	22325	Scythe of Vitur	Scythe	5	8917	Fragment of Seren	117	210	77	-61	-63	138	0	0.0	4.40595	0	0	0	0	0	0	0	0		0	0		-1	0	0	1000	118;118;99;99	0	0		0		0
+scythe	melee	22325	Scythe of Vitur	Scythe	5	8918	Fragment of Seren	117	210	77	-61	-63	138	0	0.0	4.40595	0	0	0	0	0	0	0	0		0	0		-1	0	0	1000	118;118;99;99	0	0		0		0
+scythe	melee	22325	Scythe of Vitur	Scythe	5	8919	Fragment of Seren	117	210	77	-61	-63	138	0	0.0	4.40595	0	0	0	0	0	0	0	0		0	0		-1	0	0	1000	118;118;99;99	0	0		0		0
+scythe	melee	22325	Scythe of Vitur	Scythe	5	8920	Fragment of Seren	117	210	77	-61	-63	138	0	0.0	4.40595	0	0	0	0	0	0	0	0		0	0		-1	0	0	1000	118;118;99;99	0	0		0		0
+rapier	melee	22324	Ghrazi rapier	Stab Sword	4	8917	Fragment of Seren	177	169	75	-60	-67	164	0	0.0	2.48001	0	0	0	0	0	0	0	0		0	0		-1	0	0	1000	118;118;99;99	0	0		0		0
+rapier	melee	22324	Ghrazi rapier	Stab Sword	4	8918	Fragment of Seren	177	169	75	-60	-67	164	0	0.0	2.48001	0	0	0	0	0	0	0	0		0	0		-1	0	0	1000	118;118;99;99	0	0		0		0
+rapier	melee	22324	Ghrazi rapier	Stab Sword	4	8919	Fragment of Seren	177	169	75	-60	-67	164	0	0.0	2.48001	0	0	0	0	0	0	0	0		0	0		-1	0	0	1000	118;118;99;99	0	0		0		0
+rapier	melee	22324	Ghrazi rapier	Stab Sword	4	8920	Fragment of Seren	177	169	75	-60	-67	164	0	0.0	2.48001	0	0	0	0	0	0	0	0		0	0		-1	0	0	1000	118;118;99;99	0	0		0		0
+fang	melee	26219	Osmumten's fang	Stab Sword	5	8917	Fragment of Seren	182	189	75	-60	-67	174	0	0.0	2.35508	0	0	0	0	0	0	0	0		0	0		-1	0	0	1000	118;118;99;99	0	0		0		0
+fang	melee	26219	Osmumten's fang	Stab Sword	5	8918	Fragment of Seren	182	189	75	-60	-67	174	0	0.0	2.35508	0	0	0	0	0	0	0	0		0	0		-1	0	0	1000	118;118;99;99	0	0		0		0
+fang	melee	26219	Osmumten's fang	Stab Sword	5	8919	Fragment of Seren	182	189	75	-60	-67	174	0	0.0	2.35508	0	0	0	0	0	0	0	0		0	0		-1	0	0	1000	118;118;99;99	0	0		0		0
+fang	melee	26219	Osmumten's fang	Stab Sword	5	8920	Fragment of Seren	182	189	75	-60	-67	174	0	0.0	2.35508	0	0	0	0	0	0	0	0		0	0		-1	0	0	1000	118;118;99;99	0	0		0		0
+inquisitors-mace	melee	24417	Inquisitor's mace	Spiked	4	8917	Fragment of Seren	129	110	177	-60	-67	167	0	0.0	1.94261	0	0	0	0	0	0	0	0		0	0		-1	0	0	1000	118;118;99;99	0	0		0		0
+inquisitors-mace	melee	24417	Inquisitor's mace	Spiked	4	8918	Fragment of Seren	129	110	177	-60	-67	167	0	0.0	1.94261	0	0	0	0	0	0	0	0		0	0		-1	0	0	1000	118;118;99;99	0	0		0		0
+inquisitors-mace	melee	24417	Inquisitor's mace	Spiked	4	8919	Fragment of Seren	129	110	177	-60	-67	167	0	0.0	1.94261	0	0	0	0	0	0	0	0		0	0		-1	0	0	1000	118;118;99;99	0	0		0		0
+inquisitors-mace	melee	24417	Inquisitor's mace	Spiked	4	8920	Fragment of Seren	129	110	177	-60	-67	167	0	0.0	1.94261	0	0	0	0	0	0	0	0		0	0		-1	0	0	1000	118;118;99;99	0	0		0		0
+emberlight	melee	29589	Emberlight	Slash Sword	4	8917	Fragment of Seren	140	184	75	-60	-67	84	0	0.0	2.23312	0	0	0	0	0	0	0	0		0	0		-1	0	0	1000	118;118;99;99	0	0		0		0
+emberlight	melee	29589	Emberlight	Slash Sword	4	8918	Fragment of Seren	140	184	75	-60	-67	84	0	0.0	2.23312	0	0	0	0	0	0	0	0		0	0		-1	0	0	1000	118;118;99;99	0	0		0		0
+emberlight	melee	29589	Emberlight	Slash Sword	4	8919	Fragment of Seren	140	184	75	-60	-67	84	0	0.0	2.23312	0	0	0	0	0	0	0	0		0	0		-1	0	0	1000	118;118;99;99	0	0		0		0
+emberlight	melee	29589	Emberlight	Slash Sword	4	8920	Fragment of Seren	140	184	75	-60	-67	84	0	0.0	2.23312	0	0	0	0	0	0	0	0		0	0		-1	0	0	1000	118;118;99;99	0	0		0		0
+tbow	ranged	20997	Twisted bow	Bow	6	8917	Fragment of Seren	-8	-8	-8	-19	215	0	100	0.0	1.06050	0	0	0	0	0	0	0	0		0	0		-1	0	0	1000	99;99;112;99	0	0		0	Dragon arrow	0
+tbow	ranged	20997	Twisted bow	Bow	6	8918	Fragment of Seren	-8	-8	-8	-19	215	0	100	0.0	1.06050	0	0	0	0	0	0	0	0		0	0		-1	0	0	1000	99;99;112;99	0	0		0	Dragon arrow	0
+tbow	ranged	20997	Twisted bow	Bow	6	8919	Fragment of Seren	-8	-8	-8	-19	215	0	100	0.0	1.06050	0	0	0	0	0	0	0	0		0	0		-1	0	0	1000	99;99;112;99	0	0		0	Dragon arrow	0
+tbow	ranged	20997	Twisted bow	Bow	6	8920	Fragment of Seren	-8	-8	-8	-19	215	0	100	0.0	1.06050	0	0	0	0	0	0	0	0		0	0		-1	0	0	1000	99;99;112;99	0	0		0	Dragon arrow	0
+blowpipe	ranged	12926	Toxic blowpipe	Thrown	3	8917	Fragment of Seren	-8	-8	-8	-19	175	0	75	0.0	2.02271	0	0	0	0	0	0	0	0		0	0		-1	0	0	1000	99;99;112;99	0	0		0		0
+blowpipe	ranged	12926	Toxic blowpipe	Thrown	3	8918	Fragment of Seren	-8	-8	-8	-19	175	0	75	0.0	2.02271	0	0	0	0	0	0	0	0		0	0		-1	0	0	1000	99;99;112;99	0	0		0		0
+blowpipe	ranged	12926	Toxic blowpipe	Thrown	3	8919	Fragment of Seren	-8	-8	-8	-19	175	0	75	0.0	2.02271	0	0	0	0	0	0	0	0		0	0		-1	0	0	1000	99;99;112;99	0	0		0		0
+blowpipe	ranged	12926	Toxic blowpipe	Thrown	3	8920	Fragment of Seren	-8	-8	-8	-19	175	0	75	0.0	2.02271	0	0	0	0	0	0	0	0		0	0		-1	0	0	1000	99;99;112;99	0	0		0		0
+zcb-ruby	ranged	26374	Zaryte crossbow	Crossbow	6	8917	Fragment of Seren	-15	-16	-15	-29	273	0	152	0.0	1.59842	0	0	0	0	0	0	0	0		0	0		-1	0	0	1000	99;99;112;99	0	1		0	Ruby dragon bolts (e)	0
+zcb-ruby	ranged	26374	Zaryte crossbow	Crossbow	6	8918	Fragment of Seren	-15	-16	-15	-29	273	0	152	0.0	1.59842	0	0	0	0	0	0	0	0		0	0		-1	0	0	1000	99;99;112;99	0	1		0	Ruby dragon bolts (e)	0
+zcb-ruby	ranged	26374	Zaryte crossbow	Crossbow	6	8919	Fragment of Seren	-15	-16	-15	-29	273	0	152	0.0	1.59842	0	0	0	0	0	0	0	0		0	0		-1	0	0	1000	99;99;112;99	0	1		0	Ruby dragon bolts (e)	0
+zcb-ruby	ranged	26374	Zaryte crossbow	Crossbow	6	8920	Fragment of Seren	-15	-16	-15	-29	273	0	152	0.0	1.59842	0	0	0	0	0	0	0	0		0	0		-1	0	0	1000	99;99;112;99	0	1		0	Ruby dragon bolts (e)	0
+zcb-diamond	ranged	26374	Zaryte crossbow	Crossbow	6	8917	Fragment of Seren	-15	-16	-15	-29	273	0	152	0.0	1.64212	0	0	0	0	0	0	0	0		0	0		-1	0	0	1000	99;99;112;99	0	2		0	Diamond dragon bolts (e)	0
+zcb-diamond	ranged	26374	Zaryte crossbow	Crossbow	6	8918	Fragment of Seren	-15	-16	-15	-29	273	0	152	0.0	1.64212	0	0	0	0	0	0	0	0		0	0		-1	0	0	1000	99;99;112;99	0	2		0	Diamond dragon bolts (e)	0
+zcb-diamond	ranged	26374	Zaryte crossbow	Crossbow	6	8919	Fragment of Seren	-15	-16	-15	-29	273	0	152	0.0	1.64212	0	0	0	0	0	0	0	0		0	0		-1	0	0	1000	99;99;112;99	0	2		0	Diamond dragon bolts (e)	0
+zcb-diamond	ranged	26374	Zaryte crossbow	Crossbow	6	8920	Fragment of Seren	-15	-16	-15	-29	273	0	152	0.0	1.64212	0	0	0	0	0	0	0	0		0	0		-1	0	0	1000	99;99;112;99	0	2		0	Diamond dragon bolts (e)	0
+shadow	magic	27275	Tumeken's shadow	Powered Staff	5	8917	Fragment of Seren	0	0	0	164	-17	0	0	24.0	3.59325	0	0	0	0	0	0	0	0		0	0		-1	0	0	1000	99;99;99;112	0	0		0		0
+shadow	magic	27275	Tumeken's shadow	Powered Staff	5	8918	Fragment of Seren	0	0	0	164	-17	0	0	24.0	3.59325	0	0	0	0	0	0	0	0		0	0		-1	0	0	1000	99;99;99;112	0	0		0		0
+shadow	magic	27275	Tumeken's shadow	Powered Staff	5	8919	Fragment of Seren	0	0	0	164	-17	0	0	24.0	3.59325	0	0	0	0	0	0	0	0		0	0		-1	0	0	1000	99;99;99;112	0	0		0		0
+shadow	magic	27275	Tumeken's shadow	Powered Staff	5	8920	Fragment of Seren	0	0	0	164	-17	0	0	24.0	3.59325	0	0	0	0	0	0	0	0		0	0		-1	0	0	1000	99;99;99;112	0	0		0		0
+sang	magic	22323	Sanguinesti staff	Powered Staff	4	8917	Fragment of Seren	0	0	0	154	-21	0	0	24.0	3.91869	0	0	0	0	0	0	0	0		0	0		-1	0	0	1000	99;99;99;112	0	0		0		0
+sang	magic	22323	Sanguinesti staff	Powered Staff	4	8918	Fragment of Seren	0	0	0	154	-21	0	0	24.0	3.91869	0	0	0	0	0	0	0	0		0	0		-1	0	0	1000	99;99;99;112	0	0		0		0
+sang	magic	22323	Sanguinesti staff	Powered Staff	4	8919	Fragment of Seren	0	0	0	154	-21	0	0	24.0	3.91869	0	0	0	0	0	0	0	0		0	0		-1	0	0	1000	99;99;99;112	0	0		0		0
+sang	magic	22323	Sanguinesti staff	Powered Staff	4	8920	Fragment of Seren	0	0	0	154	-21	0	0	24.0	3.91869	0	0	0	0	0	0	0	0		0	0		-1	0	0	1000	99;99;99;112	0	0		0		0
+noxious-halberd	melee	29796	Noxious halberd	Polearm	5	5914	Respiratory system	127	217	47	-55	-63	205	0	0.0	9.22636	0	0	0	0	0	0	0	0		0	0		-1	0	0	50	118;118;99;99	0	0		0		0
+tbow	ranged	20997	Twisted bow	Bow	6	5914	Respiratory system	-8	-8	-8	-19	215	0	100	0.0	2.29664	0	0	0	0	0	0	0	0		0	0		-1	0	0	50	99;99;112;99	0	0		0	Dragon arrow	0
+blowpipe	ranged	12926	Toxic blowpipe	Thrown	3	5914	Respiratory system	-8	-8	-8	-19	175	0	75	0.0	10.53464	0	0	0	0	0	0	0	0		0	0		-1	0	0	50	99;99;112;99	0	0		0		0
+dhcb	ranged	21012	Dragon hunter crossbow	Crossbow	6	5914	Respiratory system	-15	-16	-15	-29	258	0	145	0.0	6.56385	0	0	0	0	0	0	0	0		0	0		-1	0	0	50	99;99;112;99	0	0		0	Runite bolts	0
+zcb-ruby	ranged	26374	Zaryte crossbow	Crossbow	6	5914	Respiratory system	-15	-16	-15	-29	273	0	152	0.0	6.55749	0	0	0	0	0	0	0	0		0	0		-1	0	0	50	99;99;112;99	0	1		0	Ruby dragon bolts (e)	0
+zcb-diamond	ranged	26374	Zaryte crossbow	Crossbow	6	5914	Respiratory system	-15	-16	-15	-29	273	0	152	0.0	6.78156	0	0	0	0	0	0	0	0		0	0		-1	0	0	50	99;99;112;99	0	2		0	Diamond dragon bolts (e)	0
+scorching	ranged	29591	Scorching bow	Bow	5	5914	Respiratory system	-8	-8	-8	-19	269	0	120	0.0	11.92067	0	0	0	0	0	0	0	0		0	0		-1	0	0	50	99;99;112;99	0	0		0	Dragon arrow	0
+shadow	magic	27275	Tumeken's shadow	Powered Staff	5	5914	Respiratory system	0	0	0	164	-17	0	0	24.0	9.86592	0	0	0	0	0	0	0	0		0	0		-1	0	0	50	99;99;99;112	0	0		0		0
+sang	magic	22323	Sanguinesti staff	Powered Staff	4	5914	Respiratory system	0	0	0	154	-21	0	0	24.0	9.06967	0	0	0	0	0	0	0	0		0	0		-1	0	0	50	99;99;99;112	0	0		0		0
+trident	magic	12899	Trident of the Swamp	Powered Staff	4	5914	Respiratory system	0	0	0	154	-17	0	0	24.0	8.17757	0	0	0	0	0	0	0	0		0	0		-1	0	0	50	99;99;99;112	0	0		0		0
+kodai-fire-surge	magic	21006	Kodai wand	Staff	4	5914	Respiratory system	0	0	0	157	-17	0	0	39.0	5.05524	0	0	0	0	0	0	0	51		0	0		-1	0	0	50	99;99;99;112	0	0		0		0
+kodai-water-surge	magic	21006	Kodai wand	Staff	4	5914	Respiratory system	0	0	0	157	-17	0	0	39.0	5.05524	0	0	0	0	0	0	0	49		0	0		-1	0	0	50	99;99;99;112	0	0		0		0
+scythe	melee	22325	Scythe of Vitur	Scythe	5	-12214	The Leviathan	117	210	77	-61	-63	138	0	0.0	0.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	2700	118;118;99;99	0	0		0		0
+scythe	melee	22325	Scythe of Vitur	Scythe	5	-12191	Duke Sucellus	117	210	77	-61	-63	138	0	0.0	4.18579	0	0	0	0	0	0	0	0		0	0		-1	0	0	1697	118;118;99;99	0	0		0		0
+scythe	melee	22325	Scythe of Vitur	Scythe	5	-12223	Vardorvis	117	210	77	-61	-63	138	0	0.0	4.11808	0	0	0	0	0	0	0	0		0	0		-1	0	0	1400	118;118;99;99	0	0		0		0
+scythe	melee	22325	Scythe of Vitur	Scythe	5	-12426	Vardorvis	117	210	77	-61	-63	138	0	0.0	4.11808	0	0	0	0	0	0	0	0		0	0		-1	0	0	1400	118;118;99;99	0	0		0		0
+scythe	melee	22325	Scythe of Vitur	Scythe	5	-12204	The Whisperer	117	210	77	-61	-63	138	0	0.0	1.56026	0	0	0	0	0	0	0	0		0	0		-1	0	0	2700	118;118;99;99	0	0		0		0
+scythe	melee	22325	Scythe of Vitur	Scythe	5	-12205	The Whisperer	117	210	77	-61	-63	138	0	0.0	1.56026	0	0	0	0	0	0	0	0		0	0		-1	0	0	2700	118;118;99;99	0	0		0		0
+rapier	melee	22324	Ghrazi rapier	Stab Sword	4	-12214	The Leviathan	177	169	75	-60	-67	164	0	0.0	0.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	2700	118;118;99;99	0	0		0		0
+rapier	melee	22324	Ghrazi rapier	Stab Sword	4	-12191	Duke Sucellus	177	169	75	-60	-67	164	0	0.0	2.90001	0	0	0	0	0	0	0	0		0	0		-1	0	0	1697	118;118;99;99	0	0		0		0
+rapier	melee	22324	Ghrazi rapier	Stab Sword	4	-12223	Vardorvis	177	169	75	-60	-67	164	0	0.0	3.40252	0	0	0	0	0	0	0	0		0	0		-1	0	0	1400	118;118;99;99	0	0		0		0
+rapier	melee	22324	Ghrazi rapier	Stab Sword	4	-12426	Vardorvis	177	169	75	-60	-67	164	0	0.0	3.40252	0	0	0	0	0	0	0	0		0	0		-1	0	0	1400	118;118;99;99	0	0		0		0
+rapier	melee	22324	Ghrazi rapier	Stab Sword	4	-12204	The Whisperer	177	169	75	-60	-67	164	0	0.0	1.67121	0	0	0	0	0	0	0	0		0	0		-1	0	0	2700	118;118;99;99	0	0		0		0
+rapier	melee	22324	Ghrazi rapier	Stab Sword	4	-12205	The Whisperer	177	169	75	-60	-67	164	0	0.0	1.67121	0	0	0	0	0	0	0	0		0	0		-1	0	0	2700	118;118;99;99	0	0		0		0
+fang	melee	26219	Osmumten's fang	Stab Sword	5	-12214	The Leviathan	182	189	75	-60	-67	174	0	0.0	0.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	2700	118;118;99;99	0	0		0		0
+fang	melee	26219	Osmumten's fang	Stab Sword	5	-12191	Duke Sucellus	182	189	75	-60	-67	174	0	0.0	2.60748	0	0	0	0	0	0	0	0		0	0		-1	0	0	1697	118;118;99;99	0	0		0		0
+fang	melee	26219	Osmumten's fang	Stab Sword	5	-12223	Vardorvis	182	189	75	-60	-67	174	0	0.0	3.05101	0	0	0	0	0	0	0	0		0	0		-1	0	0	1400	118;118;99;99	0	0		0		0
+fang	melee	26219	Osmumten's fang	Stab Sword	5	-12426	Vardorvis	182	189	75	-60	-67	174	0	0.0	3.05101	0	0	0	0	0	0	0	0		0	0		-1	0	0	1400	118;118;99;99	0	0		0		0
+fang	melee	26219	Osmumten's fang	Stab Sword	5	-12204	The Whisperer	182	189	75	-60	-67	174	0	0.0	1.88457	0	0	0	0	0	0	0	0		0	0		-1	0	0	2700	118;118;99;99	0	0		0		0
+fang	melee	26219	Osmumten's fang	Stab Sword	5	-12205	The Whisperer	182	189	75	-60	-67	174	0	0.0	1.88457	0	0	0	0	0	0	0	0		0	0		-1	0	0	2700	118;118;99;99	0	0		0		0
+inquisitors-mace	melee	24417	Inquisitor's mace	Spiked	4	-12214	The Leviathan	129	110	177	-60	-67	167	0	0.0	0.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	2700	118;118;99;99	0	0		0		0
+inquisitors-mace	melee	24417	Inquisitor's mace	Spiked	4	-12191	Duke Sucellus	129	110	177	-60	-67	167	0	0.0	1.52638	0	0	0	0	0	0	0	0		0	0		-1	0	0	1697	118;118;99;99	0	0		0		0
+inquisitors-mace	melee	24417	Inquisitor's mace	Spiked	4	-12223	Vardorvis	129	110	177	-60	-67	167	0	0.0	3.05287	0	0	0	0	0	0	0	0		0	0		-1	0	0	1400	118;118;99;99	0	0		0		0
+inquisitors-mace	melee	24417	Inquisitor's mace	Spiked	4	-12426	Vardorvis	129	110	177	-60	-67	167	0	0.0	3.05287	0	0	0	0	0	0	0	0		0	0		-1	0	0	1400	118;118;99;99	0	0		0		0
+inquisitors-mace	melee	24417	Inquisitor's mace	Spiked	4	-12204	The Whisperer	129	110	177	-60	-67	167	0	0.0	1.43583	0	0	0	0	0	0	0	0		0	0		-1	0	0	2700	118;118;99;99	0	0		0		0
+inquisitors-mace	melee	24417	Inquisitor's mace	Spiked	4	-12205	The Whisperer	129	110	177	-60	-67	167	0	0.0	1.43583	0	0	0	0	0	0	0	0		0	0		-1	0	0	2700	118;118;99;99	0	0		0		0
+emberlight	melee	29589	Emberlight	Slash Sword	4	-12214	The Leviathan	140	184	75	-60	-67	84	0	0.0	0.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	2700	118;118;99;99	0	0		0		0
+emberlight	melee	29589	Emberlight	Slash Sword	4	-12191	Duke Sucellus	140	184	75	-60	-67	84	0	0.0	4.10542	0	0	0	0	0	0	0	0		0	0		-1	0	0	1697	118;118;99;99	0	0		0		0
+emberlight	melee	29589	Emberlight	Slash Sword	4	-12223	Vardorvis	140	184	75	-60	-67	84	0	0.0	2.32765	0	0	0	0	0	0	0	0		0	0		-1	0	0	1400	118;118;99;99	0	0		0		0
+emberlight	melee	29589	Emberlight	Slash Sword	4	-12426	Vardorvis	140	184	75	-60	-67	84	0	0.0	2.32765	0	0	0	0	0	0	0	0		0	0		-1	0	0	1400	118;118;99;99	0	0		0		0
+emberlight	melee	29589	Emberlight	Slash Sword	4	-12204	The Whisperer	140	184	75	-60	-67	84	0	0.0	0.91454	0	0	0	0	0	0	0	0		0	0		-1	0	0	2700	118;118;99;99	0	0		0		0
+emberlight	melee	29589	Emberlight	Slash Sword	4	-12205	The Whisperer	140	184	75	-60	-67	84	0	0.0	0.91454	0	0	0	0	0	0	0	0		0	0		-1	0	0	2700	118;118;99;99	0	0		0		0
+tbow	ranged	20997	Twisted bow	Bow	6	-12214	The Leviathan	-8	-8	-8	-19	215	0	100	0.0	5.49852	0	0	0	0	0	0	0	0		0	0		-1	0	0	2700	99;99;112;99	0	0		0	Dragon arrow	0
+tbow	ranged	20997	Twisted bow	Bow	6	-12191	Duke Sucellus	-8	-8	-8	-19	215	0	100	0.0	1.75604	0	0	0	0	0	0	0	0		0	0		-1	0	0	1697	99;99;112;99	0	0		0	Dragon arrow	0
+tbow	ranged	20997	Twisted bow	Bow	6	-12223	Vardorvis	-8	-8	-8	-19	215	0	100	0.0	1.08663	0	0	0	0	0	0	0	0		0	0		-1	0	0	1400	99;99;112;99	0	0		0	Dragon arrow	0
+tbow	ranged	20997	Twisted bow	Bow	6	-12426	Vardorvis	-8	-8	-8	-19	215	0	100	0.0	1.08663	0	0	0	0	0	0	0	0		0	0		-1	0	0	1400	99;99;112;99	0	0		0	Dragon arrow	0
+tbow	ranged	20997	Twisted bow	Bow	6	-12204	The Whisperer	-8	-8	-8	-19	215	0	100	0.0	1.79700	0	0	0	0	0	0	0	0		0	0		-1	0	0	2700	99;99;112;99	0	0		0	Dragon arrow	0
+tbow	ranged	20997	Twisted bow	Bow	6	-12205	The Whisperer	-8	-8	-8	-19	215	0	100	0.0	1.79700	0	0	0	0	0	0	0	0		0	0		-1	0	0	2700	99;99;112;99	0	0		0	Dragon arrow	0
+blowpipe	ranged	12926	Toxic blowpipe	Thrown	3	-12214	The Leviathan	-8	-8	-8	-19	175	0	75	0.0	3.90489	0	0	0	0	0	0	0	0		0	0		-1	0	0	2700	99;99;112;99	0	0		0		0
+blowpipe	ranged	12926	Toxic blowpipe	Thrown	3	-12191	Duke Sucellus	-8	-8	-8	-19	175	0	75	0.0	1.05588	0	0	0	0	0	0	0	0		0	0		-1	0	0	1697	99;99;112;99	0	0		0		0
+blowpipe	ranged	12926	Toxic blowpipe	Thrown	3	-12223	Vardorvis	-8	-8	-8	-19	175	0	75	0.0	0.73869	0	0	0	0	0	0	0	0		0	0		-1	0	0	1400	99;99;112;99	0	0		0		0
+blowpipe	ranged	12926	Toxic blowpipe	Thrown	3	-12426	Vardorvis	-8	-8	-8	-19	175	0	75	0.0	0.73869	0	0	0	0	0	0	0	0		0	0		-1	0	0	1400	99;99;112;99	0	0		0		0
+blowpipe	ranged	12926	Toxic blowpipe	Thrown	3	-12204	The Whisperer	-8	-8	-8	-19	175	0	75	0.0	1.17157	0	0	0	0	0	0	0	0		0	0		-1	0	0	2700	99;99;112;99	0	0		0		0
+blowpipe	ranged	12926	Toxic blowpipe	Thrown	3	-12205	The Whisperer	-8	-8	-8	-19	175	0	75	0.0	1.17157	0	0	0	0	0	0	0	0		0	0		-1	0	0	2700	99;99;112;99	0	0		0		0
+dhcb	ranged	21012	Dragon hunter crossbow	Crossbow	6	-12214	The Leviathan	-15	-16	-15	-29	258	0	145	0.0	3.34893	0	0	0	0	0	0	0	0		0	0		-1	0	0	2700	99;99;112;99	0	0		0	Runite bolts	0
+dhcb	ranged	21012	Dragon hunter crossbow	Crossbow	6	-12191	Duke Sucellus	-15	-16	-15	-29	258	0	145	0.0	0.86175	0	0	0	0	0	0	0	0		0	0		-1	0	0	1697	99;99;112;99	0	0		0	Runite bolts	0
+dhcb	ranged	21012	Dragon hunter crossbow	Crossbow	6	-12223	Vardorvis	-15	-16	-15	-29	258	0	145	0.0	0.60288	0	0	0	0	0	0	0	0		0	0		-1	0	0	1400	99;99;112;99	0	0		0	Runite bolts	0
+dhcb	ranged	21012	Dragon hunter crossbow	Crossbow	6	-12426	Vardorvis	-15	-16	-15	-29	258	0	145	0.0	0.60288	0	0	0	0	0	0	0	0		0	0		-1	0	0	1400	99;99;112;99	0	0		0	Runite bolts	0
+dhcb	ranged	21012	Dragon hunter crossbow	Crossbow	6	-12204	The Whisperer	-15	-16	-15	-29	258	0	145	0.0	0.95617	0	0	0	0	0	0	0	0		0	0		-1	0	0	2700	99;99;112;99	0	0		0	Runite bolts	0
+dhcb	ranged	21012	Dragon hunter crossbow	Crossbow	6	-12205	The Whisperer	-15	-16	-15	-29	258	0	145	0.0	0.95617	0	0	0	0	0	0	0	0		0	0		-1	0	0	2700	99;99;112;99	0	0		0	Runite bolts	0
+zcb-ruby	ranged	26374	Zaryte crossbow	Crossbow	6	-12214	The Leviathan	-15	-16	-15	-29	273	0	152	0.0	4.77151	0	0	0	0	0	0	0	0		0	0		-1	0	0	2700	99;99;112;99	0	1		0	Ruby dragon bolts (e)	0
+zcb-ruby	ranged	26374	Zaryte crossbow	Crossbow	6	-12191	Duke Sucellus	-15	-16	-15	-29	273	0	152	0.0	2.33015	0	0	0	0	0	0	0	0		0	0		-1	0	0	1697	99;99;112;99	0	1		0	Ruby dragon bolts (e)	0
+zcb-ruby	ranged	26374	Zaryte crossbow	Crossbow	6	-12223	Vardorvis	-15	-16	-15	-29	273	0	152	0.0	2.06635	0	0	0	0	0	0	0	0		0	0		-1	0	0	1400	99;99;112;99	0	1		0	Ruby dragon bolts (e)	0
+zcb-ruby	ranged	26374	Zaryte crossbow	Crossbow	6	-12426	Vardorvis	-15	-16	-15	-29	273	0	152	0.0	2.06635	0	0	0	0	0	0	0	0		0	0		-1	0	0	1400	99;99;112;99	0	1		0	Ruby dragon bolts (e)	0
+zcb-ruby	ranged	26374	Zaryte crossbow	Crossbow	6	-12204	The Whisperer	-15	-16	-15	-29	273	0	152	0.0	2.42637	0	0	0	0	0	0	0	0		0	0		-1	0	0	2700	99;99;112;99	0	1		0	Ruby dragon bolts (e)	0
+zcb-ruby	ranged	26374	Zaryte crossbow	Crossbow	6	-12205	The Whisperer	-15	-16	-15	-29	273	0	152	0.0	2.42637	0	0	0	0	0	0	0	0		0	0		-1	0	0	2700	99;99;112;99	0	1		0	Ruby dragon bolts (e)	0
+shadow	magic	27275	Tumeken's shadow	Powered Staff	5	-12214	The Leviathan	0	0	0	164	-17	0	0	24.0	2.78806	0	0	0	0	0	0	0	0		0	0		-1	0	0	2700	99;99;99;112	0	0		0		0
+shadow	magic	27275	Tumeken's shadow	Powered Staff	5	-12191	Duke Sucellus	0	0	0	164	-17	0	0	24.0	1.16025	0	0	0	0	0	0	0	0		0	0		-1	0	0	1697	99;99;99;112	0	0		0		0
+shadow	magic	27275	Tumeken's shadow	Powered Staff	5	-12223	Vardorvis	0	0	0	164	-17	0	0	24.0	1.92143	0	0	0	0	0	0	0	0		0	0		-1	0	0	1400	99;99;99;112	0	0		0		0
+shadow	magic	27275	Tumeken's shadow	Powered Staff	5	-12426	Vardorvis	0	0	0	164	-17	0	0	24.0	1.92143	0	0	0	0	0	0	0	0		0	0		-1	0	0	1400	99;99;99;112	0	0		0		0
+shadow	magic	27275	Tumeken's shadow	Powered Staff	5	-12204	The Whisperer	0	0	0	164	-17	0	0	24.0	5.92198	0	0	0	0	0	0	0	0		0	0		-1	0	0	2700	99;99;99;112	0	0		0		0
+shadow	magic	27275	Tumeken's shadow	Powered Staff	5	-12205	The Whisperer	0	0	0	164	-17	0	0	24.0	5.92198	0	0	0	0	0	0	0	0		0	0		-1	0	0	2700	99;99;99;112	0	0		0		0
+sang	magic	22323	Sanguinesti staff	Powered Staff	4	-12214	The Leviathan	0	0	0	154	-21	0	0	24.0	1.03955	0	0	0	0	0	0	0	0		0	0		-1	0	0	2700	99;99;99;112	0	0		0		0
+sang	magic	22323	Sanguinesti staff	Powered Staff	4	-12191	Duke Sucellus	0	0	0	154	-21	0	0	24.0	0.43261	0	0	0	0	0	0	0	0		0	0		-1	0	0	1697	99;99;99;112	0	0		0		0
+sang	magic	22323	Sanguinesti staff	Powered Staff	4	-12223	Vardorvis	0	0	0	154	-21	0	0	24.0	0.71642	0	0	0	0	0	0	0	0		0	0		-1	0	0	1400	99;99;99;112	0	0		0		0
+sang	magic	22323	Sanguinesti staff	Powered Staff	4	-12426	Vardorvis	0	0	0	154	-21	0	0	24.0	0.71642	0	0	0	0	0	0	0	0		0	0		-1	0	0	1400	99;99;99;112	0	0		0		0
+sang	magic	22323	Sanguinesti staff	Powered Staff	4	-12204	The Whisperer	0	0	0	154	-21	0	0	24.0	4.62750	0	0	0	0	0	0	0	0		0	0		-1	0	0	2700	99;99;99;112	0	0		0		0
+sang	magic	22323	Sanguinesti staff	Powered Staff	4	-12205	The Whisperer	0	0	0	154	-21	0	0	24.0	4.62750	0	0	0	0	0	0	0	0		0	0		-1	0	0	2700	99;99;99;112	0	0		0		0
+trident	magic	12899	Trident of the Swamp	Powered Staff	4	-12214	The Leviathan	0	0	0	154	-17	0	0	24.0	0.91147	0	0	0	0	0	0	0	0		0	0		-1	0	0	2700	99;99;99;112	0	0		0		0
+trident	magic	12899	Trident of the Swamp	Powered Staff	4	-12191	Duke Sucellus	0	0	0	154	-17	0	0	24.0	0.37931	0	0	0	0	0	0	0	0		0	0		-1	0	0	1697	99;99;99;112	0	0		0		0
+trident	magic	12899	Trident of the Swamp	Powered Staff	4	-12223	Vardorvis	0	0	0	154	-17	0	0	24.0	0.62816	0	0	0	0	0	0	0	0		0	0		-1	0	0	1400	99;99;99;112	0	0		0		0
+trident	magic	12899	Trident of the Swamp	Powered Staff	4	-12426	Vardorvis	0	0	0	154	-17	0	0	24.0	0.62816	0	0	0	0	0	0	0	0		0	0		-1	0	0	1400	99;99;99;112	0	0		0		0
+trident	magic	12899	Trident of the Swamp	Powered Staff	4	-12204	The Whisperer	0	0	0	154	-17	0	0	24.0	4.05738	0	0	0	0	0	0	0	0		0	0		-1	0	0	2700	99;99;99;112	0	0		0		0
+trident	magic	12899	Trident of the Swamp	Powered Staff	4	-12205	The Whisperer	0	0	0	154	-17	0	0	24.0	4.05738	0	0	0	0	0	0	0	0		0	0		-1	0	0	2700	99;99;99;112	0	0		0		0
+shadow	magic	27275	Tumeken's shadow	Powered Staff	5	14176	Yama	0	0	0	164	-17	0	0	24.0	5.33999	0	0	0	0	0	0	0	0		0	0		-1	0	0	2500	99;99;99;112	0	0	Tank using magic	0		0
+sang	magic	22323	Sanguinesti staff	Powered Staff	4	14176	Yama	0	0	0	154	-21	0	0	24.0	3.21598	0	0	0	0	0	0	0	0		0	0		-1	0	0	2500	99;99;99;112	0	0	Tank using magic	0		0
+trident	magic	12899	Trident of the Swamp	Powered Staff	4	14176	Yama	0	0	0	154	-17	0	0	24.0	2.81976	0	0	0	0	0	0	0	0		0	0		-1	0	0	2500	99;99;99;112	0	0	Tank using magic	0		0
+scythe	melee	22325	Scythe of Vitur	Scythe	5	14176	Yama	117	210	77	-61	-63	138	0	0.0	5.01816	0	0	0	0	0	0	0	0		0	0		-1	0	0	2500	118;118;99;99	0	0	Tank using magic	0		0
+emberlight	melee	29589	Emberlight	Slash Sword	4	14176	Yama	140	184	75	-60	-67	84	0	0.0	6.20839	0	0	0	0	0	0	0	0		0	0		-1	0	0	2500	118;118;99;99	0	0	Tank using magic	0		0
+tbow	ranged	20997	Twisted bow	Bow	6	14176	Yama	-8	-8	-8	-19	215	0	100	0.0	3.29771	0	0	0	0	0	0	0	0		0	0		-1	0	0	2500	99;99;112;99	0	0	Tank using magic	0	Dragon arrow	0
+fang	melee	26219	Osmumten's fang	Stab Sword	5	3456	Fareed	182	189	75	-60	-67	174	0	0.0	4.99737	0	0	0	0	0	0	0	0		0	0		-1	0	0	130	118;118;99;99	0	0		0		0
+scythe	melee	22325	Scythe of Vitur	Scythe	5	3456	Fareed	117	210	77	-61	-63	138	0	0.0	3.48554	0	0	0	0	0	0	0	0		0	0		-1	0	0	130	118;118;99;99	0	0		0		0
+shadow	magic	27275	Tumeken's shadow	Powered Staff	5	3456	Fareed	0	0	0	164	-17	0	0	24.0	0.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	130	99;99;99;112	0	0		0		0
+sang	magic	22323	Sanguinesti staff	Powered Staff	4	3456	Fareed	0	0	0	154	-21	0	0	24.0	0.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	130	99;99;99;112	0	0		0		0
+kodai-water-surge	magic	21006	Kodai wand	Staff	4	3456	Fareed	0	0	0	157	-17	0	0	39.0	3.37252	0	0	0	0	0	0	0	49		0	0		-1	0	0	130	99;99;99;112	0	0		0		0
+kodai-fire-surge	magic	21006	Kodai wand	Staff	4	3456	Fareed	0	0	0	157	-17	0	0	39.0	0.00000	0	0	0	0	0	0	0	51		0	0		-1	0	0	130	99;99;99;112	0	0		0		0
+scythe	melee	22325	Scythe of Vitur	Scythe	5	3448	Fire Warrior of Lesarkus	117	210	77	-61	-63	138	0	0.0	0.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	59	118;118;99;99	0	0		0		0
+rapier	melee	22324	Ghrazi rapier	Stab Sword	4	3448	Fire Warrior of Lesarkus	177	169	75	-60	-67	164	0	0.0	0.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	59	118;118;99;99	0	0		0		0
+tbow	ranged	20997	Twisted bow	Bow	6	3448	Fire Warrior of Lesarkus	-8	-8	-8	-19	215	0	100	0.0	0.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	59	99;99;112;99	0	0		0	Dragon arrow	0
+msb-ice-arrows	ranged	861	Magic shortbow	Bow	4	3448	Fire Warrior of Lesarkus	-8	-8	-8	-19	214	0	36	0.0	3.42744	0	0	0	0	0	0	0	0		0	0		-1	0	0	59	99;99;112;99	0	0		0	Ice arrows	0
+blowpipe	ranged	12926	Toxic blowpipe	Thrown	3	3448	Fire Warrior of Lesarkus	-8	-8	-8	-19	175	0	75	0.0	0.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	59	99;99;112;99	0	0		0		0
+shadow	magic	27275	Tumeken's shadow	Powered Staff	5	3448	Fire Warrior of Lesarkus	0	0	0	164	-17	0	0	24.0	0.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	59	99;99;99;112	0	0		0		0
+kodai-water-surge	magic	21006	Kodai wand	Staff	4	3448	Fire Warrior of Lesarkus	0	0	0	157	-17	0	0	39.0	0.00000	0	0	0	0	0	0	0	49		0	0		-1	0	0	59	99;99;99;112	0	0		0		0

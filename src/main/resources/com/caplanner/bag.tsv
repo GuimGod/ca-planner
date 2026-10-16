@@ -63,7 +63,7 @@ Skotizo	need	1	dark totem=19685	one totem a fight
 Whisperer	need	1	blackstone fragment=28357	starts the fight
 Kree'arra	need	1	mith grapple=9419	to cross into the Eyrie
 Kree'arra	need	1	~crossbow=9185	any crossbow, to fire the grapple
-General Graardor	need	1	hammer=2347|imcando hammer	to ring the gong at the door
+General Graardor	need	1	hammer=2347|imcando hammer	to bang on the door (an Elder maul or a Dragon warhammer does it too)
 Kalphite Queen	need	2	rope=954	two to climb down, until the Desert Hard diary makes them stay	desert-hard
 Kalphite Queen	take	1	antidote++|extended anti-venom+|anti-venom+|anti-venom	poison
 Zalcano	only
@@ -93,6 +93,9 @@ K'ril Tsutsaroth	take	1	antidote++|extended anti-venom+|anti-venom+|anti-venom|s
 King Black Dragon	take	1	antidote++|extended anti-venom+|anti-venom+|anti-venom|sanfew serum|superantipoison	it poisons
 Abyssal Sire	take	1	antidote++|extended anti-venom+|anti-venom+|anti-venom|sanfew serum|superantipoison	it poisons
 Yama	take	1	sanfew serum|antidote++|extended anti-venom+|anti-venom+|anti-venom|superantipoison	he poisons
+Dagannoth Prime	take	1	sanfew serum|antidote++|extended anti-venom+|anti-venom+|anti-venom|superantipoison	the spinolyps on the way and in the lair poison
+Dagannoth Rex	take	1	sanfew serum|antidote++|extended anti-venom+|anti-venom+|anti-venom|superantipoison	the spinolyps on the way and in the lair poison
+Dagannoth Supreme	take	1	sanfew serum|antidote++|extended anti-venom+|anti-venom+|anti-venom|superantipoison	the spinolyps on the way and in the lair poison
 Maggot King	take	1	extended anti-venom+|anti-venom+|anti-venom	its pools are venom
 Sarachnis	take	1	knife	cuts the webs on the way in (a slash weapon does too)
 Shellbane gryphon	wear	1	tortugan shield	without it its melee goes through your prayer
@@ -219,3 +222,15 @@ Yama	arrive	1	dramen staff|lunar staff	the way there: the fairy ring south-east 
 Zalcano	arrive	1	eternal teleport crystal|~teleport crystal	the way there: to Prifddinas
 Zulrah	arrive	1	zul-andra teleport	the way there: next to the dock
 Zulrah	arrive	1	dramen staff|lunar staff	the way there: the fairy ring to Zul-Andra (76 Agility for the stepping stone)	lumbridge-elite
+#
+# ---- read again for the gear of each boss (October 2026)
+# Duke Sucellus/Strategies rev 15372792: "The best pickaxe you can use, as this increases the rate you get salt"
+Duke Sucellus	take	1	crystal pickaxe|infernal pickaxe|dragon pickaxe|3rd age pickaxe|rune pickaxe|~pickaxe	mines the salt faster (an iron pickaxe hangs on the wall there)
+# Giant Mole/Strategies rev 15361945: "Without the Falador shield 3 or 4, it can be a tedious task"
+Giant Mole	take	1	falador shield 4|falador shield 3	shows where she dug to
+# Skeletal Wyvern/Strategies rev 15370340: a shield against its icy breath
+Skeletal Wyvern	wear	1	elemental shield=2890|mind shield|dragonfire shield|dragonfire ward|ancient wyvern shield	its icy breath
+# Bryophyta (page rev 15370649): an axe or magic secateurs for the growthlings; a bronze axe lies in its lair
+Bryophyta	take	1	dragon axe|crystal axe|infernal axe|rune axe|magic secateurs|bronze axe	the growthlings
+# Shellbane gryphon/Strategies rev 15357225: "the knockback is effective against players with less than 40 kg of worn equipment"
+Shellbane gryphon	note	1	-	Its knockback fails on 40 kg or more of worn equipment: the plugin does not weigh the set.

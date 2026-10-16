@@ -649,7 +649,8 @@ public final class Bag
 			for (String name : row.names)
 			{
 				// what is worn or wielded is named in part ("slayer helmet" for any of them)
-				owned |= !matches(need || name.startsWith("~") ? name : "~" + name, sorted).isEmpty();
+				// a placeholder counts: the player has had it and can get it again
+				owned |= !matches(need || name.startsWith("~") ? name : "~" + name, sorted, true).isEmpty();
 			}
 			if (!owned)
 			{
@@ -777,10 +778,14 @@ public final class Bag
 			boolean worn = false;
 			for (String name : row.names)
 			{
-				for (Have h : matches(name, sorted))
+				// what is kept with none in stock is not taken, but the set may wear it
+				for (Have h : matches(name, sorted, true))
 				{
 					worn |= inSet.contains(h.itemId);
-					owned.add(h);
+					if (h.quantity > 0)
+					{
+						owned.add(h);
+					}
 				}
 			}
 			if (worn)
@@ -866,13 +871,23 @@ public final class Bag
 	 */
 	private static List<Have> matches(String name, Map<String, Have> sorted)
 	{
+		return matches(name, sorted, false);
+	}
+
+	/**
+	 * @param kept true to count what is kept with none in stock (a placeholder): owned, as gear goes, though
+	 *             there is none of it to take
+	 */
+	private static List<Have> matches(String name, Map<String, Have> sorted, boolean kept)
+	{
+		final int least = kept ? 0 : 1;
 		List<Have> out = new ArrayList<>();
 		if (name.startsWith("~"))
 		{
 			String part = name.substring(1);
 			for (Map.Entry<String, Have> e : sorted.entrySet())
 			{
-				if (e.getKey().contains(part) && e.getValue().quantity > 0 && !isAPart(e.getKey()))
+				if (e.getKey().contains(part) && e.getValue().quantity >= least && !isAPart(e.getKey()))
 				{
 					out.add(e.getValue());
 				}
@@ -880,14 +895,14 @@ public final class Bag
 			return out;
 		}
 		Have exact = sorted.get(name);
-		if (exact != null && exact.quantity > 0)
+		if (exact != null && exact.quantity >= least)
 		{
 			out.add(exact);
 		}
 		for (String dose : DOSES)
 		{
 			Have dosed = sorted.get(name + dose);
-			if (dosed != null && dosed.quantity > 0)
+			if (dosed != null && dosed.quantity >= least)
 			{
 				out.add(dosed);
 			}
@@ -897,7 +912,7 @@ public final class Bag
 		for (Map.Entry<String, Have> e : ((TreeMap<String, Have>) sorted).subMap(dressed, dressed + Character.MAX_VALUE).entrySet())
 		{
 			if (e.getKey().endsWith(")") && !e.getKey().endsWith("(unf)") && !e.getKey().endsWith("(empty)")
-				&& e.getValue().quantity > 0 && !isAPart(e.getKey()) && !out.contains(e.getValue()))
+				&& e.getValue().quantity >= least && !isAPart(e.getKey()) && !out.contains(e.getValue()))
 			{
 				out.add(e.getValue());
 			}
