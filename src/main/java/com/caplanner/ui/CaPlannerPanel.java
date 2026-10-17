@@ -964,12 +964,7 @@ public class CaPlannerPanel extends PluginPanel
 			card.add(leftAligned(wrapped("Text of the Old School RuneScape Wiki (oldschool.runescape.wiki) and its contributors, shortened, "
 				+ "under the CC BY-NC-SA 3.0 licence.",
 				SMALL, MUTED, width)));
-			// the page the text is from: the credit a licence of that kind asks for
-			final String page = "https://oldschool.runescape.wiki/w/" + java.net.URLEncoder.encode(t.name.replace(' ', '_'),
-				java.nio.charset.StandardCharsets.UTF_8).replace("+", "_");
-			card.add(Box.createVerticalStrut(3));
-			card.add(action("Open this task on the wiki", "Opens the page the text above is from, in your browser",
-				() -> icons.openLink(page)));
+			// no link to the wiki: the credit line above names the source and the licence
 		}
 	}
 
