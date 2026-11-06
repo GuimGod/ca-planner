@@ -208,11 +208,11 @@ public class FightRulesTest
 
 	/**
 	 * The Tormented Demon, every id: its fire shield takes a fifth off each hit (at least 1) of anything but a
-	 * demonbane weapon or an abyssal weapon in melee, and half of the attacks are counted as meeting it without defence,
-	 * every one of them landing, in every class (the plugin does not read yet which it is,
-	 * until it does). The calculator has no such phase: each case is the mean, style by style, of its phases
-	 * "Shielded" and "Shielded (Defenceless)" (tools/gen_rules.py). The Emberlight over the Scythe and the Scorching bow
-	 * over the Twisted bow, where the plugin asked for the other two before; the abyssal weapons take no shield.
+	 * demonbane weapon or an abyssal weapon in melee, and half of the attacks are counted as meeting it without
+	 * defence, every one of them landing, in every class (the plugin does not read yet which it is). The calculator has
+	 * no such phase: each case is the mean, style by style, of its phases "Shielded" and "Shielded (Defenceless)"
+	 * (tools/gen_rules.py). The Emberlight over the Scythe and the Scorching bow over the Twisted bow, where the plugin
+	 * asked for the other two before; the abyssal weapons take no shield.
 	 */
 	@Test
 	public void theTormentedDemonsShieldAndHalfItsAttacksWithoutDefence() throws IOException

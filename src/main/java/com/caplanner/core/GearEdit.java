@@ -709,6 +709,24 @@ final class GearEdit
 	 * The player's own item a name stands for: the item itself, or another dress of it they own (an ornament kit, a trim,
 	 * imbued, a cosmetic name before it); null when they own none.
 	 */
+	static Bag.Have ownedAs(int itemId, String name, Map<String, Bag.Have> have)
+	{
+		Bag.Have byName = ownedAs(name, have);
+		if (byName != null || have == null)
+		{
+			return byName;
+		}
+		// another dress whose name says nothing of it (a recolour, the same item under another id): by the item it is
+		for (Bag.Have h : have.values())
+		{
+			if (h.itemId > 0 && Gear.sameItem(h.itemId, itemId))
+			{
+				return h;
+			}
+		}
+		return null;
+	}
+
 	static Bag.Have ownedAs(String name, Map<String, Bag.Have> have)
 	{
 		String plain = name == null ? "" : name.toLowerCase(Locale.ROOT);
@@ -743,6 +761,24 @@ final class GearEdit
 		if (ownedIds.contains(itemId))
 		{
 			return true;
+		}
+		// another dress of it, by the item it is (Gear.itemOf), whatever its name says
+		for (int owned : ownedIds)
+		{
+			if (Gear.sameItem(owned, itemId))
+			{
+				return true;
+			}
+		}
+		if (have != null)
+		{
+			for (Bag.Have h : have.values())
+			{
+				if (h.itemId > 0 && Gear.sameItem(h.itemId, itemId))
+				{
+					return true;
+				}
+			}
 		}
 		String plain = name == null ? "" : name.toLowerCase(Locale.ROOT);
 		if (plain.isEmpty() || have == null)

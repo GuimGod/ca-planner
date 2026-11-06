@@ -1,0 +1,121 @@
+# set	class	weapon id	weapon	category	speed	npc id	npc	stab	slash	crush	magic	ranged	str	rstr	mdmg	calculator damage per tick (the set's best style; "-no-prayer": the same with no prayer on)
+fang	melee	26219	Osmumten's fang	Stab Sword	5	415	Abyssal demon	182	189	75	-60	-67	174	0	0.0	5.58940
+fang	melee	26219	Osmumten's fang	Stab Sword	5	13668	Araxxor	182	189	75	-60	-67	174	0	0.0	4.30270
+fang	melee	26219	Osmumten's fang	Stab Sword	5	5862	Cerberus	182	189	75	-60	-67	174	0	0.0	5.57776
+fang	melee	26219	Osmumten's fang	Stab Sword	5	2266	Dagannoth Prime	182	189	75	-60	-67	174	0	0.0	1.68720
+fang	melee	26219	Osmumten's fang	Stab Sword	5	2267	Dagannoth Rex	182	189	75	-60	-67	174	0	0.0	1.68720
+fang	melee	26219	Osmumten's fang	Stab Sword	5	2215	General Graardor	182	189	75	-60	-67	174	0	0.0	3.56233
+fang	melee	26219	Osmumten's fang	Stab Sword	5	5779	Giant Mole	182	189	75	-60	-67	174	0	0.0	4.83343
+fang	melee	26219	Osmumten's fang	Stab Sword	5	7261	Hill Giant	182	189	75	-60	-67	174	0	0.0	5.79277
+fang	melee	26219	Osmumten's fang	Stab Sword	5	3162	Kree'arra	182	189	75	-60	-67	174	0	0.0	0.00000
+fang	melee	26219	Osmumten's fang	Stab Sword	5	12077	Phantom Muspah	182	189	75	-60	-67	174	0	0.0	2.73031
+fang	melee	26219	Osmumten's fang	Stab Sword	5	8059	Vorkath	182	189	75	-60	-67	174	0	0.0	5.22029
+fang	melee	26219	Osmumten's fang	Stab Sword	5	2042	Zulrah	182	189	75	-60	-67	174	0	0.0	0.00000
+fang-no-prayer	melee	26219	Osmumten's fang	Stab Sword	5	415	Abyssal demon	182	189	75	-60	-67	174	0	0.0	4.55628
+fang-no-prayer	melee	26219	Osmumten's fang	Stab Sword	5	13668	Araxxor	182	189	75	-60	-67	174	0	0.0	3.29295
+fang-no-prayer	melee	26219	Osmumten's fang	Stab Sword	5	5862	Cerberus	182	189	75	-60	-67	174	0	0.0	4.54280
+fang-no-prayer	melee	26219	Osmumten's fang	Stab Sword	5	2266	Dagannoth Prime	182	189	75	-60	-67	174	0	0.0	1.18069
+fang-no-prayer	melee	26219	Osmumten's fang	Stab Sword	5	2267	Dagannoth Rex	182	189	75	-60	-67	174	0	0.0	1.18069
+fang-no-prayer	melee	26219	Osmumten's fang	Stab Sword	5	2215	General Graardor	182	189	75	-60	-67	174	0	0.0	2.49289
+fang-no-prayer	melee	26219	Osmumten's fang	Stab Sword	5	5779	Giant Mole	182	189	75	-60	-67	174	0	0.0	3.68140
+fang-no-prayer	melee	26219	Osmumten's fang	Stab Sword	5	7261	Hill Giant	182	189	75	-60	-67	174	0	0.0	4.79163
+fang-no-prayer	melee	26219	Osmumten's fang	Stab Sword	5	3162	Kree'arra	182	189	75	-60	-67	174	0	0.0	0.00000
+fang-no-prayer	melee	26219	Osmumten's fang	Stab Sword	5	12077	Phantom Muspah	182	189	75	-60	-67	174	0	0.0	1.91065
+fang-no-prayer	melee	26219	Osmumten's fang	Stab Sword	5	8059	Vorkath	182	189	75	-60	-67	174	0	0.0	4.12911
+fang-no-prayer	melee	26219	Osmumten's fang	Stab Sword	5	2042	Zulrah	182	189	75	-60	-67	174	0	0.0	0.00000
+sang	magic	22323	Sanguinesti staff	Powered Staff	4	415	Abyssal demon	0	0	0	154	-21	0	0	24.0	6.21794
+sang	magic	22323	Sanguinesti staff	Powered Staff	4	13668	Araxxor	0	0	0	154	-21	0	0	24.0	1.72536
+sang	magic	22323	Sanguinesti staff	Powered Staff	4	5862	Cerberus	0	0	0	154	-21	0	0	24.0	3.46156
+sang	magic	22323	Sanguinesti staff	Powered Staff	4	2266	Dagannoth Prime	0	0	0	154	-21	0	0	24.0	1.22717
+sang	magic	22323	Sanguinesti staff	Powered Staff	4	2267	Dagannoth Rex	0	0	0	154	-21	0	0	24.0	6.21546
+sang	magic	22323	Sanguinesti staff	Powered Staff	4	2215	General Graardor	0	0	0	154	-21	0	0	24.0	3.20625
+sang	magic	22323	Sanguinesti staff	Powered Staff	4	5779	Giant Mole	0	0	0	154	-21	0	0	24.0	3.40863
+sang	magic	22323	Sanguinesti staff	Powered Staff	4	7261	Hill Giant	0	0	0	154	-21	0	0	24.0	6.21794
+sang	magic	22323	Sanguinesti staff	Powered Staff	4	3162	Kree'arra	0	0	0	154	-21	0	0	24.0	1.87304
+sang	magic	22323	Sanguinesti staff	Powered Staff	4	12077	Phantom Muspah	0	0	0	154	-21	0	0	24.0	1.29737
+sang	magic	22323	Sanguinesti staff	Powered Staff	4	8059	Vorkath	0	0	0	154	-21	0	0	24.0	2.13809
+sang	magic	22323	Sanguinesti staff	Powered Staff	4	2042	Zulrah	0	0	0	154	-21	0	0	24.0	5.69295
+sang-no-prayer	magic	22323	Sanguinesti staff	Powered Staff	4	415	Abyssal demon	0	0	0	154	-21	0	0	24.0	5.95717
+sang-no-prayer	magic	22323	Sanguinesti staff	Powered Staff	4	13668	Araxxor	0	0	0	154	-21	0	0	24.0	1.34951
+sang-no-prayer	magic	22323	Sanguinesti staff	Powered Staff	4	5862	Cerberus	0	0	0	154	-21	0	0	24.0	2.73629
+sang-no-prayer	magic	22323	Sanguinesti staff	Powered Staff	4	2266	Dagannoth Prime	0	0	0	154	-21	0	0	24.0	0.95985
+sang-no-prayer	magic	22323	Sanguinesti staff	Powered Staff	4	2267	Dagannoth Rex	0	0	0	154	-21	0	0	24.0	5.95425
+sang-no-prayer	magic	22323	Sanguinesti staff	Powered Staff	4	2215	General Graardor	0	0	0	154	-21	0	0	24.0	2.50894
+sang-no-prayer	magic	22323	Sanguinesti staff	Powered Staff	4	5779	Giant Mole	0	0	0	154	-21	0	0	24.0	2.68583
+sang-no-prayer	magic	22323	Sanguinesti staff	Powered Staff	4	7261	Hill Giant	0	0	0	154	-21	0	0	24.0	5.95717
+sang-no-prayer	magic	22323	Sanguinesti staff	Powered Staff	4	3162	Kree'arra	0	0	0	154	-21	0	0	24.0	1.46502
+sang-no-prayer	magic	22323	Sanguinesti staff	Powered Staff	4	12077	Phantom Muspah	0	0	0	154	-21	0	0	24.0	1.01476
+sang-no-prayer	magic	22323	Sanguinesti staff	Powered Staff	4	8059	Vorkath	0	0	0	154	-21	0	0	24.0	1.67233
+sang-no-prayer	magic	22323	Sanguinesti staff	Powered Staff	4	2042	Zulrah	0	0	0	154	-21	0	0	24.0	5.35601
+scythe	melee	22325	Scythe of Vitur	Scythe	5	415	Abyssal demon	117	210	77	-61	-63	138	0	0.0	4.17741
+scythe	melee	22325	Scythe of Vitur	Scythe	5	13668	Araxxor	117	210	77	-61	-63	138	0	0.0	6.43684
+scythe	melee	22325	Scythe of Vitur	Scythe	5	5862	Cerberus	117	210	77	-61	-63	138	0	0.0	6.66033
+scythe	melee	22325	Scythe of Vitur	Scythe	5	2266	Dagannoth Prime	117	210	77	-61	-63	138	0	0.0	2.08383
+scythe	melee	22325	Scythe of Vitur	Scythe	5	2267	Dagannoth Rex	117	210	77	-61	-63	138	0	0.0	2.08383
+scythe	melee	22325	Scythe of Vitur	Scythe	5	2215	General Graardor	117	210	77	-61	-63	138	0	0.0	4.39190
+scythe	melee	22325	Scythe of Vitur	Scythe	5	5779	Giant Mole	117	210	77	-61	-63	138	0	0.0	5.38416
+scythe	melee	22325	Scythe of Vitur	Scythe	5	7261	Hill Giant	117	210	77	-61	-63	138	0	0.0	7.11123
+scythe	melee	22325	Scythe of Vitur	Scythe	5	3162	Kree'arra	117	210	77	-61	-63	138	0	0.0	0.00000
+scythe	melee	22325	Scythe of Vitur	Scythe	5	12077	Phantom Muspah	117	210	77	-61	-63	138	0	0.0	4.24054
+scythe	melee	22325	Scythe of Vitur	Scythe	5	8059	Vorkath	117	210	77	-61	-63	138	0	0.0	4.54669
+scythe	melee	22325	Scythe of Vitur	Scythe	5	2042	Zulrah	117	210	77	-61	-63	138	0	0.0	0.00000
+scythe-no-prayer	melee	22325	Scythe of Vitur	Scythe	5	415	Abyssal demon	117	210	77	-61	-63	138	0	0.0	3.38558
+scythe-no-prayer	melee	22325	Scythe of Vitur	Scythe	5	13668	Araxxor	117	210	77	-61	-63	138	0	0.0	5.06472
+scythe-no-prayer	melee	22325	Scythe of Vitur	Scythe	5	5862	Cerberus	117	210	77	-61	-63	138	0	0.0	5.28577
+scythe-no-prayer	melee	22325	Scythe of Vitur	Scythe	5	2266	Dagannoth Prime	117	210	77	-61	-63	138	0	0.0	1.47579
+scythe-no-prayer	melee	22325	Scythe of Vitur	Scythe	5	2267	Dagannoth Rex	117	210	77	-61	-63	138	0	0.0	1.47579
+scythe-no-prayer	melee	22325	Scythe of Vitur	Scythe	5	2215	General Graardor	117	210	77	-61	-63	138	0	0.0	3.11597
+scythe-no-prayer	melee	22325	Scythe of Vitur	Scythe	5	5779	Giant Mole	117	210	77	-61	-63	138	0	0.0	4.03846
+scythe-no-prayer	melee	22325	Scythe of Vitur	Scythe	5	7261	Hill Giant	117	210	77	-61	-63	138	0	0.0	5.91576
+scythe-no-prayer	melee	22325	Scythe of Vitur	Scythe	5	3162	Kree'arra	117	210	77	-61	-63	138	0	0.0	0.00000
+scythe-no-prayer	melee	22325	Scythe of Vitur	Scythe	5	12077	Phantom Muspah	117	210	77	-61	-63	138	0	0.0	3.00333
+scythe-no-prayer	melee	22325	Scythe of Vitur	Scythe	5	8059	Vorkath	117	210	77	-61	-63	138	0	0.0	3.24027
+scythe-no-prayer	melee	22325	Scythe of Vitur	Scythe	5	2042	Zulrah	117	210	77	-61	-63	138	0	0.0	0.00000
+shadow	magic	27275	Tumeken's shadow	Powered Staff	5	415	Abyssal demon	0	0	0	164	-17	0	0	24.0	6.57774
+shadow	magic	27275	Tumeken's shadow	Powered Staff	5	13668	Araxxor	0	0	0	164	-17	0	0	24.0	4.24746
+shadow	magic	27275	Tumeken's shadow	Powered Staff	5	5862	Cerberus	0	0	0	164	-17	0	0	24.0	5.44125
+shadow	magic	27275	Tumeken's shadow	Powered Staff	5	2266	Dagannoth Prime	0	0	0	164	-17	0	0	24.0	3.29126
+shadow	magic	27275	Tumeken's shadow	Powered Staff	5	2267	Dagannoth Rex	0	0	0	164	-17	0	0	24.0	6.57672
+shadow	magic	27275	Tumeken's shadow	Powered Staff	5	2215	General Graardor	0	0	0	164	-17	0	0	24.0	5.33598
+shadow	magic	27275	Tumeken's shadow	Powered Staff	5	5779	Giant Mole	0	0	0	164	-17	0	0	24.0	5.41942
+shadow	magic	27275	Tumeken's shadow	Powered Staff	5	7261	Hill Giant	0	0	0	164	-17	0	0	24.0	6.57774
+shadow	magic	27275	Tumeken's shadow	Powered Staff	5	3162	Kree'arra	0	0	0	164	-17	0	0	24.0	4.43319
+shadow	magic	27275	Tumeken's shadow	Powered Staff	5	12077	Phantom Muspah	0	0	0	164	-17	0	0	24.0	3.47043
+shadow	magic	27275	Tumeken's shadow	Powered Staff	5	8059	Vorkath	0	0	0	164	-17	0	0	24.0	4.70216
+shadow	magic	27275	Tumeken's shadow	Powered Staff	5	2042	Zulrah	0	0	0	164	-17	0	0	24.0	5.86504
+shadow-no-prayer	magic	27275	Tumeken's shadow	Powered Staff	5	415	Abyssal demon	0	0	0	164	-17	0	0	24.0	6.47251
+shadow-no-prayer	magic	27275	Tumeken's shadow	Powered Staff	5	13668	Araxxor	0	0	0	164	-17	0	0	24.0	3.65507
+shadow-no-prayer	magic	27275	Tumeken's shadow	Powered Staff	5	5862	Cerberus	0	0	0	164	-17	0	0	24.0	5.09843
+shadow-no-prayer	magic	27275	Tumeken's shadow	Powered Staff	5	2266	Dagannoth Prime	0	0	0	164	-17	0	0	24.0	2.64038
+shadow-no-prayer	magic	27275	Tumeken's shadow	Powered Staff	5	2267	Dagannoth Rex	0	0	0	164	-17	0	0	24.0	6.47127
+shadow-no-prayer	magic	27275	Tumeken's shadow	Powered Staff	5	2215	General Graardor	0	0	0	164	-17	0	0	24.0	4.97115
+shadow-no-prayer	magic	27275	Tumeken's shadow	Powered Staff	5	5779	Giant Mole	0	0	0	164	-17	0	0	24.0	5.07204
+shadow-no-prayer	magic	27275	Tumeken's shadow	Powered Staff	5	7261	Hill Giant	0	0	0	164	-17	0	0	24.0	6.47251
+shadow-no-prayer	magic	27275	Tumeken's shadow	Powered Staff	5	3162	Kree'arra	0	0	0	164	-17	0	0	24.0	3.87962
+shadow-no-prayer	magic	27275	Tumeken's shadow	Powered Staff	5	12077	Phantom Muspah	0	0	0	164	-17	0	0	24.0	2.79142
+shadow-no-prayer	magic	27275	Tumeken's shadow	Powered Staff	5	8059	Vorkath	0	0	0	164	-17	0	0	24.0	4.20483
+shadow-no-prayer	magic	27275	Tumeken's shadow	Powered Staff	5	2042	Zulrah	0	0	0	164	-17	0	0	24.0	5.76702
+tbow	ranged	20997	Twisted bow	Bow	6	415	Abyssal demon	-8	-8	-8	-19	215	0	100	0.0	1.18097
+tbow	ranged	20997	Twisted bow	Bow	6	13668	Araxxor	-8	-8	-8	-19	215	0	100	0.0	5.00955
+tbow	ranged	20997	Twisted bow	Bow	6	5862	Cerberus	-8	-8	-8	-19	215	0	100	0.0	6.16545
+tbow	ranged	20997	Twisted bow	Bow	6	2266	Dagannoth Prime	-8	-8	-8	-19	215	0	100	0.0	6.51066
+tbow	ranged	20997	Twisted bow	Bow	6	2267	Dagannoth Rex	-8	-8	-8	-19	215	0	100	0.0	0.17970
+tbow	ranged	20997	Twisted bow	Bow	6	2215	General Graardor	-8	-8	-8	-19	215	0	100	0.0	1.81708
+tbow	ranged	20997	Twisted bow	Bow	6	5779	Giant Mole	-8	-8	-8	-19	215	0	100	0.0	5.22718
+tbow	ranged	20997	Twisted bow	Bow	6	7261	Hill Giant	-8	-8	-8	-19	215	0	100	0.0	1.77490
+tbow	ranged	20997	Twisted bow	Bow	6	3162	Kree'arra	-8	-8	-8	-19	215	0	100	0.0	2.51977
+tbow	ranged	20997	Twisted bow	Bow	6	12077	Phantom Muspah	-8	-8	-8	-19	215	0	100	0.0	6.11573
+tbow	ranged	20997	Twisted bow	Bow	6	8059	Vorkath	-8	-8	-8	-19	215	0	100	0.0	4.66931
+tbow	ranged	20997	Twisted bow	Bow	6	2042	Zulrah	-8	-8	-8	-19	215	0	100	0.0	4.52711
+tbow-no-prayer	ranged	20997	Twisted bow	Bow	6	415	Abyssal demon	-8	-8	-8	-19	215	0	100	0.0	0.88380
+tbow-no-prayer	ranged	20997	Twisted bow	Bow	6	13668	Araxxor	-8	-8	-8	-19	215	0	100	0.0	3.74263
+tbow-no-prayer	ranged	20997	Twisted bow	Bow	6	5862	Cerberus	-8	-8	-8	-19	215	0	100	0.0	4.97637
+tbow-no-prayer	ranged	20997	Twisted bow	Bow	6	2266	Dagannoth Prime	-8	-8	-8	-19	215	0	100	0.0	5.22683
+tbow-no-prayer	ranged	20997	Twisted bow	Bow	6	2267	Dagannoth Rex	-8	-8	-8	-19	215	0	100	0.0	0.12815
+tbow-no-prayer	ranged	20997	Twisted bow	Bow	6	2215	General Graardor	-8	-8	-8	-19	215	0	100	0.0	1.28617
+tbow-no-prayer	ranged	20997	Twisted bow	Bow	6	5779	Giant Mole	-8	-8	-8	-19	215	0	100	0.0	4.13206
+tbow-no-prayer	ranged	20997	Twisted bow	Bow	6	7261	Hill Giant	-8	-8	-8	-19	215	0	100	0.0	1.47686
+tbow-no-prayer	ranged	20997	Twisted bow	Bow	6	3162	Kree'arra	-8	-8	-8	-19	215	0	100	0.0	1.79506
+tbow-no-prayer	ranged	20997	Twisted bow	Bow	6	12077	Phantom Muspah	-8	-8	-8	-19	215	0	100	0.0	4.83634
+tbow-no-prayer	ranged	20997	Twisted bow	Bow	6	8059	Vorkath	-8	-8	-8	-19	215	0	100	0.0	3.68818
+tbow-no-prayer	ranged	20997	Twisted bow	Bow	6	2042	Zulrah	-8	-8	-8	-19	215	0	100	0.0	3.79376

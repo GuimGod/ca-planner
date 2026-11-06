@@ -1,4 +1,4 @@
-# Two stretches of a Chambers of Xeric raid (Challenge Mode, a mass of 20+ players, 2026-10-15), as the local
+# Two stretches of a Chambers of Xeric raid (Challenge Mode, a mass of 20+ players, 2026-10-15), as a
 # "SPEC diagnostic" log wrote them: tick, then the line. Players are numbers in the fight, never names; "(me)" is the
 # player of the client. Tekton (NPC 7542) from tick 650 to 658 and Vasa Nistirio (7566) from 2915 to 2928. Projectile
 # lines are left out. The hitsplats were checked against the Combat Logger's file of the same raid: the same values on

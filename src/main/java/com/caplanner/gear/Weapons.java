@@ -36,8 +36,8 @@ final class Weapons
 	/**
 	 * The Tormented Demon's share of attacks that meet it without defence (every one of them lands, the calculator's
 	 * phase "Shielded (Defenceless)"; the others meet its defence, "Shielded"). Its flames are not read from the game
-	 * yet, so half of the attacks are taken to be without defence, in every class: the
-	 * one place to change once they are read.
+	 * yet, so half of the attacks are taken to be without defence, in every class: the one place to change once they
+	 * are read.
 	 */
 	static final double TORMENTED_DEMON_DEFENCELESS = 0.5;
 
@@ -198,6 +198,10 @@ final class Weapons
 		FIRES.put(28869, ids(28872, 28878)); // Hunters' sunlight crossbow
 		FIRES.put(29000, ids(28991)); // Eclipse atlatl
 		FIRES.put(33245, BOW_T60); // Nature's recurve
+		// the Ascension crossbows fire the Ascension bolts and their gem-tipped kinds, and nothing else (OSRS Wiki, Ascension
+		// crossbows: "The crossbows can only fire ascension bolts, alongside their gem-tipped variants")
+		FIRES.put(ArchiveItems.ASCENSION_CROSSBOWS, ids(ArchiveItems.ASCENSION_BOLTS, ArchiveItems.DIAMOND_ASCENSION_BOLTS,
+			ArchiveItems.DIAMOND_ASCENSION_BOLTS_E, ArchiveItems.ONYX_ASCENSION_BOLTS, ArchiveItems.ONYX_ASCENSION_BOLTS_E));
 		for (int[] ammo : FIRES.values())
 		{
 			for (int id : ammo)
@@ -225,7 +229,9 @@ final class Weapons
 	 */
 	static boolean canFire(int weaponId, String category, String weaponName, int ammoId, String ammoName)
 	{
-		int[] fires = FIRES.get(weaponId);
+		// a weapon or ammunition in another dress is the item it is (Variants)
+		int[] fires = FIRES.containsKey(weaponId) ? FIRES.get(weaponId) : FIRES.get(Variants.base(weaponId));
+		ammoId = KNOWN_AMMO.contains(ammoId) ? ammoId : Variants.base(ammoId);
 		if (fires != null && KNOWN_AMMO.contains(ammoId))
 		{
 			for (int id : fires)
@@ -237,6 +243,11 @@ final class Weapons
 			}
 			return false;
 		}
+		if (ArchiveItems.ascensionBolts(ammoName) != ArchiveItems.ascensionCrossbows(weaponName))
+		{
+			// the Ascension bolts are fired by the Ascension crossbows alone, and they fire nothing else (OSRS Wiki)
+			return false;
+		}
 		String kind = ammoKind(category, weaponName);
 		return kind != null && has(ammoName, kind);
 	}
@@ -244,7 +255,7 @@ final class Weapons
 	/** True when the calculator lists this weapon with the ammunition it fires (for the tests). */
 	static boolean listed(int weaponId)
 	{
-		return FIRES.containsKey(weaponId);
+		return FIRES.containsKey(weaponId) || FIRES.containsKey(Variants.base(weaponId));
 	}
 
 	/** The TzHaar weapons the obsidian set and the Berserker necklace work with (the calculator's isWearingTzhaarWeapon). */
@@ -261,7 +272,8 @@ final class Weapons
 	 * revenant ether, "(u)", and the Bow of Faerdhinen and the Crystal bow "(inactive)", their charges of crystal used up
 	 * (OSRS Wiki, Crystal bow: "Upon degrading, it reverts into an inactive version of itself, which can then be
 	 * recharged"; Bow of Faerdhinen: the inactive bow is the one left without its shards). The Scythe of vitur, the
-	 * Venator bow and the Tonalztics of Ralos still attack uncharged.
+	 * Venator bow and the Tonalztics of Ralos still attack uncharged. Zorya's tome uncharged casts nothing (OSRS Wiki,
+	 * Zorya's tome: "To use the tome's built-in spell, it must be charged").
 	 */
 	static boolean cannotAttackUncharged(String weaponName)
 	{
@@ -273,7 +285,7 @@ final class Weapons
 		if (n.endsWith("(uncharged)"))
 		{
 			return n.contains("tumeken's shadow") || n.contains("sanguinesti staff") || n.contains("eye of ayak")
-				|| n.contains("warped sceptre");
+				|| n.contains("warped sceptre") || ArchiveItems.isTome(n);
 		}
 		return n.endsWith("(u)") && (n.startsWith("craw's bow") || n.startsWith("webweaver bow"));
 	}

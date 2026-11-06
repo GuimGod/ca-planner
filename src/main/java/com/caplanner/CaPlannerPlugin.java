@@ -1524,6 +1524,11 @@ public class CaPlannerPlugin extends Plugin implements CaPlannerPanel.Actions
 		ItemEquipmentStats e = stats == null ? null : stats.getEquipment();
 		if (e == null)
 		{
+			// the Fractured Archive's weapons and bolts, while RuneLite's item data has nothing for them
+			e = Gear.archiveEquipment(id);
+		}
+		if (e == null)
+		{
 			return null;
 		}
 		Gear.Stat s = new Gear.Stat();
@@ -1578,6 +1583,16 @@ public class CaPlannerPlugin extends Plugin implements CaPlannerPanel.Actions
 			l.all.put(skill.getName().toLowerCase(), client.getRealSkillLevel(skill));
 		}
 		l.ancients = net.runelite.api.Quest.DESERT_TREASURE_I.getState(client) == net.runelite.api.QuestState.FINISHED;
+		l.zeal = client.getVarbitValue(VarbitID.PRAYER_ZEAL_UNLOCKED) == 1 && l.prayer >= Gear.ZEAL_PRAYER
+			&& l.attack >= Gear.ZEAL_ATTACK_STRENGTH && l.strength >= Gear.ZEAL_ATTACK_STRENGTH;
+		if (client.getVarbitValue(Gear.FRAGMENT_FIRE_VARBIT) == 1)
+		{
+			l.fragments.add("fire");
+		}
+		if (client.getVarbitValue(Gear.FRAGMENT_EARTH_VARBIT) == 1)
+		{
+			l.fragments.add("earth");
+		}
 		return l;
 	}
 

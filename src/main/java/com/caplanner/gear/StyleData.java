@@ -143,6 +143,16 @@ final class StyleData
 		final boolean toaRollUnscaled;
 		/** The Wardens' ejected core: 4500 hitpoints, a tenth of the raid level's growth. */
 		final boolean toaCore;
+		/**
+		 * A boss of the Fractured Archive: the raid gives it more hitpoints with a bigger party (measured; the formula is not
+		 * published), so its hitpoints are the most the game's boss health bar shows for it, once it shows them.
+		 */
+		final boolean fracturedArchive;
+		/**
+		 * One of the other monsters inside the Tombs (a room's, or one of a boss's fight: the baboons, Kephri's scarabs...):
+		 * inside the raid's rules for the weapons and its defence roll by the raid level, but its hitpoints not scaled.
+		 */
+		final boolean toaRoom;
 		/** What each hit that lands is multiplied by, for melee, ranged and magic (the Nightmare's totems take magic twice). */
 		final int meleeMultiplier;
 		final int rangedMultiplier;
@@ -250,6 +260,8 @@ final class StyleData
 			toaPath = raid.contains("H") ? 'H' : raid.contains("A") ? 'A' : raid.contains("S") ? 'S' : raid.contains("C") ? 'C' : 0;
 			toaRollUnscaled = toa && raid.contains("o");
 			toaCore = toa && raid.contains("w");
+			toaRoom = toa && raid.contains("R");
+			fracturedArchive = raid.contains("F");
 			String[] multipliers = c.length > 30 && !c[30].isEmpty() ? c[30].split(";", -1) : new String[0];
 			meleeMultiplier = number(multipliers, 0, 1);
 			rangedMultiplier = number(multipliers, 1, 1);
@@ -372,6 +384,11 @@ final class StyleData
 	 * table's rows under the negative of the id (tools/gen_data.py).
 	 */
 	private final Map<Integer, Monster> awakened = new HashMap<>();
+	/**
+	 * The NPC ids the table lists with no numbers at all (a monster seen but never examined: the Jellies of Dreadnoth the
+	 * Jellied): no row is given for them, by the id or by the name, so the plugin is quiet on them.
+	 */
+	private final Set<Integer> unmodelled = new HashSet<>();
 	/** The first monster of each name, in lower case: for the ids of the same monster that the table does not list. */
 	private final Map<String, Monster> monstersByName = new HashMap<>();
 	private final Set<String> slayerCategories = new HashSet<>();
@@ -404,6 +421,11 @@ final class StyleData
 		}
 		for (String[] c : rows(monsterTable))
 		{
+			if (c.length > 2 && c[2].isEmpty())
+			{
+				unmodelled.add(Integer.parseInt(c[0]));
+				continue;
+			}
 			Monster m = new Monster(c);
 			int key = Integer.parseInt(c[0]);
 			m.id = Math.abs(key);
@@ -423,16 +445,24 @@ final class StyleData
 		}
 	}
 
-	/** The weapon category of an item ("Scythe", "Staff", "Bow"...), or null when it is not a weapon in the table. */
+	/**
+	 * The weapon category of an item ("Scythe", "Staff", "Bow"...), or null when it is not a weapon in the table. A weapon
+	 * in another dress the table does not have is the weapon it is ({@link Variants}).
+	 */
 	String category(int weaponItemId)
 	{
-		return weaponItemId <= 0 ? "Unarmed" : weaponCategory.get(weaponItemId);
+		if (weaponItemId <= 0)
+		{
+			return "Unarmed";
+		}
+		String category = weaponCategory.get(weaponItemId);
+		return category != null ? category : weaponCategory.get(Variants.base(weaponItemId));
 	}
 
 	/** The styles of this weapon in Combat Options order, or an empty list for a weapon the table does not have. */
 	List<Style> styles(int weaponItemId)
 	{
-		String category = weaponItemId <= 0 ? "Unarmed" : weaponCategory.get(weaponItemId);
+		String category = category(weaponItemId);
 		List<Style> styles = category == null ? null : categoryStyles.get(category);
 		return styles == null ? Collections.emptyList() : styles;
 	}
@@ -466,7 +496,14 @@ final class StyleData
 	Monster monster(int npcId, String name)
 	{
 		Monster m = monsters.get(npcId);
-		return m != null || name == null ? m : monstersByName.get(name.toLowerCase(java.util.Locale.ROOT));
+		return m != null || name == null || unmodelled.contains(npcId) ? m
+			: monstersByName.get(name.toLowerCase(java.util.Locale.ROOT));
+	}
+
+	/** True for an NPC id the table lists with no numbers ({@link #unmodelled}): a monster seen but never examined. */
+	boolean unmodelled(int npcId)
+	{
+		return unmodelled.contains(npcId);
 	}
 
 	/** Every monster of the table, one per row but the awakened fights' ({@link #inFight}), read only. */

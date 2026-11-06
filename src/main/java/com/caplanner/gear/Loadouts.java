@@ -27,10 +27,13 @@ final class Loadouts
 		String category = data.category(weaponId);
 		String weaponName = weapon == null ? null : weapon.name;
 		SwitchSet.Piece ammo = pieces[SwitchSet.AMMO];
-		// ammunition the weapon does not shoot gives it nothing: bolts under a bow, arrows under a crossbow,
+		SwitchSet.Piece slotAmmo = ammo;
+		// ammunition the weapon does not shoot gives it nothing: bolts under a bow, arrows under a crossbow, arrows above
+		// the bow's tier, Ascension bolts under any crossbow but the Ascension crossbows (Weapons.canFire, by the item),
 		// anything under a bow that makes its own arrows or a weapon that is its own ammunition
 		String kind = Weapons.ammoKind(category, weaponName);
-		if (ammo != null && Weapons.isShotAmmo(ammo.name) && (kind == null || !Weapons.has(ammo.name, kind)))
+		if (ammo != null && Weapons.isShotAmmo(ammo.name)
+			&& (kind == null || !Weapons.canFire(weaponId, category, weaponName, ammo.itemId, ammo.name)))
 		{
 			ammo = null;
 		}
@@ -59,17 +62,21 @@ final class Loadouts
 			l.inquisitor += p.inquisitor;
 			l.mask = Math.max(l.mask, p.mask);
 			l.salve = Math.max(l.salve, p.salve);
-			l.crystal += SetEffects.crystalWeight(p.name);
 			names.add(p.name);
 		}
-		l.voidMelee = SetEffects.voidKind(names, StyleCalc.MELEE);
-		l.voidRanged = SetEffects.voidKind(names, StyleCalc.RANGED);
-		l.dharokSet = SetEffects.wholeBarrowsSet(names, "dharok's ");
+		// the sets as the Combat Check reads them (SetEffects.wornSets): crystal armour, the Void sets, Dharok's,
+		// Ahrim's with the damned, obsidian, the Berserker necklace, Dizana's quiver, the Confliction gauntlets,
+		// the Blood moon set and the elemental amulet (2 more on the base of a spell of its element)
+		SetEffects.wornSets(l, names);
 		l.weaponName = weaponName == null ? "" : weaponName;
 		l.speed = weapon == null || weapon.speed <= 0 ? 4 : weapon.speed;
 		l.category = category;
 		l.styles = data.styles(weaponId);
 		boolean shot = ammo != null && Weapons.isShotAmmo(ammo.name);
+		// the ammunition the weapon shoots, as the Combat Check gives it (SetCalc.Loadout.ammo)
+		l.ammo = shot ? ammo.name : null;
+		// what is in the ammunition slot, shot or not (the Ice arrows and the brutal arrows go by it)
+		l.ammoWorn = slotAmmo == null ? null : slotAmmo.name;
 		l.bolt = shot ? SetCalc.boltKind(ammo.name) : 0;
 		l.boltEffect = shot && l.bolt == 0 && ammo.name.endsWith("(e)") && !SetCalc.harmlessBolts(ammo.name);
 		return l;

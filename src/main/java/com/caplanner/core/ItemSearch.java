@@ -109,7 +109,7 @@ public final class ItemSearch
 			}
 			// the player's own one, under that name or another dress of it, when it goes in the same slot: the setup takes
 			// the very item they have
-			Bag.Have mine = GearEdit.ownedAs(e.name, have);
+			Bag.Have mine = GearEdit.ownedAs(e.itemId, e.name, have);
 			int id = mine != null && (e.slot < 0 || slotOf.applyAsInt(mine.itemId) == e.slot) ? mine.itemId : e.itemId;
 			out.add(new Hit(e, id, mine != null));
 		}

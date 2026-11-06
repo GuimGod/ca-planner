@@ -10,6 +10,7 @@ Bulwark	Pummel:crush:Accurate;Block::
 Chinchompas	Short fuse:ranged:Accurate;Medium fuse:ranged:Rapid;Long fuse:ranged:Longrange
 Claw	Chop:slash:Accurate;Slash:slash:Aggressive;Lunge:stab:Controlled;Block:slash:Defensive
 Crossbow	Accurate:ranged:Accurate;Rapid:ranged:Rapid;Longrange:ranged:Longrange
+Extending Chain Mace	Thrust:crush:Accurate;Thrust:crush:Aggressive;Smash:crush:Aggressive
 Flail	Chop:slash:Accurate;Slash:slash:Aggressive;Block:slash:Defensive
 Gun	Kick:crush:Aggressive
 Multi-Melee	Poke:stab:Accurate;Slash:slash:Aggressive;Pound:crush:Aggressive;Block:slash:Defensive

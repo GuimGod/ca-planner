@@ -41,6 +41,13 @@ public class SetCalcTest
 		int health;
 		int toaLevel = -1;
 		int party;
+		/** The calculator's mean attacks to kill from full hitpoints and its ticks between attacks (ttk_sets.tsv), or NaN. */
+		double htk = Double.NaN;
+		double calculatorSpeed = Double.NaN;
+		/** What the figure was worked out with, for the tests that work out more from the same case. */
+		SetCalc.Loadout loadout;
+		SetCalc.Player player;
+		SetCalc.Target target;
 	}
 
 	/**
@@ -139,6 +146,11 @@ public class SetCalcTest
 					l.tome = c[25].isEmpty() ? null : c[25];
 				}
 				SetCalc.Player player = player(c[1]);
+				if (c[0].endsWith("-no-prayer"))
+				{
+					// prayer_sets.tsv (tools/gen_prayer.py): the same boosts with no attack prayer on
+					player = noPrayer(player);
+				}
 				if (c.length > 35)
 				{
 					int toaLevel = Integer.parseInt(c[29]);
@@ -151,11 +163,18 @@ public class SetCalcTest
 					levels = MonsterLevels.enraged(monster, levels, health);
 					// the Wardens of the third phase, enraged: the calculator's Enraged version of the same id
 					levels = MonsterLevels.wardenEnraged(monster, levels, c.length > 36 && "Enraged".equals(c[36]));
+					// special attacks counted on top of the raid's scaling (maiden_sets.tsv: tools/gen_maiden.py)
+					DefenceDrains raidDrains = c[28].isEmpty() ? null : drains(c[28]);
+					if (raidDrains != null)
+					{
+						levels = raidDrains.apply(levels, monster.demon, DefenceDrains.floor(k.npc, levels.defence));
+					}
 					target = monster.target(levels);
 					target.toaInvocation = ToaScaling.invocation(monster, toa);
 					target.hitpointsNow = health;
-					// the fight in the Wilderness (column 23) on the target made again
+					// the fight in the Wilderness (column 23) and the Slayer task (column 19) on the target made again
 					target.inWilderness = "1".equals(c[23]);
+					target.onTask = "1".equals(c[19]);
 					String[] lv = c[33].split(";");
 					player.attack = Integer.parseInt(lv[0]);
 					player.strength = Integer.parseInt(lv[1]);
@@ -180,11 +199,34 @@ public class SetCalcTest
 						SetEffects.wornSets(l, java.util.Arrays.asList(c[40].split(";")));
 						l.ammoRangedStrength = Integer.parseInt(c[41]);
 					}
+					// the weapon takes both hands (confliction_sets.tsv: tools/gen_confliction.py)
+					l.twoHanded = c.length > 42 && "1".equals(c[42]);
+					// the calculator's time to kill (ttk_sets.tsv: tools/gen_ttk.py)
+					if (c.length > 44)
+					{
+						k.htk = Double.parseDouble(c[43]);
+						k.calculatorSpeed = Double.parseDouble(c[44]);
+					}
+					// the defence bonuses worn added up, for Dinh's bulwark's strength (bulwark_sets.tsv: tools/gen_bulwark.py)
+					if (c.length > 45)
+					{
+						l.defence = Integer.parseInt(c[45]);
+					}
 					k.health = health;
 					k.toaLevel = toaLevel;
 					k.party = party;
 				}
+				if (monster.toaRoom)
+				{
+					// the calculator counts the Tombs' rooms' monsters as outside the raid (its lists have the bosses only);
+					// the plugin counts them inside (ToaRoomsTest)
+					target.toa = false;
+					target.toaInvocation = 0;
+				}
 				k.got = SetCalc.perTick(l, player, target, false);
+				k.loadout = l;
+				k.player = player;
+				k.target = target;
 				out.add(k);
 			}
 		}
@@ -255,6 +297,18 @@ public class SetCalcTest
 			p.prayerMagic = 125;
 			p.prayerMagicDamage = 4;
 		}
+		return p;
+	}
+
+	/** The same player with no attack prayer on. */
+	static SetCalc.Player noPrayer(SetCalc.Player p)
+	{
+		p.prayerAttack = 100;
+		p.prayerStrength = 100;
+		p.prayerRanged = 100;
+		p.prayerRangedStrength = 100;
+		p.prayerMagic = 100;
+		p.prayerMagicDamage = 0;
 		return p;
 	}
 

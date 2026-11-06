@@ -100,12 +100,11 @@ public class DefenceDrainsTest
 	}
 
 	/**
-	 * The answer key of a simulator (the
-	 * calculator's own function for each step, in the order given), its 10 checks in the same order and with the same
-	 * figures: Xarpus in normal mode (Defence 250, no floor), Sotetseg (200, floor 100), and the case of the calculator on
-	 * the web (tools.runescape.wiki/osrs-dps, 2026-10-15: Xarpus, a party of three, two Elder mauls and a Bandos godsword
-	 * of 43: Defence 63, slash defence roll 4608). The defence roll is (Defence + 9) * (bonus + 64), Xarpus's slash bonus
-	 * being 0.
+	 * The answer key of a separate simulator (the calculator's own function for each step, in the order given), its 10
+	 * checks in the same order and with the same figures: Xarpus in normal mode (Defence 250, no floor), Sotetseg (200,
+	 * floor 100), and the case of the calculator on the web (tools.runescape.wiki/osrs-dps, 2026-10-15: Xarpus, a party
+	 * of three, two Elder mauls and a Bandos godsword of 43: Defence 63, slash defence roll 4608). The defence roll is
+	 * (Defence + 9) * (bonus + 64), Xarpus's slash bonus being 0.
 	 */
 	@Test
 	public void theSimulatorsOrderCases() throws IOException
@@ -552,6 +551,12 @@ public class DefenceDrainsTest
 		assertTrue(DefenceDrains.resets(8097, 8096));
 		assertTrue(DefenceDrains.resets(8096, 8098));
 		assertFalse("the same phase", DefenceDrains.resets(8094, 8095));
+		// Sotetseg into the maze, in every mode: the drains go (the Theatre of 2026-10-17: 8388 to 8387 and back, twice)
+		assertTrue(DefenceDrains.resets(8388, 8387));
+		assertTrue(DefenceDrains.resets(10865, 10864));
+		assertTrue(DefenceDrains.resets(10868, 10867));
+		assertFalse("out of the maze, fighting again: nothing left to drop", DefenceDrains.resets(8387, 8388));
+		assertFalse("another mode's form is not his maze", DefenceDrains.resets(8388, 10867));
 		assertFalse("an id the wiki puts in no phase", DefenceDrains.resets(8096, 8099));
 		assertFalse(DefenceDrains.resets(963, 965));
 	}
@@ -651,11 +656,25 @@ public class DefenceDrainsTest
 		assertEquals(0, DefenceDrains.recovered(9425, 99));
 		assertEquals(20, DefenceDrains.recovered(9425, 100));
 		assertEquals(40, DefenceDrains.recovered(9425, 250));
-		assertEquals(0, DefenceDrains.recovered(415, 1000));
+		// any other monster: the standard level a minute (StatRestoreTest)
+		assertEquals(10, DefenceDrains.recovered(415, 1000));
 		DefenceDrains d = new DefenceDrains();
 		d.add(SpecialWeapon.DRAGON_WARHAMMER, 40, false);
 		DefenceDrains.Levels drained = d.apply(150, 150, 40, false, DefenceDrains.floor(9416, 150));
 		assertEquals(120, drained.defence);
 		assertEquals(130, Math.min(150, drained.defence + DefenceDrains.recovered(9416, 50)));
+	}
+
+	/** The Pestilent Bloat's stomp restores its Defence, on the 30th tick of its shut-down (OSRS Wiki). */
+	@Test
+	public void theBloatsStompRestoresItsDefence()
+	{
+		assertTrue(DefenceDrains.bloat(8359));
+		assertTrue(DefenceDrains.bloat(10812));
+		assertTrue(DefenceDrains.bloat(10813));
+		assertFalse(DefenceDrains.bloat(8360));
+		// shut down on tick 100, the first of its inactivity: the stomp on 129
+		assertFalse(DefenceDrains.bloatStomps(100, 128));
+		assertTrue(DefenceDrains.bloatStomps(100, 129));
 	}
 }

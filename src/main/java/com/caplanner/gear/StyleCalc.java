@@ -288,6 +288,17 @@ final class StyleCalc
 			: attack / (2.0 * (defence + 1));
 	}
 
+	/**
+	 * The Confliction gauntlets with a magic weapon of one hand: the calculator's roll for them
+	 * (BaseCalc.getConflictionGauntletsAccuracyRoll), the fang's double roll over one plus it less the single roll.
+	 */
+	static double conflictionChance(long attack, long defence)
+	{
+		double single = chance(attack, defence);
+		double twice = fangChance(attack, defence);
+		return twice / (1 + twice - single);
+	}
+
 	/** Osmumten's fang outside the Tombs of Amascut: the better of two accuracy rolls. */
 	static double fangChance(long attack, long defence)
 	{

@@ -105,10 +105,13 @@ final class ToaScaling
 		return invocation <= 0 ? roll : roll * (250 + invocation) / 250;
 	}
 
-	/** The monster's hitpoints in this raid: its own when it is not a monster of the raid or there is no raid. */
+	/**
+	 * The monster's hitpoints in this raid: its own when it is not a monster of the raid, when there is no raid, and for the
+	 * other monsters inside it ({@link StyleData.Monster#toaRoom}: the baboons' "are now static", the others' not given).
+	 */
 	static int hitpoints(StyleData.Monster m, int hitpoints, Raid raid)
 	{
-		if (raid == null || !m.toa)
+		if (raid == null || !m.toa || m.toaRoom)
 		{
 			return hitpoints;
 		}

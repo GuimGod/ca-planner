@@ -1,6 +1,6 @@
 # The tables the plugin can fetch at startup. stamp: when they were made (UTC). Each file: its SHA-256,
 # over its text with "\n" line ends.
-stamp	2026-10-15T19:01
-weapons.tsv	82e9d87fa33a86b36c789d336bb9027ff0822887d8b03cec0d260808a6329a64
-styles.tsv	b9d5859325d6369a2dce95fef22d40fd788a0c4fca4886673e6f83b253294eee
-monsters.tsv	880fd0752e9e345e80dd56babc1021630d6e04b68808b7891e41a5a2274e0061
+stamp	2026-11-01T17:13
+weapons.tsv	44a5ec41acb2fe4da77820156792ab0de64e60f18c6c41723e9fd827a2549a92
+styles.tsv	e36b4670a28e269ef14c024f749698355a7e8ec9937dd2c8aa03b997bf497a45
+monsters.tsv	8979e8270ae0d98a50b45466113745a3d2f9eb9521ca411b8fff294ae9c0b3e9

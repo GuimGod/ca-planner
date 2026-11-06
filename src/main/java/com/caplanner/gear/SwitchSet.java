@@ -35,6 +35,8 @@ final class SwitchSet
 		int rangedStrength;
 		/** Magic damage, in percent. */
 		double magicDamage;
+		/** The stab, slash, crush and ranged defence bonuses added up: Dinh's bulwark turns them into strength. */
+		int defence;
 		/**
 		 * What a conditional effect adds to this piece right now, in the same units as the score:
 		 * crystal armour with a crystal bow, Inquisitor's on crush, a void piece of the set in use.

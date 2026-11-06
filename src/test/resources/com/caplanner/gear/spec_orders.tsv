@@ -1,0 +1,496 @@
+# npc id	name	demon (1)	attack	strength	defence	magic	ranged	magic defence	order (; between special attacks)	defence left	magic left	magic defence left
+8340	Xarpus	0	1	1	250	220	100	0	maul;dwh;bgs:50	65	220	0
+8340	Xarpus	0	1	1	250	220	100	0	maul;bgs:50;dwh	80	220	0
+8340	Xarpus	0	1	1	250	220	100	0	dwh;maul;bgs:50	64	220	0
+8340	Xarpus	0	1	1	250	220	100	0	dwh;bgs:50;maul	82	220	0
+8340	Xarpus	0	1	1	250	220	100	0	bgs:50;maul;dwh	91	220	0
+8340	Xarpus	0	1	1	250	220	100	0	bgs:50;dwh;maul	91	220	0
+8340	Xarpus	0	1	1	250	220	100	0	maul;maul;bgs:40	66	220	0
+8340	Xarpus	0	1	1	250	220	100	0	maul;bgs:40;maul	80	220	0
+8340	Xarpus	0	1	1	250	220	100	0	bgs:40;maul;maul	90	220	0
+8340	Xarpus	0	1	1	250	220	100	0	maul;bgs:60	103	220	0
+8340	Xarpus	0	1	1	250	220	100	0	bgs:60;maul	124	220	0
+8340	Xarpus	0	1	1	250	220	100	0	dwh;bgs:30	145	220	0
+8340	Xarpus	0	1	1	250	220	100	0	bgs:30;dwh	154	220	0
+8340	Xarpus	0	1	1	250	220	100	0	ralos2;maul	128	220	0
+8340	Xarpus	0	1	1	250	220	100	0	maul;ralos2	109	220	0
+8340	Xarpus	0	1	1	250	220	100	0	ralos2;dwh;maul	90	220	0
+8340	Xarpus	0	1	1	250	220	100	0	ralos2;maul;dwh	90	220	0
+8340	Xarpus	0	1	1	250	220	100	0	dwh;ralos2;maul	79	220	0
+8340	Xarpus	0	1	1	250	220	100	0	dwh;maul;ralos2	60	220	0
+8340	Xarpus	0	1	1	250	220	100	0	maul;ralos2;dwh	77	220	0
+8340	Xarpus	0	1	1	250	220	100	0	maul;dwh;ralos2	61	220	0
+8340	Xarpus	0	1	1	250	220	100	0	ralos1;bgs:45	178	220	0
+8340	Xarpus	0	1	1	250	220	100	0	bgs:45;ralos1	178	220	0
+8340	Xarpus	0	1	1	250	220	100	0	ralos2;bgs:600	0	0	0
+8340	Xarpus	0	1	1	250	220	100	0	bgs:600;ralos2	0	0	0
+8340	Xarpus	0	1	1	250	220	100	0	ralos2;bgs:1100	0	0	0
+8340	Xarpus	0	1	1	250	220	100	0	bgs:1100;ralos2	0	0	0
+8340	Xarpus	0	1	1	250	220	100	0	maul;maul;maul	69	220	0
+8340	Xarpus	0	1	1	250	220	100	0	dwh;dwh	123	220	0
+8340	Xarpus	0	1	1	250	220	100	0	bgs:30;bgs:30	190	220	0
+8340	Xarpus	0	1	1	250	220	100	0	ralos2;ralos2;maul	93	220	0
+8340	Xarpus	0	1	1	250	220	100	0	ralos2;maul;ralos2	74	220	0
+8340	Xarpus	0	1	1	250	220	100	0	maul;ralos2;ralos2	55	220	0
+8340	Xarpus	0	1	1	250	220	100	0	ayak:60;maul;bgs:20	143	220	0
+8340	Xarpus	0	1	1	250	220	100	0	ayak:60;bgs:20;maul	150	220	0
+8340	Xarpus	0	1	1	250	220	100	0	maul;ayak:60;bgs:20	143	220	0
+8340	Xarpus	0	1	1	250	220	100	0	maul;bgs:20;ayak:60	143	220	0
+8340	Xarpus	0	1	1	250	220	100	0	bgs:20;ayak:60;maul	150	220	0
+8340	Xarpus	0	1	1	250	220	100	0	bgs:20;maul;ayak:60	150	220	0
+8340	Xarpus	0	1	1	250	220	100	0	accursed;ralos2;maul	108	187	0
+8340	Xarpus	0	1	1	250	220	100	0	accursed;maul;ralos2	92	187	0
+8340	Xarpus	0	1	1	250	220	100	0	accursed;bgs:50;dwh	114	187	0
+8340	Xarpus	0	1	1	250	220	100	0	accursed;dwh;bgs:50	99	187	0
+8340	Xarpus	0	1	1	250	220	100	0	arclight;maul;bgs:25	130	220	0
+8340	Xarpus	0	1	1	250	220	100	0	arclight;bgs:25;maul	138	220	0
+8340	Xarpus	0	1	1	250	220	100	0	emberlight;dwh;ralos1	139	220	0
+8340	Xarpus	0	1	1	250	220	100	0	emberlight;ralos1;dwh	147	220	0
+8340	Xarpus	0	1	1	250	220	100	0	seercull:40;ralos2;maul	134	180	0
+8340	Xarpus	0	1	1	250	220	100	0	seercull:40;maul;ralos2	119	180	0
+8340	Xarpus	0	1	1	250	220	100	0	ralos2;seercull:40;maul	128	180	0
+8340	Xarpus	0	1	1	250	220	100	0	ralos2;maul;seercull:40	128	180	0
+8340	Xarpus	0	1	1	250	220	100	0	maul;seercull:40;ralos2	119	180	0
+8340	Xarpus	0	1	1	250	220	100	0	maul;ralos2;seercull:40	109	180	0
+8340	Xarpus	0	1	1	250	220	100	0	seercull:40;bgs:30	220	180	0
+8340	Xarpus	0	1	1	250	220	100	0	bgs:30;seercull:40	220	180	0
+7540	Tekton	0	390	390	205	205	1	0	maul;dwh;bgs:50	44	205	0
+7540	Tekton	0	390	390	205	205	1	0	maul;bgs:50;dwh	59	205	0
+7540	Tekton	0	390	390	205	205	1	0	dwh;maul;bgs:50	44	205	0
+7540	Tekton	0	390	390	205	205	1	0	dwh;bgs:50;maul	62	205	0
+7540	Tekton	0	390	390	205	205	1	0	bgs:50;maul;dwh	71	205	0
+7540	Tekton	0	390	390	205	205	1	0	bgs:50;dwh;maul	71	205	0
+7540	Tekton	0	390	390	205	205	1	0	maul;maul;bgs:40	48	205	0
+7540	Tekton	0	390	390	205	205	1	0	maul;bgs:40;maul	62	205	0
+7540	Tekton	0	390	390	205	205	1	0	bgs:40;maul;maul	71	205	0
+7540	Tekton	0	390	390	205	205	1	0	maul;bgs:60	74	205	0
+7540	Tekton	0	390	390	205	205	1	0	bgs:60;maul	95	205	0
+7540	Tekton	0	390	390	205	205	1	0	dwh;bgs:30	114	205	0
+7540	Tekton	0	390	390	205	205	1	0	bgs:30;dwh	123	205	0
+7540	Tekton	0	390	390	205	205	1	0	ralos2;maul	101	205	0
+7540	Tekton	0	390	390	205	205	1	0	maul;ralos2	84	205	0
+7540	Tekton	0	390	390	205	205	1	0	ralos2;dwh;maul	71	205	0
+7540	Tekton	0	390	390	205	205	1	0	ralos2;maul;dwh	71	205	0
+7540	Tekton	0	390	390	205	205	1	0	dwh;ralos2;maul	62	205	0
+7540	Tekton	0	390	390	205	205	1	0	dwh;maul;ralos2	44	205	0
+7540	Tekton	0	390	390	205	205	1	0	maul;ralos2;dwh	59	205	0
+7540	Tekton	0	390	390	205	205	1	0	maul;dwh;ralos2	44	205	0
+7540	Tekton	0	390	390	205	205	1	0	ralos1;bgs:45	135	205	0
+7540	Tekton	0	390	390	205	205	1	0	bgs:45;ralos1	135	205	0
+7540	Tekton	0	390	390	205	205	1	0	ralos2;bgs:600	0	205	0
+7540	Tekton	0	390	390	205	205	1	0	bgs:600;ralos2	0	205	0
+7540	Tekton	0	390	390	205	205	1	0	ralos2;bgs:1100	0	40	0
+7540	Tekton	0	390	390	205	205	1	0	bgs:1100;ralos2	0	90	0
+7540	Tekton	0	390	390	205	205	1	0	maul;maul;maul	58	205	0
+7540	Tekton	0	390	390	205	205	1	0	dwh;dwh	101	205	0
+7540	Tekton	0	390	390	205	205	1	0	bgs:30;bgs:30	145	205	0
+7540	Tekton	0	390	390	205	205	1	0	ralos2;ralos2;maul	69	205	0
+7540	Tekton	0	390	390	205	205	1	0	ralos2;maul;ralos2	51	205	0
+7540	Tekton	0	390	390	205	205	1	0	maul;ralos2;ralos2	34	205	0
+7540	Tekton	0	390	390	205	205	1	0	ayak:60;maul;bgs:20	114	205	0
+7540	Tekton	0	390	390	205	205	1	0	ayak:60;bgs:20;maul	121	205	0
+7540	Tekton	0	390	390	205	205	1	0	maul;ayak:60;bgs:20	114	205	0
+7540	Tekton	0	390	390	205	205	1	0	maul;bgs:20;ayak:60	114	205	0
+7540	Tekton	0	390	390	205	205	1	0	bgs:20;ayak:60;maul	121	205	0
+7540	Tekton	0	390	390	205	205	1	0	bgs:20;maul;ayak:60	121	205	0
+7540	Tekton	0	390	390	205	205	1	0	accursed;ralos2;maul	86	174	0
+7540	Tekton	0	390	390	205	205	1	0	accursed;maul;ralos2	72	174	0
+7540	Tekton	0	390	390	205	205	1	0	accursed;bgs:50;dwh	87	174	0
+7540	Tekton	0	390	390	205	205	1	0	accursed;dwh;bgs:50	72	174	0
+7540	Tekton	0	390	390	205	205	1	0	arclight;maul;bgs:25	102	205	0
+7540	Tekton	0	390	390	205	205	1	0	arclight;bgs:25;maul	110	205	0
+7540	Tekton	0	390	390	205	205	1	0	emberlight;dwh;ralos1	111	205	0
+7540	Tekton	0	390	390	205	205	1	0	emberlight;ralos1;dwh	119	205	0
+7540	Tekton	0	390	390	205	205	1	0	seercull:40;ralos2;maul	108	165	0
+7540	Tekton	0	390	390	205	205	1	0	seercull:40;maul;ralos2	94	165	0
+7540	Tekton	0	390	390	205	205	1	0	ralos2;seercull:40;maul	101	165	0
+7540	Tekton	0	390	390	205	205	1	0	ralos2;maul;seercull:40	101	165	0
+7540	Tekton	0	390	390	205	205	1	0	maul;seercull:40;ralos2	94	165	0
+7540	Tekton	0	390	390	205	205	1	0	maul;ralos2;seercull:40	84	165	0
+7540	Tekton	0	390	390	205	205	1	0	seercull:40;bgs:30	175	165	0
+7540	Tekton	0	390	390	205	205	1	0	bgs:30;seercull:40	175	165	0
+8387	Sotetseg	0	250	250	200	250	250	30	maul;dwh;bgs:50	100	250	30
+8387	Sotetseg	0	250	250	200	250	250	30	maul;bgs:50;dwh	100	250	30
+8387	Sotetseg	0	250	250	200	250	250	30	dwh;maul;bgs:50	100	250	30
+8387	Sotetseg	0	250	250	200	250	250	30	dwh;bgs:50;maul	100	250	30
+8387	Sotetseg	0	250	250	200	250	250	30	bgs:50;maul;dwh	100	250	30
+8387	Sotetseg	0	250	250	200	250	250	30	bgs:50;dwh;maul	100	250	30
+8387	Sotetseg	0	250	250	200	250	250	30	maul;maul;bgs:40	100	250	30
+8387	Sotetseg	0	250	250	200	250	250	30	maul;bgs:40;maul	100	250	30
+8387	Sotetseg	0	250	250	200	250	250	30	bgs:40;maul;maul	100	250	30
+8387	Sotetseg	0	250	250	200	250	250	30	maul;bgs:60	100	250	30
+8387	Sotetseg	0	250	250	200	250	250	30	bgs:60;maul	100	250	30
+8387	Sotetseg	0	250	250	200	250	250	30	dwh;bgs:30	110	250	30
+8387	Sotetseg	0	250	250	200	250	250	30	bgs:30;dwh	119	250	30
+8387	Sotetseg	0	250	250	200	250	250	30	ralos2;maul	100	250	30
+8387	Sotetseg	0	250	250	200	250	250	30	maul;ralos2	100	250	30
+8387	Sotetseg	0	250	250	200	250	250	30	ralos2;dwh;maul	100	250	30
+8387	Sotetseg	0	250	250	200	250	250	30	ralos2;maul;dwh	100	250	30
+8387	Sotetseg	0	250	250	200	250	250	30	dwh;ralos2;maul	100	250	30
+8387	Sotetseg	0	250	250	200	250	250	30	dwh;maul;ralos2	100	250	30
+8387	Sotetseg	0	250	250	200	250	250	30	maul;ralos2;dwh	100	250	30
+8387	Sotetseg	0	250	250	200	250	250	30	maul;dwh;ralos2	100	250	30
+8387	Sotetseg	0	250	250	200	250	250	30	ralos1;bgs:45	124	250	30
+8387	Sotetseg	0	250	250	200	250	250	30	bgs:45;ralos1	124	250	30
+8387	Sotetseg	0	250	250	200	250	250	30	ralos2;bgs:600	100	250	30
+8387	Sotetseg	0	250	250	200	250	250	30	bgs:600;ralos2	100	250	30
+8387	Sotetseg	0	250	250	200	250	250	30	ralos2;bgs:1100	100	250	30
+8387	Sotetseg	0	250	250	200	250	250	30	bgs:1100;ralos2	100	250	30
+8387	Sotetseg	0	250	250	200	250	250	30	maul;maul;maul	100	250	30
+8387	Sotetseg	0	250	250	200	250	250	30	dwh;dwh	100	250	30
+8387	Sotetseg	0	250	250	200	250	250	30	bgs:30;bgs:30	140	250	30
+8387	Sotetseg	0	250	250	200	250	250	30	ralos2;ralos2;maul	100	250	30
+8387	Sotetseg	0	250	250	200	250	250	30	ralos2;maul;ralos2	100	250	30
+8387	Sotetseg	0	250	250	200	250	250	30	maul;ralos2;ralos2	100	250	30
+8387	Sotetseg	0	250	250	200	250	250	30	ayak:60;maul;bgs:20	110	250	0
+8387	Sotetseg	0	250	250	200	250	250	30	ayak:60;bgs:20;maul	117	250	0
+8387	Sotetseg	0	250	250	200	250	250	30	maul;ayak:60;bgs:20	110	250	0
+8387	Sotetseg	0	250	250	200	250	250	30	maul;bgs:20;ayak:60	110	250	0
+8387	Sotetseg	0	250	250	200	250	250	30	bgs:20;ayak:60;maul	117	250	0
+8387	Sotetseg	0	250	250	200	250	250	30	bgs:20;maul;ayak:60	117	250	0
+8387	Sotetseg	0	250	250	200	250	250	30	accursed;ralos2;maul	100	212	30
+8387	Sotetseg	0	250	250	200	250	250	30	accursed;maul;ralos2	100	212	30
+8387	Sotetseg	0	250	250	200	250	250	30	accursed;bgs:50;dwh	100	212	30
+8387	Sotetseg	0	250	250	200	250	250	30	accursed;dwh;bgs:50	100	212	30
+8387	Sotetseg	0	250	250	200	250	250	30	arclight;maul;bgs:25	100	250	30
+8387	Sotetseg	0	250	250	200	250	250	30	arclight;bgs:25;maul	107	250	30
+8387	Sotetseg	0	250	250	200	250	250	30	emberlight;dwh;ralos1	102	250	30
+8387	Sotetseg	0	250	250	200	250	250	30	emberlight;ralos1;dwh	111	250	30
+8387	Sotetseg	0	250	250	200	250	250	30	seercull:40;ralos2;maul	100	210	30
+8387	Sotetseg	0	250	250	200	250	250	30	seercull:40;maul;ralos2	100	210	30
+8387	Sotetseg	0	250	250	200	250	250	30	ralos2;seercull:40;maul	100	210	30
+8387	Sotetseg	0	250	250	200	250	250	30	ralos2;maul;seercull:40	100	210	30
+8387	Sotetseg	0	250	250	200	250	250	30	maul;seercull:40;ralos2	100	210	30
+8387	Sotetseg	0	250	250	200	250	250	30	maul;ralos2;seercull:40	100	210	30
+8387	Sotetseg	0	250	250	200	250	250	30	seercull:40;bgs:30	170	210	30
+8387	Sotetseg	0	250	250	200	250	250	30	bgs:30;seercull:40	170	210	30
+11789	Akkha	0	100	140	80	100	100	10	maul;dwh;bgs:50	70	100	10
+11789	Akkha	0	100	140	80	100	100	10	maul;bgs:50;dwh	70	100	10
+11789	Akkha	0	100	140	80	100	100	10	dwh;maul;bgs:50	70	100	10
+11789	Akkha	0	100	140	80	100	100	10	dwh;bgs:50;maul	70	100	10
+11789	Akkha	0	100	140	80	100	100	10	bgs:50;maul;dwh	70	100	10
+11789	Akkha	0	100	140	80	100	100	10	bgs:50;dwh;maul	70	100	10
+11789	Akkha	0	100	140	80	100	100	10	maul;maul;bgs:40	70	100	10
+11789	Akkha	0	100	140	80	100	100	10	maul;bgs:40;maul	70	100	10
+11789	Akkha	0	100	140	80	100	100	10	bgs:40;maul;maul	70	100	10
+11789	Akkha	0	100	140	80	100	100	10	maul;bgs:60	70	100	10
+11789	Akkha	0	100	140	80	100	100	10	bgs:60;maul	70	100	10
+11789	Akkha	0	100	140	80	100	100	10	dwh;bgs:30	70	100	10
+11789	Akkha	0	100	140	80	100	100	10	bgs:30;dwh	70	100	10
+11789	Akkha	0	100	140	80	100	100	10	ralos2;maul	70	100	10
+11789	Akkha	0	100	140	80	100	100	10	maul;ralos2	70	100	10
+11789	Akkha	0	100	140	80	100	100	10	ralos2;dwh;maul	70	100	10
+11789	Akkha	0	100	140	80	100	100	10	ralos2;maul;dwh	70	100	10
+11789	Akkha	0	100	140	80	100	100	10	dwh;ralos2;maul	70	100	10
+11789	Akkha	0	100	140	80	100	100	10	dwh;maul;ralos2	70	100	10
+11789	Akkha	0	100	140	80	100	100	10	maul;ralos2;dwh	70	100	10
+11789	Akkha	0	100	140	80	100	100	10	maul;dwh;ralos2	70	100	10
+11789	Akkha	0	100	140	80	100	100	10	ralos1;bgs:45	70	100	10
+11789	Akkha	0	100	140	80	100	100	10	bgs:45;ralos1	70	100	10
+11789	Akkha	0	100	140	80	100	100	10	ralos2;bgs:600	70	100	10
+11789	Akkha	0	100	140	80	100	100	10	bgs:600;ralos2	70	100	10
+11789	Akkha	0	100	140	80	100	100	10	ralos2;bgs:1100	70	100	10
+11789	Akkha	0	100	140	80	100	100	10	bgs:1100;ralos2	70	100	10
+11789	Akkha	0	100	140	80	100	100	10	maul;maul;maul	70	100	10
+11789	Akkha	0	100	140	80	100	100	10	dwh;dwh	70	100	10
+11789	Akkha	0	100	140	80	100	100	10	bgs:30;bgs:30	70	100	10
+11789	Akkha	0	100	140	80	100	100	10	ralos2;ralos2;maul	70	100	10
+11789	Akkha	0	100	140	80	100	100	10	ralos2;maul;ralos2	70	100	10
+11789	Akkha	0	100	140	80	100	100	10	maul;ralos2;ralos2	70	100	10
+11789	Akkha	0	100	140	80	100	100	10	ayak:60;maul;bgs:20	70	100	0
+11789	Akkha	0	100	140	80	100	100	10	ayak:60;bgs:20;maul	70	100	0
+11789	Akkha	0	100	140	80	100	100	10	maul;ayak:60;bgs:20	70	100	0
+11789	Akkha	0	100	140	80	100	100	10	maul;bgs:20;ayak:60	70	100	0
+11789	Akkha	0	100	140	80	100	100	10	bgs:20;ayak:60;maul	70	100	0
+11789	Akkha	0	100	140	80	100	100	10	bgs:20;maul;ayak:60	70	100	0
+11789	Akkha	0	100	140	80	100	100	10	accursed;ralos2;maul	70	85	10
+11789	Akkha	0	100	140	80	100	100	10	accursed;maul;ralos2	70	85	10
+11789	Akkha	0	100	140	80	100	100	10	accursed;bgs:50;dwh	70	85	10
+11789	Akkha	0	100	140	80	100	100	10	accursed;dwh;bgs:50	70	85	10
+11789	Akkha	0	100	140	80	100	100	10	arclight;maul;bgs:25	70	100	10
+11789	Akkha	0	100	140	80	100	100	10	arclight;bgs:25;maul	70	100	10
+11789	Akkha	0	100	140	80	100	100	10	emberlight;dwh;ralos1	70	100	10
+11789	Akkha	0	100	140	80	100	100	10	emberlight;ralos1;dwh	70	100	10
+11789	Akkha	0	100	140	80	100	100	10	seercull:40;ralos2;maul	70	60	10
+11789	Akkha	0	100	140	80	100	100	10	seercull:40;maul;ralos2	70	60	10
+11789	Akkha	0	100	140	80	100	100	10	ralos2;seercull:40;maul	70	60	10
+11789	Akkha	0	100	140	80	100	100	10	ralos2;maul;seercull:40	70	60	10
+11789	Akkha	0	100	140	80	100	100	10	maul;seercull:40;ralos2	70	60	10
+11789	Akkha	0	100	140	80	100	100	10	maul;ralos2;seercull:40	70	60	10
+11789	Akkha	0	100	140	80	100	100	10	seercull:40;bgs:30	70	60	10
+11789	Akkha	0	100	140	80	100	100	10	bgs:30;seercull:40	70	60	10
+11278	Nex	0	315	200	260	230	350	300	maul;dwh;bgs:50	250	230	300
+11278	Nex	0	315	200	260	230	350	300	maul;bgs:50;dwh	250	230	300
+11278	Nex	0	315	200	260	230	350	300	dwh;maul;bgs:50	250	230	300
+11278	Nex	0	315	200	260	230	350	300	dwh;bgs:50;maul	250	230	300
+11278	Nex	0	315	200	260	230	350	300	bgs:50;maul;dwh	250	230	300
+11278	Nex	0	315	200	260	230	350	300	bgs:50;dwh;maul	250	230	300
+11278	Nex	0	315	200	260	230	350	300	maul;maul;bgs:40	250	230	300
+11278	Nex	0	315	200	260	230	350	300	maul;bgs:40;maul	250	230	300
+11278	Nex	0	315	200	260	230	350	300	bgs:40;maul;maul	250	230	300
+11278	Nex	0	315	200	260	230	350	300	maul;bgs:60	250	230	300
+11278	Nex	0	315	200	260	230	350	300	bgs:60;maul	250	230	300
+11278	Nex	0	315	200	260	230	350	300	dwh;bgs:30	250	230	300
+11278	Nex	0	315	200	260	230	350	300	bgs:30;dwh	250	230	300
+11278	Nex	0	315	200	260	230	350	300	ralos2;maul	250	230	300
+11278	Nex	0	315	200	260	230	350	300	maul;ralos2	250	230	300
+11278	Nex	0	315	200	260	230	350	300	ralos2;dwh;maul	250	230	300
+11278	Nex	0	315	200	260	230	350	300	ralos2;maul;dwh	250	230	300
+11278	Nex	0	315	200	260	230	350	300	dwh;ralos2;maul	250	230	300
+11278	Nex	0	315	200	260	230	350	300	dwh;maul;ralos2	250	230	300
+11278	Nex	0	315	200	260	230	350	300	maul;ralos2;dwh	250	230	300
+11278	Nex	0	315	200	260	230	350	300	maul;dwh;ralos2	250	230	300
+11278	Nex	0	315	200	260	230	350	300	ralos1;bgs:45	250	230	300
+11278	Nex	0	315	200	260	230	350	300	bgs:45;ralos1	250	230	300
+11278	Nex	0	315	200	260	230	350	300	ralos2;bgs:600	250	230	300
+11278	Nex	0	315	200	260	230	350	300	bgs:600;ralos2	250	230	300
+11278	Nex	0	315	200	260	230	350	300	ralos2;bgs:1100	250	230	300
+11278	Nex	0	315	200	260	230	350	300	bgs:1100;ralos2	250	230	300
+11278	Nex	0	315	200	260	230	350	300	maul;maul;maul	250	230	300
+11278	Nex	0	315	200	260	230	350	300	dwh;dwh	250	230	300
+11278	Nex	0	315	200	260	230	350	300	bgs:30;bgs:30	250	230	300
+11278	Nex	0	315	200	260	230	350	300	ralos2;ralos2;maul	250	230	300
+11278	Nex	0	315	200	260	230	350	300	ralos2;maul;ralos2	250	230	300
+11278	Nex	0	315	200	260	230	350	300	maul;ralos2;ralos2	250	230	300
+11278	Nex	0	315	200	260	230	350	300	ayak:60;maul;bgs:20	250	230	240
+11278	Nex	0	315	200	260	230	350	300	ayak:60;bgs:20;maul	250	230	240
+11278	Nex	0	315	200	260	230	350	300	maul;ayak:60;bgs:20	250	230	240
+11278	Nex	0	315	200	260	230	350	300	maul;bgs:20;ayak:60	250	230	240
+11278	Nex	0	315	200	260	230	350	300	bgs:20;ayak:60;maul	250	230	240
+11278	Nex	0	315	200	260	230	350	300	bgs:20;maul;ayak:60	250	230	240
+11278	Nex	0	315	200	260	230	350	300	accursed;ralos2;maul	250	195	300
+11278	Nex	0	315	200	260	230	350	300	accursed;maul;ralos2	250	195	300
+11278	Nex	0	315	200	260	230	350	300	accursed;bgs:50;dwh	250	195	300
+11278	Nex	0	315	200	260	230	350	300	accursed;dwh;bgs:50	250	195	300
+11278	Nex	0	315	200	260	230	350	300	arclight;maul;bgs:25	250	230	300
+11278	Nex	0	315	200	260	230	350	300	arclight;bgs:25;maul	250	230	300
+11278	Nex	0	315	200	260	230	350	300	emberlight;dwh;ralos1	250	230	300
+11278	Nex	0	315	200	260	230	350	300	emberlight;ralos1;dwh	250	230	300
+11278	Nex	0	315	200	260	230	350	300	seercull:40;ralos2;maul	250	190	300
+11278	Nex	0	315	200	260	230	350	300	seercull:40;maul;ralos2	250	190	300
+11278	Nex	0	315	200	260	230	350	300	ralos2;seercull:40;maul	250	190	300
+11278	Nex	0	315	200	260	230	350	300	ralos2;maul;seercull:40	250	190	300
+11278	Nex	0	315	200	260	230	350	300	maul;seercull:40;ralos2	250	190	300
+11278	Nex	0	315	200	260	230	350	300	maul;ralos2;seercull:40	250	190	300
+11278	Nex	0	315	200	260	230	350	300	seercull:40;bgs:30	250	190	300
+11278	Nex	0	315	200	260	230	350	300	bgs:30;seercull:40	250	190	300
+8360	The Maiden of Sugadinti	0	350	350	200	350	350	0	maul;dwh;bgs:50	41	350	0
+8360	The Maiden of Sugadinti	0	350	350	200	350	350	0	maul;bgs:50;dwh	56	350	0
+8360	The Maiden of Sugadinti	0	350	350	200	350	350	0	dwh;maul;bgs:50	41	350	0
+8360	The Maiden of Sugadinti	0	350	350	200	350	350	0	dwh;bgs:50;maul	59	350	0
+8360	The Maiden of Sugadinti	0	350	350	200	350	350	0	bgs:50;maul;dwh	69	350	0
+8360	The Maiden of Sugadinti	0	350	350	200	350	350	0	bgs:50;dwh;maul	69	350	0
+8360	The Maiden of Sugadinti	0	350	350	200	350	350	0	maul;maul;bgs:40	45	350	0
+8360	The Maiden of Sugadinti	0	350	350	200	350	350	0	maul;bgs:40;maul	59	350	0
+8360	The Maiden of Sugadinti	0	350	350	200	350	350	0	bgs:40;maul;maul	68	350	0
+8360	The Maiden of Sugadinti	0	350	350	200	350	350	0	maul;bgs:60	70	350	0
+8360	The Maiden of Sugadinti	0	350	350	200	350	350	0	bgs:60;maul	91	350	0
+8360	The Maiden of Sugadinti	0	350	350	200	350	350	0	dwh;bgs:30	110	350	0
+8360	The Maiden of Sugadinti	0	350	350	200	350	350	0	bgs:30;dwh	119	350	0
+8360	The Maiden of Sugadinti	0	350	350	200	350	350	0	ralos2;maul	75	350	0
+8360	The Maiden of Sugadinti	0	350	350	200	350	350	0	maul;ralos2	44	350	0
+8360	The Maiden of Sugadinti	0	350	350	200	350	350	0	ralos2;dwh;maul	52	350	0
+8360	The Maiden of Sugadinti	0	350	350	200	350	350	0	ralos2;maul;dwh	53	350	0
+8360	The Maiden of Sugadinti	0	350	350	200	350	350	0	dwh;ralos2;maul	36	350	0
+8360	The Maiden of Sugadinti	0	350	350	200	350	350	0	dwh;maul;ralos2	5	350	0
+8360	The Maiden of Sugadinti	0	350	350	200	350	350	0	maul;ralos2;dwh	31	350	0
+8360	The Maiden of Sugadinti	0	350	350	200	350	350	0	maul;dwh;ralos2	5	350	0
+8360	The Maiden of Sugadinti	0	350	350	200	350	350	0	ralos1;bgs:45	112	350	0
+8360	The Maiden of Sugadinti	0	350	350	200	350	350	0	bgs:45;ralos1	112	350	0
+8360	The Maiden of Sugadinti	0	350	350	200	350	350	0	ralos2;bgs:600	0	350	0
+8360	The Maiden of Sugadinti	0	350	350	200	350	350	0	bgs:600;ralos2	0	350	0
+8360	The Maiden of Sugadinti	0	350	350	200	350	350	0	ralos2;bgs:1100	0	64	0
+8360	The Maiden of Sugadinti	0	350	350	200	350	350	0	bgs:1100;ralos2	0	150	0
+8360	The Maiden of Sugadinti	0	350	350	200	350	350	0	maul;maul;maul	56	350	0
+8360	The Maiden of Sugadinti	0	350	350	200	350	350	0	dwh;dwh	98	350	0
+8360	The Maiden of Sugadinti	0	350	350	200	350	350	0	bgs:30;bgs:30	140	350	0
+8360	The Maiden of Sugadinti	0	350	350	200	350	350	0	ralos2;ralos2;maul	19	350	0
+8360	The Maiden of Sugadinti	0	350	350	200	350	350	0	ralos2;maul;ralos2	0	350	0
+8360	The Maiden of Sugadinti	0	350	350	200	350	350	0	maul;ralos2;ralos2	0	350	0
+8360	The Maiden of Sugadinti	0	350	350	200	350	350	0	ayak:60;maul;bgs:20	110	350	0
+8360	The Maiden of Sugadinti	0	350	350	200	350	350	0	ayak:60;bgs:20;maul	117	350	0
+8360	The Maiden of Sugadinti	0	350	350	200	350	350	0	maul;ayak:60;bgs:20	110	350	0
+8360	The Maiden of Sugadinti	0	350	350	200	350	350	0	maul;bgs:20;ayak:60	110	350	0
+8360	The Maiden of Sugadinti	0	350	350	200	350	350	0	bgs:20;ayak:60;maul	117	350	0
+8360	The Maiden of Sugadinti	0	350	350	200	350	350	0	bgs:20;maul;ayak:60	117	350	0
+8360	The Maiden of Sugadinti	0	350	350	200	350	350	0	accursed;ralos2;maul	63	297	0
+8360	The Maiden of Sugadinti	0	350	350	200	350	350	0	accursed;maul;ralos2	37	297	0
+8360	The Maiden of Sugadinti	0	350	350	200	350	350	0	accursed;bgs:50;dwh	84	297	0
+8360	The Maiden of Sugadinti	0	350	350	200	350	350	0	accursed;dwh;bgs:50	69	297	0
+8360	The Maiden of Sugadinti	0	350	350	200	350	350	0	arclight;maul;bgs:25	98	350	0
+8360	The Maiden of Sugadinti	0	350	350	200	350	350	0	arclight;bgs:25;maul	107	350	0
+8360	The Maiden of Sugadinti	0	350	350	200	350	350	0	emberlight;dwh;ralos1	90	350	0
+8360	The Maiden of Sugadinti	0	350	350	200	350	350	0	emberlight;ralos1;dwh	103	350	0
+8360	The Maiden of Sugadinti	0	350	350	200	350	350	0	seercull:40;ralos2;maul	81	310	0
+8360	The Maiden of Sugadinti	0	350	350	200	350	350	0	seercull:40;maul;ralos2	54	310	0
+8360	The Maiden of Sugadinti	0	350	350	200	350	350	0	ralos2;seercull:40;maul	75	310	0
+8360	The Maiden of Sugadinti	0	350	350	200	350	350	0	ralos2;maul;seercull:40	75	310	0
+8360	The Maiden of Sugadinti	0	350	350	200	350	350	0	maul;seercull:40;ralos2	54	310	0
+8360	The Maiden of Sugadinti	0	350	350	200	350	350	0	maul;ralos2;seercull:40	44	310	0
+8360	The Maiden of Sugadinti	0	350	350	200	350	350	0	seercull:40;bgs:30	170	310	0
+8360	The Maiden of Sugadinti	0	350	350	200	350	350	0	bgs:30;seercull:40	170	310	0
+2044	Zulrah	0	1	1	300	300	300	300	maul;dwh;bgs:50	87	300	300
+2044	Zulrah	0	1	1	300	300	300	300	maul;bgs:50;dwh	102	300	300
+2044	Zulrah	0	1	1	300	300	300	300	dwh;maul;bgs:50	87	300	300
+2044	Zulrah	0	1	1	300	300	300	300	dwh;bgs:50;maul	104	300	300
+2044	Zulrah	0	1	1	300	300	300	300	bgs:50;maul;dwh	115	300	300
+2044	Zulrah	0	1	1	300	300	300	300	bgs:50;dwh;maul	114	300	300
+2044	Zulrah	0	1	1	300	300	300	300	maul;maul;bgs:40	87	300	300
+2044	Zulrah	0	1	1	300	300	300	300	maul;bgs:40;maul	101	300	300
+2044	Zulrah	0	1	1	300	300	300	300	bgs:40;maul;maul	110	300	300
+2044	Zulrah	0	1	1	300	300	300	300	maul;bgs:60	135	300	300
+2044	Zulrah	0	1	1	300	300	300	300	bgs:60;maul	156	300	300
+2044	Zulrah	0	1	1	300	300	300	300	dwh;bgs:30	180	300	300
+2044	Zulrah	0	1	1	300	300	300	300	bgs:30;dwh	189	300	300
+2044	Zulrah	0	1	1	300	300	300	300	ralos2;maul	147	300	300
+2044	Zulrah	0	1	1	300	300	300	300	maul;ralos2	121	300	300
+2044	Zulrah	0	1	1	300	300	300	300	ralos2;dwh;maul	104	300	300
+2044	Zulrah	0	1	1	300	300	300	300	ralos2;maul;dwh	103	300	300
+2044	Zulrah	0	1	1	300	300	300	300	dwh;ralos2;maul	89	300	300
+2044	Zulrah	0	1	1	300	300	300	300	dwh;maul;ralos2	63	300	300
+2044	Zulrah	0	1	1	300	300	300	300	maul;ralos2;dwh	85	300	300
+2044	Zulrah	0	1	1	300	300	300	300	maul;dwh;ralos2	63	300	300
+2044	Zulrah	0	1	1	300	300	300	300	ralos1;bgs:45	218	300	300
+2044	Zulrah	0	1	1	300	300	300	300	bgs:45;ralos1	218	300	300
+2044	Zulrah	0	1	1	300	300	300	300	ralos2;bgs:600	0	0	300
+2044	Zulrah	0	1	1	300	300	300	300	bgs:600;ralos2	0	2	300
+2044	Zulrah	0	1	1	300	300	300	300	ralos2;bgs:1100	0	0	300
+2044	Zulrah	0	1	1	300	300	300	300	bgs:1100;ralos2	0	0	300
+2044	Zulrah	0	1	1	300	300	300	300	maul;maul;maul	83	300	300
+2044	Zulrah	0	1	1	300	300	300	300	dwh;dwh	147	300	300
+2044	Zulrah	0	1	1	300	300	300	300	bgs:30;bgs:30	240	300	300
+2044	Zulrah	0	1	1	300	300	300	300	ralos2;ralos2;maul	99	300	300
+2044	Zulrah	0	1	1	300	300	300	300	ralos2;maul;ralos2	73	300	300
+2044	Zulrah	0	1	1	300	300	300	300	maul;ralos2;ralos2	47	300	300
+2044	Zulrah	0	1	1	300	300	300	300	ayak:60;maul;bgs:20	175	300	240
+2044	Zulrah	0	1	1	300	300	300	300	ayak:60;bgs:20;maul	182	300	240
+2044	Zulrah	0	1	1	300	300	300	300	maul;ayak:60;bgs:20	175	300	240
+2044	Zulrah	0	1	1	300	300	300	300	maul;bgs:20;ayak:60	175	300	240
+2044	Zulrah	0	1	1	300	300	300	300	bgs:20;ayak:60;maul	182	300	240
+2044	Zulrah	0	1	1	300	300	300	300	bgs:20;maul;ayak:60	182	300	240
+2044	Zulrah	0	1	1	300	300	300	300	accursed;ralos2;maul	126	255	300
+2044	Zulrah	0	1	1	300	300	300	300	accursed;maul;ralos2	104	255	300
+2044	Zulrah	0	1	1	300	300	300	300	accursed;bgs:50;dwh	144	255	300
+2044	Zulrah	0	1	1	300	300	300	300	accursed;dwh;bgs:50	129	255	300
+2044	Zulrah	0	1	1	300	300	300	300	arclight;maul;bgs:25	160	300	300
+2044	Zulrah	0	1	1	300	300	300	300	arclight;bgs:25;maul	169	300	300
+2044	Zulrah	0	1	1	300	300	300	300	emberlight;dwh;ralos1	162	300	300
+2044	Zulrah	0	1	1	300	300	300	300	emberlight;ralos1;dwh	173	300	300
+2044	Zulrah	0	1	1	300	300	300	300	seercull:40;ralos2;maul	154	260	300
+2044	Zulrah	0	1	1	300	300	300	300	seercull:40;maul;ralos2	131	260	300
+2044	Zulrah	0	1	1	300	300	300	300	ralos2;seercull:40;maul	147	260	300
+2044	Zulrah	0	1	1	300	300	300	300	ralos2;maul;seercull:40	147	260	300
+2044	Zulrah	0	1	1	300	300	300	300	maul;seercull:40;ralos2	131	260	300
+2044	Zulrah	0	1	1	300	300	300	300	maul;ralos2;seercull:40	121	260	300
+2044	Zulrah	0	1	1	300	300	300	300	seercull:40;bgs:30	270	260	300
+2044	Zulrah	0	1	1	300	300	300	300	bgs:30;seercull:40	270	260	300
+3129	K'ril Tsutsaroth	1	340	300	270	200	1	80	maul;dwh;bgs:50	74	200	80
+3129	K'ril Tsutsaroth	1	340	300	270	200	1	80	maul;bgs:50;dwh	89	200	80
+3129	K'ril Tsutsaroth	1	340	300	270	200	1	80	dwh;maul;bgs:50	73	200	80
+3129	K'ril Tsutsaroth	1	340	300	270	200	1	80	dwh;bgs:50;maul	91	200	80
+3129	K'ril Tsutsaroth	1	340	300	270	200	1	80	bgs:50;maul;dwh	101	200	80
+3129	K'ril Tsutsaroth	1	340	300	270	200	1	80	bgs:50;dwh;maul	101	200	80
+3129	K'ril Tsutsaroth	1	340	300	270	200	1	80	maul;maul;bgs:40	75	200	80
+3129	K'ril Tsutsaroth	1	340	300	270	200	1	80	maul;bgs:40;maul	89	200	80
+3129	K'ril Tsutsaroth	1	340	300	270	200	1	80	bgs:40;maul;maul	98	200	80
+3129	K'ril Tsutsaroth	1	340	300	270	200	1	80	maul;bgs:60	116	200	80
+3129	K'ril Tsutsaroth	1	340	300	270	200	1	80	bgs:60;maul	137	200	80
+3129	K'ril Tsutsaroth	1	340	300	270	200	1	80	dwh;bgs:30	159	200	80
+3129	K'ril Tsutsaroth	1	340	300	270	200	1	80	bgs:30;dwh	168	200	80
+3129	K'ril Tsutsaroth	1	340	300	270	200	1	80	ralos2;maul	143	200	80
+3129	K'ril Tsutsaroth	1	340	300	270	200	1	80	maul;ralos2	126	200	80
+3129	K'ril Tsutsaroth	1	340	300	270	200	1	80	ralos2;dwh;maul	101	200	80
+3129	K'ril Tsutsaroth	1	340	300	270	200	1	80	ralos2;maul;dwh	101	200	80
+3129	K'ril Tsutsaroth	1	340	300	270	200	1	80	dwh;ralos2;maul	91	200	80
+3129	K'ril Tsutsaroth	1	340	300	270	200	1	80	dwh;maul;ralos2	73	200	80
+3129	K'ril Tsutsaroth	1	340	300	270	200	1	80	maul;ralos2;dwh	89	200	80
+3129	K'ril Tsutsaroth	1	340	300	270	200	1	80	maul;dwh;ralos2	74	200	80
+3129	K'ril Tsutsaroth	1	340	300	270	200	1	80	ralos1;bgs:45	200	200	80
+3129	K'ril Tsutsaroth	1	340	300	270	200	1	80	bgs:45;ralos1	200	200	80
+3129	K'ril Tsutsaroth	1	340	300	270	200	1	80	ralos2;bgs:600	0	200	80
+3129	K'ril Tsutsaroth	1	340	300	270	200	1	80	bgs:600;ralos2	0	200	80
+3129	K'ril Tsutsaroth	1	340	300	270	200	1	80	ralos2;bgs:1100	0	0	80
+3129	K'ril Tsutsaroth	1	340	300	270	200	1	80	bgs:1100;ralos2	0	10	80
+3129	K'ril Tsutsaroth	1	340	300	270	200	1	80	maul;maul;maul	75	200	80
+3129	K'ril Tsutsaroth	1	340	300	270	200	1	80	dwh;dwh	133	200	80
+3129	K'ril Tsutsaroth	1	340	300	270	200	1	80	bgs:30;bgs:30	210	200	80
+3129	K'ril Tsutsaroth	1	340	300	270	200	1	80	ralos2;ralos2;maul	111	200	80
+3129	K'ril Tsutsaroth	1	340	300	270	200	1	80	ralos2;maul;ralos2	93	200	80
+3129	K'ril Tsutsaroth	1	340	300	270	200	1	80	maul;ralos2;ralos2	76	200	80
+3129	K'ril Tsutsaroth	1	340	300	270	200	1	80	ayak:60;maul;bgs:20	156	200	20
+3129	K'ril Tsutsaroth	1	340	300	270	200	1	80	ayak:60;bgs:20;maul	163	200	20
+3129	K'ril Tsutsaroth	1	340	300	270	200	1	80	maul;ayak:60;bgs:20	156	200	20
+3129	K'ril Tsutsaroth	1	340	300	270	200	1	80	maul;bgs:20;ayak:60	156	200	20
+3129	K'ril Tsutsaroth	1	340	300	270	200	1	80	bgs:20;ayak:60;maul	163	200	20
+3129	K'ril Tsutsaroth	1	340	300	270	200	1	80	bgs:20;maul;ayak:60	163	200	20
+3129	K'ril Tsutsaroth	1	340	300	270	200	1	80	accursed;ralos2;maul	122	170	80
+3129	K'ril Tsutsaroth	1	340	300	270	200	1	80	accursed;maul;ralos2	107	170	80
+3129	K'ril Tsutsaroth	1	340	300	270	200	1	80	accursed;bgs:50;dwh	126	170	80
+3129	K'ril Tsutsaroth	1	340	300	270	200	1	80	accursed;dwh;bgs:50	111	170	80
+3129	K'ril Tsutsaroth	1	340	300	270	200	1	80	arclight;maul;bgs:25	133	200	80
+3129	K'ril Tsutsaroth	1	340	300	270	200	1	80	arclight;bgs:25;maul	142	200	80
+3129	K'ril Tsutsaroth	1	340	300	270	200	1	80	emberlight;dwh;ralos1	136	200	80
+3129	K'ril Tsutsaroth	1	340	300	270	200	1	80	emberlight;ralos1;dwh	143	200	80
+3129	K'ril Tsutsaroth	1	340	300	270	200	1	80	seercull:40;ralos2;maul	150	160	80
+3129	K'ril Tsutsaroth	1	340	300	270	200	1	80	seercull:40;maul;ralos2	136	160	80
+3129	K'ril Tsutsaroth	1	340	300	270	200	1	80	ralos2;seercull:40;maul	143	160	80
+3129	K'ril Tsutsaroth	1	340	300	270	200	1	80	ralos2;maul;seercull:40	143	160	80
+3129	K'ril Tsutsaroth	1	340	300	270	200	1	80	maul;seercull:40;ralos2	136	160	80
+3129	K'ril Tsutsaroth	1	340	300	270	200	1	80	maul;ralos2;seercull:40	126	160	80
+3129	K'ril Tsutsaroth	1	340	300	270	200	1	80	seercull:40;bgs:30	240	160	80
+3129	K'ril Tsutsaroth	1	340	300	270	200	1	80	bgs:30;seercull:40	240	160	80
+319	Corporeal Beast	0	320	320	310	350	150	150	maul;dwh;bgs:50	92	350	150
+319	Corporeal Beast	0	320	320	310	350	150	150	maul;bgs:50;dwh	107	350	150
+319	Corporeal Beast	0	320	320	310	350	150	150	dwh;maul;bgs:50	92	350	150
+319	Corporeal Beast	0	320	320	310	350	150	150	dwh;bgs:50;maul	109	350	150
+319	Corporeal Beast	0	320	320	310	350	150	150	bgs:50;maul;dwh	119	350	150
+319	Corporeal Beast	0	320	320	310	350	150	150	bgs:50;dwh;maul	119	350	150
+319	Corporeal Beast	0	320	320	310	350	150	150	maul;maul;bgs:40	92	350	150
+319	Corporeal Beast	0	320	320	310	350	150	150	maul;bgs:40;maul	106	350	150
+319	Corporeal Beast	0	320	320	310	350	150	150	bgs:40;maul;maul	115	350	150
+319	Corporeal Beast	0	320	320	310	350	150	150	maul;bgs:60	142	350	150
+319	Corporeal Beast	0	320	320	310	350	150	150	bgs:60;maul	163	350	150
+319	Corporeal Beast	0	320	320	310	350	150	150	dwh;bgs:30	187	350	150
+319	Corporeal Beast	0	320	320	310	350	150	150	bgs:30;dwh	196	350	150
+319	Corporeal Beast	0	320	320	310	350	150	150	ralos2;maul	146	350	150
+319	Corporeal Beast	0	320	320	310	350	150	150	maul;ralos2	116	350	150
+319	Corporeal Beast	0	320	320	310	350	150	150	ralos2;dwh;maul	103	350	150
+319	Corporeal Beast	0	320	320	310	350	150	150	ralos2;maul;dwh	103	350	150
+319	Corporeal Beast	0	320	320	310	350	150	150	dwh;ralos2;maul	86	350	150
+319	Corporeal Beast	0	320	320	310	350	150	150	dwh;maul;ralos2	56	350	150
+319	Corporeal Beast	0	320	320	310	350	150	150	maul;ralos2;dwh	82	350	150
+319	Corporeal Beast	0	320	320	310	350	150	150	maul;dwh;ralos2	56	350	150
+319	Corporeal Beast	0	320	320	310	350	150	150	ralos1;bgs:45	222	350	150
+319	Corporeal Beast	0	320	320	310	350	150	150	bgs:45;ralos1	222	350	150
+319	Corporeal Beast	0	320	320	310	350	150	150	ralos2;bgs:600	0	350	150
+319	Corporeal Beast	0	320	320	310	350	150	150	bgs:600;ralos2	0	350	150
+319	Corporeal Beast	0	320	320	310	350	150	150	ralos2;bgs:1100	0	114	150
+319	Corporeal Beast	0	320	320	310	350	150	150	bgs:1100;ralos2	0	200	150
+319	Corporeal Beast	0	320	320	310	350	150	150	maul;maul;maul	86	350	150
+319	Corporeal Beast	0	320	320	310	350	150	150	dwh;dwh	152	350	150
+319	Corporeal Beast	0	320	320	310	350	150	150	bgs:30;bgs:30	250	350	150
+319	Corporeal Beast	0	320	320	310	350	150	150	ralos2;ralos2;maul	90	350	150
+319	Corporeal Beast	0	320	320	310	350	150	150	ralos2;maul;ralos2	60	350	150
+319	Corporeal Beast	0	320	320	310	350	150	150	maul;ralos2;ralos2	30	350	150
+319	Corporeal Beast	0	320	320	310	350	150	150	ayak:60;maul;bgs:20	182	350	90
+319	Corporeal Beast	0	320	320	310	350	150	150	ayak:60;bgs:20;maul	189	350	90
+319	Corporeal Beast	0	320	320	310	350	150	150	maul;ayak:60;bgs:20	182	350	90
+319	Corporeal Beast	0	320	320	310	350	150	150	maul;bgs:20;ayak:60	182	350	90
+319	Corporeal Beast	0	320	320	310	350	150	150	bgs:20;ayak:60;maul	189	350	90
+319	Corporeal Beast	0	320	320	310	350	150	150	bgs:20;maul;ayak:60	189	350	90
+319	Corporeal Beast	0	320	320	310	350	150	150	accursed;ralos2;maul	123	297	150
+319	Corporeal Beast	0	320	320	310	350	150	150	accursed;maul;ralos2	97	297	150
+319	Corporeal Beast	0	320	320	310	350	150	150	accursed;bgs:50;dwh	150	297	150
+319	Corporeal Beast	0	320	320	310	350	150	150	accursed;dwh;bgs:50	135	297	150
+319	Corporeal Beast	0	320	320	310	350	150	150	arclight;maul;bgs:25	167	350	150
+319	Corporeal Beast	0	320	320	310	350	150	150	arclight;bgs:25;maul	175	350	150
+319	Corporeal Beast	0	320	320	310	350	150	150	emberlight;dwh;ralos1	163	350	150
+319	Corporeal Beast	0	320	320	310	350	150	150	emberlight;ralos1;dwh	176	350	150
+319	Corporeal Beast	0	320	320	310	350	150	150	seercull:40;ralos2;maul	153	310	150
+319	Corporeal Beast	0	320	320	310	350	150	150	seercull:40;maul;ralos2	126	310	150
+319	Corporeal Beast	0	320	320	310	350	150	150	ralos2;seercull:40;maul	146	310	150
+319	Corporeal Beast	0	320	320	310	350	150	150	ralos2;maul;seercull:40	146	310	150
+319	Corporeal Beast	0	320	320	310	350	150	150	maul;seercull:40;ralos2	126	310	150
+319	Corporeal Beast	0	320	320	310	350	150	150	maul;ralos2;seercull:40	116	310	150
+319	Corporeal Beast	0	320	320	310	350	150	150	seercull:40;bgs:30	280	310	150
+319	Corporeal Beast	0	320	320	310	350	150	150	bgs:30;seercull:40	280	310	150

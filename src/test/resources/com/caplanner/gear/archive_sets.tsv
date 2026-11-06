@@ -1,0 +1,96 @@
+# set	class	weapon id	weapon	category	speed	npc id	npc	stab	slash	crush	magic	ranged	str	rstr	mdmg	calculator damage per tick	slayer helmet kind	salve amulet kind	on task (1)	crystal armour weight	void melee	void ranged	in the wilderness (1)	autocast spell number	tome element	Chambers of Xeric party size (0 for no scaling)	Challenge Mode (1)	special attacks on top	Tombs of Amascut raid level (-1 when none is read)	path level	party size read in the Theatre of Blood or the Tombs of Amascut (0 for none)	the monster's health now	boosted levels attack;strength;ranged;magic	inquisitor weight	bolts (1 ruby, 2 diamond)	the calculator's phase	void magic (1 Void, 2 Elite Void)	ammunition worn	Efaritay's aid worn (1)
+tbow	ranged	20997	Twisted bow	Bow	6	16659	Archive Guardian	-8	-8	-8	-19	215	0	100	0.0	4.37639	0	0	0	0	0	0	0	0		0	0		-1	0	0	550	99;99;112;99	0	0		0	Dragon arrow	0
+blowpipe	ranged	12926	Toxic blowpipe	Thrown	3	16659	Archive Guardian	-8	-8	-8	-19	175	0	75	0.0	3.52415	0	0	0	0	0	0	0	0		0	0		-1	0	0	550	99;99;112;99	0	0		0		0
+shadow	magic	27275	Tumeken's shadow	Powered Staff	5	16659	Archive Guardian	0	0	0	164	-17	0	0	24.0	4.62705	0	0	0	0	0	0	0	0		0	0		-1	0	0	550	99;99;99;112	0	0		0		0
+harmonised-fire-surge	magic	24423	Harmonised Nightmare staff	Staff	5	16659	Archive Guardian	0	0	0	153	-17	0	0	39.0	4.12270	0	0	0	0	0	0	0	51	fire	0	0		-1	0	0	550	99;99;99;112	0	0		0		0
+zcb-diamond	ranged	26374	Zaryte crossbow	Crossbow	6	16659	Archive Guardian	-15	-16	-15	-29	273	0	152	0.0	3.63740	0	0	0	0	0	0	0	0		0	0		-1	0	0	550	99;99;112;99	0	2		0	Diamond dragon bolts (e)	0
+sang	magic	22323	Sanguinesti staff	Powered Staff	4	16659	Archive Guardian	0	0	0	154	-21	0	0	24.0	2.05682	0	0	0	0	0	0	0	0		0	0		-1	0	0	550	99;99;99;112	0	0		0		0
+harmonised-earth-surge	magic	24423	Harmonised Nightmare staff	Staff	5	16659	Archive Guardian	0	0	0	153	-17	0	0	39.0	1.49017	0	0	0	0	0	0	0	50	earth	0	0		-1	0	0	550	99;99;99;112	0	0		0		0
+noxious-halberd	melee	29796	Noxious halberd	Polearm	5	16659	Archive Guardian	127	217	47	-55	-63	205	0	0.0	2.95319	0	0	0	0	0	0	0	0		0	0		-1	0	0	550	118;118;99;99	0	0		0		0
+scythe	melee	22325	Scythe of Vitur	Scythe	5	16659	Archive Guardian	117	210	77	-61	-63	138	0	0.0	0.00000	0	0	0	0	0	0	0	0		0	0		-1	0	0	550	118;118;99;99	0	0		0		0
+tbow	ranged	20997	Twisted bow	Bow	6	16660	Archive Guardian	-8	-8	-8	-19	215	0	100	0.0	4.47221	0	0	0	0	0	0	0	0		0	0		-1	0	0	550	99;99;112;99	0	0		0	Dragon arrow	0
+blowpipe	ranged	12926	Toxic blowpipe	Thrown	3	16660	Archive Guardian	-8	-8	-8	-19	175	0	75	0.0	4.25703	0	0	0	0	0	0	0	0		0	0		-1	0	0	550	99;99;112;99	0	0		0		0
+inquisitors-mace	melee	24417	Inquisitor's mace	Spiked	4	16660	Archive Guardian	129	110	177	-60	-67	167	0	0.0	4.80047	0	0	0	0	0	0	0	0		0	0		-1	0	0	550	118;118;99;99	0	0		0		0
+inquisitors-mace-in-inquisitor	melee	24417	Inquisitor's mace	Spiked	4	16660	Archive Guardian	129	72	215	-55	-48	167	0	0.0	5.23886	0	0	0	0	0	0	0	0		0	0		-1	0	0	550	118;118;99;99	5	0		0		0
+scythe	melee	22325	Scythe of Vitur	Scythe	5	16660	Archive Guardian	117	210	77	-61	-63	138	0	0.0	4.23609	0	0	0	0	0	0	0	0		0	0		-1	0	0	550	118;118;99;99	0	0		0		0
+scythe-in-inquisitor	melee	22325	Scythe of Vitur	Scythe	5	16660	Archive Guardian	117	172	115	-56	-44	138	0	0.0	5.12006	0	0	0	0	0	0	0	0		0	0		-1	0	0	550	118;118;99;99	5	0		0		0
+fang	melee	26219	Osmumten's fang	Stab Sword	5	16660	Archive Guardian	182	189	75	-60	-67	174	0	0.0	2.87069	0	0	0	0	0	0	0	0		0	0		-1	0	0	550	118;118;99;99	0	0		0		0
+rapier	melee	22324	Ghrazi rapier	Stab Sword	4	16660	Archive Guardian	177	169	75	-60	-67	164	0	0.0	2.93494	0	0	0	0	0	0	0	0		0	0		-1	0	0	550	118;118;99;99	0	0		0		0
+shadow	magic	27275	Tumeken's shadow	Powered Staff	5	16660	Archive Guardian	0	0	0	164	-17	0	0	24.0	4.62705	0	0	0	0	0	0	0	0		0	0		-1	0	0	550	99;99;99;112	0	0		0		0
+zcb-diamond	ranged	26374	Zaryte crossbow	Crossbow	6	16660	Archive Guardian	-15	-16	-15	-29	273	0	152	0.0	3.63740	0	0	0	0	0	0	0	0		0	0		-1	0	0	550	99;99;112;99	0	2		0	Diamond dragon bolts (e)	0
+harmonised-fire-surge	magic	24423	Harmonised Nightmare staff	Staff	5	16660	Archive Guardian	0	0	0	153	-17	0	0	39.0	2.64865	0	0	0	0	0	0	0	51	fire	0	0		-1	0	0	550	99;99;99;112	0	0		0		0
+scythe	melee	22325	Scythe of Vitur	Scythe	5	16652	Ezekiel	117	210	77	-61	-63	138	0	0.0	6.13085	0	0	0	0	0	0	0	0		0	0		-1	0	0	3000	118;118;99;99	0	0		0		0
+inquisitors-mace	melee	24417	Inquisitor's mace	Spiked	4	16652	Ezekiel	129	110	177	-60	-67	167	0	0.0	5.56557	0	0	0	0	0	0	0	0		0	0		-1	0	0	3000	118;118;99;99	0	0		0		0
+inquisitors-mace-in-inquisitor	melee	24417	Inquisitor's mace	Spiked	4	16652	Ezekiel	129	72	215	-55	-48	167	0	0.0	5.89514	0	0	0	0	0	0	0	0		0	0		-1	0	0	3000	118;118;99;99	5	0		0		0
+scythe-in-inquisitor	melee	22325	Scythe of Vitur	Scythe	5	16652	Ezekiel	117	172	115	-56	-44	138	0	0.0	6.37223	0	0	0	0	0	0	0	0		0	0		-1	0	0	3000	118;118;99;99	5	0		0		0
+elder-maul	melee	21003	Elder maul	Blunt	6	16652	Ezekiel	47	85	182	-55	-63	210	0	0.0	4.46169	0	0	0	0	0	0	0	0		0	0		-1	0	0	3000	118;118;99;99	0	0		0		0
+shadow	magic	27275	Tumeken's shadow	Powered Staff	5	16652	Ezekiel	0	0	0	164	-17	0	0	24.0	4.43319	0	0	0	0	0	0	0	0		0	0		-1	0	0	3000	99;99;99;112	0	0		0		0
+tbow	ranged	20997	Twisted bow	Bow	6	16652	Ezekiel	-8	-8	-8	-19	215	0	100	0.0	3.38899	0	0	0	0	0	0	0	0		0	0		-1	0	0	3000	99;99;112;99	0	0		0	Dragon arrow	0
+fang	melee	26219	Osmumten's fang	Stab Sword	5	16652	Ezekiel	182	189	75	-60	-67	174	0	0.0	4.33685	0	0	0	0	0	0	0	0		0	0		-1	0	0	3000	118;118;99;99	0	0		0		0
+rapier	melee	22324	Ghrazi rapier	Stab Sword	4	16652	Ezekiel	177	169	75	-60	-67	164	0	0.0	4.68950	0	0	0	0	0	0	0	0		0	0		-1	0	0	3000	118;118;99;99	0	0		0		0
+blowpipe	ranged	12926	Toxic blowpipe	Thrown	3	16652	Ezekiel	-8	-8	-8	-19	175	0	75	0.0	1.73749	0	0	0	0	0	0	0	0		0	0		-1	0	0	3000	99;99;112;99	0	0		0		0
+sang	magic	22323	Sanguinesti staff	Powered Staff	4	16652	Ezekiel	0	0	0	154	-21	0	0	24.0	1.87304	0	0	0	0	0	0	0	0		0	0		-1	0	0	3000	99;99;99;112	0	0		0		0
+harmonised-earth-surge	magic	24423	Harmonised Nightmare staff	Staff	5	16652	Ezekiel	0	0	0	153	-17	0	0	39.0	2.01635	0	0	0	0	0	0	0	50	earth	0	0		-1	0	0	3000	99;99;99;112	0	0		0		0
+harmonised-fire-surge	magic	24423	Harmonised Nightmare staff	Staff	5	16652	Ezekiel	0	0	0	153	-17	0	0	39.0	1.35702	0	0	0	0	0	0	0	51	fire	0	0		-1	0	0	3000	99;99;99;112	0	0		0		0
+scythe	melee	22325	Scythe of Vitur	Scythe	5	16640	Bork	117	210	77	-61	-63	138	0	0.0	2.15255	0	0	0	0	0	0	0	0		0	0		-1	0	0	1500	118;118;99;99	0	0		0		0
+inquisitors-mace	melee	24417	Inquisitor's mace	Spiked	4	16640	Bork	129	110	177	-60	-67	167	0	0.0	3.51558	0	0	0	0	0	0	0	0		0	0		-1	0	0	1500	118;118;99;99	0	0		0		0
+fang	melee	26219	Osmumten's fang	Stab Sword	5	16640	Bork	182	189	75	-60	-67	174	0	0.0	1.62812	0	0	0	0	0	0	0	0		0	0		-1	0	0	1500	118;118;99;99	0	0		0		0
+rapier	melee	22324	Ghrazi rapier	Stab Sword	4	16640	Bork	177	169	75	-60	-67	164	0	0.0	1.49354	0	0	0	0	0	0	0	0		0	0		-1	0	0	1500	118;118;99;99	0	0		0		0
+elder-maul	melee	21003	Elder maul	Blunt	6	16640	Bork	47	85	182	-55	-63	210	0	0.0	2.98499	0	0	0	0	0	0	0	0		0	0		-1	0	0	1500	118;118;99;99	0	0		0		0
+tbow	ranged	20997	Twisted bow	Bow	6	16640	Bork	-8	-8	-8	-19	215	0	100	0.0	1.57807	0	0	0	0	0	0	0	0		0	0		-1	0	0	1500	99;99;112;99	0	0		0	Dragon arrow	0
+blowpipe	ranged	12926	Toxic blowpipe	Thrown	3	16640	Bork	-8	-8	-8	-19	175	0	75	0.0	1.64458	0	0	0	0	0	0	0	0		0	0		-1	0	0	1500	99;99;112;99	0	0		0		0
+zcb-diamond	ranged	26374	Zaryte crossbow	Crossbow	6	16640	Bork	-15	-16	-15	-29	273	0	152	0.0	2.89005	0	0	0	0	0	0	0	0		0	0		-1	0	0	1500	99;99;112;99	0	2		0	Diamond dragon bolts (e)	0
+shadow	magic	27275	Tumeken's shadow	Powered Staff	5	16640	Bork	0	0	0	164	-17	0	0	24.0	5.18584	0	0	0	0	0	0	0	0		0	0		-1	0	0	1500	99;99;99;112	0	0		0		0
+harmonised-earth-surge	magic	24423	Harmonised Nightmare staff	Staff	5	16640	Bork	0	0	0	153	-17	0	0	39.0	3.53953	0	0	0	0	0	0	0	50	earth	0	0		-1	0	0	1500	99;99;99;112	0	0		0		0
+scythe	melee	22325	Scythe of Vitur	Scythe	5	16641	The Smorks	117	210	77	-61	-63	138	0	0.0	2.82995	0	0	0	0	0	0	0	0		0	0		-1	0	0	600	118;118;99;99	0	0		0		0
+inquisitors-mace	melee	24417	Inquisitor's mace	Spiked	4	16641	The Smorks	129	110	177	-60	-67	167	0	0.0	2.28103	0	0	0	0	0	0	0	0		0	0		-1	0	0	600	118;118;99;99	0	0		0		0
+fang	melee	26219	Osmumten's fang	Stab Sword	5	16641	The Smorks	182	189	75	-60	-67	174	0	0.0	2.03145	0	0	0	0	0	0	0	0		0	0		-1	0	0	600	118;118;99;99	0	0		0		0
+tbow	ranged	20997	Twisted bow	Bow	6	16641	The Smorks	-8	-8	-8	-19	215	0	100	0.0	3.18722	0	0	0	0	0	0	0	0		0	0		-1	0	0	600	99;99;112;99	0	0		0	Dragon arrow	0
+blowpipe	ranged	12926	Toxic blowpipe	Thrown	3	16641	The Smorks	-8	-8	-8	-19	175	0	75	0.0	3.49467	0	0	0	0	0	0	0	0		0	0		-1	0	0	600	99;99;112;99	0	0		0		0
+zcb-diamond	ranged	26374	Zaryte crossbow	Crossbow	6	16641	The Smorks	-15	-16	-15	-29	273	0	152	0.0	3.26010	0	0	0	0	0	0	0	0		0	0		-1	0	0	600	99;99;112;99	0	2		0	Diamond dragon bolts (e)	0
+shadow	magic	27275	Tumeken's shadow	Powered Staff	5	16641	The Smorks	0	0	0	164	-17	0	0	24.0	3.07920	0	0	0	0	0	0	0	0		0	0		-1	0	0	600	99;99;99;112	0	0		0		0
+sang	magic	22323	Sanguinesti staff	Powered Staff	4	16641	The Smorks	0	0	0	154	-21	0	0	24.0	1.14810	0	0	0	0	0	0	0	0		0	0		-1	0	0	600	99;99;99;112	0	0		0		0
+harmonised-earth-surge	magic	24423	Harmonised Nightmare staff	Staff	5	16641	The Smorks	0	0	0	153	-17	0	0	39.0	2.45172	0	0	0	0	0	0	0	50	earth	0	0		-1	0	0	600	99;99;99;112	0	0		0		0
+scythe	melee	22325	Scythe of Vitur	Scythe	5	16667	Moia	117	210	77	-61	-63	138	0	0.0	5.25646	0	0	0	0	0	0	0	0		0	0		-1	0	0	785	118;118;99;99	0	0		0		0
+inquisitors-mace	melee	24417	Inquisitor's mace	Spiked	4	16667	Moia	129	110	177	-60	-67	167	0	0.0	5.43245	0	0	0	0	0	0	0	0		0	0		-1	0	0	785	118;118;99;99	0	0		0		0
+fang	melee	26219	Osmumten's fang	Stab Sword	5	16667	Moia	182	189	75	-60	-67	174	0	0.0	5.37738	0	0	0	0	0	0	0	0		0	0		-1	0	0	785	118;118;99;99	0	0		0		0
+rapier	melee	22324	Ghrazi rapier	Stab Sword	4	16667	Moia	177	169	75	-60	-67	164	0	0.0	5.33297	0	0	0	0	0	0	0	0		0	0		-1	0	0	785	118;118;99;99	0	0		0		0
+tbow	ranged	20997	Twisted bow	Bow	6	16667	Moia	-8	-8	-8	-19	215	0	100	0.0	5.22839	0	0	0	0	0	0	0	0		0	0		-1	0	0	785	99;99;112;99	0	0		0	Dragon arrow	0
+blowpipe	ranged	12926	Toxic blowpipe	Thrown	3	16667	Moia	-8	-8	-8	-19	175	0	75	0.0	4.87139	0	0	0	0	0	0	0	0		0	0		-1	0	0	785	99;99;112;99	0	0		0		0
+shadow	magic	27275	Tumeken's shadow	Powered Staff	5	16667	Moia	0	0	0	164	-17	0	0	24.0	5.27589	0	0	0	0	0	0	0	0		0	0		-1	0	0	785	99;99;99;112	0	0		0		0
+sang	magic	22323	Sanguinesti staff	Powered Staff	4	16667	Moia	0	0	0	154	-21	0	0	24.0	3.06246	0	0	0	0	0	0	0	0		0	0		-1	0	0	785	99;99;99;112	0	0		0		0
+scythe	melee	22325	Scythe of Vitur	Scythe	5	16665	Dreadnoth the Jellied	117	210	77	-61	-63	138	0	0.0	7.35168	0	0	0	0	0	0	0	0		0	0		-1	0	0	2100	118;118;99;99	0	0		0		0
+inquisitors-mace	melee	24417	Inquisitor's mace	Spiked	4	16665	Dreadnoth the Jellied	129	110	177	-60	-67	167	0	0.0	6.10246	0	0	0	0	0	0	0	0		0	0		-1	0	0	2100	118;118;99;99	0	0		0		0
+fang	melee	26219	Osmumten's fang	Stab Sword	5	16665	Dreadnoth the Jellied	182	189	75	-60	-67	174	0	0.0	5.63870	0	0	0	0	0	0	0	0		0	0		-1	0	0	2100	118;118;99;99	0	0		0		0
+rapier	melee	22324	Ghrazi rapier	Stab Sword	4	16665	Dreadnoth the Jellied	177	169	75	-60	-67	164	0	0.0	5.97177	0	0	0	0	0	0	0	0		0	0		-1	0	0	2100	118;118;99;99	0	0		0		0
+tbow	ranged	20997	Twisted bow	Bow	6	16665	Dreadnoth the Jellied	-8	-8	-8	-19	215	0	100	0.0	6.06718	0	0	0	0	0	0	0	0		0	0		-1	0	0	2100	99;99;112;99	0	0		0	Dragon arrow	0
+blowpipe	ranged	12926	Toxic blowpipe	Thrown	3	16665	Dreadnoth the Jellied	-8	-8	-8	-19	175	0	75	0.0	5.25122	0	0	0	0	0	0	0	0		0	0		-1	0	0	2100	99;99;112;99	0	0		0		0
+shadow	magic	27275	Tumeken's shadow	Powered Staff	5	16665	Dreadnoth the Jellied	0	0	0	164	-17	0	0	24.0	5.84648	0	0	0	0	0	0	0	0		0	0		-1	0	0	2100	99;99;99;112	0	0		0		0
+harmonised-fire-surge	magic	24423	Harmonised Nightmare staff	Staff	5	16665	Dreadnoth the Jellied	0	0	0	153	-17	0	0	39.0	6.19254	0	0	0	0	0	0	0	51	fire	0	0		-1	0	0	2100	99;99;99;112	0	0		0		0
+emberlight	melee	29589	Emberlight	Slash Sword	4	16665	Dreadnoth the Jellied	140	184	75	-60	-67	84	0	0.0	7.69615	0	0	0	0	0	0	0	0		0	0		-1	0	0	2100	118;118;99;99	0	0		0		0
+scorching	ranged	29591	Scorching bow	Bow	5	16665	Dreadnoth the Jellied	-8	-8	-8	-19	269	0	120	0.0	6.06743	0	0	0	0	0	0	0	0		0	0		-1	0	0	2100	99;99;112;99	0	0		0	Dragon arrow	0
+scythe	melee	22325	Scythe of Vitur	Scythe	5	16684	Xarth	117	210	77	-61	-63	138	0	0.0	5.47563	0	0	0	0	0	0	0	0		0	0		-1	0	0	2600	118;118;99;99	0	0		0		0
+fang	melee	26219	Osmumten's fang	Stab Sword	5	16684	Xarth	182	189	75	-60	-67	174	0	0.0	4.32259	0	0	0	0	0	0	0	0		0	0		-1	0	0	2600	118;118;99;99	0	0		0		0
+emberlight	melee	29589	Emberlight	Slash Sword	4	16684	Xarth	140	184	75	-60	-67	84	0	0.0	5.79200	0	0	0	0	0	0	0	0		0	0		-1	0	0	2600	118;118;99;99	0	0		0		0
+tbow	ranged	20997	Twisted bow	Bow	6	16684	Xarth	-8	-8	-8	-19	215	0	100	0.0	4.15342	0	0	0	0	0	0	0	0		0	0		-1	0	0	2600	99;99;112;99	0	0		0	Dragon arrow	0
+scorching	ranged	29591	Scorching bow	Bow	5	16684	Xarth	-8	-8	-8	-19	269	0	120	0.0	3.86316	0	0	0	0	0	0	0	0		0	0		-1	0	0	2600	99;99;112;99	0	0		0	Dragon arrow	0
+blowpipe	ranged	12926	Toxic blowpipe	Thrown	3	16684	Xarth	-8	-8	-8	-19	175	0	75	0.0	3.89494	0	0	0	0	0	0	0	0		0	0		-1	0	0	2600	99;99;112;99	0	0		0		0
+shadow	magic	27275	Tumeken's shadow	Powered Staff	5	16684	Xarth	0	0	0	164	-17	0	0	24.0	2.87019	0	0	0	0	0	0	0	0		0	0		-1	0	0	2600	99;99;99;112	0	0		0		0
+harmonised-water-surge	magic	24423	Harmonised Nightmare staff	Staff	5	16684	Xarth	0	0	0	153	-17	0	0	39.0	2.53234	0	0	0	0	0	0	0	49	water	0	0		-1	0	0	2600	99;99;99;112	0	0		0		0
+scythe	melee	22325	Scythe of Vitur	Scythe	5	16673	Ocellus	117	210	77	-61	-63	138	0	0.0	4.82390	0	0	0	0	0	0	0	0		0	0		-1	0	0	2500	118;118;99;99	0	0		0		0
+fang	melee	26219	Osmumten's fang	Stab Sword	5	16673	Ocellus	182	189	75	-60	-67	174	0	0.0	3.06001	0	0	0	0	0	0	0	0		0	0		-1	0	0	2500	118;118;99;99	0	0		0		0
+emberlight	melee	29589	Emberlight	Slash Sword	4	16673	Ocellus	140	184	75	-60	-67	84	0	0.0	5.46622	0	0	0	0	0	0	0	0		0	0		-1	0	0	2500	118;118;99;99	0	0		0		0
+tbow	ranged	20997	Twisted bow	Bow	6	16673	Ocellus	-8	-8	-8	-19	215	0	100	0.0	4.72688	0	0	0	0	0	0	0	0		0	0		-1	0	0	2500	99;99;112;99	0	0		0	Dragon arrow	0
+scorching	ranged	29591	Scorching bow	Bow	5	16673	Ocellus	-8	-8	-8	-19	269	0	120	0.0	4.30543	0	0	0	0	0	0	0	0		0	0		-1	0	0	2500	99;99;112;99	0	0		0	Dragon arrow	0
+blowpipe	ranged	12926	Toxic blowpipe	Thrown	3	16673	Ocellus	-8	-8	-8	-19	175	0	75	0.0	4.84393	0	0	0	0	0	0	0	0		0	0		-1	0	0	2500	99;99;112;99	0	0		0		0
+shadow	magic	27275	Tumeken's shadow	Powered Staff	5	16673	Ocellus	0	0	0	164	-17	0	0	24.0	4.28769	0	0	0	0	0	0	0	0		0	0		-1	0	0	2500	99;99;99;112	0	0		0		0
+scythe	melee	22325	Scythe of Vitur	Scythe	5	16674	Ocellus	117	210	77	-61	-63	138	0	0.0	4.82390	0	0	0	0	0	0	0	0		0	0		-1	0	0	2500	118;118;99;99	0	0		0		0
+tbow	ranged	20997	Twisted bow	Bow	6	16674	Ocellus	-8	-8	-8	-19	215	0	100	0.0	4.72688	0	0	0	0	0	0	0	0		0	0		-1	0	0	2500	99;99;112;99	0	0		0	Dragon arrow	0
+shadow	magic	27275	Tumeken's shadow	Powered Staff	5	16674	Ocellus	0	0	0	164	-17	0	0	24.0	4.28769	0	0	0	0	0	0	0	0		0	0		-1	0	0	2500	99;99;99;112	0	0		0		0
+scythe	melee	22325	Scythe of Vitur	Scythe	5	16677	Ocellus	117	210	77	-61	-63	138	0	0.0	4.13150	0	0	0	0	0	0	0	0		0	0		-1	0	0	5250	118;118;99;99	0	0		0		0
+fang	melee	26219	Osmumten's fang	Stab Sword	5	16677	Ocellus	182	189	75	-60	-67	174	0	0.0	2.57366	0	0	0	0	0	0	0	0		0	0		-1	0	0	5250	118;118;99;99	0	0		0		0
+emberlight	melee	29589	Emberlight	Slash Sword	4	16677	Ocellus	140	184	75	-60	-67	84	0	0.0	5.04967	0	0	0	0	0	0	0	0		0	0		-1	0	0	5250	118;118;99;99	0	0		0		0
+tbow	ranged	20997	Twisted bow	Bow	6	16677	Ocellus	-8	-8	-8	-19	215	0	100	0.0	2.69475	0	0	0	0	0	0	0	0		0	0		-1	0	0	5250	99;99;112;99	0	0		0	Dragon arrow	0
+scorching	ranged	29591	Scorching bow	Bow	5	16677	Ocellus	-8	-8	-8	-19	269	0	120	0.0	2.55271	0	0	0	0	0	0	0	0		0	0		-1	0	0	5250	99;99;112;99	0	0		0	Dragon arrow	0
+blowpipe	ranged	12926	Toxic blowpipe	Thrown	3	16677	Ocellus	-8	-8	-8	-19	175	0	75	0.0	1.62031	0	0	0	0	0	0	0	0		0	0		-1	0	0	5250	99;99;112;99	0	0		0		0
+shadow	magic	27275	Tumeken's shadow	Powered Staff	5	16677	Ocellus	0	0	0	164	-17	0	0	24.0	3.39504	0	0	0	0	0	0	0	0		0	0		-1	0	0	5250	99;99;99;112	0	0		0		0

@@ -332,6 +332,30 @@ public class GearEditTest
 		assertTrue("by its id, whatever the name", GearEdit.owns(107, "x", have, new HashSet<>(Arrays.asList(107))));
 	}
 
+	/**
+	 * Every dress of an item is owning the item, the ones whose name says nothing of it too (every ornament is
+	 * recognised): by the item it is (Gear.itemOf, the engine's Variants).
+	 */
+	@Test
+	public void everyDressIsOwningTheItem()
+	{
+		Map<String, Bag.Have> have = new HashMap<>();
+		have.put("blazing blowpipe", new Bag.Have(28688, 1, "Blazing blowpipe"));
+		have.put("radiant oathplate chest", new Bag.Have(30779, 1, "Radiant oathplate chest"));
+		have.put("crystal helm", new Bag.Have(27705, 1, "Crystal helm"));
+		Set<Integer> none = new HashSet<>();
+		assertTrue("the Blazing blowpipe is the Toxic blowpipe", GearEdit.owns(12926, "Toxic blowpipe", have, none));
+		assertTrue(GearEdit.owns(30753, "Oathplate chest", have, none));
+		assertTrue("a crystal helm in another colour", GearEdit.owns(23971, "Crystal helm", have, none));
+		assertTrue("worn or carried, by its id", GearEdit.owns(25865, "Bow of Faerdhinen", have,
+			new HashSet<>(Arrays.asList(25884))));
+		assertFalse(GearEdit.owns(30756, "Oathplate legs", have, none));
+		// the item search takes the very dress the player has
+		assertEquals(28688, GearEdit.ownedAs(12926, "Toxic blowpipe", have).itemId);
+		assertEquals(30779, GearEdit.ownedAs(30753, "Oathplate chest", have).itemId);
+		assertNull(GearEdit.ownedAs(30756, "Oathplate legs", have));
+	}
+
 	@Test
 	public void aRecommendationThatMovedOnSinceTheChangeIsSaidAndTheChangeStays()
 	{

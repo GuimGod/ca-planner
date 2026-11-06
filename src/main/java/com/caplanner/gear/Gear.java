@@ -27,6 +27,21 @@ import java.util.Set;
  */
 public final class Gear
 {
+	/**
+	 * The item an item is: itself, or the item it is another dress of (an ornament kit, a locked one, a recolour: the
+	 * engine's Variants, from the OSRS Wiki DPS calculator and RuneLite's item names and stats).
+	 */
+	public static int itemOf(int itemId)
+	{
+		return Variants.base(itemId);
+	}
+
+	/** True when two items are the same item, in whatever dress. */
+	public static boolean sameItem(int a, int b)
+	{
+		return Variants.base(a) == Variants.base(b);
+	}
+
 	/** Weapons of each combat class that get the full, slower search. */
 	private static final int WEAPONS_PER_CLASS = 5;
 	/** Pieces of a slot tried against each other, picked by their plain bonuses. */
@@ -83,6 +98,26 @@ public final class Gear
 		public Set<String> runes;
 		/** The Ancient Magicks are unlocked (Desert Treasure I). */
 		public boolean ancients;
+		/** Zeal is unlocked and usable: it takes Piety's place (25% Attack, 28% Strength). */
+		public boolean zeal;
+		/** The elements ("fire", "earth"...) whose fragment of the Fractured Archive the player broke: 2 more on their spells. */
+		public Set<String> fragments = new HashSet<>();
+	}
+
+	/** The varbits that turn 1 when the fire and the earth fragments of the Fractured Archive are broken. */
+	public static final int FRAGMENT_FIRE_VARBIT = SetEffects.FRAGMENT_FIRE_VARBIT;
+	public static final int FRAGMENT_EARTH_VARBIT = SetEffects.FRAGMENT_EARTH_VARBIT;
+	/** The Prayer, Attack and Strength levels Zeal needs. */
+	public static final int ZEAL_PRAYER = ArchiveItems.ZEAL_PRAYER;
+	public static final int ZEAL_ATTACK_STRENGTH = ArchiveItems.ZEAL_ATTACK_STRENGTH;
+
+	/**
+	 * The bonuses of a Fractured Archive weapon or bolt from the OSRS Wiki, for while RuneLite's item data has none for it
+	 * (as the Combat Check does); null for any other item.
+	 */
+	public static net.runelite.client.game.ItemEquipmentStats archiveEquipment(int itemId)
+	{
+		return ArchiveItems.equipment(itemId);
 	}
 
 	/** What a task allows, on top of what the boss does: the search stays inside it. Names are parts of item names, in lower case. */
@@ -1093,7 +1128,7 @@ public final class Gear
 	}
 
 	/** The player with the potion and the best prayer of the class, as on a prepared kill. */
-	private static SetCalc.Player player(Levels v, String cls)
+	static SetCalc.Player player(Levels v, String cls)
 	{
 		SetCalc.Player p = new SetCalc.Player();
 		// a super combat potion and a ranging potion; magic is taken unboosted
@@ -1110,6 +1145,7 @@ public final class Gear
 		p.augury = v.augury;
 		p.deadeye = v.deadeye;
 		p.vigour = v.vigour;
+		p.zeal = v.zeal;
 		// SetCalc fills in the best prayer of a class when a prayer of another class is on: say one is
 		if (StyleCalc.MAGIC.equals(cls))
 		{
@@ -1119,7 +1155,10 @@ public final class Gear
 		{
 			p.prayerMagic = 101;
 		}
-		return SetCalc.withPrayerOf(p, cls);
+		SetCalc.Player q = SetCalc.withPrayerOf(p, cls);
+		// the fragments broken stay with the player whatever prayer is put on (withPrayerOf makes a new player without them)
+		q.fragments.addAll(v.fragments);
+		return q;
 	}
 
 	private static SwitchSet.Piece piece(Stat s)

@@ -28,6 +28,24 @@ final class MonsterLevels
 	}
 
 	/**
+	 * A boss of the Fractured Archive with the most hitpoints the game's boss health bar shows for it ({@code barMax}, 0
+	 * when the bar shows none): the raid gives its bosses more hitpoints with a bigger party (measured, about 43% of the
+	 * OSRS Wiki's for each player above two, a fit of ours and not a published formula), and the bar has them already
+	 * scaled, so they are taken from it as they are; without the bar the plugin passes the OSRS Wiki's table for the team
+	 * ({@link ArchiveScaling}). With neither (0), and for any other monster, it is left as it is.
+	 */
+	static DefenceDrains.Levels fromBar(StyleData.Monster monster, DefenceDrains.Levels l, int barMax)
+	{
+		if (!monster.fracturedArchive || barMax <= 0)
+		{
+			return l;
+		}
+		DefenceDrains.Levels b = l.copy();
+		b.hitpoints = barMax;
+		return b;
+	}
+
+	/**
 	 * Araxxor from a quarter of his hitpoints on: enraged, with 35 more Defence, 28 more Magic and 31 more Ranged (the
 	 * calculator's phase "Enraged"; OSRS Wiki, Araxxor: "When Araxxor reaches 25% health, he enters an enrage phase").
 	 * His health must be known ({@code health} above 0). Any other monster is left as it is.

@@ -1,0 +1,13 @@
+# set	class	weapon id	weapon	category	speed	npc id	npc	stab	slash	crush	magic	ranged	str	rstr	mdmg	calculator damage per tick	slayer helmet kind	salve amulet kind	on task (1)	crystal armour weight	void melee	void ranged	in the wilderness (1)	autocast spell number	tome element	Chambers of Xeric party size (0 for no scaling)	Challenge Mode (1)	special attacks on top
+crystal-in-magic-armour	melee	23680	Crystal pickaxe	Pickaxe	5	7569	Guardian (Chambers of Xeric)	68	27	60	124	-21	50	0	24.0	3.23512	0	0	0	0	0	0	0	0		1	0	
+crystal-in-magic-armour	melee	23680	Crystal pickaxe	Pickaxe	5	7569	Guardian (Chambers of Xeric)	68	27	60	124	-21	50	0	24.0	2.79649	0	0	0	0	0	0	0	0		23	1	
+crystal-in-melee-armour	melee	23680	Crystal pickaxe	Pickaxe	5	7569	Guardian (Chambers of Xeric)	115	112	107	-60	-67	113	0	0.0	5.25851	0	0	0	0	0	0	0	0		1	0	
+crystal-in-melee-armour	melee	23680	Crystal pickaxe	Pickaxe	5	7569	Guardian (Chambers of Xeric)	115	112	107	-60	-67	113	0	0.0	4.76710	0	0	0	0	0	0	0	0		23	1	
+crystal-in-ranged-armour	melee	23680	Crystal pickaxe	Pickaxe	5	7569	Guardian (Chambers of Xeric)	60	19	52	-24	141	50	20	0.0	3.19283	0	0	0	0	0	0	0	0		1	0	
+crystal-in-ranged-armour	melee	23680	Crystal pickaxe	Pickaxe	5	7569	Guardian (Chambers of Xeric)	60	19	52	-24	141	50	20	0.0	2.72396	0	0	0	0	0	0	0	0		23	1	
+dragon-in-magic-armour	melee	11920	Dragon pickaxe	Pickaxe	5	7569	Guardian (Chambers of Xeric)	68	27	60	124	-21	50	0	24.0	3.23512	0	0	0	0	0	0	0	0		1	0	
+dragon-in-magic-armour	melee	11920	Dragon pickaxe	Pickaxe	5	7569	Guardian (Chambers of Xeric)	68	27	60	124	-21	50	0	24.0	2.79649	0	0	0	0	0	0	0	0		23	1	
+dragon-in-melee-armour	melee	11920	Dragon pickaxe	Pickaxe	5	7569	Guardian (Chambers of Xeric)	115	112	107	-60	-67	113	0	0.0	5.25851	0	0	0	0	0	0	0	0		1	0	
+dragon-in-melee-armour	melee	11920	Dragon pickaxe	Pickaxe	5	7569	Guardian (Chambers of Xeric)	115	112	107	-60	-67	113	0	0.0	4.76710	0	0	0	0	0	0	0	0		23	1	
+dragon-in-ranged-armour	melee	11920	Dragon pickaxe	Pickaxe	5	7569	Guardian (Chambers of Xeric)	60	19	52	-24	141	50	20	0.0	3.19283	0	0	0	0	0	0	0	0		1	0	
+dragon-in-ranged-armour	melee	11920	Dragon pickaxe	Pickaxe	5	7569	Guardian (Chambers of Xeric)	60	19	52	-24	141	50	20	0.0	2.72396	0	0	0	0	0	0	0	0		23	1	

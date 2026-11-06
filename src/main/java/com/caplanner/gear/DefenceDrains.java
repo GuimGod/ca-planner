@@ -63,11 +63,14 @@ final class DefenceDrains
 	{
 		final Kind kind;
 		final int amount;
+		/** The game tick it landed on (0 when not known): the monster's stats come back from the first one on. */
+		final int tick;
 
-		Drain(Kind kind, int amount)
+		Drain(Kind kind, int amount, int tick)
 		{
 			this.kind = kind;
 			this.amount = amount;
+			this.tick = tick;
 		}
 	}
 
@@ -108,6 +111,17 @@ final class DefenceDrains
 	 */
 	void add(SpecialWeapon weapon, int hit, boolean tekton)
 	{
+		add(weapon, hit, tekton, landed.isEmpty() ? 0 : landed.get(landed.size() - 1).tick);
+	}
+
+	/**
+	 * Counts one special attack that landed on game tick {@code tick}, which is not before the tick of any counted before
+	 * ({@link DrainTracker} keeps them in order): the stats the monster wins back with time come between them
+	 * ({@link #left}).
+	 */
+	void add(SpecialWeapon weapon, int hit, boolean tekton, int tick)
+	{
+		addingTick = tick;
 		if (weapon == null)
 		{
 			return;
@@ -188,9 +202,12 @@ final class DefenceDrains
 		}
 	}
 
+	/** The tick of the special attack being added. */
+	private int addingTick;
+
 	private void landed(Kind kind, int amount)
 	{
-		landed.add(new Drain(kind, amount));
+		landed.add(new Drain(kind, amount, addingTick));
 	}
 
 	/** True when nothing has been counted. */
@@ -222,9 +239,27 @@ final class DefenceDrains
 	 */
 	Levels apply(Levels full, boolean demon, int floor)
 	{
+		return apply(full, demon, floor, -1, 0);
+	}
+
+	/**
+	 * The levels left, with the stats the monster wins back with time ({@link #recovered}) between the special attacks and
+	 * up to {@code ticksSinceLast} ticks after the last one: counted from the first one landed, each level that comes back
+	 * coming back before the special attacks landed after it. {@code npcId} -1 for none won back.
+	 */
+	Levels apply(Levels full, boolean demon, int floor, int npcId, int ticksSinceLast)
+	{
 		Levels l = full.copy();
+		int first = landed.isEmpty() ? 0 : landed.get(0).tick;
+		int back = 0;
 		for (Drain d : landed)
 		{
+			if (npcId >= 0)
+			{
+				int now = recovered(npcId, d.tick - first);
+				winBack(l, full, now - back);
+				back = now;
+			}
 			switch (d.kind)
 			{
 				case ACCURSED:
@@ -285,7 +320,31 @@ final class DefenceDrains
 					break;
 			}
 		}
+		if (npcId >= 0 && !landed.isEmpty())
+		{
+			int last = landed.get(landed.size() - 1).tick;
+			winBack(l, full, recovered(npcId, last - first + Math.max(0, ticksSinceLast)) - back);
+		}
 		return l;
+	}
+
+	/**
+	 * {@code levels} levels back on each stat lowered, up to the full one (OSRS Wiki, Stat restoration: "any boosted or
+	 * drained stat is restored by 1 closer to its current level"; the monsters "regenerate their stats"). The magic
+	 * defence bonus the Eye of Ayak lowers is not a stat and does not come back (Eye of Ayak: "As Magic Defence is not a
+	 * stat, NPCs cannot restore it").
+	 */
+	private static void winBack(Levels l, Levels full, int levels)
+	{
+		if (levels <= 0)
+		{
+			return;
+		}
+		l.attack = Math.max(l.attack, Math.min(full.attack, l.attack + levels));
+		l.strength = Math.max(l.strength, Math.min(full.strength, l.strength + levels));
+		l.defence = Math.max(l.defence, Math.min(full.defence, l.defence + levels));
+		l.magic = Math.max(l.magic, Math.min(full.magic, l.magic + levels));
+		l.ranged = Math.max(l.ranged, Math.min(full.ranged, l.ranged + levels));
 	}
 
 	/** An Arclight-type special attack, taking {@code twentieths}/20 of the full level, plus 1. */
@@ -350,8 +409,8 @@ final class DefenceDrains
 	/**
 	 * The levels the monster fought is left with after the special attacks counted on it ({@code drains}, null for none):
 	 * its full ones for a fight that takes no drain ({@link #immune}); else lowered down to its floor, by the table's row
-	 * and by the NPC's own id ({@link #floor}), with what the Nightmares won back {@code ticksSinceLast} ticks after the
-	 * last special attack ({@link #recovered}).
+	 * and by the NPC's own id ({@link #floor}), with the stats it won back with time, between the special attacks and up
+	 * to {@code ticksSinceLast} ticks after the last one ({@link #recovered}).
 	 */
 	static Levels left(StyleData.Monster monster, int npcId, Levels full, DefenceDrains drains, int ticksSinceLast)
 	{
@@ -360,14 +419,8 @@ final class DefenceDrains
 			return full;
 		}
 		int floor = Math.max(floor(monster.id, full.defence), floor(npcId, full.defence));
-		Levels drained = drains.apply(full, monster.demon, floor);
-		// the Nightmare and Phosani's Nightmare win their Defence back with time
-		int back = recovered(npcId, ticksSinceLast);
-		if (back > 0 && drained.defence < full.defence)
-		{
-			drained.defence = Math.min(full.defence, drained.defence + back);
-		}
-		return drained;
+		// the stats come back with time, between the special attacks and after the last one
+		return drains.apply(full, monster.demon, floor, npcId, ticksSinceLast);
 	}
 
 	private static final int[] VERZIK = {10830, 10831, 10832, 8369, 8370, 8371, 10847, 10848, 10849,
@@ -392,10 +445,35 @@ final class DefenceDrains
 	private static final int[] PHANTOM_MUSPAH = {12077, 12078, 12082, 12079, 12080};
 	/** Its shielded form: its Defence is back to full on entering it. */
 	private static final int MUSPAH_SHIELDED = 12079;
+	/**
+	 * Kephri shielded and weakened (RuneLite's NpcID TOA_KEPHRI_BOSS_SHIELDED, TOA_KEPHRI_BOSS_WEAK), before her last phase.
+	 */
+	private static final int[] KEPHRI_SHIELD_PHASES = {11719, 11720};
+	/** Kephri in her last phase, open to attacks (TOA_KEPHRI_BOSS_ENRAGE; the OSRS Wiki's version "Aggressive"). */
+	private static final int KEPHRI_LAST_PHASE = 11721;
+	/**
+	 * Vet'ion and Calvar'ion going into their second form, each as {old, new}: "In this form ... any drained Defence levels
+	 * will be restored" (OSRS Wiki, Vet'ion and Calvar'ion; the infoboxes' Normal and Enraged ids).
+	 */
+	private static final int[][] SECOND_FORM = {{6611, 6612}, {11993, 11994}};
 	/** The Doom of Mokhaiotl, shielded and burrowed too. */
 	private static final int[] DOOM_OF_MOKHAIOTL = {14707, 14708, 14709};
 	private static final int[] FRAGMENT_OF_SEREN = {8917, 8918, 8919, 8920};
 	private static final int[] MENAPHITE_AKH = {11492};
+	/** Sotetseg fighting, in Entry, normal and Hard Mode (RuneLite's NpcID TOB_SOTETSEG_COMBAT_STORY, _COMBAT, _COMBAT_HARD). */
+	private static final int[] SOTETSEG_COMBAT = {10865, 8388, 10868};
+	/** Sotetseg while the team is in the maze, mode by mode as above (TOB_SOTETSEG_NONCOMBAT_STORY, _NONCOMBAT, _HARD). */
+	private static final int[] SOTETSEG_NONCOMBAT = {10864, 8387, 10867};
+	/** The Pestilent Bloat in Entry, normal and Hard Mode (TOB_BLOAT_STORY, TOB_BLOAT, TOB_BLOAT_HARD). */
+	private static final int[] PESTILENT_BLOAT = {10812, 8359, 10813};
+	/** The Bloat's animation as it stops and shuts down (RuneLite's AnimationID TOB_BLOAT_SLEEP). */
+	static final int BLOAT_SLEEP_ANIMATION = 8082;
+	/**
+	 * Ticks from the one the Bloat shuts down on to its stomp, which restores its Defence (OSRS Wiki, Pestilent Bloat: it
+	 * "will stop and shut down for 32 game ticks ... On the 30th tick of inactivity, the boss will stomp on the ground,
+	 * dealing 40-80 damage and restoring any drained Defence levels"): the shut-down tick as the first, not measured.
+	 */
+	static final int BLOAT_STOMP_TICKS = 29;
 	/** Galvek's four phases, each with its ids (OSRS Wiki, Galvek: Fire, Air, Water, Earth). */
 	private static final int[][] GALVEK = {{8094, 8095, 8177}, {8097}, {8096}, {8098, 8178, 8179}};
 	/**
@@ -403,6 +481,25 @@ final class DefenceDrains
 	 * Moons of Peril ("Defence-reducing special attacks and Death Charge have no effect on the Moons of Peril").
 	 */
 	private static final int[] IMMUNE = {15628, 15629, 13011, 13012, 13013};
+	/**
+	 * The fights whose drains are not counted because it is not known what they do: the Fractured Archive's Ezekiel
+	 * (the official hotfix of 20 October gives him the 60% cap, so they lower him, but the game's Monster Examine read
+	 * Defence 159 after two Dragon warhammers that landed on him, above his first examine's 140, which no drain
+	 * explains: his buff may give the levels back; nothing not confirmed is modelled, the line says "Def ?"). Counted
+	 * as {@link #IMMUNE} until an examine before and after one shows what a drain does to him.
+	 */
+	private static final int[] NOT_CONFIRMED = {16652};
+	/**
+	 * The Fractured Archive's bosses whose Defence cannot be lowered below 60% of its base (official post "The Fractured
+	 * Archive - Out Today", 20 October 2026, its hotfix on Defence reduction: "The following NPCs should have a 60% cap on
+	 * their Defence Reduction, meaning an NPC with 100 Defence could have it reduced down to 60, but no further: Archive
+	 * Guardian, Bork, Ezekiel, Moia, Xarth, Ocellus"): the Archive Guardian in flight and on the ground, Bork, Ezekiel, Moia,
+	 * Xarth and Ocellus in his first and third phases. The others of the raid (Dreadnoth, the Smorks, the Dagon'hai, The
+	 * Blade of Ocellus's second phase) have "no cap": 0, as most monsters.
+	 */
+	private static final int[] ARCHIVE_SIXTY_PERCENT = {16659, 16660, 16640, 16652, 16667, 16684, 16673, 16674, 16677};
+	/** The share of its base Defence a boss of {@link #ARCHIVE_SIXTY_PERCENT} keeps, in percent. */
+	static final int ARCHIVE_CAP_PERCENT = 60;
 
 	/**
 	 * The lowest Defence the monster can be taken to, by its NPC id: the calculator's {@code getDefenceFloor} (its full
@@ -411,10 +508,16 @@ final class DefenceDrains
 	 * be reduced down to 125"), the Doom of Mokhaiotl 60 (Doom of Mokhaiotl/Strategies: "a defence drain cap of 30, meaning
 	 * that its Defence can only be lowered to a minimum of 60"), the Fragment of Seren 60 (Fragment of Seren Speed-Trialist:
 	 * "her defence cannot be lowered below 60") and the Menaphite Akh 100 (Menaphite Akh: "her defence cannot be lowered
-	 * below 100", Mod Ash).
+	 * below 100", Mod Ash). And the Fractured Archive's bosses with a cap: 60% of their base ({@link #ARCHIVE_SIXTY_PERCENT}).
 	 */
 	static int floor(int npcId, int defence)
 	{
+		if (has(ARCHIVE_SIXTY_PERCENT, npcId))
+		{
+			// "an NPC with 100 Defence could have it reduced down to 60, but no further": every base of the table gives a
+			// whole number (260 156, 300 180, 140 84, 195 117, 170 102, 215 129, 250 150); the rounding of another is not known
+			return defence * ARCHIVE_CAP_PERCENT / 100;
+		}
 		if (has(VERZIK, npcId) || has(VARDORVIS, npcId))
 		{
 			return defence;
@@ -473,13 +576,13 @@ final class DefenceDrains
 	 */
 	static boolean immune(StyleData.Monster monster)
 	{
-		return monster != null && (monster.awakened || has(IMMUNE, monster.id));
+		return monster != null && (monster.awakened || immune(monster.id));
 	}
 
-	/** True for an NPC id of a fight that takes no drain at all ({@link #IMMUNE}). */
+	/** True for an NPC id of a fight that takes no drain at all ({@link #IMMUNE}), or none that is known ({@link #NOT_CONFIRMED}). */
 	static boolean immune(int npcId)
 	{
-		return has(IMMUNE, npcId);
+		return has(IMMUNE, npcId) || has(NOT_CONFIRMED, npcId);
 	}
 
 	/**
@@ -487,10 +590,34 @@ final class DefenceDrains
 	 * table's levels of the two say (OSRS Wiki): the Phantom Muspah entering its shielded phase ("The defence reduction will
 	 * preserve between phases until the shielded phase, where Muspah's defence resets to 200"), and Galvek going on to
 	 * another of his phases ("he will reset his Defence to its original level after every phase"; an id the wiki does not
-	 * put in a phase changes nothing).
+	 * put in a phase changes nothing), and Sotetseg sending the team into the maze ("any defence drain will be reset each
+	 * time players are transported to the shadow realm"; Theatre of Blood/Strategies: "After clearing the maze,
+	 * Sotetseg's Defence level is restored"): in the Theatre of 2026-10-17 he went from fighting (8388) to the maze's
+	 * form (8387) and back twice a raid, and the table gives the two forms the same levels. And Kephri going into her last
+	 * phase (Kephri: "Her base defence level can be lowered by a maximum of 20 damage ... however the defence level is reset
+	 * for the final phase"; "After two phases of shields, Kephri will finally be vulnerable"), whose row has the same
+	 * Defence as her shielded one. And Vet'ion and Calvar'ion going into their second form ({@link #SECOND_FORM}).
 	 */
 	static boolean resets(int oldId, int newId)
 	{
+		if (newId == KEPHRI_LAST_PHASE && has(KEPHRI_SHIELD_PHASES, oldId))
+		{
+			return true;
+		}
+		for (int[] change : SECOND_FORM)
+		{
+			if (oldId == change[0] && newId == change[1])
+			{
+				return true;
+			}
+		}
+		for (int mode = 0; mode < SOTETSEG_COMBAT.length; mode++)
+		{
+			if (oldId == SOTETSEG_COMBAT[mode] && newId == SOTETSEG_NONCOMBAT[mode])
+			{
+				return true;
+			}
+		}
 		if (newId == MUSPAH_SHIELDED && oldId != MUSPAH_SHIELDED && has(PHANTOM_MUSPAH, oldId))
 		{
 			return true;
@@ -498,6 +625,34 @@ final class DefenceDrains
 		int before = phase(GALVEK, oldId);
 		int after = phase(GALVEK, newId);
 		return before >= 0 && after >= 0 && before != after;
+	}
+
+	/**
+	 * Ocellus's phases, each with its ids: the first (OSRS Wiki, 16673 and 16674), the second (16675, the recorder: the
+	 * form between the first and the third in all nine fights recorded; the wiki gives it no id) and the third (16677).
+	 */
+	private static final int[][] OCELLUS = {{16673, 16674}, {16675}, {16677}};
+
+	/**
+	 * True when a monster that changes from {@code oldId} into {@code newId} keeps its drains in a way that is not known:
+	 * Ocellus going on to another phase ("Defence reduction works on all phases", OSRS Wiki, Ocellus; whether the levels
+	 * lowered or the share of them carry over to a phase with another Defence, and whether the four stages of the third
+	 * reset them, is not known). The Defence left is then shown as not known ({@link DrainTracker#carryUnknown}).
+	 */
+	static boolean carriesUnknown(int oldId, int newId)
+	{
+		int before = phase(OCELLUS, oldId);
+		int after = phase(OCELLUS, newId);
+		return before >= 0 && after >= 0 && before != after;
+	}
+
+	/**
+	 * True for an NPC id whose drains are counted for nothing because it is not known that it takes them
+	 * ({@link #NOT_CONFIRMED}): the Defence left is shown as not known once one landed.
+	 */
+	static boolean notConfirmed(int npcId)
+	{
+		return has(NOT_CONFIRMED, npcId);
 	}
 
 	private static int phase(int[][] phases, int id)
@@ -513,14 +668,41 @@ final class DefenceDrains
 	}
 
 	private static final int[] THE_NIGHTMARE = {378, 9425, 9426, 9427, 9428, 9429, 9430, 9431, 9432, 9433, 9460};
-	private static final int[] PHOSANIS_NIGHTMARE = {377, 9423, 9416, 9417, 9418, 9419, 9420, 9421, 9422, 9424, 11153,
-		11154, 11155};
+
+	/** The standard time a monster takes to win back one level of each lowered stat, in ticks. */
+	static final int STANDARD_RESTORE_TICKS = 100;
+	/**
+	 * The monsters that win their stats back faster or slower than the standard, each with its ticks a level (OSRS Wiki,
+	 * each one's page: "regenerate(s) ... stats at a rate of 1 per N ticks, faster than the standard rate of 1 per 100
+	 * ticks"): Tekton 15, Vasa Nistirio 10, Vespula 10, the Vespine soldier flying 16 (walking, not said: the standard),
+	 * the Glowing crystal 9, the Skeletal Mystics 25, the Lizardman shamans of the Chambers 20, the Guardians of the
+	 * Chambers 8, the Abyssal portal 45, the Lux grubs 10000, the Jewelled Crabs 1; Phosani's Nightmare 5 (Phosani's
+	 * Nightmare/Strategies: "she recovers drained levels every 3 seconds (5 ticks) instead of every minute").
+	 */
+	private static final int[][] RESTORE_TICKS = {
+		{15, 7540, 7541, 7542, 7543, 7544, 7545},
+		{10, 7566, 7567},
+		{10, 7530, 7531, 7532},
+		{16, 7538},
+		{9, 7568},
+		{25, 7604, 7605, 7606},
+		{20, 7573, 7574},
+		{8, 7569, 7570, 7571, 7572},
+		{45, 7533},
+		{10000, 7534, 7535, 7536, 7537},
+		{1, 7576, 7577, 7578, 7579},
+		{5, 377, 9423, 9416, 9417, 9418, 9419, 9420, 9421, 9422, 9424, 11153, 11154, 11155},
+	};
 
 	/**
-	 * The Defence levels a monster has won back {@code ticks} after the last drain counted on it (the calculator has no
-	 * time; OSRS Wiki): the Nightmare "will restore her defence stat back at the rate of 20 defence per minute"
-	 * (The Nightmare/Strategies; when in the minute is not said: counted here from the drain), Phosani's Nightmare one
-	 * level every 3 seconds, 5 ticks (Phosani's Nightmare/Strategies). 0 for any other monster.
+	 * The levels of each lowered stat a monster has won back {@code ticks} ticks after the first special attack counted
+	 * on it (the calculator has no time; OSRS Wiki): one level every {@link #STANDARD_RESTORE_TICKS} ticks for most
+	 * monsters (Temporary skill drain: "Stats are restored at a rate of 1 per 60 seconds"; "Most monsters follow the same
+	 * rules as players"; Stat restoration: "Every minute, equivalent to 100 ticks"; Ice demon: "the standard rate of 1
+	 * per 100 ticks"), faster or slower for the monsters of {@link #RESTORE_TICKS}, and 20 levels a minute for the
+	 * Nightmare (The Nightmare: "she restores drained stats at a rate of 20 per minute"). Counted from the first drain:
+	 * the wiki does not say whether a monster's clock runs from the drain or on its own, and from the drain it is the
+	 * least that has come back either way.
 	 */
 	static int recovered(int npcId, int ticks)
 	{
@@ -528,11 +710,33 @@ final class DefenceDrains
 		{
 			return 0;
 		}
-		if (has(PHOSANIS_NIGHTMARE, npcId))
+		if (has(THE_NIGHTMARE, npcId))
 		{
-			return ticks / 5;
+			return ticks / 100 * 20;
 		}
-		return has(THE_NIGHTMARE, npcId) ? ticks / 100 * 20 : 0;
+		for (int[] rate : RESTORE_TICKS)
+		{
+			for (int i = 1; i < rate.length; i++)
+			{
+				if (rate[i] == npcId)
+				{
+					return ticks / rate[0];
+				}
+			}
+		}
+		return ticks / STANDARD_RESTORE_TICKS;
+	}
+
+	/** True for the Pestilent Bloat, whose stomp restores its Defence ({@link #BLOAT_STOMP_TICKS}). */
+	static boolean bloat(int npcId)
+	{
+		return has(PESTILENT_BLOAT, npcId);
+	}
+
+	/** True on the tick of the Bloat's stomp, for the tick it shut down on. */
+	static boolean bloatStomps(int shutDownTick, int tick)
+	{
+		return tick - shutDownTick >= BLOAT_STOMP_TICKS;
 	}
 
 	/** True for Tekton: his own rules for a special attack that fails to hit. */

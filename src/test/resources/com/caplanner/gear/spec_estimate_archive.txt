@@ -1,0 +1,443 @@
+# Two Fractured Archive raids of 2026-10-27 (00:01 and 00:23, a party of three: the client's player and two others, all
+# three with the Special Attack Counter), as a "SPEC diagnostic" log wrote them: tick, then the line; only the
+# ticks from 3 before to 5 after each Tonalztics of Ralos (10914), Elder maul or Dragon warhammer special attack
+# animation and from 5 before to 1 after each party message, with the target line before each stretch. Projectile lines
+# left out. Players are numbers in the fight, never names; "(me)" is the player of the client. Player 2 holds the
+# Tonalztics of Ralos, player 1 an Elder maul. The "party spec" lines are the answer key: the Tonalztics' message gives
+# how many of its two hits landed, the Elder maul's 1 or 0.
+32381	target npc 52674 id 16665 at 11291,6623,0 size 5 | tint disabled 0
+32381	player 3 (me) anim 10092 frame 0 weapon 21006 at 11289,6627,0
+32382	party spec player 1 seen weapon ELDER_MAUL hit 1 npc 52674 (target)
+32382	hitsplat npc 52674 amount 48 type 17 others
+32382	hitsplat npc 52674 amount 33 type 17 others
+32383	target npc 52674 id 16665 at 11290,6622,0 size 5 | tint disabled 0
+32383	player 2 anim 426 frame 0 weapon 20997 at 11288,6619,0
+32383	player 3 off target
+32386	target npc 52674 id 16665 at 11289,6621,0 size 5 | tint disabled 0
+32386	hitsplat npc 52674 amount 0 type 13 others
+32386	player 1 anim 426 frame 0 weapon 20997 at 11288,6623,0
+32386	player 3 (me) anim 10092 frame 0 weapon 21006 at 11288,6629,0
+32387	target npc 52674 id 16665 at 11289,6620,0 size 5 | tint disabled 0
+32387	player 1 off target
+32388	hitsplat npc 52674 amount 0 type 13 others
+32388	player 3 off target
+32389	target npc 52674 id 16665 at 11289,6619,0 size 5 | tint disabled 0
+32389	player 2 anim 10914 frame 0 weapon 28922 at 11289,6616,0
+32390	player 1 anim -1 frame -1 weapon 20997 at 11288,6629,0
+32390	player 3 (me) anim -1 frame -1 weapon 21006 at 11290,6629,0
+32391	hitsplat npc 52674 amount 1 type 17 others
+32391	hitsplat npc 52674 amount 22 type 17 others
+32391	hitsplat npc 52674 amount 2 type 17 others
+32391	target npc 52674 id 16665 at 11289,6618,0 size 5 | tint disabled 0
+32391	player 1 anim 426 frame 0 weapon 20997 at 11288,6629,0
+32391	player 3 (me) anim 10092 frame 0 weapon 21006 at 11290,6629,0
+32391	player 2 off target
+32392	party spec player 2 seen weapon TONALZTICS_OF_RALOS hit 2 npc 52674 (target)
+32392	player 1 off target
+32393	player 1 anim -1 frame -1 weapon 20997 at 11289,6630,0
+32394	hitsplat npc 52674 amount 19 type 17 others
+32394	player 3 off target
+32856	target npc 39195 id 16684 at 12830,8542,0 size 3 | tint disabled 0
+32856	player 3 (me) anim 10914 frame 0 weapon 28922 at 12824,8541,0
+32857	party spec player 2 seen weapon TONALZTICS_OF_RALOS hit 1 npc 39195 (target)
+32857	player 1 anim 426 frame 0 weapon 20997 at 12824,8541,0
+32857	player 3 off target
+32858	hitsplat npc 39195 amount 9 type 16 mine
+32858	hitsplat npc 39195 amount 1 type 16 mine
+32858	player 1 off target
+32859	party spec player 3 (me) seen weapon TONALZTICS_OF_RALOS hit 2 npc 39195 (target)
+32860	hitsplat npc 39195 amount 56 type 17 others
+32861	player 2 anim 426 frame 0 weapon 20997 at 12828,8537,0
+32861	player 3 (me) anim 1156 frame 0 weapon 28922 at 12831,8537,0
+32862	player 3 (me) anim 10914 frame 0 weapon 28922 at 12831,8537,0
+32862	player 2 off target
+32863	player 1 anim 9168 frame 0 weapon 26374 at 12829,8535,0
+32863	player 3 off target
+32864	hitsplat npc 39195 amount 64 type 17 others
+32864	hitsplat npc 39195 amount 7 type 16 mine
+32864	hitsplat npc 39195 amount 24 type 43 mine
+32864	player 1 off target
+32865	party spec player 3 (me) seen weapon TONALZTICS_OF_RALOS hit 2 npc 39195 (target)
+32866	hitsplat npc 39195 amount 110 type 17 others
+32866	player 2 anim 426 frame 0 weapon 20997 at 12832,8537,0
+32866	player 3 (me) anim -1 frame -1 weapon 20997 at 12832,8538,0
+32867	player 1 anim -1 frame -1 weapon 20997 at 12832,8535,0
+33239	target npc 52917 id 16674 at 12830,10096,1 size 3 | tint disabled 0
+33239	player 1 anim 10656 frame 0 weapon 28688 at 12828,10091,1
+33239	player 2 anim 10914 frame 16 weapon 28922 at 12826,10092,1
+33239	player 3 (me) anim 10914 frame 0 weapon 28922 at 12828,10093,1
+33240	party spec player 2 seen weapon TONALZTICS_OF_RALOS hit 1 npc 52917 (target)
+33240	target npc 52917 id 16674 at 12831,10097,1 size 3 | tint disabled 0
+33240	player 2 anim -1 frame -1 weapon 28922 at 12826,10092,1
+33240	player 3 off target
+33241	hitsplat npc 52917 amount 17 type 18 mine
+33241	hitsplat npc 52917 amount 24 type 44 mine
+33241	hitsplat npc 52917 amount 1 type 19 others
+33241	target npc 52917 id 16674 at 12832,10098,1 size 3 | tint disabled 0
+33241	player 1 off target
+33241	player 2 off target
+33242	target npc 52917 id 16674 at 12833,10099,1 size 3 | tint disabled 0
+33242	player 1 anim 10656 frame 0 weapon 28688 at 12828,10095,1
+33242	player 3 (me) anim -1 frame -1 weapon 28922 at 12826,10096,1
+33243	party spec player 3 (me) seen weapon TONALZTICS_OF_RALOS hit 2 npc 52917 (target)
+33243	target npc 52917 id 16674 at 12834,10100,1 size 3 | tint disabled 0
+33243	player 2 anim 426 frame 0 weapon 20997 at 12826,10096,1
+33243	player 1 off target
+33243	player 3 off target
+33244	hitsplat npc 52917 amount 3 type 19 others
+33244	target npc 52917 id 16674 at 12835,10101,1 size 3 | tint disabled 0
+33244	player 3 (me) anim -1 frame -1 weapon 28922 at 12828,10096,1
+33245	target npc 52917 id 16674 at 12836,10102,1 size 3 | tint disabled 0
+33245	player 3 (me) anim 10914 frame 0 weapon 28922 at 12830,10097,1
+33245	player 2 off target
+33246	hitsplat npc 52917 amount 0 type 13 others
+33246	player 1 anim 9168 frame 0 weapon 26374 at 12834,10095,1
+33246	player 3 off target
+33247	hitsplat npc 52917 amount 6 type 18 mine
+33247	hitsplat npc 52917 amount 16 type 18 mine
+33247	player 2 anim 424 frame 4 weapon 20997 at 12830,10099,1
+33247	player 1 off target
+33248	party spec player 3 (me) seen weapon TONALZTICS_OF_RALOS hit 2 npc 52917 (target)
+33248	hitsplat npc 52917 amount 2 type 19 others
+33248	player 2 anim 426 frame 0 weapon 20997 at 12830,10099,1
+33249	hitsplat npc 52917 amount 110 type 19 others
+33249	player 2 off target
+33250	player 1 anim -1 frame -1 weapon 28688 at 12837,10100,1
+33250	player 3 (me) anim -1 frame -1 weapon 20997 at 12837,10100,1
+33700	target npc 52917 id 16677 at 12824,10090,1 size 3 | tint disabled 0
+33700	hitsplat npc 52917 amount 44 type 16 mine
+33700	player 1 anim 426 frame 0 weapon 20997 at 12828,10090,1
+33700	player 3 off target
+33701	player 3 (me) anim 424 frame 0 weapon 20997 at 12826,10088,1
+33701	player 1 off target
+33702	hitsplat npc 52917 amount 2 type 17 others
+33702	hitsplat npc 52917 amount 0 type 13 others
+33702	hitsplat npc 52917 amount 2 type 17 others
+33703	player 1 anim -1 frame -1 weapon 20997 at 12828,10089,1
+33703	player 2 anim 10914 frame 0 weapon 28922 at 12827,10094,1
+33703	player 3 off target
+33704	player 3 (me) anim 426 frame 0 weapon 20997 at 12827,10088,1
+33704	player 1 off target
+33705	hitsplat npc 52917 amount 0 type 13 others
+33705	hitsplat npc 52917 amount 0 type 13 others
+33705	player 2 off target
+33706	party spec player 2 seen weapon TONALZTICS_OF_RALOS hit 0 npc 52917 (target)
+33706	hitsplat npc 52917 amount 0 type 13 others
+33706	hitsplat npc 52917 amount 3 type 16 mine
+33706	hitsplat npc 52917 amount 0 type 13 others
+33706	player 3 off target
+33707	player 3 (me) anim -1 frame -1 weapon 20997 at 12828,10088,1
+33708	player 1 anim 426 frame 0 weapon 20997 at 12828,10091,1
+33708	player 2 anim -1 frame -1 weapon 28922 at 12825,10095,1
+33709	player 2 off target
+33709	player 3 off target
+33710	hitsplat npc 52917 amount 0 type 13 others
+33710	hitsplat npc 52917 amount 0 type 13 others
+33710	hitsplat npc 52917 amount 2 type 17 others
+33710	player 2 anim 10914 frame 0 weapon 28922 at 12824,10095,1
+33710	player 3 (me) anim 426 frame 0 weapon 20997 at 12829,10088,1
+33710	player 1 off target
+33712	target npc 52917 id 16677 at 12824,10090,1 size 3 | tint disabled 0
+33712	hitsplat npc 52917 amount 0 type 13 others
+33712	hitsplat npc 52917 amount 9 type 17 others
+33712	player 1 anim 829 frame 8 weapon 20997 at 12827,10090,1
+33712	player 2 off target
+33712	player 3 off target
+33713	party spec player 2 seen weapon TONALZTICS_OF_RALOS hit 1 npc 52917 (target)
+33713	hitsplat npc 52917 amount 0 type 12 mine
+33713	player 1 anim 426 frame 0 weapon 20997 at 12827,10090,1
+33713	player 2 anim 424 frame 0 weapon 20997 at 12823,10095,1
+33713	player 3 (me) anim 424 frame 0 weapon 20997 at 12829,10090,1
+33714	hitsplat npc 52917 amount 2 type 17 others
+33714	hitsplat npc 52917 amount 3 type 17 others
+33714	player 2 off target
+33714	player 3 off target
+33715	hitsplat npc 52917 amount 0 type 13 others
+33715	player 2 anim 424 frame 7 weapon 20997 at 12822,10094,1
+33715	player 3 (me) anim 426 frame 0 weapon 20997 at 12827,10091,1
+33715	player 1 off target
+33823	target npc 52917 id 16677 at 12825,10102,1 size 3 | tint disabled 0
+33823	player 3 (me) anim 8056 frame 0 weapon 22325 at 12825,10105,1
+33823	player 1 off target
+33824	hitsplat npc 52917 amount 0 type 12 mine
+33824	hitsplat npc 52917 amount 0 type 12 mine
+33824	hitsplat npc 52917 amount 1 type 16 mine
+33824	player 2 anim -1 frame -1 weapon 25739 at 12824,10102,1
+33825	hitsplat npc 52917 amount 2 type 17 others
+33826	player 1 anim 11124 frame 0 weapon 21003 at 12824,10102,1
+33826	player 2 anim 8056 frame 0 weapon 25739 at 12824,10102,1
+33826	player 3 off target
+33827	hitsplat npc 52917 amount 46 type 17 others
+33827	hitsplat npc 52917 amount 0 type 13 others
+33827	hitsplat npc 52917 amount 8 type 17 others
+33827	player 3 (me) anim 435 frame 6 weapon 22325 at 12825,10105,1
+33827	player 2 off target
+33828	party spec player 1 seen weapon ELDER_MAUL hit 1 npc 52917 (target)
+33828	hitsplat npc 52917 amount 54 type 17 others
+33828	player 3 (me) anim 8056 frame 0 weapon 22325 at 12825,10105,1
+33828	player 1 off target
+33829	hitsplat npc 52917 amount 1 type 17 others
+33829	hitsplat npc 52917 amount 39 type 43 mine
+33829	hitsplat npc 52917 amount 14 type 16 mine
+33829	hitsplat npc 52917 amount 9 type 16 mine
+33830	player 2 anim 426 frame 0 weapon 20997 at 12824,10102,1
+33831	player 3 (me) anim -1 frame -1 weapon 22325 at 12825,10105,1
+33831	player 2 off target
+34626	target npc 46103 id 16659 at 11293,93,0 size 5 | tint disabled 0
+34626	player 3 (me) anim 10914 frame 0 weapon 28922 at 11303,95,0
+34627	party spec player 2 seen weapon TONALZTICS_OF_RALOS hit 2 npc 46103 (target)
+34628	hitsplat npc 46103 amount 2 type 17 others
+34628	hitsplat npc 46103 amount 13 type 16 mine
+34628	hitsplat npc 46103 amount 3 type 16 mine
+34629	party spec player 3 (me) seen weapon TONALZTICS_OF_RALOS hit 2 npc 46103 (target)
+34629	player 3 (me) anim -1 frame -1 weapon 28922 at 11303,95,0
+34632	target npc 46103 id 16659 at 11293,93,0 size 5 | tint disabled 0
+34632	hitsplat npc 46103 amount 0 type 13 others
+34632	player 3 (me) anim 10914 frame 0 weapon 28922 at 11303,95,0
+34634	target npc 46103 id 16659 at 11293,93,0 size 5 | tint disabled 0
+34634	hitsplat npc 46103 amount 0 type 12 mine
+34634	hitsplat npc 46103 amount 0 type 12 mine
+34635	party spec player 3 (me) seen weapon TONALZTICS_OF_RALOS hit 0 npc 46103 (target)
+34635	player 3 off target
+34636	hitsplat npc 46103 amount 2 type 17 others
+34636	player 3 (me) anim -1 frame -1 weapon 20997 at 11303,95,0
+34637	player 3 (me) anim 424 frame 0 weapon 20997 at 11303,95,0
+34900	target npc 59152 id 16641 at 10334,1054,0 size 3 | tint disabled 0
+34900	player 3 (me) anim 9168 frame 0 weapon 26374 at 10328,1053,0
+34901	player 3 off target
+34902	player 2 anim 10914 frame 0 weapon 28922 at 10329,1055,0
+34903	hitsplat npc 59152 amount 0 type 12 mine
+34903	player 2 off target
+34904	hitsplat npc 59152 amount 0 type 13 others
+34904	hitsplat npc 59152 amount 14 type 21 others
+34904	player 3 (me) anim -1 frame -1 weapon 26374 at 10329,1048,0
+34905	party spec player 1 seen weapon ELDER_MAUL hit 1 npc 59151
+34905	party spec player 2 seen weapon TONALZTICS_OF_RALOS hit 1 npc 59152 (target)
+34905	player 3 (me) anim 9168 frame 0 weapon 26374 at 10329,1048,0
+34907	target npc 59152 id 16641 at 10334,1054,0 size 3 | tint disabled 0
+34907	player 2 anim -1 frame -1 weapon 28922 at 10328,1048,0
+34908	hitsplat npc 59152 amount 0 type 12 mine
+34908	player 2 anim 10914 frame 0 weapon 28922 at 10328,1048,0
+34908	player 3 (me) anim -1 frame -1 weapon 26374 at 10329,1048,0
+34909	target npc 59151 id 16640 at 10330,1056,0 size 4 | tint disabled 0
+34909	player 1 anim 8056 frame 0 weapon 22325 at 10331,1055,0
+34909	player 2 off target
+34910	hitsplat npc 59151 amount 0 type 13 others
+34910	hitsplat npc 59151 amount 0 type 13 others
+34910	hitsplat npc 59151 amount 0 type 13 others
+34910	player 3 (me) anim 9168 frame 0 weapon 26374 at 10329,1048,0
+34911	party spec player 2 seen weapon TONALZTICS_OF_RALOS hit 1 npc 59152
+34912	player 1 anim 435 frame 0 weapon 22325 at 10331,1055,0
+34912	player 2 anim -1 frame -1 weapon 26374 at 10329,1049,0
+34913	hitsplat npc 59151 amount 15 type 16 mine
+34913	player 3 off target
+34920	target npc 59151 id 16640 at 10330,1056,0 size 4 | tint disabled 0
+34920	hitsplat npc 59151 amount 32 type 17 others
+34920	hitsplat npc 59151 amount 1 type 17 others
+34920	hitsplat npc 59151 amount 0 type 13 others
+34920	player 2 anim -1 frame -1 weapon 26374 at 10329,1050,0
+34921	player 2 anim 9168 frame 0 weapon 26374 at 10329,1050,0
+34922	player 1 anim -1 frame -1 weapon 22325 at 10331,1055,0
+34922	player 2 off target
+34923	hitsplat npc 59151 amount 2 type 17 others
+34923	target npc 59152 id 16641 at 10334,1054,0 size 3 | tint disabled 0
+34923	player 3 (me) anim 10914 frame 0 weapon 28922 at 10331,1054,0
+34923	player 1 off target
+34925	target npc 59152 id 16641 at 10334,1054,0 size 3 | tint disabled 0
+34925	hitsplat npc 59152 amount 21 type 20 mine
+34925	hitsplat npc 59152 amount 13 type 20 mine
+34926	party spec player 3 (me) seen weapon TONALZTICS_OF_RALOS hit 2 npc 59152 (target)
+34926	player 3 (me) anim -1 frame -1 weapon 28922 at 10331,1054,0
+34929	target npc 59152 id 16641 at 10334,1054,0 size 3 | tint disabled 0
+34929	player 3 (me) anim 10914 frame 0 weapon 28922 at 10331,1054,0
+34931	target npc 59152 id 16641 at 10334,1054,0 size 3 | tint disabled 0
+34931	hitsplat npc 59152 amount 21 type 20 mine
+34931	hitsplat npc 59152 amount 6 type 20 mine
+34932	party spec player 3 (me) seen weapon TONALZTICS_OF_RALOS hit 2 npc 59152 (target)
+34932	player 3 off target
+34933	target npc 59151 id 16640 at 10330,1056,0 size 4 | tint disabled 0
+34933	player 1 anim 435 frame 0 weapon 22325 at 10331,1055,0
+34933	player 2 anim 9168 frame 14 weapon 26374 at 10331,1054,0
+34933	player 3 (me) anim -1 frame -1 weapon 26374 at 10331,1054,0
+34934	player 1 anim 8056 frame 0 weapon 22325 at 10331,1055,0
+34934	player 2 anim -1 frame -1 weapon 26374 at 10331,1054,0
+35161	target npc 39740 id 16665 at 12253,2013,0 size 5 | tint disabled 0
+35161	player 3 (me) anim 10914 frame 0 weapon 28922 at 12250,2017,0
+35162	target npc 39740 id 16665 at 12252,2014,0 size 5 | tint disabled 0
+35162	player 1 anim 11124 frame 0 weapon 21003 at 12251,2015,0
+35162	player 3 off target
+35163	hitsplat npc 39740 amount 0 type 12 mine
+35163	hitsplat npc 39740 amount 10 type 16 mine
+35164	party spec player 1 seen weapon ELDER_MAUL hit 1 npc 39740 (target)
+35164	party spec player 3 (me) seen weapon TONALZTICS_OF_RALOS hit 1 npc 39740 (target)
+35164	hitsplat npc 39740 amount 56 type 17 others
+35164	target npc 39740 id 16665 at 12251,2015,0 size 5 | tint disabled 0
+35164	player 1 off target
+35165	player 2 anim 11133 frame 0 weapon 29591 at 12249,2013,0
+35165	player 3 (me) anim -1 frame -1 weapon 28922 at 12249,2021,0
+35166	target npc 39740 id 16665 at 12250,2016,0 size 5 | tint disabled 0
+35166	player 3 off target
+35167	player 2 off target
+35556	target npc 39740 id 16665 at 12258,2013,0 size 5 | tint disabled 0
+35556	party spec player 2 seen weapon TONALZTICS_OF_RALOS hit 2 npc 52270
+35557	target npc 52270 id 16684 at 13022,3358,0 size 3 | tint disabled 0
+35557	player 3 (me) anim 10914 frame 0 weapon 28922 at 13021,3353,0
+35559	target npc 52270 id 16684 at 13022,3358,0 size 3 | tint disabled 0
+35559	hitsplat npc 52270 amount 3 type 16 mine
+35559	hitsplat npc 52270 amount 2 type 16 mine
+35559	player 3 off target
+35560	party spec player 3 (me) seen weapon TONALZTICS_OF_RALOS hit 2 npc 52270 (target)
+35560	player 1 anim 426 frame 0 weapon 20997 at 13019,3353,0
+35561	player 2 anim 426 frame 0 weapon 29591 at 13017,3352,0
+35561	player 1 off target
+35562	player 3 (me) anim -1 frame -1 weapon 28922 at 13024,3353,0
+35563	hitsplat npc 52270 amount 22 type 17 others
+35563	player 3 (me) anim 10914 frame 0 weapon 28922 at 13024,3353,0
+35563	player 2 off target
+35564	hitsplat npc 52270 amount 24 type 17 others
+35564	player 3 off target
+35565	hitsplat npc 52270 amount 22 type 16 mine
+35565	hitsplat npc 52270 amount 0 type 12 mine
+35565	hitsplat npc 52270 amount 1 type 17 others
+35565	player 3 (me) anim 10914 frame 16 weapon 20997 at 13024,3353,0
+35566	party spec player 3 (me) seen weapon TONALZTICS_OF_RALOS hit 1 npc 52270 (target)
+35566	player 1 anim 9168 frame 0 weapon 26374 at 13024,3351,0
+35566	player 2 anim 426 frame 0 weapon 20997 at 13022,3355,0
+35566	player 3 (me) anim -1 frame -1 weapon 20997 at 13024,3353,0
+35567	player 3 (me) anim 424 frame 0 weapon 20997 at 13024,3353,0
+35567	player 2 off target
+35568	player 2 anim -1 frame -1 weapon 20997 at 13024,3355,0
+35569	hitsplat npc 52270 amount 62 type 17 others
+35569	hitsplat npc 52270 amount 110 type 17 others
+35569	hitsplat npc 52270 amount 3 type 17 others
+35569	player 1 anim -1 frame -1 weapon 20997 at 13024,3351,0
+35569	player 3 (me) anim 426 frame 0 weapon 20997 at 13024,3353,0
+35908	target npc 34317 id 16674 at 11870,5485,1 size 3 | tint disabled 0
+35908	player 2 anim 10914 frame 0 weapon 28922 at 11868,5486,1
+35908	player 3 (me) anim 10914 frame 0 weapon 28922 at 11874,5486,1
+35910	target npc 34317 id 16674 at 11870,5485,1 size 3 | tint disabled 0
+35910	hitsplat npc 34317 amount 2 type 19 others
+35910	hitsplat npc 34317 amount 9 type 19 others
+35910	hitsplat npc 34317 amount 9 type 18 mine
+35910	hitsplat npc 34317 amount 8 type 18 mine
+35910	hitsplat npc 34317 amount 3 type 19 others
+35910	target npc 34317 id 16674 at 11871,5485,1 size 3 | tint disabled 0
+35911	party spec player 3 (me) seen weapon TONALZTICS_OF_RALOS hit 2 npc 34317 (target)
+35911	party spec player 2 seen weapon TONALZTICS_OF_RALOS hit 2 npc 34317 (target)
+35911	target npc 34317 id 16674 at 11872,5485,1 size 3 | tint disabled 0
+35911	player 2 anim -1 frame -1 weapon 28922 at 11868,5486,1
+35911	player 3 (me) anim -1 frame -1 weapon 28922 at 11875,5486,1
+35912	target npc 34317 id 16674 at 11873,5485,1 size 3 | tint disabled 0
+35912	player 1 anim 10656 frame 0 weapon 28688 at 11869,5483,1
+35912	player 2 off target
+35913	target npc 34317 id 16674 at 11874,5484,1 size 3 | tint disabled 0
+35913	player 3 (me) anim 424 frame 0 weapon 28922 at 11877,5486,1
+35914	hitsplat npc 34317 amount 14 type 19 others
+35914	target npc 34317 id 16674 at 11875,5483,1 size 3 | tint disabled 0
+35914	player 2 anim 9168 frame 0 weapon 26374 at 11868,5486,1
+35914	player 3 (me) anim 10914 frame 0 weapon 28922 at 11877,5486,1
+35914	player 1 off target
+35915	target npc 34317 id 16674 at 11876,5482,1 size 3 | tint disabled 0
+35916	hitsplat npc 34317 amount 9 type 18 mine
+35916	hitsplat npc 34317 amount 11 type 18 mine
+35916	player 1 anim 9168 frame 0 weapon 26374 at 11873,5483,1
+35916	player 2 off target
+35917	party spec player 3 (me) seen weapon TONALZTICS_OF_RALOS hit 2 npc 34317 (target)
+35917	hitsplat npc 34317 amount 20 type 19 others
+35917	hitsplat npc 34317 amount 1 type 19 others
+35917	player 3 (me) anim -1 frame -1 weapon 28922 at 11877,5486,1
+35918	player 1 off target
+35918	player 3 off target
+35919	hitsplat npc 34317 amount 110 type 19 others
+35919	player 2 anim 9168 frame 0 weapon 26374 at 11874,5484,1
+36309	target npc 34317 id 16677 at 11876,5494,1 size 3 | tint disabled 0
+36309	player 1 anim 435 frame 0 weapon 22325 at 11876,5497,1
+36309	player 3 (me) anim 435 frame 0 weapon 22325 at 11876,5497,1
+36310	hitsplat npc 34317 amount 0 type 13 others
+36310	player 1 anim 8056 frame 0 weapon 22325 at 11876,5497,1
+36311	hitsplat npc 34317 amount 0 type 13 others
+36311	hitsplat npc 34317 amount 0 type 13 others
+36311	hitsplat npc 34317 amount 0 type 13 others
+36311	player 3 (me) anim 8056 frame 0 weapon 22325 at 11876,5497,1
+36312	hitsplat npc 34317 amount 47 type 16 mine
+36312	hitsplat npc 34317 amount 1 type 16 mine
+36312	hitsplat npc 34317 amount 3 type 16 mine
+36312	player 2 anim 10914 frame 0 weapon 28922 at 11878,5493,1
+36312	player 1 off target
+36313	player 1 anim -1 frame -1 weapon 22325 at 11876,5497,1
+36314	hitsplat npc 34317 amount 3 type 17 others
+36314	hitsplat npc 34317 amount 0 type 13 others
+36314	hitsplat npc 34317 amount 0 type 13 others
+36314	player 3 (me) anim -1 frame -1 weapon 22325 at 11876,5497,1
+36315	party spec player 2 seen weapon TONALZTICS_OF_RALOS hit 0 npc 34317 (target)
+36315	player 1 anim 8056 frame 0 weapon 22325 at 11876,5497,1
+36315	player 2 off target
+36316	hitsplat npc 34317 amount 16 type 17 others
+36316	hitsplat npc 34317 amount 0 type 13 others
+36316	hitsplat npc 34317 amount 6 type 17 others
+36316	player 3 (me) anim 8056 frame 0 weapon 22325 at 11876,5497,1
+36317	hitsplat npc 34317 amount 52 type 16 mine
+36317	hitsplat npc 34317 amount 0 type 12 mine
+36317	hitsplat npc 34317 amount 3 type 16 mine
+36317	player 3 off target
+36381	target npc 34317 id 16677 at 11876,5494,1 size 3 | tint disabled 0
+36381	hitsplat npc 34317 amount 47 type 17 others
+36382	hitsplat npc 34317 amount 0 type 13 others
+36382	player 3 (me) anim 8056 frame 0 weapon 22325 at 11877,5497,1
+36383	hitsplat npc 34317 amount 1 type 17 others
+36383	hitsplat npc 34317 amount 4 type 16 mine
+36383	hitsplat npc 34317 amount 24 type 16 mine
+36383	hitsplat npc 34317 amount 0 type 12 mine
+36383	player 3 off target
+36384	player 1 anim 11124 frame 0 weapon 21003 at 11875,5496,1
+36384	player 2 anim 8056 frame 0 weapon 25739 at 11879,5494,1
+36384	player 3 (me) anim 8056 frame 17 weapon 22325 at 11875,5496,1
+36385	hitsplat npc 34317 amount 46 type 17 others
+36385	hitsplat npc 34317 amount 0 type 13 others
+36385	hitsplat npc 34317 amount 6 type 17 others
+36385	player 3 (me) anim 435 frame 0 weapon 22325 at 11875,5496,1
+36386	party spec player 1 seen weapon ELDER_MAUL hit 1 npc 34317 (target)
+36386	hitsplat npc 34317 amount 0 type 13 others
+36386	hitsplat npc 34317 amount 69 type 17 others
+36386	player 1 off target
+36387	hitsplat npc 34317 amount 0 type 13 others
+36387	player 2 anim -1 frame -1 weapon 25739 at 11879,5494,1
+36387	player 3 (me) anim 8056 frame 0 weapon 22325 at 11875,5496,1
+36388	hitsplat npc 34317 amount 56 type 43 mine
+36388	hitsplat npc 34317 amount 2 type 16 mine
+36388	hitsplat npc 34317 amount 1 type 16 mine
+36388	player 2 off target
+36389	player 2 anim 8056 frame 0 weapon 25739 at 11877,5493,1
+36403	target npc 34317 id 16677 at 11876,5494,1 size 3 | tint disabled 0
+36403	hitsplat npc 34317 amount 0 type 13 others
+36403	hitsplat npc 34317 amount 0 type 13 others
+36403	hitsplat npc 34317 amount 34 type 16 mine
+36403	hitsplat npc 34317 amount 13 type 16 mine
+36403	hitsplat npc 34317 amount 0 type 12 mine
+36403	player 1 anim -1 frame -1 weapon 22325 at 11875,5496,1
+36403	player 2 off target
+36404	player 1 off target
+36405	player 3 off target
+36406	player 1 anim 11124 frame 0 weapon 21003 at 11875,5496,1
+36406	player 3 (me) anim 435 frame 0 weapon 22325 at 11875,5496,1
+36407	hitsplat npc 34317 amount 1 type 17 others
+36407	hitsplat npc 34317 amount 2 type 17 others
+36407	player 2 anim 10914 frame 0 weapon 28922 at 11879,5495,1
+36407	player 3 (me) anim 8056 frame 0 weapon 22325 at 11875,5496,1
+36408	party spec player 1 seen weapon ELDER_MAUL hit 1 npc 34317 (target)
+36408	hitsplat npc 34317 amount 34 type 17 others
+36408	hitsplat npc 34317 amount 11 type 16 mine
+36408	hitsplat npc 34317 amount 23 type 16 mine
+36408	hitsplat npc 34317 amount 8 type 16 mine
+36409	hitsplat npc 34317 amount 2 type 17 others
+36409	hitsplat npc 34317 amount 11 type 17 others
+36409	player 1 anim -1 frame -1 weapon 21003 at 11875,5496,1
+36409	player 2 off target
+36410	party spec player 2 seen weapon TONALZTICS_OF_RALOS hit 2 npc 34317 (target)
+36410	player 1 anim 7517 frame 0 weapon 21003 at 11875,5496,1
+36410	player 3 (me) anim 435 frame 0 weapon 22325 at 11875,5496,1
+36411	hitsplat npc 34317 amount 2 type 17 others
+36411	player 1 off target
+36412	player 3 off target
+36576	target npc 34317 id 16677 at 11876,5482,1 size 3 | tint disabled 0
+36576	party spec player 2 seen weapon TONALZTICS_OF_RALOS hit 2 npc 34317

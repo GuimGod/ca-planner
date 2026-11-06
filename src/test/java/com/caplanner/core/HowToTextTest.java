@@ -83,6 +83,35 @@ public class HowToTextTest
 	}
 
 	@Test
+	public void aLongStrategyIsShortenedKeepingTheStepThatMatters() throws Exception
+	{
+		Map<Integer, String> how = rows("howto-wiki.tsv");
+		// the audit of October 2026: past 2,500 letters the cut took the step the task hangs on
+		for (int task : new int[]{3, 21, 156, 277, 305, 554})
+		{
+			assertTrue(task + " is " + how.get(task).length() + " letters", how.get(task).length() <= 2500);
+		}
+		assertTrue(how.get(3).contains("Enough damage must be dealt in 12 seconds"));
+		assertTrue(how.get(21).contains("Kill general Graardor before Sergeant Grimspike respawns"));
+		assertTrue(how.get(156).contains("Always end the wave by killing bats/bloblets"));
+		assertTrue(how.get(277).contains("it is highly recommended to reset the fight"));
+		assertTrue(how.get(305).contains("Deaths after getting over 5,000 points"));
+		assertTrue(how.get(554).contains("DO NOT MOVE"));
+	}
+
+	@Test
+	public void aWikiTableIsKeptAsShortLines() throws Exception
+	{
+		Map<Integer, String> how = rows("howto-wiki.tsv");
+		// the cleaning used to wipe the table out whole, and with it what the tip is about
+		assertTrue(how.get(381).contains("- 5: 25:00"));
+		assertTrue(how.get(292).contains("- 5-10: 42 minutes"));
+		assertTrue(how.get(421).contains("- Apmeken Puzzle: 2:35, 2:35"));
+		assertTrue(how.get(96).contains("Super restore x16"));
+		assertTrue(how.get(639).contains("Sanfew serum x10"));
+	}
+
+	@Test
 	public void theTextIsTheWikisWithItsLicence() throws Exception
 	{
 		StringBuilder head = new StringBuilder();

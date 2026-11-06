@@ -1,4 +1,4 @@
-# npc id (its negative: the awakened fight of that id)	name	defence level	stab	slash	crush	magic level	magic defence	light	standard	heavy	size	magic for the twisted bow	flat armour	immune to (M melee, f melee but a polearm, r ranged, g magic, p all but melee with a pickaxe, b all but a demonbane weapon, i all but ranged with Ice arrows on, w magic but a water spell)	slayer categories separated by ; (tools/gen_slayer.py)	attributes (u undead, d demon, r dragon, k kalphite, l leafy, x xerician, 1 2 3 a vampyre of that tier)	demonbane vulnerability in percent (empty for 100)	hitpoints	elemental weakness (air, water, earth, fire)	its size in percent	damage of each hit that lands divided by, for melee;ranged;magic (empty for none)	rules (D magic defence rolled with the Defence level, F no division for a fire spell or a demonbane weapon, 1 a divided hit that landed stays at least 1, P no division with a pickaxe, Z the ogres: half for Crumble Undead, no division for a Comp ogre bow with brutal arrows)	attack level	strength level	ranged level	magic attack bonus	Chambers of Xeric scaling (m the rooms, s the singles formula, H the Great Olm head, L its melee hand, R its mage hand; empty outside the raid)	its rules (d Magic counts with the defensive levels, t Tekton, c the Glowing crystal, g a Guardian)	Theatre of Blood and Tombs of Amascut (b the Theatre in normal or Hard Mode, e in Entry Mode; t the Tombs, with its path H Het, A Apmeken, S Scabaras, C Crondis, o no defence roll scaling, w the Warden's core; empty outside both)	each hit that lands multiplied by, for melee;ranged;magic (empty for none)	always hit at the max with (m melee, r ranged, g magic)	more rules (T the Hueycoatl's tail limits each hit, O no ranged figure: the Royal Titans' ranged accuracy depends on where they stand, X Araxxor enrages at a quarter of his hitpoints, V Verzik's first phase limits each hit to a random 0 to 10 for melee and 0 to 3 otherwise, E the Royal Titans' elementals: magic lands with the magic attack bonus / 100 + 0.3, W the Wardens of the second phase: every attack lands, ranged and magic deal 15% to 60% of the max by what is left of the attack roll, A every attack lands, K a hit that lands kills it)	Defence level when enraged (the calculator's Enraged version of the same id; empty for none)
+# npc id (its negative: the awakened fight of that id)	name	defence level	stab	slash	crush	magic level	magic defence	light	standard	heavy	size	magic for the twisted bow	flat armour	immune to (M melee, f melee but a polearm, r ranged, g magic, p all but melee with a pickaxe, b all but a demonbane weapon, i all but ranged with Ice arrows on, w magic but a water spell, a the Ancient Magicks)	slayer categories separated by ; (tools/gen_slayer.py)	attributes (u undead, d demon, r dragon, k kalphite, l leafy, x xerician, 1 2 3 a vampyre of that tier)	demonbane vulnerability in percent (empty for 100)	hitpoints	elemental weakness (air, water, earth, fire)	its size in percent	damage of each hit that lands divided by, for melee;ranged;magic (empty for none)	rules (D magic defence rolled with the Defence level, F no division for a fire spell or a demonbane weapon, 1 a divided hit that landed stays at least 1, P no division with a pickaxe, Z the ogres: half for Crumble Undead, no division for a Comp ogre bow with brutal arrows)	attack level	strength level	ranged level	magic attack bonus	Chambers of Xeric scaling (m the rooms, s the singles formula, H the Great Olm head, L its melee hand, R its mage hand; empty outside the raid)	its rules (d Magic counts with the defensive levels, t Tekton, c the Glowing crystal, g a Guardian)	Theatre of Blood and Tombs of Amascut (b the Theatre in normal or Hard Mode, e in Entry Mode; t the Tombs, with its path H Het, A Apmeken, S Scabaras, C Crondis, o no defence roll scaling, w the Warden's core; F the Fractured Archive: its hitpoints are read from the boss health bar; empty outside them)	each hit that lands multiplied by, for melee;ranged;magic (empty for none)	always hit at the max with (m melee, r ranged, g magic)	more rules (T the Hueycoatl's tail limits each hit, O no ranged figure: the Royal Titans' ranged accuracy depends on where they stand, X Araxxor enrages at a quarter of his hitpoints, V Verzik's first phase limits each hit to a random 0 to 10 for melee and 0 to 3 otherwise, E the Royal Titans' elementals: magic lands with the magic attack bonus / 100 + 0.3, W the Wardens of the second phase: every attack lands, ranged and magic deal 15% to 60% of the max by what is left of the attack roll, A every attack lands, K a hit that lands kills it)	Defence level when enraged (the calculator's Enraged version of the same id; empty for none)
 15165	A corpse	90	0	0	0	1	0	0	0	0	1	1	0		zombies			90	fire	50			90	90	1	0							
 3477	A Doubt	85	0	0	0	1	0	0	0	0	1	1	0					59					72	58	1	0							
 2	Aberrant spectre	90	20	20	20	105	0	15	-15	15	2	105	0		aberrant spectres	u		90	air	50			1	1	1	0							
@@ -29,7 +29,7 @@
 1297	Afflicted	36	0	0	0	1	0	0	0	0	1	1	0					26					26	26	1	0							
 1294	Afflicted	38	0	0	0	1	0	0	0	0	1	1	0					28					28	28	1	0							
 1293	Afflicted	40	0	0	0	1	0	0	0	0	1	1	0					30					30	30	1	0							
-11727	Agile Scarab	5	0	0	0	30	0	0	0	0	1	150	0			k		30					60	20	40	150							
+11727	Agile Scarab	5	0	0	0	30	0	0	0	0	1	150	0			k		30					60	20	40	150			tRo				
 13483	Agile Warrior	80	0	0	0	1	0	0	0	0	1	1	0					30					25	25	80	0							
 911	Agrith Naar	82	0	0	0	100	0	0	0	0	3	100	0			d		95	water	25			83	90	100	0							
 6327	Agrith Naar (Nightmare Zone)	82	0	0	0	220	0	0	0	0	3	220	0			d		209	water	25			182	198	220	0							
@@ -167,14 +167,14 @@
 7288	Awakened Altar	1	0	0	0	1	0	0	0	0	1	1	0			d		100					1	1	1	0							
 11778	Ba-Ba	80	80	160	240	100	280	200	200	120	5	100	0					380					150	160	0	0			tA				
 11781	Baboon	50	10	50	50	50	50	50	50	50	1	50	0					10					0	0	80	0							
-11709	Baboon Brawler	12	900	900	900	40	-60	900	900	900	1	40	0					25				D	40	40	40	20					g		
-11712	Baboon Brawler	20	900	900	900	60	-60	900	900	900	1	60	0					30				D	60	60	40	25					g		
-11711	Baboon Mage	12	900	900	900	40	900	-50	-50	-50	1	40	0					20					40	40	40	20					r		
-11714	Baboon Mage	20	900	900	900	60	900	-50	-50	-50	1	60	0					25					60	60	40	25					r		
-11715	Baboon Shaman	20	900	900	900	60	900	-50	-50	-50	1	60	0					40					60	60	60	25					r		
-11718	Baboon Thrall	12	0	0	0	40	0	0	0	0	1	40	0					2					40	40	40	20							
-11710	Baboon Thrower	12	-50	-50	-50	40	900	900	900	900	1	40	0					30					40	40	40	20					m		
-11713	Baboon Thrower	20	-50	-50	-50	60	900	900	900	900	1	60	0					35					60	60	40	25					m		
+11709	Baboon Brawler	12	900	900	900	40	-60	900	900	900	1	40	0					25				D	40	40	40	20			tR		g		
+11712	Baboon Brawler	20	900	900	900	60	-60	900	900	900	1	60	0					30				D	60	60	40	25			tR		g		
+11711	Baboon Mage	12	900	900	900	40	900	-50	-50	-50	1	40	0					20					40	40	40	20			tR		r		
+11714	Baboon Mage	20	900	900	900	60	900	-50	-50	-50	1	60	0					25					60	60	40	25			tR		r		
+11715	Baboon Shaman	20	900	900	900	60	900	-50	-50	-50	1	60	0					40					60	60	60	25			tR		r		
+11718	Baboon Thrall	12	0	0	0	40	0	0	0	0	1	40	0					2					40	40	40	20			tR				
+11710	Baboon Thrower	12	-50	-50	-50	40	900	900	900	900	1	40	0					30					40	40	40	20			tR		m		
+11713	Baboon Thrower	20	-50	-50	-50	60	900	900	900	900	1	60	0					35					60	60	40	25			tR		m		
 7955	Baby black dragon	70	0	50	50	1	40	30	30	5	2	1	0		black dragons	r		80					70	70	1	0							
 1871	Baby black dragon	70	0	50	50	1	40	30	30	5	2	1	0		black dragons	r		80	water	50			70	70	1	0							
 241	Baby blue dragon	40	0	50	50	1	40	30	30	5	2	1	0		blue dragons	r		50	water	50			40	40	1	0							
@@ -506,7 +506,7 @@
 452	Crawling Hand	4	0	0	0	1	0	0	0	0	1	1	0		crawling hands	u		16					8	4	1	0							
 6618	Crazy archaeologist	240	5	5	30	1	250	250	250	250	1	1	0		bosses			225					160	90	180	0							
 12369	Crimson sanguisphera	1	0	0	0	1	0	0	0	0	1	1	0					20					1	1	1	0							
-11705	Crocodile (Tombs of Amascut)	100	150	350	350	30	5	150	150	150	2	30	0					30	earth	40			150	60	1	0							
+11705	Crocodile (Tombs of Amascut)	100	150	350	350	30	5	150	150	150	2	30	0					30	earth	40			150	60	1	0			tR				
 11582	Crocodile	54	20	12	22	1	10	20	20	20	2	1	0		crocodiles			62	earth	40			53	54	1	0							
 11581	Crocodile	54	20	12	22	1	10	20	20	20	2	1	0		crocodiles			62	earth	40			53	54	1	0							
 4184	Crocodile	54	20	12	22	1	10	20	20	20	2	1	0		crocodiles			62	earth	40			53	54	1	0							
@@ -551,7 +551,7 @@
 12921	Cultist	30	20	20	30	1	10	20	20	20	1	1	0					25					30	35	1	0							
 12922	Cultist	30	20	20	30	1	10	20	20	20	1	1	0					25					30	35	1	0							
 12923	Cultist	30	20	20	30	1	10	20	20	20	1	1	0					25					30	35	1	0							
-11717	Cursed Baboon	20	900	900	900	60	-60	-50	-50	-50	1	60	0					20					60	60	60	25					r		
+11717	Cursed Baboon	20	900	900	900	60	-60	-50	-50	-50	1	60	0					20					60	60	60	25			tR		r		
 12957	Cuthbert	1	0	0	0	1	0	0	0	0	1	1	0					1					1	1	1	0							
 2097	Cyclops (Ardougne Zoo)	46	0	0	0	1	0	0	0	0	2	1	0		hill giants			55					47	50	1	0							
 7271	Cyclops (Catacombs of Kourend)	26	0	0	0	1	0	0	0	0	2	1	0		hill giants			75					47	50	1	0							
@@ -703,7 +703,7 @@
 13012	Eclipse Moon	60	0	100	100	100	500	500	500	500	5	100	6					500	air	15			258	100	1	0							
 2618	Eduard	10	-21	-21	-21	1	-21	-21	-21	-21	1	1	0					60					10	10	1	0							
 11728	Egg (Tombs of Amascut)	0	-100	-100	-100	1	-100	-100	-100	-100	1	1	0					35					1	1	1	0							
-11729	Egg (Tombs of Amascut)	0	-100	-100	-100	1	-100	-100	-100	-100	1	1	0					35					1	1	1	0							
+11729	Egg (Tombs of Amascut)	0	-100	-100	-100	1	-100	-100	-100	-100	1	1	0					35					1	1	1	0			tR				
 3675	Einar	1	0	0	0	1	0	0	0	0	1	1	0					1					1	1	1	0							
 15502	Elder aquanite	180	60	80	80	330	140	100	100	100	3	330	0		aquanite			400					1	1	1	0							
 15503	Elder aquanite	180	10	80	80	330	140	100	100	100	3	330	0		aquanite			400					1	1	1	0							
@@ -1612,7 +1612,7 @@
 1025	Necromancer	18	0	0	0	18	0	0	0	0	1	18	0					40					18	18	1	0							
 11088	Necromancer (Great Kourend)	50	8	8	8	60	4	0	0	0	1	60	0					80					56	56	1	10							
 3605	Newtroost	17	0	0	0	1	0	0	0	0	1	1	0					18					18	16	1	0							
-11278	Nex	260	40	140	60	230	300	190	190	150	3	230	0					3400					315	200	350	100							
+11278	Nex	260	40	140	35	230	300	190	190	150	3	230	0					3400					315	200	350	100							
 6318	Nezikchened (Nightmare Zone)	167	0	0	0	320	0	0	0	0	3	320	0			d		150	water	10			330	336	320	0							
 6379	Nezikchened (Nightmare Zone)	167	0	0	0	160	0	0	0	0	3	160	0			d		150	water	10			165	168	160	0							
 3962	Nezikchened	167	0	0	0	160	0	0	0	0	3	160	0			d		150	water	10			165	168	160	0							
@@ -1941,12 +1941,12 @@
 8713	Sarachnis	150	60	40	10	150	150	300	300	300	5	150	0		bosses;spiders			400	fire	40			200	240	300	0							
 2209	Saradomin priest	120	12	14	13	125	5	13	13	13	1	125	0					89					120	46	1	0							
 2955	Saradomin wizard	80	0	0	0	80	30	0	0	0	1	80	0					120					100	80	1	0							
-11697	Scarab (Tombs of Amascut)	28	0	0	0	1	0	0	0	0	1	1	0					12	fire	40			20	32	50	0							
+11697	Scarab (Tombs of Amascut)	28	0	0	0	1	0	0	0	0	1	1	0					12	fire	40			20	32	50	0			tR				
 11508	Scarab Mage	60	0	20	20	100	30	0	0	0	1	100	0		scabarites	k		120	fire	50			1	1	1	30							
 799	Scarab Mage	90	40	90	90	70	34	0	0	0	1	70	0		scabarites	k		50	fire	50			90	90	1	70							
 794	Scarab Mage	90	40	90	90	70	34	0	0	0	1	70	0		scabarites	k		50	fire	50			90	90	1	70							
 11484	Scarab Swarm (Beneath Cursed Sands)	2	-100	-100	-100	1	-100	-100	-100	-100	1	1	0					5					255	5	1	0							
-11723	Scarab Swarm (Tombs of Amascut)	0	-100	-100	-100	1	-100	-100	-100	-100	1	1	0					10	fire	40			1	1	1	0							
+11723	Scarab Swarm (Tombs of Amascut)	0	-100	-100	-100	1	-100	-100	-100	-100	1	1	0					10	fire	40			1	1	1	0			tRo				
 4192	Scarab Swarm	30	90	90	5	1	90	90	90	90	1	1	0		scabarites	k		25	fire	50			255	5	1	0							
 1782	Scarab Swarm	30	90	90	5	1	90	90	90	90	1	1	0		scabarites	k		25	fire	50			255	5	1	0							
 729	Scarabs	10	15	15	15	1	15	15	15	15	1	1	0		scabarites	k		25	fire	50			255	2	1	0							
@@ -2523,7 +2523,7 @@
 2951	Void Knight (Pest Control)	50	100	100	100	50	100	100	100	100	0	50	0					200					1	1	1	0							
 2952	Void Knight (Pest Control)	50	100	100	100	50	100	100	100	100	0	50	0					200					1	1	1	0							
 2953	Void Knight (Pest Control)	50	100	100	100	50	100	100	100	100	0	50	0					200					1	1	1	0							
-11716	Volatile Baboon	20	900	900	900	60	-60	-50	-50	-50	1	60	0					8					60	60	60	25							
+11716	Volatile Baboon	20	900	900	900	60	-60	-50	-50	-50	1	60	0					8					60	60	60	25			tR				
 8058	Vorkath	164	66	126	126	148	204	80	80	80	7	148	0		blue dragons;bosses;zombies	ur		460	fire	40			560	268	268	148							
 8059	Vorkath	214	26	108	108	150	240	26	26	26	7	150	0		blue dragons;bosses;zombies	ur		750	fire	40			560	308	308	150							
 1268	Vulture	10	0	0	0	1	0	0	0	0	2	1	0		birds			10	air	20			40	40	1	0							
@@ -2828,6 +2828,9 @@
 7572	Guardian (Chambers of Xeric)	100	80	180	-10	1	0	0	0	0	0	1	0	p		x		250					140	140	1	0	m	g					
 7574	Lizardman shaman (Chambers of Xeric)	210	102	160	150	130	160	-10	0	0	3	130	0		lizardmen	x		190					130	130	130	0	m						
 7585	Ice demon	160	70	70	110	390	40	140	140	140	2	390	0			dx	115	140	fire	150	3;3;3	DF	1	1	390	0	m						
+8338	Xarpus	250	0	0	0	220	0	160	160	160	5	220	0					5000	air	50			1	1	100	0			b				
+8339	Xarpus	250	0	0	0	220	0	160	160	160	5	220	0					5000	air	50			1	1	100	0			b				
+8341	Xarpus	250	0	0	0	220	0	160	160	160	5	220	0					5000	air	50			1	1	100	0			b				
 8348	Nylocas Ischyros	1	0	0	0	1	0	0	0	0	1	1073	0					11	fire	15			200	160	200	1073			b				
 8349	Nylocas Toxobolos	1	0	0	0	1	0	0	0	0	1	1073	0					11	fire	15			200	160	200	1073			b				
 8350	Nylocas Hagios	1	0	0	0	1	0	0	0	0	1	1073	0					11	fire	15			200	160	200	1073			b				
@@ -2837,6 +2840,8 @@
 8355	Nylocas Vasilias	50	0	0	0	50	0	0	0	0	4	600	0					2500	fire	15			400	350	350	600			b				
 8356	Nylocas Vasilias	50	0	0	0	50	0	0	0	0	4	600	0					2500	fire	15			400	350	350	600			b				
 8357	Nylocas Vasilias	50	0	0	0	50	0	0	0	0	4	600	0					2500	fire	15			400	350	350	600			b				
+8364	The Maiden of Sugadinti	200	0	0	0	350	0	0	0	0	6	350	0					1050					350	350	350	300			b				
+8365	The Maiden of Sugadinti	200	0	0	0	350	0	0	0	0	6	350	0					1050					350	350	350	300			b				
 8370	Verzik Vitur	20	20	20	20	400	20	20	20	20	5	400	0					2000				D	400	400	400	80			b			V	
 8371	Verzik Vitur	20	20	20	20	400	20	20	20	20	5	400	0					2000				D	400	400	400	80			b			V	
 8373	Verzik Vitur	200	100	60	100	400	70	250	250	250	3	400	0					3500				D	400	400	400	80			b				
@@ -2849,6 +2854,12 @@
 9441	Totem (Phosani's Nightmare)	0	0	0	0	1	0	0	0	0	3	1	0					200	fire	70			1	1	1	0				1;1;2			
 9443	Totem (Phosani's Nightmare)	0	0	0	0	1	0	0	0	0	3	1	0					200	fire	70			1	1	1	0				1;1;2			
 9444	Totem (Phosani's Nightmare)	0	0	0	0	1	0	0	0	0	3	1	0					200	fire	70			1	1	1	0				1;1;2			
+10766	Xarpus	100	0	0	0	80	0	100	100	100	5	80	0					3400	air	50			1	1	50	0			e				
+10767	Xarpus	100	0	0	0	80	0	100	100	100	5	80	0					3400	air	50			1	1	50	0			e				
+10769	Xarpus	100	0	0	0	80	0	100	100	100	5	80	0					3400	air	50			1	1	50	0			e				
+10770	Xarpus	200	0	0	0	220	0	160	160	160	5	220	0					6000	air	50			1	1	100	0			b				
+10771	Xarpus	200	0	0	0	220	0	160	160	160	5	220	0					6000	air	50			1	1	100	0			b				
+10773	Xarpus	200	0	0	0	220	0	160	160	160	5	220	0					6000	air	50			1	1	100	0			b				
 10780	Nylocas Ischyros	1	0	0	0	1	0	0	0	0	1	505	0					2	fire	15			80	40	80	505			e				
 10781	Nylocas Toxobolos	1	0	0	0	1	0	0	0	0	1	505	0					2	fire	15			80	40	80	505			e				
 10782	Nylocas Hagios	1	0	0	0	1	0	0	0	0	1	505	0					2	fire	15			80	40	80	505			e				
@@ -2877,9 +2888,13 @@
 10815	The Maiden of Sugadinti	80	0	0	0	140	0	0	0	0	6	150	0					2000					140	140	140	150			e				
 10816	The Maiden of Sugadinti	80	0	0	0	140	0	0	0	0	6	150	0					2000					140	140	140	150			e				
 10817	The Maiden of Sugadinti	80	0	0	0	140	0	0	0	0	6	150	0					2000					140	140	140	150			e				
+10818	The Maiden of Sugadinti	80	0	0	0	140	0	0	0	0	6	150	0					2000					140	140	140	150			e				
+10819	The Maiden of Sugadinti	80	0	0	0	140	0	0	0	0	6	150	0					2000					140	140	140	150			e				
 10823	The Maiden of Sugadinti	200	0	0	0	350	0	0	0	0	6	350	0					3500					350	350	350	300			b				
 10824	The Maiden of Sugadinti	200	0	0	0	350	0	0	0	0	6	350	0					3500					350	350	350	300			b				
 10825	The Maiden of Sugadinti	200	0	0	0	350	0	0	0	0	6	350	0					3500					350	350	350	300			b				
+10826	The Maiden of Sugadinti	200	0	0	0	350	0	0	0	0	6	350	0					3500					350	350	350	300			b				
+10827	The Maiden of Sugadinti	200	0	0	0	350	0	0	0	0	6	350	0					3500					350	350	350	300			b				
 10831	Verzik Vitur	10	10	10	10	180	10	10	10	10	5	180	0					1200				D	180	150	180	32			b			V	
 10832	Verzik Vitur	10	10	10	10	180	10	10	10	10	5	180	0					1200				D	180	150	180	32			b			V	
 10834	Verzik Vitur	120	40	20	40	180	40	180	180	180	3	180	0					1600				D	200	150	180	32			e				
@@ -3789,10 +3804,10 @@
 11198	Sergeant (Shayzien)	61	16	16	18	1	-12	27	27	27	1	1	0					86					75	73	1	0							
 11274	Snothead	15	10	10	5	15	5	20	20	20	1	15	0		goblins;skeletons			50					15	15	1	0							
 11275	Snailfeet	30	10	10	5	30	5	20	20	20	1	30	0		goblins;skeletons			80					30	30	30	0							
-11279	Nex	260	40	140	60	230	300	190	190	150	3	230	0					3400					315	200	350	100							
-11280	Nex	260	40	140	60	230	300	190	190	150	3	230	0					3400					315	200	350	100							
-11281	Nex	260	40	140	60	230	300	190	190	150	3	230	0					3400					315	200	350	100							
-11282	Nex	260	40	140	60	230	300	190	190	150	3	230	0					3400					315	200	350	100							
+11279	Nex	260	40	140	35	230	300	190	190	150	3	230	0					3400					315	200	350	100							
+11280	Nex	260	40	140	35	230	300	190	190	150	3	230	0					3400					315	200	350	100							
+11281	Nex	260	40	140	35	230	300	190	190	150	3	230	0					3400					315	200	350	100							
+11282	Nex	260	40	140	35	230	300	190	190	150	3	230	0					3400					315	200	350	100							
 11298	Mosschin	50	10	10	5	50	5	20	20	20	1	50	0		goblins;skeletons			120					50	50	1	34							
 11299	Redeyes	70	10	10	5	70	5	20	20	20	1	70	0		goblins;skeletons			160					70	70	1	36							
 11300	Strongbones	90	10	10	5	90	5	20	20	20	1	90	0		goblins;skeletons			200					90	90	90	38							
@@ -3964,6 +3979,28 @@
 16330	Mountain troll	40	0	0	10	0	200	200	40	200	1	0	0		trolls			90	fire	50			40	75	0	0							
 16331	Mountain troll	40	0	0	10	0	200	200	40	200	1	0	0		trolls			90	fire	50			40	75	0	0							
 16332	Mountain troll	40	0	0	10	0	200	200	40	200	1	0	0		trolls			90	fire	50			40	75	0	0							
+16659	Archive Guardian	260	120	110	20	250	130	75	120	50	5	350	0	fa				550	fire	80			250	240	280	350			F				
+16660	Archive Guardian	260	120	90	20	250	130	50	115	50	5	350	0	a				550	fire	40			250	240	280	350			F				
+16652	Ezekiel	140	150	90	35	200	200	445	370	320	3	250	0					3000	earth	25			250	150	80	250			F				
+16640	Bork	300	140	130	10	90	300	80	50	5	4	90	8					1500	earth	40			200	200	200	0			F				
+16641	The Smorks	220	220	170	160	185	400	80	150	80	3	185	2					600	earth	85			1	1	185	185			F				
+16667	Moia	195	20	110	15	350	30	60	120	140	3	350	0					785					1	1	200	300			F				
+16665	Dreadnoth the Jellied	125	15	20	5	220	20	100	80	80	5	220	0			d	125	2100	fire	85			280	285	250	0			F				
+16666	Jelly																																
+16684	Xarth	170	115	105	20	350	205	125	230	155	3	350	0			d		2600	water	85			250	225	220	250			F				
+16687	Corpse	100	100	100	100	100	0	-20	80	80	1	100	0			u		62	water	40			50	40	1	0			F				
+16688	Corpse	100	-20	-20	-20	100	0	-20	80	80	1	100	0			u		62	fire	100			50	40	1	0			F				
+16673	Ocellus	215	150	95	60	350	100	50	135	50	3	350	0			d		2500					1	1	250	150			F				
+16674	Ocellus	215	150	95	60	350	100	50	135	50	3	350	0			d		2500					1	1	250	150			F				
+16675	Ocellus	250	150	120	10	220	100	100	110	80	3	220	0										1	1	1	0			F				
+16676	The Blade	250	150	120	10	220	100	100	110	80	3	220	0										1	1	1	0			F				
+16677	Ocellus	250	150	100	30	300	200	250	250	250	3	350	0			d		5250					325	250	300	350			F				
+16643	Dagon'hai Elder	100	50	50	50	290	100	80	80	80	2	290	0					640					1	1	260	1			F				
+16644	Dagon'hai Elder	100	50	50	50	290	100	80	80	80	2	290	0					640					1	1	260	1			F				
+16645	Dagon'hai Monk	100	50	50	50	290	100	80	80	80	2	290	0					640					1	1	260	1			F				
+16646	Dagon'hai Monk	100	50	50	50	290	100	80	80	80	2	290	0					640					1	1	260	1			F				
+16647	Dagon'hai Monk	100	50	50	50	290	100	80	80	80	2	290	0					640					1	1	260	1			F				
+16648	Dagon'hai Monk	100	50	50	50	290	100	80	80	80	2	290	0					640					1	1	260	1			F				
 -12191	Duke Sucellus	316	255	65	190	465	440	320	320	320	7	465	0		bosses	d	70	1697					435	500	0	150							
 -12204	The Whisperer	300	180	300	220	225	10	300	300	300	3	225	0		bosses			2700	earth	60			378	378	243	190							
 -12205	The Whisperer	300	180	300	220	225	10	300	300	300	3	225	0		bosses			2700	earth	60			378	378	243	190							
